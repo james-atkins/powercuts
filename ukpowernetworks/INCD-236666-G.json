@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-236666-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-236666-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-236666-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-10-11T15:27:29.127",
-      "Message": "This is Roland from the text messaging team. Just to let you know, we haven't forgotten about you. The time frame remains the same but I am regularly checking the job for updates. If you would like more information or detail on the issue, you can tweet us using @UKPowerNetworks. Or give us a call, we'll be happy to help.",
+      "Date": "2020-10-11T15:58:02.267",
+      "Message": "Update at 15:57 - We can now confirm that all power in the Horley RH6 area should be back on. Our engineers have diverted power around the faulty underground cables to get the majority of customers back on. However, due to the location and complexity of the issue, we have also used temporary generators to restore power to the last of the affected properties. This will provide power until our engineers plan in and safely complete the full repair, which may take a few days. We're really sorry for any disruption this caused. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-11T11:43:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-11T15:44:50.727",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G00039c7aINCD",
     "IncidentReference": "INCD-236666-G",
     "IncidentCategory": "61",
     "IncidentType": 3,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-11T09:39:33",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2020-10-11T18:30:00",
+    "RestoredDateTime": "2020-10-11T15:44:50.727",
+    "EstimatedRestorationDate": "2020-10-11T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-11T09:39:29",
-    "NoCustomerAffected": 14,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 8,
+    "NoCallsReported": 9,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-10-11T15:26:00",
+        "ActualEventTime": "2020-10-11T15:56:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "This is Roland from the text messaging team. Just to let you know, we haven't forgotten about you. The time frame remains the same but I am regularly checking the job for updates. If you would like more information or detail on the issue, you can tweet us using @UKPowerNetworks. Or give us a call, we'll be happy to help.",
-        "LoggedTime": "2020-10-11T15:27:29.127"
+        "Comment": "Update at 15:57 - We can now confirm that all power in the Horley RH6 area should be back on. Our engineers have diverted power around the faulty underground cables to get the majority of customers back on. However, due to the location and complexity of the issue, we have also used temporary generators to restore power to the last of the affected properties. This will provide power until our engineers plan in and safely complete the full repair, which may take a few days. We're really sorry for any disruption this caused. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-10-11T15:58:02.267"
       }
     ],
     "PostCodesAffected": [
@@ -78,10 +78,6 @@
       "TN4 0"
     ],
     "PostCodesRestored": [
-      "RH60AU",
-      "RH60AX",
-      "RH60AY",
-      "RH60HD",
       "RH60AA",
       "RH60AB",
       "RH60AD",
@@ -95,13 +91,17 @@
       "RH60AQ",
       "RH60AR",
       "RH60AS",
+      "RH60AU",
       "RH60AW",
+      "RH60AX",
+      "RH60AY",
       "RH60AZ",
       "RH60BA",
       "RH60BB",
       "RH60BD",
       "RH60BE",
       "RH60BF",
+      "RH60HD",
       "RH60YP",
       "RH67AH",
       "RH67AJ",
@@ -204,10 +204,6 @@
       "TN40SX"
     ],
     "PostCodesPlanned": [
-      "RH60AU",
-      "RH60AX",
-      "RH60AY",
-      "RH60HD",
       "RH60AA",
       "RH60AB",
       "RH60AD",
@@ -221,13 +217,17 @@
       "RH60AQ",
       "RH60AR",
       "RH60AS",
+      "RH60AU",
       "RH60AW",
+      "RH60AX",
+      "RH60AY",
       "RH60AZ",
       "RH60BA",
       "RH60BB",
       "RH60BD",
       "RH60BE",
       "RH60BF",
+      "RH60HD",
       "RH60YP",
       "RH67AH",
       "RH67AJ",
@@ -329,9 +329,9 @@
       "RH6XXX",
       "TN40SX"
     ],
-    "CustomersOnSupply": 1610,
-    "CustomersOffSupply": 13,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 1623,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -2339,10 +2339,6 @@
     }
   ],
   "FullPostcodeData": [
-    "RH60AU",
-    "RH60AX",
-    "RH60AY",
-    "RH60HD",
     "RH60AA",
     "RH60AB",
     "RH60AD",
@@ -2356,13 +2352,17 @@
     "RH60AQ",
     "RH60AR",
     "RH60AS",
+    "RH60AU",
     "RH60AW",
+    "RH60AX",
+    "RH60AY",
     "RH60AZ",
     "RH60BA",
     "RH60BB",
     "RH60BD",
     "RH60BE",
     "RH60BF",
+    "RH60HD",
     "RH60YP",
     "RH67AH",
     "RH67AJ",
@@ -2467,7 +2467,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "An underground electricity cable faulted on our high voltage network, causing an area wide power cut.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "18:00 - 19:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "21:30 - 22:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
