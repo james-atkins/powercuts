@@ -6,5 +6,6 @@ Information on power cuts is scraped from the following distribution network ope
 
 * [UK Power Networks](https://www.ukpowernetworks.co.uk/power-cut/map)
 * [Scottish & Southern Electricity Networks](https://www.ssen.co.uk/Powertrack/)
+* [Western Power Distribution](https://powercuts.westernpower.co.uk/)
 
 The code for the scraper can be found [here](https://github.com/james-atkins/powercuts-scraper).
