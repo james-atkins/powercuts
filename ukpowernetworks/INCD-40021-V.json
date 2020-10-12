@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-40021-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40021-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40021-V",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-10-12T15:39:49.373",
+      "Message": "Update at 15:39 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Lewes Road area for safety so they can cut back tree's away from our overhead cables. Our estimated time to have your power back on is between 16:00 and 17:00. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-10-12T14:40:00",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-12T11:02:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-12T15:41:37.847",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V00009c55INCD",
     "IncidentReference": "INCD-40021-V",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-09T13:17:13",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2020-10-12T15:41:37.847",
+    "EstimatedRestorationDate": "2020-10-12T16:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-12T14:40:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
+    "NoCallsReported": 2,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,30 +60,38 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-12T15:38:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 15:39 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Lewes Road area for safety so they can cut back tree's away from our overhead cables. Our estimated time to have your power back on is between 16:00 and 17:00. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
+        "LoggedTime": "2020-10-12T15:39:49.373"
+      }
+    ],
     "PostCodesAffected": [
       "BN21 2",
       "BN22 8"
     ],
     "PostCodesRestored": [
+      "BN212BU",
       "BN212NN",
+      "BN228XL",
       "BN228XP",
       "BN228XQ",
-      "BN228XS",
-      "BN212BU",
-      "BN228XL"
+      "BN228XS"
     ],
     "PostCodesPlanned": [
+      "BN212BU",
       "BN212NN",
+      "BN228XL",
       "BN228XP",
       "BN228XQ",
-      "BN228XS",
-      "BN212BU",
-      "BN228XL"
+      "BN228XS"
     ],
-    "CustomersOnSupply": 60,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 65,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1282,17 +1296,17 @@
     }
   ],
   "FullPostcodeData": [
+    "BN212BU",
     "BN212NN",
+    "BN228XL",
     "BN228XP",
     "BN228XQ",
-    "BN228XS",
-    "BN212BU",
-    "BN228XL"
+    "BN228XS"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "16:00 - 17:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
