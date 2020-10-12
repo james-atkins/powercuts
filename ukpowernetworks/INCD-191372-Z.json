@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-191372-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-191372-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-191372-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-12T04:33:20",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-12T05:10:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002eb8cINCD",
     "IncidentReference": "INCD-191372-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-12T03:02:49",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-12T05:10:00",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-10-12T02:57:00",
-    "NoCustomerAffected": 39,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,6 +60,7 @@
     ],
     "PostCodesRestored": [
       "CB74AP",
+      "CB74AR",
       "CB74AT",
       "CB74AU",
       "CB74AY",
@@ -68,11 +69,11 @@
       "CB74BB",
       "CB74EZ",
       "CB74GB",
-      "CB74GF",
-      "CB74AR"
+      "CB74GF"
     ],
     "PostCodesPlanned": [
       "CB74AP",
+      "CB74AR",
       "CB74AT",
       "CB74AU",
       "CB74AY",
@@ -81,12 +82,11 @@
       "CB74BB",
       "CB74EZ",
       "CB74GB",
-      "CB74GF",
-      "CB74AR"
+      "CB74GF"
     ],
-    "CustomersOnSupply": 6,
-    "CustomersOffSupply": 101,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 107,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -730,6 +730,7 @@
   ],
   "FullPostcodeData": [
     "CB74AP",
+    "CB74AR",
     "CB74AT",
     "CB74AU",
     "CB74AY",
@@ -738,8 +739,7 @@
     "CB74BB",
     "CB74EZ",
     "CB74GB",
-    "CB74GF",
-    "CB74AR"
+    "CB74GF"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
