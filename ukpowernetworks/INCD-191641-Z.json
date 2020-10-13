@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-191641-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-191641-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-191641-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-10-13T09:48:34.46",
-      "Message": "Update at 09:48 - Engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the Crescent Road area. Based on how long it usually takes us to complete the required tests and allow our staff to make a safe attempt to restore power, we're currently looking to have everyone back on between 11:30 and 12:30. This is an estimated timeframe, as its possible there could be a more complex issue on our network, but we'll keep you updated with all of our progress until power is restored.",
+      "Date": "2020-10-13T10:30:09.687",
+      "Message": "Update at 10:30 - Our engineers have now arrived on site in the Crescent Road area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but as we mentioned, if this is not successful it's possible that an underground cable repair may be needed. This can involve ground excavations, traffic management equipment or specialist teams. As soon as our staff can safely update us, we'll give you the latest news.",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2020-10-13T09:22:02",
+      "Date": "2020-10-13T09:22:00",
       "Message": "<p>We became aware of a power cut at 09:22. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-13T09:51:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-13T10:43:30.34",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002ec99INCD",
     "IncidentReference": "INCD-191641-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-13T09:22:52",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-13T10:43:30.34",
     "EstimatedRestorationDate": "2020-10-13T12:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-10-13T09:22:02",
+    "ReceivedDate": "2020-10-13T09:22:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-10-13T09:48:00",
+        "ActualEventTime": "2020-10-13T10:30:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 09:48 - Engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the Crescent Road area. Based on how long it usually takes us to complete the required tests and allow our staff to make a safe attempt to restore power, we're currently looking to have everyone back on between 11:30 and 12:30. This is an estimated timeframe, as its possible there could be a more complex issue on our network, but we'll keep you updated with all of our progress until power is restored.",
-        "LoggedTime": "2020-10-13T09:48:34.46"
+        "Comment": "Update at 10:30 - Our engineers have now arrived on site in the Crescent Road area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but as we mentioned, if this is not successful it's possible that an underground cable repair may be needed. This can involve ground excavations, traffic management equipment or specialist teams. As soon as our staff can safely update us, we'll give you the latest news.",
+        "LoggedTime": "2020-10-13T10:30:09.687"
       }
     ],
     "PostCodesAffected": [
@@ -90,9 +90,9 @@
       "SS92UT",
       "SS92UW"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 63,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 63,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
