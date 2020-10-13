@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-2985-I",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-2985-I",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-2985-I",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-13T16:07:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-13T18:14:37.573",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "I00000ba9INCD",
     "IncidentReference": "INCD-2985-I",
     "IncidentCategory": "140",
     "IncidentType": 3,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-13T15:18:08",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-13T18:14:37.573",
     "EstimatedRestorationDate": "2020-10-13T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-13T15:18:02",
-    "NoCustomerAffected": 33,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 13,
     "Latitude": 0.0,
@@ -81,19 +81,6 @@
       "CB4 9"
     ],
     "PostCodesRestored": [
-      "CB248QH",
-      "CB248TW",
-      "CB248UG",
-      "CB248UQ",
-      "CB249ET",
-      "CB259FR",
-      "CB41UW",
-      "CB44DR",
-      "CB44QE",
-      "CB44UG",
-      "CB48QH",
-      "CB48UG",
-      "CB49ES",
       "CB",
       "CB246AZ",
       "CB248AA",
@@ -105,6 +92,7 @@
       "CB248AY",
       "CB248DB",
       "CB248GG",
+      "CB248QH",
       "CB248QP",
       "CB248QR",
       "CB248QS",
@@ -131,6 +119,7 @@
       "CB248TS",
       "CB248TT",
       "CB248TU",
+      "CB248TW",
       "CB248TX",
       "CB248TY",
       "CB248TZ",
@@ -138,9 +127,11 @@
       "CB248UB",
       "CB248UD",
       "CB248UF",
+      "CB248UG",
       "CB248UH",
       "CB248UL",
       "CB248UN",
+      "CB248UQ",
       "CB248UR",
       "CB248US",
       "CB248UU",
@@ -150,17 +141,24 @@
       "CB248XS",
       "CB248XW",
       "CB248YY",
+      "CB249ET",
+      "CB259FR",
       "CB38DE",
+      "CB41UW",
+      "CB44DR",
       "CB44ET",
+      "CB44QE",
       "CB44RZ",
       "CB44TA",
       "CB44TS",
       "CB44TX",
       "CB44UD",
+      "CB44UG",
       "CB44UP",
       "CB48AG",
       "CB48DB",
       "CB48GG",
+      "CB48QH",
       "CB48QP",
       "CB48QU",
       "CB48QW",
@@ -172,25 +170,14 @@
       "CB48TX",
       "CB48UA",
       "CB48UB",
+      "CB48UG",
       "CB48UL",
       "CB48UQ",
       "CB48XR",
-      "CB48XW"
+      "CB48XW",
+      "CB49ES"
     ],
     "PostCodesPlanned": [
-      "CB248QH",
-      "CB248TW",
-      "CB248UG",
-      "CB248UQ",
-      "CB249ET",
-      "CB259FR",
-      "CB41UW",
-      "CB44DR",
-      "CB44QE",
-      "CB44UG",
-      "CB48QH",
-      "CB48UG",
-      "CB49ES",
       "CB",
       "CB246AZ",
       "CB248AA",
@@ -202,6 +189,7 @@
       "CB248AY",
       "CB248DB",
       "CB248GG",
+      "CB248QH",
       "CB248QP",
       "CB248QR",
       "CB248QS",
@@ -228,6 +216,7 @@
       "CB248TS",
       "CB248TT",
       "CB248TU",
+      "CB248TW",
       "CB248TX",
       "CB248TY",
       "CB248TZ",
@@ -235,9 +224,11 @@
       "CB248UB",
       "CB248UD",
       "CB248UF",
+      "CB248UG",
       "CB248UH",
       "CB248UL",
       "CB248UN",
+      "CB248UQ",
       "CB248UR",
       "CB248US",
       "CB248UU",
@@ -247,17 +238,24 @@
       "CB248XS",
       "CB248XW",
       "CB248YY",
+      "CB249ET",
+      "CB259FR",
       "CB38DE",
+      "CB41UW",
+      "CB44DR",
       "CB44ET",
+      "CB44QE",
       "CB44RZ",
       "CB44TA",
       "CB44TS",
       "CB44TX",
       "CB44UD",
+      "CB44UG",
       "CB44UP",
       "CB48AG",
       "CB48DB",
       "CB48GG",
+      "CB48QH",
       "CB48QP",
       "CB48QU",
       "CB48QW",
@@ -269,14 +267,16 @@
       "CB48TX",
       "CB48UA",
       "CB48UB",
+      "CB48UG",
       "CB48UL",
       "CB48UQ",
       "CB48XR",
-      "CB48XW"
+      "CB48XW",
+      "CB49ES"
     ],
-    "CustomersOnSupply": 1347,
-    "CustomersOffSupply": 32,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 1379,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -292,6 +292,143 @@
     "CB4 9"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 52.24445,
+        "lng": 0.15915
+      },
+      "Coordinates": [
+        {
+          "lat": 52.25647,
+          "lng": 0.14492
+        },
+        {
+          "lat": 52.25526,
+          "lng": 0.15126
+        },
+        {
+          "lat": 52.25336,
+          "lng": 0.15371
+        },
+        {
+          "lat": 52.25249,
+          "lng": 0.15825
+        },
+        {
+          "lat": 52.25228,
+          "lng": 0.16056
+        },
+        {
+          "lat": 52.25202,
+          "lng": 0.16771
+        },
+        {
+          "lat": 52.25209,
+          "lng": 0.17192
+        },
+        {
+          "lat": 52.25009,
+          "lng": 0.17634
+        },
+        {
+          "lat": 52.24983,
+          "lng": 0.17704
+        },
+        {
+          "lat": 52.24698,
+          "lng": 0.17596
+        },
+        {
+          "lat": 52.24344,
+          "lng": 0.17595
+        },
+        {
+          "lat": 52.24234,
+          "lng": 0.1758
+        },
+        {
+          "lat": 52.24221,
+          "lng": 0.17597
+        },
+        {
+          "lat": 52.23998,
+          "lng": 0.17774
+        },
+        {
+          "lat": 52.23637,
+          "lng": 0.17965
+        },
+        {
+          "lat": 52.23573,
+          "lng": 0.17698
+        },
+        {
+          "lat": 52.23335,
+          "lng": 0.17188
+        },
+        {
+          "lat": 52.23354,
+          "lng": 0.16608
+        },
+        {
+          "lat": 52.2339,
+          "lng": 0.16577
+        },
+        {
+          "lat": 52.2338,
+          "lng": 0.15923
+        },
+        {
+          "lat": 52.23572,
+          "lng": 0.15613
+        },
+        {
+          "lat": 52.23701,
+          "lng": 0.15507
+        },
+        {
+          "lat": 52.23728,
+          "lng": 0.15459
+        },
+        {
+          "lat": 52.23744,
+          "lng": 0.15155
+        },
+        {
+          "lat": 52.23889,
+          "lng": 0.14903
+        },
+        {
+          "lat": 52.23935,
+          "lng": 0.14745
+        },
+        {
+          "lat": 52.24178,
+          "lng": 0.1444
+        },
+        {
+          "lat": 52.24271,
+          "lng": 0.14278
+        },
+        {
+          "lat": 52.24279,
+          "lng": 0.14197
+        },
+        {
+          "lat": 52.24369,
+          "lng": 0.13724
+        },
+        {
+          "lat": 52.24423,
+          "lng": 0.13613
+        },
+        {
+          "lat": 52.25647,
+          "lng": 0.14492
+        }
+      ],
+      "Postcode": "CB24 6"
+    },
     {
       "Center": {
         "lat": 52.29815,
@@ -1527,159 +1664,9 @@
         }
       ],
       "Postcode": "CB4 1"
-    },
-    {
-      "Center": {
-        "lat": 52.24445,
-        "lng": 0.15915
-      },
-      "Coordinates": [
-        {
-          "lat": 52.25647,
-          "lng": 0.14492
-        },
-        {
-          "lat": 52.25526,
-          "lng": 0.15126
-        },
-        {
-          "lat": 52.25336,
-          "lng": 0.15371
-        },
-        {
-          "lat": 52.25249,
-          "lng": 0.15825
-        },
-        {
-          "lat": 52.25228,
-          "lng": 0.16056
-        },
-        {
-          "lat": 52.25202,
-          "lng": 0.16771
-        },
-        {
-          "lat": 52.25209,
-          "lng": 0.17192
-        },
-        {
-          "lat": 52.25009,
-          "lng": 0.17634
-        },
-        {
-          "lat": 52.24983,
-          "lng": 0.17704
-        },
-        {
-          "lat": 52.24698,
-          "lng": 0.17596
-        },
-        {
-          "lat": 52.24344,
-          "lng": 0.17595
-        },
-        {
-          "lat": 52.24234,
-          "lng": 0.1758
-        },
-        {
-          "lat": 52.24221,
-          "lng": 0.17597
-        },
-        {
-          "lat": 52.23998,
-          "lng": 0.17774
-        },
-        {
-          "lat": 52.23637,
-          "lng": 0.17965
-        },
-        {
-          "lat": 52.23573,
-          "lng": 0.17698
-        },
-        {
-          "lat": 52.23335,
-          "lng": 0.17188
-        },
-        {
-          "lat": 52.23354,
-          "lng": 0.16608
-        },
-        {
-          "lat": 52.2339,
-          "lng": 0.16577
-        },
-        {
-          "lat": 52.2338,
-          "lng": 0.15923
-        },
-        {
-          "lat": 52.23572,
-          "lng": 0.15613
-        },
-        {
-          "lat": 52.23701,
-          "lng": 0.15507
-        },
-        {
-          "lat": 52.23728,
-          "lng": 0.15459
-        },
-        {
-          "lat": 52.23744,
-          "lng": 0.15155
-        },
-        {
-          "lat": 52.23889,
-          "lng": 0.14903
-        },
-        {
-          "lat": 52.23935,
-          "lng": 0.14745
-        },
-        {
-          "lat": 52.24178,
-          "lng": 0.1444
-        },
-        {
-          "lat": 52.24271,
-          "lng": 0.14278
-        },
-        {
-          "lat": 52.24279,
-          "lng": 0.14197
-        },
-        {
-          "lat": 52.24369,
-          "lng": 0.13724
-        },
-        {
-          "lat": 52.24423,
-          "lng": 0.13613
-        },
-        {
-          "lat": 52.25647,
-          "lng": 0.14492
-        }
-      ],
-      "Postcode": "CB24 6"
     }
   ],
   "FullPostcodeData": [
-    "CB248QH",
-    "CB248TW",
-    "CB248UG",
-    "CB248UQ",
-    "CB249ET",
-    "CB259FR",
-    "CB41UW",
-    "CB44DR",
-    "CB44QE",
-    "CB44UG",
-    "CB48QH",
-    "CB48UG",
-    "CB49ES",
     "CB",
     "CB246AZ",
     "CB248AA",
@@ -1691,6 +1678,7 @@
     "CB248AY",
     "CB248DB",
     "CB248GG",
+    "CB248QH",
     "CB248QP",
     "CB248QR",
     "CB248QS",
@@ -1717,6 +1705,7 @@
     "CB248TS",
     "CB248TT",
     "CB248TU",
+    "CB248TW",
     "CB248TX",
     "CB248TY",
     "CB248TZ",
@@ -1724,9 +1713,11 @@
     "CB248UB",
     "CB248UD",
     "CB248UF",
+    "CB248UG",
     "CB248UH",
     "CB248UL",
     "CB248UN",
+    "CB248UQ",
     "CB248UR",
     "CB248US",
     "CB248UU",
@@ -1736,17 +1727,24 @@
     "CB248XS",
     "CB248XW",
     "CB248YY",
+    "CB249ET",
+    "CB259FR",
     "CB38DE",
+    "CB41UW",
+    "CB44DR",
     "CB44ET",
+    "CB44QE",
     "CB44RZ",
     "CB44TA",
     "CB44TS",
     "CB44TX",
     "CB44UD",
+    "CB44UG",
     "CB44UP",
     "CB48AG",
     "CB48DB",
     "CB48GG",
+    "CB48QH",
     "CB48QP",
     "CB48QU",
     "CB48QW",
@@ -1758,10 +1756,12 @@
     "CB48TX",
     "CB48UA",
     "CB48UB",
+    "CB48UG",
     "CB48UL",
     "CB48UQ",
     "CB48XR",
-    "CB48XW"
+    "CB48XW",
+    "CB49ES"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
