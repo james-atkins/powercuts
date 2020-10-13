@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-3026-I",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-3026-I",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-3026-I",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-13T22:08:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-13T22:35:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "I00000bd2INCD",
     "IncidentReference": "INCD-3026-I",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-13T20:33:25",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-13T22:35:00",
     "EstimatedRestorationDate": "2020-10-14T00:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-13T20:28:00",
-    "NoCustomerAffected": 9,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "CO13 9"
     ],
     "PostCodesRestored": [
+      "CO139ER",
       "CO139ES",
       "CO139HA",
-      "CO139LY",
-      "CO139ER"
+      "CO139LY"
     ],
     "PostCodesPlanned": [
+      "CO139ER",
       "CO139ES",
       "CO139HA",
-      "CO139LY",
-      "CO139ER"
+      "CO139LY"
     ],
-    "CustomersOnSupply": 11,
-    "CustomersOffSupply": 25,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 36,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -419,10 +419,10 @@
     }
   ],
   "FullPostcodeData": [
+    "CO139ER",
     "CO139ES",
     "CO139HA",
-    "CO139LY",
-    "CO139ER"
+    "CO139LY"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
