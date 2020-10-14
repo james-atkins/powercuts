@@ -3,21 +3,27 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40398-V",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-10-14T15:10:00.57",
+      "Message": "Update at 15:09 - We can now confirm that a fault on an underground cable affecting the Station Road area is causing safety equipment to operate. Although we know what's causing your power cut, we still need to locate the fault. To do this we're sending a specialist team, once they are on their way we'll be able to advise of a new estimated timeframe for the repair. For more information about this type of fault; here's a short video <a href=\"https://bit.ly/2ScxQDZ.\" target=\"_blank\">https://bit.ly/2ScxQDZ.</a>",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-10-14T13:49:29",
+      "Date": "2020-10-14T13:49:00",
       "Message": "<p>We became aware of a power cut at 13:49. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2020-10-14T14:05:02",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-14T14:28:02",
-      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
+      "Message": null,
       "Name": "Engineers investigating and fixing"
     },
     {
@@ -31,16 +37,16 @@
   "UKPNIncident": {
     "IncidentId": "V00009dceINCD",
     "IncidentReference": "INCD-40398-V",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 2,
     "CreationDateTime": "2020-10-14T13:53:12",
     "RestoredDateTime": null,
     "EstimatedRestorationDate": "2020-10-14T17:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-10-14T13:49:29",
-    "NoCustomerAffected": 0,
+    "ReceivedDate": "2020-10-14T13:49:00",
+    "NoCustomerAffected": 4,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -51,29 +57,39 @@
       "EstimatedTimeOfArrival": "2020-10-14T15:00:00",
       "DispatchedDate": "2020-10-14T14:05:02",
       "ArrivalDate": "2020-10-14T14:28:02",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-14T15:08:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 15:09 - We can now confirm that a fault on an underground cable affecting the Station Road area is causing safety equipment to operate. Although we know what's causing your power cut, we still need to locate the fault. To do this we're sending a specialist team, once they are on their way we'll be able to advise of a new estimated timeframe for the repair. For more information about this type of fault; here's a short video https://bit.ly/2ScxQDZ.",
+        "LoggedTime": "2020-10-14T15:10:00.57"
+      }
+    ],
     "PostCodesAffected": [
       "CT15 6"
     ],
     "PostCodesRestored": [
+      "CT156ER",
+      "CT156TF",
       "CT156AY",
       "CT156EP",
-      "CT156ER",
-      "CT156TF"
+      "CT156JJ"
     ],
     "PostCodesPlanned": [
+      "CT156ER",
+      "CT156TF",
       "CT156AY",
       "CT156EP",
-      "CT156ER",
-      "CT156TF"
+      "CT156JJ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 19,
+    "CustomersOnSupply": 15,
+    "CustomersOffSupply": 5,
     "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -247,14 +263,15 @@
     }
   ],
   "FullPostcodeData": [
+    "CT156ER",
+    "CT156TF",
     "CT156AY",
     "CT156EP",
-    "CT156ER",
-    "CT156TF"
+    "CT156JJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "17:00 - 18:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
