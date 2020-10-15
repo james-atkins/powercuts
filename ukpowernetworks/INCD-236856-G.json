@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-236856-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-236856-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-236856-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-15T08:00:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-15T13:00:10.217",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G00039d38INCD",
     "IncidentReference": "INCD-236856-G",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-14T17:46:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-15T13:00:10.217",
     "EstimatedRestorationDate": "2020-10-15T15:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-14T17:46:00",
-    "NoCustomerAffected": 14,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,29 +59,29 @@
       "ME3 9"
     ],
     "PostCodesRestored": [
-      "ME39HN",
       "ME39EX",
       "ME39EY",
       "ME39HB",
       "ME39HJ",
       "ME39HL",
+      "ME39HN",
       "ME39HP",
       "ME39NH"
     ],
     "PostCodesPlanned": [
-      "ME39HN",
       "ME39EX",
       "ME39EY",
       "ME39HB",
       "ME39HJ",
       "ME39HL",
+      "ME39HN",
       "ME39HP",
       "ME39NH"
     ],
-    "CustomersOnSupply": 76,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 90,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -767,12 +767,12 @@
     }
   ],
   "FullPostcodeData": [
-    "ME39HN",
     "ME39EX",
     "ME39EY",
     "ME39HB",
     "ME39HJ",
     "ME39HL",
+    "ME39HN",
     "ME39HP",
     "ME39NH"
   ],
