@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-246173-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246173-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246173-J",
   "Steps": [
     {
       "Active": false,
-      "Date": "2020-10-15T23:26:09",
+      "Date": "2020-10-15T23:26:00",
       "Message": "<p>We became aware of a power cut at 23:26. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-16T01:02:19",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-16T02:10:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003c19dINCD",
     "IncidentReference": "INCD-246173-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-15T23:39:37",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2020-10-16T03:30:00",
+    "RestoredDateTime": "2020-10-16T02:10:00",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2020-10-15T23:26:09",
+    "ReceivedDate": "2020-10-15T23:26:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -75,9 +75,9 @@
       "IG118DG",
       "IG118DN"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 18,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1080,7 +1080,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "03:00 - 04:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
