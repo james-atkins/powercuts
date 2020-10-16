@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-236962-G",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-236962-G",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-236962-G",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2020-10-16T10:26:55",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2020-10-16T10:22:52.077",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "G00039da2INCD",
     "IncidentReference": "INCD-236962-G",
-    "IncidentCategory": "61",
+    "IncidentCategory": "134",
     "IncidentType": 3,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2020-10-16T09:38:16",
-    "RestoredDateTime": "2020-10-16T10:22:52.077",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2020-10-16T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-16T09:38:14",
@@ -1117,8 +1117,8 @@
     ],
     "CustomersOnSupply": 9930,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "IncidentTypeName": "Unplanned",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -5970,7 +5970,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "An underground electricity cable faulted on our high voltage network, causing an area wide power cut.",
+  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage electricity cable that was damaged, causing a power cut in the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "12:00 - 13:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
