@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-246187-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246187-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246187-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-10-16T11:20:35.213",
-      "Message": "Update at 11:20 - Our engineers have been able to divert electricity around the faulty part of the network, restoring power to some customers. In the meantime, our digging team have now arrived on site and are progressing well with excavations to expose our underground cabling. Excavations can sometimes take longer than expected, depending on ground conditions, other utility equipment like gas and water pipes, parked vehicles, or local traffic. We are awaiting further information from our engineers on site for a revised timeframe for when the power will be restored, but as our staff are busy working with live electricity we need to wait until they can safely stop work and contact us with the latest information. Once they do, we'll update you further.",
+      "Date": "2020-10-16T12:04:22.553",
+      "Message": "It's Adam from the text messaging team. I know you have been off for a while now, so I wanted to reassure you that I am personally checking this job for you.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-16T10:26:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-16T12:18:07.987",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003c1abINCD",
     "IncidentReference": "INCD-246187-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-16T08:46:47",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-16T12:18:07.987",
     "EstimatedRestorationDate": "2020-10-16T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-16T08:45:00",
-    "NoCustomerAffected": 53,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 39,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-10-16T11:20:00",
+        "ActualEventTime": "2020-10-16T12:04:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 11:20 - Our engineers have been able to divert electricity around the faulty part of the network, restoring power to some customers. In the meantime, our digging team have now arrived on site and are progressing well with excavations to expose our underground cabling. Excavations can sometimes take longer than expected, depending on ground conditions, other utility equipment like gas and water pipes, parked vehicles, or local traffic. We are awaiting further information from our engineers on site for a revised timeframe for when the power will be restored, but as our staff are busy working with live electricity we need to wait until they can safely stop work and contact us with the latest information. Once they do, we'll update you further.",
-        "LoggedTime": "2020-10-16T11:20:35.213"
+        "Comment": "It's Adam from the text messaging team. I know you have been off for a while now, so I wanted to reassure you that I am personally checking this job for you.",
+        "LoggedTime": "2020-10-16T12:04:22.553"
       }
     ],
     "PostCodesAffected": [
@@ -74,10 +74,10 @@
       "N4 4"
     ],
     "PostCodesRestored": [
-      "N193AS",
       "N193AN",
       "N193AP",
       "N193AQ",
+      "N193AS",
       "N193AW",
       "N193PU",
       "N193PX",
@@ -91,10 +91,10 @@
       "N44SS"
     ],
     "PostCodesPlanned": [
-      "N193AS",
       "N193AN",
       "N193AP",
       "N193AQ",
+      "N193AS",
       "N193AW",
       "N193PU",
       "N193PX",
@@ -107,9 +107,9 @@
       "N44SG",
       "N44SS"
     ],
-    "CustomersOnSupply": 285,
-    "CustomersOffSupply": 53,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 338,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1418,10 +1418,10 @@
     }
   ],
   "FullPostcodeData": [
-    "N193AS",
     "N193AN",
     "N193AP",
     "N193AQ",
+    "N193AS",
     "N193AW",
     "N193PU",
     "N193PX",
