@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-39860-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-39860-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-39860-V",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-10-17T01:38:59.053",
+      "Message": "Update at 01:37 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground cable in the Birdhurst Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-10-16T22:45:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-06T22:20:44",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-17T01:19:57.57",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V00009bb4INCD",
     "IncidentReference": "INCD-39860-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-06T14:30:45",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-17T01:19:57.57",
     "EstimatedRestorationDate": "2020-10-17T01:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-16T22:45:00",
-    "NoCustomerAffected": 60,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-17T01:38:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 01:37 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground cable in the Birdhurst Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-10-17T01:38:59.053"
+      }
+    ],
     "PostCodesAffected": [
       "CR2 7"
     ],
@@ -68,9 +82,9 @@
       "CR27EB",
       "CR27EF"
     ],
-    "CustomersOnSupply": 54,
-    "CustomersOffSupply": 60,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 114,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
