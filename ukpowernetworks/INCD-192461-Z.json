@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-192461-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-192461-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-192461-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-17T11:00:47",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-17T19:44:59.97",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002efcdINCD",
     "IncidentReference": "INCD-192461-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-17T09:24:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-17T19:44:59.97",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-10-17T09:22:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -73,18 +73,18 @@
       "N4 1"
     ],
     "PostCodesRestored": [
-      "N41HA",
       "N41BW",
-      "N41EY"
+      "N41EY",
+      "N41HA"
     ],
     "PostCodesPlanned": [
-      "N41HA",
       "N41BW",
-      "N41EY"
+      "N41EY",
+      "N41HA"
     ],
-    "CustomersOnSupply": 93,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 95,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -523,9 +523,9 @@
     }
   ],
   "FullPostcodeData": [
-    "N41HA",
     "N41BW",
-    "N41EY"
+    "N41EY",
+    "N41HA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
