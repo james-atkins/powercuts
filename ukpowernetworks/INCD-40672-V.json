@@ -1,11 +1,17 @@
 {
   "IncidentReference": "INCD-40672-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40672-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40672-V",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-10-18T12:10:53.023",
+      "Message": "Update at 12:10 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a damaged electrical cable caused by another company in the Albion Street area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-10-17T14:38:09",
-      "Message": "<p>We became aware of a power cut at 14:38. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2020-10-17T11:40:00",
+      "Message": "<p>We became aware of a power cut at 11:40. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-17T17:16:58",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-18T12:12:24.817",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V00009ee0INCD",
     "IncidentReference": "INCD-40672-V",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-17T14:40:38",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-18T12:12:24.817",
     "EstimatedRestorationDate": "2020-10-18T12:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-10-17T14:38:09",
+    "ReceivedDate": "2020-10-17T11:40:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-18T12:10:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 12:10 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a damaged electrical cable caused by another company in the Albion Street area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-10-18T12:10:53.023"
+      }
+    ],
     "PostCodesAffected": [
       "BN2 2",
       "BN2 9"
@@ -79,9 +93,9 @@
       "BN29PP",
       "BN29PS"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 67,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 67,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
