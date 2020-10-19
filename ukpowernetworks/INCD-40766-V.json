@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-40766-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40766-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40766-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-19T14:27:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-19T20:07:04.003",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V00009f3eINCD",
     "IncidentReference": "INCD-40766-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-19T13:01:25",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-19T20:07:04.003",
     "EstimatedRestorationDate": "2020-10-19T20:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-19T12:58:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -59,16 +59,16 @@
       "ME2 4"
     ],
     "PostCodesRestored": [
-      "ME24HZ",
-      "ME24EQ"
+      "ME24EQ",
+      "ME24HZ"
     ],
     "PostCodesPlanned": [
-      "ME24HZ",
-      "ME24EQ"
+      "ME24EQ",
+      "ME24HZ"
     ],
-    "CustomersOnSupply": 3,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 4,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -731,8 +731,8 @@
     }
   ],
   "FullPostcodeData": [
-    "ME24HZ",
-    "ME24EQ"
+    "ME24EQ",
+    "ME24HZ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
