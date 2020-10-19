@@ -3,21 +3,27 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40719-V",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-10-19T10:07:36.757",
+      "Message": "Update at 10:07 - Specialist engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the High Street area. We currently estimate that your power will be back on between 11:30 and 12:30, but after we arrive on site and assess the situation, this time could change. The reason for this is that sometimes there can be a more complex underlying issue found by our engineers tests. Also, just to make you aware, in some cases we have to restore power in stages; so it is normal to continue receiving messages for a while even after your power has come back on. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-10-19T08:04:41",
+      "Date": "2020-10-19T08:04:00",
       "Message": "<p>We became aware of a power cut at 08:04. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2020-10-19T08:52:52",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-19T09:19:19",
-      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
+      "Message": null,
       "Name": "Engineers investigating and fixing"
     },
     {
@@ -39,8 +45,8 @@
     "RestoredDateTime": null,
     "EstimatedRestorationDate": "2020-10-19T12:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-10-19T08:04:41",
-    "NoCustomerAffected": 0,
+    "ReceivedDate": "2020-10-19T08:04:00",
+    "NoCustomerAffected": 5,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -51,15 +57,24 @@
       "EstimatedTimeOfArrival": "2020-10-19T10:00:00",
       "DispatchedDate": "2020-10-19T08:52:52",
       "ArrivalDate": "2020-10-19T09:19:19",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-19T10:07:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 10:07 - Specialist engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the High Street area. We currently estimate that your power will be back on between 11:30 and 12:30, but after we arrive on site and assess the situation, this time could change. The reason for this is that sometimes there can be a more complex underlying issue found by our engineers tests. Also, just to make you aware, in some cases we have to restore power in stages; so it is normal to continue receiving messages for a while even after your power has come back on. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
+        "LoggedTime": "2020-10-19T10:07:36.757"
+      }
+    ],
     "PostCodesAffected": [
       "TN15 7"
     ],
     "PostCodesRestored": [
       "TN157AA",
+      "TN157AE",
       "TN157AB",
       "TN157AH",
       "TN157AR",
@@ -67,15 +82,16 @@
     ],
     "PostCodesPlanned": [
       "TN157AA",
+      "TN157AE",
       "TN157AB",
       "TN157AH",
       "TN157AR",
       "TN157RF"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 20,
+    "CustomersOnSupply": 17,
+    "CustomersOffSupply": 5,
     "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -566,6 +582,7 @@
   ],
   "FullPostcodeData": [
     "TN157AA",
+    "TN157AE",
     "TN157AB",
     "TN157AH",
     "TN157AR",
