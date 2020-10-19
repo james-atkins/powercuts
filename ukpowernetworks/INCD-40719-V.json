@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-40719-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40719-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40719-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-10-19T10:07:36.757",
-      "Message": "Update at 10:07 - Specialist engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the High Street area. We currently estimate that your power will be back on between 11:30 and 12:30, but after we arrive on site and assess the situation, this time could change. The reason for this is that sometimes there can be a more complex underlying issue found by our engineers tests. Also, just to make you aware, in some cases we have to restore power in stages; so it is normal to continue receiving messages for a while even after your power has come back on. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
+      "Date": "2020-10-19T11:17:50.133",
+      "Message": "Update at 11:17 - We can now confirm that all power in the High Street area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-19T09:19:19",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-19T11:15:14.927",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V00009f0fINCD",
     "IncidentReference": "INCD-40719-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-19T08:05:42",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-19T11:15:14.927",
     "EstimatedRestorationDate": "2020-10-19T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-19T08:04:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-10-19T10:07:00",
+        "ActualEventTime": "2020-10-19T11:17:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:07 - Specialist engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the High Street area. We currently estimate that your power will be back on between 11:30 and 12:30, but after we arrive on site and assess the situation, this time could change. The reason for this is that sometimes there can be a more complex underlying issue found by our engineers tests. Also, just to make you aware, in some cases we have to restore power in stages; so it is normal to continue receiving messages for a while even after your power has come back on. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
-        "LoggedTime": "2020-10-19T10:07:36.757"
+        "Comment": "Update at 11:17 - We can now confirm that all power in the High Street area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-10-19T11:17:50.133"
       }
     ],
     "PostCodesAffected": [
@@ -74,24 +74,24 @@
     ],
     "PostCodesRestored": [
       "TN157AA",
-      "TN157AE",
       "TN157AB",
+      "TN157AE",
       "TN157AH",
       "TN157AR",
       "TN157RF"
     ],
     "PostCodesPlanned": [
       "TN157AA",
-      "TN157AE",
       "TN157AB",
+      "TN157AE",
       "TN157AH",
       "TN157AR",
       "TN157RF"
     ],
-    "CustomersOnSupply": 17,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 22,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -582,8 +582,8 @@
   ],
   "FullPostcodeData": [
     "TN157AA",
-    "TN157AE",
     "TN157AB",
+    "TN157AE",
     "TN157AH",
     "TN157AR",
     "TN157RF"
