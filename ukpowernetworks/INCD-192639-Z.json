@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-192639-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-192639-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-192639-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-19T02:30:41",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-19T04:34:04.413",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002f07fINCD",
     "IncidentReference": "INCD-192639-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-19T01:03:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-19T04:34:04.413",
     "EstimatedRestorationDate": "2020-10-19T04:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-19T01:02:00",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,6 +59,8 @@
       "SS9 1"
     ],
     "PostCodesRestored": [
+      "SS91AA",
+      "SS91BG",
       "SS91DN",
       "SS91DP",
       "SS91DR",
@@ -71,11 +73,11 @@
       "SS91ET",
       "SS91EW",
       "SS91HA",
-      "SS91AA",
-      "SS91BG",
       "SS91RP"
     ],
     "PostCodesPlanned": [
+      "SS91AA",
+      "SS91BG",
       "SS91DN",
       "SS91DP",
       "SS91DR",
@@ -88,13 +90,11 @@
       "SS91ET",
       "SS91EW",
       "SS91HA",
-      "SS91AA",
-      "SS91BG",
       "SS91RP"
     ],
-    "CustomersOnSupply": 35,
-    "CustomersOffSupply": 126,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 161,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -509,6 +509,8 @@
     }
   ],
   "FullPostcodeData": [
+    "SS91AA",
+    "SS91BG",
     "SS91DN",
     "SS91DP",
     "SS91DR",
@@ -521,8 +523,6 @@
     "SS91ET",
     "SS91EW",
     "SS91HA",
-    "SS91AA",
-    "SS91BG",
     "SS91RP"
   ],
   "PinLatitude": null,
