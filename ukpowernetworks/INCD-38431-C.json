@@ -1,48 +1,54 @@
 {
   "IncidentReference": "INCD-38431-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-38431-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-38431-C",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-10-20T15:14:29.75",
+      "Message": "Update at 15:14 - Engineers have arrived on site in the High Street area. Using an average timescale for this type of issue, we're looking to have you back on between 17:00 and 18:00. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video <a href=\"https://bit.ly/2y8Dtfz.\" target=\"_blank\">https://bit.ly/2y8Dtfz.</a>",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-10-20T14:21:46",
+      "Date": "2020-10-20T14:21:00",
       "Message": "<p>We became aware of a power cut at 14:21. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-20T14:39:29",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2020-10-20T15:02:14",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-20T15:21:40.247",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000961fINCD",
     "IncidentReference": "INCD-38431-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-20T14:25:17",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-20T15:21:40.247",
     "EstimatedRestorationDate": "2020-10-20T17:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-10-20T14:21:46",
+    "ReceivedDate": "2020-10-20T14:21:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 3,
+    "NoCallsReported": 5,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -50,11 +56,19 @@
       "Name": "MICK (R5)",
       "EstimatedTimeOfArrival": "2020-10-20T15:15:00",
       "DispatchedDate": "2020-10-20T14:39:29",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2020-10-20T15:02:14",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-20T15:14:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 15:14 - Engineers have arrived on site in the High Street area. Using an average timescale for this type of issue, we're looking to have you back on between 17:00 and 18:00. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video https://bit.ly/2y8Dtfz.",
+        "LoggedTime": "2020-10-20T15:14:29.75"
+      }
+    ],
     "PostCodesAffected": [
       "SG8 0",
       "SG8 5"
@@ -71,9 +85,9 @@
       "SG85QP",
       "SG85QR"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 35,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 35,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
