@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-3084-I",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-3084-I",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-3084-I",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-10-20T19:13:25.393",
+      "Message": "Update at 19:13 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground cable damaged by a third party in the High Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-10-20T18:41:00",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-20T18:03:09",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-20T19:00:33.13",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "I00000c0cINCD",
     "IncidentReference": "INCD-3084-I",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-20T17:07:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-20T19:00:33.13",
     "EstimatedRestorationDate": "2020-10-20T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-20T18:41:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
+    "NoCallsReported": 2,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,28 +60,36 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-20T19:13:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 19:13 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground cable damaged by a third party in the High Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-10-20T19:13:25.393"
+      }
+    ],
     "PostCodesAffected": [
       "N2 8",
       "N2 9"
     ],
     "PostCodesRestored": [
+      "N28AD",
       "N28AQ",
       "N28AT",
-      "N28AD",
       "N28BA",
       "N29PN"
     ],
     "PostCodesPlanned": [
+      "N28AD",
       "N28AQ",
       "N28AT",
-      "N28AD",
       "N28BA",
       "N29PN"
     ],
-    "CustomersOnSupply": 28,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 30,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -972,9 +986,9 @@
     }
   ],
   "FullPostcodeData": [
+    "N28AD",
     "N28AQ",
     "N28AT",
-    "N28AD",
     "N28BA",
     "N29PN"
   ],
