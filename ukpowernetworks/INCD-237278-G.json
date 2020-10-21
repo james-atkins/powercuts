@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-237278-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237278-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237278-G",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-10-21T19:56:17.55",
+      "Message": "Update at 19:55 - Our engineers have now restored power in the Havelock Street area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-10-21T14:20:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-21T16:23:25",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-21T19:50:54.69",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G00039edeINCD",
     "IncidentReference": "INCD-237278-G",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-21T14:22:25",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-21T19:50:54.69",
     "EstimatedRestorationDate": "2020-10-21T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-21T14:20:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -54,24 +60,32 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-21T19:55:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 19:55 - Our engineers have now restored power in the Havelock Street area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2020-10-21T19:56:17.55"
+      }
+    ],
     "PostCodesAffected": [
       "CT1 1",
       "CT1 2"
     ],
     "PostCodesRestored": [
+      "CT11PB",
       "CT11NP",
-      "CT12LR",
-      "CT11PB"
+      "CT12LR"
     ],
     "PostCodesPlanned": [
+      "CT11PB",
       "CT11NP",
-      "CT12LR",
-      "CT11PB"
+      "CT12LR"
     ],
-    "CustomersOnSupply": 12,
-    "CustomersOffSupply": 28,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 13,
+    "CustomersOffSupply": 27,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -932,13 +946,13 @@
     }
   ],
   "FullPostcodeData": [
+    "CT11PB",
     "CT11NP",
-    "CT12LR",
-    "CT11PB"
+    "CT12LR"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "21:30 - 22:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
