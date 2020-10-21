@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-237314-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237314-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237314-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-21T19:43:07",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-21T23:36:19.087",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G00039f02INCD",
     "IncidentReference": "INCD-237314-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-21T19:01:09",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2020-10-21T23:00:00",
+    "RestoredDateTime": "2020-10-21T23:36:19.087",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-10-21T18:55:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 42,
     "Latitude": 0.0,
@@ -74,7 +74,6 @@
       "TN34 3"
     ],
     "PostCodesRestored": [
-      "TN342EZ",
       "TN342EB",
       "TN342ED",
       "TN342EF",
@@ -83,6 +82,7 @@
       "TN342ES",
       "TN342ET",
       "TN342EY",
+      "TN342EZ",
       "TN343SB",
       "TN343SF",
       "TN343SG",
@@ -91,7 +91,6 @@
       "TN343TG"
     ],
     "PostCodesPlanned": [
-      "TN342EZ",
       "TN342EB",
       "TN342ED",
       "TN342EF",
@@ -100,6 +99,7 @@
       "TN342ES",
       "TN342ET",
       "TN342EY",
+      "TN342EZ",
       "TN343SB",
       "TN343SF",
       "TN343SG",
@@ -107,10 +107,10 @@
       "TN343SJ",
       "TN343TG"
     ],
-    "CustomersOnSupply": 337,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 342,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1290,7 +1290,6 @@
     }
   ],
   "FullPostcodeData": [
-    "TN342EZ",
     "TN342EB",
     "TN342ED",
     "TN342EF",
@@ -1299,6 +1298,7 @@
     "TN342ES",
     "TN342ET",
     "TN342EY",
+    "TN342EZ",
     "TN343SB",
     "TN343SF",
     "TN343SG",
@@ -1309,7 +1309,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "22:30 - 23:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
