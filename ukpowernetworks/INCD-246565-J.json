@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-246565-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246565-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246565-J",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-10-21T15:32:10.437",
+      "Message": "Update at 15:32 - Engineers have arrived on site in the Charles Lane area. Using an average timescale for this type of issue, we're looking to have you back on between 17:00 and 18:00. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video <a href=\"https://bit.ly/2y8Dtfz.\" target=\"_blank\">https://bit.ly/2y8Dtfz.</a>",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-10-21T12:05:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-21T15:17:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-21T15:44:49.847",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003c325INCD",
     "IncidentReference": "INCD-246565-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-21T12:20:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-21T15:44:49.847",
     "EstimatedRestorationDate": "2020-10-21T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-21T12:05:00",
-    "NoCustomerAffected": 23,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-21T15:32:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 15:32 - Engineers have arrived on site in the Charles Lane area. Using an average timescale for this type of issue, we're looking to have you back on between 17:00 and 18:00. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video https://bit.ly/2y8Dtfz.",
+        "LoggedTime": "2020-10-21T15:32:10.437"
+      }
+    ],
     "PostCodesAffected": [
       "NW8 6",
       "NW8 7"
@@ -64,24 +78,24 @@
       "NW86JN",
       "NW87BS",
       "NW87BT",
-      "NW87SB",
       "NW87EN",
       "NW87EP",
-      "NW87EW"
+      "NW87EW",
+      "NW87SB"
     ],
     "PostCodesPlanned": [
       "NW86JL",
       "NW86JN",
       "NW87BS",
       "NW87BT",
-      "NW87SB",
       "NW87EN",
       "NW87EP",
-      "NW87EW"
+      "NW87EW",
+      "NW87SB"
     ],
-    "CustomersOnSupply": 79,
-    "CustomersOffSupply": 66,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 145,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1034,10 +1048,10 @@
     "NW86JN",
     "NW87BS",
     "NW87BT",
-    "NW87SB",
     "NW87EN",
     "NW87EP",
-    "NW87EW"
+    "NW87EW",
+    "NW87SB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
