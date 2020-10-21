@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-193113-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-193113-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-193113-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-21T09:26:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-21T18:26:20.957",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002f259INCD",
     "IncidentReference": "INCD-193113-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-21T07:48:38",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-21T18:26:20.957",
     "EstimatedRestorationDate": "2020-10-21T18:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-21T07:48:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -73,24 +73,24 @@
       "CB1 1"
     ],
     "PostCodesRestored": [
-      "CB11DP",
       "CB11AZ",
+      "CB11DP",
       "CB11DS",
       "CB11DT",
       "CB11DX",
       "CB11DZ"
     ],
     "PostCodesPlanned": [
-      "CB11DP",
       "CB11AZ",
+      "CB11DP",
       "CB11DS",
       "CB11DT",
       "CB11DX",
       "CB11DZ"
     ],
-    "CustomersOnSupply": 111,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 116,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -477,8 +477,8 @@
     }
   ],
   "FullPostcodeData": [
-    "CB11DP",
     "CB11AZ",
+    "CB11DP",
     "CB11DS",
     "CB11DT",
     "CB11DX",
