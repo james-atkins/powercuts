@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-237272-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237272-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237272-G",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-10-21T15:00:40.04",
+      "Message": "Update at 15:00 - We're sorry for the last message you received from us. This was sent in error and we're aware that the power is still off in the Willow Way area. Our engineers are working on site to investigate the faulty equipment in our substation and we're estimating to have the power back on between 17:00 and 18:00. Our engineers are checking our substation equipment to ensure our network is healthy before they attempt to restore your power. They may also walk our cabling route throughout the area to check for any visible problems, check smaller electrical sites in the area, or apply specialist equipment which may restore power temporarily to help them with their testing.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-10-21T13:54:24",
+      "Date": "2020-10-21T13:54:00",
       "Message": "<p>We became aware of a power cut at 13:54. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-21T14:21:29",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-21T15:16:38.92",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G00039ed8INCD",
     "IncidentReference": "INCD-237272-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-21T13:56:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-21T15:16:38.92",
     "EstimatedRestorationDate": "2020-10-21T17:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-10-21T13:54:24",
+    "ReceivedDate": "2020-10-21T13:54:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-21T14:57:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 15:00 - We're sorry for the last message you received from us. This was sent in error and we're aware that the power is still off in the Willow Way area. Our engineers are working on site to investigate the faulty equipment in our substation and we're estimating to have the power back on between 17:00 and 18:00. Our engineers are checking our substation equipment to ensure our network is healthy before they attempt to restore your power. They may also walk our cabling route throughout the area to check for any visible problems, check smaller electrical sites in the area, or apply specialist equipment which may restore power temporarily to help them with their testing.",
+        "LoggedTime": "2020-10-21T15:00:40.04"
+      }
+    ],
     "PostCodesAffected": [
       "GU1 1"
     ],
@@ -72,9 +86,9 @@
       "GU11NU",
       "GU11PF"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 33,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 33,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
