@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-193430-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-193430-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-193430-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-10-22T12:38:28.893",
-      "Message": "Update at 12:38 - We're sorry you still have no power. We are working to fix a higher number of faults than usual in your area. Due to this we're waiting for specialist engineers to become available to attend and repair the faulty underground connection box. We'll update you once a team becomes free. Thank you for bearing with us.",
+      "Date": "2020-10-22T14:10:48.25",
+      "Message": "Update at 14:10 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair the lid on an underground connection box in the Broadway area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-22T10:04:32",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-22T14:02:13.243",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002f396INCD",
     "IncidentReference": "INCD-193430-Z",
-    "IncidentCategory": "108",
+    "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-22T09:30:52",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-22T14:02:13.243",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-10-22T10:19:00",
-    "NoCustomerAffected": 96,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-10-22T12:38:00",
+        "ActualEventTime": "2020-10-22T14:10:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 12:38 - We're sorry you still have no power. We are working to fix a higher number of faults than usual in your area. Due to this we're waiting for specialist engineers to become available to attend and repair the faulty underground connection box. We'll update you once a team becomes free. Thank you for bearing with us.",
-        "LoggedTime": "2020-10-22T12:38:28.893"
+        "Comment": "Update at 14:10 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair the lid on an underground connection box in the Broadway area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-10-22T14:10:48.25"
       }
     ],
     "PostCodesAffected": [
@@ -100,10 +100,10 @@
       "CO152HL",
       "CO152HQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 96,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 96,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -384,7 +384,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "Due to a faulty piece of underground network equipment we had to turn off your power.",
+  "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
