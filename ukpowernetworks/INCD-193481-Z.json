@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-193481-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-193481-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-193481-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-22T14:24:44",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-22T20:20:14.89",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002f3c9INCD",
     "IncidentReference": "INCD-193481-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-22T11:12:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-22T20:20:14.89",
     "EstimatedRestorationDate": "2020-10-22T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-22T11:08:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -73,12 +73,12 @@
       "HP23 6"
     ],
     "PostCodesRestored": [
-      "HP236AL",
       "HP236AA",
       "HP236AE",
       "HP236AF",
       "HP236AH",
       "HP236AJ",
+      "HP236AL",
       "HP236AN",
       "HP236AP",
       "HP236DD",
@@ -87,12 +87,12 @@
       "HP236DS"
     ],
     "PostCodesPlanned": [
-      "HP236AL",
       "HP236AA",
       "HP236AE",
       "HP236AF",
       "HP236AH",
       "HP236AJ",
+      "HP236AL",
       "HP236AN",
       "HP236AP",
       "HP236DD",
@@ -100,9 +100,9 @@
       "HP236DL",
       "HP236DS"
     ],
-    "CustomersOnSupply": 109,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 116,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -569,12 +569,12 @@
     }
   ],
   "FullPostcodeData": [
-    "HP236AL",
     "HP236AA",
     "HP236AE",
     "HP236AF",
     "HP236AH",
     "HP236AJ",
+    "HP236AL",
     "HP236AN",
     "HP236AP",
     "HP236DD",
