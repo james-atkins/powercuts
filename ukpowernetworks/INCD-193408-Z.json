@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-193408-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-193408-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-193408-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-10-22T11:11:31.643",
-      "Message": "Update at 11:12 - Our engineers are still on site working on repairs. We know that with the current pandemic, our customers are more worried now than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. For more information, please see your terms of connection, which are usually provided by your supplier, but are available here <a href=\"https://bit.ly/2VvgXFi.\" target=\"_blank\">https://bit.ly/2VvgXFi.</a> Thank you.",
+      "Date": "2020-10-22T11:51:27.977",
+      "Message": "Update at 11:51 - We believe our engineers have been able to restore power to all 25 customers in the Rignall Road area, by repairing a fault on the overhead network. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult it can be without power, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-22T09:28:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-22T11:48:47.023",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002f380INCD",
     "IncidentReference": "INCD-193408-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-22T08:54:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-22T11:48:47.023",
     "EstimatedRestorationDate": "2020-10-22T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-22T08:53:00",
-    "NoCustomerAffected": 25,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-10-22T11:11:00",
+        "ActualEventTime": "2020-10-22T11:51:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 11:12 - Our engineers are still on site working on repairs. We know that with the current pandemic, our customers are more worried now than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. For more information, please see your terms of connection, which are usually provided by your supplier, but are available here https://bit.ly/2VvgXFi. Thank you.",
-        "LoggedTime": "2020-10-22T11:11:31.643"
+        "Comment": "Update at 11:51 - We believe our engineers have been able to restore power to all 25 customers in the Rignall Road area, by repairing a fault on the overhead network. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult it can be without power, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2020-10-22T11:51:27.977"
       }
     ],
     "PostCodesAffected": [
@@ -82,10 +82,10 @@
       "HP169PF",
       "HP169PH"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 25,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 25,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -581,7 +581,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "11:30 - 12:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
