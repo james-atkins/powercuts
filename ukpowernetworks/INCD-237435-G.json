@@ -1,45 +1,45 @@
 {
   "IncidentReference": "INCD-237435-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237435-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237435-G",
   "Steps": [
     {
-      "Active": true,
-      "Date": "2020-10-23T14:15:02",
-      "Message": "<p>We became aware of this power cut at 14:15. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
+      "Active": false,
+      "Date": "2020-10-23T14:36:00",
+      "Message": "<p>We became aware of this power cut at 14:36. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
       "Name": "We are restoring customers automatically"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-23T14:37:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G00039f7bINCD",
     "IncidentReference": "INCD-237435-G",
     "IncidentCategory": "26",
     "IncidentType": 3,
     "IncidentPriority": 2,
-    "StatusId": 0,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-23T14:15:02",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-23T14:37:00",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2020-10-23T14:15:02",
+    "ReceivedDate": "2020-10-23T14:36:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
@@ -61,9 +61,6 @@
       "TN21 9"
     ],
     "PostCodesRestored": [
-      "BN274HJ",
-      "TN210DS",
-      "TN219HJ",
       "BN274DU",
       "BN274DY",
       "BN274DZ",
@@ -76,6 +73,8 @@
       "BN274HA",
       "BN274HB",
       "BN274HD",
+      "BN274HJ",
+      "TN210DS",
       "TN210JR",
       "TN210JS",
       "TN210JT",
@@ -84,12 +83,10 @@
       "TN210LF",
       "TN210LG",
       "TN210LH",
-      "TN210LL"
+      "TN210LL",
+      "TN219HJ"
     ],
     "PostCodesPlanned": [
-      "BN274HJ",
-      "TN210DS",
-      "TN219HJ",
       "BN274DU",
       "BN274DY",
       "BN274DZ",
@@ -102,6 +99,8 @@
       "BN274HA",
       "BN274HB",
       "BN274HD",
+      "BN274HJ",
+      "TN210DS",
       "TN210JR",
       "TN210JS",
       "TN210JT",
@@ -110,12 +109,13 @@
       "TN210LF",
       "TN210LG",
       "TN210LH",
-      "TN210LL"
+      "TN210LL",
+      "TN219HJ"
     ],
-    "CustomersOnSupply": 143,
-    "CustomersOffSupply": 12,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 155,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1665,9 +1665,6 @@
     }
   ],
   "FullPostcodeData": [
-    "BN274HJ",
-    "TN210DS",
-    "TN219HJ",
     "BN274DU",
     "BN274DY",
     "BN274DZ",
@@ -1680,6 +1677,8 @@
     "BN274HA",
     "BN274HB",
     "BN274HD",
+    "BN274HJ",
+    "TN210DS",
     "TN210JR",
     "TN210JS",
     "TN210JT",
@@ -1688,7 +1687,8 @@
     "TN210LF",
     "TN210LG",
     "TN210LH",
-    "TN210LL"
+    "TN210LL",
+    "TN219HJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
