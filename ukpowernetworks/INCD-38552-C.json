@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-38552-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-38552-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-38552-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-23T09:59:39",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-23T20:30:01.967",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009698INCD",
     "IncidentReference": "INCD-38552-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-23T09:15:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-23T20:30:01.967",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-10-23T09:14:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,8 +59,8 @@
       "LU3 2"
     ],
     "PostCodesRestored": [
-      "LU32NY",
       "LU32NL",
+      "LU32NY",
       "LU32PA",
       "LU32QG",
       "LU32QT",
@@ -69,8 +69,8 @@
       "LU32RN"
     ],
     "PostCodesPlanned": [
-      "LU32NY",
       "LU32NL",
+      "LU32NY",
       "LU32PA",
       "LU32QG",
       "LU32QT",
@@ -78,9 +78,9 @@
       "LU32RJ",
       "LU32RN"
     ],
-    "CustomersOnSupply": 104,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 106,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -731,8 +731,8 @@
     }
   ],
   "FullPostcodeData": [
-    "LU32NY",
     "LU32NL",
+    "LU32NY",
     "LU32PA",
     "LU32QG",
     "LU32QT",
