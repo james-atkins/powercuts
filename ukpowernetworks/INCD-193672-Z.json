@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-193672-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-193672-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-193672-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-23T08:53:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-23T16:19:24.993",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002f488INCD",
     "IncidentReference": "INCD-193672-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-23T07:56:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-23T16:19:24.993",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-10-23T07:53:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "PE4 6"
     ],
     "PostCodesRestored": [
-      "PE46SQ",
       "PE46HE",
       "PE46HN",
       "PE46HP",
@@ -68,10 +67,10 @@
       "PE46JA",
       "PE46SH",
       "PE46SJ",
+      "PE46SQ",
       "PE46WD"
     ],
     "PostCodesPlanned": [
-      "PE46SQ",
       "PE46HE",
       "PE46HN",
       "PE46HP",
@@ -80,11 +79,12 @@
       "PE46JA",
       "PE46SH",
       "PE46SJ",
+      "PE46SQ",
       "PE46WD"
     ],
-    "CustomersOnSupply": 87,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 89,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -579,7 +579,6 @@
     }
   ],
   "FullPostcodeData": [
-    "PE46SQ",
     "PE46HE",
     "PE46HN",
     "PE46HP",
@@ -588,6 +587,7 @@
     "PE46JA",
     "PE46SH",
     "PE46SJ",
+    "PE46SQ",
     "PE46WD"
   ],
   "PinLatitude": null,
