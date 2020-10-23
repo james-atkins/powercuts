@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-193690-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-193690-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-193690-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-23T10:56:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-23T17:35:43.8",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002f49aINCD",
     "IncidentReference": "INCD-193690-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-23T09:12:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-23T17:35:43.8",
     "EstimatedRestorationDate": "2020-10-23T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-23T10:51:05",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -79,7 +79,6 @@
       "RM1 3"
     ],
     "PostCodesRestored": [
-      "CM07EA",
       "CM07AG",
       "CM07BE",
       "CM07BG",
@@ -92,6 +91,7 @@
       "CM07DX",
       "CM07DY",
       "CM07DZ",
+      "CM07EA",
       "CM07EE",
       "CM07EG",
       "CM07EH",
@@ -235,7 +235,6 @@
       "RM13LB"
     ],
     "PostCodesPlanned": [
-      "CM07EA",
       "CM07AG",
       "CM07BE",
       "CM07BG",
@@ -248,6 +247,7 @@
       "CM07DX",
       "CM07DY",
       "CM07DZ",
+      "CM07EA",
       "CM07EE",
       "CM07EG",
       "CM07EH",
@@ -390,9 +390,9 @@
       "PE63LP",
       "RM13LB"
     ],
-    "CustomersOnSupply": 2318,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 2322,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -2538,7 +2538,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CM07EA",
     "CM07AG",
     "CM07BE",
     "CM07BG",
@@ -2551,6 +2550,7 @@
     "CM07DX",
     "CM07DY",
     "CM07DZ",
+    "CM07EA",
     "CM07EE",
     "CM07EG",
     "CM07EH",
