@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-193784-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-193784-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-193784-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-10-23T22:46:42.38",
+      "Message": "Update at 22:46 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Park Parade area for safety so they can repair a fault on our underground cabling network. Our estimated time to have your power back on is between 23:00 and 00:00. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-10-23T22:03:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-23T13:32:41",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-23T23:13:58.523",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002f4f8INCD",
     "IncidentReference": "INCD-193784-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-23T13:04:58",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-23T23:13:58.523",
     "EstimatedRestorationDate": "2020-10-23T23:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-23T22:03:00",
-    "NoCustomerAffected": 39,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -54,29 +60,37 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-23T22:45:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 22:46 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Park Parade area for safety so they can repair a fault on our underground cabling network. Our estimated time to have your power back on is between 23:00 and 00:00. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
+        "LoggedTime": "2020-10-23T22:46:42.38"
+      }
+    ],
     "PostCodesAffected": [
       "CB5 8"
     ],
     "PostCodesRestored": [
       "CB58AL",
       "CB58AR",
-      "CB58AW",
       "CB58AS",
+      "CB58AW",
       "CB58BA",
       "CB58BQ"
     ],
     "PostCodesPlanned": [
       "CB58AL",
       "CB58AR",
-      "CB58AW",
       "CB58AS",
+      "CB58AW",
       "CB58BA",
       "CB58BQ"
     ],
-    "CustomersOnSupply": 31,
-    "CustomersOffSupply": 39,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 70,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -729,8 +743,8 @@
   "FullPostcodeData": [
     "CB58AL",
     "CB58AR",
-    "CB58AW",
     "CB58AS",
+    "CB58AW",
     "CB58BA",
     "CB58BQ"
   ],
