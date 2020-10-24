@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-237457-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237457-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237457-G",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-24T01:09:29",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-24T16:05:15.018836+01:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G00039f91INCD",
     "IncidentReference": "INCD-237457-G",
     "IncidentCategory": "9",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-24T00:48:37",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-24T16:05:15.018836+01:00",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-10-24T00:44:40",
@@ -59,17 +59,17 @@
       "RH20 2"
     ],
     "PostCodesRestored": [
-      "RH202LG",
-      "RH202LQ"
+      "RH202LQ",
+      "RH202LG"
     ],
     "PostCodesPlanned": [
-      "RH202LG",
-      "RH202LQ"
+      "RH202LQ",
+      "RH202LG"
     ],
     "CustomersOnSupply": 6,
     "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -555,8 +555,8 @@
     }
   ],
   "FullPostcodeData": [
-    "RH202LG",
-    "RH202LQ"
+    "RH202LQ",
+    "RH202LG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,

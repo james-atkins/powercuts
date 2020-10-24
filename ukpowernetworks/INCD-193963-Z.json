@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-193963-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-193963-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-193963-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-10-24T15:46:24.253",
+      "Message": "Update at 15:45 - Engineers have arrived on site in the Kings Lynn, IP26 4 area to investigate faulty overhead cable. Using an average timescale for this type of issue, we're looking to have you back on between 17:00 and 18:00. Please follow the government pandemic guidelines about social distancing when interacting with our staff.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-10-24T14:48:35",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2020-10-24T15:37:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2020-10-24T15:20:12.313",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z0002f5abINCD",
     "IncidentReference": "INCD-193963-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
     "IncidentPriority": 2,
-    "StatusId": 5,
+    "StatusId": 1,
     "CreationDateTime": "2020-10-24T14:48:40",
-    "RestoredDateTime": "2020-10-24T15:20:12.313",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2020-10-24T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-24T14:48:35",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 18,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 10,
+    "NoCallsReported": 11,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-24T15:44:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 15:45 - Engineers have arrived on site in the Kings Lynn, IP26 4 area to investigate faulty overhead cable. Using an average timescale for this type of issue, we're looking to have you back on between 17:00 and 18:00. Please follow the government pandemic guidelines about social distancing when interacting with our staff.",
+        "LoggedTime": "2020-10-24T15:46:24.253"
+      }
+    ],
     "PostCodesAffected": [
       "IP26 4",
       "NR 2",
@@ -63,6 +77,8 @@
       "NR25 9"
     ],
     "PostCodesRestored": [
+      "IP264QU",
+      "IP264QX",
       "IP264PJ",
       "IP264PX",
       "IP264QA",
@@ -72,9 +88,7 @@
       "IP264QN",
       "IP264QP",
       "IP264QR",
-      "IP264QU",
       "IP264QW",
-      "IP264QX",
       "IP264QY",
       "NR200XX",
       "NR218",
@@ -82,6 +96,8 @@
       "NR259DL"
     ],
     "PostCodesPlanned": [
+      "IP264QU",
+      "IP264QX",
       "IP264PJ",
       "IP264PX",
       "IP264QA",
@@ -91,18 +107,16 @@
       "IP264QN",
       "IP264QP",
       "IP264QR",
-      "IP264QU",
       "IP264QW",
-      "IP264QX",
       "IP264QY",
       "NR200XX",
       "NR218",
       "NR255QN",
       "NR259DL"
     ],
-    "CustomersOnSupply": 127,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "CustomersOnSupply": 111,
+    "CustomersOffSupply": 16,
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -369,6 +383,8 @@
     }
   ],
   "FullPostcodeData": [
+    "IP264QU",
+    "IP264QX",
     "IP264PJ",
     "IP264PX",
     "IP264QA",
@@ -378,9 +394,7 @@
     "IP264QN",
     "IP264QP",
     "IP264QR",
-    "IP264QU",
     "IP264QW",
-    "IP264QX",
     "IP264QY",
     "NR200XX",
     "NR218",
