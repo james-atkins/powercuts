@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-193946-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-193946-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-193946-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-24T14:23:02",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-24T20:19:48.1",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002f59aINCD",
     "IncidentReference": "INCD-193946-Z",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-24T13:16:39",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-24T20:19:48.1",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-10-24T13:34:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,17 +60,17 @@
     ],
     "PostCodesRestored": [
       "WD34LN",
-      "WD34LW",
-      "WD34LP"
+      "WD34LP",
+      "WD34LW"
     ],
     "PostCodesPlanned": [
       "WD34LN",
-      "WD34LW",
-      "WD34LP"
+      "WD34LP",
+      "WD34LW"
     ],
-    "CustomersOnSupply": 10,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 16,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -646,8 +646,8 @@
   ],
   "FullPostcodeData": [
     "WD34LN",
-    "WD34LW",
-    "WD34LP"
+    "WD34LP",
+    "WD34LW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
