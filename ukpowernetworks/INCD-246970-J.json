@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-246970-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246970-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246970-J",
   "Steps": [
     {
       "Active": true,
@@ -10,45 +10,45 @@
     },
     {
       "Active": false,
-      "Date": "2020-10-25T09:50:02",
+      "Date": "2020-10-25T09:50:00",
       "Message": "<p>We became aware of a power cut at 09:50. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-25T10:14:31",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2020-10-25T12:15:53",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-25T12:20:01.197",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003c4baINCD",
     "IncidentReference": "INCD-246970-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-25T09:54:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-25T12:20:01.197",
     "EstimatedRestorationDate": "2020-10-25T14:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-10-25T09:50:02",
+    "ReceivedDate": "2020-10-25T09:50:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 4,
+    "NoCallsReported": 5,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -56,8 +56,8 @@
       "Name": "LIAM(R5)",
       "EstimatedTimeOfArrival": "2020-10-25T11:00:00",
       "DispatchedDate": "2020-10-25T10:14:31",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2020-10-25T12:15:53",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -74,23 +74,23 @@
     ],
     "PostCodesRestored": [
       "SE91HD",
+      "SE91HE",
+      "SE91HF",
       "SE91HY",
       "SE91TR",
-      "SE91TS",
-      "SE91HE",
-      "SE91HF"
+      "SE91TS"
     ],
     "PostCodesPlanned": [
       "SE91HD",
+      "SE91HE",
+      "SE91HF",
       "SE91HY",
       "SE91TR",
-      "SE91TS",
-      "SE91HE",
-      "SE91HF"
+      "SE91TS"
     ],
-    "CustomersOnSupply": 11,
-    "CustomersOffSupply": 27,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 38,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -574,11 +574,11 @@
   ],
   "FullPostcodeData": [
     "SE91HD",
+    "SE91HE",
+    "SE91HF",
     "SE91HY",
     "SE91TR",
-    "SE91TS",
-    "SE91HE",
-    "SE91HF"
+    "SE91TS"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
