@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-237650-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237650-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237650-G",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-25T10:32:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-25T14:27:57.653",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a052INCD",
     "IncidentReference": "INCD-237650-G",
     "IncidentCategory": "57",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-25T08:08:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-25T14:27:57.653",
     "EstimatedRestorationDate": "2020-10-25T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-25T08:32:00",
@@ -74,15 +74,17 @@
     ],
     "PostCodesRestored": [
       "BN68LR",
-      "BN68LS"
+      "BN68LS",
+      "BN68NA"
     ],
     "PostCodesPlanned": [
       "BN68LR",
-      "BN68LS"
+      "BN68LS",
+      "BN68NA"
     ],
-    "CustomersOnSupply": 46,
+    "CustomersOnSupply": 70,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -486,7 +488,8 @@
   ],
   "FullPostcodeData": [
     "BN68LR",
-    "BN68LS"
+    "BN68LS",
+    "BN68NA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
