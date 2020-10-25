@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-194111-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-194111-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-194111-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-25T07:34:13",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-25T09:40:07.95",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002f63fINCD",
     "IncidentReference": "INCD-194111-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-25T05:17:26",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-25T09:40:07.95",
     "EstimatedRestorationDate": "2020-10-25T10:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-25T05:16:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -59,8 +59,6 @@
       "EN9 1"
     ],
     "PostCodesRestored": [
-      "EN91RH",
-      "EN91RL",
       "EN91DX",
       "EN91EE",
       "EN91EJ",
@@ -68,12 +66,12 @@
       "EN91EP",
       "EN91ER",
       "EN91FB",
+      "EN91RH",
+      "EN91RL",
       "EN91RR",
       "EN91RX"
     ],
     "PostCodesPlanned": [
-      "EN91RH",
-      "EN91RL",
       "EN91DX",
       "EN91EE",
       "EN91EJ",
@@ -81,12 +79,14 @@
       "EN91EP",
       "EN91ER",
       "EN91FB",
+      "EN91RH",
+      "EN91RL",
       "EN91RR",
       "EN91RX"
     ],
-    "CustomersOnSupply": 46,
-    "CustomersOffSupply": 13,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 59,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -541,8 +541,6 @@
     }
   ],
   "FullPostcodeData": [
-    "EN91RH",
-    "EN91RL",
     "EN91DX",
     "EN91EE",
     "EN91EJ",
@@ -550,6 +548,8 @@
     "EN91EP",
     "EN91ER",
     "EN91FB",
+    "EN91RH",
+    "EN91RL",
     "EN91RR",
     "EN91RX"
   ],
