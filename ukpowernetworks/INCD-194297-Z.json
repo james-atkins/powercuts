@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-194297-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-194297-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-194297-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-26T09:59:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-26T22:14:47.057",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002f6f9INCD",
     "IncidentReference": "INCD-194297-Z",
     "IncidentCategory": "108",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-26T09:21:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-26T22:14:47.057",
     "EstimatedRestorationDate": "2020-10-26T22:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-26T10:10:00",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 8,
+    "NoCallsReported": 9,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -73,10 +73,10 @@
       "SG19 2"
     ],
     "PostCodesRestored": [
-      "SG192LT",
-      "SG192LU",
       "SG192LR",
       "SG192LS",
+      "SG192LT",
+      "SG192LU",
       "SG192LX",
       "SG192NR",
       "SG192PP",
@@ -89,10 +89,10 @@
       "SG192QU"
     ],
     "PostCodesPlanned": [
-      "SG192LT",
-      "SG192LU",
       "SG192LR",
       "SG192LS",
+      "SG192LT",
+      "SG192LU",
       "SG192LX",
       "SG192NR",
       "SG192PP",
@@ -104,9 +104,9 @@
       "SG192QP",
       "SG192QU"
     ],
-    "CustomersOnSupply": 190,
-    "CustomersOffSupply": 12,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 202,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -661,10 +661,10 @@
     }
   ],
   "FullPostcodeData": [
-    "SG192LT",
-    "SG192LU",
     "SG192LR",
     "SG192LS",
+    "SG192LT",
+    "SG192LU",
     "SG192LX",
     "SG192NR",
     "SG192PP",
