@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-237927-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237927-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237927-G",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-28T08:32:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-28T14:42:40.748714+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a167INCD",
     "IncidentReference": "INCD-237927-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-28T06:10:50",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-28T14:42:40.748714+00:00",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-10-28T05:52:00",
@@ -73,7 +73,6 @@
       "CT21 5"
     ],
     "PostCodesRestored": [
-      "CT215DT",
       "CT215DP",
       "CT215DR",
       "CT215DS",
@@ -96,10 +95,10 @@
       "CT215UE",
       "CT215UF",
       "CT215UG",
-      "CT215UH"
+      "CT215UH",
+      "CT215DT"
     ],
     "PostCodesPlanned": [
-      "CT215DT",
       "CT215DP",
       "CT215DR",
       "CT215DS",
@@ -122,11 +121,12 @@
       "CT215UE",
       "CT215UF",
       "CT215UG",
-      "CT215UH"
+      "CT215UH",
+      "CT215DT"
     ],
     "CustomersOnSupply": 134,
     "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -553,7 +553,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CT215DT",
     "CT215DP",
     "CT215DR",
     "CT215DS",
@@ -576,7 +575,8 @@
     "CT215UE",
     "CT215UF",
     "CT215UG",
-    "CT215UH"
+    "CT215UH",
+    "CT215DT"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
