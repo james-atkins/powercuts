@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-41444-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-41444-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-41444-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-10-28T18:07:54.27",
-      "Message": "Update at 18:07 - Our engineers have been able to divert electricity around the faulty part of the network, restoring power to some customers. We know your power may now be back on, however; we'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
+      "Date": "2020-10-28T19:09:13.577",
+      "Message": "Update at 19:09 - We have now restored power to the Maple Road area. We are truly sorry for the power cuts recently. We know there is an underlying issue causing this, but it is proving difficult for our engineers to locate and therefore fix. To get your power back on today we have reconfigured the local electricity network. This in turn will both help pinpoint the issue and minimise further interruptions. If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-28T08:26:29",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-28T19:00:49.437",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000a1e4INCD",
     "IncidentReference": "INCD-41444-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-28T07:48:53",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-28T19:00:49.437",
     "EstimatedRestorationDate": "2020-10-28T21:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-28T07:46:00",
-    "NoCustomerAffected": 42,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 27,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-10-28T18:07:00",
+        "ActualEventTime": "2020-10-28T19:09:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 18:07 - Our engineers have been able to divert electricity around the faulty part of the network, restoring power to some customers. We know your power may now be back on, however; we'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
-        "LoggedTime": "2020-10-28T18:07:54.27"
+        "Comment": "Update at 19:09 - We have now restored power to the Maple Road area. We are truly sorry for the power cuts recently. We know there is an underlying issue causing this, but it is proving difficult for our engineers to locate and therefore fix. To get your power back on today we have reconfigured the local electricity network. This in turn will both help pinpoint the issue and minimise further interruptions. If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on",
+        "LoggedTime": "2020-10-28T19:09:13.577"
       }
     ],
     "PostCodesAffected": [
@@ -74,21 +74,21 @@
     ],
     "PostCodesRestored": [
       "CR30EG",
+      "CR30EJ",
       "CR30ET",
       "CR30EW",
-      "CR30EZ",
-      "CR30EJ"
+      "CR30EZ"
     ],
     "PostCodesPlanned": [
       "CR30EG",
+      "CR30EJ",
       "CR30ET",
       "CR30EW",
-      "CR30EZ",
-      "CR30EJ"
+      "CR30EZ"
     ],
-    "CustomersOnSupply": 53,
-    "CustomersOffSupply": 42,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 95,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -412,10 +412,10 @@
   ],
   "FullPostcodeData": [
     "CR30EG",
+    "CR30EJ",
     "CR30ET",
     "CR30EW",
-    "CR30EZ",
-    "CR30EJ"
+    "CR30EZ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
