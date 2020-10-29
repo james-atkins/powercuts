@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-237980-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237980-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237980-G",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-10-29T01:20:39.48",
+      "Message": "Update at 01:20 - We can now confirm that all power in the St. Philips Road area should be back on. The issue was caused by a fault on the underground network, which our engineers repaired. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-10-28T23:41:18",
+      "Date": "2020-10-28T23:41:00",
       "Message": "<p>We became aware of a power cut at 23:41. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-28T23:58:50",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-29T00:52:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a19cINCD",
     "IncidentReference": "INCD-237980-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-28T23:52:52",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-29T00:52:00",
     "EstimatedRestorationDate": "2020-10-29T03:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-10-28T23:41:18",
+    "ReceivedDate": "2020-10-28T23:41:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 3,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-29T01:20:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 01:20 - We can now confirm that all power in the St. Philips Road area should be back on. The issue was caused by a fault on the underground network, which our engineers repaired. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-10-29T01:20:39.48"
+      }
+    ],
     "PostCodesAffected": [
       "KT6 4"
     ],
@@ -84,9 +98,9 @@
       "KT64QP",
       "KT64QW"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 249,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 249,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
