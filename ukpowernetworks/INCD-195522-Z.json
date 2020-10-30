@@ -1,9 +1,15 @@
 {
   "IncidentReference": "INCD-195522-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-195522-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-195522-Z",
   "Steps": [
     {
       "Active": true,
+      "Date": "2020-10-30T18:27:44.343",
+      "Message": "Update at 18:27 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Sunnyhill Road area for safety so they can repair a faulty underground cable. Our estimated time to have your power back on is between 18:00 and 19:00. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Name": null
+    },
+    {
+      "Active": false,
       "Date": "2020-10-30T18:10:00",
       "Message": "<p>We became aware of a power cut at 18:10. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -11,36 +17,36 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-30T18:43:41.937",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002fbc2INCD",
     "IncidentReference": "INCD-195522-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-30T17:52:33",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-30T18:43:41.937",
     "EstimatedRestorationDate": "2020-10-30T18:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-30T18:10:00",
-    "NoCustomerAffected": 72,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 0
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-30T18:27:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 18:27 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Sunnyhill Road area for safety so they can repair a faulty underground cable. Our estimated time to have your power back on is between 18:00 and 19:00. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
+        "LoggedTime": "2020-10-30T18:27:44.343"
+      }
+    ],
     "PostCodesAffected": [
       "HP1 1"
     ],
@@ -68,9 +82,9 @@
       "HP11TA",
       "HP11TG"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 72,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 73,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
