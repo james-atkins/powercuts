@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-195341-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-195341-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-195341-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2020-10-30T09:12:12",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2020-10-30T10:09:54.267",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z0002fb0dINCD",
     "IncidentReference": "INCD-195341-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2020-10-30T08:24:12",
-    "RestoredDateTime": "2020-10-30T10:09:54.267",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2020-10-30T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-30T08:50:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 19,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 3,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -74,32 +74,32 @@
       "HP6 6"
     ],
     "PostCodesRestored": [
+      "HP65EJ",
+      "HP65JS",
+      "HP65JW",
       "HP65DR",
       "HP65DU",
-      "HP65EJ",
       "HP65EN",
       "HP65EQ",
       "HP65HP",
       "HP65HQ",
-      "HP65JS",
-      "HP65JW",
       "HP66AF"
     ],
     "PostCodesPlanned": [
+      "HP65EJ",
+      "HP65JS",
+      "HP65JW",
       "HP65DR",
       "HP65DU",
-      "HP65EJ",
       "HP65EN",
       "HP65EQ",
       "HP65HP",
       "HP65HQ",
-      "HP65JS",
-      "HP65JW",
       "HP66AF"
     ],
-    "CustomersOnSupply": 61,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "CustomersOnSupply": 42,
+    "CustomersOffSupply": 19,
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1200,15 +1200,15 @@
     }
   ],
   "FullPostcodeData": [
+    "HP65EJ",
+    "HP65JS",
+    "HP65JW",
     "HP65DR",
     "HP65DU",
-    "HP65EJ",
     "HP65EN",
     "HP65EQ",
     "HP65HP",
     "HP65HQ",
-    "HP65JS",
-    "HP65JW",
     "HP66AF"
   ],
   "PinLatitude": null,
