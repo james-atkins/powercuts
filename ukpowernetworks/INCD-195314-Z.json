@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-195314-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-195314-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-195314-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-30T08:19:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-30T20:21:47.88",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002faf2INCD",
     "IncidentReference": "INCD-195314-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-30T04:12:03",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-30T20:21:47.88",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-10-30T04:11:25",
@@ -59,24 +59,24 @@
       "N22 5"
     ],
     "PostCodesRestored": [
-      "N225HP",
       "N225AG",
+      "N225HP",
       "N225HR",
       "N225HS",
       "N225HT",
       "N225JD"
     ],
     "PostCodesPlanned": [
-      "N225HP",
       "N225AG",
+      "N225HP",
       "N225HR",
       "N225HS",
       "N225HT",
       "N225JD"
     ],
-    "CustomersOnSupply": 116,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 122,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -579,8 +579,8 @@
     }
   ],
   "FullPostcodeData": [
-    "N225HP",
     "N225AG",
+    "N225HP",
     "N225HR",
     "N225HS",
     "N225HT",
