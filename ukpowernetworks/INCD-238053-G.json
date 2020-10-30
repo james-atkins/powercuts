@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-238053-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-238053-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-238053-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-30T02:56:01",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-30T04:40:15.943",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a1e5INCD",
     "IncidentReference": "INCD-238053-G",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-30T02:06:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-30T04:40:15.943",
     "EstimatedRestorationDate": "2020-10-30T04:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-30T02:06:22",
-    "NoCustomerAffected": 90,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -85,12 +85,12 @@
       "TN87EA",
       "TN87EB",
       "TN87ED",
-      "TN87JN",
       "TN87EE",
       "TN87EG",
       "TN87EH",
       "TN87EJ",
-      "TN87EL"
+      "TN87EL",
+      "TN87JN"
     ],
     "PostCodesPlanned": [
       "TN39TY",
@@ -103,16 +103,16 @@
       "TN87EA",
       "TN87EB",
       "TN87ED",
-      "TN87JN",
       "TN87EE",
       "TN87EG",
       "TN87EH",
       "TN87EJ",
-      "TN87EL"
+      "TN87EL",
+      "TN87JN"
     ],
-    "CustomersOnSupply": 58,
-    "CustomersOffSupply": 86,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 144,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1453,16 +1453,16 @@
     "TN87EA",
     "TN87EB",
     "TN87ED",
-    "TN87JN",
     "TN87EE",
     "TN87EG",
     "TN87EH",
     "TN87EJ",
-    "TN87EL"
+    "TN87EL",
+    "TN87JN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "03:30 - 04:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
