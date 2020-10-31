@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-238138-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-238138-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-238138-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-31T14:44:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-31T20:14:36.19",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a23aINCD",
     "IncidentReference": "INCD-238138-G",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-31T12:04:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-31T20:14:36.19",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-10-31T17:20:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "TN32 5"
     ],
     "PostCodesRestored": [
-      "TN325QY",
       "TN325QT",
       "TN325QU",
+      "TN325QY",
       "TN325SE"
     ],
     "PostCodesPlanned": [
-      "TN325QY",
       "TN325QT",
       "TN325QU",
+      "TN325QY",
       "TN325SE"
     ],
-    "CustomersOnSupply": 16,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 17,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -503,9 +503,9 @@
     }
   ],
   "FullPostcodeData": [
-    "TN325QY",
     "TN325QT",
     "TN325QU",
+    "TN325QY",
     "TN325SE"
   ],
   "PinLatitude": null,
