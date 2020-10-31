@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-195726-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-195726-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-195726-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-10-31T21:36:16.91",
+      "Message": "Update at 21:35 - Our engineers have now arrived on site in the Stockbreach Road area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe is currently 00:00 and 01:00, but if this is not successful it's possible that a cable repair may be needed, and our timeframe may need to change. We'll keep you updated with all of our progress.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-10-31T20:32:02",
+      "Date": "2020-10-31T20:32:00",
       "Message": "<p>We became aware of a power cut at 20:32. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-31T21:16:07",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-31T21:43:48.503",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002fc8eINCD",
     "IncidentReference": "INCD-195726-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-31T20:36:14",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-31T21:43:48.503",
     "EstimatedRestorationDate": "2020-11-01T00:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-10-31T20:32:02",
+    "ReceivedDate": "2020-10-31T20:32:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-10-31T21:36:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 21:35 - Our engineers have now arrived on site in the Stockbreach Road area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe is currently 00:00 and 01:00, but if this is not successful it's possible that a cable repair may be needed, and our timeframe may need to change. We'll keep you updated with all of our progress.",
+        "LoggedTime": "2020-10-31T21:36:16.91"
+      }
+    ],
     "PostCodesAffected": [
       "AL10 0"
     ],
@@ -74,9 +88,9 @@
       "AL100DH",
       "AL100DJ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 67,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 67,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
