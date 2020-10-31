@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-195433-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-195433-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-195433-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-30T13:42:57",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-10-31T15:24:10.731668+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002fb69INCD",
     "IncidentReference": "INCD-195433-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-30T12:33:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-10-31T15:24:10.731668+00:00",
     "EstimatedRestorationDate": "2020-10-31T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-30T12:33:00",
@@ -73,20 +73,20 @@
       "IP17 1"
     ],
     "PostCodesRestored": [
-      "IP171BZ",
       "IP171BU",
       "IP171BX",
-      "IP171BY"
+      "IP171BY",
+      "IP171BZ"
     ],
     "PostCodesPlanned": [
-      "IP171BZ",
       "IP171BU",
       "IP171BX",
-      "IP171BY"
+      "IP171BY",
+      "IP171BZ"
     ],
     "CustomersOnSupply": 25,
     "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -605,10 +605,10 @@
     }
   ],
   "FullPostcodeData": [
-    "IP171BZ",
     "IP171BU",
     "IP171BX",
-    "IP171BY"
+    "IP171BY",
+    "IP171BZ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
