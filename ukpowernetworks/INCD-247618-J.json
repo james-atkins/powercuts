@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247618-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247618-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247618-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-10-31T20:38:47",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-01T00:48:20.26",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003c742INCD",
     "IncidentReference": "INCD-247618-J",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-31T19:14:56",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-01T00:48:20.26",
     "EstimatedRestorationDate": "2020-11-01T02:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-31T19:13:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -73,7 +73,6 @@
       "E17 9"
     ],
     "PostCodesRestored": [
-      "E179NL",
       "E179GX",
       "E179JS",
       "E179JT",
@@ -82,6 +81,7 @@
       "E179LJ",
       "E179LQ",
       "E179NJ",
+      "E179NL",
       "E179NN",
       "E179NP",
       "E179NQ",
@@ -91,7 +91,6 @@
       "E179QR"
     ],
     "PostCodesPlanned": [
-      "E179NL",
       "E179GX",
       "E179JS",
       "E179JT",
@@ -100,6 +99,7 @@
       "E179LJ",
       "E179LQ",
       "E179NJ",
+      "E179NL",
       "E179NN",
       "E179NP",
       "E179NQ",
@@ -108,9 +108,9 @@
       "E179PA",
       "E179QR"
     ],
-    "CustomersOnSupply": 260,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 267,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -573,7 +573,6 @@
     }
   ],
   "FullPostcodeData": [
-    "E179NL",
     "E179GX",
     "E179JS",
     "E179JT",
@@ -582,6 +581,7 @@
     "E179LJ",
     "E179LQ",
     "E179NJ",
+    "E179NL",
     "E179NN",
     "E179NP",
     "E179NQ",
@@ -592,7 +592,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "02:00 - 03:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
