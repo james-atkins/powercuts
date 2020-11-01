@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-195841-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-195841-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-195841-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-11-01T20:39:31.21",
-      "Message": "Update at 20:38 - Following on from our previous text, the engineers on site are working to locate the fault on our overhead cabling and have advised they'll need more time to restore all power. They're now aiming to have power back on between 23:00 and 00:00. We're very sorry to change the timeframe and we'll keep you updated.",
+      "Date": "2020-11-01T21:13:16.84",
+      "Message": "Update at 21:12 - Our engineers on site have confirmed that they have found a tree which has fallen on an overhead cable and they're now in the process of removing this. At the moment we don't need to change the estimated timeframe.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-01T20:40:41",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-01T21:13:25.96",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002fd01INCD",
     "IncidentReference": "INCD-195841-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-01T18:30:37",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-01T21:13:25.96",
     "EstimatedRestorationDate": "2020-11-01T23:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-01T18:30:33",
-    "NoCustomerAffected": 21,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 19,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-11-01T20:38:00",
+        "ActualEventTime": "2020-11-01T21:12:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 20:38 - Following on from our previous text, the engineers on site are working to locate the fault on our overhead cabling and have advised they'll need more time to restore all power. They're now aiming to have power back on between 23:00 and 00:00. We're very sorry to change the timeframe and we'll keep you updated.",
-        "LoggedTime": "2020-11-01T20:39:31.21"
+        "Comment": "Update at 21:12 - Our engineers on site have confirmed that they have found a tree which has fallen on an overhead cable and they're now in the process of removing this. At the moment we don't need to change the estimated timeframe.",
+        "LoggedTime": "2020-11-01T21:13:16.84"
       }
     ],
     "PostCodesAffected": [
@@ -77,8 +77,6 @@
       "PE29 2"
     ],
     "PostCodesRestored": [
-      "PE189SN",
-      "PE195SN",
       "PE188NF",
       "PE188NQ",
       "PE188PU",
@@ -87,7 +85,9 @@
       "PE188RG",
       "PE188TG",
       "PE188US",
+      "PE189SN",
       "PE189UH",
+      "PE195SN",
       "PE195UH",
       "PE284NE",
       "PE284NF",
@@ -150,8 +150,6 @@
       "PE292AZ"
     ],
     "PostCodesPlanned": [
-      "PE189SN",
-      "PE195SN",
       "PE188NF",
       "PE188NQ",
       "PE188PU",
@@ -160,7 +158,9 @@
       "PE188RG",
       "PE188TG",
       "PE188US",
+      "PE189SN",
       "PE189UH",
+      "PE195SN",
       "PE195UH",
       "PE284NE",
       "PE284NF",
@@ -222,9 +222,9 @@
       "PE292AU",
       "PE292AZ"
     ],
-    "CustomersOnSupply": 883,
-    "CustomersOffSupply": 20,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 903,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1277,8 +1277,6 @@
     }
   ],
   "FullPostcodeData": [
-    "PE189SN",
-    "PE195SN",
     "PE188NF",
     "PE188NQ",
     "PE188PU",
@@ -1287,7 +1285,9 @@
     "PE188RG",
     "PE188TG",
     "PE188US",
+    "PE189SN",
     "PE189UH",
+    "PE195SN",
     "PE195UH",
     "PE284NE",
     "PE284NF",
