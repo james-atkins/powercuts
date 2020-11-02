@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-195890-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-195890-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-195890-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-02T02:36:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-02T05:28:17.023",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002fd32INCD",
     "IncidentReference": "INCD-195890-Z",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-02T01:48:57",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-02T05:28:17.023",
     "EstimatedRestorationDate": "2020-11-02T05:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-02T01:43:00",
-    "NoCustomerAffected": 32,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -64,21 +64,21 @@
       "E46AG",
       "E46ED",
       "E46EE",
-      "E47DJ",
-      "E47AA"
+      "E47AA",
+      "E47DJ"
     ],
     "PostCodesPlanned": [
       "E46AB",
       "E46AG",
       "E46ED",
       "E46EE",
-      "E47DJ",
-      "E47AA"
+      "E47AA",
+      "E47DJ"
     ],
-    "CustomersOnSupply": 63,
-    "CustomersOffSupply": 31,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 94,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1522,12 +1522,12 @@
     "E46AG",
     "E46ED",
     "E46EE",
-    "E47DJ",
-    "E47AA"
+    "E47AA",
+    "E47DJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "04:30 - 05:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
