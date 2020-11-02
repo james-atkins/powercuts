@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-41836-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-41836-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-41836-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-01T22:18:25",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-02T04:08:16.077",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000a36cINCD",
     "IncidentReference": "INCD-41836-V",
     "IncidentCategory": "25",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-01T21:15:20",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-02T04:08:16.077",
     "EstimatedRestorationDate": "2020-11-02T05:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-02T02:40:00",
-    "NoCustomerAffected": 16,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -63,26 +63,26 @@
       "DA99GE",
       "DA99GF",
       "DA99GJ",
-      "DA99XH",
-      "DA99XJ",
       "DA99GN",
       "DA99GX",
-      "DA99GY"
+      "DA99GY",
+      "DA99XH",
+      "DA99XJ"
     ],
     "PostCodesPlanned": [
       "DA99GD",
       "DA99GE",
       "DA99GF",
       "DA99GJ",
-      "DA99XH",
-      "DA99XJ",
       "DA99GN",
       "DA99GX",
-      "DA99GY"
+      "DA99GY",
+      "DA99XH",
+      "DA99XJ"
     ],
-    "CustomersOnSupply": 14,
-    "CustomersOffSupply": 16,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 30,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -413,11 +413,11 @@
     "DA99GE",
     "DA99GF",
     "DA99GJ",
-    "DA99XH",
-    "DA99XJ",
     "DA99GN",
     "DA99GX",
-    "DA99GY"
+    "DA99GY",
+    "DA99XH",
+    "DA99XJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
