@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-196188-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-196188-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-196188-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-02T19:47:31",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-02T22:50:22.2",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002fe5cINCD",
     "IncidentReference": "INCD-196188-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-02T14:56:39",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-02T22:50:22.2",
     "EstimatedRestorationDate": "2020-11-02T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-02T14:56:00",
-    "NoCustomerAffected": 11,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -59,23 +59,23 @@
       "WD5 0"
     ],
     "PostCodesRestored": [
+      "WD50QE",
       "WD50QG",
       "WD50QP",
-      "WD50QR",
-      "WD50QE",
-      "WD50QQ"
+      "WD50QQ",
+      "WD50QR"
     ],
     "PostCodesPlanned": [
+      "WD50QE",
       "WD50QG",
       "WD50QP",
-      "WD50QR",
-      "WD50QE",
-      "WD50QQ"
+      "WD50QQ",
+      "WD50QR"
     ],
-    "CustomersOnSupply": 22,
-    "CustomersOffSupply": 11,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 33,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -489,11 +489,11 @@
     }
   ],
   "FullPostcodeData": [
+    "WD50QE",
     "WD50QG",
     "WD50QP",
-    "WD50QR",
-    "WD50QE",
-    "WD50QQ"
+    "WD50QQ",
+    "WD50QR"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
