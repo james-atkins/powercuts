@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-195899-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-195899-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-195899-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-02T04:27:23",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-02T19:18:01.79",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002fd3bINCD",
     "IncidentReference": "INCD-195899-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-02T03:12:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-02T19:18:01.79",
     "EstimatedRestorationDate": "2020-11-02T19:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-02T03:12:08",
-    "NoCustomerAffected": 22,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 11,
     "Latitude": 0.0,
@@ -77,9 +77,6 @@
       "PE17 5"
     ],
     "PostCodesRestored": [
-      "PE134QZ",
-      "PE134TN",
-      "PE135JT",
       "PE134",
       "PE134AF",
       "PE134AW",
@@ -138,6 +135,7 @@
       "PE134PS",
       "PE134PT",
       "PE134PU",
+      "PE134QZ",
       "PE134RP",
       "PE134RY",
       "PE134RZ",
@@ -148,6 +146,7 @@
       "PE134SN",
       "PE134TJ",
       "PE134TL",
+      "PE134TN",
       "PE134TP",
       "PE134TR",
       "PE135AY",
@@ -186,6 +185,7 @@
       "PE135JQ",
       "PE135JR",
       "PE135JS",
+      "PE135JT",
       "PE135JU",
       "PE135JW",
       "PE135PN",
@@ -198,9 +198,6 @@
       "PE175BP"
     ],
     "PostCodesPlanned": [
-      "PE134QZ",
-      "PE134TN",
-      "PE135JT",
       "PE134",
       "PE134AF",
       "PE134AW",
@@ -259,6 +256,7 @@
       "PE134PS",
       "PE134PT",
       "PE134PU",
+      "PE134QZ",
       "PE134RP",
       "PE134RY",
       "PE134RZ",
@@ -269,6 +267,7 @@
       "PE134SN",
       "PE134TJ",
       "PE134TL",
+      "PE134TN",
       "PE134TP",
       "PE134TR",
       "PE135AY",
@@ -307,6 +306,7 @@
       "PE135JQ",
       "PE135JR",
       "PE135JS",
+      "PE135JT",
       "PE135JU",
       "PE135JW",
       "PE135PN",
@@ -318,10 +318,10 @@
       "PE147RP",
       "PE175BP"
     ],
-    "CustomersOnSupply": 1687,
-    "CustomersOffSupply": 22,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 1709,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -2029,9 +2029,6 @@
     }
   ],
   "FullPostcodeData": [
-    "PE134QZ",
-    "PE134TN",
-    "PE135JT",
     "PE134",
     "PE134AF",
     "PE134AW",
@@ -2090,6 +2087,7 @@
     "PE134PS",
     "PE134PT",
     "PE134PU",
+    "PE134QZ",
     "PE134RP",
     "PE134RY",
     "PE134RZ",
@@ -2100,6 +2098,7 @@
     "PE134SN",
     "PE134TJ",
     "PE134TL",
+    "PE134TN",
     "PE134TP",
     "PE134TR",
     "PE135AY",
@@ -2138,6 +2137,7 @@
     "PE135JQ",
     "PE135JR",
     "PE135JS",
+    "PE135JT",
     "PE135JU",
     "PE135JW",
     "PE135PN",
