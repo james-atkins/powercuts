@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-196499-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-196499-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-196499-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-03T16:19:58",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-03T17:24:39.897",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002ff93INCD",
     "IncidentReference": "INCD-196499-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-03T15:12:02",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-03T17:24:39.897",
     "EstimatedRestorationDate": "2020-11-03T18:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-03T15:10:00",
-    "NoCustomerAffected": 9,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -73,20 +73,20 @@
       "E4 7"
     ],
     "PostCodesRestored": [
+      "E47QB",
       "E47QD",
       "E47RX",
-      "E47RZ",
-      "E47QB"
+      "E47RZ"
     ],
     "PostCodesPlanned": [
+      "E47QB",
       "E47QD",
       "E47RX",
-      "E47RZ",
-      "E47QB"
+      "E47RZ"
     ],
-    "CustomersOnSupply": 18,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 27,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -769,10 +769,10 @@
     }
   ],
   "FullPostcodeData": [
+    "E47QB",
     "E47QD",
     "E47RX",
-    "E47RZ",
-    "E47QB"
+    "E47RZ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
