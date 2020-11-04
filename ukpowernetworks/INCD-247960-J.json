@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-247960-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247960-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247960-J",
   "Steps": [
     {
       "Active": false,
-      "Date": "2020-11-04T12:28:38",
+      "Date": "2020-11-04T12:28:00",
       "Message": "<p>We became aware of a power cut at 12:28. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-04T14:16:09",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-04T15:19:43.163",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003c898INCD",
     "IncidentReference": "INCD-247960-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-04T12:29:26",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-04T15:19:43.163",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2020-11-04T12:28:38",
+    "ReceivedDate": "2020-11-04T12:28:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
@@ -74,9 +74,9 @@
       "N195TX",
       "N195TY"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 75,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 75,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
