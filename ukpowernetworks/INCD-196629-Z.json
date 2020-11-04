@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-196629-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-196629-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-196629-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-04T11:29:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-04T13:00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030015INCD",
     "IncidentReference": "INCD-196629-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-04T10:51:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-04T13:00:00",
     "EstimatedRestorationDate": "2020-11-04T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-04T11:00:00",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "SS2 6"
     ],
     "PostCodesRestored": [
-      "SS26RY",
       "SS26FW",
       "SS26QU",
       "SS26QZ",
@@ -68,12 +67,12 @@
       "SS26RT",
       "SS26RU",
       "SS26RX",
+      "SS26RY",
       "SS26RZ",
       "SS26SA",
       "SS26SP"
     ],
     "PostCodesPlanned": [
-      "SS26RY",
       "SS26FW",
       "SS26QU",
       "SS26QZ",
@@ -82,13 +81,14 @@
       "SS26RT",
       "SS26RU",
       "SS26RX",
+      "SS26RY",
       "SS26RZ",
       "SS26SA",
       "SS26SP"
     ],
-    "CustomersOnSupply": 131,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 137,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -911,7 +911,6 @@
     }
   ],
   "FullPostcodeData": [
-    "SS26RY",
     "SS26FW",
     "SS26QU",
     "SS26QZ",
@@ -920,6 +919,7 @@
     "SS26RT",
     "SS26RU",
     "SS26RX",
+    "SS26RY",
     "SS26RZ",
     "SS26SA",
     "SS26SP"
