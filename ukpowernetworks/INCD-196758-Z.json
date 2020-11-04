@@ -1,9 +1,9 @@
 {
   "IncidentReference": "INCD-196758-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-196758-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-196758-Z",
   "Steps": [
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-04T16:36:00",
       "Message": "<p>We became aware of this power cut at 16:36. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
       "Name": "We are restoring customers automatically"
@@ -11,36 +11,36 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-04T17:13:36.86",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030096INCD",
     "IncidentReference": "INCD-196758-Z",
     "IncidentCategory": "26",
     "IncidentType": 3,
     "IncidentPriority": 2,
-    "StatusId": 0,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-04T16:09:24",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-04T17:13:36.86",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-04T16:36:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -61,11 +61,11 @@
       "CM6 2"
     ],
     "PostCodesRestored": [
-      "CB102TF",
       "CB102SN",
       "CB102SW",
       "CB102SX",
       "CB102TE",
+      "CB102TF",
       "CB102TH",
       "CB102TJ",
       "CB102TL",
@@ -86,11 +86,11 @@
       "CM62RQ"
     ],
     "PostCodesPlanned": [
-      "CB102TF",
       "CB102SN",
       "CB102SW",
       "CB102SX",
       "CB102TE",
+      "CB102TF",
       "CB102TH",
       "CB102TJ",
       "CB102TL",
@@ -110,9 +110,9 @@
       "CM62RH",
       "CM62RQ"
     ],
-    "CustomersOnSupply": 186,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 187,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1162,11 +1162,11 @@
     }
   ],
   "FullPostcodeData": [
-    "CB102TF",
     "CB102SN",
     "CB102SW",
     "CB102SX",
     "CB102TE",
+    "CB102TF",
     "CB102TH",
     "CB102TJ",
     "CB102TL",
