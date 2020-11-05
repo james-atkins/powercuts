@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-42228-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-42228-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-42228-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-05T18:43:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-05T20:06:14.937",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000a4f4INCD",
     "IncidentReference": "INCD-42228-V",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-05T17:27:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-05T20:06:14.937",
     "EstimatedRestorationDate": "2020-11-05T20:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-05T17:23:08",
-    "NoCustomerAffected": 125,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 19,
     "Latitude": 0.0,
@@ -96,9 +96,9 @@
       "RH54QA",
       "RH54QY"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 120,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 120,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },

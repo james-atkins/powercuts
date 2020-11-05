@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-42218-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-42218-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-42218-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-05T16:45:06",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-05T20:07:23.76",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000a4eaINCD",
     "IncidentReference": "INCD-42218-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-05T15:52:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-05T20:07:23.76",
     "EstimatedRestorationDate": "2020-11-05T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-05T15:44:00",
-    "NoCustomerAffected": 49,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "CR0 6"
     ],
     "PostCodesRestored": [
-      "CR06BB",
       "CR06AA",
-      "CR06AB"
+      "CR06AB",
+      "CR06BB"
     ],
     "PostCodesPlanned": [
-      "CR06BB",
       "CR06AA",
-      "CR06AB"
+      "CR06AB",
+      "CR06BB"
     ],
-    "CustomersOnSupply": 2,
-    "CustomersOffSupply": 49,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 51,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -697,9 +697,9 @@
     }
   ],
   "FullPostcodeData": [
-    "CR06BB",
     "CR06AA",
-    "CR06AB"
+    "CR06AB",
+    "CR06BB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
