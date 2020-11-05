@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-248032-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248032-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248032-J",
   "Steps": [
     {
       "Active": false,
@@ -9,38 +9,38 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-05T04:08:46",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2020-11-05T06:01:53",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-05T05:59:59.553",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003c8e0INCD",
     "IncidentReference": "INCD-248032-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-05T03:41:44",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2020-11-05T06:00:00",
+    "RestoredDateTime": "2020-11-05T05:59:59.553",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-05T03:39:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -50,8 +50,8 @@
       "Name": "DANIEL (R5)",
       "EstimatedTimeOfArrival": "2020-11-05T05:30:00",
       "DispatchedDate": "2020-11-05T04:08:46",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2020-11-05T06:01:53",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -64,10 +64,10 @@
     "PostCodesPlanned": [
       "SW32EJ"
     ],
-    "CustomersOnSupply": 2,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 4,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -642,7 +642,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "05:30 - 06:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
