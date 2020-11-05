@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-42183-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-42183-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-42183-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-11-05T12:39:10.773",
-      "Message": "Update at 12:38 - Hi, this is Talie from the UK Power Networks messaging team. Thanks for your patience over today. Our engineers have been in contact with us to let us know that considering the amount of work they have left to complete on the underground cable fault, the estimated timeframe to restore your power is now between 17:30 and 18:30. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
+      "Date": "2020-11-05T13:50:12.867",
+      "Message": "Update at 13:49 - It's Talie from the text messaging team and I'm pleased to inform that we believe our engineers have been able to restore power to all customers in the Park Hill Road area, by diverting power around the underground cable fault. We're sorry it's taken us longer than we expected to restore your power today. Please accept our sincere apologies as we know that it's difficult to be without power for a longer duration, and during the current pandemic this can be especially difficult, but please rest assured that as key workers our staff will continue to work around the clock to keep the lights on. If your power isn't back on, or to talk to us about anything else, call us on 08003163105, free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-05T09:57:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-05T13:47:28.873",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000a4c7INCD",
     "IncidentReference": "INCD-42183-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-05T08:31:47",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-05T13:47:28.873",
     "EstimatedRestorationDate": "2020-11-05T18:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-05T08:30:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-11-05T12:38:00",
+        "ActualEventTime": "2020-11-05T13:49:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 12:38 - Hi, this is Talie from the UK Power Networks messaging team. Thanks for your patience over today. Our engineers have been in contact with us to let us know that considering the amount of work they have left to complete on the underground cable fault, the estimated timeframe to restore your power is now between 17:30 and 18:30. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
-        "LoggedTime": "2020-11-05T12:39:10.773"
+        "Comment": "Update at 13:49 - It's Talie from the text messaging team and I'm pleased to inform that we believe our engineers have been able to restore power to all customers in the Park Hill Road area, by diverting power around the underground cable fault. We're sorry it's taken us longer than we expected to restore your power today. Please accept our sincere apologies as we know that it's difficult to be without power for a longer duration, and during the current pandemic this can be especially difficult, but please rest assured that as key workers our staff will continue to work around the clock to keep the lights on. If your power isn't back on, or to talk to us about anything else, call us on 08003163105, free from landlines and mobiles.",
+        "LoggedTime": "2020-11-05T13:50:12.867"
       }
     ],
     "PostCodesAffected": [
@@ -74,8 +74,6 @@
       "KT17 1"
     ],
     "PostCodesRestored": [
-      "KT171LG",
-      "KT171LQ",
       "GU26JX",
       "KT171JH",
       "KT171JL",
@@ -86,12 +84,12 @@
       "KT171JS",
       "KT171JW",
       "KT171LF",
+      "KT171LG",
       "KT171LH",
-      "KT171LJ"
+      "KT171LJ",
+      "KT171LQ"
     ],
     "PostCodesPlanned": [
-      "KT171LG",
-      "KT171LQ",
       "GU26JX",
       "KT171JH",
       "KT171JL",
@@ -102,12 +100,14 @@
       "KT171JS",
       "KT171JW",
       "KT171LF",
+      "KT171LG",
       "KT171LH",
-      "KT171LJ"
+      "KT171LJ",
+      "KT171LQ"
     ],
-    "CustomersOnSupply": 117,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 121,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -671,8 +671,6 @@
     }
   ],
   "FullPostcodeData": [
-    "KT171LG",
-    "KT171LQ",
     "GU26JX",
     "KT171JH",
     "KT171JL",
@@ -683,8 +681,10 @@
     "KT171JS",
     "KT171JW",
     "KT171LF",
+    "KT171LG",
     "KT171LH",
-    "KT171LJ"
+    "KT171LJ",
+    "KT171LQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
