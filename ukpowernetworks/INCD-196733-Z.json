@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-196733-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-196733-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-196733-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-04T15:47:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-05T01:53:05.557",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003007dINCD",
     "IncidentReference": "INCD-196733-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-04T14:48:39",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-05T01:53:05.557",
     "EstimatedRestorationDate": "2020-11-05T02:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-04T14:46:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 10,
     "Latitude": 0.0,
@@ -73,7 +73,6 @@
       "IP11 7"
     ],
     "PostCodesRestored": [
-      "IP117DD",
       "IP117AJ",
       "IP117AX",
       "IP117AZ",
@@ -83,10 +82,10 @@
       "IP117BZ",
       "IP117DA",
       "IP117DB",
+      "IP117DD",
       "IP117DF"
     ],
     "PostCodesPlanned": [
-      "IP117DD",
       "IP117AJ",
       "IP117AX",
       "IP117AZ",
@@ -96,12 +95,13 @@
       "IP117BZ",
       "IP117DA",
       "IP117DB",
+      "IP117DD",
       "IP117DF"
     ],
-    "CustomersOnSupply": 50,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 51,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -551,7 +551,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IP117DD",
     "IP117AJ",
     "IP117AX",
     "IP117AZ",
@@ -561,6 +560,7 @@
     "IP117BZ",
     "IP117DA",
     "IP117DB",
+    "IP117DD",
     "IP117DF"
   ],
   "PinLatitude": null,
