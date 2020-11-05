@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-197035-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-197035-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-197035-Z",
   "Steps": [
     {
       "Active": false,
@@ -9,7 +9,7 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-05T16:55:11",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
@@ -17,26 +17,26 @@
     {
       "Active": false,
       "Date": "2020-11-05T17:44:34",
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-05T21:53:48.617",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000301abINCD",
     "IncidentReference": "INCD-197035-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-05T15:38:36",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-05T21:53:48.617",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-05T14:33:00",
@@ -59,20 +59,20 @@
       "EN10 7"
     ],
     "PostCodesRestored": [
-      "EN107BS",
       "EN107BB",
       "EN107BT",
-      "EN107BU"
+      "EN107BU",
+      "EN107BS"
     ],
     "PostCodesPlanned": [
-      "EN107BS",
       "EN107BB",
       "EN107BT",
-      "EN107BU"
+      "EN107BU",
+      "EN107BS"
     ],
     "CustomersOnSupply": 26,
     "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -491,10 +491,10 @@
     }
   ],
   "FullPostcodeData": [
-    "EN107BS",
     "EN107BB",
     "EN107BT",
-    "EN107BU"
+    "EN107BU",
+    "EN107BS"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
