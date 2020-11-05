@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-196810-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-196810-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-196810-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-05T01:07:27",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-05T01:40:03.69",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000300caINCD",
     "IncidentReference": "INCD-196810-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-05T00:31:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-05T01:40:03.69",
     "EstimatedRestorationDate": "2020-11-05T04:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-05T00:24:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -60,23 +60,23 @@
     ],
     "PostCodesRestored": [
       "SG137AG",
-      "SG137AQ",
       "SG137AH",
       "SG137AJ",
+      "SG137AQ",
       "SG137AU",
       "SG137JY"
     ],
     "PostCodesPlanned": [
       "SG137AG",
-      "SG137AQ",
       "SG137AH",
       "SG137AJ",
+      "SG137AQ",
       "SG137AU",
       "SG137JY"
     ],
-    "CustomersOnSupply": 102,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 117,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -548,9 +548,9 @@
   ],
   "FullPostcodeData": [
     "SG137AG",
-    "SG137AQ",
     "SG137AH",
     "SG137AJ",
+    "SG137AQ",
     "SG137AU",
     "SG137JY"
   ],
