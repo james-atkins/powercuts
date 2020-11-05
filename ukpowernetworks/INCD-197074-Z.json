@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-197074-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-197074-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-197074-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-11-05T21:34:03.35",
+      "Message": "Update at 21:33 - We have now restored power to the Buckles Lane area. We are truly sorry for the power cuts recently. We know there is an underlying issue causing this, but it is proving difficult for our engineers to locate and therefore fix. To get your power back on today we have reconfigured the local electricity network. This in turn will both help pinpoint the issue and minimise further interruptions. If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-11-05T20:14:00",
@@ -9,38 +15,38 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-05T20:33:24",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2020-11-05T21:37:09",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-05T21:32:42.8",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000301d2INCD",
     "IncidentReference": "INCD-197074-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-05T20:16:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-05T21:32:42.8",
     "EstimatedRestorationDate": "2020-11-05T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-05T20:14:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -50,11 +56,19 @@
       "Name": "PETER",
       "EstimatedTimeOfArrival": "2020-11-05T21:00:00",
       "DispatchedDate": "2020-11-05T20:33:24",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2020-11-05T21:37:09",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-11-05T21:33:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 21:33 - We have now restored power to the Buckles Lane area. We are truly sorry for the power cuts recently. We know there is an underlying issue causing this, but it is proving difficult for our engineers to locate and therefore fix. To get your power back on today we have reconfigured the local electricity network. This in turn will both help pinpoint the issue and minimise further interruptions. If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2020-11-05T21:34:03.35"
+      }
+    ],
     "PostCodesAffected": [
       "RM15 6"
     ],
@@ -64,9 +78,9 @@
     "PostCodesPlanned": [
       "RM156RS"
     ],
-    "CustomersOnSupply": 17,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 20,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
