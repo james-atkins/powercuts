@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-196735-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-196735-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-196735-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-04T17:12:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-05T12:05:59.773",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003007fINCD",
     "IncidentReference": "INCD-196735-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-04T14:49:51",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-05T12:05:59.773",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-04T14:43:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -73,22 +73,22 @@
       "RM12 4"
     ],
     "PostCodesRestored": [
-      "RM124BW",
       "RM124BN",
       "RM124BU",
+      "RM124BW",
       "RM124EF",
       "RM124HS"
     ],
     "PostCodesPlanned": [
-      "RM124BW",
       "RM124BN",
       "RM124BU",
+      "RM124BW",
       "RM124EF",
       "RM124HS"
     ],
-    "CustomersOnSupply": 89,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 92,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -691,9 +691,9 @@
     }
   ],
   "FullPostcodeData": [
-    "RM124BW",
     "RM124BN",
     "RM124BU",
+    "RM124BW",
     "RM124EF",
     "RM124HS"
   ],
