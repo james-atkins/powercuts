@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-238538-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-238538-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-238538-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-11-05T23:09:15.503",
-      "Message": "Update at 23:08 - Our engineers are continuing to progress with the repairs to restore the power as soon as possible. We're very sorry that you've lost power today. If you were not proactively contacted shortly after the power went off, please call us on 08003163105 and we can update the contact information we've received from your energy supplier. With this, we can ensure we proactively contact you in case of any future power cuts, except overnight.",
+      "Date": "2020-11-06T00:08:26.317",
+      "Message": "Update at 00:08 - We can now confirm that all power in the Campbell Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-05T20:51:23",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-06T00:00:15.4",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a3caINCD",
     "IncidentReference": "INCD-238538-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-05T19:59:50",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-06T00:00:15.4",
     "EstimatedRestorationDate": "2020-11-06T00:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-05T19:56:00",
@@ -57,30 +57,22 @@
       "EstimatedTimeOfArrival": "2020-11-05T21:00:00",
       "DispatchedDate": "2020-11-05T20:03:45",
       "ArrivalDate": "2020-11-05T20:51:23",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-11-05T23:08:00",
+        "ActualEventTime": "2020-11-06T00:07:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 23:08 - Our engineers are continuing to progress with the repairs to restore the power as soon as possible. We're very sorry that you've lost power today. If you were not proactively contacted shortly after the power went off, please call us on 08003163105 and we can update the contact information we've received from your energy supplier. With this, we can ensure we proactively contact you in case of any future power cuts, except overnight.",
-        "LoggedTime": "2020-11-05T23:09:15.503"
+        "Comment": "Update at 00:08 - We can now confirm that all power in the Campbell Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-11-06T00:08:26.317"
       }
     ],
     "PostCodesAffected": [
       "DA11 0"
     ],
     "PostCodesRestored": [
-      "DA110JL",
-      "DA110JN",
-      "DA110JP",
-      "DA110JR",
-      "DA110JS",
-      "DA110JW",
-      "DA110JY",
-      "DA110JZ",
       "DA110EL",
       "DA110EP",
       "DA110HX",
@@ -88,17 +80,17 @@
       "DA110JT",
       "DA110JU",
       "DA110RG",
-      "DA110SE"
+      "DA110SE",
+      "DA110JL",
+      "DA110JN",
+      "DA110JP",
+      "DA110JR",
+      "DA110JS",
+      "DA110JW",
+      "DA110JY",
+      "DA110JZ"
     ],
     "PostCodesPlanned": [
-      "DA110JL",
-      "DA110JN",
-      "DA110JP",
-      "DA110JR",
-      "DA110JS",
-      "DA110JW",
-      "DA110JY",
-      "DA110JZ",
       "DA110EL",
       "DA110EP",
       "DA110HX",
@@ -106,11 +98,19 @@
       "DA110JT",
       "DA110JU",
       "DA110RG",
-      "DA110SE"
+      "DA110SE",
+      "DA110JL",
+      "DA110JN",
+      "DA110JP",
+      "DA110JR",
+      "DA110JS",
+      "DA110JW",
+      "DA110JY",
+      "DA110JZ"
     ],
     "CustomersOnSupply": 142,
     "CustomersOffSupply": 66,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -601,14 +601,6 @@
     }
   ],
   "FullPostcodeData": [
-    "DA110JL",
-    "DA110JN",
-    "DA110JP",
-    "DA110JR",
-    "DA110JS",
-    "DA110JW",
-    "DA110JY",
-    "DA110JZ",
     "DA110EL",
     "DA110EP",
     "DA110HX",
@@ -616,7 +608,15 @@
     "DA110JT",
     "DA110JU",
     "DA110RG",
-    "DA110SE"
+    "DA110SE",
+    "DA110JL",
+    "DA110JN",
+    "DA110JP",
+    "DA110JR",
+    "DA110JS",
+    "DA110JW",
+    "DA110JY",
+    "DA110JZ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
