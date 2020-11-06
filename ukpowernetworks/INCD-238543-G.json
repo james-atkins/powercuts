@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-238543-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-238543-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-238543-G",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-06T05:01:55",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-06T05:55:01.673",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a3cfINCD",
     "IncidentReference": "INCD-238543-G",
-    "IncidentCategory": "124",
+    "IncidentCategory": "108",
     "IncidentType": 2,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-06T04:07:24",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-06T05:55:01.673",
     "EstimatedRestorationDate": "2020-11-06T08:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-06T04:05:00",
-    "NoCustomerAffected": 24,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 2,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -70,9 +70,9 @@
       "KT146RS",
       "KT146RT"
     ],
-    "CustomersOnSupply": 11,
-    "CustomersOffSupply": 24,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 35,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -478,7 +478,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "Due to a faulty piece of underground network equipment we had to turn off your power.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "07:30 - 08:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
