@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-42379-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-42379-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-42379-V",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-11-07T18:09:09.617",
+      "Message": "Update at 18:08 - Hi, this is Kevin from the UK Power Networks messaging team. Thanks for your patience over today. Our engineers have been in contact with us to let us know that repair are taking a bit longer than expected.To give them time to do this safely, the estimated timeframe to restore your power is now between 19:00 and 20:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-11-07T14:04:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-07T14:36:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-07T18:10:19.193",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000a58bINCD",
     "IncidentReference": "INCD-42379-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-07T14:06:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-07T18:10:19.193",
     "EstimatedRestorationDate": "2020-11-07T19:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-07T14:04:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-11-07T18:08:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 18:08 - Hi, this is Kevin from the UK Power Networks messaging team. Thanks for your patience over today. Our engineers have been in contact with us to let us know that repair are taking a bit longer than expected.To give them time to do this safely, the estimated timeframe to restore your power is now between 19:00 and 20:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
+        "LoggedTime": "2020-11-07T18:09:09.617"
+      }
+    ],
     "PostCodesAffected": [
       "CT21 6"
     ],
@@ -70,9 +84,9 @@
       "CT216QU",
       "CT216QW"
     ],
-    "CustomersOnSupply": 42,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 51,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
