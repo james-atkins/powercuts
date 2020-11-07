@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-197336-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-197336-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-197336-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-07T08:00:20",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-07T09:28:40.8",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000302d8INCD",
     "IncidentReference": "INCD-197336-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-07T06:58:35",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-07T09:28:40.8",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-07T06:47:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -62,22 +62,22 @@
     ],
     "PostCodesRestored": [
       "WD12HY",
+      "WD12JD",
       "WD172HX",
       "WD172HZ",
-      "WD12JD",
       "WD258WT"
     ],
     "PostCodesPlanned": [
       "WD12HY",
+      "WD12JD",
       "WD172HX",
       "WD172HZ",
-      "WD12JD",
       "WD258WT"
     ],
-    "CustomersOnSupply": 5,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 11,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -803,9 +803,9 @@
   ],
   "FullPostcodeData": [
     "WD12HY",
+    "WD12JD",
     "WD172HX",
     "WD172HZ",
-    "WD12JD",
     "WD258WT"
   ],
   "PinLatitude": null,
