@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-197881-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-197881-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-197881-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-10T05:34:40",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-10T17:56:24.767",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000304f9INCD",
     "IncidentReference": "INCD-197881-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-10T04:38:10",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-10T17:56:24.767",
     "EstimatedRestorationDate": "2020-11-10T19:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-10T04:42:00",
-    "NoCustomerAffected": 35,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 45,
+    "NoCallsReported": 46,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -74,9 +74,6 @@
       "NW2 2"
     ],
     "PostCodesRestored": [
-      "NW21RP",
-      "NW21RS",
-      "NW21RT",
       "NW21HP",
       "NW21HR",
       "NW21HS",
@@ -84,6 +81,9 @@
       "NW21HY",
       "NW21JF",
       "NW21RL",
+      "NW21RP",
+      "NW21RS",
+      "NW21RT",
       "NW21RU",
       "NW21SL",
       "NW21SP",
@@ -92,9 +92,6 @@
       "NW22NR"
     ],
     "PostCodesPlanned": [
-      "NW21RP",
-      "NW21RS",
-      "NW21RT",
       "NW21HP",
       "NW21HR",
       "NW21HS",
@@ -102,6 +99,9 @@
       "NW21HY",
       "NW21JF",
       "NW21RL",
+      "NW21RP",
+      "NW21RS",
+      "NW21RT",
       "NW21RU",
       "NW21SL",
       "NW21SP",
@@ -109,9 +109,9 @@
       "NW22EP",
       "NW22NR"
     ],
-    "CustomersOnSupply": 192,
-    "CustomersOffSupply": 33,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 225,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -824,9 +824,6 @@
     }
   ],
   "FullPostcodeData": [
-    "NW21RP",
-    "NW21RS",
-    "NW21RT",
     "NW21HP",
     "NW21HR",
     "NW21HS",
@@ -834,6 +831,9 @@
     "NW21HY",
     "NW21JF",
     "NW21RL",
+    "NW21RP",
+    "NW21RS",
+    "NW21RT",
     "NW21RU",
     "NW21SL",
     "NW21SP",
