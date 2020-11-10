@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-198042-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-198042-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-198042-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-10T15:30:29",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-10T17:15:24.86",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003059aINCD",
     "IncidentReference": "INCD-198042-Z",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-10T14:23:45",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2020-11-10T18:00:00",
+    "RestoredDateTime": "2020-11-10T17:15:24.86",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-10T15:58:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -73,25 +73,25 @@
       "CO3 8"
     ],
     "PostCodesRestored": [
-      "CO38WL",
       "CO38WA",
       "CO38WB",
       "CO38WD",
       "CO38WH",
+      "CO38WL",
       "CO38WU"
     ],
     "PostCodesPlanned": [
-      "CO38WL",
       "CO38WA",
       "CO38WB",
       "CO38WD",
       "CO38WH",
+      "CO38WL",
       "CO38WU"
     ],
-    "CustomersOnSupply": 114,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 115,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -385,17 +385,17 @@
     }
   ],
   "FullPostcodeData": [
-    "CO38WL",
     "CO38WA",
     "CO38WB",
     "CO38WD",
     "CO38WH",
+    "CO38WL",
     "CO38WU"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We were investigating an electricity cable that was damaged, causing a power cut in the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "17:30 - 18:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
