@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-198218-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-198218-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-198218-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-11T12:27:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-11T13:22:55.507",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003064aINCD",
     "IncidentReference": "INCD-198218-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-11T11:45:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-11T13:22:55.507",
     "EstimatedRestorationDate": "2020-11-11T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-11T11:43:00",
-    "NoCustomerAffected": 62,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -85,9 +85,9 @@
       "N98JB",
       "N98JD",
       "N98JE",
+      "N98JS",
       "N98QS",
-      "N98QY",
-      "N98JS"
+      "N98QY"
     ],
     "PostCodesPlanned": [
       "N90AF",
@@ -100,13 +100,13 @@
       "N98JB",
       "N98JD",
       "N98JE",
+      "N98JS",
       "N98QS",
-      "N98QY",
-      "N98JS"
+      "N98QY"
     ],
-    "CustomersOnSupply": 124,
-    "CustomersOffSupply": 62,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 186,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1575,9 +1575,9 @@
     "N98JB",
     "N98JD",
     "N98JE",
+    "N98JS",
     "N98QS",
-    "N98QY",
-    "N98JS"
+    "N98QY"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
