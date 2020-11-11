@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-238749-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-238749-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-238749-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-10T21:28:36",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-11T01:15:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a49dINCD",
     "IncidentReference": "INCD-238749-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-10T10:55:10",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-11T01:15:00",
     "EstimatedRestorationDate": "2020-11-11T01:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-10T10:59:00",
-    "NoCustomerAffected": 33,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -128,9 +128,9 @@
       "CR78PD",
       "CR78SJ"
     ],
-    "CustomersOnSupply": 353,
-    "CustomersOffSupply": 33,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 386,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
