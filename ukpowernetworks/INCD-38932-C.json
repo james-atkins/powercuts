@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-38932-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-38932-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-38932-C",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-11-11T20:03:48.88",
+      "Message": "Update at 20:03 - We can now confirm that all power in the area should be back on. Our engineers turned off the power for safety following flooding in the area coming into contact with our network equipment in the Falloden Way area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-11-10T17:53:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-10T19:41:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-11T19:56:29.263",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009814INCD",
     "IncidentReference": "INCD-38932-C",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-10T17:56:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-11T19:56:29.263",
     "EstimatedRestorationDate": "2020-11-11T20:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-10T17:53:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 15,
     "Latitude": 0.0,
@@ -54,40 +60,50 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-11-11T20:03:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 20:03 - We can now confirm that all power in the area should be back on. Our engineers turned off the power for safety following flooding in the area coming into contact with our network equipment in the Falloden Way area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-11-11T20:03:48.88"
+      }
+    ],
     "PostCodesAffected": [
       "N2 0",
       "NW11 6"
     ],
     "PostCodesRestored": [
+      "N20DH",
       "N20DS",
       "N20DT",
+      "N20EF",
       "N20ER",
+      "N20FW",
       "NW116EQ",
       "NW116JP",
       "NW116JX",
       "NW116NH",
       "NW116NJ",
-      "N20DH",
-      "N20EF",
-      "N20FW"
+      "NW116SG"
     ],
     "PostCodesPlanned": [
+      "N20DH",
       "N20DS",
       "N20DT",
+      "N20EF",
       "N20ER",
+      "N20FW",
       "NW116EQ",
       "NW116JP",
       "NW116JX",
       "NW116NH",
       "NW116NJ",
-      "N20DH",
-      "N20EF",
-      "N20FW"
+      "NW116SG"
     ],
-    "CustomersOnSupply": 16,
-    "CustomersOffSupply": 52,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 73,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1356,17 +1372,18 @@
     }
   ],
   "FullPostcodeData": [
+    "N20DH",
     "N20DS",
     "N20DT",
+    "N20EF",
     "N20ER",
+    "N20FW",
     "NW116EQ",
     "NW116JP",
     "NW116JX",
     "NW116NH",
     "NW116NJ",
-    "N20DH",
-    "N20EF",
-    "N20FW"
+    "NW116SG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
