@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-238813-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-238813-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-238813-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-11T08:00:51",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-11T17:13:18.053",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a4ddINCD",
     "IncidentReference": "INCD-238813-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-11T06:21:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-11T17:13:18.053",
     "EstimatedRestorationDate": "2020-11-11T17:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-11T06:18:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -73,18 +73,18 @@
       "CR3 5"
     ],
     "PostCodesRestored": [
-      "CR35AL",
       "CR35AF",
+      "CR35AL",
       "CR35BE"
     ],
     "PostCodesPlanned": [
-      "CR35AL",
       "CR35AF",
+      "CR35AL",
       "CR35BE"
     ],
-    "CustomersOnSupply": 35,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 38,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -447,8 +447,8 @@
     }
   ],
   "FullPostcodeData": [
-    "CR35AL",
     "CR35AF",
+    "CR35AL",
     "CR35BE"
   ],
   "PinLatitude": null,
