@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-42795-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-42795-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-42795-V",
   "Steps": [
     {
       "Active": true,
@@ -10,7 +10,7 @@
     },
     {
       "Active": false,
-      "Date": "2020-11-12T19:25:15",
+      "Date": "2020-11-12T19:25:00",
       "Message": "<p>We became aware of a power cut at 19:25. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-12T20:54:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-12T21:41:30.597279+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000a72bINCD",
     "IncidentReference": "INCD-42795-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-12T19:25:40",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-12T21:41:30.597279+00:00",
     "EstimatedRestorationDate": "2020-11-13T00:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-11-12T19:25:15",
-    "NoCustomerAffected": 0,
+    "ReceivedDate": "2020-11-12T19:25:00",
+    "NoCustomerAffected": 33,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 24,
     "Latitude": 0.0,
@@ -85,8 +85,8 @@
       "CR78PY"
     ],
     "CustomersOnSupply": 0,
-    "CustomersOffSupply": 99,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOffSupply": 100,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
