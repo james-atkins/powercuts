@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-198420-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-198420-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-198420-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-12T09:27:21",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-12T10:50:56.847",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030714INCD",
     "IncidentReference": "INCD-198420-Z",
     "IncidentCategory": "125",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-12T09:01:49",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-12T10:50:56.847",
     "EstimatedRestorationDate": "2020-11-12T11:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-12T09:00:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,28 +60,28 @@
       "PE1 3"
     ],
     "PostCodesRestored": [
-      "PE12NA",
-      "PE12PE",
       "PE12DF",
       "PE12LR",
       "PE12LS",
       "PE12LY",
+      "PE12NA",
+      "PE12PE",
       "PE12PN",
       "PE13HA"
     ],
     "PostCodesPlanned": [
-      "PE12NA",
-      "PE12PE",
       "PE12DF",
       "PE12LR",
       "PE12LS",
       "PE12LY",
+      "PE12NA",
+      "PE12PE",
       "PE12PN",
       "PE13HA"
     ],
-    "CustomersOnSupply": 118,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 127,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1286,12 +1286,12 @@
     }
   ],
   "FullPostcodeData": [
-    "PE12NA",
-    "PE12PE",
     "PE12DF",
     "PE12LR",
     "PE12LS",
     "PE12LY",
+    "PE12NA",
+    "PE12PE",
     "PE12PN",
     "PE13HA"
   ],
