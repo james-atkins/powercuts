@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-42744-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-42744-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-42744-V",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-12T13:16:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-12T17:11:45.589883+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000a6f8INCD",
     "IncidentReference": "INCD-42744-V",
     "IncidentCategory": "108",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-12T13:01:49",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-12T17:11:45.589883+00:00",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-12T12:57:17",
@@ -59,6 +59,9 @@
       "BN3 2"
     ],
     "PostCodesRestored": [
+      "BN32NL",
+      "BN32NN",
+      "BN32NP",
       "BN32EB",
       "BN32PB",
       "BN32PD",
@@ -70,12 +73,12 @@
       "BN32PR",
       "BN32PS",
       "BN32PT",
-      "BN32RR",
-      "BN32NL",
-      "BN32NN",
-      "BN32NP"
+      "BN32RR"
     ],
     "PostCodesPlanned": [
+      "BN32NL",
+      "BN32NN",
+      "BN32NP",
       "BN32EB",
       "BN32PB",
       "BN32PD",
@@ -87,15 +90,12 @@
       "BN32PR",
       "BN32PS",
       "BN32PT",
-      "BN32RR",
-      "BN32NL",
-      "BN32NN",
-      "BN32NP"
+      "BN32RR"
     ],
     "CustomersOnSupply": 34,
     "CustomersOffSupply": 226,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -465,6 +465,9 @@
     }
   ],
   "FullPostcodeData": [
+    "BN32NL",
+    "BN32NN",
+    "BN32NP",
     "BN32EB",
     "BN32PB",
     "BN32PD",
@@ -476,10 +479,7 @@
     "BN32PR",
     "BN32PS",
     "BN32PT",
-    "BN32RR",
-    "BN32NL",
-    "BN32NN",
-    "BN32NP"
+    "BN32RR"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
