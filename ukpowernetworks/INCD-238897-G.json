@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-238897-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-238897-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-238897-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-11-11T23:48:12.12",
-      "Message": "Update at 23:47 - We've remotely diverted electricity around the faulty part of the network, restoring power to 34 properties. This leaves 200 properties still affected. We'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
+      "Date": "2020-11-12T00:58:55.603",
+      "Message": "Update at 00:58 - We've managed to restore power to a further 167 supplies by remotely diverting power. There are now 33  properties still affected, so your power may have come on sooner than we originally advised. If you're still off, please don't worry; work on the issue will continue along with SMS updates until everyone is back on. If you want to stop the texts, just send CANCEL to 80876 (standard text fees apply).",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-11T23:07:22",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-12T01:06:25.28",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a531INCD",
     "IncidentReference": "INCD-238897-G",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-11T22:33:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-12T01:06:25.28",
     "EstimatedRestorationDate": "2020-11-12T01:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-11T22:29:52",
-    "NoCustomerAffected": 33,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -62,26 +62,17 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-11-11T23:47:00",
+        "ActualEventTime": "2020-11-12T00:58:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 23:47 - We've remotely diverted electricity around the faulty part of the network, restoring power to 34 properties. This leaves 200 properties still affected. We'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
-        "LoggedTime": "2020-11-11T23:48:12.12"
+        "Comment": "Update at 00:58 - We've managed to restore power to a further 167 supplies by remotely diverting power. There are now 33  properties still affected, so your power may have come on sooner than we originally advised. If you're still off, please don't worry; work on the issue will continue along with SMS updates until everyone is back on. If you want to stop the texts, just send CANCEL to 80876 (standard text fees apply).",
+        "LoggedTime": "2020-11-12T00:58:55.603"
       }
     ],
     "PostCodesAffected": [
       "RH17 6"
     ],
     "PostCodesRestored": [
-      "RH176HS",
-      "RH176JJ",
-      "RH176JL",
-      "RH176PN",
-      "RH176PP",
-      "RH176PS",
-      "RH176PW",
-      "RH176PX",
-      "RH176PY",
       "RH176BF",
       "RH176BJ",
       "RH176BL",
@@ -92,7 +83,10 @@
       "RH176HP",
       "RH176HQ",
       "RH176HR",
+      "RH176HS",
       "RH176HT",
+      "RH176JJ",
+      "RH176JL",
       "RH176JR",
       "RH176JT",
       "RH176JU",
@@ -112,18 +106,15 @@
       "RH176PE",
       "RH176PF",
       "RH176PG",
-      "RH176PL"
+      "RH176PL",
+      "RH176PN",
+      "RH176PP",
+      "RH176PS",
+      "RH176PW",
+      "RH176PX",
+      "RH176PY"
     ],
     "PostCodesPlanned": [
-      "RH176HS",
-      "RH176JJ",
-      "RH176JL",
-      "RH176PN",
-      "RH176PP",
-      "RH176PS",
-      "RH176PW",
-      "RH176PX",
-      "RH176PY",
       "RH176BF",
       "RH176BJ",
       "RH176BL",
@@ -134,7 +125,10 @@
       "RH176HP",
       "RH176HQ",
       "RH176HR",
+      "RH176HS",
       "RH176HT",
+      "RH176JJ",
+      "RH176JL",
       "RH176JR",
       "RH176JT",
       "RH176JU",
@@ -154,12 +148,18 @@
       "RH176PE",
       "RH176PF",
       "RH176PG",
-      "RH176PL"
+      "RH176PL",
+      "RH176PN",
+      "RH176PP",
+      "RH176PS",
+      "RH176PW",
+      "RH176PX",
+      "RH176PY"
     ],
-    "CustomersOnSupply": 370,
-    "CustomersOffSupply": 30,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 400,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -501,15 +501,6 @@
     }
   ],
   "FullPostcodeData": [
-    "RH176HS",
-    "RH176JJ",
-    "RH176JL",
-    "RH176PN",
-    "RH176PP",
-    "RH176PS",
-    "RH176PW",
-    "RH176PX",
-    "RH176PY",
     "RH176BF",
     "RH176BJ",
     "RH176BL",
@@ -520,7 +511,10 @@
     "RH176HP",
     "RH176HQ",
     "RH176HR",
+    "RH176HS",
     "RH176HT",
+    "RH176JJ",
+    "RH176JL",
     "RH176JR",
     "RH176JT",
     "RH176JU",
@@ -540,11 +534,17 @@
     "RH176PE",
     "RH176PF",
     "RH176PG",
-    "RH176PL"
+    "RH176PL",
+    "RH176PN",
+    "RH176PP",
+    "RH176PS",
+    "RH176PW",
+    "RH176PX",
+    "RH176PY"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "01:00 - 02:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
