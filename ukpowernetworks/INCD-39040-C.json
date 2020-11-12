@@ -3,6 +3,12 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-39040-C",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-11-12T20:07:41.597",
+      "Message": "Power cut alert from UK Power Networks. We are letting you know about an unplanned power cut which has caused power to go off unexpectedly, this is affecting 1/3 of properties in your area. If your electricity is off, you can get live updates on our power cut map at <a href=\"http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID].\" target=\"_blank\">http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID].</a> Not all customers will be affected by this and you may have power. If you need extra help or support, please call us on 08003163105.",
+      "Name": null
+    },
+    {
       "Active": false,
       "Date": "2020-11-12T19:08:25",
       "Message": "<p>We became aware of a power cut at 19:08. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
@@ -31,13 +37,13 @@
   "UKPNIncident": {
     "IncidentId": "C00009880INCD",
     "IncidentReference": "INCD-39040-C",
-    "IncidentCategory": "104",
+    "IncidentCategory": "124",
     "IncidentType": 2,
     "IncidentPriority": 2,
     "StatusId": 1,
     "CreationDateTime": "2020-11-12T19:09:34",
     "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "EstimatedRestorationDate": "2020-11-13T00:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-12T19:08:25",
     "NoCustomerAffected": 0,
@@ -54,7 +60,15 @@
       "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-11-12T20:07:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Power cut alert from UK Power Networks. We are letting you know about an unplanned power cut which has caused power to go off unexpectedly, this is affecting 1/3 of properties in your area. If your electricity is off, you can get live updates on our power cut map at http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID]. Not all customers will be affected by this and you may have power. If you need extra help or support, please call us on 08003163105.",
+        "LoggedTime": "2020-11-12T20:07:41.597"
+      }
+    ],
     "PostCodesAffected": [
       "AL2 3"
     ],
@@ -639,8 +653,8 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "Our engineers are currently working to find out what caused this power cut.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "23:30 - 00:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
