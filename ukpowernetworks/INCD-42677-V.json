@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-42677-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-42677-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-42677-V",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-11T19:41:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-12T14:55:03.98",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000a6b5INCD",
     "IncidentReference": "INCD-42677-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-11T17:58:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-12T14:55:03.98",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-11T17:56:00",
@@ -59,24 +59,24 @@
       "ME17 3"
     ],
     "PostCodesRestored": [
-      "ME173JB",
       "ME173DL",
       "ME173DN",
       "ME173DP",
       "ME173DW",
-      "ME173NP"
+      "ME173NP",
+      "ME173JB"
     ],
     "PostCodesPlanned": [
-      "ME173JB",
       "ME173DL",
       "ME173DN",
       "ME173DP",
       "ME173DW",
-      "ME173NP"
+      "ME173NP",
+      "ME173JB"
     ],
     "CustomersOnSupply": 32,
     "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -507,12 +507,12 @@
     }
   ],
   "FullPostcodeData": [
-    "ME173JB",
     "ME173DL",
     "ME173DN",
     "ME173DP",
     "ME173DW",
-    "ME173NP"
+    "ME173NP",
+    "ME173JB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
