@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-198381-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-198381-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-198381-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-11-12T00:48:15.17",
+      "Message": "Update at 00:48 - Engineers have arrived on site in the Temple Gardens area. Using an average timescale for this type of issue, we're looking to have you back on between 02:00 and 03:00. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video <a href=\"https://bit.ly/2y8Dtfz.\" target=\"_blank\">https://bit.ly/2y8Dtfz.</a>",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-11-11T23:45:10",
+      "Date": "2020-11-11T23:45:00",
       "Message": "<p>We became aware of a power cut at 23:45. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-12T00:25:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-12T00:55:36.22",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000306edINCD",
     "IncidentReference": "INCD-198381-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-11T23:45:51",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2020-11-12T00:55:36.22",
+    "EstimatedRestorationDate": "2020-11-12T02:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-11-11T23:45:10",
+    "ReceivedDate": "2020-11-11T23:45:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-11-12T00:47:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 00:48 - Engineers have arrived on site in the Temple Gardens area. Using an average timescale for this type of issue, we're looking to have you back on between 02:00 and 03:00. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video https://bit.ly/2y8Dtfz.",
+        "LoggedTime": "2020-11-12T00:48:15.17"
+      }
+    ],
     "PostCodesAffected": [
       "NW11 0"
     ],
@@ -78,9 +92,9 @@
       "NW110PX",
       "NW110PY"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 89,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 89,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -595,7 +609,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "02:00 - 03:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
