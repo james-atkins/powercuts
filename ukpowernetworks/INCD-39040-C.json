@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-39040-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-39040-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-39040-C",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-12T21:40:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-13T13:43:04.413",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009880INCD",
     "IncidentReference": "INCD-39040-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-12T19:09:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-13T13:43:04.413",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-12T19:08:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -73,18 +73,18 @@
       "AL2 3"
     ],
     "PostCodesRestored": [
-      "AL23TW",
       "AL23QF",
-      "AL23QG"
+      "AL23QG",
+      "AL23TW"
     ],
     "PostCodesPlanned": [
-      "AL23TW",
       "AL23QF",
-      "AL23QG"
+      "AL23QG",
+      "AL23TW"
     ],
-    "CustomersOnSupply": 47,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 49,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -647,9 +647,9 @@
     }
   ],
   "FullPostcodeData": [
-    "AL23TW",
     "AL23QF",
-    "AL23QG"
+    "AL23QG",
+    "AL23TW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
