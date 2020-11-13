@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-248741-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248741-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248741-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-11-13T09:28:19.68",
-      "Message": "Update at 09:26 - Hi, this is Talie from the text messaging team. I know you have been off for a while now and I wanted to let you know I am personally checking this job for you. Our specialist engineers have now assessed the repairs needed to the network and have advised they're aiming to have power restored between 10:30 and 11:30. I'll keep you updated with information as it comes to us.",
+      "Date": "2020-11-13T09:49:08.027",
+      "Message": "Update at 09:48 - It's Talie from the text messaging team and I'm pleased to inform that we believe our engineers have been able to restore power to all customers in the Lille Road area, by diverting power around the underground cable fault. We're sorry it's taken us longer than we expected to restore your power today. Please accept our sincere apologies as we know that it's difficult to be without power for a longer duration, and during the current pandemic this can be especially difficult, but please rest assured that as key workers our staff will continue to work around the clock to keep the lights on. If your power isn't back on, or to talk to us about anything else, call us on 08003163105, free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-13T03:39:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-13T09:45:28.203",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003cba5INCD",
     "IncidentReference": "INCD-248741-J",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-13T02:34:17",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-13T09:45:28.203",
     "EstimatedRestorationDate": "2020-11-13T11:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-13T02:33:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-11-13T09:26:00",
+        "ActualEventTime": "2020-11-13T09:48:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 09:26 - Hi, this is Talie from the text messaging team. I know you have been off for a while now and I wanted to let you know I am personally checking this job for you. Our specialist engineers have now assessed the repairs needed to the network and have advised they're aiming to have power restored between 10:30 and 11:30. I'll keep you updated with information as it comes to us.",
-        "LoggedTime": "2020-11-13T09:28:19.68"
+        "Comment": "Update at 09:48 - It's Talie from the text messaging team and I'm pleased to inform that we believe our engineers have been able to restore power to all customers in the Lille Road area, by diverting power around the underground cable fault. We're sorry it's taken us longer than we expected to restore your power today. Please accept our sincere apologies as we know that it's difficult to be without power for a longer duration, and during the current pandemic this can be especially difficult, but please rest assured that as key workers our staff will continue to work around the clock to keep the lights on. If your power isn't back on, or to talk to us about anything else, call us on 08003163105, free from landlines and mobiles.",
+        "LoggedTime": "2020-11-13T09:49:08.027"
       }
     ],
     "PostCodesAffected": [
@@ -74,18 +74,18 @@
       "SW6 7"
     ],
     "PostCodesRestored": [
-      "SW61UD",
       "SW61NL",
+      "SW61UD",
       "SW67SX"
     ],
     "PostCodesPlanned": [
-      "SW61UD",
       "SW61NL",
+      "SW61UD",
       "SW67SX"
     ],
-    "CustomersOnSupply": 28,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 31,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1326,13 +1326,13 @@
     }
   ],
   "FullPostcodeData": [
-    "SW61UD",
     "SW61NL",
+    "SW61UD",
     "SW67SX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "10:30 - 11:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
