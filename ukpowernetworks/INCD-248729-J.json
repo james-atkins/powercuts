@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-248729-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248729-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248729-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-12T21:33:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-13T16:59:15.603",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003cb99INCD",
     "IncidentReference": "INCD-248729-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-12T20:51:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-13T16:59:15.603",
     "EstimatedRestorationDate": "2020-11-13T18:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-12T20:50:00",
-    "NoCustomerAffected": 8,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,24 +59,24 @@
       "BR1 5"
     ],
     "PostCodesRestored": [
-      "BR15EQ",
       "BR15DR",
       "BR15DT",
       "BR15DX",
       "BR15EH",
-      "BR15EJ"
+      "BR15EJ",
+      "BR15EQ"
     ],
     "PostCodesPlanned": [
-      "BR15EQ",
       "BR15DR",
       "BR15DT",
       "BR15DX",
       "BR15EH",
-      "BR15EJ"
+      "BR15EJ",
+      "BR15EQ"
     ],
-    "CustomersOnSupply": 48,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 56,
+    "CustomersOffSupply": 1,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -763,12 +763,12 @@
     }
   ],
   "FullPostcodeData": [
-    "BR15EQ",
     "BR15DR",
     "BR15DT",
     "BR15DX",
     "BR15EH",
-    "BR15EJ"
+    "BR15EJ",
+    "BR15EQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
