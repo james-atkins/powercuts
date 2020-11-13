@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-198572-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-198572-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-198572-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-13T08:07:25",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-13T09:02:31.103",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000307acINCD",
     "IncidentReference": "INCD-198572-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-13T06:54:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-13T09:02:31.103",
     "EstimatedRestorationDate": "2020-11-13T10:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-13T06:47:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -61,21 +61,21 @@
     ],
     "PostCodesRestored": [
       "LU74FF",
-      "LU78TD",
       "LU74SQ",
       "LU74TA",
-      "LU78FF"
+      "LU78FF",
+      "LU78TD"
     ],
     "PostCodesPlanned": [
       "LU74FF",
-      "LU78TD",
       "LU74SQ",
       "LU74TA",
-      "LU78FF"
+      "LU78FF",
+      "LU78TD"
     ],
-    "CustomersOnSupply": 19,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 21,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -384,10 +384,10 @@
   ],
   "FullPostcodeData": [
     "LU74FF",
-    "LU78TD",
     "LU74SQ",
     "LU74TA",
-    "LU78FF"
+    "LU78FF",
+    "LU78TD"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
