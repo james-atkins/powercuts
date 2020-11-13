@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-248746-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248746-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248746-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-11-13T10:37:50.457",
-      "Message": "Update at 10:37 - Engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the Westway area. We did not know this was going to happen, so timeframes we provide throughout are estimated, and are subject to change. Our estimate is currently between 12:00 and 13:00. After we arrive on site and assess the situation, this time may change. The reason for this is there can sometimes be a more complex underlying issue found from our engineers tests which may take longer, and if there is not we may get power back on sooner. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
+      "Date": "2020-11-13T10:50:07.693",
+      "Message": "Update at 10:49 - We can now confirm that all power in the Westway area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -15,38 +15,38 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-13T10:00:24",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2020-11-13T11:11:03",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-13T10:47:50.733",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003cbaaINCD",
     "IncidentReference": "INCD-248746-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-13T07:25:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-13T10:47:50.733",
     "EstimatedRestorationDate": "2020-11-13T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-13T07:22:00",
-    "NoCustomerAffected": 25,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -56,17 +56,17 @@
       "Name": "DUNCAN",
       "EstimatedTimeOfArrival": "2020-11-13T11:15:00",
       "DispatchedDate": "2020-11-13T10:00:24",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2020-11-13T11:11:03",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-11-13T10:37:00",
+        "ActualEventTime": "2020-11-13T10:49:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:37 - Engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the Westway area. We did not know this was going to happen, so timeframes we provide throughout are estimated, and are subject to change. Our estimate is currently between 12:00 and 13:00. After we arrive on site and assess the situation, this time may change. The reason for this is there can sometimes be a more complex underlying issue found from our engineers tests which may take longer, and if there is not we may get power back on sooner. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
-        "LoggedTime": "2020-11-13T10:37:50.457"
+        "Comment": "Update at 10:49 - We can now confirm that all power in the Westway area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2020-11-13T10:50:07.693"
       }
     ],
     "PostCodesAffected": [
@@ -82,9 +82,9 @@
       "SW209LX",
       "SW209PB"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 75,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 75,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
