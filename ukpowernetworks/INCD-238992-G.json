@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-238992-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-238992-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-238992-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-13T23:27:01",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-14T17:56:10.77",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a590INCD",
     "IncidentReference": "INCD-238992-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-13T19:55:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-14T17:56:10.77",
     "EstimatedRestorationDate": "2020-11-14T19:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-13T19:55:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "KT12 2"
     ],
     "PostCodesRestored": [
-      "KT122HU",
       "KT122DG",
       "KT122DT",
       "KT122DU",
@@ -67,13 +66,13 @@
       "KT122HP",
       "KT122HR",
       "KT122HS",
+      "KT122HU",
       "KT122HX",
       "KT122SA",
       "KT122SF",
       "KT122SG"
     ],
     "PostCodesPlanned": [
-      "KT122HU",
       "KT122DG",
       "KT122DT",
       "KT122DU",
@@ -81,15 +80,16 @@
       "KT122HP",
       "KT122HR",
       "KT122HS",
+      "KT122HU",
       "KT122HX",
       "KT122SA",
       "KT122SF",
       "KT122SG"
     ],
-    "CustomersOnSupply": 144,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 148,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -643,7 +643,6 @@
     }
   ],
   "FullPostcodeData": [
-    "KT122HU",
     "KT122DG",
     "KT122DT",
     "KT122DU",
@@ -651,6 +650,7 @@
     "KT122HP",
     "KT122HR",
     "KT122HS",
+    "KT122HU",
     "KT122HX",
     "KT122SA",
     "KT122SF",
