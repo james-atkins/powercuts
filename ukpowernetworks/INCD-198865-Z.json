@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-198865-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-198865-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-198865-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-15T00:09:04",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-15T00:46:57.33",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000308d1INCD",
     "IncidentReference": "INCD-198865-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-14T22:33:56",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-15T00:46:57.33",
     "EstimatedRestorationDate": "2020-11-15T01:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-14T22:33:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -61,10 +61,10 @@
     ],
     "PostCodesRestored": [
       "WD172AG",
-      "WD172JP",
       "WD172DB",
       "WD172EH",
       "WD172EL",
+      "WD172JP",
       "WD172JR",
       "WD180BH",
       "WD180BT",
@@ -72,18 +72,18 @@
     ],
     "PostCodesPlanned": [
       "WD172AG",
-      "WD172JP",
       "WD172DB",
       "WD172EH",
       "WD172EL",
+      "WD172JP",
       "WD172JR",
       "WD180BH",
       "WD180BT",
       "WD180WH"
     ],
-    "CustomersOnSupply": 43,
-    "CustomersOffSupply": 16,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 59,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1009,10 +1009,10 @@
   ],
   "FullPostcodeData": [
     "WD172AG",
-    "WD172JP",
     "WD172DB",
     "WD172EH",
     "WD172EL",
+    "WD172JP",
     "WD172JR",
     "WD180BH",
     "WD180BT",
