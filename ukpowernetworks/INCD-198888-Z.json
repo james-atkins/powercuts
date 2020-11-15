@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-198888-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-198888-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-198888-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-15T08:56:50",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-15T13:36:55.64",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000308e8INCD",
     "IncidentReference": "INCD-198888-Z",
     "IncidentCategory": "108",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-15T07:51:00",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-15T13:36:55.64",
     "EstimatedRestorationDate": "2020-11-15T14:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-15T07:47:00",
-    "NoCustomerAffected": 21,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 13,
     "Latitude": 0.0,
@@ -75,21 +75,21 @@
     ],
     "PostCodesRestored": [
       "SS177SS",
+      "SS177ST",
       "SS178EW",
       "SS178HD",
-      "SS178HE",
-      "SS177ST"
+      "SS178HE"
     ],
     "PostCodesPlanned": [
       "SS177SS",
+      "SS177ST",
       "SS178EW",
       "SS178HD",
-      "SS178HE",
-      "SS177ST"
+      "SS178HE"
     ],
-    "CustomersOnSupply": 17,
-    "CustomersOffSupply": 21,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 38,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -971,10 +971,10 @@
   ],
   "FullPostcodeData": [
     "SS177SS",
+    "SS177ST",
     "SS178EW",
     "SS178HD",
-    "SS178HE",
-    "SS177ST"
+    "SS178HE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
