@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-198890-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-198890-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-198890-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-15T08:47:42",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-15T09:18:25.663",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000308eaINCD",
     "IncidentReference": "INCD-198890-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-15T08:21:56",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-15T09:18:25.663",
     "EstimatedRestorationDate": "2020-11-15T11:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-15T08:29:00",
     "NoCustomerAffected": 12,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 5,
+    "NoCallsReported": 6,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -73,22 +73,22 @@
       "SS7 1"
     ],
     "PostCodesRestored": [
-      "SS71LF",
       "SS71LB",
       "SS71LE",
       "SS71LH",
-      "SS71LP"
+      "SS71LP",
+      "SS71LF"
     ],
     "PostCodesPlanned": [
-      "SS71LF",
       "SS71LB",
       "SS71LE",
       "SS71LH",
-      "SS71LP"
+      "SS71LP",
+      "SS71LF"
     ],
     "CustomersOnSupply": 50,
     "CustomersOffSupply": 36,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -699,11 +699,11 @@
     }
   ],
   "FullPostcodeData": [
-    "SS71LF",
     "SS71LB",
     "SS71LE",
     "SS71LH",
-    "SS71LP"
+    "SS71LP",
+    "SS71LF"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
