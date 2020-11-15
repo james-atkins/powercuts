@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-43039-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-43039-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-43039-V",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-11-15T17:30:24.587",
+      "Message": "Update at 17:30 - Thanks for bearing with us today. Our engineers are checking our substation equipment to ensure our network is healthy before they attempt to restore your power. They may also walk our cabling route throughout the area to check for any visible problems, check smaller electrical sites in the area, or apply specialist equipment which may restore power temporarily to help them with their testing. We know that with the current pandemic, our customers are more worried now than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. We'll keep you updated on our engineers progress.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-11-15T16:12:38",
+      "Date": "2020-11-15T16:12:00",
       "Message": "<p>We became aware of a power cut at 16:12. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-15T16:58:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-15T17:37:44",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000a81fINCD",
     "IncidentReference": "INCD-43039-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-15T16:15:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-15T17:37:44",
     "EstimatedRestorationDate": "2020-11-15T20:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-11-15T16:12:38",
+    "ReceivedDate": "2020-11-15T16:12:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 11,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-11-15T17:30:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 17:30 - Thanks for bearing with us today. Our engineers are checking our substation equipment to ensure our network is healthy before they attempt to restore your power. They may also walk our cabling route throughout the area to check for any visible problems, check smaller electrical sites in the area, or apply specialist equipment which may restore power temporarily to help them with their testing. We know that with the current pandemic, our customers are more worried now than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. We'll keep you updated on our engineers progress.",
+        "LoggedTime": "2020-11-15T17:30:24.587"
+      }
+    ],
     "PostCodesAffected": [
       "BN16 3"
     ],
@@ -70,9 +84,9 @@
       "BN163RD",
       "BN163RQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 75,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 75,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
