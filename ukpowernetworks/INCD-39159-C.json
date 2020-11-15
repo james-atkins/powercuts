@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-39159-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-39159-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-39159-C",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-11-15T09:22:37.883",
-      "Message": "Power cut alert from UK Power Networks. We are letting you know about an unplanned power cut which has caused power to go off unexpectedly, this is affecting 1/3 of properties in your area. If your electricity is off, you can get live updates on our power cut map at <a href=\"http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID].\" target=\"_blank\">http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID].</a> Not all customers will be affected by this and you may have power. If you need extra help or support, please call us on 08003163105.",
+      "Date": "2020-11-15T10:43:38.73",
+      "Message": "Update at 10:43 - We can now confirm that all power in the Springfield Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2020-11-15T09:05:16",
+      "Date": "2020-11-15T09:05:00",
       "Message": "<p>We became aware of a power cut at 09:05. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-15T09:33:48",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-15T10:33:19.347",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C000098f7INCD",
     "IncidentReference": "INCD-39159-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-15T09:06:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-15T10:33:19.347",
     "EstimatedRestorationDate": "2020-11-15T12:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-11-15T09:05:16",
+    "ReceivedDate": "2020-11-15T09:05:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-11-15T09:22:00",
+        "ActualEventTime": "2020-11-15T10:43:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Power cut alert from UK Power Networks. We are letting you know about an unplanned power cut which has caused power to go off unexpectedly, this is affecting 1/3 of properties in your area. If your electricity is off, you can get live updates on our power cut map at http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID]. Not all customers will be affected by this and you may have power. If you need extra help or support, please call us on 08003163105.",
-        "LoggedTime": "2020-11-15T09:22:37.883"
+        "Comment": "Update at 10:43 - We can now confirm that all power in the Springfield Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-11-15T10:43:38.73"
       }
     ],
     "PostCodesAffected": [
@@ -79,8 +79,8 @@
       "E46ED",
       "E46EE",
       "E47AA",
-      "E47DJ",
-      "E47AJ"
+      "E47AJ",
+      "E47DJ"
     ],
     "PostCodesPlanned": [
       "E46AB",
@@ -88,13 +88,13 @@
       "E46ED",
       "E46EE",
       "E47AA",
-      "E47DJ",
-      "E47AJ"
+      "E47AJ",
+      "E47DJ"
     ],
-    "CustomersOnSupply": 2,
-    "CustomersOffSupply": 95,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 97,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1539,8 +1539,8 @@
     "E46ED",
     "E46EE",
     "E47AA",
-    "E47DJ",
-    "E47AJ"
+    "E47AJ",
+    "E47DJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
