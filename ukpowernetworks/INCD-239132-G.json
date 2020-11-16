@@ -1,9 +1,15 @@
 {
   "IncidentReference": "INCD-239132-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-239132-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-239132-G",
   "Steps": [
     {
       "Active": true,
+      "Date": "2020-11-16T02:55:13.69",
+      "Message": "Update at 02:55 - Thanks for your patience today. Our engineers have now investigate the low hanging overhead cable, and have deemed it safe to restore power back to the Kenardington TN26 area. We're very sorry we had to turn your power off with so little warning. We usually provide much more notice if we need to interrupt power, but in a situation like this our first priority is the safety of the public and our staff. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power is still off or if you have any questions, call our team on 08003163105.",
+      "Name": null
+    },
+    {
+      "Active": false,
       "Date": "2020-11-16T01:36:49",
       "Message": "<p>We became aware of this power cut at 01:36. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
       "Name": "We are restoring customers automatically"
@@ -11,36 +17,36 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-16T02:51:13",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a61cINCD",
     "IncidentReference": "INCD-239132-G",
     "IncidentCategory": "26",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-16T01:36:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-16T02:51:13",
     "EstimatedRestorationDate": "2020-11-16T04:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-16T01:36:49",
-    "NoCustomerAffected": 515,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 0
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-11-16T02:54:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 02:55 - Thanks for your patience today. Our engineers have now investigate the low hanging overhead cable, and have deemed it safe to restore power back to the Kenardington TN26 area. We're very sorry we had to turn your power off with so little warning. We usually provide much more notice if we need to interrupt power, but in a situation like this our first priority is the safety of the public and our staff. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power is still off or if you have any questions, call our team on 08003163105.",
+        "LoggedTime": "2020-11-16T02:55:13.69"
+      }
+    ],
     "PostCodesAffected": [
       "CT11 9",
       "CT16 2",
@@ -165,9 +179,9 @@
       "TN263TW",
       "TN363SS"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 511,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 511,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
