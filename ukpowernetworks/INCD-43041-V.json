@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-43041-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-43041-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-43041-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-11-15T23:32:00.51",
-      "Message": "Update at 23:32 - Engineers are on site to investigate the cause of the voltage issues in the Crosslands Road area. We appreciate that power flickering and lights dimming can be concerning. Usually, this is due to interference with cabling and can sometimes cause network safety equipment to partially operate, meaning not all power is coming through to your property as normal. At the moment our timeframe to have power back on is between 23:00 and 00:30, but once our staff have fully assessed the situation this could change. Also, just to make you aware, in some cases we have to restore power in stages; so it's normal to continue receiving messages for a while even after your power has come back on.",
+      "Date": "2020-11-16T00:00:29.45",
+      "Message": "Update at 00:00 - We can now confirm that all power in the Crosslands area should be back on. The issue was caused by a faulty underground cable, which our engineers repaired. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-15T18:46:51",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-15T23:55:49.097",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000a821INCD",
     "IncidentReference": "INCD-43041-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-15T16:35:48",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-15T23:55:49.097",
     "EstimatedRestorationDate": "2020-11-16T00:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-15T22:40:00",
-    "NoCustomerAffected": 35,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 5,
+    "NoCallsReported": 6,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,17 +62,19 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-11-15T23:30:00",
+        "ActualEventTime": "2020-11-15T23:59:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 23:32 - Engineers are on site to investigate the cause of the voltage issues in the Crosslands Road area. We appreciate that power flickering and lights dimming can be concerning. Usually, this is due to interference with cabling and can sometimes cause network safety equipment to partially operate, meaning not all power is coming through to your property as normal. At the moment our timeframe to have power back on is between 23:00 and 00:30, but once our staff have fully assessed the situation this could change. Also, just to make you aware, in some cases we have to restore power in stages; so it's normal to continue receiving messages for a while even after your power has come back on.",
-        "LoggedTime": "2020-11-15T23:32:00.51"
+        "Comment": "Update at 00:00 - We can now confirm that all power in the Crosslands area should be back on. The issue was caused by a faulty underground cable, which our engineers repaired. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-11-16T00:00:29.45"
       }
     ],
     "PostCodesAffected": [
       "KT19 9"
     ],
     "PostCodesRestored": [
+      "KT199QJ",
+      "KT199QL",
       "KT199RY",
       "KT199RZ",
       "KT199SH",
@@ -81,11 +83,11 @@
       "KT199SR",
       "KT199SS",
       "KT199ST",
-      "KT199SW",
-      "KT199QJ",
-      "KT199QL"
+      "KT199SW"
     ],
     "PostCodesPlanned": [
+      "KT199QJ",
+      "KT199QL",
       "KT199RY",
       "KT199RZ",
       "KT199SH",
@@ -94,13 +96,11 @@
       "KT199SR",
       "KT199SS",
       "KT199ST",
-      "KT199SW",
-      "KT199QJ",
-      "KT199QL"
+      "KT199SW"
     ],
-    "CustomersOnSupply": 69,
-    "CustomersOffSupply": 35,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 104,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -719,6 +719,8 @@
     }
   ],
   "FullPostcodeData": [
+    "KT199QJ",
+    "KT199QL",
     "KT199RY",
     "KT199RZ",
     "KT199SH",
@@ -727,9 +729,7 @@
     "KT199SR",
     "KT199SS",
     "KT199ST",
-    "KT199SW",
-    "KT199QJ",
-    "KT199QL"
+    "KT199SW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
