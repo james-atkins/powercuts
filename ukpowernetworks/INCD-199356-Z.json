@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-199356-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-199356-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-199356-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-17T16:53:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-17T22:15:37.437",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030abcINCD",
     "IncidentReference": "INCD-199356-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-17T16:12:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-17T22:15:37.437",
     "EstimatedRestorationDate": "2020-11-18T01:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-17T16:11:00",
-    "NoCustomerAffected": 131,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 31,
+    "NoCallsReported": 33,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -104,9 +104,9 @@
       "HA89DF",
       "SE93UR"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 131,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 131,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
