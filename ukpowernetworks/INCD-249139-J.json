@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-249139-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-249139-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-249139-J",
   "Steps": [
     {
       "Active": true,
@@ -21,29 +21,29 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-18T01:57:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-18T03:36:37.087",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003cd33INCD",
     "IncidentReference": "INCD-249139-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-18T01:02:10",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2020-11-18T04:00:00",
+    "RestoredDateTime": "2020-11-18T03:36:37.087",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-18T00:54:02",
     "NoCustomerAffected": 0,
@@ -73,8 +73,8 @@
       "W2 1"
     ],
     "PostCodesRestored": [
-      "W21HG",
       "W21BZ",
+      "W21HG",
       "W21JU",
       "W21LE",
       "W21LF",
@@ -84,8 +84,8 @@
       "W21PW"
     ],
     "PostCodesPlanned": [
-      "W21HG",
       "W21BZ",
+      "W21HG",
       "W21JU",
       "W21LE",
       "W21LF",
@@ -94,9 +94,9 @@
       "W21PE",
       "W21PW"
     ],
-    "CustomersOnSupply": 210,
-    "CustomersOffSupply": 70,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 280,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -607,8 +607,8 @@
     }
   ],
   "FullPostcodeData": [
-    "W21HG",
     "W21BZ",
+    "W21HG",
     "W21JU",
     "W21LE",
     "W21LF",
@@ -620,7 +620,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "03:30 - 04:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
