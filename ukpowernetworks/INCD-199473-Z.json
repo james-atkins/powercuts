@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-199473-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-199473-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-199473-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-11-18T12:19:06.34",
+      "Message": "Update at  - We believe our engineers have been able to restore power to all 264 customers in the Harringay N4 area, by diverting power around the faulty underground cable. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-11-18T11:28:10",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-18T11:32:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-18T12:04:33.677",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030b31INCD",
     "IncidentReference": "INCD-199473-Z",
-    "IncidentCategory": "61",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-18T11:29:14",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-18T12:04:33.677",
     "EstimatedRestorationDate": "2020-11-18T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-18T11:28:10",
-    "NoCustomerAffected": 264,
+    "NoCustomerAffected": 3,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-11-18T12:17:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at  - We believe our engineers have been able to restore power to all 264 customers in the Harringay N4 area, by diverting power around the faulty underground cable. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2020-11-18T12:19:06.34"
+      }
+    ],
     "PostCodesAffected": [
       "N4 1"
     ],
@@ -98,9 +112,9 @@
       "N41TG",
       "N41TJ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 261,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 259,
+    "CustomersOffSupply": 2,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -560,7 +574,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "An underground electricity cable faulted on our high voltage network, causing an area wide power cut.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "13:00 - 14:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
