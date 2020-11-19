@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-199611-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-199611-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-199611-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2020-11-19T01:51:59",
+      "Date": "2020-11-19T01:51:00",
       "Message": "<p>We became aware of a power cut at 01:51. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-19T02:24:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-19T02:25:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030bbbINCD",
     "IncidentReference": "INCD-199611-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-19T01:53:56",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-19T02:25:00",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2020-11-19T01:51:59",
+    "ReceivedDate": "2020-11-19T01:51:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
@@ -59,24 +59,24 @@
       "RM15 4"
     ],
     "PostCodesRestored": [
-      "RM154BX",
-      "RM154SD",
-      "RM154SJ",
       "RM154AD",
+      "RM154BX",
       "RM154BY",
-      "RM154HB"
+      "RM154HB",
+      "RM154SD",
+      "RM154SJ"
     ],
     "PostCodesPlanned": [
-      "RM154BX",
-      "RM154SD",
-      "RM154SJ",
       "RM154AD",
+      "RM154BX",
       "RM154BY",
-      "RM154HB"
+      "RM154HB",
+      "RM154SD",
+      "RM154SJ"
     ],
-    "CustomersOnSupply": 60,
-    "CustomersOffSupply": 27,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 87,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -291,12 +291,12 @@
     }
   ],
   "FullPostcodeData": [
-    "RM154BX",
-    "RM154SD",
-    "RM154SJ",
     "RM154AD",
+    "RM154BX",
     "RM154BY",
-    "RM154HB"
+    "RM154HB",
+    "RM154SD",
+    "RM154SJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
