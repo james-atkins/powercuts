@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-239353-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-239353-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-239353-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-11-19T11:57:52.587",
-      "Message": "Update at 11:56 - Our support vehicle is still on Tonford Lane if it can be of help. Businesses usually have back up plans for emergencies, but by clicking this link <a href=\"https://bit.ly/2Y6Z16K\" target=\"_blank\">https://bit.ly/2Y6Z16K</a> you can find some answers to frequently asked questions from business customers. If you are a domestic customer and need further support, please call us on 105. We will get your power back on as soon as we can and will update you when we have more information.",
+      "Date": "2020-11-19T13:10:41.67",
+      "Message": "Update at 13:08 - We can now confirm that all power in the Canterbury area should be back on. Our engineers have diverted power around the fault. However, due to the location and complexity of the issue, we have also used a temporary generator to restore power to the last of the affected properties. This will provide power until our engineers plan in and safely complete the full repair, which may take a few days. We're really sorry for any disruption this caused. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-18T21:38:31",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-19T13:01:39.91",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a6f9INCD",
     "IncidentReference": "INCD-239353-G",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-18T20:48:10",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-19T13:01:39.91",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-18T19:35:32",
-    "NoCustomerAffected": 8,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 47,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-11-19T11:57:00",
+        "ActualEventTime": "2020-11-19T13:08:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 11:56 - Our support vehicle is still on Tonford Lane if it can be of help. Businesses usually have back up plans for emergencies, but by clicking this link https://bit.ly/2Y6Z16K you can find some answers to frequently asked questions from business customers. If you are a domestic customer and need further support, please call us on 105. We will get your power back on as soon as we can and will update you when we have more information.",
-        "LoggedTime": "2020-11-19T11:57:52.587"
+        "Comment": "Update at 13:08 - We can now confirm that all power in the Canterbury area should be back on. Our engineers have diverted power around the fault. However, due to the location and complexity of the issue, we have also used a temporary generator to restore power to the last of the affected properties. This will provide power until our engineers plan in and safely complete the full repair, which may take a few days. We're really sorry for any disruption this caused. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-11-19T13:10:41.67"
       }
     ],
     "PostCodesAffected": [
@@ -78,8 +78,6 @@
       "TW9 4"
     ],
     "PostCodesRestored": [
-      "CT13XU",
-      "CT29BH",
       "CT13NQ",
       "CT13TG",
       "CT13TJ",
@@ -112,9 +110,11 @@
       "CT13XQ",
       "CT13XR",
       "CT13XT",
+      "CT13XU",
       "CT13XW",
       "CT13XY",
       "CT13XZ",
+      "CT29BH",
       "CT47BA",
       "CT47BB",
       "CT47BD",
@@ -131,8 +131,6 @@
       "TW94FA"
     ],
     "PostCodesPlanned": [
-      "CT13XU",
-      "CT29BH",
       "CT13NQ",
       "CT13TG",
       "CT13TJ",
@@ -165,9 +163,11 @@
       "CT13XQ",
       "CT13XR",
       "CT13XT",
+      "CT13XU",
       "CT13XW",
       "CT13XY",
       "CT13XZ",
+      "CT29BH",
       "CT47BA",
       "CT47BB",
       "CT47BD",
@@ -183,10 +183,10 @@
       "TN235FH",
       "TW94FA"
     ],
-    "CustomersOnSupply": 903,
-    "CustomersOffSupply": 8,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 911,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -2850,8 +2850,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CT13XU",
-    "CT29BH",
     "CT13NQ",
     "CT13TG",
     "CT13TJ",
@@ -2884,9 +2882,11 @@
     "CT13XQ",
     "CT13XR",
     "CT13XT",
+    "CT13XU",
     "CT13XW",
     "CT13XY",
     "CT13XZ",
+    "CT29BH",
     "CT47BA",
     "CT47BB",
     "CT47BD",
