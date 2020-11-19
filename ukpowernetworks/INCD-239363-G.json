@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-239363-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-239363-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-239363-G",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-19T06:28:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-19T11:25:25.873",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a703INCD",
     "IncidentReference": "INCD-239363-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-19T04:22:48",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-19T11:25:25.873",
     "EstimatedRestorationDate": "2020-11-19T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-19T03:48:00",
@@ -73,34 +73,34 @@
       "ME15 6"
     ],
     "PostCodesRestored": [
-      "ME156PX",
       "ME156PE",
       "ME156PF",
       "ME156PN",
       "ME156PR",
       "ME156PT",
       "ME156PU",
+      "ME156PX",
       "ME156PY",
       "ME156PZ",
       "ME156QA",
       "ME156TG"
     ],
     "PostCodesPlanned": [
-      "ME156PX",
       "ME156PE",
       "ME156PF",
       "ME156PN",
       "ME156PR",
       "ME156PT",
       "ME156PU",
+      "ME156PX",
       "ME156PY",
       "ME156PZ",
       "ME156QA",
       "ME156TG"
     ],
-    "CustomersOnSupply": 126,
-    "CustomersOffSupply": 32,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 158,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -743,13 +743,13 @@
     }
   ],
   "FullPostcodeData": [
-    "ME156PX",
     "ME156PE",
     "ME156PF",
     "ME156PN",
     "ME156PR",
     "ME156PT",
     "ME156PU",
+    "ME156PX",
     "ME156PY",
     "ME156PZ",
     "ME156QA",
