@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-199828-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-199828-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-199828-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-19T21:39:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-19T22:55:34.12",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030c94INCD",
     "IncidentReference": "INCD-199828-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-19T20:35:49",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-19T22:55:34.12",
     "EstimatedRestorationDate": "2020-11-20T00:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-19T20:33:00",
-    "NoCustomerAffected": 49,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 16,
+    "NoCallsReported": 17,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -74,32 +74,32 @@
       "HA7 4"
     ],
     "PostCodesRestored": [
+      "HA73QD",
       "HA73RG",
+      "HA73SF",
       "HA73SQ",
       "HA73SR",
       "HA73SS",
-      "HA73QD",
-      "HA73SF",
       "HA74FP",
       "HA74FQ",
       "HA74FR",
       "HA74GA"
     ],
     "PostCodesPlanned": [
+      "HA73QD",
       "HA73RG",
+      "HA73SF",
       "HA73SQ",
       "HA73SR",
       "HA73SS",
-      "HA73QD",
-      "HA73SF",
       "HA74FP",
       "HA74FQ",
       "HA74FR",
       "HA74GA"
     ],
-    "CustomersOnSupply": 136,
-    "CustomersOffSupply": 49,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 185,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1564,12 +1564,12 @@
     }
   ],
   "FullPostcodeData": [
+    "HA73QD",
     "HA73RG",
+    "HA73SF",
     "HA73SQ",
     "HA73SR",
     "HA73SS",
-    "HA73QD",
-    "HA73SF",
     "HA74FP",
     "HA74FQ",
     "HA74FR",
