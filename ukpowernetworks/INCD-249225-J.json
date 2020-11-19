@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-249225-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-249225-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-249225-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-19T09:15:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-19T16:50:51.177",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003cd89INCD",
     "IncidentReference": "INCD-249225-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-19T08:48:13",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2020-11-19T17:00:00",
+    "RestoredDateTime": "2020-11-19T16:50:51.177",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-19T08:46:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -62,10 +62,6 @@
       "EC2R 6"
     ],
     "PostCodesRestored": [
-      "EC2M6SE",
-      "EC2R6DA",
-      "EC2R6EJ",
-      "EC2R6EL",
       "EC2M5PS",
       "EC2M5QA",
       "EC2M5QD",
@@ -74,13 +70,13 @@
       "EC2M5QS",
       "EC2M5QY",
       "EC2M5UL",
-      "EC2R5BX"
+      "EC2M6SE",
+      "EC2R5BX",
+      "EC2R6DA",
+      "EC2R6EJ",
+      "EC2R6EL"
     ],
     "PostCodesPlanned": [
-      "EC2M6SE",
-      "EC2R6DA",
-      "EC2R6EJ",
-      "EC2R6EL",
       "EC2M5PS",
       "EC2M5QA",
       "EC2M5QD",
@@ -89,12 +85,16 @@
       "EC2M5QS",
       "EC2M5QY",
       "EC2M5UL",
-      "EC2R5BX"
+      "EC2M6SE",
+      "EC2R5BX",
+      "EC2R6DA",
+      "EC2R6EJ",
+      "EC2R6EL"
     ],
-    "CustomersOnSupply": 96,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 103,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -104,6 +104,67 @@
     "EC2R 6"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 51.51728,
+        "lng": -0.08614
+      },
+      "Coordinates": [
+        {
+          "lat": 51.5174,
+          "lng": -0.08682
+        },
+        {
+          "lat": 51.51744,
+          "lng": -0.08676
+        },
+        {
+          "lat": 51.51779,
+          "lng": -0.08656
+        },
+        {
+          "lat": 51.51779,
+          "lng": -0.08654
+        },
+        {
+          "lat": 51.51781,
+          "lng": -0.08637
+        },
+        {
+          "lat": 51.51775,
+          "lng": -0.08577
+        },
+        {
+          "lat": 51.51752,
+          "lng": -0.08536
+        },
+        {
+          "lat": 51.5172,
+          "lng": -0.08532
+        },
+        {
+          "lat": 51.51688,
+          "lng": -0.08558
+        },
+        {
+          "lat": 51.51694,
+          "lng": -0.086
+        },
+        {
+          "lat": 51.51679,
+          "lng": -0.08613
+        },
+        {
+          "lat": 51.51673,
+          "lng": -0.08686
+        },
+        {
+          "lat": 51.5174,
+          "lng": -0.08682
+        }
+      ],
+      "Postcode": "EC2M 5"
+    },
     {
       "Center": {
         "lat": 51.51847,
@@ -192,6 +253,47 @@
         }
       ],
       "Postcode": "EC2M 6"
+    },
+    {
+      "Center": {
+        "lat": 51.5156,
+        "lng": -0.09016
+      },
+      "Coordinates": [
+        {
+          "lat": 51.51543,
+          "lng": -0.09013
+        },
+        {
+          "lat": 51.51555,
+          "lng": -0.09049
+        },
+        {
+          "lat": 51.51559,
+          "lng": -0.09052
+        },
+        {
+          "lat": 51.5156,
+          "lng": -0.09052
+        },
+        {
+          "lat": 51.51572,
+          "lng": -0.09031
+        },
+        {
+          "lat": 51.51574,
+          "lng": -0.08984
+        },
+        {
+          "lat": 51.51546,
+          "lng": -0.08999
+        },
+        {
+          "lat": 51.51543,
+          "lng": -0.09013
+        }
+      ],
+      "Postcode": "EC2R 5"
     },
     {
       "Center": {
@@ -341,115 +443,9 @@
         }
       ],
       "Postcode": "EC2R 6"
-    },
-    {
-      "Center": {
-        "lat": 51.51728,
-        "lng": -0.08614
-      },
-      "Coordinates": [
-        {
-          "lat": 51.5174,
-          "lng": -0.08682
-        },
-        {
-          "lat": 51.51744,
-          "lng": -0.08676
-        },
-        {
-          "lat": 51.51779,
-          "lng": -0.08656
-        },
-        {
-          "lat": 51.51779,
-          "lng": -0.08654
-        },
-        {
-          "lat": 51.51781,
-          "lng": -0.08637
-        },
-        {
-          "lat": 51.51775,
-          "lng": -0.08577
-        },
-        {
-          "lat": 51.51752,
-          "lng": -0.08536
-        },
-        {
-          "lat": 51.5172,
-          "lng": -0.08532
-        },
-        {
-          "lat": 51.51688,
-          "lng": -0.08558
-        },
-        {
-          "lat": 51.51694,
-          "lng": -0.086
-        },
-        {
-          "lat": 51.51679,
-          "lng": -0.08613
-        },
-        {
-          "lat": 51.51673,
-          "lng": -0.08686
-        },
-        {
-          "lat": 51.5174,
-          "lng": -0.08682
-        }
-      ],
-      "Postcode": "EC2M 5"
-    },
-    {
-      "Center": {
-        "lat": 51.5156,
-        "lng": -0.09016
-      },
-      "Coordinates": [
-        {
-          "lat": 51.51543,
-          "lng": -0.09013
-        },
-        {
-          "lat": 51.51555,
-          "lng": -0.09049
-        },
-        {
-          "lat": 51.51559,
-          "lng": -0.09052
-        },
-        {
-          "lat": 51.5156,
-          "lng": -0.09052
-        },
-        {
-          "lat": 51.51572,
-          "lng": -0.09031
-        },
-        {
-          "lat": 51.51574,
-          "lng": -0.08984
-        },
-        {
-          "lat": 51.51546,
-          "lng": -0.08999
-        },
-        {
-          "lat": 51.51543,
-          "lng": -0.09013
-        }
-      ],
-      "Postcode": "EC2R 5"
     }
   ],
   "FullPostcodeData": [
-    "EC2M6SE",
-    "EC2R6DA",
-    "EC2R6EJ",
-    "EC2R6EL",
     "EC2M5PS",
     "EC2M5QA",
     "EC2M5QD",
@@ -458,12 +454,16 @@
     "EC2M5QS",
     "EC2M5QY",
     "EC2M5UL",
-    "EC2R5BX"
+    "EC2M6SE",
+    "EC2R5BX",
+    "EC2R6DA",
+    "EC2R6EJ",
+    "EC2R6EL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "16:30 - 17:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
