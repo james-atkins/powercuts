@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-249213-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-249213-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-249213-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-19T00:34:31",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-19T01:30:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003cd7dINCD",
     "IncidentReference": "INCD-249213-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-18T23:52:12",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2020-11-19T01:30:00",
+    "EstimatedRestorationDate": "2020-11-19T02:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-18T23:48:00",
-    "NoCustomerAffected": 11,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,12 +59,12 @@
       "SW17 9"
     ],
     "PostCodesRestored": [
-      "SW179JQ",
       "SW179DT",
       "SW179ED",
       "SW179HG",
       "SW179JG",
       "SW179JL",
+      "SW179JQ",
       "SW179LL",
       "SW179NN",
       "SW179QP",
@@ -72,22 +72,22 @@
       "SW179QS"
     ],
     "PostCodesPlanned": [
-      "SW179JQ",
       "SW179DT",
       "SW179ED",
       "SW179HG",
       "SW179JG",
       "SW179JL",
+      "SW179JQ",
       "SW179LL",
       "SW179NN",
       "SW179QP",
       "SW179QR",
       "SW179QS"
     ],
-    "CustomersOnSupply": 165,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 183,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -781,12 +781,12 @@
     }
   ],
   "FullPostcodeData": [
-    "SW179JQ",
     "SW179DT",
     "SW179ED",
     "SW179HG",
     "SW179JG",
     "SW179JL",
+    "SW179JQ",
     "SW179LL",
     "SW179NN",
     "SW179QP",
@@ -796,7 +796,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "01:30 - 02:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
