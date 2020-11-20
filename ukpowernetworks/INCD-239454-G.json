@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-239454-G",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-239454-G",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-239454-G",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-11-20T15:26:38.777",
+      "Message": "Update at 15:26 - Thank you for your patience while our engineers isolated the power in the Fishers Close area to repair a cable that was damaged by another company, we've now restored power to most of the affected properties. There are now only 2 properties without power, who we'll speak to directly. If you're without power and haven't been contacted, then we'll need to hear from you. Please call us on 08003163105 (free from landlines and mobiles). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-11-20T10:34:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2020-11-20T12:31:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2020-11-20T15:11:01.363",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "G0003a75eINCD",
     "IncidentReference": "INCD-239454-G",
     "IncidentCategory": "129",
     "IncidentType": 2,
     "IncidentPriority": 2,
-    "StatusId": 5,
+    "StatusId": 1,
     "CreationDateTime": "2020-11-20T10:35:12",
-    "RestoredDateTime": "2020-11-20T15:11:01.363",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-20T10:34:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 2,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -54,13 +60,21 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-11-20T15:26:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 15:26 - Thank you for your patience while our engineers isolated the power in the Fishers Close area to repair a cable that was damaged by another company, we've now restored power to most of the affected properties. There are now only 2 properties without power, who we'll speak to directly. If you're without power and haven't been contacted, then we'll need to hear from you. Please call us on 08003163105 (free from landlines and mobiles). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2020-11-20T15:26:38.777"
+      }
+    ],
     "PostCodesAffected": [
       "TN12 0"
     ],
     "PostCodesRestored": [
-      "TN120DA",
       "TN120DB",
+      "TN120DA",
       "TN120DD",
       "TN120QH",
       "TN120QJ",
@@ -72,8 +86,8 @@
       "TN120RP"
     ],
     "PostCodesPlanned": [
-      "TN120DA",
       "TN120DB",
+      "TN120DA",
       "TN120DD",
       "TN120QH",
       "TN120QJ",
@@ -84,9 +98,9 @@
       "TN120QX",
       "TN120RP"
     ],
-    "CustomersOnSupply": 69,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "CustomersOnSupply": 67,
+    "CustomersOffSupply": 2,
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -381,8 +395,8 @@
     }
   ],
   "FullPostcodeData": [
-    "TN120DA",
     "TN120DB",
+    "TN120DA",
     "TN120DD",
     "TN120QH",
     "TN120QJ",
