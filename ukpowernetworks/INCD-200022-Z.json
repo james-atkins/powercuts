@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-200022-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-200022-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-200022-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-20T16:49:52",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-20T17:29:17.743",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030d56INCD",
     "IncidentReference": "INCD-200022-Z",
     "IncidentCategory": "127",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-20T15:13:33",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-20T17:29:17.743",
     "EstimatedRestorationDate": "2020-11-20T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-20T15:11:00",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,24 +59,24 @@
       "AL8 6"
     ],
     "PostCodesRestored": [
+      "AL86BQ",
       "AL86NE",
       "AL86NT",
       "AL86PL",
       "AL86PR",
-      "AL86PS",
-      "AL86BQ"
+      "AL86PS"
     ],
     "PostCodesPlanned": [
+      "AL86BQ",
       "AL86NE",
       "AL86NT",
       "AL86PL",
       "AL86PR",
-      "AL86PS",
-      "AL86BQ"
+      "AL86PS"
     ],
-    "CustomersOnSupply": 2,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 20,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -411,12 +411,12 @@
     }
   ],
   "FullPostcodeData": [
+    "AL86BQ",
     "AL86NE",
     "AL86NT",
     "AL86PL",
     "AL86PR",
-    "AL86PS",
-    "AL86BQ"
+    "AL86PS"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
