@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-37174-M",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-37174-M",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-37174-M",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-20T19:24:21",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-20T23:12:31.353",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "M00009136INCD",
     "IncidentReference": "INCD-37174-M",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-20T14:39:55",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-20T23:12:31.353",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-20T16:45:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -61,7 +61,6 @@
       "SE8 5"
     ],
     "PostCodesRestored": [
-      "SE162UN",
       "SE162LS",
       "SE162LU",
       "SE162LW",
@@ -73,12 +72,12 @@
       "SE162NX",
       "SE162NY",
       "SE162UG",
+      "SE162UN",
       "SE162XL",
       "SE167FL",
       "SE85DJ"
     ],
     "PostCodesPlanned": [
-      "SE162UN",
       "SE162LS",
       "SE162LU",
       "SE162LW",
@@ -90,13 +89,14 @@
       "SE162NX",
       "SE162NY",
       "SE162UG",
+      "SE162UN",
       "SE162XL",
       "SE167FL",
       "SE85DJ"
     ],
-    "CustomersOnSupply": 171,
-    "CustomersOffSupply": 30,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 201,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1871,7 +1871,6 @@
     }
   ],
   "FullPostcodeData": [
-    "SE162UN",
     "SE162LS",
     "SE162LU",
     "SE162LW",
@@ -1883,6 +1882,7 @@
     "SE162NX",
     "SE162NY",
     "SE162UG",
+    "SE162UN",
     "SE162XL",
     "SE167FL",
     "SE85DJ"
