@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-239454-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-239454-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-239454-G",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-20T12:31:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-20T17:17:54.94",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a75eINCD",
     "IncidentReference": "INCD-239454-G",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-20T10:35:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-20T17:17:54.94",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-20T10:34:00",
@@ -73,7 +73,6 @@
       "TN12 0"
     ],
     "PostCodesRestored": [
-      "TN120DB",
       "TN120DA",
       "TN120DD",
       "TN120QH",
@@ -83,10 +82,10 @@
       "TN120QT",
       "TN120QU",
       "TN120QX",
-      "TN120RP"
+      "TN120RP",
+      "TN120DB"
     ],
     "PostCodesPlanned": [
-      "TN120DB",
       "TN120DA",
       "TN120DD",
       "TN120QH",
@@ -96,12 +95,13 @@
       "TN120QT",
       "TN120QU",
       "TN120QX",
-      "TN120RP"
+      "TN120RP",
+      "TN120DB"
     ],
     "CustomersOnSupply": 67,
     "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -395,7 +395,6 @@
     }
   ],
   "FullPostcodeData": [
-    "TN120DB",
     "TN120DA",
     "TN120DD",
     "TN120QH",
@@ -405,7 +404,8 @@
     "TN120QT",
     "TN120QU",
     "TN120QX",
-    "TN120RP"
+    "TN120RP",
+    "TN120DB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
