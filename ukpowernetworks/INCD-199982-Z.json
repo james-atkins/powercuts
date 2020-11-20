@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-199982-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-199982-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-199982-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-20T13:44:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-20T22:10:52.08",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030d2eINCD",
     "IncidentReference": "INCD-199982-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-20T12:52:11",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-20T22:10:52.08",
     "EstimatedRestorationDate": "2020-11-20T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-20T12:51:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,28 +59,28 @@
       "NR13 3"
     ],
     "PostCodesRestored": [
-      "NR133TP",
-      "NR133TR",
       "NR133AR",
       "NR133TL",
+      "NR133TP",
+      "NR133TR",
       "NR133TT",
       "NR133TU",
       "NR133TW",
       "NR133UF"
     ],
     "PostCodesPlanned": [
-      "NR133TP",
-      "NR133TR",
       "NR133AR",
       "NR133TL",
+      "NR133TP",
+      "NR133TR",
       "NR133TT",
       "NR133TU",
       "NR133TW",
       "NR133UF"
     ],
-    "CustomersOnSupply": 64,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 69,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -507,10 +507,10 @@
     }
   ],
   "FullPostcodeData": [
-    "NR133TP",
-    "NR133TR",
     "NR133AR",
     "NR133TL",
+    "NR133TP",
+    "NR133TR",
     "NR133TT",
     "NR133TU",
     "NR133TW",
