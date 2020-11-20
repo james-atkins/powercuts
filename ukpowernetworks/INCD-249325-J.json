@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-249325-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-249325-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-249325-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-11-20T10:26:29.527",
-      "Message": "Update at 10:25 - Our engineers have confirmed the issue is with a faulty underground cable. There's a lot of work required on site, so we have decided to use temporary generators to provide power.  Our engineers are awaiting the arrival of the generator. Once it has arrived we'll have a better idea of when your power will be back. It is a priority for us to give you a timeframe and we will do so as soon as we can.",
+      "Date": "2020-11-20T11:11:24.52",
+      "Message": "Update at 11:11 - Our engineers have completed investigations. There's a lot of work required on site, so we have decided to use a temporary generator to provide power. To allow time for us to get the generator out to your area and connect it, we're now estimating we'll have power back on between 13:00 and 14:00. We're sorry to change the timeframe and will let you know when they arrive.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-20T04:47:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-20T10:44:47.293",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003cdedINCD",
     "IncidentReference": "INCD-249325-J",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-20T03:45:28",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-20T10:44:47.293",
     "EstimatedRestorationDate": "2020-11-20T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-20T03:43:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 10,
+    "NoCallsReported": 11,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-11-20T10:19:00",
+        "ActualEventTime": "2020-11-20T11:07:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:25 - Our engineers have confirmed the issue is with a faulty underground cable. There's a lot of work required on site, so we have decided to use temporary generators to provide power.  Our engineers are awaiting the arrival of the generator. Once it has arrived we'll have a better idea of when your power will be back. It is a priority for us to give you a timeframe and we will do so as soon as we can.",
-        "LoggedTime": "2020-11-20T10:26:29.527"
+        "Comment": "Update at 11:11 - Our engineers have completed investigations. There's a lot of work required on site, so we have decided to use a temporary generator to provide power. To allow time for us to get the generator out to your area and connect it, we're now estimating we'll have power back on between 13:00 and 14:00. We're sorry to change the timeframe and will let you know when they arrive.",
+        "LoggedTime": "2020-11-20T11:11:24.52"
       }
     ],
     "PostCodesAffected": [
@@ -94,9 +94,9 @@
       "SE145SA",
       "SE145XQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 122,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 122,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -671,7 +671,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "13:00 - 14:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
