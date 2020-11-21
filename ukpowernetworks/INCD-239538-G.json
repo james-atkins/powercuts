@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-239538-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-239538-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-239538-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-21T07:32:39",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-21T09:07:18.72",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a7b2INCD",
     "IncidentReference": "INCD-239538-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-21T03:50:14",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-21T09:07:18.72",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-21T03:48:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,8 +59,6 @@
       "RH6 8"
     ],
     "PostCodesRestored": [
-      "RH68EH",
-      "RH68ES",
       "RH68AR",
       "RH68AT",
       "RH68BA",
@@ -82,17 +80,17 @@
       "RH68EB",
       "RH68EE",
       "RH68EG",
+      "RH68EH",
       "RH68EJ",
       "RH68EL",
       "RH68EQ",
       "RH68ER",
+      "RH68ES",
       "RH68ET",
       "RH68GG",
       "RH68SD"
     ],
     "PostCodesPlanned": [
-      "RH68EH",
-      "RH68ES",
       "RH68AR",
       "RH68AT",
       "RH68BA",
@@ -114,17 +112,19 @@
       "RH68EB",
       "RH68EE",
       "RH68EG",
+      "RH68EH",
       "RH68EJ",
       "RH68EL",
       "RH68EQ",
       "RH68ER",
+      "RH68ES",
       "RH68ET",
       "RH68GG",
       "RH68SD"
     ],
-    "CustomersOnSupply": 446,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 449,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -459,8 +459,6 @@
     }
   ],
   "FullPostcodeData": [
-    "RH68EH",
-    "RH68ES",
     "RH68AR",
     "RH68AT",
     "RH68BA",
@@ -482,10 +480,12 @@
     "RH68EB",
     "RH68EE",
     "RH68EG",
+    "RH68EH",
     "RH68EJ",
     "RH68EL",
     "RH68EQ",
     "RH68ER",
+    "RH68ES",
     "RH68ET",
     "RH68GG",
     "RH68SD"
