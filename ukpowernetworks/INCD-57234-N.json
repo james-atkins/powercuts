@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-57234-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-57234-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-57234-N",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-21T19:49:39",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-21T22:55:37.817",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000df92INCD",
     "IncidentReference": "INCD-57234-N",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-21T17:56:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-21T22:55:37.817",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-21T17:52:43",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 4,
+    "NoCallsReported": 0,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2020-11-21T19:30:00",
       "DispatchedDate": "2020-11-21T18:51:48",
       "ArrivalDate": "2020-11-21T19:49:39",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -73,21 +73,21 @@
       "SE16 2"
     ],
     "PostCodesRestored": [
-      "SE162QY",
       "SE162AN",
+      "SE162QY",
       "SE162RA",
       "SE162RU"
     ],
     "PostCodesPlanned": [
-      "SE162QY",
       "SE162AN",
+      "SE162QY",
       "SE162RA",
       "SE162RU"
     ],
-    "CustomersOnSupply": 52,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 55,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -609,8 +609,8 @@
     }
   ],
   "FullPostcodeData": [
-    "SE162QY",
     "SE162AN",
+    "SE162QY",
     "SE162RA",
     "SE162RU"
   ],
