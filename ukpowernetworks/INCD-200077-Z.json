@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-200077-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-200077-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-200077-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-20T22:18:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-21T10:21:29.687",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030d8dINCD",
     "IncidentReference": "INCD-200077-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-20T21:00:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-21T10:21:29.687",
     "EstimatedRestorationDate": "2020-11-21T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-20T20:55:00",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 51,
     "Latitude": 0.0,
@@ -74,10 +74,10 @@
       "NW9 8"
     ],
     "PostCodesRestored": [
-      "HA99HJ",
       "HA99HF",
       "HA99HG",
       "HA99HH",
+      "HA99HJ",
       "HA99HL",
       "HA99HN",
       "HA99HQ",
@@ -106,10 +106,10 @@
       "NW98PX"
     ],
     "PostCodesPlanned": [
-      "HA99HJ",
       "HA99HF",
       "HA99HG",
       "HA99HH",
+      "HA99HJ",
       "HA99HL",
       "HA99HN",
       "HA99HQ",
@@ -137,9 +137,9 @@
       "NW98PU",
       "NW98PX"
     ],
-    "CustomersOnSupply": 460,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 466,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1088,10 +1088,10 @@
     }
   ],
   "FullPostcodeData": [
-    "HA99HJ",
     "HA99HF",
     "HA99HG",
     "HA99HH",
+    "HA99HJ",
     "HA99HL",
     "HA99HN",
     "HA99HQ",
