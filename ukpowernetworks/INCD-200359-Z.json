@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-200359-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-200359-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-200359-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-22T20:58:27",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-22T21:43:58.05",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030ea7INCD",
     "IncidentReference": "INCD-200359-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-22T19:58:37",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-22T21:43:58.05",
     "EstimatedRestorationDate": "2020-11-22T23:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-22T20:19:00",
-    "NoCustomerAffected": 21,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
     "Latitude": 0.0,
@@ -83,9 +83,9 @@
       "SS129EN",
       "SS179EN"
     ],
-    "CustomersOnSupply": 20,
-    "CustomersOffSupply": 21,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 41,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
