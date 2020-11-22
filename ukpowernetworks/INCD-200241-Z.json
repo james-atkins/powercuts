@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-200241-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-200241-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-200241-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-22T03:26:47",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-22T14:13:12.507",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030e31INCD",
     "IncidentReference": "INCD-200241-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-22T02:32:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-22T14:13:12.507",
     "EstimatedRestorationDate": "2020-11-22T14:45:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-22T02:31:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "MK44 3"
     ],
     "PostCodesRestored": [
-      "MK443QG",
       "MK443QD",
+      "MK443QG",
       "MK443QQ"
     ],
     "PostCodesPlanned": [
-      "MK443QG",
       "MK443QD",
+      "MK443QG",
       "MK443QQ"
     ],
-    "CustomersOnSupply": 45,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 52,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -617,8 +617,8 @@
     }
   ],
   "FullPostcodeData": [
-    "MK443QG",
     "MK443QD",
+    "MK443QG",
     "MK443QQ"
   ],
   "PinLatitude": null,
