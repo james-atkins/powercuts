@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-200176-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-200176-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-200176-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-21T16:09:25",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-22T03:14:38.263753+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030df0INCD",
     "IncidentReference": "INCD-200176-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-21T15:13:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-22T03:14:38.263753+00:00",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-21T15:09:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 37,
     "Latitude": 0.0,
@@ -73,12 +73,6 @@
       "N18 2"
     ],
     "PostCodesRestored": [
-      "N182DA",
-      "N182EB",
-      "N182ED",
-      "N182EE",
-      "N182LS",
-      "N182QJ",
       "N182BX",
       "N182EF",
       "N182EG",
@@ -88,16 +82,16 @@
       "N182PN",
       "N182QD",
       "N182QE",
+      "N182QJ",
       "N182QP",
-      "N182QR"
+      "N182QR",
+      "N182DA",
+      "N182EB",
+      "N182ED",
+      "N182EE",
+      "N182LS"
     ],
     "PostCodesPlanned": [
-      "N182DA",
-      "N182EB",
-      "N182ED",
-      "N182EE",
-      "N182LS",
-      "N182QJ",
       "N182BX",
       "N182EF",
       "N182EG",
@@ -107,12 +101,18 @@
       "N182PN",
       "N182QD",
       "N182QE",
+      "N182QJ",
       "N182QP",
-      "N182QR"
+      "N182QR",
+      "N182DA",
+      "N182EB",
+      "N182ED",
+      "N182EE",
+      "N182LS"
     ],
-    "CustomersOnSupply": 208,
-    "CustomersOffSupply": 72,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 209,
+    "CustomersOffSupply": 71,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -575,12 +575,6 @@
     }
   ],
   "FullPostcodeData": [
-    "N182DA",
-    "N182EB",
-    "N182ED",
-    "N182EE",
-    "N182LS",
-    "N182QJ",
     "N182BX",
     "N182EF",
     "N182EG",
@@ -590,8 +584,14 @@
     "N182PN",
     "N182QD",
     "N182QE",
+    "N182QJ",
     "N182QP",
-    "N182QR"
+    "N182QR",
+    "N182DA",
+    "N182EB",
+    "N182ED",
+    "N182EE",
+    "N182LS"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
