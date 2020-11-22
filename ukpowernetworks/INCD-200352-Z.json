@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-200352-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-200352-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-200352-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-22T19:44:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-22T23:39:22.113",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030ea0INCD",
     "IncidentReference": "INCD-200352-Z",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-22T18:53:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-22T23:39:22.113",
     "EstimatedRestorationDate": "2020-11-23T00:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-22T18:50:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 19,
     "Latitude": 0.0,
@@ -74,32 +74,32 @@
       "EN3 5"
     ],
     "PostCodesRestored": [
-      "EN13QA",
-      "EN35BA",
       "EN13PQ",
       "EN13PR",
       "EN13PS",
       "EN13PT",
       "EN13PX",
+      "EN13QA",
       "EN13QB",
       "EN13QQ",
+      "EN35BA",
       "EN35BD"
     ],
     "PostCodesPlanned": [
-      "EN13QA",
-      "EN35BA",
       "EN13PQ",
       "EN13PR",
       "EN13PS",
       "EN13PT",
       "EN13PX",
+      "EN13QA",
       "EN13QB",
       "EN13QQ",
+      "EN35BA",
       "EN35BD"
     ],
-    "CustomersOnSupply": 150,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 153,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1356,15 +1356,15 @@
     }
   ],
   "FullPostcodeData": [
-    "EN13QA",
-    "EN35BA",
     "EN13PQ",
     "EN13PR",
     "EN13PS",
     "EN13PT",
     "EN13PX",
+    "EN13QA",
     "EN13QB",
     "EN13QQ",
+    "EN35BA",
     "EN35BD"
   ],
   "PinLatitude": null,
