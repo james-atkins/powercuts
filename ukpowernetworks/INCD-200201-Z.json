@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-200201-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-200201-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-200201-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-11-22T00:43:56.913",
-      "Message": "Update at 00:43 - This is Aaron from the messaging team. Our engineers have just called in to advise us they need longer than first advised to complete the repairs. Unfortunately, it's going to take us past our current timeframe to complete this safely, so we're now working towards between 01:30 and 02:30 to have power back on. We can appreciate how frustrating and disruptive being without power can be, and our staff are working as fast as they can. If you have any questions or concerns, call our team anytime on 08003163105. I'll let you know further news as it comes in from site.",
+      "Date": "2020-11-22T01:50:39.633",
+      "Message": "Update at 01:50 - Hi, Aaron again. We wanted to let you know that we will continue to send text messages throughout the night with progress updates. If you want to continue receiving updates but prefer not to be disturbed, you can place your phone on silent or activate the Do Not Disturb settings on smart phones. If you no longer want to receive updates, please text CANCEL to 80876 (standard text fees apply). Thank you.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-21T19:57:17",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-22T02:12:28.073",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030e09INCD",
     "IncidentReference": "INCD-200201-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-21T18:37:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-22T02:12:28.073",
     "EstimatedRestorationDate": "2020-11-22T02:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-21T18:37:20",
-    "NoCustomerAffected": 45,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-11-22T00:42:00",
+        "ActualEventTime": "2020-11-22T01:49:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 00:43 - This is Aaron from the messaging team. Our engineers have just called in to advise us they need longer than first advised to complete the repairs. Unfortunately, it's going to take us past our current timeframe to complete this safely, so we're now working towards between 01:30 and 02:30 to have power back on. We can appreciate how frustrating and disruptive being without power can be, and our staff are working as fast as they can. If you have any questions or concerns, call our team anytime on 08003163105. I'll let you know further news as it comes in from site.",
-        "LoggedTime": "2020-11-22T00:43:56.913"
+        "Comment": "Update at 01:50 - Hi, Aaron again. We wanted to let you know that we will continue to send text messages throughout the night with progress updates. If you want to continue receiving updates but prefer not to be disturbed, you can place your phone on silent or activate the Do Not Disturb settings on smart phones. If you no longer want to receive updates, please text CANCEL to 80876 (standard text fees apply). Thank you.",
+        "LoggedTime": "2020-11-22T01:50:39.633"
       }
     ],
     "PostCodesAffected": [
@@ -80,7 +80,6 @@
       "IP214LN",
       "IP214LP",
       "IP214LQ",
-      "IP215LF",
       "IP214LS",
       "IP214LT",
       "IP214LU",
@@ -93,6 +92,7 @@
       "IP215BY",
       "IP215DF",
       "IP215HN",
+      "IP215LF",
       "IP215QZ",
       "IP215RA",
       "IP215RB",
@@ -109,7 +109,6 @@
       "IP214LN",
       "IP214LP",
       "IP214LQ",
-      "IP215LF",
       "IP214LS",
       "IP214LT",
       "IP214LU",
@@ -122,6 +121,7 @@
       "IP215BY",
       "IP215DF",
       "IP215HN",
+      "IP215LF",
       "IP215QZ",
       "IP215RA",
       "IP215RB",
@@ -133,10 +133,10 @@
       "IP237JR",
       "IP238AE"
     ],
-    "CustomersOnSupply": 190,
-    "CustomersOffSupply": 42,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 232,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1732,7 +1732,6 @@
     "IP214LN",
     "IP214LP",
     "IP214LQ",
-    "IP215LF",
     "IP214LS",
     "IP214LT",
     "IP214LU",
@@ -1745,6 +1744,7 @@
     "IP215BY",
     "IP215DF",
     "IP215HN",
+    "IP215LF",
     "IP215QZ",
     "IP215RA",
     "IP215RB",
