@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-200266-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-200266-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-200266-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-22T10:02:11",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-22T10:36:48.614611+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030e4aINCD",
     "IncidentReference": "INCD-200266-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-22T09:37:10",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-22T10:36:48.614611+00:00",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-22T09:34:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,30 +60,30 @@
       "CO9 9"
     ],
     "PostCodesRestored": [
-      "CO79EX",
-      "CO79EZ",
-      "CO79HA",
       "CO79ET",
       "CO79EU",
       "CO79GD",
       "CO79HD",
       "CO79WP",
-      "CO99EN"
+      "CO99EN",
+      "CO79EX",
+      "CO79EZ",
+      "CO79HA"
     ],
     "PostCodesPlanned": [
-      "CO79EX",
-      "CO79EZ",
-      "CO79HA",
       "CO79ET",
       "CO79EU",
       "CO79GD",
       "CO79HD",
       "CO79WP",
-      "CO99EN"
+      "CO99EN",
+      "CO79EX",
+      "CO79EZ",
+      "CO79HA"
     ],
-    "CustomersOnSupply": 20,
-    "CustomersOffSupply": 13,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 24,
+    "CustomersOffSupply": 9,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -299,15 +299,15 @@
     }
   ],
   "FullPostcodeData": [
-    "CO79EX",
-    "CO79EZ",
-    "CO79HA",
     "CO79ET",
     "CO79EU",
     "CO79GD",
     "CO79HD",
     "CO79WP",
-    "CO99EN"
+    "CO99EN",
+    "CO79EX",
+    "CO79EZ",
+    "CO79HA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
