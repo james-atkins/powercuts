@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-39496-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-39496-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-39496-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-23T16:34:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-23T22:22:18.767",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009a48INCD",
     "IncidentReference": "INCD-39496-C",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-23T15:12:58",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-23T22:22:18.767",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-23T15:11:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -60,27 +60,27 @@
     ],
     "PostCodesRestored": [
       "CM144AT",
-      "CM144JS",
-      "CM144SD",
-      "CM144TE",
       "CM144AU",
       "CM144JR",
+      "CM144JS",
       "CM144JX",
-      "CM144TB"
+      "CM144SD",
+      "CM144TB",
+      "CM144TE"
     ],
     "PostCodesPlanned": [
       "CM144AT",
-      "CM144JS",
-      "CM144SD",
-      "CM144TE",
       "CM144AU",
       "CM144JR",
+      "CM144JS",
       "CM144JX",
-      "CM144TB"
+      "CM144SD",
+      "CM144TB",
+      "CM144TE"
     ],
-    "CustomersOnSupply": 55,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 64,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -640,13 +640,13 @@
   ],
   "FullPostcodeData": [
     "CM144AT",
-    "CM144JS",
-    "CM144SD",
-    "CM144TE",
     "CM144AU",
     "CM144JR",
+    "CM144JS",
     "CM144JX",
-    "CM144TB"
+    "CM144SD",
+    "CM144TB",
+    "CM144TE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
