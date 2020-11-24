@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-200843-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-200843-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-200843-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-24T19:48:06",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-24T20:28:51.86",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003108bINCD",
     "IncidentReference": "INCD-200843-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-24T19:27:48",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-24T20:28:51.86",
     "EstimatedRestorationDate": "2020-11-24T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-24T19:27:07",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 20,
+    "NoCallsReported": 21,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -75,26 +75,26 @@
     "PostCodesRestored": [
       "LU32BA",
       "LU32BB",
+      "LU32HF",
       "LU32HG",
       "LU32HQ",
       "LU32HY",
       "LU32HZ",
-      "LU32JA",
-      "LU32HF"
+      "LU32JA"
     ],
     "PostCodesPlanned": [
       "LU32BA",
       "LU32BB",
+      "LU32HF",
       "LU32HG",
       "LU32HQ",
       "LU32HY",
       "LU32HZ",
-      "LU32JA",
-      "LU32HF"
+      "LU32JA"
     ],
-    "CustomersOnSupply": 208,
-    "CustomersOffSupply": 108,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 316,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -747,12 +747,12 @@
   "FullPostcodeData": [
     "LU32BA",
     "LU32BB",
+    "LU32HF",
     "LU32HG",
     "LU32HQ",
     "LU32HY",
     "LU32HZ",
-    "LU32JA",
-    "LU32HF"
+    "LU32JA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
