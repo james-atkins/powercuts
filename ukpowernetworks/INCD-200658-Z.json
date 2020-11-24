@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-200658-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-200658-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-200658-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-24T10:41:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-24T13:18:36.783",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030fd2INCD",
     "IncidentReference": "INCD-200658-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-24T09:38:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-24T13:18:36.783",
     "EstimatedRestorationDate": "2020-11-24T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-24T09:33:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -63,20 +63,20 @@
       "N64PH",
       "N64PP",
       "N64PR",
-      "N64SA",
-      "N64RU"
+      "N64RU",
+      "N64SA"
     ],
     "PostCodesPlanned": [
       "N64PD",
       "N64PH",
       "N64PP",
       "N64PR",
-      "N64SA",
-      "N64RU"
+      "N64RU",
+      "N64SA"
     ],
-    "CustomersOnSupply": 2,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 12,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -519,8 +519,8 @@
     "N64PH",
     "N64PP",
     "N64PR",
-    "N64SA",
-    "N64RU"
+    "N64RU",
+    "N64SA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
