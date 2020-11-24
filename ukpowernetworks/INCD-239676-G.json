@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-239676-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-239676-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-239676-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-24T00:46:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-24T16:22:04.67",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a83cINCD",
     "IncidentReference": "INCD-239676-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-24T00:01:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-24T16:22:04.67",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-23T23:57:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 33,
     "Latitude": 0.0,
@@ -73,7 +73,6 @@
       "DA12 5"
     ],
     "PostCodesRestored": [
-      "DA125QG",
       "DA125FH",
       "DA125HP",
       "DA125HQ",
@@ -89,12 +88,12 @@
       "DA125PX",
       "DA125QE",
       "DA125QF",
+      "DA125QG",
       "DA125QP",
       "DA125QQ",
       "DA125QW"
     ],
     "PostCodesPlanned": [
-      "DA125QG",
       "DA125FH",
       "DA125HP",
       "DA125HQ",
@@ -110,14 +109,15 @@
       "DA125PX",
       "DA125QE",
       "DA125QF",
+      "DA125QG",
       "DA125QP",
       "DA125QQ",
       "DA125QW"
     ],
-    "CustomersOnSupply": 294,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 295,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -639,7 +639,6 @@
     }
   ],
   "FullPostcodeData": [
-    "DA125QG",
     "DA125FH",
     "DA125HP",
     "DA125HQ",
@@ -655,6 +654,7 @@
     "DA125PX",
     "DA125QE",
     "DA125QF",
+    "DA125QG",
     "DA125QP",
     "DA125QQ",
     "DA125QW"
