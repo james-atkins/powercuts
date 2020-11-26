@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-239799-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-239799-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-239799-G",
   "Steps": [
     {
       "Active": false,
-      "Date": "2020-11-25T23:42:18",
-      "Message": "<p>We became aware of a power cut at 23:42. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2020-11-25T03:09:00",
+      "Message": "<p>We became aware of a power cut at 03:09. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-26T07:17:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-26T10:59:02.317",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a8b7INCD",
     "IncidentReference": "INCD-239799-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-25T23:44:35",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-26T10:59:02.317",
     "EstimatedRestorationDate": "2020-11-26T10:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-11-25T23:42:18",
+    "ReceivedDate": "2020-11-25T03:09:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -59,7 +59,6 @@
       "CT21 6"
     ],
     "PostCodesRestored": [
-      "CT216DR",
       "CT216BT",
       "CT216BU",
       "CT216BX",
@@ -67,6 +66,7 @@
       "CT216DF",
       "CT216DP",
       "CT216DQ",
+      "CT216DR",
       "CT216DS",
       "CT216DX",
       "CT216EA",
@@ -74,7 +74,6 @@
       "CT216HD"
     ],
     "PostCodesPlanned": [
-      "CT216DR",
       "CT216BT",
       "CT216BU",
       "CT216BX",
@@ -82,15 +81,16 @@
       "CT216DF",
       "CT216DP",
       "CT216DQ",
+      "CT216DR",
       "CT216DS",
       "CT216DX",
       "CT216EA",
       "CT216HA",
       "CT216HD"
     ],
-    "CustomersOnSupply": 100,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 107,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -509,7 +509,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CT216DR",
     "CT216BT",
     "CT216BU",
     "CT216BX",
@@ -517,6 +516,7 @@
     "CT216DF",
     "CT216DP",
     "CT216DQ",
+    "CT216DR",
     "CT216DS",
     "CT216DX",
     "CT216EA",
