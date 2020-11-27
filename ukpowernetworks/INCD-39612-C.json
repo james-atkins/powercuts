@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-39612-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-39612-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-39612-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-27T09:27:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-27T11:17:26.64",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009abcINCD",
     "IncidentReference": "INCD-39612-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-27T08:47:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-27T11:17:26.64",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-27T08:46:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,26 +60,26 @@
       "AL10 8"
     ],
     "PostCodesRestored": [
-      "AL100EY",
       "AL100ET",
       "AL100EW",
+      "AL100EY",
       "AL100EZ",
       "AL100HE",
       "AL100HJ",
       "AL108HU"
     ],
     "PostCodesPlanned": [
-      "AL100EY",
       "AL100ET",
       "AL100EW",
+      "AL100EY",
       "AL100EZ",
       "AL100HE",
       "AL100HJ",
       "AL108HU"
     ],
-    "CustomersOnSupply": 45,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 46,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1124,9 +1124,9 @@
     }
   ],
   "FullPostcodeData": [
-    "AL100EY",
     "AL100ET",
     "AL100EW",
+    "AL100EY",
     "AL100EZ",
     "AL100HE",
     "AL100HJ",
