@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-201376-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-201376-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-201376-Z",
   "Steps": [
     {
       "Active": true,
@@ -10,7 +10,7 @@
     },
     {
       "Active": false,
-      "Date": "2020-11-27T07:32:44",
+      "Date": "2020-11-27T07:32:00",
       "Message": "<p>We became aware of a power cut at 07:32. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-27T07:55:19",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-27T10:45:40.177",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000312a0INCD",
     "IncidentReference": "INCD-201376-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-27T07:35:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-27T10:45:40.177",
     "EstimatedRestorationDate": "2020-11-27T10:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-11-27T07:32:44",
+    "ReceivedDate": "2020-11-27T07:32:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 33,
@@ -77,6 +77,7 @@
       "RM77DA",
       "RM77DB",
       "RM77DD",
+      "RM77DS",
       "RM77DT",
       "RM77HL",
       "RM77HR",
@@ -85,14 +86,14 @@
       "RM77JA",
       "RM77JE",
       "RM77LJ",
-      "RM77LL",
-      "RM77DS"
+      "RM77LL"
     ],
     "PostCodesPlanned": [
       "RM77BX",
       "RM77DA",
       "RM77DB",
       "RM77DD",
+      "RM77DS",
       "RM77DT",
       "RM77HL",
       "RM77HR",
@@ -101,12 +102,11 @@
       "RM77JA",
       "RM77JE",
       "RM77LJ",
-      "RM77LL",
-      "RM77DS"
+      "RM77LL"
     ],
-    "CustomersOnSupply": 7,
-    "CustomersOffSupply": 256,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 263,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -437,6 +437,7 @@
     "RM77DA",
     "RM77DB",
     "RM77DD",
+    "RM77DS",
     "RM77DT",
     "RM77HL",
     "RM77HR",
@@ -445,8 +446,7 @@
     "RM77JA",
     "RM77JE",
     "RM77LJ",
-    "RM77LL",
-    "RM77DS"
+    "RM77LL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
