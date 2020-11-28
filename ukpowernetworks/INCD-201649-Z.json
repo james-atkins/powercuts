@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-201649-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-201649-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-201649-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-28T13:05:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-28T20:30:20.967",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000313b1INCD",
     "IncidentReference": "INCD-201649-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-28T12:07:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-28T20:30:20.967",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-28T12:05:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "AL6 0"
     ],
     "PostCodesRestored": [
-      "AL60LA",
       "AL60HZ",
       "AL60JJ",
       "AL60JR",
@@ -69,10 +68,10 @@
       "AL60JX",
       "AL60JY",
       "AL60JZ",
+      "AL60LA",
       "AL60LB"
     ],
     "PostCodesPlanned": [
-      "AL60LA",
       "AL60HZ",
       "AL60JJ",
       "AL60JR",
@@ -82,12 +81,13 @@
       "AL60JX",
       "AL60JY",
       "AL60JZ",
+      "AL60LA",
       "AL60LB"
     ],
-    "CustomersOnSupply": 119,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 121,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -561,7 +561,6 @@
     }
   ],
   "FullPostcodeData": [
-    "AL60LA",
     "AL60HZ",
     "AL60JJ",
     "AL60JR",
@@ -571,6 +570,7 @@
     "AL60JX",
     "AL60JY",
     "AL60JZ",
+    "AL60LA",
     "AL60LB"
   ],
   "PinLatitude": null,
