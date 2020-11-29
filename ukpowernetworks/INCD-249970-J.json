@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-249970-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-249970-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-249970-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-29T07:48:19",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-29T08:45:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003d072INCD",
     "IncidentReference": "INCD-249970-J",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-29T07:46:11",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-29T08:45:00",
     "EstimatedRestorationDate": "2020-11-29T09:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-29T08:20:00",
-    "NoCustomerAffected": 41,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -73,8 +73,6 @@
       "IG8 0"
     ],
     "PostCodesRestored": [
-      "IG80TL",
-      "IG80TN",
       "IG80FD",
       "IG80RD",
       "IG80RE",
@@ -86,6 +84,8 @@
       "IG80SZ",
       "IG80TH",
       "IG80TJ",
+      "IG80TL",
+      "IG80TN",
       "IG80TQ",
       "IG80TR",
       "IG80TS",
@@ -95,8 +95,6 @@
       "IG80UB"
     ],
     "PostCodesPlanned": [
-      "IG80TL",
-      "IG80TN",
       "IG80FD",
       "IG80RD",
       "IG80RE",
@@ -108,6 +106,8 @@
       "IG80SZ",
       "IG80TH",
       "IG80TJ",
+      "IG80TL",
+      "IG80TN",
       "IG80TQ",
       "IG80TR",
       "IG80TS",
@@ -116,10 +116,10 @@
       "IG80TZ",
       "IG80UB"
     ],
-    "CustomersOnSupply": 279,
-    "CustomersOffSupply": 41,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 320,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -669,8 +669,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IG80TL",
-    "IG80TN",
     "IG80FD",
     "IG80RD",
     "IG80RE",
@@ -682,6 +680,8 @@
     "IG80SZ",
     "IG80TH",
     "IG80TJ",
+    "IG80TL",
+    "IG80TN",
     "IG80TQ",
     "IG80TR",
     "IG80TS",
