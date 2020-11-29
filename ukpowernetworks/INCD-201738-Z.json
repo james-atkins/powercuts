@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-201738-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-201738-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-201738-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-29T08:19:09",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-29T08:34:39.907",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003140aINCD",
     "IncidentReference": "INCD-201738-Z",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-29T07:36:42",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-29T08:34:39.907",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-29T07:36:38",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -78,7 +78,6 @@
       "CM7 8"
     ],
     "PostCodesRestored": [
-      "CM26XE",
       "CM26AB",
       "CM26DG",
       "CM26GA",
@@ -163,6 +162,7 @@
       "CM26WT",
       "CM26WU",
       "CM26XD",
+      "CM26XE",
       "CM26XH",
       "CM26XJ",
       "CM26XL",
@@ -258,7 +258,6 @@
       "CM78QL"
     ],
     "PostCodesPlanned": [
-      "CM26XE",
       "CM26AB",
       "CM26DG",
       "CM26GA",
@@ -343,6 +342,7 @@
       "CM26WT",
       "CM26WU",
       "CM26XD",
+      "CM26XE",
       "CM26XH",
       "CM26XJ",
       "CM26XL",
@@ -437,9 +437,9 @@
       "CM37DZ",
       "CM78QL"
     ],
-    "CustomersOnSupply": 3624,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 3625,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -2563,7 +2563,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CM26XE",
     "CM26AB",
     "CM26DG",
     "CM26GA",
@@ -2648,6 +2647,7 @@
     "CM26WT",
     "CM26WU",
     "CM26XD",
+    "CM26XE",
     "CM26XH",
     "CM26XJ",
     "CM26XL",
