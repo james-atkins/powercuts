@@ -1,11 +1,17 @@
 {
   "IncidentReference": "INCD-240030-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-240030-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-240030-G",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-11-30T15:29:37.927",
+      "Message": "Update at 15:29 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground network fault in the Kent Avenue area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-11-30T13:39:53",
-      "Message": "<p>We became aware of a power cut at 13:39. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2020-11-30T14:00:00",
+      "Message": "<p>We became aware of a power cut at 14:00. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-30T13:40:40",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-30T15:26:34.113",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003a99eINCD",
     "IncidentReference": "INCD-240030-G",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-30T13:39:53",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-30T15:26:34.113",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2020-11-30T13:39:53",
+    "ReceivedDate": "2020-11-30T14:00:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
@@ -54,45 +60,53 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-11-30T15:27:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 15:29 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground network fault in the Kent Avenue area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-11-30T15:29:37.927"
+      }
+    ],
     "PostCodesAffected": [
       "ME10 1",
       "ME10 X"
     ],
     "PostCodesRestored": [
-      "ME101HB",
-      "ME101HD",
-      "ME101QW",
-      "ME10XXX",
       "ME101EZ",
       "ME101HA",
+      "ME101HB",
+      "ME101HD",
       "ME101HF",
       "ME101HH",
       "ME101HQ",
       "ME101LA",
       "ME101LD",
       "ME101LJ",
-      "ME101LL"
+      "ME101LL",
+      "ME101QW",
+      "ME10XXX"
     ],
     "PostCodesPlanned": [
-      "ME101HB",
-      "ME101HD",
-      "ME101QW",
-      "ME10XXX",
       "ME101EZ",
       "ME101HA",
+      "ME101HB",
+      "ME101HD",
       "ME101HF",
       "ME101HH",
       "ME101HQ",
       "ME101LA",
       "ME101LD",
       "ME101LJ",
-      "ME101LL"
+      "ME101LL",
+      "ME101QW",
+      "ME10XXX"
     ],
-    "CustomersOnSupply": 126,
-    "CustomersOffSupply": 39,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 165,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -563,19 +577,19 @@
     }
   ],
   "FullPostcodeData": [
-    "ME101HB",
-    "ME101HD",
-    "ME101QW",
-    "ME10XXX",
     "ME101EZ",
     "ME101HA",
+    "ME101HB",
+    "ME101HD",
     "ME101HF",
     "ME101HH",
     "ME101HQ",
     "ME101LA",
     "ME101LD",
     "ME101LJ",
-    "ME101LL"
+    "ME101LL",
+    "ME101QW",
+    "ME10XXX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
