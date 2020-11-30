@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-44073-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-44073-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-44073-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-11-30T18:44:23.643",
-      "Message": "Update at 18:43 - Our engineers have begun digging down to expose the faulty section of underground cable for repairs. If you have a vulnerable person at home, please call us on 08003163105 and we'll see if we can provide any additional support.",
+      "Date": "2020-11-30T19:34:30.637",
+      "Message": "Update at 19:33 - Our engineers have been able to do a temporary fix to the issue. However, additional work is required in order to permanently fix the fault. To do this safely, your power may go off again later as repairs progress. You may not receive any texts for a while, as soon as we have further information, we'll be in touch.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-30T12:04:04",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-11-30T19:40:35.3163536+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000ac29INCD",
     "IncidentReference": "INCD-44073-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-30T10:41:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-11-30T19:40:35.3163536+00:00",
     "EstimatedRestorationDate": "2020-11-30T20:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-30T10:40:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -62,22 +62,22 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-11-30T18:42:00",
+        "ActualEventTime": "2020-11-30T19:33:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 18:43 - Our engineers have begun digging down to expose the faulty section of underground cable for repairs. If you have a vulnerable person at home, please call us on 08003163105 and we'll see if we can provide any additional support.",
-        "LoggedTime": "2020-11-30T18:44:23.643"
+        "Comment": "Update at 19:33 - Our engineers have been able to do a temporary fix to the issue. However, additional work is required in order to permanently fix the fault. To do this safely, your power may go off again later as repairs progress. You may not receive any texts for a while, as soon as we have further information, we'll be in touch.",
+        "LoggedTime": "2020-11-30T19:34:30.637"
       }
     ],
     "PostCodesAffected": [
       "ME7 3"
     ],
     "PostCodesRestored": [
-      "ME73LB",
       "ME73JW",
       "ME73JY",
       "ME73JZ",
       "ME73LA",
+      "ME73LB",
       "ME73LE",
       "ME73LG",
       "ME73LH",
@@ -88,11 +88,11 @@
       "ME73LX"
     ],
     "PostCodesPlanned": [
-      "ME73LB",
       "ME73JW",
       "ME73JY",
       "ME73JZ",
       "ME73LA",
+      "ME73LB",
       "ME73LE",
       "ME73LG",
       "ME73LH",
@@ -102,9 +102,9 @@
       "ME73LR",
       "ME73LX"
     ],
-    "CustomersOnSupply": 72,
-    "CustomersOffSupply": 13,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 85,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -639,11 +639,11 @@
     }
   ],
   "FullPostcodeData": [
-    "ME73LB",
     "ME73JW",
     "ME73JY",
     "ME73JZ",
     "ME73LA",
+    "ME73LB",
     "ME73LE",
     "ME73LG",
     "ME73LH",
