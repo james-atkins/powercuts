@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-44248-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-44248-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-44248-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-01T18:31:44",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-01T21:20:04.423",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000acd8INCD",
     "IncidentReference": "INCD-44248-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-01T17:14:52",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-01T21:20:04.423",
     "EstimatedRestorationDate": "2020-12-01T21:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-01T16:55:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -76,27 +76,27 @@
     ],
     "PostCodesRestored": [
       "RH185JH",
-      "TW13PA",
-      "TW13SZ",
-      "TW14AE",
       "TW13HD",
       "TW13JS",
       "TW13JU",
-      "TW13RR"
+      "TW13PA",
+      "TW13RR",
+      "TW13SZ",
+      "TW14AE"
     ],
     "PostCodesPlanned": [
       "RH185JH",
-      "TW13PA",
-      "TW13SZ",
-      "TW14AE",
       "TW13HD",
       "TW13JS",
       "TW13JU",
-      "TW13RR"
+      "TW13PA",
+      "TW13RR",
+      "TW13SZ",
+      "TW14AE"
     ],
-    "CustomersOnSupply": 35,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 42,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1116,13 +1116,13 @@
   ],
   "FullPostcodeData": [
     "RH185JH",
-    "TW13PA",
-    "TW13SZ",
-    "TW14AE",
     "TW13HD",
     "TW13JS",
     "TW13JU",
-    "TW13RR"
+    "TW13PA",
+    "TW13RR",
+    "TW13SZ",
+    "TW14AE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
