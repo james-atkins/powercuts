@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-44142-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-44142-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-44142-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-30T22:38:02",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-01T02:42:50.71",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000ac6eINCD",
     "IncidentReference": "INCD-44142-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-30T21:06:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-01T02:42:50.71",
     "EstimatedRestorationDate": "2020-12-01T03:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-11-30T21:05:00",
-    "NoCustomerAffected": 21,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 14,
     "Latitude": 0.0,
@@ -86,9 +86,9 @@
       "BR49AL",
       "BR49AQ"
     ],
-    "CustomersOnSupply": 41,
-    "CustomersOffSupply": 21,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 62,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
