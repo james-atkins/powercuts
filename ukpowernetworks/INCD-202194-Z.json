@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-202194-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-202194-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-202194-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-01T12:24:02",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-01T13:37:56.773",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000315d2INCD",
     "IncidentReference": "INCD-202194-Z",
     "IncidentCategory": "26",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-01T10:18:56",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-01T13:37:56.773",
     "EstimatedRestorationDate": "2020-12-01T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-01T12:43:00",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -60,13 +60,13 @@
       "NR31 9"
     ],
     "PostCodesRestored": [
-      "NR319QG",
       "NR318PA",
       "NR319DZ",
       "NR319EP",
       "NR319QD",
       "NR319QE",
       "NR319QF",
+      "NR319QG",
       "NR319QH",
       "NR319QJ",
       "NR319QL",
@@ -75,13 +75,13 @@
       "NR319QS"
     ],
     "PostCodesPlanned": [
-      "NR319QG",
       "NR318PA",
       "NR319DZ",
       "NR319EP",
       "NR319QD",
       "NR319QE",
       "NR319QF",
+      "NR319QG",
       "NR319QH",
       "NR319QJ",
       "NR319QL",
@@ -89,10 +89,10 @@
       "NR319QR",
       "NR319QS"
     ],
-    "CustomersOnSupply": 162,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 167,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -100,55 +100,6 @@
     "NR31 9"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 52.55136,
-        "lng": 1.59903
-      },
-      "Coordinates": [
-        {
-          "lat": 52.5412,
-          "lng": 1.6054
-        },
-        {
-          "lat": 52.55068,
-          "lng": 1.58901
-        },
-        {
-          "lat": 52.55434,
-          "lng": 1.58267
-        },
-        {
-          "lat": 52.55746,
-          "lng": 1.59732
-        },
-        {
-          "lat": 52.55858,
-          "lng": 1.59827
-        },
-        {
-          "lat": 52.55828,
-          "lng": 1.59969
-        },
-        {
-          "lat": 52.55868,
-          "lng": 1.60068
-        },
-        {
-          "lat": 52.55155,
-          "lng": 1.61194
-        },
-        {
-          "lat": 52.54514,
-          "lng": 1.60504
-        },
-        {
-          "lat": 52.5412,
-          "lng": 1.6054
-        }
-      ],
-      "Postcode": "NR31 9"
-    },
     {
       "Center": {
         "lat": 52.57857,
@@ -617,16 +568,65 @@
         }
       ],
       "Postcode": "NR31 8"
+    },
+    {
+      "Center": {
+        "lat": 52.55136,
+        "lng": 1.59903
+      },
+      "Coordinates": [
+        {
+          "lat": 52.5412,
+          "lng": 1.6054
+        },
+        {
+          "lat": 52.55068,
+          "lng": 1.58901
+        },
+        {
+          "lat": 52.55434,
+          "lng": 1.58267
+        },
+        {
+          "lat": 52.55746,
+          "lng": 1.59732
+        },
+        {
+          "lat": 52.55858,
+          "lng": 1.59827
+        },
+        {
+          "lat": 52.55828,
+          "lng": 1.59969
+        },
+        {
+          "lat": 52.55868,
+          "lng": 1.60068
+        },
+        {
+          "lat": 52.55155,
+          "lng": 1.61194
+        },
+        {
+          "lat": 52.54514,
+          "lng": 1.60504
+        },
+        {
+          "lat": 52.5412,
+          "lng": 1.6054
+        }
+      ],
+      "Postcode": "NR31 9"
     }
   ],
   "FullPostcodeData": [
-    "NR319QG",
     "NR318PA",
     "NR319DZ",
     "NR319EP",
     "NR319QD",
     "NR319QE",
     "NR319QF",
+    "NR319QG",
     "NR319QH",
     "NR319QJ",
     "NR319QL",
