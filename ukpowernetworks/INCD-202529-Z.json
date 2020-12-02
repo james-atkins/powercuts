@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-202529-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-202529-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-202529-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-02T16:50:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-02T20:22:22.467",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031721INCD",
     "IncidentReference": "INCD-202529-Z",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-02T15:47:37",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-02T20:22:22.467",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-02T17:56:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -74,12 +74,12 @@
       "CO15 6"
     ],
     "PostCodesRestored": [
-      "CO155HE",
       "CO155EP",
       "CO155ER",
       "CO155ES",
       "CO155HA",
       "CO155HD",
+      "CO155HE",
       "CO155HF",
       "CO155HH",
       "CO155HJ",
@@ -91,12 +91,12 @@
       "CO156PD"
     ],
     "PostCodesPlanned": [
-      "CO155HE",
       "CO155EP",
       "CO155ER",
       "CO155ES",
       "CO155HA",
       "CO155HD",
+      "CO155HE",
       "CO155HF",
       "CO155HH",
       "CO155HJ",
@@ -107,9 +107,9 @@
       "CO155UL",
       "CO156PD"
     ],
-    "CustomersOnSupply": 182,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 183,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -966,12 +966,12 @@
     }
   ],
   "FullPostcodeData": [
-    "CO155HE",
     "CO155EP",
     "CO155ER",
     "CO155ES",
     "CO155HA",
     "CO155HD",
+    "CO155HE",
     "CO155HF",
     "CO155HH",
     "CO155HJ",
