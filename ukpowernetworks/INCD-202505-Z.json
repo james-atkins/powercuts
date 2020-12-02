@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-202505-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-202505-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-202505-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-12-02T14:38:16.927",
+      "Message": "Update at 14:38 - Thank you for your patience while our engineers diverted power around the underground network fault affecting the HA1 1 area. We have now restored power to all but one property. We're sorry for any disruption this power cut caused. If your power isn't back on, we'd still like to keep you updated. If we aren't currently in contact with you by phone or in person at your property, please call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-12-02T14:07:23",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-02T14:16:58",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-02T14:44:24.08",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031709INCD",
     "IncidentReference": "INCD-202505-Z",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-02T14:07:26",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-02T14:44:24.08",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-02T14:07:23",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -48,20 +54,27 @@
     "Resource": {
       "Id": null,
       "Name": "BEN",
-      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
+      "EstimatedTimeOfArrival": "2020-12-02T15:15:00",
       "DispatchedDate": "2020-12-02T14:16:30",
       "ArrivalDate": "2020-12-02T14:16:58",
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-02T14:38:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 14:38 - Thank you for your patience while our engineers diverted power around the underground network fault affecting the HA1 1 area. We have now restored power to all but one property. We're sorry for any disruption this power cut caused. If your power isn't back on, we'd still like to keep you updated. If we aren't currently in contact with you by phone or in person at your property, please call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2020-12-02T14:38:16.927"
+      }
+    ],
     "PostCodesAffected": [
       "HP1 1",
       "HP2 4",
       "HP2 5"
     ],
     "PostCodesRestored": [
-      "HP11LA",
       "HP11BA",
       "HP11BB",
       "HP11BE",
@@ -74,6 +87,7 @@
       "HP11EA",
       "HP11EF",
       "HP11EW",
+      "HP11LA",
       "HP24AA",
       "HP24AB",
       "HP24AG",
@@ -88,7 +102,6 @@
       "HP25XQ"
     ],
     "PostCodesPlanned": [
-      "HP11LA",
       "HP11BA",
       "HP11BB",
       "HP11BE",
@@ -101,6 +114,7 @@
       "HP11EA",
       "HP11EF",
       "HP11EW",
+      "HP11LA",
       "HP24AA",
       "HP24AB",
       "HP24AG",
@@ -114,9 +128,9 @@
       "HP24WL",
       "HP25XQ"
     ],
-    "CustomersOnSupply": 173,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 174,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -2043,7 +2057,6 @@
     }
   ],
   "FullPostcodeData": [
-    "HP11LA",
     "HP11BA",
     "HP11BB",
     "HP11BE",
@@ -2056,6 +2069,7 @@
     "HP11EA",
     "HP11EF",
     "HP11EW",
+    "HP11LA",
     "HP24AA",
     "HP24AB",
     "HP24AG",
