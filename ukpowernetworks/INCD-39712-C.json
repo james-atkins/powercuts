@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-39712-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-39712-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-39712-C",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-02T13:07:07",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-02T16:31:51.013",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009b20INCD",
     "IncidentReference": "INCD-39712-C",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-02T12:06:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-02T16:31:51.013",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-02T14:20:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -73,7 +73,6 @@
       "LU2 7"
     ],
     "PostCodesRestored": [
-      "LU27JW",
       "LU27HW",
       "LU27JG",
       "LU27JJ",
@@ -84,10 +83,10 @@
       "LU27JR",
       "LU27JS",
       "LU27JT",
+      "LU27JW",
       "LU27JX"
     ],
     "PostCodesPlanned": [
-      "LU27JW",
       "LU27HW",
       "LU27JG",
       "LU27JJ",
@@ -98,11 +97,12 @@
       "LU27JR",
       "LU27JS",
       "LU27JT",
+      "LU27JW",
       "LU27JX"
     ],
-    "CustomersOnSupply": 223,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 224,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -849,7 +849,6 @@
     }
   ],
   "FullPostcodeData": [
-    "LU27JW",
     "LU27HW",
     "LU27JG",
     "LU27JJ",
@@ -860,6 +859,7 @@
     "LU27JR",
     "LU27JS",
     "LU27JT",
+    "LU27JW",
     "LU27JX"
   ],
   "PinLatitude": null,
