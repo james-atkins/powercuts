@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-202466-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-202466-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-202466-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-02T12:18:33",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-02T13:13:47.51",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000316e2INCD",
     "IncidentReference": "INCD-202466-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-02T11:58:59",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-02T13:13:47.51",
     "EstimatedRestorationDate": "2020-12-02T14:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-02T11:58:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -61,20 +61,20 @@
     "PostCodesRestored": [
       "CO11DH",
       "CO11DN",
+      "CO11FA",
       "CO11LB",
-      "CO11LH",
-      "CO11FA"
+      "CO11LH"
     ],
     "PostCodesPlanned": [
       "CO11DH",
       "CO11DN",
+      "CO11FA",
       "CO11LB",
-      "CO11LH",
-      "CO11FA"
+      "CO11LH"
     ],
-    "CustomersOnSupply": 11,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 16,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -563,9 +563,9 @@
   "FullPostcodeData": [
     "CO11DH",
     "CO11DN",
+    "CO11FA",
     "CO11LB",
-    "CO11LH",
-    "CO11FA"
+    "CO11LH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
