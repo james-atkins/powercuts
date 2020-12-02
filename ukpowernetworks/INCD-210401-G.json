@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-210401-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-210401-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-210401-G",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2019-12-09T08:55:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-02T12:08:55.31",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G000335e1INCD",
     "IncidentReference": "INCD-210401-G",
     "IncidentCategory": "6",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 35,
+    "StatusId": 5,
     "CreationDateTime": "2019-12-04T00:13:02",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-02T12:08:55.31",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2019-12-17T11:56:00",
@@ -60,28 +60,28 @@
       "SM6 8"
     ],
     "PostCodesRestored": [
+      "",
       "SM67LU",
       "SM67NH",
       "SM67NJ",
       "SM68ED",
       "SM68EL",
       "SM68EQ",
-      "SM68EW",
-      ""
+      "SM68EW"
     ],
     "PostCodesPlanned": [
+      "",
       "SM67LU",
       "SM67NH",
       "SM67NJ",
       "SM68ED",
       "SM68EL",
       "SM68EQ",
-      "SM68EW",
-      ""
+      "SM68EW"
     ],
-    "CustomersOnSupply": 162,
-    "CustomersOffSupply": 49,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 211,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1134,14 +1134,14 @@
     }
   ],
   "FullPostcodeData": [
+    "",
     "SM67LU",
     "SM67NH",
     "SM67NJ",
     "SM68ED",
     "SM68EL",
     "SM68EQ",
-    "SM68EW",
-    ""
+    "SM68EW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
