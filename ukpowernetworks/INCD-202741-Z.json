@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-202741-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-202741-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-202741-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-03T14:32:55",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-03T15:40:16.33",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000317f5INCD",
     "IncidentReference": "INCD-202741-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-03T13:00:39",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-03T15:40:16.33",
     "EstimatedRestorationDate": "2020-12-03T17:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-03T12:59:00",
-    "NoCustomerAffected": 32,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 10,
     "Latitude": 0.0,
@@ -73,6 +73,7 @@
       "SS9 3"
     ],
     "PostCodesRestored": [
+      "SS93EN",
       "SS93JP",
       "SS93JR",
       "SS93JS",
@@ -80,10 +81,10 @@
       "SS93JY",
       "SS93JZ",
       "SS93LA",
-      "SS93NA",
-      "SS93EN"
+      "SS93NA"
     ],
     "PostCodesPlanned": [
+      "SS93EN",
       "SS93JP",
       "SS93JR",
       "SS93JS",
@@ -91,13 +92,12 @@
       "SS93JY",
       "SS93JZ",
       "SS93LA",
-      "SS93NA",
-      "SS93EN"
+      "SS93NA"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 95,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 96,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -787,6 +787,7 @@
     }
   ],
   "FullPostcodeData": [
+    "SS93EN",
     "SS93JP",
     "SS93JR",
     "SS93JS",
@@ -794,8 +795,7 @@
     "SS93JY",
     "SS93JZ",
     "SS93LA",
-    "SS93NA",
-    "SS93EN"
+    "SS93NA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
