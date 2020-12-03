@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-240223-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-240223-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-240223-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-03T10:57:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-03T12:42:01.283",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003aa5fINCD",
     "IncidentReference": "INCD-240223-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-03T10:14:55",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-03T12:42:01.283",
     "EstimatedRestorationDate": "2020-12-03T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-03T10:13:00",
-    "NoCustomerAffected": 32,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -76,24 +76,24 @@
     "PostCodesRestored": [
       "ME74AA",
       "ME74AB",
+      "ME74AD",
       "ME75JU",
       "ME75LA",
       "ME75LJ",
-      "ME75NA",
-      "ME74AD"
+      "ME75NA"
     ],
     "PostCodesPlanned": [
       "ME74AA",
       "ME74AB",
+      "ME74AD",
       "ME75JU",
       "ME75LA",
       "ME75LJ",
-      "ME75NA",
-      "ME74AD"
+      "ME75NA"
     ],
-    "CustomersOnSupply": 18,
-    "CustomersOffSupply": 32,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 50,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1240,11 +1240,11 @@
   "FullPostcodeData": [
     "ME74AA",
     "ME74AB",
+    "ME74AD",
     "ME75JU",
     "ME75LA",
     "ME75LJ",
-    "ME75NA",
-    "ME74AD"
+    "ME75NA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
