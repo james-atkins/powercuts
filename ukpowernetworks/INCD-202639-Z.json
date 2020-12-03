@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-202639-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-202639-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-202639-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-03T09:23:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-03T09:43:24.84",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003178fINCD",
     "IncidentReference": "INCD-202639-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-03T09:13:36",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-03T09:43:24.84",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-03T09:13:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,16 +59,16 @@
       "PE13 1"
     ],
     "PostCodesRestored": [
-      "PE131RL",
-      "PE131RJ"
+      "PE131RJ",
+      "PE131RL"
     ],
     "PostCodesPlanned": [
-      "PE131RL",
-      "PE131RJ"
+      "PE131RJ",
+      "PE131RL"
     ],
-    "CustomersOnSupply": 68,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 70,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -467,8 +467,8 @@
     }
   ],
   "FullPostcodeData": [
-    "PE131RL",
-    "PE131RJ"
+    "PE131RJ",
+    "PE131RL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
