@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-203048-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-203048-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-203048-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-04T11:28:40",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-04T15:32:56.627",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031928INCD",
     "IncidentReference": "INCD-203048-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 21,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-04T10:42:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-04T15:32:56.627",
     "EstimatedRestorationDate": "2020-12-04T18:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-04T10:56:28",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 13,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -73,6 +73,10 @@
       "NR32 5"
     ],
     "PostCodesRestored": [
+      "NR325AY",
+      "NR325BJ",
+      "NR325BN",
+      "NR325BW",
       "NR325DH",
       "NR325DJ",
       "NR325DL",
@@ -83,13 +87,13 @@
       "NR325PF",
       "NR325PG",
       "NR325PH",
-      "NR325PQ",
-      "NR325AY",
-      "NR325BJ",
-      "NR325BN",
-      "NR325BW"
+      "NR325PQ"
     ],
     "PostCodesPlanned": [
+      "NR325AY",
+      "NR325BJ",
+      "NR325BN",
+      "NR325BW",
       "NR325DH",
       "NR325DJ",
       "NR325DL",
@@ -100,15 +104,11 @@
       "NR325PF",
       "NR325PG",
       "NR325PH",
-      "NR325PQ",
-      "NR325AY",
-      "NR325BJ",
-      "NR325BN",
-      "NR325BW"
+      "NR325PQ"
     ],
-    "CustomersOnSupply": 16,
-    "CustomersOffSupply": 54,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 70,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -555,6 +555,10 @@
     }
   ],
   "FullPostcodeData": [
+    "NR325AY",
+    "NR325BJ",
+    "NR325BN",
+    "NR325BW",
     "NR325DH",
     "NR325DJ",
     "NR325DL",
@@ -565,11 +569,7 @@
     "NR325PF",
     "NR325PG",
     "NR325PH",
-    "NR325PQ",
-    "NR325AY",
-    "NR325BJ",
-    "NR325BN",
-    "NR325BW"
+    "NR325PQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
