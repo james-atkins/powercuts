@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-203246-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-203246-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-203246-Z",
   "Steps": [
     {
       "Active": true,
@@ -10,7 +10,7 @@
     },
     {
       "Active": false,
-      "Date": "2020-12-04T19:19:56",
+      "Date": "2020-12-04T19:19:00",
       "Message": "<p>We became aware of a power cut at 19:19. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-04T21:05:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-04T21:23:55.01",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000319eeINCD",
     "IncidentReference": "INCD-203246-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-04T19:23:28",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-04T21:23:55.01",
     "EstimatedRestorationDate": "2020-12-04T22:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-04T19:19:56",
+    "ReceivedDate": "2020-12-04T19:19:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 20,
@@ -81,6 +81,7 @@
       "LU20ES",
       "LU20FH",
       "LU20HF",
+      "LU20HG",
       "LU20HH",
       "LU20HX",
       "LU20HY",
@@ -95,14 +96,15 @@
       "LU20ES",
       "LU20FH",
       "LU20HF",
+      "LU20HG",
       "LU20HH",
       "LU20HX",
       "LU20HY",
       "LU20JA"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 196,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 213,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -545,6 +547,7 @@
     "LU20ES",
     "LU20FH",
     "LU20HF",
+    "LU20HG",
     "LU20HH",
     "LU20HX",
     "LU20HY",
