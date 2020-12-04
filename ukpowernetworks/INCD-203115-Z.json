@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-203115-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-203115-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-203115-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-04T16:09:33.907",
-      "Message": "Update at 16:09 - Hi, it's Amy from the text messaging team. I'm sorry if you're still without power. Our engineers believed to have restored all power in the area so you may have noticed your power flickering on and off whilst we try to get everyone back on power. We need to send an additional team of engineers to investigate further. We're aware that we are now within the estimated timeframe we provided you and at the moment we do not need to make any changes. However, as investigations progress, it is possible we may need to make an adjustment to this timeframe. We will continue to liaise with the team and I will update you with any further news.",
+      "Date": "2020-12-04T17:16:11.1",
+      "Message": "Update at 17:15 - Hi, it's Amy from the text messaging team again. I'm sorry the estimated timeframe we gave you has passed. Our team of additional engineers have arrived on site and investigated the fault and advised that it is going to take longer than we anticipated to get all the power back on. To give the team time to replace some faulty equipment that has operated, we're now estimating to have the power back on between 18:30 and 19:30. I will personally keep an eye on your job and update you with any further news from site.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-04T16:50:17",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-04T17:26:56.11",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003196bINCD",
     "IncidentReference": "INCD-203115-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-04T12:29:39",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-04T17:26:56.11",
     "EstimatedRestorationDate": "2020-12-04T19:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-04T12:22:00",
-    "NoCustomerAffected": 18,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 19,
     "Latitude": 0.0,
@@ -62,30 +62,30 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-04T16:05:00",
+        "ActualEventTime": "2020-12-04T17:13:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 16:09 - Hi, it's Amy from the text messaging team. I'm sorry if you're still without power. Our engineers believed to have restored all power in the area so you may have noticed your power flickering on and off whilst we try to get everyone back on power. We need to send an additional team of engineers to investigate further. We're aware that we are now within the estimated timeframe we provided you and at the moment we do not need to make any changes. However, as investigations progress, it is possible we may need to make an adjustment to this timeframe. We will continue to liaise with the team and I will update you with any further news.",
-        "LoggedTime": "2020-12-04T16:09:33.907"
+        "Comment": "Update at 17:15 - Hi, it's Amy from the text messaging team again. I'm sorry the estimated timeframe we gave you has passed. Our team of additional engineers have arrived on site and investigated the fault and advised that it is going to take longer than we anticipated to get all the power back on. To give the team time to replace some faulty equipment that has operated, we're now estimating to have the power back on between 18:30 and 19:30. I will personally keep an eye on your job and update you with any further news from site.",
+        "LoggedTime": "2020-12-04T17:16:11.1"
       }
     ],
     "PostCodesAffected": [
       "CM1 6"
     ],
     "PostCodesRestored": [
+      "CM16JB",
       "CM16JX",
-      "CM16LA",
-      "CM16JB"
+      "CM16LA"
     ],
     "PostCodesPlanned": [
+      "CM16JB",
       "CM16JX",
-      "CM16LA",
-      "CM16JB"
+      "CM16LA"
     ],
-    "CustomersOnSupply": 37,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 55,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -455,9 +455,9 @@
     }
   ],
   "FullPostcodeData": [
+    "CM16JB",
     "CM16JX",
-    "CM16LA",
-    "CM16JB"
+    "CM16LA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
