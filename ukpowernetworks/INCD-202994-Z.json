@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-202994-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-202994-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-202994-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-12-04T11:01:42.353",
+      "Message": "Update at 11:01 - We can now confirm that all power in the Halidon Rise area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-12-04T09:26:17",
+      "Date": "2020-12-04T09:26:00",
       "Message": "<p>We became aware of a power cut at 09:26. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-04T10:24:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-04T10:58:06.52",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000318f2INCD",
     "IncidentReference": "INCD-202994-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-04T09:31:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-04T10:58:06.52",
     "EstimatedRestorationDate": "2020-12-04T13:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-04T09:26:17",
+    "ReceivedDate": "2020-12-04T09:26:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-04T11:00:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 11:01 - We can now confirm that all power in the Halidon Rise area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2020-12-04T11:01:42.353"
+      }
+    ],
     "PostCodesAffected": [
       "RM3 0"
     ],
@@ -66,9 +80,9 @@
       "RM30YL",
       "RM30YP"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 66,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 66,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
