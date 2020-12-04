@@ -1,45 +1,45 @@
 {
   "IncidentReference": "INCD-203196-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-203196-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-203196-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2020-12-04T15:34:28",
+      "Date": "2020-12-04T15:34:00",
       "Message": "<p>We became aware of a power cut at 15:34. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-04T17:00:49",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2020-12-04T18:56:19",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-04T18:51:13.603",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000319bcINCD",
     "IncidentReference": "INCD-203196-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-04T15:35:59",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-04T18:51:13.603",
     "EstimatedRestorationDate": "2020-12-04T19:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-04T15:34:28",
+    "ReceivedDate": "2020-12-04T15:34:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
@@ -50,8 +50,8 @@
       "Name": "LEE (R5)",
       "EstimatedTimeOfArrival": "2020-12-04T17:30:00",
       "DispatchedDate": "2020-12-04T17:00:49",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2020-12-04T18:56:19",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -59,14 +59,16 @@
       "RM17 6"
     ],
     "PostCodesRestored": [
-      "RM176ST"
+      "RM176ST",
+      "RM176SX"
     ],
     "PostCodesPlanned": [
-      "RM176ST"
+      "RM176ST",
+      "RM176SX"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 10,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -609,7 +611,8 @@
     }
   ],
   "FullPostcodeData": [
-    "RM176ST"
+    "RM176ST",
+    "RM176SX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
