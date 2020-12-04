@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-250492-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-250492-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-250492-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-04T07:24:20",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-04T08:57:44.457",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003d27cINCD",
     "IncidentReference": "INCD-250492-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-04T06:58:50",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-04T08:57:44.457",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-04T06:58:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -65,23 +65,23 @@
       "EC2M5QA",
       "EC2M5QD",
       "EC2M6SE",
+      "EC2R5BX",
       "EC2R6DA",
       "EC2R6EJ",
-      "EC2R6EL",
-      "EC2R5BX"
+      "EC2R6EL"
     ],
     "PostCodesPlanned": [
       "EC2M5QA",
       "EC2M5QD",
       "EC2M6SE",
+      "EC2R5BX",
       "EC2R6DA",
       "EC2R6EJ",
-      "EC2R6EL",
-      "EC2R5BX"
+      "EC2R6EL"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 11,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 12,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -244,6 +244,47 @@
     },
     {
       "Center": {
+        "lat": 51.5156,
+        "lng": -0.09016
+      },
+      "Coordinates": [
+        {
+          "lat": 51.51543,
+          "lng": -0.09013
+        },
+        {
+          "lat": 51.51555,
+          "lng": -0.09049
+        },
+        {
+          "lat": 51.51559,
+          "lng": -0.09052
+        },
+        {
+          "lat": 51.5156,
+          "lng": -0.09052
+        },
+        {
+          "lat": 51.51572,
+          "lng": -0.09031
+        },
+        {
+          "lat": 51.51574,
+          "lng": -0.08984
+        },
+        {
+          "lat": 51.51546,
+          "lng": -0.08999
+        },
+        {
+          "lat": 51.51543,
+          "lng": -0.09013
+        }
+      ],
+      "Postcode": "EC2R 5"
+    },
+    {
+      "Center": {
         "lat": 51.51591,
         "lng": -0.08928
       },
@@ -390,57 +431,16 @@
         }
       ],
       "Postcode": "EC2R 6"
-    },
-    {
-      "Center": {
-        "lat": 51.5156,
-        "lng": -0.09016
-      },
-      "Coordinates": [
-        {
-          "lat": 51.51543,
-          "lng": -0.09013
-        },
-        {
-          "lat": 51.51555,
-          "lng": -0.09049
-        },
-        {
-          "lat": 51.51559,
-          "lng": -0.09052
-        },
-        {
-          "lat": 51.5156,
-          "lng": -0.09052
-        },
-        {
-          "lat": 51.51572,
-          "lng": -0.09031
-        },
-        {
-          "lat": 51.51574,
-          "lng": -0.08984
-        },
-        {
-          "lat": 51.51546,
-          "lng": -0.08999
-        },
-        {
-          "lat": 51.51543,
-          "lng": -0.09013
-        }
-      ],
-      "Postcode": "EC2R 5"
     }
   ],
   "FullPostcodeData": [
     "EC2M5QA",
     "EC2M5QD",
     "EC2M6SE",
+    "EC2R5BX",
     "EC2R6DA",
     "EC2R6EJ",
-    "EC2R6EL",
-    "EC2R5BX"
+    "EC2R6EL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
