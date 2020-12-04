@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-203099-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-203099-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-203099-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-04T14:08:48",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-04T15:00:36.153",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003195bINCD",
     "IncidentReference": "INCD-203099-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-04T12:14:08",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-04T15:00:36.153",
     "EstimatedRestorationDate": "2020-12-04T16:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-04T12:06:00",
-    "NoCustomerAffected": 19,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -69,9 +69,9 @@
       "CO101JH",
       "CO101JJ",
       "CO101JL",
+      "CO101RF",
       "CO106HG",
-      "CO106JH",
-      "CO101RF"
+      "CO106JH"
     ],
     "PostCodesPlanned": [
       "CO101HB",
@@ -83,13 +83,13 @@
       "CO101JH",
       "CO101JJ",
       "CO101JL",
+      "CO101RF",
       "CO106HG",
-      "CO106JH",
-      "CO101RF"
+      "CO106JH"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 57,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 58,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -482,9 +482,9 @@
     "CO101JH",
     "CO101JJ",
     "CO101JL",
+    "CO101RF",
     "CO106HG",
-    "CO106JH",
-    "CO101RF"
+    "CO106JH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
