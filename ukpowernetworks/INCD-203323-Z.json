@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-203323-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-203323-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-203323-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-05T15:08:05.307",
-      "Message": "Update at 15:08 - We know the timeframe we initially estimated is now approaching. Our engineers are continuing their work to repair our overhead network in Barnes Road.  As our staff are working with live electricity, we need to wait until it is safe for them to stop, and contact us with an update. We are really sorry you have been impacted this today and we will provide a further update as soon as possible.",
+      "Date": "2020-12-05T15:26:36.3",
+      "Message": "Update at 15:26 - It's Lee from the text messaging team and I'm very pleased to inform you that our engineers have been able to restore power to all 75 customers in the Barnes Road area. They have diverted the power around the faulty section of overhead cables. Due to the nature of an issue like this, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-05T12:09:04",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-05T15:24:12.823",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031a3bINCD",
     "IncidentReference": "INCD-203323-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-05T10:59:03",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-05T15:24:12.823",
     "EstimatedRestorationDate": "2020-12-05T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-05T12:29:00",
-    "NoCustomerAffected": 35,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-05T15:08:00",
+        "ActualEventTime": "2020-12-05T15:26:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 15:08 - We know the timeframe we initially estimated is now approaching. Our engineers are continuing their work to repair our overhead network in Barnes Road.  As our staff are working with live electricity, we need to wait until it is safe for them to stop, and contact us with an update. We are really sorry you have been impacted this today and we will provide a further update as soon as possible.",
-        "LoggedTime": "2020-12-05T15:08:05.307"
+        "Comment": "Update at 15:26 - It's Lee from the text messaging team and I'm very pleased to inform you that our engineers have been able to restore power to all 75 customers in the Barnes Road area. They have diverted the power around the faulty section of overhead cables. Due to the nature of an issue like this, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2020-12-05T15:26:36.3"
       }
     ],
     "PostCodesAffected": [
@@ -84,11 +84,6 @@
       "SG1 5"
     ],
     "PostCodesRestored": [
-      "IP214SU",
-      "IP214SZ",
-      "IP214TA",
-      "IP214TD",
-      "IP214TS",
       "IP214BE",
       "IP214FE",
       "IP214NA",
@@ -134,10 +129,14 @@
       "IP214SQ",
       "IP214SR",
       "IP214SS",
+      "IP214SU",
       "IP214SW",
       "IP214SX",
       "IP214SY",
+      "IP214SZ",
+      "IP214TA",
       "IP214TB",
+      "IP214TD",
       "IP214TE",
       "IP214TF",
       "IP214TG",
@@ -148,6 +147,7 @@
       "IP214TP",
       "IP214TQ",
       "IP214TR",
+      "IP214TS",
       "IP214TX",
       "IP214UA",
       "IP214UB",
@@ -250,11 +250,6 @@
       "UMS"
     ],
     "PostCodesPlanned": [
-      "IP214SU",
-      "IP214SZ",
-      "IP214TA",
-      "IP214TD",
-      "IP214TS",
       "IP214BE",
       "IP214FE",
       "IP214NA",
@@ -300,10 +295,14 @@
       "IP214SQ",
       "IP214SR",
       "IP214SS",
+      "IP214SU",
       "IP214SW",
       "IP214SX",
       "IP214SY",
+      "IP214SZ",
+      "IP214TA",
       "IP214TB",
+      "IP214TD",
       "IP214TE",
       "IP214TF",
       "IP214TG",
@@ -314,6 +313,7 @@
       "IP214TP",
       "IP214TQ",
       "IP214TR",
+      "IP214TS",
       "IP214TX",
       "IP214UA",
       "IP214UB",
@@ -415,10 +415,10 @@
       "UK",
       "UMS"
     ],
-    "CustomersOnSupply": 1699,
-    "CustomersOffSupply": 34,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 1733,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -4987,11 +4987,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IP214SU",
-    "IP214SZ",
-    "IP214TA",
-    "IP214TD",
-    "IP214TS",
     "IP214BE",
     "IP214FE",
     "IP214NA",
@@ -5037,10 +5032,14 @@
     "IP214SQ",
     "IP214SR",
     "IP214SS",
+    "IP214SU",
     "IP214SW",
     "IP214SX",
     "IP214SY",
+    "IP214SZ",
+    "IP214TA",
     "IP214TB",
+    "IP214TD",
     "IP214TE",
     "IP214TF",
     "IP214TG",
@@ -5051,6 +5050,7 @@
     "IP214TP",
     "IP214TQ",
     "IP214TR",
+    "IP214TS",
     "IP214TX",
     "IP214UA",
     "IP214UB",
