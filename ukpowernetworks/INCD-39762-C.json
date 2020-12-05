@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-39762-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-39762-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-39762-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-04T13:24:13",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-05T13:39:47.48",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009b52INCD",
     "IncidentReference": "INCD-39762-C",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-04T12:49:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-05T13:39:47.48",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-04T12:47:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 10,
     "Latitude": 0.0,
@@ -59,27 +59,27 @@
       "SS12 0"
     ],
     "PostCodesRestored": [
-      "SS120BD",
       "SS120AH",
       "SS120AN",
       "SS120AU",
       "SS120AW",
+      "SS120BD",
       "SS120BE",
       "SS120BQ"
     ],
     "PostCodesPlanned": [
-      "SS120BD",
       "SS120AH",
       "SS120AN",
       "SS120AU",
       "SS120AW",
+      "SS120BD",
       "SS120BE",
       "SS120BQ"
     ],
-    "CustomersOnSupply": 58,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 59,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -473,11 +473,11 @@
     }
   ],
   "FullPostcodeData": [
-    "SS120BD",
     "SS120AH",
     "SS120AN",
     "SS120AU",
     "SS120AW",
+    "SS120BD",
     "SS120BE",
     "SS120BQ"
   ],

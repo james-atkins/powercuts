@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-39768-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-39768-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-39768-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-05T10:36:47",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-05T13:41:09.157",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009b58INCD",
     "IncidentReference": "INCD-39768-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-05T08:36:51",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-05T13:41:09.157",
     "EstimatedRestorationDate": "2020-12-05T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-05T08:31:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,22 +59,22 @@
       "SS0 8"
     ],
     "PostCodesRestored": [
+      "SS08NA",
       "SS08NP",
       "SS08NR",
-      "SS08NA",
       "SS08PB",
       "SS08PH"
     ],
     "PostCodesPlanned": [
+      "SS08NA",
       "SS08NP",
       "SS08NR",
-      "SS08NA",
       "SS08PB",
       "SS08PH"
     ],
-    "CustomersOnSupply": 63,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 68,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -477,9 +477,9 @@
     }
   ],
   "FullPostcodeData": [
+    "SS08NA",
     "SS08NP",
     "SS08NR",
-    "SS08NA",
     "SS08PB",
     "SS08PH"
   ],
