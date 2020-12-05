@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-250485-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-250485-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-250485-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-04T06:06:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-05T04:45:01.253",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003d275INCD",
     "IncidentReference": "INCD-250485-J",
-    "IncidentCategory": "124",
+    "IncidentCategory": "104",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-04T05:20:39",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-05T04:45:01.253",
     "EstimatedRestorationDate": "2020-12-04T08:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-04T05:18:00",
-    "NoCustomerAffected": 9,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -59,22 +59,22 @@
       "E2 7"
     ],
     "PostCodesRestored": [
-      "E27LL",
-      "E27NJ",
       "E27DS",
+      "E27LL",
       "E27LN",
-      "E27NF"
+      "E27NF",
+      "E27NJ"
     ],
     "PostCodesPlanned": [
-      "E27LL",
-      "E27NJ",
       "E27DS",
+      "E27LL",
       "E27LN",
-      "E27NF"
+      "E27NF",
+      "E27NJ"
     ],
-    "CustomersOnSupply": 66,
-    "CustomersOffSupply": 25,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 91,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -597,15 +597,15 @@
     }
   ],
   "FullPostcodeData": [
-    "E27LL",
-    "E27NJ",
     "E27DS",
+    "E27LL",
     "E27LN",
-    "E27NF"
+    "E27NF",
+    "E27NJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers are currently working to find out what caused this power cut.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "08:00 - 09:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
