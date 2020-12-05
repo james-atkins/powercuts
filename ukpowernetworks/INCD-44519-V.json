@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-44519-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-44519-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-44519-V",
   "Steps": [
     {
       "Active": false,
@@ -10,48 +10,48 @@
     },
     {
       "Active": false,
-      "Date": "2020-12-04T13:34:58",
+      "Date": null,
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
-      "Date": "2020-12-04T14:34:03",
+      "Active": false,
+      "Date": null,
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-05T03:41:55.987",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000ade7INCD",
     "IncidentReference": "INCD-44519-V",
     "IncidentCategory": "25",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-04T12:10:00",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-05T03:41:55.987",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-04T12:09:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
       "Id": null,
-      "Name": "BENJAMIN",
-      "EstimatedTimeOfArrival": "2020-12-04T14:30:00",
-      "DispatchedDate": "2020-12-04T13:34:58",
-      "ArrivalDate": "2020-12-04T14:34:03",
-      "StatusId": 6
+      "Name": null,
+      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
+      "DispatchedDate": null,
+      "ArrivalDate": null,
+      "StatusId": 0
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -59,21 +59,21 @@
       "SM1 1"
     ],
     "PostCodesRestored": [
-      "SM11NU",
       "SM11NR",
       "SM11NT",
+      "SM11NU",
       "SM11WA"
     ],
     "PostCodesPlanned": [
-      "SM11NU",
       "SM11NR",
       "SM11NT",
+      "SM11NU",
       "SM11WA"
     ],
-    "CustomersOnSupply": 13,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 14,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -563,9 +563,9 @@
     }
   ],
   "FullPostcodeData": [
-    "SM11NU",
     "SM11NR",
     "SM11NT",
+    "SM11NU",
     "SM11WA"
   ],
   "PinLatitude": null,
