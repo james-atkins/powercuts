@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-202944-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-202944-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-202944-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-04T07:54:41",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-05T18:24:38.43",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000318c0INCD",
     "IncidentReference": "INCD-202944-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-04T07:10:39",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-05T18:24:38.43",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-04T07:09:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 22,
     "Latitude": 0.0,
@@ -73,12 +73,12 @@
       "N8 9"
     ],
     "PostCodesRestored": [
-      "N89JD",
       "N89AS",
       "N89DX",
       "N89DY",
       "N89HS",
       "N89HY",
+      "N89JD",
       "N89JE",
       "N89JG",
       "N89JH",
@@ -89,12 +89,12 @@
       "N89SN"
     ],
     "PostCodesPlanned": [
-      "N89JD",
       "N89AS",
       "N89DX",
       "N89DY",
       "N89HS",
       "N89HY",
+      "N89JD",
       "N89JE",
       "N89JG",
       "N89JH",
@@ -104,9 +104,9 @@
       "N89QN",
       "N89SN"
     ],
-    "CustomersOnSupply": 221,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 223,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -609,12 +609,12 @@
     }
   ],
   "FullPostcodeData": [
-    "N89JD",
     "N89AS",
     "N89DX",
     "N89DY",
     "N89HS",
     "N89HY",
+    "N89JD",
     "N89JE",
     "N89JG",
     "N89JH",
