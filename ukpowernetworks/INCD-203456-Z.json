@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-203456-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-203456-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-203456-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-06T13:24:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-06T22:00:35.193",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031ac0INCD",
     "IncidentReference": "INCD-203456-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-06T09:21:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-06T22:00:35.193",
     "EstimatedRestorationDate": "2020-12-06T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-06T09:18:00",
-    "NoCustomerAffected": 28,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 13,
     "Latitude": 0.0,
@@ -73,20 +73,20 @@
       "RM3 9"
     ],
     "PostCodesRestored": [
+      "RM39RD",
       "RM39RJ",
       "RM39SD",
-      "RM39SH",
-      "RM39RD"
+      "RM39SH"
     ],
     "PostCodesPlanned": [
+      "RM39RD",
       "RM39RJ",
       "RM39SD",
-      "RM39SH",
-      "RM39RD"
+      "RM39SH"
     ],
-    "CustomersOnSupply": 4,
-    "CustomersOffSupply": 28,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 32,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -481,10 +481,10 @@
     }
   ],
   "FullPostcodeData": [
+    "RM39RD",
     "RM39RJ",
     "RM39SD",
-    "RM39SH",
-    "RM39RD"
+    "RM39SH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
