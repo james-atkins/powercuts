@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-250883-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-250883-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-250883-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-08T22:21:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-08T23:48:03.433",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003d403INCD",
     "IncidentReference": "INCD-250883-J",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-08T06:30:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-08T23:48:03.433",
     "EstimatedRestorationDate": "2020-12-08T01:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-08T23:20:00",
-    "NoCustomerAffected": 33,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,24 +59,24 @@
       "SW15 5"
     ],
     "PostCodesRestored": [
-      "SW155DD",
       "SW155BX",
       "SW155BY",
       "SW155DB",
+      "SW155DD",
       "SW155EP",
       "SW155EW"
     ],
     "PostCodesPlanned": [
-      "SW155DD",
       "SW155BX",
       "SW155BY",
       "SW155DB",
+      "SW155DD",
       "SW155EP",
       "SW155EW"
     ],
-    "CustomersOnSupply": 49,
-    "CustomersOffSupply": 33,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 82,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -655,10 +655,10 @@
     }
   ],
   "FullPostcodeData": [
-    "SW155DD",
     "SW155BX",
     "SW155BY",
     "SW155DB",
+    "SW155DD",
     "SW155EP",
     "SW155EW"
   ],
