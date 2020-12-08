@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-240617-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-240617-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-240617-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-08T11:15:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-08T16:17:15.137",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003abe9INCD",
     "IncidentReference": "INCD-240617-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-08T10:54:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-08T16:17:15.137",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-08T10:53:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 28,
     "Latitude": 0.0,
@@ -75,10 +75,10 @@
       "ME5 8"
     ],
     "PostCodesRestored": [
-      "BN11YA",
       "BN11TT",
       "BN11UA",
       "BN11UQ",
+      "BN11YA",
       "BN11YB",
       "BN11YD",
       "BN11YE",
@@ -94,10 +94,10 @@
       "ME58UD"
     ],
     "PostCodesPlanned": [
-      "BN11YA",
       "BN11TT",
       "BN11UA",
       "BN11UQ",
+      "BN11YA",
       "BN11YB",
       "BN11YD",
       "BN11YE",
@@ -112,9 +112,9 @@
       "BN14AY",
       "ME58UD"
     ],
-    "CustomersOnSupply": 240,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 241,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1385,10 +1385,10 @@
     }
   ],
   "FullPostcodeData": [
-    "BN11YA",
     "BN11TT",
     "BN11UA",
     "BN11UQ",
+    "BN11YA",
     "BN11YB",
     "BN11YD",
     "BN11YE",
