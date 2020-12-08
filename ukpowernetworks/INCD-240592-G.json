@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-240592-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-240592-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-240592-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-08T09:15:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-08T14:44:05.56",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003abd0INCD",
     "IncidentReference": "INCD-240592-G",
     "IncidentCategory": "93",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-08T08:40:06",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-08T14:44:05.56",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-08T09:45:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,21 +60,21 @@
     ],
     "PostCodesRestored": [
       "BN27FA",
+      "BN27FD",
       "BN27FJ",
       "BN27FL",
-      "BN27FT",
-      "BN27FD"
+      "BN27FT"
     ],
     "PostCodesPlanned": [
       "BN27FA",
+      "BN27FD",
       "BN27FJ",
       "BN27FL",
-      "BN27FT",
-      "BN27FD"
+      "BN27FT"
     ],
-    "CustomersOnSupply": 10,
-    "CustomersOffSupply": 25,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 35,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -326,10 +326,10 @@
   ],
   "FullPostcodeData": [
     "BN27FA",
+    "BN27FD",
     "BN27FJ",
     "BN27FL",
-    "BN27FT",
-    "BN27FD"
+    "BN27FT"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
