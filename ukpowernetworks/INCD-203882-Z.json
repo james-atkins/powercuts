@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-203882-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-203882-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-203882-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-08T02:01:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-08T02:54:49.84",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031c6aINCD",
     "IncidentReference": "INCD-203882-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-08T00:41:47",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-08T02:54:49.84",
     "EstimatedRestorationDate": "2020-12-08T03:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-08T00:39:00",
-    "NoCustomerAffected": 8,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,28 +60,28 @@
     ],
     "PostCodesRestored": [
       "EN36AR",
-      "EN36BH",
-      "EN36SN",
       "EN36AT",
+      "EN36BH",
       "EN36BP",
       "EN36NG",
       "EN36SL",
+      "EN36SN",
       "EN36XE"
     ],
     "PostCodesPlanned": [
       "EN36AR",
-      "EN36BH",
-      "EN36SN",
       "EN36AT",
+      "EN36BH",
       "EN36BP",
       "EN36NG",
       "EN36SL",
+      "EN36SN",
       "EN36XE"
     ],
-    "CustomersOnSupply": 60,
-    "CustomersOffSupply": 24,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 84,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -584,12 +584,12 @@
   ],
   "FullPostcodeData": [
     "EN36AR",
-    "EN36BH",
-    "EN36SN",
     "EN36AT",
+    "EN36BH",
     "EN36BP",
     "EN36NG",
     "EN36SL",
+    "EN36SN",
     "EN36XE"
   ],
   "PinLatitude": null,
