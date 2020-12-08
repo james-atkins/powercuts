@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-203959-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-203959-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-203959-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2020-12-08T10:45:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2020-12-08T18:39:58.747",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z00031cb7INCD",
     "IncidentReference": "INCD-203959-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2020-12-08T10:43:34",
-    "RestoredDateTime": "2020-12-08T18:39:58.747",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-08T11:00:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 1,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -54,7 +54,7 @@
     "Resource": {
       "Id": null,
       "Name": "PETER (R5)",
-      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
+      "EstimatedTimeOfArrival": "2020-12-08T20:10:00",
       "DispatchedDate": "2020-12-08T10:44:51",
       "ArrivalDate": "2020-12-08T10:45:00",
       "StatusId": 6
@@ -73,18 +73,18 @@
       "HA4 9"
     ],
     "PostCodesRestored": [
+      "HA49JW",
       "HA49JE",
-      "HA49JP",
-      "HA49JW"
+      "HA49JP"
     ],
     "PostCodesPlanned": [
+      "HA49JW",
       "HA49JE",
-      "HA49JP",
-      "HA49JW"
+      "HA49JP"
     ],
-    "CustomersOnSupply": 46,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "CustomersOnSupply": 45,
+    "CustomersOffSupply": 1,
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -599,9 +599,9 @@
     }
   ],
   "FullPostcodeData": [
+    "HA49JW",
     "HA49JE",
-    "HA49JP",
-    "HA49JW"
+    "HA49JP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
