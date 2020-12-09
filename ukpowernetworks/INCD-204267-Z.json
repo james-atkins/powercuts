@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-204267-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204267-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204267-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-09T13:01:52",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-09T14:19:38.987",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031debINCD",
     "IncidentReference": "INCD-204267-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-09T11:41:07",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2020-12-09T15:00:00",
+    "RestoredDateTime": "2020-12-09T14:19:38.987",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-09T11:38:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "IP6 8"
     ],
     "PostCodesRestored": [
+      "IP68HB",
       "IP68NT",
       "IP68NZ",
-      "IP68HB",
       "IP68TE"
     ],
     "PostCodesPlanned": [
+      "IP68HB",
       "IP68NT",
       "IP68NZ",
-      "IP68HB",
       "IP68TE"
     ],
-    "CustomersOnSupply": 22,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 24,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -467,15 +467,15 @@
     }
   ],
   "FullPostcodeData": [
+    "IP68HB",
     "IP68NT",
     "IP68NZ",
-    "IP68HB",
     "IP68TE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "14:30 - 15:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
