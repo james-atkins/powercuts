@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-204163-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204163-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204163-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-09T08:14:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-09T16:53:29.937",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031d83INCD",
     "IncidentReference": "INCD-204163-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-09T06:49:11",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-09T16:53:29.937",
     "EstimatedRestorationDate": "2020-12-09T18:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-09T06:47:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 2,
+    "NoCallsReported": 3,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -73,27 +73,27 @@
       "SG8 0"
     ],
     "PostCodesRestored": [
-      "SG80NN",
-      "SG80NW",
       "SG80LP",
       "SG80NJ",
       "SG80NL",
+      "SG80NN",
+      "SG80NW",
       "SG80PD",
       "SG80PE"
     ],
     "PostCodesPlanned": [
-      "SG80NN",
-      "SG80NW",
       "SG80LP",
       "SG80NJ",
       "SG80NL",
+      "SG80NN",
+      "SG80NW",
       "SG80PD",
       "SG80PE"
     ],
-    "CustomersOnSupply": 61,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 63,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -515,11 +515,11 @@
     }
   ],
   "FullPostcodeData": [
-    "SG80NN",
-    "SG80NW",
     "SG80LP",
     "SG80NJ",
     "SG80NL",
+    "SG80NN",
+    "SG80NW",
     "SG80PD",
     "SG80PE"
   ],

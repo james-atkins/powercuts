@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-44826-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-44826-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-44826-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-09T11:59:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-09T16:52:41.513",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000af1aINCD",
     "IncidentReference": "INCD-44826-V",
     "IncidentCategory": "9",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-09T10:36:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-09T16:52:41.513",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-09T10:54:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "RH19 4"
     ],
     "PostCodesRestored": [
-      "RH194PA",
       "RH194NY",
       "RH194NZ",
+      "RH194PA",
       "RH194PF"
     ],
     "PostCodesPlanned": [
-      "RH194PA",
       "RH194NY",
       "RH194NZ",
+      "RH194PA",
       "RH194PF"
     ],
-    "CustomersOnSupply": 27,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 28,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -543,9 +543,9 @@
     }
   ],
   "FullPostcodeData": [
-    "RH194PA",
     "RH194NY",
     "RH194NZ",
+    "RH194PA",
     "RH194PF"
   ],
   "PinLatitude": null,
