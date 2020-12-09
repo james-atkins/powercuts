@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-251001-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-251001-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-251001-J",
   "Steps": [
     {
       "Active": true,
@@ -10,7 +10,7 @@
     },
     {
       "Active": false,
-      "Date": "2020-12-09T02:04:06",
+      "Date": "2020-12-09T02:04:00",
       "Message": "<p>We became aware of a power cut at 02:04. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-09T04:23:12",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-09T04:48:23.407",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003d479INCD",
     "IncidentReference": "INCD-251001-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-09T02:11:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-09T04:48:23.407",
     "EstimatedRestorationDate": "2020-12-09T06:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-09T02:04:06",
+    "ReceivedDate": "2020-12-09T02:04:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -82,13 +82,13 @@
       "W92BE",
       "W92BJ",
       "W93BT",
+      "W93NG",
       "W93NN",
+      "W93NQ",
       "W93NW",
       "W93NX",
       "W93NZ",
-      "W93RA",
-      "W93NG",
-      "W93NQ"
+      "W93RA"
     ],
     "PostCodesPlanned": [
       "W105NT",
@@ -97,17 +97,17 @@
       "W92BE",
       "W92BJ",
       "W93BT",
+      "W93NG",
       "W93NN",
+      "W93NQ",
       "W93NW",
       "W93NX",
       "W93NZ",
-      "W93RA",
-      "W93NG",
-      "W93NQ"
+      "W93RA"
     ],
-    "CustomersOnSupply": 98,
-    "CustomersOffSupply": 134,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 232,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1498,13 +1498,13 @@
     "W92BE",
     "W92BJ",
     "W93BT",
+    "W93NG",
     "W93NN",
+    "W93NQ",
     "W93NW",
     "W93NX",
     "W93NZ",
-    "W93RA",
-    "W93NG",
-    "W93NQ"
+    "W93RA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
