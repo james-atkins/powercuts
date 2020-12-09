@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-204240-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204240-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204240-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-09T13:49:59.18",
-      "Message": "Update at 13:49 - Specialist engineers are on the way to assist with progressing the underground network fault. It is a priority for us to give you a timeframe and we will do so as soon as we can.",
+      "Date": "2020-12-09T15:34:10.537",
+      "Message": "Update at 15:33 - We believe our engineers have been able to restore power to all 938 customers in the Rochford SS4 1 area, by diverting power around the network fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know your power may have been off for a long time, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-09T12:07:57",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-09T15:32:12.13",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031dd0INCD",
     "IncidentReference": "INCD-204240-Z",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-09T10:43:53",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2020-12-09T15:32:12.13",
+    "EstimatedRestorationDate": "2020-12-09T15:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-09T10:43:51",
-    "NoCustomerAffected": 56,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 6,
+    "NoCallsReported": 7,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,21 +62,17 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-09T13:48:00",
+        "ActualEventTime": "2020-12-09T15:33:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 13:49 - Specialist engineers are on the way to assist with progressing the underground network fault. It is a priority for us to give you a timeframe and we will do so as soon as we can.",
-        "LoggedTime": "2020-12-09T13:49:59.18"
+        "Comment": "Update at 15:33 - We believe our engineers have been able to restore power to all 938 customers in the Rochford SS4 1 area, by diverting power around the network fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know your power may have been off for a long time, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2020-12-09T15:34:10.537"
       }
     ],
     "PostCodesAffected": [
       "SS4 1"
     ],
     "PostCodesRestored": [
-      "SS41NP",
-      "SS41NR",
-      "SS41NS",
-      "SS41PS",
       "SS41AB",
       "SS41AD",
       "SS41AJ",
@@ -88,8 +84,12 @@
       "SS41NG",
       "SS41NH",
       "SS41NJ",
+      "SS41NP",
       "SS41NQ",
+      "SS41NR",
+      "SS41NS",
       "SS41NZ",
+      "SS41PS",
       "SS41PU",
       "SS41PW",
       "SS41PX",
@@ -117,10 +117,6 @@
       "SS41XD"
     ],
     "PostCodesPlanned": [
-      "SS41NP",
-      "SS41NR",
-      "SS41NS",
-      "SS41PS",
       "SS41AB",
       "SS41AD",
       "SS41AJ",
@@ -132,8 +128,12 @@
       "SS41NG",
       "SS41NH",
       "SS41NJ",
+      "SS41NP",
       "SS41NQ",
+      "SS41NR",
+      "SS41NS",
       "SS41NZ",
+      "SS41PS",
       "SS41PU",
       "SS41PW",
       "SS41PX",
@@ -160,9 +160,9 @@
       "SS41XB",
       "SS41XD"
     ],
-    "CustomersOnSupply": 882,
-    "CustomersOffSupply": 56,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 938,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -661,10 +661,6 @@
     }
   ],
   "FullPostcodeData": [
-    "SS41NP",
-    "SS41NR",
-    "SS41NS",
-    "SS41PS",
     "SS41AB",
     "SS41AD",
     "SS41AJ",
@@ -676,8 +672,12 @@
     "SS41NG",
     "SS41NH",
     "SS41NJ",
+    "SS41NP",
     "SS41NQ",
+    "SS41NR",
+    "SS41NS",
     "SS41NZ",
+    "SS41PS",
     "SS41PU",
     "SS41PW",
     "SS41PX",
@@ -707,7 +707,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "An underground electricity cable faulted on our high voltage network, causing an area wide power cut.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "15:00 - 16:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
