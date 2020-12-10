@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-44873-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-44873-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-44873-V",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-10T10:45:55",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-10T12:39:26.243",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000af49INCD",
     "IncidentReference": "INCD-44873-V",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-09T15:48:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-10T12:39:26.243",
     "EstimatedRestorationDate": "2020-12-10T13:15:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-09T09:41:00",
-    "NoCustomerAffected": 36,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
+    "NoCallsReported": 3,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -59,20 +59,20 @@
       "KT2 7"
     ],
     "PostCodesRestored": [
-      "KT27LL",
       "KT27LH",
       "KT27LJ",
+      "KT27LL",
       "KT27RF"
     ],
     "PostCodesPlanned": [
-      "KT27LL",
       "KT27LH",
       "KT27LJ",
+      "KT27LL",
       "KT27RF"
     ],
-    "CustomersOnSupply": 70,
-    "CustomersOffSupply": 36,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 106,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -651,9 +651,9 @@
     }
   ],
   "FullPostcodeData": [
-    "KT27LL",
     "KT27LH",
     "KT27LJ",
+    "KT27LL",
     "KT27RF"
   ],
   "PinLatitude": null,
