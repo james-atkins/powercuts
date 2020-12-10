@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-204387-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204387-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204387-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-09T18:02:11",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-10T00:11:09.267",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031e63INCD",
     "IncidentReference": "INCD-204387-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-09T15:51:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-10T00:11:09.267",
     "EstimatedRestorationDate": "2020-12-10T01:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-09T15:50:00",
-    "NoCustomerAffected": 8,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -73,22 +73,22 @@
       "IP6 8"
     ],
     "PostCodesRestored": [
+      "IP68HB",
+      "IP68NS",
       "IP68NT",
       "IP68NZ",
-      "IP68TE",
-      "IP68HB",
-      "IP68NS"
+      "IP68TE"
     ],
     "PostCodesPlanned": [
+      "IP68HB",
+      "IP68NS",
       "IP68NT",
       "IP68NZ",
-      "IP68TE",
-      "IP68HB",
-      "IP68NS"
+      "IP68TE"
     ],
-    "CustomersOnSupply": 29,
-    "CustomersOffSupply": 8,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 37,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -483,11 +483,11 @@
     }
   ],
   "FullPostcodeData": [
+    "IP68HB",
+    "IP68NS",
     "IP68NT",
     "IP68NZ",
-    "IP68TE",
-    "IP68HB",
-    "IP68NS"
+    "IP68TE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
