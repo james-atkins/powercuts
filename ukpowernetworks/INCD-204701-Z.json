@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-204701-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204701-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204701-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-12-10T21:29:14.63",
+      "Message": "Update at 21:29 - We can now confirm that all power in the Trewenna Drive area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-12-10T20:26:09",
+      "Date": "2020-12-10T20:26:00",
       "Message": "<p>We became aware of a power cut at 20:26. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-10T20:59:07",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-10T21:27:08.673",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031f9dINCD",
     "IncidentReference": "INCD-204701-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-10T20:27:09",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-10T21:27:08.673",
     "EstimatedRestorationDate": "2020-12-11T00:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-10T20:26:09",
+    "ReceivedDate": "2020-12-10T20:26:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 3,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-10T21:29:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 21:29 - We can now confirm that all power in the Trewenna Drive area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2020-12-10T21:29:14.63"
+      }
+    ],
     "PostCodesAffected": [
       "EN6 5"
     ],
@@ -86,9 +100,9 @@
       "EN65JT",
       "EN65JW"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 169,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 169,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
