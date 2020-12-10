@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-204499-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204499-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204499-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-10T09:31:57",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-10T14:11:18.723",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031ed3INCD",
     "IncidentReference": "INCD-204499-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-10T09:29:37",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-10T14:11:18.723",
     "EstimatedRestorationDate": "2020-12-10T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-10T10:32:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -60,24 +60,24 @@
       "N15 3"
     ],
     "PostCodesRestored": [
-      "CO50NJ",
       "CO50JZ",
       "CO50NH",
+      "CO50NJ",
       "CO50NL",
       "CO50NW",
       "N153EL"
     ],
     "PostCodesPlanned": [
-      "CO50NJ",
       "CO50JZ",
       "CO50NH",
+      "CO50NJ",
       "CO50NL",
       "CO50NW",
       "N153EL"
     ],
-    "CustomersOnSupply": 76,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 80,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -718,9 +718,9 @@
     }
   ],
   "FullPostcodeData": [
-    "CO50NJ",
     "CO50JZ",
     "CO50NH",
+    "CO50NJ",
     "CO50NL",
     "CO50NW",
     "N153EL"

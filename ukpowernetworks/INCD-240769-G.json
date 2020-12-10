@@ -1,15 +1,15 @@
 {
   "IncidentReference": "INCD-240769-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-240769-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-240769-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-10T13:46:22.077",
-      "Message": "Update at 13:45 - Hi, this is Demi from the UK Power Networks messaging team. Thanks for your patience with us today. Our engineers have been in contact with us to let us know that they are making good progress with the repairs on site therefore they believe the work will be completed sooner than they originally predicted. For this reason, the estimated timeframe to restore your power is now between 14:30 and 15:30. We understand how difficult it can be without power, and the additional worries this can bring during a global pandemic so if you need further support or there is anything you would like to talk to us about, then please call our team on '105'.",
+      "Date": "2020-12-10T14:00:55.567",
+      "Message": "It's David here and I will be taking over from Demi this afternoon to personally keep you up to date with the latest available information from site. In the meantime if you want to speak to us, you can contact us via Facebook or on twitter @UKPowernetworks where the team I work on will be happy to help, 24/7.",
       "Name": null
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-10T13:00:00",
       "Message": "<p>We became aware of a power cut at 13:00. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -17,38 +17,38 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-10T14:20:53.293",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003ac81INCD",
     "IncidentReference": "INCD-240769-G",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-10T11:58:00",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-10T14:20:53.293",
     "EstimatedRestorationDate": "2020-12-10T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-10T13:00:00",
-    "NoCustomerAffected": 14,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 1,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,18 +62,17 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-10T13:41:00",
+        "ActualEventTime": "2020-12-10T14:00:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 13:45 - Hi, this is Demi from the UK Power Networks messaging team. Thanks for your patience with us today. Our engineers have been in contact with us to let us know that they are making good progress with the repairs on site therefore they believe the work will be completed sooner than they originally predicted. For this reason, the estimated timeframe to restore your power is now between 14:30 and 15:30. We understand how difficult it can be without power, and the additional worries this can bring during a global pandemic so if you need further support or there is anything you would like to talk to us about, then please call our team on '105'.",
-        "LoggedTime": "2020-12-10T13:46:22.077"
+        "Comment": "It's David here and I will be taking over from Demi this afternoon to personally keep you up to date with the latest available information from site. In the meantime if you want to speak to us, you can contact us via Facebook or on twitter @UKPowernetworks where the team I work on will be happy to help, 24/7.",
+        "LoggedTime": "2020-12-10T14:00:55.567"
       }
     ],
     "PostCodesAffected": [
       "ME3 9"
     ],
     "PostCodesRestored": [
-      "ME39SU",
       "ME39EH",
       "ME39HQ",
       "ME39LG",
@@ -81,10 +80,10 @@
       "ME39RG",
       "ME39RH",
       "ME39RJ",
-      "ME39RQ"
+      "ME39RQ",
+      "ME39SU"
     ],
     "PostCodesPlanned": [
-      "ME39SU",
       "ME39EH",
       "ME39HQ",
       "ME39LG",
@@ -92,11 +91,12 @@
       "ME39RG",
       "ME39RH",
       "ME39RJ",
-      "ME39RQ"
+      "ME39RQ",
+      "ME39SU"
     ],
-    "CustomersOnSupply": 76,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 90,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -783,7 +783,6 @@
     }
   ],
   "FullPostcodeData": [
-    "ME39SU",
     "ME39EH",
     "ME39HQ",
     "ME39LG",
@@ -791,7 +790,8 @@
     "ME39RG",
     "ME39RH",
     "ME39RJ",
-    "ME39RQ"
+    "ME39RQ",
+    "ME39SU"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
