@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-204684-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204684-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204684-Z",
   "Steps": [
     {
       "Active": true,
@@ -10,42 +10,42 @@
     },
     {
       "Active": false,
-      "Date": "2020-12-10T18:33:01",
+      "Date": "2020-12-10T18:33:00",
       "Message": "<p>We became aware of a power cut at 18:33. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-10T18:37:55",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2020-12-10T20:16:52",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-10T20:04:49.717",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031f8cINCD",
     "IncidentReference": "INCD-204684-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-10T18:34:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-10T20:04:49.717",
     "EstimatedRestorationDate": "2020-12-10T21:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-10T18:33:01",
+    "ReceivedDate": "2020-12-10T18:33:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
@@ -56,8 +56,8 @@
       "Name": "DEREK (R5)",
       "EstimatedTimeOfArrival": "2020-12-10T19:30:00",
       "DispatchedDate": "2020-12-10T18:37:55",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2020-12-10T20:16:52",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -75,20 +75,20 @@
     "PostCodesRestored": [
       "CO91DS",
       "CO91DT",
+      "CO91DU",
       "CO91EG",
-      "CO91EJ",
-      "CO91DU"
+      "CO91EJ"
     ],
     "PostCodesPlanned": [
       "CO91DS",
       "CO91DT",
+      "CO91DU",
       "CO91EG",
-      "CO91EJ",
-      "CO91DU"
+      "CO91EJ"
     ],
-    "CustomersOnSupply": 17,
-    "CustomersOffSupply": 28,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 45,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -457,9 +457,9 @@
   "FullPostcodeData": [
     "CO91DS",
     "CO91DT",
+    "CO91DU",
     "CO91EG",
-    "CO91EJ",
-    "CO91DU"
+    "CO91EJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
