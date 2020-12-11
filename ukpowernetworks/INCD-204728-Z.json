@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-204728-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204728-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204728-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-12-11T07:55:17.483",
+      "Message": "Update at 07:54 - Our engineers have now arrived on site in the Ferndown area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. This can involve ground excavations, traffic management equipment or specialist teams.. As soon as our staff can safely update us, we'll give you the latest news.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-12-11T05:04:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-11T07:11:14",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-11T07:55:29.797",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031fb8INCD",
     "IncidentReference": "INCD-204728-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-11T05:22:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-11T07:55:29.797",
     "EstimatedRestorationDate": "2020-12-11T10:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-11T05:04:00",
-    "NoCustomerAffected": 15,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -54,29 +60,37 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-11T07:54:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 07:54 - Our engineers have now arrived on site in the Ferndown area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. This can involve ground excavations, traffic management equipment or specialist teams.. As soon as our staff can safely update us, we'll give you the latest news.",
+        "LoggedTime": "2020-12-11T07:55:17.483"
+      }
+    ],
     "PostCodesAffected": [
       "HA6 1"
     ],
     "PostCodesRestored": [
+      "HA61NU",
       "HA61NZ",
       "HA61PH",
       "HA61PL",
       "HA61PN",
-      "HA61PQ",
-      "HA61NU"
+      "HA61PQ"
     ],
     "PostCodesPlanned": [
+      "HA61NU",
       "HA61NZ",
       "HA61PH",
       "HA61PL",
       "HA61PN",
-      "HA61PQ",
-      "HA61NU"
+      "HA61PQ"
     ],
-    "CustomersOnSupply": 29,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 44,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -567,12 +581,12 @@
     }
   ],
   "FullPostcodeData": [
+    "HA61NU",
     "HA61NZ",
     "HA61PH",
     "HA61PL",
     "HA61PN",
-    "HA61PQ",
-    "HA61NU"
+    "HA61PQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
