@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-240811-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-240811-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-240811-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-11T11:28:41.777",
-      "Message": "Update at 11:28- We want to reassure you that we have certainly not forgotten about you and we know that the estimated time frame is now approaching. Getting you an update is our priority, as we know it's important to provide you with the most up to date information. Our team on site are still working, and we are liaising with them to get a progress update to you as soon as we can safely do so. As soon as we hear from them we'll be in touch, or you can call us on 105 if you need any additional support.",
+      "Date": "2020-12-11T11:39:37.43",
+      "Message": "Update at 11:39- Hi, this is Aaron from the UK Power Networks messaging team. Thanks for your patience over today. Our engineers have been in contact with us to let us know that they are still in the process of locating the section of overhead cable that has caused the fault. To give them time to do this safely, the estimated timeframe to restore your power is now between 12:00 and 13:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-11T08:39:25",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-11T11:42:49.573",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003acabINCD",
     "IncidentReference": "INCD-240811-G",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-11T07:54:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-11T11:42:49.573",
     "EstimatedRestorationDate": "2020-12-11T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-11T07:53:58",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-11T11:27:00",
+        "ActualEventTime": "2020-12-11T11:37:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 11:28- We want to reassure you that we have certainly not forgotten about you and we know that the estimated time frame is now approaching. Getting you an update is our priority, as we know it's important to provide you with the most up to date information. Our team on site are still working, and we are liaising with them to get a progress update to you as soon as we can safely do so. As soon as we hear from them we'll be in touch, or you can call us on 105 if you need any additional support.",
-        "LoggedTime": "2020-12-11T11:28:41.777"
+        "Comment": "Update at 11:39- Hi, this is Aaron from the UK Power Networks messaging team. Thanks for your patience over today. Our engineers have been in contact with us to let us know that they are still in the process of locating the section of overhead cable that has caused the fault. To give them time to do this safely, the estimated timeframe to restore your power is now between 12:00 and 13:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
+        "LoggedTime": "2020-12-11T11:39:37.43"
       }
     ],
     "PostCodesAffected": [
@@ -80,7 +80,6 @@
       "TN35 4"
     ],
     "PostCodesRestored": [
-      "BN84HP",
       "BN84DA",
       "BN84DB",
       "BN84EB",
@@ -91,6 +90,7 @@
       "BN84GD",
       "BN84GE",
       "BN84GF",
+      "BN84HP",
       "BN84HR",
       "BN84HS",
       "BN84HT",
@@ -236,7 +236,6 @@
       "TN354SR"
     ],
     "PostCodesPlanned": [
-      "BN84HP",
       "BN84DA",
       "BN84DB",
       "BN84EB",
@@ -247,6 +246,7 @@
       "BN84GD",
       "BN84GE",
       "BN84GF",
+      "BN84HP",
       "BN84HR",
       "BN84HS",
       "BN84HT",
@@ -391,9 +391,9 @@
       "RH177RY",
       "TN354SR"
     ],
-    "CustomersOnSupply": 2340,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 2344,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -3637,7 +3637,6 @@
     }
   ],
   "FullPostcodeData": [
-    "BN84HP",
     "BN84DA",
     "BN84DB",
     "BN84EB",
@@ -3648,6 +3647,7 @@
     "BN84GD",
     "BN84GE",
     "BN84GF",
+    "BN84HP",
     "BN84HR",
     "BN84HS",
     "BN84HT",
