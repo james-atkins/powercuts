@@ -1,11 +1,17 @@
 {
   "IncidentReference": "INCD-204733-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204733-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204733-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-12-11T08:31:33.61",
+      "Message": "Update at 08:32 - Engineers have arrived on site in the Cherry Road area. Using an average timescale for this type of issue, we're looking to have you back on between 10:00 and 11:00. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video <a href=\"https://bit.ly/2y8Dtfz.\" target=\"_blank\">https://bit.ly/2y8Dtfz.</a>",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-12-11T06:04:52",
-      "Message": "<p>We became aware of a power cut at 06:04. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2020-12-11T05:24:00",
+      "Message": "<p>We became aware of a power cut at 05:24. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-11T08:22:58",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-11T08:48:42.3387165+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031fbdINCD",
     "IncidentReference": "INCD-204733-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-11T06:11:40",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-11T08:48:42.3387165+00:00",
     "EstimatedRestorationDate": "2020-12-11T10:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-11T06:04:52",
+    "ReceivedDate": "2020-12-11T05:24:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 9,
+    "NoCallsReported": 11,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-11T08:30:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 08:32 - Engineers have arrived on site in the Cherry Road area. Using an average timescale for this type of issue, we're looking to have you back on between 10:00 and 11:00. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video https://bit.ly/2y8Dtfz.",
+        "LoggedTime": "2020-12-11T08:31:33.61"
+      }
+    ],
     "PostCodesAffected": [
       "EN3 5"
     ],
@@ -76,9 +90,9 @@
       "EN35SP",
       "EN35SW"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 128,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 128,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },

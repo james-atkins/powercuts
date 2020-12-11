@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-204740-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204740-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204740-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-12-11T08:46:23.063",
+      "Message": "Update at 08:45 - We can now confirm that all power in the Crow Lane area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-12-11T07:34:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-11T08:03:04",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-11T08:33:38.507",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031fc4INCD",
     "IncidentReference": "INCD-204740-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-11T07:35:26",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-11T08:33:38.507",
     "EstimatedRestorationDate": "2020-12-11T10:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-11T07:34:00",
-    "NoCustomerAffected": 23,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-11T08:45:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 08:45 - We can now confirm that all power in the Crow Lane area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-12-11T08:46:23.063"
+      }
+    ],
     "PostCodesAffected": [
       "RM7 0"
     ],
@@ -62,25 +76,25 @@
       "RM70DS",
       "RM70DT",
       "RM70DU",
+      "RM70FD",
       "RM70HA",
       "RM70HD",
       "RM70HH",
-      "RM70HJ",
-      "RM70FD"
+      "RM70HJ"
     ],
     "PostCodesPlanned": [
       "RM70DS",
       "RM70DT",
       "RM70DU",
+      "RM70FD",
       "RM70HA",
       "RM70HD",
       "RM70HH",
-      "RM70HJ",
-      "RM70FD"
+      "RM70HJ"
     ],
-    "CustomersOnSupply": 6,
-    "CustomersOffSupply": 70,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 76,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -578,11 +592,11 @@
     "RM70DS",
     "RM70DT",
     "RM70DU",
+    "RM70FD",
     "RM70HA",
     "RM70HD",
     "RM70HH",
-    "RM70HJ",
-    "RM70FD"
+    "RM70HJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
