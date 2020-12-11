@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-204970-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204970-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204970-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-11T23:01:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-11T23:35:12.277",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000320aaINCD",
     "IncidentReference": "INCD-204970-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-11T22:26:45",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-11T23:35:12.277",
     "EstimatedRestorationDate": "2020-12-12T01:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-11T22:25:00",
-    "NoCustomerAffected": 47,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
     "Latitude": 0.0,
@@ -76,25 +76,25 @@
       "RM70DS",
       "RM70DT",
       "RM70DU",
+      "RM70FD",
       "RM70HA",
       "RM70HD",
       "RM70HH",
-      "RM70HJ",
-      "RM70FD"
+      "RM70HJ"
     ],
     "PostCodesPlanned": [
       "RM70DS",
       "RM70DT",
       "RM70DU",
+      "RM70FD",
       "RM70HA",
       "RM70HD",
       "RM70HH",
-      "RM70HJ",
-      "RM70FD"
+      "RM70HJ"
     ],
-    "CustomersOnSupply": 6,
-    "CustomersOffSupply": 70,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 76,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -592,11 +592,11 @@
     "RM70DS",
     "RM70DT",
     "RM70DU",
+    "RM70FD",
     "RM70HA",
     "RM70HD",
     "RM70HH",
-    "RM70HJ",
-    "RM70FD"
+    "RM70HJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,

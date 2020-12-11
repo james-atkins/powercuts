@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-204956-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204956-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204956-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-11T20:55:12",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-11T23:26:16.137",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003209cINCD",
     "IncidentReference": "INCD-204956-Z",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-11T19:45:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-11T23:26:16.137",
     "EstimatedRestorationDate": "2020-12-11T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-11T19:44:00",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -73,26 +73,26 @@
       "CM14 5"
     ],
     "PostCodesRestored": [
-      "CM145LB",
       "CM145AU",
       "CM145BG",
       "CM145BQ",
       "CM145JX",
       "CM145JZ",
-      "CM145LA"
+      "CM145LA",
+      "CM145LB"
     ],
     "PostCodesPlanned": [
-      "CM145LB",
       "CM145AU",
       "CM145BG",
       "CM145BQ",
       "CM145JX",
       "CM145JZ",
-      "CM145LA"
+      "CM145LA",
+      "CM145LB"
     ],
-    "CustomersOnSupply": 90,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 100,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -887,17 +887,17 @@
     }
   ],
   "FullPostcodeData": [
-    "CM145LB",
     "CM145AU",
     "CM145BG",
     "CM145BQ",
     "CM145JX",
     "CM145JZ",
-    "CM145LA"
+    "CM145LA",
+    "CM145LB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "22:30 - 23:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
