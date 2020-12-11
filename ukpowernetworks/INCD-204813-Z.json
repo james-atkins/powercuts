@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-204813-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204813-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204813-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-12-11T22:36:51.223",
+      "Message": "Update at 22:36 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 14 customers in the Anchor Lane area to safely repair a faulty section of overhead cables. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-12-11T21:09:00",
@@ -15,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-11T17:31:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-11T22:35:34.33",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003200dINCD",
     "IncidentReference": "INCD-204813-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-11T11:26:33",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-11T22:35:34.33",
     "EstimatedRestorationDate": "2020-12-11T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-11T21:09:00",
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-11T22:36:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 22:36 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 14 customers in the Anchor Lane area to safely repair a faulty section of overhead cables. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-12-11T22:36:51.223"
+      }
+    ],
     "PostCodesAffected": [
       "CM16 7",
       "CM5 0",
@@ -163,7 +177,7 @@
     ],
     "CustomersOnSupply": 262,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
