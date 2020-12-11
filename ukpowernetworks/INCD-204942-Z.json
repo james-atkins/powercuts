@@ -1,15 +1,15 @@
 {
   "IncidentReference": "INCD-204942-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204942-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204942-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-11T19:14:31.063",
-      "Message": "Update at 19:14 - Our engineers are still on site in the High Street area working on the faulty electrical equipment. At the moment we dont need to change the estimated timeframne. With the cold weather, we understand that it can be very concerning to have a power cut as this may have affected your heating. If you have someone in the property who may be more vulnerable to the cold please do not hesitate to call us free on 105. We will do our best to provide additional care and support whilst work continues to get your power back on asap.",
+      "Date": "2020-12-11T19:27:37.32",
+      "Message": "Update at 19:27 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a faulty piece of electrical equipment in the High Street area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-11T18:13:00",
       "Message": "<p>We became aware of a power cut at 18:13. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -17,36 +17,36 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-11T19:24:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003208eINCD",
     "IncidentReference": "INCD-204942-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-11T17:55:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-11T19:24:00",
     "EstimatedRestorationDate": "2020-12-11T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-11T18:13:00",
-    "NoCustomerAffected": 15,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -62,34 +62,34 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-11T19:14:00",
+        "ActualEventTime": "2020-12-11T19:27:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 19:14 - Our engineers are still on site in the High Street area working on the faulty electrical equipment. At the moment we dont need to change the estimated timeframne. With the cold weather, we understand that it can be very concerning to have a power cut as this may have affected your heating. If you have someone in the property who may be more vulnerable to the cold please do not hesitate to call us free on 105. We will do our best to provide additional care and support whilst work continues to get your power back on asap.",
-        "LoggedTime": "2020-12-11T19:14:31.063"
+        "Comment": "Update at 19:27 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a faulty piece of electrical equipment in the High Street area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-12-11T19:27:37.32"
       }
     ],
     "PostCodesAffected": [
       "AL5 2"
     ],
     "PostCodesRestored": [
-      "AL52SP",
-      "AL52TP",
       "AL52FD",
       "AL52PT",
-      "AL52SN"
+      "AL52SN",
+      "AL52SP",
+      "AL52TP"
     ],
     "PostCodesPlanned": [
-      "AL52SP",
-      "AL52TP",
       "AL52FD",
       "AL52PT",
-      "AL52SN"
+      "AL52SN",
+      "AL52SP",
+      "AL52TP"
     ],
-    "CustomersOnSupply": 6,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 21,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -551,11 +551,11 @@
     }
   ],
   "FullPostcodeData": [
-    "AL52SP",
-    "AL52TP",
     "AL52FD",
     "AL52PT",
-    "AL52SN"
+    "AL52SN",
+    "AL52SP",
+    "AL52TP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
