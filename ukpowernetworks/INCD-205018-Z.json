@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-205018-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-205018-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-205018-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-12-12T12:04:22.083",
+      "Message": "Update at 12:02 - We believe our engineers have been able to restore power to all 327 customers in the WD6 3 area, by diverting power around the faulty underground cable. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be,so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-12-12T10:13:47",
@@ -15,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-12T10:43:39",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-12T12:23:48.553",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000320daINCD",
     "IncidentReference": "INCD-205018-Z",
-    "IncidentCategory": "61",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-12T10:13:49",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-12T12:23:48.553",
     "EstimatedRestorationDate": "2020-12-12T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-12T10:13:47",
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-12T12:02:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 12:02 - We believe our engineers have been able to restore power to all 327 customers in the WD6 3 area, by diverting power around the faulty underground cable. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be,so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2020-12-12T12:04:22.083"
+      }
+    ],
     "PostCodesAffected": [
       "HA7 4",
       "HA8 8",
@@ -138,7 +152,7 @@
     ],
     "CustomersOnSupply": 321,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1872,7 +1886,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "An underground electricity cable faulted on our high voltage network, causing an area wide power cut.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "12:30 - 13:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
