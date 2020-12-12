@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-204854-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204854-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204854-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-11T14:20:17",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-12T00:35:51.337",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032036INCD",
     "IncidentReference": "INCD-204854-Z",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-11T13:33:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-12T00:35:51.337",
     "EstimatedRestorationDate": "2020-12-11T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-11T13:32:15",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
     "Latitude": 0.0,
@@ -73,18 +73,18 @@
       "CM11 2"
     ],
     "PostCodesRestored": [
+      "CM112YJ",
       "CM112YL",
-      "CM112YQ",
-      "CM112YJ"
+      "CM112YQ"
     ],
     "PostCodesPlanned": [
+      "CM112YJ",
       "CM112YL",
-      "CM112YQ",
-      "CM112YJ"
+      "CM112YQ"
     ],
-    "CustomersOnSupply": 11,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 26,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -599,9 +599,9 @@
     }
   ],
   "FullPostcodeData": [
+    "CM112YJ",
     "CM112YL",
-    "CM112YQ",
-    "CM112YJ"
+    "CM112YQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
