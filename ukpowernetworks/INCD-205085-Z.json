@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-205085-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-205085-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-205085-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-12T16:54:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-12T17:56:00.537",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003211dINCD",
     "IncidentReference": "INCD-205085-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-12T15:45:08",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-12T17:56:00.537",
     "EstimatedRestorationDate": "2020-12-12T19:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-12T15:44:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -61,26 +61,26 @@
       "LU1 3"
     ],
     "PostCodesRestored": [
-      "LU12TU",
-      "LU13JU",
-      "LU13JX",
       "CB74",
+      "LU12TU",
       "LU13JA",
       "LU13JE",
-      "LU13JG"
+      "LU13JG",
+      "LU13JU",
+      "LU13JX"
     ],
     "PostCodesPlanned": [
-      "LU12TU",
-      "LU13JU",
-      "LU13JX",
       "CB74",
+      "LU12TU",
       "LU13JA",
       "LU13JE",
-      "LU13JG"
+      "LU13JG",
+      "LU13JU",
+      "LU13JX"
     ],
-    "CustomersOnSupply": 7,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 10,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -798,13 +798,13 @@
     }
   ],
   "FullPostcodeData": [
-    "LU12TU",
-    "LU13JU",
-    "LU13JX",
     "CB74",
+    "LU12TU",
     "LU13JA",
     "LU13JE",
-    "LU13JG"
+    "LU13JG",
+    "LU13JU",
+    "LU13JX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
