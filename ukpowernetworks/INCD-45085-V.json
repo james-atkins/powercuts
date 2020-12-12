@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-45085-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-45085-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-45085-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-12T11:07:44",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-12T12:35:27.53",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000b01dINCD",
     "IncidentReference": "INCD-45085-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-12T09:40:05",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-12T12:35:27.53",
     "EstimatedRestorationDate": "2020-12-12T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-12T09:36:00",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -73,7 +73,6 @@
       "ME10 2"
     ],
     "PostCodesRestored": [
-      "ME102SF",
       "ME102GE",
       "ME102RJ",
       "ME102RL",
@@ -83,13 +82,13 @@
       "ME102SA",
       "ME102SB",
       "ME102SE",
+      "ME102SF",
       "ME102SH",
       "ME102SL",
       "ME102TJ",
       "ME102TP"
     ],
     "PostCodesPlanned": [
-      "ME102SF",
       "ME102GE",
       "ME102RJ",
       "ME102RL",
@@ -99,14 +98,15 @@
       "ME102SA",
       "ME102SB",
       "ME102SE",
+      "ME102SF",
       "ME102SH",
       "ME102SL",
       "ME102TJ",
       "ME102TP"
     ],
-    "CustomersOnSupply": 165,
-    "CustomersOffSupply": 12,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 177,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -517,7 +517,6 @@
     }
   ],
   "FullPostcodeData": [
-    "ME102SF",
     "ME102GE",
     "ME102RJ",
     "ME102RL",
@@ -527,6 +526,7 @@
     "ME102SA",
     "ME102SB",
     "ME102SE",
+    "ME102SF",
     "ME102SH",
     "ME102SL",
     "ME102TJ",
