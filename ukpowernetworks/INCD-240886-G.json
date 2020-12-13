@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-240886-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-240886-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-240886-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-13T01:25:51",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-13T02:43:13.57",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003acf6INCD",
     "IncidentReference": "INCD-240886-G",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-13T00:49:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-13T02:43:13.57",
     "EstimatedRestorationDate": "2020-12-13T08:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-13T00:43:00",
-    "NoCustomerAffected": 21,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "RH8 0"
     ],
     "PostCodesRestored": [
+      "RH80HT",
       "RH80HZ",
-      "RH80JA",
-      "RH80HT"
+      "RH80JA"
     ],
     "PostCodesPlanned": [
+      "RH80HT",
       "RH80HZ",
-      "RH80JA",
-      "RH80HT"
+      "RH80JA"
     ],
-    "CustomersOnSupply": 42,
-    "CustomersOffSupply": 21,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 63,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -533,13 +533,13 @@
     }
   ],
   "FullPostcodeData": [
+    "RH80HT",
     "RH80HZ",
-    "RH80JA",
-    "RH80HT"
+    "RH80JA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "08:00 - 09:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
