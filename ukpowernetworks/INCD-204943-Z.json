@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-204943-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-204943-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-204943-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-11T18:35:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-13T02:06:46.483",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003208fINCD",
     "IncidentReference": "INCD-204943-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-11T18:08:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-13T02:06:46.483",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-11T18:07:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -73,10 +73,10 @@
       "SS2 4"
     ],
     "PostCodesRestored": [
-      "SS24DN",
       "SS24DG",
       "SS24DJ",
       "SS24DL",
+      "SS24DN",
       "SS24DR",
       "SS24ET",
       "SS24EU",
@@ -84,19 +84,19 @@
       "SS24LQ"
     ],
     "PostCodesPlanned": [
-      "SS24DN",
       "SS24DG",
       "SS24DJ",
       "SS24DL",
+      "SS24DN",
       "SS24DR",
       "SS24ET",
       "SS24EU",
       "SS24LL",
       "SS24LQ"
     ],
-    "CustomersOnSupply": 151,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 154,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -531,10 +531,10 @@
     }
   ],
   "FullPostcodeData": [
-    "SS24DN",
     "SS24DG",
     "SS24DJ",
     "SS24DL",
+    "SS24DN",
     "SS24DR",
     "SS24ET",
     "SS24EU",
