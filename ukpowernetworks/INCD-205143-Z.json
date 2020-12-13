@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-205143-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-205143-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-205143-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-13T06:10:36",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-13T09:00:51.43",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032157INCD",
     "IncidentReference": "INCD-205143-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-13T04:52:59",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-13T09:00:51.43",
     "EstimatedRestorationDate": "2020-12-13T11:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-13T04:43:00",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -76,9 +76,9 @@
     "PostCodesRestored": [
       "SS92PJ",
       "SS92PQ",
-      "SS92UX",
       "SS92SW",
       "SS92UU",
+      "SS92UX",
       "SS92UY",
       "SS92UZ",
       "SS92XA",
@@ -88,18 +88,18 @@
     "PostCodesPlanned": [
       "SS92PJ",
       "SS92PQ",
-      "SS92UX",
       "SS92SW",
       "SS92UU",
+      "SS92UX",
       "SS92UY",
       "SS92UZ",
       "SS92XA",
       "SS92XD",
       "SS93PR"
     ],
-    "CustomersOnSupply": 109,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 119,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1238,9 +1238,9 @@
   "FullPostcodeData": [
     "SS92PJ",
     "SS92PQ",
-    "SS92UX",
     "SS92SW",
     "SS92UU",
+    "SS92UX",
     "SS92UY",
     "SS92UZ",
     "SS92XA",
