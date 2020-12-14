@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-205344-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-205344-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-205344-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-14T11:35:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-14T21:31:58.08",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032220INCD",
     "IncidentReference": "INCD-205344-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-14T10:09:59",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-14T21:31:58.08",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-14T10:07:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 11,
     "Latitude": 0.0,
@@ -73,7 +73,6 @@
       "CB2 1"
     ],
     "PostCodesRestored": [
-      "CB21ND",
       "CB21HA",
       "CB21HL",
       "CB21HT",
@@ -83,11 +82,11 @@
       "CB21LP",
       "CB21NA",
       "CB21NB",
+      "CB21ND",
       "CB21NE",
       "CB21NT"
     ],
     "PostCodesPlanned": [
-      "CB21ND",
       "CB21HA",
       "CB21HL",
       "CB21HT",
@@ -97,13 +96,14 @@
       "CB21LP",
       "CB21NA",
       "CB21NB",
+      "CB21ND",
       "CB21NE",
       "CB21NT"
     ],
-    "CustomersOnSupply": 165,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 166,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -625,7 +625,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CB21ND",
     "CB21HA",
     "CB21HL",
     "CB21HT",
@@ -635,6 +634,7 @@
     "CB21LP",
     "CB21NA",
     "CB21NB",
+    "CB21ND",
     "CB21NE",
     "CB21NT"
   ],
