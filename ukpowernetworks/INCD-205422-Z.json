@@ -1,11 +1,17 @@
 {
   "IncidentReference": "INCD-205422-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-205422-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-205422-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-12-14T14:39:07.443",
+      "Message": "Update at 14:39 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair faulty equipment in the Watford Way area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-12-14T13:47:11",
-      "Message": "<p>We became aware of a power cut at 13:47. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2020-12-14T14:09:00",
+      "Message": "<p>We became aware of a power cut at 14:09. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-14T13:48:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-14T14:31:43.457",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003226eINCD",
     "IncidentReference": "INCD-205422-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-14T13:47:11",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-14T14:31:43.457",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-14T13:47:11",
+    "ReceivedDate": "2020-12-14T14:09:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -54,27 +60,37 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-14T14:38:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 14:39 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair faulty equipment in the Watford Way area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-12-14T14:39:07.443"
+      }
+    ],
     "PostCodesAffected": [
       "NW4 3"
     ],
     "PostCodesRestored": [
+      "NW43AD",
       "NW43AL",
       "NW43AN",
-      "NW43RP",
       "NW43JH",
+      "NW43RP",
       "NW43RR"
     ],
     "PostCodesPlanned": [
+      "NW43AD",
       "NW43AL",
       "NW43AN",
-      "NW43RP",
       "NW43JH",
+      "NW43RP",
       "NW43RR"
     ],
-    "CustomersOnSupply": 5,
-    "CustomersOffSupply": 29,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 60,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -449,10 +465,11 @@
     }
   ],
   "FullPostcodeData": [
+    "NW43AD",
     "NW43AL",
     "NW43AN",
-    "NW43RP",
     "NW43JH",
+    "NW43RP",
     "NW43RR"
   ],
   "PinLatitude": null,
