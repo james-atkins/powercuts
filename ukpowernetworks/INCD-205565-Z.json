@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-205565-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-205565-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-205565-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-15T09:53:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-15T11:00:46.847",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000322fdINCD",
     "IncidentReference": "INCD-205565-Z",
-    "IncidentCategory": "124",
+    "IncidentCategory": "108",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 34,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-15T08:11:56",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-15T11:00:46.847",
     "EstimatedRestorationDate": "2020-12-15T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-15T08:11:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,24 +59,24 @@
       "CO15 1"
     ],
     "PostCodesRestored": [
-      "CO151SX",
-      "CO151TA",
-      "CO151TB",
       "CO151PQ",
       "CO151PY",
-      "CO151QA"
+      "CO151QA",
+      "CO151SX",
+      "CO151TA",
+      "CO151TB"
     ],
     "PostCodesPlanned": [
-      "CO151SX",
-      "CO151TA",
-      "CO151TB",
       "CO151PQ",
       "CO151PY",
-      "CO151QA"
+      "CO151QA",
+      "CO151SX",
+      "CO151TA",
+      "CO151TB"
     ],
-    "CustomersOnSupply": 23,
-    "CustomersOffSupply": 12,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 35,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -507,16 +507,16 @@
     }
   ],
   "FullPostcodeData": [
-    "CO151SX",
-    "CO151TA",
-    "CO151TB",
     "CO151PQ",
     "CO151PY",
-    "CO151QA"
+    "CO151QA",
+    "CO151SX",
+    "CO151TA",
+    "CO151TB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "Due to a faulty piece of underground network equipment we had to turn off your power.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "12:00 - 13:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
