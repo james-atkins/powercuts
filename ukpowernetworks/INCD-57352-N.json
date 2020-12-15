@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-57352-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-57352-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-57352-N",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-15T22:50:46.877",
-      "Message": "Update at 22:50 - As it's approaching that time of night where most of our customers are going to sleep, we wanted to let you know that we will continue to send text messages throughout the night with progress updates. If you want to continue receiving updates but prefer not to be disturbed, you can place your phone on silent or activate the Do Not Disturb settings on smart phones. If you no longer want to receive updates, please text CANCEL to 80876 (standard text fees apply). Thank you.",
+      "Date": "2020-12-15T22:57:27.32",
+      "Message": "Update at 22:57 - We can now confirm that all power in the Ingelow Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-15T21:43:27",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-15T22:52:21.093",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e008INCD",
     "IncidentReference": "INCD-57352-N",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-15T20:40:47",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-15T22:52:21.093",
     "EstimatedRestorationDate": "2020-12-16T00:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-15T20:39:00",
-    "NoCustomerAffected": 132,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 38,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-15T22:50:00",
+        "ActualEventTime": "2020-12-15T22:57:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 22:50 - As it's approaching that time of night where most of our customers are going to sleep, we wanted to let you know that we will continue to send text messages throughout the night with progress updates. If you want to continue receiving updates but prefer not to be disturbed, you can place your phone on silent or activate the Do Not Disturb settings on smart phones. If you no longer want to receive updates, please text CANCEL to 80876 (standard text fees apply). Thank you.",
-        "LoggedTime": "2020-12-15T22:50:46.877"
+        "Comment": "Update at 22:57 - We can now confirm that all power in the Ingelow Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-12-15T22:57:27.32"
       }
     ],
     "PostCodesAffected": [
@@ -75,7 +75,9 @@
     "PostCodesRestored": [
       "SW8",
       "SW83PE",
+      "SW83PL",
       "SW83PQ",
+      "SW83PX",
       "SW83PZ",
       "SW83QA",
       "SW83RE",
@@ -85,14 +87,14 @@
       "SW83RS",
       "SW83RU",
       "SW83RY",
-      "SW83RZ",
-      "SW83PL",
-      "SW83PX"
+      "SW83RZ"
     ],
     "PostCodesPlanned": [
       "SW8",
       "SW83PE",
+      "SW83PL",
       "SW83PQ",
+      "SW83PX",
       "SW83PZ",
       "SW83QA",
       "SW83RE",
@@ -102,13 +104,11 @@
       "SW83RS",
       "SW83RU",
       "SW83RY",
-      "SW83RZ",
-      "SW83PL",
-      "SW83PX"
+      "SW83RZ"
     ],
-    "CustomersOnSupply": 262,
-    "CustomersOffSupply": 132,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 394,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -465,7 +465,9 @@
   "FullPostcodeData": [
     "SW8",
     "SW83PE",
+    "SW83PL",
     "SW83PQ",
+    "SW83PX",
     "SW83PZ",
     "SW83QA",
     "SW83RE",
@@ -475,9 +477,7 @@
     "SW83RS",
     "SW83RU",
     "SW83RY",
-    "SW83RZ",
-    "SW83PL",
-    "SW83PX"
+    "SW83RZ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
