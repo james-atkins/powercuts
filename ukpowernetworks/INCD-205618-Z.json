@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-205618-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-205618-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-205618-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-12-15T11:27:38.713",
+      "Message": "Update at 11:26 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Trent Gardens area for safety so they can replace a faulty piece of network equipment. Our estimated time to have your power back on is between 11:30 and 12:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-12-15T10:58:00",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-15T10:49:57",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-15T11:28:54.447",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032332INCD",
     "IncidentReference": "INCD-205618-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-15T10:48:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-15T11:28:54.447",
     "EstimatedRestorationDate": "2020-12-15T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-15T10:58:00",
-    "NoCustomerAffected": 29,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
+    "NoCallsReported": 2,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,23 +60,31 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-15T11:25:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 11:26 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Trent Gardens area for safety so they can replace a faulty piece of network equipment. Our estimated time to have your power back on is between 11:30 and 12:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
+        "LoggedTime": "2020-12-15T11:27:38.713"
+      }
+    ],
     "PostCodesAffected": [
       "N14 4"
     ],
     "PostCodesRestored": [
+      "N144NR",
       "N144QB",
-      "N144QN",
-      "N144NR"
+      "N144QN"
     ],
     "PostCodesPlanned": [
+      "N144NR",
       "N144QB",
-      "N144QN",
-      "N144NR"
+      "N144QN"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 29,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 30,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -125,9 +139,9 @@
     }
   ],
   "FullPostcodeData": [
+    "N144NR",
     "N144QB",
-    "N144QN",
-    "N144NR"
+    "N144QN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
