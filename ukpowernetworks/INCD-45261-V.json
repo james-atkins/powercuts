@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-45261-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-45261-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-45261-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-15T11:34:55.217",
-      "Message": "Update at 11:34 - We've diverted electricity around the faulty part of the network, restoring power to 78 properties. This leaves 19 properties affected by the overhead network fault. We'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
+      "Date": "2020-12-15T12:00:15.6",
+      "Message": "Update at 12:00 - We believe our engineers have been able to restore power to all 97 customers in the Tithebarns Lane area, by repairing a fault on the overhead network. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles.  We know your power may have been off for a long time, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-15T07:46:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-15T11:57:29.75",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000b0cdINCD",
     "IncidentReference": "INCD-45261-V",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 21,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-15T06:54:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-15T11:57:29.75",
     "EstimatedRestorationDate": "2020-12-15T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-15T06:54:03",
-    "NoCustomerAffected": 19,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 18,
+    "NoCallsReported": 19,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-15T11:34:00",
+        "ActualEventTime": "2020-12-15T12:00:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 11:34 - We've diverted electricity around the faulty part of the network, restoring power to 78 properties. This leaves 19 properties affected by the overhead network fault. We'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
-        "LoggedTime": "2020-12-15T11:34:55.217"
+        "Comment": "Update at 12:00 - We believe our engineers have been able to restore power to all 97 customers in the Tithebarns Lane area, by repairing a fault on the overhead network. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles.  We know your power may have been off for a long time, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2020-12-15T12:00:15.6"
       }
     ],
     "PostCodesAffected": [
@@ -77,10 +77,6 @@
     "PostCodesRestored": [
       "GU236EX",
       "GU236HS",
-      "GU237LE",
-      "GU237LF",
-      "GU237LG",
-      "GU237LQ",
       "GU237DD",
       "GU237DE",
       "GU237JN",
@@ -89,15 +85,15 @@
       "GU237JU",
       "GU237JW",
       "GU237JX",
+      "GU237LE",
+      "GU237LF",
+      "GU237LG",
+      "GU237LQ",
       "ME104FE"
     ],
     "PostCodesPlanned": [
       "GU236EX",
       "GU236HS",
-      "GU237LE",
-      "GU237LF",
-      "GU237LG",
-      "GU237LQ",
       "GU237DD",
       "GU237DE",
       "GU237JN",
@@ -106,11 +102,15 @@
       "GU237JU",
       "GU237JW",
       "GU237JX",
+      "GU237LE",
+      "GU237LF",
+      "GU237LG",
+      "GU237LQ",
       "ME104FE"
     ],
-    "CustomersOnSupply": 76,
-    "CustomersOffSupply": 19,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 95,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1247,10 +1247,6 @@
   "FullPostcodeData": [
     "GU236EX",
     "GU236HS",
-    "GU237LE",
-    "GU237LF",
-    "GU237LG",
-    "GU237LQ",
     "GU237DD",
     "GU237DE",
     "GU237JN",
@@ -1259,6 +1255,10 @@
     "GU237JU",
     "GU237JW",
     "GU237JX",
+    "GU237LE",
+    "GU237LF",
+    "GU237LG",
+    "GU237LQ",
     "ME104FE"
   ],
   "PinLatitude": null,
