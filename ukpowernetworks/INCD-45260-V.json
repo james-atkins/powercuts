@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-45260-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-45260-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-45260-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-15T07:14:07",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-15T20:15:04.633",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000b0ccINCD",
     "IncidentReference": "INCD-45260-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-15T05:52:19",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-15T20:15:04.633",
     "EstimatedRestorationDate": "2020-12-15T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-15T05:51:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -75,10 +75,10 @@
     ],
     "PostCodesRestored": [
       "CT162AH",
-      "CT162AU",
       "CT162AR",
       "CT162AS",
       "CT162AT",
+      "CT162AU",
       "CT162AW",
       "CT162BF",
       "CT162QT",
@@ -90,10 +90,10 @@
     ],
     "PostCodesPlanned": [
       "CT162AH",
-      "CT162AU",
       "CT162AR",
       "CT162AS",
       "CT162AT",
+      "CT162AU",
       "CT162AW",
       "CT162BF",
       "CT162QT",
@@ -103,9 +103,9 @@
       "CT170SB",
       "CT170SE"
     ],
-    "CustomersOnSupply": 168,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 173,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1191,10 +1191,10 @@
   ],
   "FullPostcodeData": [
     "CT162AH",
-    "CT162AU",
     "CT162AR",
     "CT162AS",
     "CT162AT",
+    "CT162AU",
     "CT162AW",
     "CT162BF",
     "CT162QT",
