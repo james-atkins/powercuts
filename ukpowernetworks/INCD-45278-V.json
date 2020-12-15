@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-45278-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-45278-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-45278-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-15T11:55:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-15T22:31:51.02",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000b0deINCD",
     "IncidentReference": "INCD-45278-V",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-15T11:11:06",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-15T22:31:51.02",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-15T11:04:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "TN12 0"
     ],
     "PostCodesRestored": [
-      "TN120EB",
       "TN120EA",
+      "TN120EB",
       "TN120ED"
     ],
     "PostCodesPlanned": [
-      "TN120EB",
       "TN120EA",
+      "TN120EB",
       "TN120ED"
     ],
-    "CustomersOnSupply": 13,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 16,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -365,8 +365,8 @@
     }
   ],
   "FullPostcodeData": [
-    "TN120EB",
     "TN120EA",
+    "TN120EB",
     "TN120ED"
   ],
   "PinLatitude": null,
