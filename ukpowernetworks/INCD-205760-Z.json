@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-205760-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-205760-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-205760-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-15T18:24:42",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-15T23:32:33.67",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000323c0INCD",
     "IncidentReference": "INCD-205760-Z",
     "IncidentCategory": "14",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-15T17:22:55",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-15T23:32:33.67",
     "EstimatedRestorationDate": "2020-12-16T00:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-15T17:22:41",
-    "NoCustomerAffected": 8,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -74,12 +74,12 @@
       "PE38 0"
     ],
     "PostCodesRestored": [
-      "IP264EN",
-      "IP264EW",
       "IP264EG",
       "IP264EJ",
       "IP264EL",
+      "IP264EN",
       "IP264ET",
+      "IP264EW",
       "IP264JN",
       "IP264JP",
       "IP264JR",
@@ -88,12 +88,12 @@
       "PE380PX"
     ],
     "PostCodesPlanned": [
-      "IP264EN",
-      "IP264EW",
       "IP264EG",
       "IP264EJ",
       "IP264EL",
+      "IP264EN",
       "IP264ET",
+      "IP264EW",
       "IP264JN",
       "IP264JP",
       "IP264JR",
@@ -101,10 +101,10 @@
       "IP264JW",
       "PE380PX"
     ],
-    "CustomersOnSupply": 83,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 89,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -888,12 +888,12 @@
     }
   ],
   "FullPostcodeData": [
-    "IP264EN",
-    "IP264EW",
     "IP264EG",
     "IP264EJ",
     "IP264EL",
+    "IP264EN",
     "IP264ET",
+    "IP264EW",
     "IP264JN",
     "IP264JP",
     "IP264JR",
