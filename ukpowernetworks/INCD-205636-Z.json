@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-205636-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-205636-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-205636-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-15T13:27:09",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-15T23:49:01.467",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032344INCD",
     "IncidentReference": "INCD-205636-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-15T11:44:59",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-15T23:49:01.467",
     "EstimatedRestorationDate": "2020-12-16T00:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-15T11:44:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 17,
     "Latitude": 0.0,
@@ -73,25 +73,25 @@
       "SG7 6"
     ],
     "PostCodesRestored": [
-      "SG76BZ",
       "SG76BU",
+      "SG76BZ",
       "SG76DA",
       "SG76FN",
       "SG76PN",
       "SG76RS"
     ],
     "PostCodesPlanned": [
-      "SG76BZ",
       "SG76BU",
+      "SG76BZ",
       "SG76DA",
       "SG76FN",
       "SG76PN",
       "SG76RS"
     ],
-    "CustomersOnSupply": 131,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 132,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -553,8 +553,8 @@
     }
   ],
   "FullPostcodeData": [
-    "SG76BZ",
     "SG76BU",
+    "SG76BZ",
     "SG76DA",
     "SG76FN",
     "SG76PN",
