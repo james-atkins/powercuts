@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-251163-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-251163-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-251163-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-15T13:28:32",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-16T10:20:24.83",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003d51bINCD",
     "IncidentReference": "INCD-251163-J",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-10T09:10:35",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-16T10:20:24.83",
     "EstimatedRestorationDate": "2020-12-16T11:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-16T09:10:00",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "SE10 8"
     ],
     "PostCodesRestored": [
-      "SE108RU",
       "SE108EX",
-      "SE108HA"
+      "SE108HA",
+      "SE108RU"
     ],
     "PostCodesPlanned": [
-      "SE108RU",
       "SE108EX",
-      "SE108HA"
+      "SE108HA",
+      "SE108RU"
     ],
-    "CustomersOnSupply": 28,
-    "CustomersOffSupply": 12,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 40,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -561,9 +561,9 @@
     }
   ],
   "FullPostcodeData": [
-    "SE108RU",
     "SE108EX",
-    "SE108HA"
+    "SE108HA",
+    "SE108RU"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
