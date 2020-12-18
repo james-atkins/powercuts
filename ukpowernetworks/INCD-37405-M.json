@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-37405-M",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-37405-M",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-37405-M",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-18T05:55:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-18T07:02:07.567",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "M0000921dINCD",
     "IncidentReference": "INCD-37405-M",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-18T05:14:48",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-18T07:02:07.567",
     "EstimatedRestorationDate": "2020-12-18T08:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-18T05:12:00",
-    "NoCustomerAffected": 94,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -59,26 +59,26 @@
       "SE26 5"
     ],
     "PostCodesRestored": [
+      "SE265JZ",
       "SE265LD",
       "SE265LE",
       "SE265LF",
       "SE265RL",
       "SE265RN",
-      "SE265RW",
-      "SE265JZ"
+      "SE265RW"
     ],
     "PostCodesPlanned": [
+      "SE265JZ",
       "SE265LD",
       "SE265LE",
       "SE265LF",
       "SE265RL",
       "SE265RN",
-      "SE265RW",
-      "SE265JZ"
+      "SE265RW"
     ],
-    "CustomersOnSupply": 28,
-    "CustomersOffSupply": 113,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 141,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -637,13 +637,13 @@
     }
   ],
   "FullPostcodeData": [
+    "SE265JZ",
     "SE265LD",
     "SE265LE",
     "SE265LF",
     "SE265RL",
     "SE265RN",
-    "SE265RW",
-    "SE265JZ"
+    "SE265RW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
