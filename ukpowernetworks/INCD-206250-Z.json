@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-206250-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-206250-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-206250-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-18T22:09:52.293",
-      "Message": "Update at 22:09 - It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers are in the final process of repairs. Therefore, we're now aiming to restore supplies between 22:30 and 23:30. We're sorry we've had to change the estimated time, but we'll keep you updated.",
+      "Date": "2020-12-18T22:35:36.85",
+      "Message": "Update at 22:35 - We can now confirm that all power in the Cricketers Lane area should be back on. The issue was caused by a faulty underground cable, which our engineers have repaired. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-18T04:10:41",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-18T22:29:43.077",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000325aaINCD",
     "IncidentReference": "INCD-206250-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-18T03:13:02",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-18T22:29:43.077",
     "EstimatedRestorationDate": "2020-12-18T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-18T03:08:00",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -62,18 +62,17 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-18T22:08:00",
+        "ActualEventTime": "2020-12-18T22:34:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 22:09 - It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers are in the final process of repairs. Therefore, we're now aiming to restore supplies between 22:30 and 23:30. We're sorry we've had to change the estimated time, but we'll keep you updated.",
-        "LoggedTime": "2020-12-18T22:09:52.293"
+        "Comment": "Update at 22:35 - We can now confirm that all power in the Cricketers Lane area should be back on. The issue was caused by a faulty underground cable, which our engineers have repaired. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-12-18T22:35:36.85"
       }
     ],
     "PostCodesAffected": [
       "CM13 3"
     ],
     "PostCodesRestored": [
-      "CM133QB",
       "CM133NU",
       "CM133NY",
       "CM133NZ",
@@ -85,10 +84,10 @@
       "CM133PH",
       "CM133PJ",
       "CM133PZ",
-      "CM133QA"
+      "CM133QA",
+      "CM133QB"
     ],
     "PostCodesPlanned": [
-      "CM133QB",
       "CM133NU",
       "CM133NY",
       "CM133NZ",
@@ -100,11 +99,12 @@
       "CM133PH",
       "CM133PJ",
       "CM133PZ",
-      "CM133QA"
+      "CM133QA",
+      "CM133QB"
     ],
-    "CustomersOnSupply": 134,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 144,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -555,7 +555,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CM133QB",
     "CM133NU",
     "CM133NY",
     "CM133NZ",
@@ -567,7 +566,8 @@
     "CM133PH",
     "CM133PJ",
     "CM133PZ",
-    "CM133QA"
+    "CM133QA",
+    "CM133QB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
