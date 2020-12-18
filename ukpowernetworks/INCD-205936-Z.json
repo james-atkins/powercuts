@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-205936-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-205936-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-205936-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-16T16:11:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-18T04:29:30.063",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032470INCD",
     "IncidentReference": "INCD-205936-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-16T14:29:26",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-18T04:29:30.063",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-16T14:26:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -73,17 +73,17 @@
       "HA6 2"
     ],
     "PostCodesRestored": [
-      "HA62LL",
-      "HA62LJ"
+      "HA62LJ",
+      "HA62LL"
     ],
     "PostCodesPlanned": [
-      "HA62LL",
-      "HA62LJ"
+      "HA62LJ",
+      "HA62LL"
     ],
-    "CustomersOnSupply": 21,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 22,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -553,8 +553,8 @@
     }
   ],
   "FullPostcodeData": [
-    "HA62LL",
-    "HA62LJ"
+    "HA62LJ",
+    "HA62LL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
