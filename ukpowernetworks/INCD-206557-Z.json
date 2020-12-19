@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-206557-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-206557-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-206557-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-12-19T19:24:51.96",
+      "Message": "Update at 19:24 - We believe our engineers have been able to restore power to all the customers in the Saffron Walden CB11 area, by diverting power around an overhead/underground cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-12-19T18:58:00",
@@ -15,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-19T18:42:06",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-19T19:35:23.633",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000326ddINCD",
     "IncidentReference": "INCD-206557-Z",
     "IncidentCategory": "43",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-19T16:40:09",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-19T19:35:23.633",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-19T18:58:00",
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-19T19:22:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 19:24 - We believe our engineers have been able to restore power to all the customers in the Saffron Walden CB11 area, by diverting power around an overhead/underground cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2020-12-19T19:24:51.96"
+      }
+    ],
     "PostCodesAffected": [
       "CB11 3"
     ],
@@ -78,7 +92,7 @@
     ],
     "CustomersOnSupply": 76,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
