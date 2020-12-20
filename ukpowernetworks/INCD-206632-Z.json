@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-206632-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-206632-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-206632-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-20T11:55:29",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-20T20:00:15.32",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032728INCD",
     "IncidentReference": "INCD-206632-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-20T10:52:38",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-20T20:00:15.32",
     "EstimatedRestorationDate": "2020-12-20T20:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-20T10:51:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -74,28 +74,28 @@
       "CO15 3"
     ],
     "PostCodesRestored": [
-      "CO151JN",
       "CO151EX",
       "CO151FP",
       "CO151JA",
+      "CO151JN",
       "CO151JP",
       "CO151QT",
       "CO151QU",
       "CO153PP"
     ],
     "PostCodesPlanned": [
-      "CO151JN",
       "CO151EX",
       "CO151FP",
       "CO151JA",
+      "CO151JN",
       "CO151JP",
       "CO151QT",
       "CO151QU",
       "CO153PP"
     ],
-    "CustomersOnSupply": 98,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 103,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -620,10 +620,10 @@
     }
   ],
   "FullPostcodeData": [
-    "CO151JN",
     "CO151EX",
     "CO151FP",
     "CO151JA",
+    "CO151JN",
     "CO151JP",
     "CO151QT",
     "CO151QU",

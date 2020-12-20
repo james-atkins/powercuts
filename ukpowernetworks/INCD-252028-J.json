@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-252028-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-252028-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-252028-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-20T18:49:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-20T20:11:44.453",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003d87cINCD",
     "IncidentReference": "INCD-252028-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-20T17:02:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-20T20:11:44.453",
     "EstimatedRestorationDate": "2020-12-20T20:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-20T16:59:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "W11 2"
     ],
     "PostCodesRestored": [
-      "W112DZ",
       "W112BT",
       "W112DD",
       "W112DF",
@@ -68,10 +67,10 @@
       "W112DQ",
       "W112DX",
       "W112DY",
+      "W112DZ",
       "W112PS"
     ],
     "PostCodesPlanned": [
-      "W112DZ",
       "W112BT",
       "W112DD",
       "W112DF",
@@ -80,11 +79,12 @@
       "W112DQ",
       "W112DX",
       "W112DY",
+      "W112DZ",
       "W112PS"
     ],
-    "CustomersOnSupply": 238,
-    "CustomersOffSupply": 22,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 260,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -599,7 +599,6 @@
     }
   ],
   "FullPostcodeData": [
-    "W112DZ",
     "W112BT",
     "W112DD",
     "W112DF",
@@ -608,6 +607,7 @@
     "W112DQ",
     "W112DX",
     "W112DY",
+    "W112DZ",
     "W112PS"
   ],
   "PinLatitude": null,
