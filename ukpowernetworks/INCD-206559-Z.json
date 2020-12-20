@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-206559-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-206559-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-206559-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2020-12-19T18:10:42",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2020-12-20T10:23:56.613",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z000326dfINCD",
     "IncidentReference": "INCD-206559-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2020-12-19T17:08:15",
-    "RestoredDateTime": "2020-12-20T10:23:56.613",
-    "EstimatedRestorationDate": "2020-12-20T10:30:00",
+    "RestoredDateTime": null,
+    "EstimatedRestorationDate": "2020-12-20T17:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-19T17:07:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 10,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -59,23 +59,23 @@
       "IP23 7"
     ],
     "PostCodesRestored": [
-      "IP237AB",
       "IP237AF",
-      "IP237AJ",
       "IP237AY",
+      "IP237AB",
+      "IP237AJ",
       "IP237AZ"
     ],
     "PostCodesPlanned": [
-      "IP237AB",
       "IP237AF",
-      "IP237AJ",
       "IP237AY",
+      "IP237AB",
+      "IP237AJ",
       "IP237AZ"
     ],
-    "CustomersOnSupply": 31,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 21,
+    "CustomersOffSupply": 10,
+    "IncidentTypeName": "Unplanned",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -457,16 +457,16 @@
     }
   ],
   "FullPostcodeData": [
-    "IP237AB",
     "IP237AF",
-    "IP237AJ",
     "IP237AY",
+    "IP237AB",
+    "IP237AJ",
     "IP237AZ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "10:00 - 11:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "16:30 - 17:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
