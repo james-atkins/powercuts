@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-206604-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-206604-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-206604-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,29 +21,29 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
-      "Date": null,
+      "Active": true,
+      "Date": "2020-12-20T07:56:01",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2020-12-20T07:27:02.017",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z0003270cINCD",
     "IncidentReference": "INCD-206604-Z",
-    "IncidentCategory": "118",
+    "IncidentCategory": "3",
     "IncidentType": 3,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2020-12-20T06:55:26",
-    "RestoredDateTime": "2020-12-20T07:27:02.017",
-    "EstimatedRestorationDate": "2020-12-20T09:00:00",
+    "RestoredDateTime": null,
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-20T06:55:24",
     "NoCustomerAffected": 0,
@@ -56,8 +56,8 @@
       "Name": "SIMON (R5)",
       "EstimatedTimeOfArrival": "2020-12-20T07:30:00",
       "DispatchedDate": "2020-12-20T07:00:01",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2020-12-20T07:56:01",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -76,7 +76,6 @@
     "PostCodesRestored": [
       "MK430AA",
       "MK430AB",
-      "MK430AJ",
       "MK430AS",
       "MK430AT",
       "MK430AU",
@@ -106,12 +105,7 @@
       "MK430JH",
       "MK430JJ",
       "MK430JQ",
-      "MK430JR",
-      "MK430LJ",
-      "MK430LN",
       "MK430LP",
-      "MK430LR",
-      "MK430LW",
       "MK430LX",
       "MK430NG",
       "MK430QF",
@@ -122,12 +116,17 @@
       "MK430RF",
       "MK439EA",
       "MK439EH",
-      "MK439EJ"
+      "MK439EJ",
+      "MK430AJ",
+      "MK430JR",
+      "MK430LJ",
+      "MK430LN",
+      "MK430LR",
+      "MK430LW"
     ],
     "PostCodesPlanned": [
       "MK430AA",
       "MK430AB",
-      "MK430AJ",
       "MK430AS",
       "MK430AT",
       "MK430AU",
@@ -157,12 +156,7 @@
       "MK430JH",
       "MK430JJ",
       "MK430JQ",
-      "MK430JR",
-      "MK430LJ",
-      "MK430LN",
       "MK430LP",
-      "MK430LR",
-      "MK430LW",
       "MK430LX",
       "MK430NG",
       "MK430QF",
@@ -173,12 +167,18 @@
       "MK430RF",
       "MK439EA",
       "MK439EH",
-      "MK439EJ"
+      "MK439EJ",
+      "MK430AJ",
+      "MK430JR",
+      "MK430LJ",
+      "MK430LN",
+      "MK430LR",
+      "MK430LW"
     ],
-    "CustomersOnSupply": 811,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 133,
+    "CustomersOffSupply": 678,
+    "IncidentTypeName": "Unplanned",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -876,7 +876,6 @@
   "FullPostcodeData": [
     "MK430AA",
     "MK430AB",
-    "MK430AJ",
     "MK430AS",
     "MK430AT",
     "MK430AU",
@@ -906,12 +905,7 @@
     "MK430JH",
     "MK430JJ",
     "MK430JQ",
-    "MK430JR",
-    "MK430LJ",
-    "MK430LN",
     "MK430LP",
-    "MK430LR",
-    "MK430LW",
     "MK430LX",
     "MK430NG",
     "MK430QF",
@@ -922,12 +916,18 @@
     "MK430RF",
     "MK439EA",
     "MK439EH",
-    "MK439EJ"
+    "MK439EJ",
+    "MK430AJ",
+    "MK430JR",
+    "MK430LJ",
+    "MK430LN",
+    "MK430LR",
+    "MK430LW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "08:30 - 09:30",
+  "IncidentCategoryCustomerFriendlyDescription": "We were investigating an overhead electricity equipment fault which caused a power cut in the local area.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
