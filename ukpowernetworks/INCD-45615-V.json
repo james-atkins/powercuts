@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-45615-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-45615-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-45615-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-20T15:03:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-20T19:03:16.19",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000b22fINCD",
     "IncidentReference": "INCD-45615-V",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 37,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-20T14:21:43",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-20T19:03:16.19",
     "EstimatedRestorationDate": "2020-12-20T20:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-20T14:19:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "TN5 6"
     ],
     "PostCodesRestored": [
-      "TN56QX",
       "TN56HE",
-      "TN56HF"
+      "TN56HF",
+      "TN56QX"
     ],
     "PostCodesPlanned": [
-      "TN56QX",
       "TN56HE",
-      "TN56HF"
+      "TN56HF",
+      "TN56QX"
     ],
-    "CustomersOnSupply": 17,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 20,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -413,9 +413,9 @@
     }
   ],
   "FullPostcodeData": [
-    "TN56QX",
     "TN56HE",
-    "TN56HF"
+    "TN56HF",
+    "TN56QX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
