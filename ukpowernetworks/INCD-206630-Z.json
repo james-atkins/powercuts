@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-206630-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-206630-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-206630-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-20T11:10:53.007",
-      "Message": "Update at 11:08 - Our engineers are on their way. At this point we think the issue is an overhead fault now affecting 822 properties as we have restored another 503. Specialist engineers from our control room are also working to divert power remotely, so it's possible for your power to come back on at any point, but sometimes we can't restore everyone this way. That's why we're also sending staff to the area to check our equipment. Every fault is different, so our time frames have to be estimated, but currently we hope to have power back on between 12:30 and 13:30. We must stress that it may become necessary for this to change, depending on what our engineers find. If you need to talk our team are always here on 08003163105.",
+      "Date": "2020-12-20T11:25:42.503",
+      "Message": "Update at 11:22 - We believe our engineers have been able to restore power to all 2050 customers in the Fakenham and Walsingham area, by diverting power around an overhead cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -15,40 +15,40 @@
       "Name": "We are restoring customers automatically"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-20T10:50:19",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2020-12-20T11:41:49",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-20T11:21:26.707",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032726INCD",
     "IncidentReference": "INCD-206630-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-20T10:45:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-20T11:21:26.707",
     "EstimatedRestorationDate": "2020-12-20T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-20T10:45:29",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 17,
+    "NoCallsReported": 18,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -56,17 +56,17 @@
       "Name": "STEPHEN (R5) (CALL HOME P",
       "EstimatedTimeOfArrival": "2020-12-20T11:50:00",
       "DispatchedDate": "2020-12-20T10:50:19",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2020-12-20T11:41:49",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-20T11:10:00",
+        "ActualEventTime": "2020-12-20T11:25:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 11:08 - Our engineers are on their way. At this point we think the issue is an overhead fault now affecting 822 properties as we have restored another 503. Specialist engineers from our control room are also working to divert power remotely, so it's possible for your power to come back on at any point, but sometimes we can't restore everyone this way. That's why we're also sending staff to the area to check our equipment. Every fault is different, so our time frames have to be estimated, but currently we hope to have power back on between 12:30 and 13:30. We must stress that it may become necessary for this to change, depending on what our engineers find. If you need to talk our team are always here on 08003163105.",
-        "LoggedTime": "2020-12-20T11:10:53.007"
+        "Comment": "Update at 11:22 - We believe our engineers have been able to restore power to all 2050 customers in the Fakenham and Walsingham area, by diverting power around an overhead cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2020-12-20T11:25:42.503"
       }
     ],
     "PostCodesAffected": [
@@ -487,7 +487,7 @@
     ],
     "CustomersOnSupply": 2036,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -4546,7 +4546,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "12:30 - 13:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
