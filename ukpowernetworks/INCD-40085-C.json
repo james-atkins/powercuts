@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-40085-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40085-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40085-C",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-21T08:20:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-21T13:28:38.637",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009c95INCD",
     "IncidentReference": "INCD-40085-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-21T07:43:50",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-21T13:28:38.637",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-21T07:43:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 1,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -59,7 +59,6 @@
       "CM11 2"
     ],
     "PostCodesRestored": [
-      "CM112RE",
       "CM112JB",
       "CM112NH",
       "CM112NJ",
@@ -69,10 +68,10 @@
       "CM112QN",
       "CM112QS",
       "CM112RB",
+      "CM112RE",
       "CM112RF"
     ],
     "PostCodesPlanned": [
-      "CM112RE",
       "CM112JB",
       "CM112NH",
       "CM112NJ",
@@ -82,12 +81,13 @@
       "CM112QN",
       "CM112QS",
       "CM112RB",
+      "CM112RE",
       "CM112RF"
     ],
-    "CustomersOnSupply": 114,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 115,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -601,7 +601,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CM112RE",
     "CM112JB",
     "CM112NH",
     "CM112NJ",
@@ -611,6 +610,7 @@
     "CM112QN",
     "CM112QS",
     "CM112RB",
+    "CM112RE",
     "CM112RF"
   ],
   "PinLatitude": null,
