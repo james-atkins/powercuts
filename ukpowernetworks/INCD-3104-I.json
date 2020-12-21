@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-3104-I",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-3104-I",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-3104-I",
   "Steps": [
     {
       "Active": true,
@@ -21,29 +21,29 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-21T14:04:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-21T16:30:38.527",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "I00000c20INCD",
     "IncidentReference": "INCD-3104-I",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-21T13:35:19",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2020-12-21T16:30:00",
+    "RestoredDateTime": "2020-12-21T16:30:38.527",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-21T13:31:00",
     "NoCustomerAffected": 0,
@@ -127,7 +127,7 @@
     ],
     "CustomersOnSupply": 200,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1675,7 +1675,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "16:00 - 17:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
