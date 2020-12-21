@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-206788-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-206788-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-206788-Z",
   "Steps": [
     {
       "Active": true,
@@ -10,8 +10,8 @@
     },
     {
       "Active": false,
-      "Date": "2020-12-21T14:04:25",
-      "Message": "<p>We became aware of this power cut at 14:04. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
+      "Date": "2020-12-21T10:39:09",
+      "Message": "<p>We became aware of this power cut at 10:39. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
       "Name": "We are restoring customers automatically"
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-21T14:10:13",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-21T18:57:50.313",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000327c4INCD",
     "IncidentReference": "INCD-206788-Z",
     "IncidentCategory": "3",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-21T14:04:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-21T18:57:50.313",
     "EstimatedRestorationDate": "2020-12-21T19:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-21T14:04:25",
-    "NoCustomerAffected": 22,
+    "ReceivedDate": "2020-12-21T10:39:09",
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -74,12 +74,6 @@
       "PE29 3"
     ],
     "PostCodesRestored": [
-      "PE166BJ",
-      "PE166XB",
-      "PE166XD",
-      "PE166XF",
-      "PE166XG",
-      "PE166XP",
       "PE166AG",
       "PE166AT",
       "PE166AY",
@@ -87,6 +81,7 @@
       "PE166BD",
       "PE166BE",
       "PE166BG",
+      "PE166BJ",
       "PE166BL",
       "PE166BN",
       "PE166BS",
@@ -138,15 +133,14 @@
       "PE166NQ",
       "PE166QS",
       "PE166RE",
+      "PE166XB",
+      "PE166XD",
+      "PE166XF",
+      "PE166XG",
+      "PE166XP",
       "PE293BL"
     ],
     "PostCodesPlanned": [
-      "PE166BJ",
-      "PE166XB",
-      "PE166XD",
-      "PE166XF",
-      "PE166XG",
-      "PE166XP",
       "PE166AG",
       "PE166AT",
       "PE166AY",
@@ -154,6 +148,7 @@
       "PE166BD",
       "PE166BE",
       "PE166BG",
+      "PE166BJ",
       "PE166BL",
       "PE166BN",
       "PE166BS",
@@ -205,11 +200,16 @@
       "PE166NQ",
       "PE166QS",
       "PE166RE",
+      "PE166XB",
+      "PE166XD",
+      "PE166XF",
+      "PE166XG",
+      "PE166XP",
       "PE293BL"
     ],
-    "CustomersOnSupply": 1101,
-    "CustomersOffSupply": 21,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 1122,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -662,12 +662,6 @@
     }
   ],
   "FullPostcodeData": [
-    "PE166BJ",
-    "PE166XB",
-    "PE166XD",
-    "PE166XF",
-    "PE166XG",
-    "PE166XP",
     "PE166AG",
     "PE166AT",
     "PE166AY",
@@ -675,6 +669,7 @@
     "PE166BD",
     "PE166BE",
     "PE166BG",
+    "PE166BJ",
     "PE166BL",
     "PE166BN",
     "PE166BS",
@@ -726,6 +721,11 @@
     "PE166NQ",
     "PE166QS",
     "PE166RE",
+    "PE166XB",
+    "PE166XD",
+    "PE166XF",
+    "PE166XG",
+    "PE166XP",
     "PE293BL"
   ],
   "PinLatitude": null,
