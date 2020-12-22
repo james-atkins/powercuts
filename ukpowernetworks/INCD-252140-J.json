@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-252140-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-252140-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-252140-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-21T23:46:36",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-22T00:32:31.38",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003d8ecINCD",
     "IncidentReference": "INCD-252140-J",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 20,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-21T23:18:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-22T00:32:31.38",
     "EstimatedRestorationDate": "2020-12-22T01:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-21T23:18:28",
-    "NoCustomerAffected": 15,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -67,12 +67,6 @@
       "SE1 9"
     ],
     "PostCodesRestored": [
-      "EC4R2RH",
-      "EC4R2RL",
-      "EC4R2SP",
-      "EC4R2SS",
-      "EC4R2ST",
-      "EC4R2SU",
       "EC2R8AJ",
       "EC4N4TQ",
       "EC4N5AA",
@@ -87,16 +81,16 @@
       "EC4R1EE",
       "EC4R2RA",
       "EC4R2RB",
+      "EC4R2RH",
+      "EC4R2RL",
+      "EC4R2SP",
+      "EC4R2SS",
+      "EC4R2ST",
+      "EC4R2SU",
       "EC4V4AB",
       "SE19EG"
     ],
     "PostCodesPlanned": [
-      "EC4R2RH",
-      "EC4R2RL",
-      "EC4R2SP",
-      "EC4R2SS",
-      "EC4R2ST",
-      "EC4R2SU",
       "EC2R8AJ",
       "EC4N4TQ",
       "EC4N5AA",
@@ -111,12 +105,18 @@
       "EC4R1EE",
       "EC4R2RA",
       "EC4R2RB",
+      "EC4R2RH",
+      "EC4R2RL",
+      "EC4R2SP",
+      "EC4R2SS",
+      "EC4R2ST",
+      "EC4R2SU",
       "EC4V4AB",
       "SE19EG"
     ],
-    "CustomersOnSupply": 33,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 47,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -132,83 +132,6 @@
     "SE1 9"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.51102,
-        "lng": -0.09171
-      },
-      "Coordinates": [
-        {
-          "lat": 51.51187,
-          "lng": -0.09186
-        },
-        {
-          "lat": 51.51135,
-          "lng": -0.09153
-        },
-        {
-          "lat": 51.51137,
-          "lng": -0.09096
-        },
-        {
-          "lat": 51.51129,
-          "lng": -0.09089
-        },
-        {
-          "lat": 51.51045,
-          "lng": -0.09094
-        },
-        {
-          "lat": 51.51039,
-          "lng": -0.09111
-        },
-        {
-          "lat": 51.51027,
-          "lng": -0.09132
-        },
-        {
-          "lat": 51.51028,
-          "lng": -0.09186
-        },
-        {
-          "lat": 51.5105,
-          "lng": -0.09221
-        },
-        {
-          "lat": 51.51114,
-          "lng": -0.09215
-        },
-        {
-          "lat": 51.51116,
-          "lng": -0.09222
-        },
-        {
-          "lat": 51.51127,
-          "lng": -0.09275
-        },
-        {
-          "lat": 51.51129,
-          "lng": -0.09276
-        },
-        {
-          "lat": 51.51152,
-          "lng": -0.09256
-        },
-        {
-          "lat": 51.51178,
-          "lng": -0.0926
-        },
-        {
-          "lat": 51.51172,
-          "lng": -0.0922
-        },
-        {
-          "lat": 51.51187,
-          "lng": -0.09186
-        }
-      ],
-      "Postcode": "EC4R 2"
-    },
     {
       "Center": {
         "lat": 51.51387,
@@ -805,6 +728,83 @@
     },
     {
       "Center": {
+        "lat": 51.51102,
+        "lng": -0.09171
+      },
+      "Coordinates": [
+        {
+          "lat": 51.51187,
+          "lng": -0.09186
+        },
+        {
+          "lat": 51.51135,
+          "lng": -0.09153
+        },
+        {
+          "lat": 51.51137,
+          "lng": -0.09096
+        },
+        {
+          "lat": 51.51129,
+          "lng": -0.09089
+        },
+        {
+          "lat": 51.51045,
+          "lng": -0.09094
+        },
+        {
+          "lat": 51.51039,
+          "lng": -0.09111
+        },
+        {
+          "lat": 51.51027,
+          "lng": -0.09132
+        },
+        {
+          "lat": 51.51028,
+          "lng": -0.09186
+        },
+        {
+          "lat": 51.5105,
+          "lng": -0.09221
+        },
+        {
+          "lat": 51.51114,
+          "lng": -0.09215
+        },
+        {
+          "lat": 51.51116,
+          "lng": -0.09222
+        },
+        {
+          "lat": 51.51127,
+          "lng": -0.09275
+        },
+        {
+          "lat": 51.51129,
+          "lng": -0.09276
+        },
+        {
+          "lat": 51.51152,
+          "lng": -0.09256
+        },
+        {
+          "lat": 51.51178,
+          "lng": -0.0926
+        },
+        {
+          "lat": 51.51172,
+          "lng": -0.0922
+        },
+        {
+          "lat": 51.51187,
+          "lng": -0.09186
+        }
+      ],
+      "Postcode": "EC4R 2"
+    },
+    {
+      "Center": {
         "lat": 51.51115,
         "lng": -0.10021
       },
@@ -1119,12 +1119,6 @@
     }
   ],
   "FullPostcodeData": [
-    "EC4R2RH",
-    "EC4R2RL",
-    "EC4R2SP",
-    "EC4R2SS",
-    "EC4R2ST",
-    "EC4R2SU",
     "EC2R8AJ",
     "EC4N4TQ",
     "EC4N5AA",
@@ -1139,6 +1133,12 @@
     "EC4R1EE",
     "EC4R2RA",
     "EC4R2RB",
+    "EC4R2RH",
+    "EC4R2RL",
+    "EC4R2SP",
+    "EC4R2SS",
+    "EC4R2ST",
+    "EC4R2SU",
     "EC4V4AB",
     "SE19EG"
   ],
