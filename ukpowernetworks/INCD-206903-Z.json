@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-206903-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-206903-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-206903-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-22T11:25:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-22T12:32:30.64",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032837INCD",
     "IncidentReference": "INCD-206903-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-22T11:24:45",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-22T12:32:30.64",
     "EstimatedRestorationDate": "2020-12-22T17:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-22T11:24:45",
@@ -51,7 +51,7 @@
       "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
       "DispatchedDate": "2020-12-22T11:25:42",
       "ArrivalDate": "2020-12-22T11:25:45",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -61,11 +61,11 @@
       "SS8 9"
     ],
     "PostCodesRestored": [
-      "SS87RB",
-      "SS88AA",
       "SS87AE",
       "SS87AN",
       "SS87RA",
+      "SS87RB",
+      "SS88AA",
       "SS89AA",
       "SS89AB",
       "SS89AH",
@@ -76,11 +76,11 @@
       "SS89PA"
     ],
     "PostCodesPlanned": [
-      "SS87RB",
-      "SS88AA",
       "SS87AE",
       "SS87AN",
       "SS87RA",
+      "SS87RB",
+      "SS88AA",
       "SS89AA",
       "SS89AB",
       "SS89AH",
@@ -90,10 +90,10 @@
       "SS89DP",
       "SS89PA"
     ],
-    "CustomersOnSupply": 69,
-    "CustomersOffSupply": 39,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 108,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1643,11 +1643,11 @@
     }
   ],
   "FullPostcodeData": [
-    "SS87RB",
-    "SS88AA",
     "SS87AE",
     "SS87AN",
     "SS87RA",
+    "SS87RB",
+    "SS88AA",
     "SS89AA",
     "SS89AB",
     "SS89AH",
