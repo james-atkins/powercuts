@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-252098-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-252098-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-252098-J",
   "Steps": [
     {
       "Active": false,
-      "Date": "2020-12-21T14:13:48",
-      "Message": "<p>We became aware of a power cut at 14:13. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2020-12-21T14:04:48",
+      "Message": "<p>We became aware of a power cut at 14:04. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-21T15:12:51",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-22T17:17:25.017",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003d8c2INCD",
     "IncidentReference": "INCD-252098-J",
-    "IncidentCategory": "124",
+    "IncidentCategory": "57",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-21T14:12:45",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-22T17:17:25.017",
     "EstimatedRestorationDate": "2020-12-21T17:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-21T14:13:48",
+    "ReceivedDate": "2020-12-21T14:04:48",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -59,8 +59,6 @@
       "SW19 8"
     ],
     "PostCodesRestored": [
-      "SW198JA",
-      "SW198JN",
       "SW198BZ",
       "SW198DB",
       "SW198DD",
@@ -68,11 +66,11 @@
       "SW198EA",
       "SW198EF",
       "SW198EG",
-      "SW198EQ"
+      "SW198EQ",
+      "SW198JA",
+      "SW198JN"
     ],
     "PostCodesPlanned": [
-      "SW198JA",
-      "SW198JN",
       "SW198BZ",
       "SW198DB",
       "SW198DD",
@@ -80,11 +78,13 @@
       "SW198EA",
       "SW198EF",
       "SW198EG",
-      "SW198EQ"
+      "SW198EQ",
+      "SW198JA",
+      "SW198JN"
     ],
-    "CustomersOnSupply": 176,
-    "CustomersOffSupply": 21,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 197,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -707,8 +707,6 @@
     }
   ],
   "FullPostcodeData": [
-    "SW198JA",
-    "SW198JN",
     "SW198BZ",
     "SW198DB",
     "SW198DD",
@@ -716,11 +714,13 @@
     "SW198EA",
     "SW198EF",
     "SW198EG",
-    "SW198EQ"
+    "SW198EQ",
+    "SW198JA",
+    "SW198JN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "A problem on the electricity network caused power to go on and off in the area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "16:30 - 17:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,

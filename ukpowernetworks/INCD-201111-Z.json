@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-201111-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-201111-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-201111-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-26T08:51:44",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-22T17:14:58.023",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031197INCD",
     "IncidentReference": "INCD-201111-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 502,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-26T08:08:15",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-22T17:14:58.023",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-26T08:06:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -61,24 +61,24 @@
       "CO3 9"
     ],
     "PostCodesRestored": [
-      "CO35JX",
       "CO30LE",
       "CO30UL",
+      "CO35JX",
       "CO39EL",
       "CO39ET",
       "CO39EU"
     ],
     "PostCodesPlanned": [
-      "CO35JX",
       "CO30LE",
       "CO30UL",
+      "CO35JX",
       "CO39EL",
       "CO39ET",
       "CO39EU"
     ],
-    "CustomersOnSupply": 50,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 51,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1108,9 +1108,9 @@
     }
   ],
   "FullPostcodeData": [
-    "CO35JX",
     "CO30LE",
     "CO30UL",
+    "CO35JX",
     "CO39EL",
     "CO39ET",
     "CO39EU"
