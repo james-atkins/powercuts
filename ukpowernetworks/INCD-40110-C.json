@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-40110-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40110-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40110-C",
   "Steps": [
     {
       "Active": false,
-      "Date": "2020-12-21T16:25:46",
-      "Message": "<p>We became aware of a power cut at 16:25. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2020-12-22T10:32:00",
+      "Message": "<p>We became aware of a power cut at 10:32. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-21T19:09:19",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-22T11:13:56.127",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009caeINCD",
     "IncidentReference": "INCD-40110-C",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-21T16:26:28",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2020-12-22T11:13:56.127",
+    "EstimatedRestorationDate": "2020-12-22T12:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-21T16:25:46",
+    "ReceivedDate": "2020-12-22T10:32:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
@@ -64,9 +64,9 @@
     "PostCodesPlanned": [
       "IP91DE"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 7,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -426,7 +426,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We were investigating an overhead electricity line fault which caused a power cut in the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "11:30 - 12:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
