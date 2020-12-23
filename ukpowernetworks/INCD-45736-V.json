@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-45736-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-45736-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-45736-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-23T12:03:03.683",
-      "Message": "Update at 12:01 - Hi, this is Kevin from the UK Power Networks messaging team. Thanks for your patience over today. Our engineers have been in contact with us to let us know that they are still investigating the cause of today's powercuts. To give them time to do this safely, the estimated timeframe to restore your power is now between 14:00 and 15:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
+      "Date": "2020-12-23T13:32:26.113",
+      "Message": "Update at 13:32 - We can now confirm that all power in the Wilks Avenue area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2020-12-23T07:25:44",
+      "Date": "2020-12-23T07:25:00",
       "Message": "<p>We became aware of a power cut at 07:25. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-23T08:06:25",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-23T14:46:28.71",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000b2a8INCD",
     "IncidentReference": "INCD-45736-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-23T07:28:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-23T14:46:28.71",
     "EstimatedRestorationDate": "2020-12-23T14:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-23T07:25:44",
+    "ReceivedDate": "2020-12-23T07:25:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 10,
@@ -57,32 +57,44 @@
       "EstimatedTimeOfArrival": "2020-12-23T11:30:00",
       "DispatchedDate": "2020-12-23T08:05:08",
       "ArrivalDate": "2020-12-23T08:06:25",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-23T12:01:00",
+        "ActualEventTime": "2020-12-23T13:32:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 12:01 - Hi, this is Kevin from the UK Power Networks messaging team. Thanks for your patience over today. Our engineers have been in contact with us to let us know that they are still investigating the cause of today's powercuts. To give them time to do this safely, the estimated timeframe to restore your power is now between 14:00 and 15:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
-        "LoggedTime": "2020-12-23T12:03:03.683"
+        "Comment": "Update at 13:32 - We can now confirm that all power in the Wilks Avenue area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-12-23T13:32:26.113"
       }
     ],
     "PostCodesAffected": [
       "DA1 1"
     ],
     "PostCodesRestored": [
+      "DA11JG",
+      "DA11JN",
+      "DA11JQ",
       "DA11JS",
-      "DA11JZ"
+      "DA11JW",
+      "DA11JZ",
+      "DA11NT",
+      "DA11PE"
     ],
     "PostCodesPlanned": [
+      "DA11JG",
+      "DA11JN",
+      "DA11JQ",
       "DA11JS",
-      "DA11JZ"
+      "DA11JW",
+      "DA11JZ",
+      "DA11NT",
+      "DA11PE"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 20,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -669,8 +681,14 @@
     }
   ],
   "FullPostcodeData": [
+    "DA11JG",
+    "DA11JN",
+    "DA11JQ",
     "DA11JS",
-    "DA11JZ"
+    "DA11JW",
+    "DA11JZ",
+    "DA11NT",
+    "DA11PE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
