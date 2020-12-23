@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-252195-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-252195-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-252195-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-23T03:26:13.23",
-      "Message": "Update at 03:25 - Our team of specialist engineers are now on site and working to locate and fix the underground cable fault. Our estimated timeframe hasn't changed. They've been able to divert electricity around the faulty part of the network, restoring power to some customers. We know your power may now be back on, however we'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
+      "Date": "2020-12-23T03:56:40.377",
+      "Message": "Update at 03:56 - We can now confirm that all power in the Aberfoyle Road should be back on. The issue was due to a underground cable fault, however engineers have managed to restore power by diversion using different cabling routes and network equipment nearby. They will be investigating the root cause. If there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-23T00:21:19",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-23T03:39:38.63",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003d923INCD",
     "IncidentReference": "INCD-252195-J",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-22T22:35:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-23T03:39:38.63",
     "EstimatedRestorationDate": "2020-12-23T07:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-22T22:31:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 18,
+    "NoCallsReported": 19,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-23T03:26:00",
+        "ActualEventTime": "2020-12-23T03:56:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 03:25 - Our team of specialist engineers are now on site and working to locate and fix the underground cable fault. Our estimated timeframe hasn't changed. They've been able to divert electricity around the faulty part of the network, restoring power to some customers. We know your power may now be back on, however we'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
-        "LoggedTime": "2020-12-23T03:26:13.23"
+        "Comment": "Update at 03:56 - We can now confirm that all power in the Aberfoyle Road should be back on. The issue was due to a underground cable fault, however engineers have managed to restore power by diversion using different cabling routes and network equipment nearby. They will be investigating the root cause. If there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2020-12-23T03:56:40.377"
       }
     ],
     "PostCodesAffected": [
@@ -75,9 +75,6 @@
     "PostCodesRestored": [
       "SW165AA",
       "SW165AD",
-      "SW165TD",
-      "SW165TE",
-      "SW165TF",
       "SW165AX",
       "SW165DR",
       "SW165DS",
@@ -85,6 +82,9 @@
       "SW165SD",
       "SW165SE",
       "SW165SF",
+      "SW165TD",
+      "SW165TE",
+      "SW165TF",
       "SW165UP",
       "SW165UT",
       "SW165YP"
@@ -92,9 +92,6 @@
     "PostCodesPlanned": [
       "SW165AA",
       "SW165AD",
-      "SW165TD",
-      "SW165TE",
-      "SW165TF",
       "SW165AX",
       "SW165DR",
       "SW165DS",
@@ -102,14 +99,17 @@
       "SW165SD",
       "SW165SE",
       "SW165SF",
+      "SW165TD",
+      "SW165TE",
+      "SW165TF",
       "SW165UP",
       "SW165UT",
       "SW165YP"
     ],
-    "CustomersOnSupply": 185,
-    "CustomersOffSupply": 63,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 248,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -733,9 +733,6 @@
   "FullPostcodeData": [
     "SW165AA",
     "SW165AD",
-    "SW165TD",
-    "SW165TE",
-    "SW165TF",
     "SW165AX",
     "SW165DR",
     "SW165DS",
@@ -743,13 +740,16 @@
     "SW165SD",
     "SW165SE",
     "SW165SF",
+    "SW165TD",
+    "SW165TE",
+    "SW165TF",
     "SW165UP",
     "SW165UT",
     "SW165YP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "06:30 - 07:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
