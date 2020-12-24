@@ -1,48 +1,54 @@
 {
   "IncidentReference": "INCD-207336-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-207336-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-207336-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-12-24T02:19:00.94",
+      "Message": "Update at 02:18 - Engineers are on their way. At this point we think the issue is a stopped temporary generator affecting the North Avenue area. Until an engineer arrives on site, it's difficult to give a time of restoration. Using an average timescale for this type of power cut in your area, we're looking to have the power back on between 04:00 and 05:00. However, as the repair progresses; this may change.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-12-24T01:39:39",
-      "Message": "<p>We became aware of a power cut at 01:39. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2020-12-21T18:23:20",
+      "Message": "<p>We became aware of a power cut at 18:23. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-24T01:57:16",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2020-12-24T02:28:01",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-24T02:53:07.023",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000329e8INCD",
     "IncidentReference": "INCD-207336-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-24T01:55:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-24T02:53:07.023",
     "EstimatedRestorationDate": "2020-12-24T04:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-24T01:39:39",
+    "ReceivedDate": "2020-12-21T18:23:20",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 13,
+    "NoCallsReported": 14,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -50,11 +56,19 @@
       "Name": "JACK (R5)",
       "EstimatedTimeOfArrival": "2020-12-24T02:30:00",
       "DispatchedDate": "2020-12-24T01:57:16",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2020-12-24T02:28:01",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-24T02:18:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 02:18 - Engineers are on their way. At this point we think the issue is a stopped temporary generator affecting the North Avenue area. Until an engineer arrives on site, it's difficult to give a time of restoration. Using an average timescale for this type of power cut in your area, we're looking to have the power back on between 04:00 and 05:00. However, as the repair progresses; this may change.",
+        "LoggedTime": "2020-12-24T02:19:00.94"
+      }
+    ],
     "PostCodesAffected": [
       "SS2 4",
       "SS2 5"
@@ -83,9 +97,9 @@
       "SS25JN",
       "SS25LS"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 203,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 203,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
