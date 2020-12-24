@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-207368-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-207368-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-207368-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-12-24T06:22:53.963",
+      "Message": "Update at 06:22 - We can now confirm that all power in the Green Closer area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-12-24T05:10:56",
+      "Date": "2020-12-24T05:10:00",
       "Message": "<p>We became aware of a power cut at 05:10. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-24T05:53:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-24T06:11:17.757",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032a08INCD",
     "IncidentReference": "INCD-207368-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-24T05:12:02",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-24T06:11:17.757",
     "EstimatedRestorationDate": "2020-12-24T07:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-24T05:10:56",
+    "ReceivedDate": "2020-12-24T05:10:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-24T06:22:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 06:22 - We can now confirm that all power in the Green Closer area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-12-24T06:22:53.963"
+      }
+    ],
     "PostCodesAffected": [
       "PE19 4",
       "PE19 5"
@@ -79,9 +93,9 @@
       "PE195DU",
       "PE195DX"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 68,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 68,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
