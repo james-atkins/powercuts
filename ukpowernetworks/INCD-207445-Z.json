@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-207445-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-207445-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-207445-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-24T10:59:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-24T13:21:08.013",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032a55INCD",
     "IncidentReference": "INCD-207445-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-24T09:09:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-24T13:21:08.013",
     "EstimatedRestorationDate": "2020-12-24T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-24T11:00:00",
-    "NoCustomerAffected": 15,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "IP9 1"
     ],
     "PostCodesRestored": [
-      "IP91QJ",
       "IP91NS",
       "IP91NT",
       "IP91NU",
@@ -71,10 +70,10 @@
       "IP91PS",
       "IP91PU",
       "IP91QH",
+      "IP91QJ",
       "IP91RP"
     ],
     "PostCodesPlanned": [
-      "IP91QJ",
       "IP91NS",
       "IP91NT",
       "IP91NU",
@@ -86,11 +85,12 @@
       "IP91PS",
       "IP91PU",
       "IP91QH",
+      "IP91QJ",
       "IP91RP"
     ],
-    "CustomersOnSupply": 89,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 103,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -445,7 +445,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IP91QJ",
     "IP91NS",
     "IP91NT",
     "IP91NU",
@@ -457,6 +456,7 @@
     "IP91PS",
     "IP91PU",
     "IP91QH",
+    "IP91QJ",
     "IP91RP"
   ],
   "PinLatitude": null,
