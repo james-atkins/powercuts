@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-207322-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-207322-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-207322-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-12-24T01:44:43.733",
+      "Message": "Update at 01:43 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Linden Close area in the interest of the public's health and safety. Until our engineers have been able to further assess the situation, it's difficult to provide a timescale. We'll keep you updated with our progress.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-12-24T00:30:00",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-24T00:57:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-24T02:14:58.72",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000329daINCD",
     "IncidentReference": "INCD-207322-Z",
     "IncidentCategory": "108",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-24T00:44:33",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-24T02:14:58.72",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-24T00:30:00",
-    "NoCustomerAffected": 196,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 14,
+    "NoCallsReported": 16,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,13 +60,22 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-24T01:43:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 01:43 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Linden Close area in the interest of the public's health and safety. Until our engineers have been able to further assess the situation, it's difficult to provide a timescale. We'll keep you updated with our progress.",
+        "LoggedTime": "2020-12-24T01:44:43.733"
+      }
+    ],
     "PostCodesAffected": [
       "CB3 0",
       "CB4 3"
     ],
     "PostCodesRestored": [
       "CB30AJ",
+      "CB30AN",
       "CB30AT",
       "CB30AY",
       "CB30GR",
@@ -76,11 +91,11 @@
       "CB43LQ",
       "CB43NF",
       "CB43NL",
-      "CB43NT",
-      "CB30AN"
+      "CB43NT"
     ],
     "PostCodesPlanned": [
       "CB30AJ",
+      "CB30AN",
       "CB30AT",
       "CB30AY",
       "CB30GR",
@@ -96,12 +111,11 @@
       "CB43LQ",
       "CB43NF",
       "CB43NL",
-      "CB43NT",
-      "CB30AN"
+      "CB43NT"
     ],
-    "CustomersOnSupply": 3,
-    "CustomersOffSupply": 196,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 199,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1167,6 +1181,7 @@
   ],
   "FullPostcodeData": [
     "CB30AJ",
+    "CB30AN",
     "CB30AT",
     "CB30AY",
     "CB30GR",
@@ -1182,8 +1197,7 @@
     "CB43LQ",
     "CB43NF",
     "CB43NL",
-    "CB43NT",
-    "CB30AN"
+    "CB43NT"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
