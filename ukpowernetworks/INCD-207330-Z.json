@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-207330-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-207330-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-207330-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-12-24T03:04:25.127",
+      "Message": "Update at 03:04 - We can now confirm that all power in the Knapton area should be back on. The issue was caused by an overhead cable fault, which our engineers have safely diverted power around. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-12-24T01:09:50",
@@ -9,34 +15,34 @@
       "Name": "We are restoring customers automatically"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-24T01:20:17",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2020-12-24T02:59:38",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-24T02:57:21.3",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000329e2INCD",
     "IncidentReference": "INCD-207330-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-24T01:09:52",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-24T02:57:21.3",
     "EstimatedRestorationDate": "2020-12-24T03:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-24T01:09:50",
@@ -50,11 +56,19 @@
       "Name": "MICHAEL",
       "EstimatedTimeOfArrival": "2020-12-24T02:20:00",
       "DispatchedDate": "2020-12-24T01:20:17",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2020-12-24T02:59:38",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-24T03:04:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 03:04 - We can now confirm that all power in the Knapton area should be back on. The issue was caused by an overhead cable fault, which our engineers have safely diverted power around. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-12-24T03:04:25.127"
+      }
+    ],
     "PostCodesAffected": [
       "CB23 5",
       "EN9 1",
@@ -527,8 +541,8 @@
     ],
     "CustomersOnSupply": 3237,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -7542,7 +7556,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "02:30 - 03:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
