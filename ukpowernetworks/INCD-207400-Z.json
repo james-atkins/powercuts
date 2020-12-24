@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-207400-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-207400-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-207400-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-24T10:55:42.983",
-      "Message": "Update at 10:55 - Hi, this is Demi from the UK Power Networks messaging team. Thanks for your patience over today. Our engineers have been in contact with us to let us know that repairs are still underway in order to restore the power.To give them time finish the work safely, the estimated timeframe to restore your power is now between 13:00 and 14:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
+      "Date": "2020-12-24T13:04:55.313",
+      "Message": "Update at 13:04 - We're sorry your power has now been off for several hours and we're working as quickly as possible to get you back on. We know you may be concerned about your phone battery running low, so here are some tips on how you can prolong battery life: Set your phone to power saving mode, reduce screen brightness, turn off WiFi, Bluetooth and GPS (if not in use), cut apps running in the background and if possible top up using a car charger or portable battery pack.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2020-12-24T08:25:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2020-12-24T11:27:42.437",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z00032a28INCD",
     "IncidentReference": "INCD-207400-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2020-12-24T07:15:51",
-    "RestoredDateTime": "2020-12-24T11:27:42.437",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2020-12-24T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-24T07:12:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 12,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -62,42 +62,42 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-24T10:54:00",
+        "ActualEventTime": "2020-12-24T13:04:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:55 - Hi, this is Demi from the UK Power Networks messaging team. Thanks for your patience over today. Our engineers have been in contact with us to let us know that repairs are still underway in order to restore the power.To give them time finish the work safely, the estimated timeframe to restore your power is now between 13:00 and 14:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
-        "LoggedTime": "2020-12-24T10:55:42.983"
+        "Comment": "Update at 13:04 - We're sorry your power has now been off for several hours and we're working as quickly as possible to get you back on. We know you may be concerned about your phone battery running low, so here are some tips on how you can prolong battery life: Set your phone to power saving mode, reduce screen brightness, turn off WiFi, Bluetooth and GPS (if not in use), cut apps running in the background and if possible top up using a car charger or portable battery pack.",
+        "LoggedTime": "2020-12-24T13:04:55.313"
       }
     ],
     "PostCodesAffected": [
       "PE28 5"
     ],
     "PostCodesRestored": [
+      "PE285RD",
+      "PE285TB",
       "PE285FF",
       "PE285FG",
-      "PE285RD",
       "PE285RN",
       "PE285SZ",
-      "PE285TB",
       "PE285TD",
       "PE285TE",
       "PE285UT"
     ],
     "PostCodesPlanned": [
+      "PE285RD",
+      "PE285TB",
       "PE285FF",
       "PE285FG",
-      "PE285RD",
       "PE285RN",
       "PE285SZ",
-      "PE285TB",
       "PE285TD",
       "PE285TE",
       "PE285UT"
     ],
-    "CustomersOnSupply": 68,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 56,
+    "CustomersOffSupply": 12,
+    "IncidentTypeName": "Unplanned",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -483,12 +483,12 @@
     }
   ],
   "FullPostcodeData": [
+    "PE285RD",
+    "PE285TB",
     "PE285FF",
     "PE285FG",
-    "PE285RD",
     "PE285RN",
     "PE285SZ",
-    "PE285TB",
     "PE285TD",
     "PE285TE",
     "PE285UT"
