@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-241543-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-241543-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-241543-G",
   "Steps": [
     {
       "Active": false,
@@ -10,48 +10,48 @@
     },
     {
       "Active": false,
-      "Date": "2020-12-24T23:55:31",
+      "Date": null,
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
-      "Date": "2020-12-25T00:42:09",
+      "Active": false,
+      "Date": null,
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-25T03:24:43.84",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003af87INCD",
     "IncidentReference": "INCD-241543-G",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-24T23:17:13",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-25T03:24:43.84",
     "EstimatedRestorationDate": "2020-12-25T04:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-24T23:16:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
       "Id": null,
-      "Name": "DAN (R5)",
-      "EstimatedTimeOfArrival": "2020-12-25T01:00:00",
-      "DispatchedDate": "2020-12-24T23:55:31",
-      "ArrivalDate": "2020-12-25T00:42:09",
-      "StatusId": 6
+      "Name": null,
+      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
+      "DispatchedDate": null,
+      "ArrivalDate": null,
+      "StatusId": 0
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -59,18 +59,18 @@
       "ME5 8"
     ],
     "PostCodesRestored": [
-      "ME58AL",
       "ME58AF",
+      "ME58AL",
       "ME58AR"
     ],
     "PostCodesPlanned": [
-      "ME58AL",
       "ME58AF",
+      "ME58AL",
       "ME58AR"
     ],
-    "CustomersOnSupply": 50,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 54,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -565,8 +565,8 @@
     }
   ],
   "FullPostcodeData": [
-    "ME58AL",
     "ME58AF",
+    "ME58AL",
     "ME58AR"
   ],
   "PinLatitude": null,
