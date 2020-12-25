@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-45860-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-45860-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-45860-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-25T09:20:50",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-25T22:08:43.357",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000b324INCD",
     "IncidentReference": "INCD-45860-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-25T08:27:51",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-25T22:08:43.357",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-25T08:24:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -73,22 +73,22 @@
       "SM3 8"
     ],
     "PostCodesRestored": [
-      "SM38EL",
       "SM38ED",
+      "SM38EL",
       "SM38EN",
       "SM38ER",
       "SM38ES"
     ],
     "PostCodesPlanned": [
-      "SM38EL",
       "SM38ED",
+      "SM38EL",
       "SM38EN",
       "SM38ER",
       "SM38ES"
     ],
-    "CustomersOnSupply": 31,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 33,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -507,8 +507,8 @@
     }
   ],
   "FullPostcodeData": [
-    "SM38EL",
     "SM38ED",
+    "SM38EL",
     "SM38EN",
     "SM38ER",
     "SM38ES"
