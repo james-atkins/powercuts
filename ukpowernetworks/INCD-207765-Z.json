@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-207765-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-207765-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-207765-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-25T16:10:23.887",
-      "Message": "Update at 16:10 - We can now confirm that a fault on an underground cable in the Brightwell Avenue area is causing safety equipment to operate. Although we know what's causing your power cut, we still need to locate the fault. To do this we're sending a specialist team, once they are on their way we'll be able to advise a new estimated timeframe for the repair. For more information about this type of fault; here's a short video <a href=\"https://bit.ly/2ScxQDZ.\" target=\"_blank\">https://bit.ly/2ScxQDZ.</a>",
+      "Date": "2020-12-25T17:00:45.523",
+      "Message": "Update at 17:00 - We can now confirm that all power in the Brightwell Avenue area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We're very sorry for the disruption, especially on Christmas Day. If your power isn't on, or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-25T15:19:33",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-25T16:55:13.55",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032b95INCD",
     "IncidentReference": "INCD-207765-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-25T14:44:47",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-25T16:55:13.55",
     "EstimatedRestorationDate": "2020-12-25T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-25T14:40:00",
-    "NoCustomerAffected": 131,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 30,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-25T16:10:00",
+        "ActualEventTime": "2020-12-25T17:00:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 16:10 - We can now confirm that a fault on an underground cable in the Brightwell Avenue area is causing safety equipment to operate. Although we know what's causing your power cut, we still need to locate the fault. To do this we're sending a specialist team, once they are on their way we'll be able to advise a new estimated timeframe for the repair. For more information about this type of fault; here's a short video https://bit.ly/2ScxQDZ.",
-        "LoggedTime": "2020-12-25T16:10:23.887"
+        "Comment": "Update at 17:00 - We can now confirm that all power in the Brightwell Avenue area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We're very sorry for the disruption, especially on Christmas Day. If your power isn't on, or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-12-25T17:00:45.523"
       }
     ],
     "PostCodesAffected": [
@@ -74,7 +74,10 @@
       "SS0 9"
     ],
     "PostCodesRestored": [
+      "SS00RA",
+      "SS00ST",
       "SS00TD",
+      "SS09BQ",
       "SS09EG",
       "SS09EH",
       "SS09EJ",
@@ -83,13 +86,13 @@
       "SS09EQ",
       "SS09EU",
       "SS09EZ",
-      "SS09JL",
-      "SS00RA",
-      "SS00ST",
-      "SS09BQ"
+      "SS09JL"
     ],
     "PostCodesPlanned": [
+      "SS00RA",
+      "SS00ST",
       "SS00TD",
+      "SS09BQ",
       "SS09EG",
       "SS09EH",
       "SS09EJ",
@@ -98,14 +101,11 @@
       "SS09EQ",
       "SS09EU",
       "SS09EZ",
-      "SS09JL",
-      "SS00RA",
-      "SS00ST",
-      "SS09BQ"
+      "SS09JL"
     ],
-    "CustomersOnSupply": 23,
-    "CustomersOffSupply": 131,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 154,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1078,7 +1078,10 @@
     }
   ],
   "FullPostcodeData": [
+    "SS00RA",
+    "SS00ST",
     "SS00TD",
+    "SS09BQ",
     "SS09EG",
     "SS09EH",
     "SS09EJ",
@@ -1087,10 +1090,7 @@
     "SS09EQ",
     "SS09EU",
     "SS09EZ",
-    "SS09JL",
-    "SS00RA",
-    "SS00ST",
-    "SS09BQ"
+    "SS09JL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
