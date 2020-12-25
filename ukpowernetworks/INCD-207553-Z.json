@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-207553-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-207553-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-207553-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-24T14:38:47",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-25T00:17:59.307",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032ac1INCD",
     "IncidentReference": "INCD-207553-Z",
-    "IncidentCategory": "124",
+    "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-24T14:03:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-25T00:17:59.307",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-24T14:00:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 18,
     "Latitude": 0.0,
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2020-12-24T15:00:00",
       "DispatchedDate": "2020-12-24T14:16:15",
       "ArrivalDate": "2020-12-24T14:38:47",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -73,25 +73,25 @@
       "NR1 4"
     ],
     "PostCodesRestored": [
-      "NR14EN",
       "NR14AA",
+      "NR14EN",
       "NR14EP",
       "NR14EW",
       "NR14FD",
       "NR14LH"
     ],
     "PostCodesPlanned": [
-      "NR14EN",
       "NR14AA",
+      "NR14EN",
       "NR14EP",
       "NR14EW",
       "NR14FD",
       "NR14LH"
     ],
-    "CustomersOnSupply": 108,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 110,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -513,8 +513,8 @@
     }
   ],
   "FullPostcodeData": [
-    "NR14EN",
     "NR14AA",
+    "NR14EN",
     "NR14EP",
     "NR14EW",
     "NR14FD",
@@ -522,7 +522,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
