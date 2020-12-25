@@ -1,9 +1,15 @@
 {
   "IncidentReference": "INCD-207796-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-207796-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-207796-Z",
   "Steps": [
     {
       "Active": true,
+      "Date": "2020-12-25T18:26:44.9",
+      "Message": "Update at 18:26 - We can now confirm that all power in the Latchingdon Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We're very sorry for the disruption, especially on Christmas Day. If your power isn't on, or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
+      "Active": false,
       "Date": "2020-12-25T11:59:00",
       "Message": "<p>We became aware of a power cut at 11:59. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -11,38 +17,38 @@
     {
       "Active": false,
       "Date": "2020-12-25T17:41:37",
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-25T18:26:01.74",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032bb4INCD",
     "IncidentReference": "INCD-207796-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-25T17:14:29",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2020-12-25T18:26:01.74",
+    "EstimatedRestorationDate": "2020-12-25T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-25T11:59:00",
-    "NoCustomerAffected": 54,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 27,
+    "NoCallsReported": 28,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-25T18:26:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 18:26 - We can now confirm that all power in the Latchingdon Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We're very sorry for the disruption, especially on Christmas Day. If your power isn't on, or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-12-25T18:26:44.9"
+      }
+    ],
     "PostCodesAffected": [
       "CM3 6"
     ],
@@ -72,8 +86,8 @@
       "CM36JN",
       "CM36JQ",
       "CM36JW",
-      "CM36UA",
-      "CM36PZ"
+      "CM36PZ",
+      "CM36UA"
     ],
     "PostCodesPlanned": [
       "CM36FH",
@@ -89,12 +103,12 @@
       "CM36JN",
       "CM36JQ",
       "CM36JW",
-      "CM36UA",
-      "CM36PZ"
+      "CM36PZ",
+      "CM36UA"
     ],
-    "CustomersOnSupply": 72,
-    "CustomersOffSupply": 90,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 162,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -226,13 +240,13 @@
     "CM36JN",
     "CM36JQ",
     "CM36JW",
-    "CM36UA",
-    "CM36PZ"
+    "CM36PZ",
+    "CM36UA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "19:30 - 20:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
