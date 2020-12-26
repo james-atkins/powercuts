@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-252400-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-252400-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-252400-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-26T17:46:12.083",
-      "Message": "Update at 17:43 - Hi, this is Luke from the UK Power Networks messaging team. Thanks for your patience over today. Our engineers have been in contact with us to let us know that due to some faulty equipment we will need more resources. To give them time to do this safely, the estimated timeframe to restore your power is now between 19:30 and 20:30. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
+      "Date": "2020-12-26T18:05:13.1",
+      "Message": "Update at 18:04 - We can now confirm that all power in the Bardsley Lane area should be back on. The issue was caused by a faulty piece of equipment, which our engineers have repaired. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-26T15:20:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-26T17:58:25.9",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003d9f0INCD",
     "IncidentReference": "INCD-252400-J",
     "IncidentCategory": "6",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-26T14:04:21",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2020-12-26T20:00:00",
+    "RestoredDateTime": "2020-12-26T17:58:25.9",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-26T14:00:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 5,
+    "NoCallsReported": 6,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -57,16 +57,16 @@
       "EstimatedTimeOfArrival": "2020-12-26T15:15:00",
       "DispatchedDate": "2020-12-26T14:12:17",
       "ArrivalDate": "2020-12-26T15:20:53",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-26T17:45:00",
+        "ActualEventTime": "2020-12-26T18:05:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 17:43 - Hi, this is Luke from the UK Power Networks messaging team. Thanks for your patience over today. Our engineers have been in contact with us to let us know that due to some faulty equipment we will need more resources. To give them time to do this safely, the estimated timeframe to restore your power is now between 19:30 and 20:30. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
-        "LoggedTime": "2020-12-26T17:46:12.083"
+        "Comment": "Update at 18:04 - We can now confirm that all power in the Bardsley Lane area should be back on. The issue was caused by a faulty piece of equipment, which our engineers have repaired. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-12-26T18:05:13.1"
       }
     ],
     "PostCodesAffected": [
@@ -110,10 +110,10 @@
       "SE109SW",
       "SE181DR"
     ],
-    "CustomersOnSupply": 219,
-    "CustomersOffSupply": 50,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 269,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1351,7 +1351,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We were investigating a transformer fault on the electricity network that caused a power cut in the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "19:30 - 20:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
