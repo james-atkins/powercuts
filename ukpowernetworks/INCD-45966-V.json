@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-45966-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-45966-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-45966-V",
   "Steps": [
     {
       "Active": false,
@@ -15,29 +15,29 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-27T09:46:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-27T20:12:46.307",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000b38eINCD",
     "IncidentReference": "INCD-45966-V",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-27T05:46:11",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2020-12-27T13:00:00",
+    "RestoredDateTime": "2020-12-27T20:12:46.307",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-27T05:42:33",
     "NoCustomerAffected": 0,
@@ -66,9 +66,9 @@
       "BN68XL",
       "BN68XN"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 6,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -477,7 +477,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "12:30 - 13:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
