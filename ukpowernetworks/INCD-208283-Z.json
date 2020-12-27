@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-208283-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-208283-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-208283-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-27T19:08:07",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-27T20:27:35.613",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032d9bINCD",
     "IncidentReference": "INCD-208283-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-27T17:15:40",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-27T20:27:35.613",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-27T17:10:41",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,26 +59,26 @@
       "RM11 3"
     ],
     "PostCodesRestored": [
-      "RM113NP",
       "RM113AS",
       "RM113BW",
       "RM113LF",
       "RM113LY",
       "RM113NE",
-      "RM113NL"
+      "RM113NL",
+      "RM113NP"
     ],
     "PostCodesPlanned": [
-      "RM113NP",
       "RM113AS",
       "RM113BW",
       "RM113LF",
       "RM113LY",
       "RM113NE",
-      "RM113NL"
+      "RM113NL",
+      "RM113NP"
     ],
-    "CustomersOnSupply": 42,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 43,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -625,13 +625,13 @@
     }
   ],
   "FullPostcodeData": [
-    "RM113NP",
     "RM113AS",
     "RM113BW",
     "RM113LF",
     "RM113LY",
     "RM113NE",
-    "RM113NL"
+    "RM113NL",
+    "RM113NP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
