@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-241983-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-241983-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-241983-G",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-27T21:39:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-27T22:00:29.47",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b13fINCD",
     "IncidentReference": "INCD-241983-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-27T20:36:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-27T22:00:29.47",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-27T20:35:00",
@@ -63,6 +63,7 @@
       "TN184AD",
       "TN184AR",
       "TN184AS",
+      "TN184EP",
       "TN184EU",
       "TN184EY",
       "TN184EZ",
@@ -71,13 +72,13 @@
       "TN184JB",
       "TN185DB",
       "TN185DW",
-      "TN185JL",
-      "TN184EP"
+      "TN185JL"
     ],
     "PostCodesPlanned": [
       "TN184AD",
       "TN184AR",
       "TN184AS",
+      "TN184EP",
       "TN184EU",
       "TN184EY",
       "TN184EZ",
@@ -86,12 +87,11 @@
       "TN184JB",
       "TN185DB",
       "TN185DW",
-      "TN185JL",
-      "TN184EP"
+      "TN185JL"
     ],
-    "CustomersOnSupply": 16,
-    "CustomersOffSupply": 33,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 49,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -771,6 +771,7 @@
     "TN184AD",
     "TN184AR",
     "TN184AS",
+    "TN184EP",
     "TN184EU",
     "TN184EY",
     "TN184EZ",
@@ -779,8 +780,7 @@
     "TN184JB",
     "TN185DB",
     "TN185DW",
-    "TN185JL",
-    "TN184EP"
+    "TN185JL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
