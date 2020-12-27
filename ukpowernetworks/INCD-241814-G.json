@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-241814-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-241814-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-241814-G",
   "Steps": [
     {
       "Active": false,
-      "Date": "2020-12-27T09:25:02",
+      "Date": "2020-12-27T09:25:00",
       "Message": "<p>We became aware of a power cut at 09:25. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-27T11:48:39",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-27T16:36:06.017",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b096INCD",
     "IncidentReference": "INCD-241814-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-27T09:28:28",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-27T16:36:06.017",
     "EstimatedRestorationDate": "2020-12-27T18:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-27T09:25:02",
+    "ReceivedDate": "2020-12-27T09:25:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -68,9 +68,9 @@
       "RH185LS",
       "RH185LT"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 11,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 11,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
