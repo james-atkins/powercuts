@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-241857-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-241857-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-241857-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2020-12-27T14:42:15.547",
-      "Message": "Update at 14:41 - Hi this is David from UK Power Networks Messaging Team. Just a quick update that our engineers are still on site working to repair the electrical equipment that has come away from our overhead cables. If you have a vulnerable person at home, please call us on 08003163105 and we'll see if we can provide any additional support.",
+      "Date": "2020-12-27T15:45:48.32",
+      "Message": "Update at 15:45 - We can now confirm that all power in the TN26 3 area should be back on. The issue was caused by a grounded overhead cable, which our engineers have now repaired. We're sorry that we have been unable to provide you with frequent updates like we usually would. Due to the impact that Storm Bella has had on or network, we're dealing with a larger amount of faults than usual on our network. We know that being without power during the current pandemic can be especially difficult, especially over the festive period, so we're sorry for the outage. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-27T11:34:52",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-27T15:27:32.323",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b0c1INCD",
     "IncidentReference": "INCD-241857-G",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-27T11:24:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-27T15:27:32.323",
     "EstimatedRestorationDate": "2020-12-27T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-27T11:23:45",
-    "NoCustomerAffected": 75,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2020-12-27T14:42:00",
+        "ActualEventTime": "2020-12-27T15:43:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 14:41 - Hi this is David from UK Power Networks Messaging Team. Just a quick update that our engineers are still on site working to repair the electrical equipment that has come away from our overhead cables. If you have a vulnerable person at home, please call us on 08003163105 and we'll see if we can provide any additional support.",
-        "LoggedTime": "2020-12-27T14:42:15.547"
+        "Comment": "Update at 15:45 - We can now confirm that all power in the TN26 3 area should be back on. The issue was caused by a grounded overhead cable, which our engineers have now repaired. We're sorry that we have been unable to provide you with frequent updates like we usually would. Due to the impact that Storm Bella has had on or network, we're dealing with a larger amount of faults than usual on our network. We know that being without power during the current pandemic can be especially difficult, especially over the festive period, so we're sorry for the outage. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-12-27T15:45:48.32"
       }
     ],
     "PostCodesAffected": [
@@ -75,14 +75,10 @@
       "TN30 6"
     ],
     "PostCodesRestored": [
-      "TN263JF",
-      "TN263JU",
-      "TN263LX",
-      "TN263LY",
-      "TN263NA",
-      "TN263ND",
       "CT93YN",
       "TN263JB",
+      "TN263JF",
+      "TN263JU",
       "TN263LJ",
       "TN263LL",
       "TN263LN",
@@ -92,6 +88,10 @@
       "TN263LT",
       "TN263LU",
       "TN263LW",
+      "TN263LX",
+      "TN263LY",
+      "TN263NA",
+      "TN263ND",
       "TN263NG",
       "TN263NL",
       "TN263NQ",
@@ -99,14 +99,10 @@
       "TN306SL"
     ],
     "PostCodesPlanned": [
-      "TN263JF",
-      "TN263JU",
-      "TN263LX",
-      "TN263LY",
-      "TN263NA",
-      "TN263ND",
       "CT93YN",
       "TN263JB",
+      "TN263JF",
+      "TN263JU",
       "TN263LJ",
       "TN263LL",
       "TN263LN",
@@ -116,15 +112,19 @@
       "TN263LT",
       "TN263LU",
       "TN263LW",
+      "TN263LX",
+      "TN263LY",
+      "TN263NA",
+      "TN263ND",
       "TN263NG",
       "TN263NL",
       "TN263NQ",
       "TN306SH",
       "TN306SL"
     ],
-    "CustomersOnSupply": 212,
-    "CustomersOffSupply": 75,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 287,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -134,6 +134,39 @@
     "TN30 6"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 51.37722,
+        "lng": 1.37544
+      },
+      "Coordinates": [
+        {
+          "lat": 51.37749,
+          "lng": 1.37253
+        },
+        {
+          "lat": 51.37843,
+          "lng": 1.37655
+        },
+        {
+          "lat": 51.37741,
+          "lng": 1.37763
+        },
+        {
+          "lat": 51.37589,
+          "lng": 1.37607
+        },
+        {
+          "lat": 51.37583,
+          "lng": 1.37574
+        },
+        {
+          "lat": 51.37749,
+          "lng": 1.37253
+        }
+      ],
+      "Postcode": "CT9 3"
+    },
     {
       "Center": {
         "lat": 51.10598,
@@ -522,39 +555,6 @@
         }
       ],
       "Postcode": "TN26 3"
-    },
-    {
-      "Center": {
-        "lat": 51.37722,
-        "lng": 1.37544
-      },
-      "Coordinates": [
-        {
-          "lat": 51.37749,
-          "lng": 1.37253
-        },
-        {
-          "lat": 51.37843,
-          "lng": 1.37655
-        },
-        {
-          "lat": 51.37741,
-          "lng": 1.37763
-        },
-        {
-          "lat": 51.37589,
-          "lng": 1.37607
-        },
-        {
-          "lat": 51.37583,
-          "lng": 1.37574
-        },
-        {
-          "lat": 51.37749,
-          "lng": 1.37253
-        }
-      ],
-      "Postcode": "CT9 3"
     },
     {
       "Center": {
@@ -995,14 +995,10 @@
     }
   ],
   "FullPostcodeData": [
-    "TN263JF",
-    "TN263JU",
-    "TN263LX",
-    "TN263LY",
-    "TN263NA",
-    "TN263ND",
     "CT93YN",
     "TN263JB",
+    "TN263JF",
+    "TN263JU",
     "TN263LJ",
     "TN263LL",
     "TN263LN",
@@ -1012,6 +1008,10 @@
     "TN263LT",
     "TN263LU",
     "TN263LW",
+    "TN263LX",
+    "TN263LY",
+    "TN263NA",
+    "TN263ND",
     "TN263NG",
     "TN263NL",
     "TN263NQ",
