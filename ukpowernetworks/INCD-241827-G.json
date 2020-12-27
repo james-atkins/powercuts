@@ -1,9 +1,15 @@
 {
   "IncidentReference": "INCD-241827-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-241827-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-241827-G",
   "Steps": [
     {
       "Active": true,
+      "Date": "2020-12-27T12:00:51.353",
+      "Message": "Update at 12:00 - It's Adam from the text messaging team and I'm very pleased to inform you that our engineers have been able to restore power to all 1124 customers in the Edenbridge TN8 7 area. They have diverted power around the overhead network fault. Due to the nature of an issue like this, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
+    {
+      "Active": false,
       "Date": "2020-12-27T10:00:22",
       "Message": "<p>We became aware of this power cut at 10:00. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
       "Name": "We are restoring customers automatically"
@@ -11,32 +17,32 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-27T12:19:12.693",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b0a3INCD",
     "IncidentReference": "INCD-241827-G",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 2,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-27T10:08:06",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-27T12:19:12.693",
     "EstimatedRestorationDate": "2020-12-27T16:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-27T10:00:22",
@@ -54,7 +60,15 @@
       "StatusId": 0
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-27T12:00:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 12:00 - It's Adam from the text messaging team and I'm very pleased to inform you that our engineers have been able to restore power to all 1124 customers in the Edenbridge TN8 7 area. They have diverted power around the overhead network fault. Due to the nature of an issue like this, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2020-12-27T12:00:51.353"
+      }
+    ],
     "PostCodesAffected": [
       "GU21 5",
       "RH13 7",
@@ -178,7 +192,7 @@
     ],
     "CustomersOnSupply": 392,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
