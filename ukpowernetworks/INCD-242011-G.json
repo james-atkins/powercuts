@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-242011-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242011-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-242011-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-28T13:06:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-28T20:32:42.883",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b15bINCD",
     "IncidentReference": "INCD-242011-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-28T11:41:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-28T20:32:42.883",
     "EstimatedRestorationDate": "2020-12-28T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-28T11:39:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -59,24 +59,24 @@
       "ME10 2"
     ],
     "PostCodesRestored": [
-      "ME102NR",
       "ME102JP",
       "ME102LD",
       "ME102LY",
+      "ME102NR",
       "ME102NX",
       "ME102NY"
     ],
     "PostCodesPlanned": [
-      "ME102NR",
       "ME102JP",
       "ME102LD",
       "ME102LY",
+      "ME102NR",
       "ME102NX",
       "ME102NY"
     ],
-    "CustomersOnSupply": 48,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 51,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -487,10 +487,10 @@
     }
   ],
   "FullPostcodeData": [
-    "ME102NR",
     "ME102JP",
     "ME102LD",
     "ME102LY",
+    "ME102NR",
     "ME102NX",
     "ME102NY"
   ],
