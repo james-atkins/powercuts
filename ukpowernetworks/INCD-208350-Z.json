@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-208350-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-208350-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-208350-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-28T02:20:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-28T20:26:47.803",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032ddeINCD",
     "IncidentReference": "INCD-208350-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-28T02:07:53",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-28T20:26:47.803",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-28T02:06:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -73,18 +73,18 @@
       "WD23 1"
     ],
     "PostCodesRestored": [
-      "WD231FT",
       "WD231FR",
-      "WD231FS"
+      "WD231FS",
+      "WD231FT"
     ],
     "PostCodesPlanned": [
-      "WD231FT",
       "WD231FR",
-      "WD231FS"
+      "WD231FS",
+      "WD231FT"
     ],
-    "CustomersOnSupply": 56,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 57,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -699,9 +699,9 @@
     }
   ],
   "FullPostcodeData": [
-    "WD231FT",
     "WD231FR",
-    "WD231FS"
+    "WD231FS",
+    "WD231FT"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
