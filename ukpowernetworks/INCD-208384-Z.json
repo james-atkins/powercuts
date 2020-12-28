@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-208384-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-208384-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-208384-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-28T11:05:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-28T11:49:50.043",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032e00INCD",
     "IncidentReference": "INCD-208384-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-28T08:58:50",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-28T11:49:50.043",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-28T08:57:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,14 +59,20 @@
       "EN6 3"
     ],
     "PostCodesRestored": [
-      "EN63JN"
+      "EN63AB",
+      "EN63JE",
+      "EN63JN",
+      "EN63QW"
     ],
     "PostCodesPlanned": [
-      "EN63JN"
+      "EN63AB",
+      "EN63JE",
+      "EN63JN",
+      "EN63QW"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 24,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -397,7 +403,10 @@
     }
   ],
   "FullPostcodeData": [
-    "EN63JN"
+    "EN63AB",
+    "EN63JE",
+    "EN63JN",
+    "EN63QW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
