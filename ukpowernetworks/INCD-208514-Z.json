@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-208514-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-208514-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-208514-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-29T08:50:05",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-29T16:35:09.763",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032e82INCD",
     "IncidentReference": "INCD-208514-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-29T03:37:00",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-29T16:35:09.763",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-29T03:35:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,22 +59,22 @@
       "HA2 9"
     ],
     "PostCodesRestored": [
-      "HA29DP",
       "HA29AA",
       "HA29AB",
       "HA29BU",
-      "HA29DL"
+      "HA29DL",
+      "HA29DP"
     ],
     "PostCodesPlanned": [
-      "HA29DP",
       "HA29AA",
       "HA29AB",
       "HA29BU",
-      "HA29DL"
+      "HA29DL",
+      "HA29DP"
     ],
-    "CustomersOnSupply": 39,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 41,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -513,11 +513,11 @@
     }
   ],
   "FullPostcodeData": [
-    "HA29DP",
     "HA29AA",
     "HA29AB",
     "HA29BU",
-    "HA29DL"
+    "HA29DL",
+    "HA29DP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
