@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-208671-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-208671-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-208671-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-29T19:34:46",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-29T19:56:50.687",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032f1fINCD",
     "IncidentReference": "INCD-208671-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-29T18:10:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-29T19:56:50.687",
     "EstimatedRestorationDate": "2020-12-29T21:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-29T18:10:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -63,21 +63,21 @@
       "CB21TR",
       "CB21TW",
       "CB21UJ",
+      "CB21UR",
       "CB23LS",
-      "CB23LT",
-      "CB21UR"
+      "CB23LT"
     ],
     "PostCodesPlanned": [
       "CB21TR",
       "CB21TW",
       "CB21UJ",
+      "CB21UR",
       "CB23LS",
-      "CB23LT",
-      "CB21UR"
+      "CB23LT"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 16,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -809,9 +809,9 @@
     "CB21TR",
     "CB21TW",
     "CB21UJ",
+    "CB21UR",
     "CB23LS",
-    "CB23LT",
-    "CB21UR"
+    "CB23LT"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
