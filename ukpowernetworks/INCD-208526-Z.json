@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-208526-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-208526-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-208526-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2020-12-29T11:00:05.367",
+      "Message": "Update at 10:59 - We can now confirm that all power in the High Street area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2020-12-29T08:03:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-29T10:29:05",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-29T10:40:08.23",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032e8eINCD",
     "IncidentReference": "INCD-208526-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-29T08:05:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-29T10:40:08.23",
     "EstimatedRestorationDate": "2020-12-29T11:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-29T08:03:00",
-    "NoCustomerAffected": 26,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-29T10:59:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 10:59 - We can now confirm that all power in the High Street area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2020-12-29T11:00:05.367"
+      }
+    ],
     "PostCodesAffected": [
       "CM7 1",
       "CM7 7"
@@ -62,26 +76,26 @@
     "PostCodesRestored": [
       "CM71EY",
       "CM71JP",
+      "CM71JS",
       "CM71JX",
       "CM71JZ",
       "CM71LY",
       "CM71RB",
-      "CM77RB",
-      "CM71JS"
+      "CM77RB"
     ],
     "PostCodesPlanned": [
       "CM71EY",
       "CM71JP",
+      "CM71JS",
       "CM71JX",
       "CM71JZ",
       "CM71LY",
       "CM71RB",
-      "CM77RB",
-      "CM71JS"
+      "CM77RB"
     ],
-    "CustomersOnSupply": 8,
-    "CustomersOffSupply": 40,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 48,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -547,12 +561,12 @@
   "FullPostcodeData": [
     "CM71EY",
     "CM71JP",
+    "CM71JS",
     "CM71JX",
     "CM71JZ",
     "CM71LY",
     "CM71RB",
-    "CM77RB",
-    "CM71JS"
+    "CM77RB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
