@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-208505-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-208505-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-208505-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-29T03:29:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-29T13:43:16.543",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032e79INCD",
     "IncidentReference": "INCD-208505-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-29T00:45:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-29T13:43:16.543",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-29T00:44:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 11,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "N15 3"
     ],
     "PostCodesRestored": [
-      "N153RU",
       "N153AX",
       "N153BA",
       "N153BB",
@@ -71,13 +70,13 @@
       "N153RF",
       "N153RS",
       "N153RT",
+      "N153RU",
       "N153RX",
       "N153SA",
       "N153SJ",
       "N153TB"
     ],
     "PostCodesPlanned": [
-      "N153RU",
       "N153AX",
       "N153BA",
       "N153BB",
@@ -89,15 +88,16 @@
       "N153RF",
       "N153RS",
       "N153RT",
+      "N153RU",
       "N153RX",
       "N153SA",
       "N153SJ",
       "N153TB"
     ],
-    "CustomersOnSupply": 150,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 151,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -507,7 +507,6 @@
     }
   ],
   "FullPostcodeData": [
-    "N153RU",
     "N153AX",
     "N153BA",
     "N153BB",
@@ -519,6 +518,7 @@
     "N153RF",
     "N153RS",
     "N153RT",
+    "N153RU",
     "N153RX",
     "N153SA",
     "N153SJ",
