@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-208921-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-208921-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-208921-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2020-12-31T05:44:07.537",
+      "Message": "Update at 05;43 - We have now restored power to the Hallfield Terrace area. We are truly sorry for the power cuts recently. We know there is an underlying issue causing this, but it is proving difficult for our engineers to locate and therefore fix. To get your power back on today we have reconfigured the local electricity network. This in turn will both help pinpoint the issue and minimise further interruptions. If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2020-12-31T03:03:02",
+      "Date": "2020-12-31T03:03:00",
       "Message": "<p>We became aware of a power cut at 03:03. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-31T05:01:21",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-31T05:42:38.72",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033019INCD",
     "IncidentReference": "INCD-208921-Z",
-    "IncidentCategory": "104",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-31T03:11:02",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-31T05:42:38.72",
     "EstimatedRestorationDate": "2020-12-31T07:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2020-12-31T03:03:02",
+    "ReceivedDate": "2020-12-31T03:03:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2020-12-31T05:44:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 05;43 - We have now restored power to the Hallfield Terrace area. We are truly sorry for the power cuts recently. We know there is an underlying issue causing this, but it is proving difficult for our engineers to locate and therefore fix. To get your power back on today we have reconfigured the local electricity network. This in turn will both help pinpoint the issue and minimise further interruptions. If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2020-12-31T05:44:07.537"
+      }
+    ],
     "PostCodesAffected": [
       "CB7 5"
     ],
@@ -72,9 +86,9 @@
       "CB75TS",
       "CB75TW"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 55,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 55,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -517,7 +531,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "Our engineers are currently working to find out what caused this power cut.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "06:30 - 07:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
