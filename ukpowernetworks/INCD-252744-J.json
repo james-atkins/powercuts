@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-252744-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-252744-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-252744-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-31T20:49:50",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-01T07:02:04.233",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003db48INCD",
     "IncidentReference": "INCD-252744-J",
     "IncidentCategory": "25",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-31T18:57:07",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-01-01T04:00:00",
+    "RestoredDateTime": "2021-01-01T07:02:04.233",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-31T18:55:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -90,10 +90,10 @@
       "SW109NA",
       "SW109XB"
     ],
-    "CustomersOnSupply": 59,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 60,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -710,7 +710,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "03:30 - 04:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
