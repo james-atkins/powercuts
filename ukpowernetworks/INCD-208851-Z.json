@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-208851-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-208851-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-208851-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-30T16:46:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2020-12-31T23:56:48.503",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032fd3INCD",
     "IncidentReference": "INCD-208851-Z",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-30T15:52:11",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2020-12-31T23:56:48.503",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-12-30T15:52:08",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2020-12-30T16:45:00",
       "DispatchedDate": "2020-12-30T15:57:08",
       "ArrivalDate": "2020-12-30T16:46:37",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -80,7 +80,6 @@
       "IP5 7"
     ],
     "PostCodesRestored": [
-      "IP100BD",
       "IP",
       "IP100AR",
       "IP100AS",
@@ -88,6 +87,7 @@
       "IP100AZ",
       "IP100BA",
       "IP100BB",
+      "IP100BD",
       "IP100BE",
       "IP100BH",
       "IP100BJ",
@@ -178,7 +178,6 @@
       "UMS"
     ],
     "PostCodesPlanned": [
-      "IP100BD",
       "IP",
       "IP100AR",
       "IP100AS",
@@ -186,6 +185,7 @@
       "IP100AZ",
       "IP100BA",
       "IP100BB",
+      "IP100BD",
       "IP100BE",
       "IP100BH",
       "IP100BJ",
@@ -275,10 +275,10 @@
       "IP57UF",
       "UMS"
     ],
-    "CustomersOnSupply": 1091,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 1092,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -3572,7 +3572,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IP100BD",
     "IP",
     "IP100AR",
     "IP100AS",
@@ -3580,6 +3579,7 @@
     "IP100AZ",
     "IP100BA",
     "IP100BB",
+    "IP100BD",
     "IP100BE",
     "IP100BH",
     "IP100BJ",
