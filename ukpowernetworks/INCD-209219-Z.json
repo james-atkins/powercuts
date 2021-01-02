@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-209219-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-209219-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-209219-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-02T08:06:11",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-02T16:48:04.77",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033143INCD",
     "IncidentReference": "INCD-209219-Z",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-01T19:25:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-02T16:48:04.77",
     "EstimatedRestorationDate": "2021-01-02T17:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-02T14:42:00",
-    "NoCustomerAffected": 13,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
+    "NoCallsReported": 2,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -59,20 +59,20 @@
       "MK17 9"
     ],
     "PostCodesRestored": [
-      "MK179DH",
-      "MK179ET",
       "MK179BP",
-      "MK179DE"
+      "MK179DE",
+      "MK179DH",
+      "MK179ET"
     ],
     "PostCodesPlanned": [
-      "MK179DH",
-      "MK179ET",
       "MK179BP",
-      "MK179DE"
+      "MK179DE",
+      "MK179DH",
+      "MK179ET"
     ],
-    "CustomersOnSupply": 11,
-    "CustomersOffSupply": 13,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 24,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -607,10 +607,10 @@
     }
   ],
   "FullPostcodeData": [
-    "MK179DH",
-    "MK179ET",
     "MK179BP",
-    "MK179DE"
+    "MK179DE",
+    "MK179DH",
+    "MK179ET"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
