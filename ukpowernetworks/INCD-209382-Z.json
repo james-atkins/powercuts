@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-209382-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-209382-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-209382-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-03T12:32:04",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-03T19:38:11.803",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000331e6INCD",
     "IncidentReference": "INCD-209382-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-03T11:47:19",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-03T19:38:11.803",
     "EstimatedRestorationDate": "2021-01-03T19:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-03T11:44:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -61,10 +61,10 @@
       "CB3 7"
     ],
     "PostCodesRestored": [
-      "CB235BP",
       "CB235AP",
       "CB235AW",
       "CB235BH",
+      "CB235BP",
       "CB235BQ",
       "CB235EF",
       "CB235EG",
@@ -75,10 +75,10 @@
       "CB37TD"
     ],
     "PostCodesPlanned": [
-      "CB235BP",
       "CB235AP",
       "CB235AW",
       "CB235BH",
+      "CB235BP",
       "CB235BQ",
       "CB235EF",
       "CB235EG",
@@ -88,9 +88,9 @@
       "CB36BH",
       "CB37TD"
     ],
-    "CustomersOnSupply": 83,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 90,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -335,10 +335,10 @@
     }
   ],
   "FullPostcodeData": [
-    "CB235BP",
     "CB235AP",
     "CB235AW",
     "CB235BH",
+    "CB235BP",
     "CB235BQ",
     "CB235EF",
     "CB235EG",
