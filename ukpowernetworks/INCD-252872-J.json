@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-252872-J",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-252872-J",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-252872-J",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-03T14:20:46.04",
+      "Message": "Update at 14:20 - Engineers have arrived on site in the Arden Estate area to investigate an underground network fault currently affecting properties. Specialist engineers are also working to divert power remotely, and this can cause your lights to go on and off. Using an average timescale for this type of issue, we're looking to have you back on between 15:00 and 16:00. Please follow the government pandemic guidelines about social distancing when interacting with our staff.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-03T13:37:43",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
-      "Date": null,
+      "Active": true,
+      "Date": "2021-01-03T14:18:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-01-03T13:46:59.017",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "J0003dbc8INCD",
     "IncidentReference": "INCD-252872-J",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-01-03T13:37:44",
-    "RestoredDateTime": "2021-01-03T13:46:59.017",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-01-03T15:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-03T13:37:43",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 14,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -50,11 +56,19 @@
       "Name": "Tom (R5)",
       "EstimatedTimeOfArrival": "2021-01-03T14:45:00",
       "DispatchedDate": "2021-01-03T13:43:53",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-01-03T14:18:54",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-03T14:20:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 14:20 - Engineers have arrived on site in the Arden Estate area to investigate an underground network fault currently affecting properties. Specialist engineers are also working to divert power remotely, and this can cause your lights to go on and off. Using an average timescale for this type of issue, we're looking to have you back on between 15:00 and 16:00. Please follow the government pandemic guidelines about social distancing when interacting with our staff.",
+        "LoggedTime": "2021-01-03T14:20:46.04"
+      }
+    ],
     "PostCodesAffected": [
       "BR3 1",
       "BR3 5",
@@ -532,7 +546,7 @@
     ],
     "CustomersOnSupply": 4079,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
