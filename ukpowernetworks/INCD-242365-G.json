@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-242365-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242365-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-242365-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-04T09:48:21",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-04T11:43:21.137",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b2bdINCD",
     "IncidentReference": "INCD-242365-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-04T05:31:49",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-04T11:43:21.137",
     "EstimatedRestorationDate": "2021-01-04T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-04T05:24:00",
-    "NoCustomerAffected": 9,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -59,21 +59,21 @@
       "GU6 8"
     ],
     "PostCodesRestored": [
+      "GU68AG",
       "GU68AJ",
       "GU68AL",
-      "GU68RB",
-      "GU68AG"
+      "GU68RB"
     ],
     "PostCodesPlanned": [
+      "GU68AG",
       "GU68AJ",
       "GU68AL",
-      "GU68RB",
-      "GU68AG"
+      "GU68RB"
     ],
-    "CustomersOnSupply": 7,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 16,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -619,10 +619,10 @@
     }
   ],
   "FullPostcodeData": [
+    "GU68AG",
     "GU68AJ",
     "GU68AL",
-    "GU68RB",
-    "GU68AG"
+    "GU68RB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
