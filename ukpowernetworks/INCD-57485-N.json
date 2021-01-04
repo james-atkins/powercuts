@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-57485-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-57485-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-57485-N",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-04T13:13:21.923",
-      "Message": "Update at 13:13 - Sorry your power has gone off again today. Our engineers investigated the fault earlier but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers will be back on site as quickly as possible and we'll endeavour to provide a timeframe as soon as we can.",
+      "Date": "2021-01-04T13:33:37.987",
+      "Message": "Update at 13:33 - Our engineers have now restored power in the Lever Street area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,29 +21,29 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-04T11:53:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-04T13:31:19.367",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e08dINCD",
     "IncidentReference": "INCD-57485-N",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-04T11:11:23",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-01-04T13:31:19.367",
+    "EstimatedRestorationDate": "2021-01-04T16:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-04T11:09:00",
     "NoCustomerAffected": 0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-04T13:13:00",
+        "ActualEventTime": "2021-01-04T13:33:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 13:13 - Sorry your power has gone off again today. Our engineers investigated the fault earlier but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers will be back on site as quickly as possible and we'll endeavour to provide a timeframe as soon as we can.",
-        "LoggedTime": "2021-01-04T13:13:21.923"
+        "Comment": "Update at 13:33 - Our engineers have now restored power in the Lever Street area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-01-04T13:33:37.987"
       }
     ],
     "PostCodesAffected": [
@@ -82,9 +82,9 @@
       "EC1V3RB",
       "EC1V3RQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 86,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 86,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -470,7 +470,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "15:30 - 16:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
