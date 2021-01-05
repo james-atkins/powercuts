@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-209648-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-209648-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-209648-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-04T16:00:51",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-04T23:51:20.367",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000332f0INCD",
     "IncidentReference": "INCD-209648-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-04T14:35:40",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-04T23:51:20.367",
     "EstimatedRestorationDate": "2021-01-05T00:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-04T14:34:00",
-    "NoCustomerAffected": 28,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 13,
     "Latitude": 0.0,
@@ -74,6 +74,7 @@
       "HA3 7"
     ],
     "PostCodesRestored": [
+      "HA35ES",
       "HA35EU",
       "HA35EX",
       "HA35HD",
@@ -81,11 +82,11 @@
       "HA35HF",
       "HA35HH",
       "HA35JA",
-      "HA35ES",
       "HA37BB",
       "HA37BD"
     ],
     "PostCodesPlanned": [
+      "HA35ES",
       "HA35EU",
       "HA35EX",
       "HA35HD",
@@ -93,13 +94,12 @@
       "HA35HF",
       "HA35HH",
       "HA35JA",
-      "HA35ES",
       "HA37BB",
       "HA37BD"
     ],
-    "CustomersOnSupply": 104,
-    "CustomersOffSupply": 78,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 182,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -1184,6 +1184,7 @@
     }
   ],
   "FullPostcodeData": [
+    "HA35ES",
     "HA35EU",
     "HA35EX",
     "HA35HD",
@@ -1191,7 +1192,6 @@
     "HA35HF",
     "HA35HH",
     "HA35JA",
-    "HA35ES",
     "HA37BB",
     "HA37BD"
   ],
