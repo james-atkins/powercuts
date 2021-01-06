@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-209956-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-209956-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-209956-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-06T02:49:34.97",
-      "Message": "Update at 02:48 - Hi, this is James from the UK Power Networks messaging team. Thanks for your patience tonight. Our engineers have been in contact with us to let us know that they have found two overhead cables on the ground that need to be repaired. To give them time to do this safely, the estimated timeframe to restore your power is now between 06:00 and 07:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
+      "Date": "2021-01-06T04:57:11.763",
+      "Message": "Update at 04:56 - We're sorry we've not been able to restore your power yet. We appreciate it can be unsettling to have a power cut during the night, but our engineers work 24 hours on issues like this so we're still aiming to have power restored as soon as possible. If you light candles, please be mindful of them and take extra care when using the stairs. If you have any concerns, please call us on 105 and our team will help. We'll keep you updated.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-06T01:35:19",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-06T05:33:17.583",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033424INCD",
     "IncidentReference": "INCD-209956-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "26",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-06T01:11:35",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-06T05:33:17.583",
     "EstimatedRestorationDate": "2021-01-06T06:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-06T01:11:31",
-    "NoCustomerAffected": 16,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-06T02:47:00",
+        "ActualEventTime": "2021-01-06T04:56:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 02:48 - Hi, this is James from the UK Power Networks messaging team. Thanks for your patience tonight. Our engineers have been in contact with us to let us know that they have found two overhead cables on the ground that need to be repaired. To give them time to do this safely, the estimated timeframe to restore your power is now between 06:00 and 07:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
-        "LoggedTime": "2021-01-06T02:49:34.97"
+        "Comment": "Update at 04:56 - We're sorry we've not been able to restore your power yet. We appreciate it can be unsettling to have a power cut during the night, but our engineers work 24 hours on issues like this so we're still aiming to have power restored as soon as possible. If you light candles, please be mindful of them and take extra care when using the stairs. If you have any concerns, please call us on 105 and our team will help. We'll keep you updated.",
+        "LoggedTime": "2021-01-06T04:57:11.763"
       }
     ],
     "PostCodesAffected": [
@@ -80,10 +80,6 @@
       "PE28 5"
     ],
     "PostCodesRestored": [
-      "NR104QE",
-      "NR104QF",
-      "NR104QG",
-      "NR104QL",
       "NR104AH",
       "NR104ES",
       "NR104EY",
@@ -110,6 +106,10 @@
       "NR104PR",
       "NR104PS",
       "NR104PW",
+      "NR104QE",
+      "NR104QF",
+      "NR104QG",
+      "NR104QL",
       "NR104QQ",
       "NR104SU",
       "NR104TA",
@@ -128,10 +128,6 @@
       "UK"
     ],
     "PostCodesPlanned": [
-      "NR104QE",
-      "NR104QF",
-      "NR104QG",
-      "NR104QL",
       "NR104AH",
       "NR104ES",
       "NR104EY",
@@ -158,6 +154,10 @@
       "NR104PR",
       "NR104PS",
       "NR104PW",
+      "NR104QE",
+      "NR104QF",
+      "NR104QG",
+      "NR104QL",
       "NR104QQ",
       "NR104SU",
       "NR104TA",
@@ -175,10 +175,10 @@
       "PE285RY",
       "UK"
     ],
-    "CustomersOnSupply": 241,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 256,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -3886,10 +3886,6 @@
     }
   ],
   "FullPostcodeData": [
-    "NR104QE",
-    "NR104QF",
-    "NR104QG",
-    "NR104QL",
     "NR104AH",
     "NR104ES",
     "NR104EY",
@@ -3916,6 +3912,10 @@
     "NR104PR",
     "NR104PS",
     "NR104PW",
+    "NR104QE",
+    "NR104QF",
+    "NR104QG",
+    "NR104QL",
     "NR104QQ",
     "NR104SU",
     "NR104TA",
@@ -3935,7 +3935,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "06:00 - 07:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
