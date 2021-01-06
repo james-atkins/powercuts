@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-209965-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-209965-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-209965-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-06T08:27:51",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-06T14:11:11.217",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003342dINCD",
     "IncidentReference": "INCD-209965-Z",
-    "IncidentCategory": "54",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-06T05:42:48",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-06T14:11:11.217",
     "EstimatedRestorationDate": "2021-01-06T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-05T22:49:16",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -115,9 +115,9 @@
       "HP53PX",
       "HP53PY"
     ],
-    "CustomersOnSupply": 246,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 252,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -2278,7 +2278,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A piece of network equipment had a fault on our high voltage electricity network, causing an area wide power cut.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "14:30 - 15:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
