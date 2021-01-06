@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-210150-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-210150-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-210150-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-06T18:56:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-06T21:02:10.74",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000334e6INCD",
     "IncidentReference": "INCD-210150-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-06T18:23:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-06T21:02:10.74",
     "EstimatedRestorationDate": "2021-01-06T21:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-06T18:22:00",
-    "NoCustomerAffected": 91,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 22,
     "Latitude": 0.0,
@@ -73,6 +73,7 @@
       "LU2 7"
     ],
     "PostCodesRestored": [
+      "LU27EB",
       "LU27RN",
       "LU27RP",
       "LU27RR",
@@ -82,10 +83,10 @@
       "LU27RW",
       "LU27SD",
       "LU27SE",
-      "LU27EB",
       "LU27SH"
     ],
     "PostCodesPlanned": [
+      "LU27EB",
       "LU27RN",
       "LU27RP",
       "LU27RR",
@@ -95,12 +96,11 @@
       "LU27RW",
       "LU27SD",
       "LU27SE",
-      "LU27EB",
       "LU27SH"
     ],
-    "CustomersOnSupply": 184,
-    "CustomersOffSupply": 91,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 275,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -847,6 +847,7 @@
     }
   ],
   "FullPostcodeData": [
+    "LU27EB",
     "LU27RN",
     "LU27RP",
     "LU27RR",
@@ -856,7 +857,6 @@
     "LU27RW",
     "LU27SD",
     "LU27SE",
-    "LU27EB",
     "LU27SH"
   ],
   "PinLatitude": null,
