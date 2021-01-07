@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-242571-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242571-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-242571-G",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-01-07T07:32:22.177",
+      "Message": "Update at 07:32 - We can now confirm that all power in the Somerset Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers on site have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-01-07T05:20:46",
+      "Date": "2021-01-07T05:20:00",
       "Message": "<p>We became aware of a power cut at 05:20. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-07T07:06:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-07T07:30:11.617",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b38bINCD",
     "IncidentReference": "INCD-242571-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-07T05:23:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-07T07:30:11.617",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-07T05:20:46",
+    "ReceivedDate": "2021-01-07T05:20:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-07T07:32:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 07:32 - We can now confirm that all power in the Somerset Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers on site have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-07T07:32:22.177"
+      }
+    ],
     "PostCodesAffected": [
       "RH1 6"
     ],
@@ -68,9 +82,9 @@
       "RH16NH",
       "RH16NW"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 49,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 49,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
