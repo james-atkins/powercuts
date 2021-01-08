@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-210470-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-210470-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-210470-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-08T14:11:00.293",
-      "Message": "It's Adam from the text messaging team. I know you have been off for a while now, so I wanted to reassure you that I am personally checking this job for you.",
+      "Date": "2021-01-08T14:47:14.977",
+      "Message": "Update at 14:47 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 10 customers in the NR16 1 area to safely repair an overhead network fault. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-08T09:56:40",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-08T15:18:09.873",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033626INCD",
     "IncidentReference": "INCD-210470-Z",
-    "IncidentCategory": "26",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-08T09:54:19",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-08T15:18:09.873",
     "EstimatedRestorationDate": "2021-01-08T14:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-08T10:31:00",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-08T14:10:00",
+        "ActualEventTime": "2021-01-08T14:47:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "It's Adam from the text messaging team. I know you have been off for a while now, so I wanted to reassure you that I am personally checking this job for you.",
-        "LoggedTime": "2021-01-08T14:11:00.293"
+        "Comment": "Update at 14:47 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 10 customers in the NR16 1 area to safely repair an overhead network fault. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-08T14:47:14.977"
       }
     ],
     "PostCodesAffected": [
@@ -77,8 +77,6 @@
       "WD18 0"
     ],
     "PostCodesRestored": [
-      "NR161NG",
-      "NR161NH",
       "NR161AB",
       "NR161AD",
       "NR161AT",
@@ -89,6 +87,8 @@
       "NR161ND",
       "NR161NE",
       "NR161NF",
+      "NR161NG",
+      "NR161NH",
       "NR161NJ",
       "NR161NP",
       "NR161NQ",
@@ -122,8 +122,6 @@
       "WD180WA"
     ],
     "PostCodesPlanned": [
-      "NR161NG",
-      "NR161NH",
       "NR161AB",
       "NR161AD",
       "NR161AT",
@@ -134,6 +132,8 @@
       "NR161ND",
       "NR161NE",
       "NR161NF",
+      "NR161NG",
+      "NR161NH",
       "NR161NJ",
       "NR161NP",
       "NR161NQ",
@@ -166,10 +166,10 @@
       "NR189LE",
       "WD180WA"
     ],
-    "CustomersOnSupply": 471,
-    "CustomersOffSupply": 11,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 482,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -3039,8 +3039,6 @@
     }
   ],
   "FullPostcodeData": [
-    "NR161NG",
-    "NR161NH",
     "NR161AB",
     "NR161AD",
     "NR161AT",
@@ -3051,6 +3049,8 @@
     "NR161ND",
     "NR161NE",
     "NR161NF",
+    "NR161NG",
+    "NR161NH",
     "NR161NJ",
     "NR161NP",
     "NR161NQ",
@@ -3085,7 +3085,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "14:00 - 15:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
