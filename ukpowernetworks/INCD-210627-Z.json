@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-210627-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-210627-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-210627-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-08T19:09:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-08T20:32:18.12",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000336c3INCD",
     "IncidentReference": "INCD-210627-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-08T18:00:24",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-08T20:32:18.12",
     "EstimatedRestorationDate": "2021-01-08T21:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-08T17:58:00",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -84,9 +84,9 @@
       "CB74ST",
       "CB74SU"
     ],
-    "CustomersOnSupply": 9,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 19,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
