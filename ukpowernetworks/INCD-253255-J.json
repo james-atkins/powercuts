@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-253255-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-253255-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-253255-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-09T11:11:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-09T11:53:48.54",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003dd47INCD",
     "IncidentReference": "INCD-253255-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-09T09:52:43",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-09T11:53:48.54",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-09T09:50:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -60,29 +60,29 @@
       "N7 6"
     ],
     "PostCodesRestored": [
-      "N194PH",
       "N194DD",
       "N194DE",
       "N194DF",
       "N194DG",
+      "N194PH",
       "N194PJ",
       "N194PN",
       "N76BQ"
     ],
     "PostCodesPlanned": [
-      "N194PH",
       "N194DD",
       "N194DE",
       "N194DF",
       "N194DG",
+      "N194PH",
       "N194PJ",
       "N194PN",
       "N76BQ"
     ],
-    "CustomersOnSupply": 163,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 164,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -742,11 +742,11 @@
     }
   ],
   "FullPostcodeData": [
-    "N194PH",
     "N194DD",
     "N194DE",
     "N194DF",
     "N194DG",
+    "N194PH",
     "N194PJ",
     "N194PN",
     "N76BQ"
