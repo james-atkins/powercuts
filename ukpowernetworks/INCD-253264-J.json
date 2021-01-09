@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-253264-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-253264-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-253264-J",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-09T14:08:04.687",
+      "Message": "Update at 14:08 - We can now confirm that all power in the Leathermarket Street area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-09T12:29:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-09T13:08:59",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-09T13:51:15.113",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003dd50INCD",
     "IncidentReference": "INCD-253264-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-09T12:38:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-09T13:51:15.113",
     "EstimatedRestorationDate": "2021-01-09T16:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-09T12:29:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -54,30 +60,38 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-09T14:07:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 14:08 - We can now confirm that all power in the Leathermarket Street area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-09T14:08:04.687"
+      }
+    ],
     "PostCodesAffected": [
       "SE1 3",
       "SE1 4"
     ],
     "PostCodesRestored": [
+      "SE13ER",
       "SE13FB",
       "SE13HN",
-      "SE13ER",
       "SE13HS",
       "SE13QB",
       "SE14PD"
     ],
     "PostCodesPlanned": [
+      "SE13ER",
       "SE13FB",
       "SE13HN",
-      "SE13ER",
       "SE13HS",
       "SE13QB",
       "SE14PD"
     ],
-    "CustomersOnSupply": 119,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 126,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1242,9 +1256,9 @@
     }
   ],
   "FullPostcodeData": [
+    "SE13ER",
     "SE13FB",
     "SE13HN",
-    "SE13ER",
     "SE13HS",
     "SE13QB",
     "SE14PD"
