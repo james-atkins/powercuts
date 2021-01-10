@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-210916-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-210916-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-210916-Z",
   "Steps": [
     {
       "Active": true,
@@ -10,7 +10,7 @@
     },
     {
       "Active": false,
-      "Date": "2021-01-10T16:21:53",
+      "Date": "2021-01-10T16:21:00",
       "Message": "<p>We became aware of a power cut at 16:21. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-10T17:26:09",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-10T21:22:11.247",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000337e4INCD",
     "IncidentReference": "INCD-210916-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-10T16:32:48",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-10T21:22:11.247",
     "EstimatedRestorationDate": "2021-01-10T21:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-10T16:21:53",
+    "ReceivedDate": "2021-01-10T16:21:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -78,9 +78,9 @@
     "PostCodesPlanned": [
       "CM36DQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 26,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 26,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
