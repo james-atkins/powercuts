@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-210858-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-210858-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-210858-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-10T12:15:02",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-10T12:46:34.373",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000337aaINCD",
     "IncidentReference": "INCD-210858-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-10T11:04:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-10T12:46:34.373",
     "EstimatedRestorationDate": "2021-01-10T15:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-10T10:53:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -59,30 +59,30 @@
       "HA0 3"
     ],
     "PostCodesRestored": [
-      "HA03QD",
-      "HA03RE",
       "HA03QB",
+      "HA03QD",
       "HA03QU",
       "HA03RD",
+      "HA03RE",
       "HA03RF",
       "HA03RG",
       "HA03RY",
       "HA03SA"
     ],
     "PostCodesPlanned": [
-      "HA03QD",
-      "HA03RE",
       "HA03QB",
+      "HA03QD",
       "HA03QU",
       "HA03RD",
+      "HA03RE",
       "HA03RF",
       "HA03RG",
       "HA03RY",
       "HA03SA"
     ],
-    "CustomersOnSupply": 74,
-    "CustomersOffSupply": 11,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 85,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -601,11 +601,11 @@
     }
   ],
   "FullPostcodeData": [
-    "HA03QD",
-    "HA03RE",
     "HA03QB",
+    "HA03QD",
     "HA03QU",
     "HA03RD",
+    "HA03RE",
     "HA03RF",
     "HA03RG",
     "HA03RY",
