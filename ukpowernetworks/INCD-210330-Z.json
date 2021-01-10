@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-210330-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-210330-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-210330-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-07T17:08:04.04",
+      "Message": "Update at 17:07 - We can now confirm that all power in the Dock Street area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-07T14:56:58",
@@ -15,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-07T16:02:30",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-10T08:57:08.413",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003359aINCD",
     "IncidentReference": "INCD-210330-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-07T15:03:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-10T08:57:08.413",
     "EstimatedRestorationDate": "2021-01-07T18:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-07T14:56:58",
@@ -51,10 +57,18 @@
       "EstimatedTimeOfArrival": "2021-01-07T16:15:00",
       "DispatchedDate": "2021-01-07T15:36:37",
       "ArrivalDate": "2021-01-07T16:02:30",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-07T17:07:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 17:07 - We can now confirm that all power in the Dock Street area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-07T17:08:04.04"
+      }
+    ],
     "PostCodesAffected": [
       "IP1 1",
       "IP2 8"
@@ -65,8 +79,8 @@
       "IP28EU",
       "IP28EX",
       "IP28EY",
-      "IP28JA",
-      "IP28FL"
+      "IP28FL",
+      "IP28JA"
     ],
     "PostCodesPlanned": [
       "IP11XH",
@@ -74,13 +88,13 @@
       "IP28EU",
       "IP28EX",
       "IP28EY",
-      "IP28JA",
-      "IP28FL"
+      "IP28FL",
+      "IP28JA"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 34,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 35,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -821,8 +835,8 @@
     "IP28EU",
     "IP28EX",
     "IP28EY",
-    "IP28JA",
-    "IP28FL"
+    "IP28FL",
+    "IP28JA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
