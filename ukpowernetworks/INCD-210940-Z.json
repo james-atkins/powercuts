@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-210940-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-210940-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-210940-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-10T20:24:50",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-10T22:13:25.597",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000337fcINCD",
     "IncidentReference": "INCD-210940-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-10T18:30:28",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-10T22:13:25.597",
     "EstimatedRestorationDate": "2021-01-10T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-10T18:28:00",
-    "NoCustomerAffected": 13,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -65,10 +65,10 @@
       "MK401HP",
       "MK401HS",
       "MK401HU",
-      "MK401QX",
       "MK401PR",
       "MK401PW",
-      "MK401QB"
+      "MK401QB",
+      "MK401QX"
     ],
     "PostCodesPlanned": [
       "MK401BY",
@@ -77,15 +77,15 @@
       "MK401HP",
       "MK401HS",
       "MK401HU",
-      "MK401QX",
       "MK401PR",
       "MK401PW",
-      "MK401QB"
+      "MK401QB",
+      "MK401QX"
     ],
-    "CustomersOnSupply": 11,
-    "CustomersOffSupply": 41,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 52,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -461,10 +461,10 @@
     "MK401HP",
     "MK401HS",
     "MK401HU",
-    "MK401QX",
     "MK401PR",
     "MK401PW",
-    "MK401QB"
+    "MK401QB",
+    "MK401QX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
