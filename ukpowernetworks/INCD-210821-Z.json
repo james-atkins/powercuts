@@ -1,11 +1,17 @@
 {
   "IncidentReference": "INCD-210821-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-210821-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-210821-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-01-10T04:23:09.75",
+      "Message": "Update at 04:22 - We have now restored power to the Palmers Road area. We are truly sorry for the power cuts recently. We know there is an underlying issue causing this, but it is proving difficult for our engineers to locate and therefore fix. To get your power back on today we have reconfigured the local electricity network. This in turn will both help pinpoint the issue and minimise further interruptions. If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-01-10T03:40:43",
-      "Message": "<p>We became aware of a power cut at 03:40. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-01-10T03:01:00",
+      "Message": "<p>We became aware of a power cut at 03:01. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-10T03:47:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-10T04:20:50.223",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033785INCD",
     "IncidentReference": "INCD-210821-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-10T03:04:42",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-10T04:20:50.223",
     "EstimatedRestorationDate": "2021-01-10T06:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-10T03:40:43",
+    "ReceivedDate": "2021-01-10T03:01:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-10T04:23:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 04:22 - We have now restored power to the Palmers Road area. We are truly sorry for the power cuts recently. We know there is an underlying issue causing this, but it is proving difficult for our engineers to locate and therefore fix. To get your power back on today we have reconfigured the local electricity network. This in turn will both help pinpoint the issue and minimise further interruptions. If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-01-10T04:23:09.75"
+      }
+    ],
     "PostCodesAffected": [
       "PE1 5"
     ],
@@ -72,9 +86,9 @@
       "PE15YG",
       "PE15YZ"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 74,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 75,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
