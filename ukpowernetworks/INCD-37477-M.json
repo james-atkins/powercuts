@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-37477-M",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-37477-M",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-37477-M",
   "Steps": [
     {
       "Active": false,
@@ -9,34 +9,34 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-11T05:52:59",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-01-11T06:27:46",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-11T06:30:23.633",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "M00009265INCD",
     "IncidentReference": "INCD-37477-M",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-11T05:41:38",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-11T06:30:23.633",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-11T05:36:00",
@@ -50,8 +50,8 @@
       "Name": "Anthony",
       "EstimatedTimeOfArrival": "2021-01-11T06:15:00",
       "DispatchedDate": "2021-01-11T05:52:59",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-01-11T06:27:46",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -63,20 +63,20 @@
     "PostCodesRestored": [
       "SW1Y6LX",
       "SW1Y6NH",
+      "W1J9EJ",
       "W1J9ER",
-      "W1V9DB",
-      "W1J9EJ"
+      "W1V9DB"
     ],
     "PostCodesPlanned": [
       "SW1Y6LX",
       "SW1Y6NH",
+      "W1J9EJ",
       "W1J9ER",
-      "W1V9DB",
-      "W1J9EJ"
+      "W1V9DB"
     ],
-    "CustomersOnSupply": 15,
-    "CustomersOffSupply": 21,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 36,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -512,9 +512,9 @@
   "FullPostcodeData": [
     "SW1Y6LX",
     "SW1Y6NH",
+    "W1J9EJ",
     "W1J9ER",
-    "W1V9DB",
-    "W1J9EJ"
+    "W1V9DB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
