@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-242829-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242829-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-242829-G",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-01-11T19:08:57",
-      "Message": "<p>We became aware of a power cut at 19:08. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-01-11T19:30:00",
+      "Message": "<p>We became aware of a power cut at 19:30. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-11T19:09:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-11T19:44:20.027",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b48dINCD",
     "IncidentReference": "INCD-242829-G",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-11T19:08:57",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-11T19:44:20.027",
     "EstimatedRestorationDate": "2021-01-11T21:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-11T19:08:57",
+    "ReceivedDate": "2021-01-11T19:30:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
@@ -59,22 +59,22 @@
       "TN38 8"
     ],
     "PostCodesRestored": [
-      "TN388BP",
-      "TN388BT",
       "TN388BH",
       "TN388BL",
+      "TN388BP",
+      "TN388BT",
       "TN388DH"
     ],
     "PostCodesPlanned": [
-      "TN388BP",
-      "TN388BT",
       "TN388BH",
       "TN388BL",
+      "TN388BP",
+      "TN388BT",
       "TN388DH"
     ],
-    "CustomersOnSupply": 23,
-    "CustomersOffSupply": 39,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 62,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -541,10 +541,10 @@
     }
   ],
   "FullPostcodeData": [
-    "TN388BP",
-    "TN388BT",
     "TN388BH",
     "TN388BL",
+    "TN388BP",
+    "TN388BT",
     "TN388DH"
   ],
   "PinLatitude": null,
