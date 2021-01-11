@@ -1,45 +1,51 @@
 {
   "IncidentReference": "INCD-210984-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-210984-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-210984-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-01-11T04:38:07.417",
+      "Message": "Update at 04:37 - We have now restored power to the Crays Hill Road area. We are truly sorry for the power cuts recently. We know there is an underlying issue causing this, but it is proving difficult for our engineers to locate and therefore fix. To get your power back on today we have reconfigured the local electricity network. This in turn will both help pinpoint the issue and minimise further interruptions. If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-01-11T03:54:52",
+      "Date": "2021-01-11T03:54:00",
       "Message": "<p>We became aware of a power cut at 03:54. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-11T03:56:29",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-01-11T04:22:33",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-11T04:36:22.867",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033828INCD",
     "IncidentReference": "INCD-210984-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-11T03:55:37",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-01-11T04:36:22.867",
+    "EstimatedRestorationDate": "2021-01-11T06:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-11T03:54:52",
+    "ReceivedDate": "2021-01-11T03:54:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -50,11 +56,19 @@
       "Name": "JASON",
       "EstimatedTimeOfArrival": "2021-01-11T05:00:00",
       "DispatchedDate": "2021-01-11T03:56:29",
-      "ArrivalDate": null,
+      "ArrivalDate": "2021-01-11T04:22:33",
       "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-11T04:38:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 04:37 - We have now restored power to the Crays Hill Road area. We are truly sorry for the power cuts recently. We know there is an underlying issue causing this, but it is proving difficult for our engineers to locate and therefore fix. To get your power back on today we have reconfigured the local electricity network. This in turn will both help pinpoint the issue and minimise further interruptions. If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-01-11T04:38:07.417"
+      }
+    ],
     "PostCodesAffected": [
       "CM11 2"
     ],
@@ -68,9 +82,9 @@
       "CM112YR",
       "CM112YW"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 19,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 19,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -592,7 +606,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "05:30 - 06:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
