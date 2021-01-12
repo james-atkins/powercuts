@@ -3,21 +3,27 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242862-G",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-01-12T13:49:11.52",
+      "Message": "Update at 13:48 - Our engineers have investigated and found that the power is off due to a faulty underground connection box which has affected our substation equipment. We're sending a specialist team to dig down to expose the fault for repairs. We're still estimating to have your power back on between 15:30 and 16:30, however, this may change. We'll let you know when they arrive on site.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-01-12T11:52:34",
+      "Date": "2021-01-12T11:52:00",
       "Message": "<p>We became aware of a power cut at 11:52. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-12T12:00:41",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-12T13:07:16",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
@@ -31,7 +37,7 @@
   "UKPNIncident": {
     "IncidentId": "G0003b4aeINCD",
     "IncidentReference": "INCD-242862-G",
-    "IncidentCategory": "124",
+    "IncidentCategory": "108",
     "IncidentType": 2,
     "IncidentPriority": 2,
     "StatusId": 1,
@@ -39,8 +45,8 @@
     "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-01-12T16:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-12T11:52:34",
-    "NoCustomerAffected": 0,
+    "ReceivedDate": "2021-01-12T11:52:00",
+    "NoCustomerAffected": 6,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -50,11 +56,19 @@
       "Name": "TOM(R5)",
       "EstimatedTimeOfArrival": "2021-01-12T13:00:00",
       "DispatchedDate": "2021-01-12T12:00:41",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-01-12T13:07:16",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-12T13:47:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 13:48 - Our engineers have investigated and found that the power is off due to a faulty underground connection box which has affected our substation equipment. We're sending a specialist team to dig down to expose the fault for repairs. We're still estimating to have your power back on between 15:30 and 16:30, however, this may change. We'll let you know when they arrive on site.",
+        "LoggedTime": "2021-01-12T13:49:11.52"
+      }
+    ],
     "PostCodesAffected": [
       "RH8 9"
     ],
@@ -475,7 +489,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "Due to a faulty piece of underground network equipment we had to turn off your power.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "15:30 - 16:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
