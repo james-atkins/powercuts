@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-242868-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242868-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-242868-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-12T14:33:42",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-12T16:18:03.08",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b4b4INCD",
     "IncidentReference": "INCD-242868-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-12T13:19:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-12T16:18:03.08",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-12T14:20:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "KT12 3"
     ],
     "PostCodesRestored": [
-      "KT123AX",
       "KT123AT",
+      "KT123AX",
       "KT123AY",
       "KT123AZ"
     ],
     "PostCodesPlanned": [
-      "KT123AX",
       "KT123AT",
+      "KT123AX",
       "KT123AY",
       "KT123AZ"
     ],
-    "CustomersOnSupply": 56,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 58,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -523,8 +523,8 @@
     }
   ],
   "FullPostcodeData": [
-    "KT123AX",
     "KT123AT",
+    "KT123AX",
     "KT123AY",
     "KT123AZ"
   ],
