@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-40546-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40546-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40546-C",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-13T13:37:53.247",
+      "Message": "Update at 13:37 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Marlborough Avenue area for safety so they can make safe repairs to a piece of faulty underground network equipment. Our estimated time to have your power back on is between 13:30 and 14:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-13T12:50:00",
@@ -15,29 +21,29 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-13T12:35:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-13T14:03:59.987",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009e62INCD",
     "IncidentReference": "INCD-40546-C",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-13T12:34:37",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-01-13T14:03:59.987",
+    "EstimatedRestorationDate": "2021-01-13T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-13T12:50:00",
     "NoCustomerAffected": 0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-13T13:36:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 13:37 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Marlborough Avenue area for safety so they can make safe repairs to a piece of faulty underground network equipment. Our estimated time to have your power back on is between 13:30 and 14:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
+        "LoggedTime": "2021-01-13T13:37:53.247"
+      }
+    ],
     "PostCodesAffected": [
       "HA8 8"
     ],
@@ -76,9 +90,9 @@
       "HA88TE",
       "HA88UT"
     ],
-    "CustomersOnSupply": 43,
+    "CustomersOnSupply": 52,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -656,7 +670,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "13:30 - 14:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
