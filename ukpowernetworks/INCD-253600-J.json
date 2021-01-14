@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-253600-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-253600-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-253600-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-13T16:24:16",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-14T13:04:46.787",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003dea0INCD",
     "IncidentReference": "INCD-253600-J",
     "IncidentCategory": "25",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-13T15:34:55",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-14T13:04:46.787",
     "EstimatedRestorationDate": "2021-01-14T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-13T15:34:00",
-    "NoCustomerAffected": 43,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -61,10 +61,10 @@
     ],
     "PostCodesRestored": [
       "E58BN",
-      "E58RL",
       "E58RG",
       "E58RH",
       "E58RJ",
+      "E58RL",
       "E58RN",
       "E58RQ",
       "E58SQ",
@@ -74,10 +74,10 @@
     ],
     "PostCodesPlanned": [
       "E58BN",
-      "E58RL",
       "E58RG",
       "E58RH",
       "E58RJ",
+      "E58RL",
       "E58RN",
       "E58RQ",
       "E58SQ",
@@ -85,9 +85,9 @@
       "N167EJ",
       "N167EL"
     ],
-    "CustomersOnSupply": 163,
-    "CustomersOffSupply": 43,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 206,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1245,10 +1245,10 @@
   ],
   "FullPostcodeData": [
     "E58BN",
-    "E58RL",
     "E58RG",
     "E58RH",
     "E58RJ",
+    "E58RL",
     "E58RN",
     "E58RQ",
     "E58SQ",
