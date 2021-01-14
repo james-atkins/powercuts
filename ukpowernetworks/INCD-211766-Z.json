@@ -3,8 +3,14 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-211766-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-01-14T10:33:41.527",
+      "Message": "Update at 10:33 - Our engineers have investigated and found that the power is off due to a fault on our underground network which has affected our substation equipment. As soon as they're available, we're sending a specialist team to pinpoint the fault and dig down to expose the cabling for repairs. We're still estimating to have your power back on between 11:00 and 12:00, however, this may change. We'll keep you updated on their progress.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-01-14T07:25:50",
+      "Date": "2021-01-14T07:25:00",
       "Message": "<p>We became aware of a power cut at 07:25. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -31,7 +37,7 @@
   "UKPNIncident": {
     "IncidentId": "Z00033b36INCD",
     "IncidentReference": "INCD-211766-Z",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
     "IncidentPriority": 2,
     "StatusId": 1,
@@ -39,10 +45,10 @@
     "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-01-14T11:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-14T07:25:50",
-    "NoCustomerAffected": 0,
+    "ReceivedDate": "2021-01-14T07:25:00",
+    "NoCustomerAffected": 12,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 3,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,38 +60,46 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-14T10:31:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 10:33 - Our engineers have investigated and found that the power is off due to a fault on our underground network which has affected our substation equipment. As soon as they're available, we're sending a specialist team to pinpoint the fault and dig down to expose the cabling for repairs. We're still estimating to have your power back on between 11:00 and 12:00, however, this may change. We'll keep you updated on their progress.",
+        "LoggedTime": "2021-01-14T10:33:41.527"
+      }
+    ],
     "PostCodesAffected": [
       "PE13 3"
     ],
     "PostCodesRestored": [
+      "PE133PE",
+      "PE133PQ",
+      "PE133PX",
       "PE133HF",
       "PE133HG",
       "PE133NR",
       "PE133NU",
       "PE133PD",
-      "PE133PE",
       "PE133PF",
-      "PE133PH",
-      "PE133PQ",
-      "PE133PX"
+      "PE133PH"
     ],
     "PostCodesPlanned": [
+      "PE133PE",
+      "PE133PQ",
+      "PE133PX",
       "PE133HF",
       "PE133HG",
       "PE133NR",
       "PE133NU",
       "PE133PD",
-      "PE133PE",
       "PE133PF",
-      "PE133PH",
-      "PE133PQ",
-      "PE133PX"
+      "PE133PH"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 153,
+    "CustomersOnSupply": 118,
+    "CustomersOffSupply": 35,
     "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -643,20 +657,20 @@
     }
   ],
   "FullPostcodeData": [
+    "PE133PE",
+    "PE133PQ",
+    "PE133PX",
     "PE133HF",
     "PE133HG",
     "PE133NR",
     "PE133NU",
     "PE133PD",
-    "PE133PE",
     "PE133PF",
-    "PE133PH",
-    "PE133PQ",
-    "PE133PX"
+    "PE133PH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "11:00 - 12:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,

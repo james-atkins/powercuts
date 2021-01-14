@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-211731-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-211731-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-211731-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-14T10:12:25.51",
-      "Message": "Update at 10:11 - We are truly sorry your power has gone off again today. Our engineers investigated the fault earlier but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers will be back on site as quickly as possible. We will keep you updated.",
+      "Date": "2021-01-14T10:57:44.73",
+      "Message": "Update at 10:56 - Our engineers have arrived on site again to investigate and repair the fault. We're now estimating to have your power back on between 12:30 and 13:30. Businesses usually have back up plans for emergencies, but by clicking this link <a href=\"https://bit.ly/2Y6Z16K\" target=\"_blank\">https://bit.ly/2Y6Z16K</a> you can find some answers to frequently asked questions from business customers. If you are a domestic customer and need further support, please call us on 105. We will get your power back on as soon as we can and will update you when we have more information.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-14T07:21:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-14T11:09:33.173",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033b13INCD",
     "IncidentReference": "INCD-211731-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 2,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-14T02:26:17",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-01-14T11:09:33.173",
+    "EstimatedRestorationDate": "2021-01-14T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-14T02:25:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 7,
+    "NoCallsReported": 8,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-14T10:12:00",
+        "ActualEventTime": "2021-01-14T10:55:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:11 - We are truly sorry your power has gone off again today. Our engineers investigated the fault earlier but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers will be back on site as quickly as possible. We will keep you updated.",
-        "LoggedTime": "2021-01-14T10:12:25.51"
+        "Comment": "Update at 10:56 - Our engineers have arrived on site again to investigate and repair the fault. We're now estimating to have your power back on between 12:30 and 13:30. Businesses usually have back up plans for emergencies, but by clicking this link https://bit.ly/2Y6Z16K you can find some answers to frequently asked questions from business customers. If you are a domestic customer and need further support, please call us on 105. We will get your power back on as soon as we can and will update you when we have more information.",
+        "LoggedTime": "2021-01-14T10:57:44.73"
       }
     ],
     "PostCodesAffected": [
@@ -86,7 +86,7 @@
     ],
     "CustomersOnSupply": 55,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -309,7 +309,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "12:30 - 13:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
