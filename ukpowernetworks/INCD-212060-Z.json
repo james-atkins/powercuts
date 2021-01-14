@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-212060-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-212060-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-212060-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-14T22:56:12.027",
+      "Message": "Update at 22:56 - Engineers have arrived on site in the Pretoria Road area. Using an average timescale for this type of issue, we're looking to have you back on between 00:00 and 01:00. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video <a href=\"https://bit.ly/2y8Dtfz.\" target=\"_blank\">https://bit.ly/2y8Dtfz.</a>",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-14T21:12:00",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-14T22:12:31",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-14T23:41:19.9719995+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033c5cINCD",
     "IncidentReference": "INCD-212060-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-14T21:21:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-14T23:41:19.9719995+00:00",
     "EstimatedRestorationDate": "2021-01-15T00:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-14T21:12:00",
-    "NoCustomerAffected": 15,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 9,
+    "NoCallsReported": 11,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-14T22:56:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 22:56 - Engineers have arrived on site in the Pretoria Road area. Using an average timescale for this type of issue, we're looking to have you back on between 00:00 and 01:00. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video https://bit.ly/2y8Dtfz.",
+        "LoggedTime": "2021-01-14T22:56:12.027"
+      }
+    ],
     "PostCodesAffected": [
       "E4 7"
     ],
@@ -64,8 +78,8 @@
       "E47HB",
       "E47HD",
       "E47HE",
-      "E47HH",
       "E47HF",
+      "E47HH",
       "E47HL",
       "E47HN"
     ],
@@ -75,14 +89,14 @@
       "E47HB",
       "E47HD",
       "E47HE",
-      "E47HH",
       "E47HF",
+      "E47HH",
       "E47HL",
       "E47HN"
     ],
-    "CustomersOnSupply": 77,
-    "CustomersOffSupply": 44,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 121,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -770,8 +784,8 @@
     "E47HB",
     "E47HD",
     "E47HE",
-    "E47HH",
     "E47HF",
+    "E47HH",
     "E47HL",
     "E47HN"
   ],
