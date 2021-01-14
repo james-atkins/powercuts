@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-211786-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-211786-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-211786-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-01-14T09:55:48",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-01-14T11:06:52.947",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z00033b4aINCD",
     "IncidentReference": "INCD-211786-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-01-14T08:16:57",
-    "RestoredDateTime": "2021-01-14T11:06:52.947",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-01-14T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-14T08:13:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 17,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 8,
+    "NoCallsReported": 12,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -73,30 +73,30 @@
       "AL5 3"
     ],
     "PostCodesRestored": [
-      "AL53EZ",
-      "AL53FA",
-      "AL53HG",
       "AL53HQ",
-      "AL53LR",
       "AL53LS",
       "AL53LW",
       "AL53LY",
-      "AL53NH"
+      "AL53NH",
+      "AL53EZ",
+      "AL53FA",
+      "AL53HG",
+      "AL53LR"
     ],
     "PostCodesPlanned": [
-      "AL53EZ",
-      "AL53FA",
-      "AL53HG",
       "AL53HQ",
-      "AL53LR",
       "AL53LS",
       "AL53LW",
       "AL53LY",
-      "AL53NH"
+      "AL53NH",
+      "AL53EZ",
+      "AL53FA",
+      "AL53HG",
+      "AL53LR"
     ],
-    "CustomersOnSupply": 56,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "CustomersOnSupply": 39,
+    "CustomersOffSupply": 17,
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -363,15 +363,15 @@
     }
   ],
   "FullPostcodeData": [
-    "AL53EZ",
-    "AL53FA",
-    "AL53HG",
     "AL53HQ",
-    "AL53LR",
     "AL53LS",
     "AL53LW",
     "AL53LY",
-    "AL53NH"
+    "AL53NH",
+    "AL53EZ",
+    "AL53FA",
+    "AL53HG",
+    "AL53LR"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
