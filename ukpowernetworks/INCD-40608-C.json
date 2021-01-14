@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-40608-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40608-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40608-C",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-14T16:31:59.147",
+      "Message": "Update at 16:31 - We can now confirm that all power in the Thorverton Road area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-14T15:06:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-14T15:14:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-14T22:31:47.063",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009ea0INCD",
     "IncidentReference": "INCD-40608-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-14T15:11:08",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-14T22:31:47.063",
     "EstimatedRestorationDate": "2021-01-14T18:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-14T15:06:00",
-    "NoCustomerAffected": 53,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-14T16:31:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 16:31 - We can now confirm that all power in the Thorverton Road area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-01-14T16:31:59.147"
+      }
+    ],
     "PostCodesAffected": [
       "NW2 1",
       "NW2 2"
@@ -62,6 +76,7 @@
     "PostCodesRestored": [
       "NW21BP",
       "NW21HN",
+      "NW21HP",
       "NW21RD",
       "NW21RE",
       "NW21RG",
@@ -72,12 +87,12 @@
       "NW21RU",
       "NW22DL",
       "NW22DN",
-      "NW22DQ",
-      "NW21HP"
+      "NW22DQ"
     ],
     "PostCodesPlanned": [
       "NW21BP",
       "NW21HN",
+      "NW21HP",
       "NW21RD",
       "NW21RE",
       "NW21RG",
@@ -88,12 +103,11 @@
       "NW21RU",
       "NW22DL",
       "NW22DN",
-      "NW22DQ",
-      "NW21HP"
+      "NW22DQ"
     ],
-    "CustomersOnSupply": 40,
-    "CustomersOffSupply": 99,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 139,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -808,6 +822,7 @@
   "FullPostcodeData": [
     "NW21BP",
     "NW21HN",
+    "NW21HP",
     "NW21RD",
     "NW21RE",
     "NW21RG",
@@ -818,8 +833,7 @@
     "NW21RU",
     "NW22DL",
     "NW22DN",
-    "NW22DQ",
-    "NW21HP"
+    "NW22DQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
