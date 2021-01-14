@@ -1,60 +1,74 @@
 {
   "IncidentReference": "INCD-253643-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-253643-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-253643-J",
   "Steps": [
     {
       "Active": true,
+      "Date": "2021-01-14T09:01:43.11",
+      "Message": "Update at 09:01 - Our engineers have now arrived on site in the Burchell Road area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. This can involve  ground excavations, traffic management equipment or specialist teams. As soon as our staff can safely update us, we'll give you the latest news.",
+      "Name": null
+    },
+    {
+      "Active": false,
       "Date": "2021-01-14T07:51:00",
       "Message": "<p>We became aware of a power cut at 07:51. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-01-14T08:12:00",
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-01-14T09:00:01",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-14T09:10:52.987",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003decbINCD",
     "IncidentReference": "INCD-253643-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 2,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-14T08:03:25",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-01-14T09:10:52.987",
+    "EstimatedRestorationDate": "2021-01-14T11:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-14T07:51:00",
-    "NoCustomerAffected": 152,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 7,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
       "Id": null,
-      "Name": null,
-      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
-      "DispatchedDate": null,
-      "ArrivalDate": null,
-      "StatusId": 0
+      "Name": "SCOTT (R5)",
+      "EstimatedTimeOfArrival": "2021-01-14T08:45:00",
+      "DispatchedDate": "2021-01-14T08:12:00",
+      "ArrivalDate": "2021-01-14T09:00:01",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-14T09:01:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 09:01 - Our engineers have now arrived on site in the Burchell Road area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. This can involve  ground excavations, traffic management equipment or specialist teams. As soon as our staff can safely update us, we'll give you the latest news.",
+        "LoggedTime": "2021-01-14T09:01:43.11"
+      }
+    ],
     "PostCodesAffected": [
       "E17 8",
       "SE15 2",
@@ -68,9 +82,9 @@
       "SE152ST",
       "SE152SW",
       "SE152TN",
+      "SE152TP",
       "SE152TW",
-      "SE39DS",
-      "SE152TP"
+      "SE39DS"
     ],
     "PostCodesPlanned": [
       "E178QP",
@@ -80,13 +94,13 @@
       "SE152ST",
       "SE152SW",
       "SE152TN",
+      "SE152TP",
       "SE152TW",
-      "SE39DS",
-      "SE152TP"
+      "SE39DS"
     ],
-    "CustomersOnSupply": 68,
-    "CustomersOffSupply": 229,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 297,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1764,14 +1778,14 @@
     "SE152ST",
     "SE152SW",
     "SE152TN",
+    "SE152TP",
     "SE152TW",
-    "SE39DS",
-    "SE152TP"
+    "SE39DS"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "10:30 - 11:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
