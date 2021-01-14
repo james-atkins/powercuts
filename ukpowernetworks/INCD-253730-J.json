@@ -1,15 +1,21 @@
 {
   "IncidentReference": "INCD-253730-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-253730-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-253730-J",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-01-14T20:26:21.153",
+      "Message": "Update at 20:26 - Engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the Dudden Hill Lane area. We did not know this was going to happen, so timeframes we provide throughout are estimated, and are subject to change. Our estimate is currently between 22:30 and 23:30. After we arrive on site and assess the situation, this time may change. The reason for this is there can sometimes be a more complex underlying issue found from our engineers tests which may take longer, and if there is not we may get power back on sooner. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-01-14T18:21:16",
+      "Date": "2021-01-14T18:21:00",
       "Message": "<p>We became aware of a power cut at 18:21. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-14T20:18:44",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
@@ -17,29 +23,29 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-14T21:09:37.32",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003df22INCD",
     "IncidentReference": "INCD-253730-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-14T18:22:40",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-14T21:09:37.32",
     "EstimatedRestorationDate": "2021-01-14T23:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-14T18:21:16",
+    "ReceivedDate": "2021-01-14T18:21:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
@@ -54,7 +60,15 @@
       "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-14T20:26:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 20:26 - Engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the Dudden Hill Lane area. We did not know this was going to happen, so timeframes we provide throughout are estimated, and are subject to change. Our estimate is currently between 22:30 and 23:30. After we arrive on site and assess the situation, this time may change. The reason for this is there can sometimes be a more complex underlying issue found from our engineers tests which may take longer, and if there is not we may get power back on sooner. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
+        "LoggedTime": "2021-01-14T20:26:21.153"
+      }
+    ],
     "PostCodesAffected": [
       "NW10 1"
     ],
@@ -80,9 +94,9 @@
       "NW101DU",
       "NW101RP"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 101,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 101,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
