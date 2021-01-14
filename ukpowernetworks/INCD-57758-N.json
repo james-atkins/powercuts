@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-57758-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-57758-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-57758-N",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-14T13:13:59.493",
-      "Message": "Update at 13:13 - We're sorry your power has gone off again. We are sending our engineers back to the Parkhurst Road area to investigate why. Currently, our timeframe for power to be restored is between 15:00 and 16:00, but once our staff arrive on site and assess the situation, this time may change. As there have been other power cuts recently it's difficult to know what repairs will be needed to restore your power safely, so timeframes we provide throughout have to be estimated. The results of our engineer's tests on our network will let us know if our estimate needs to be adjusted, so we'll update you as soon as they have arrived on site and investigated.",
+      "Date": "2021-01-14T14:01:22.937",
+      "Message": "Update at 14:01 - We can now confirm that all power in the Parkhurst Road area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2021-01-14T11:49:25",
+      "Date": "2021-01-14T11:49:00",
       "Message": "<p>We became aware of a power cut at 11:49. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-14T13:16:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-14T13:53:32.673",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e19eINCD",
     "IncidentReference": "INCD-57758-N",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-14T11:57:56",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-14T13:53:32.673",
     "EstimatedRestorationDate": "2021-01-14T15:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-14T11:49:25",
+    "ReceivedDate": "2021-01-14T11:49:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-14T13:13:00",
+        "ActualEventTime": "2021-01-14T14:00:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 13:13 - We're sorry your power has gone off again. We are sending our engineers back to the Parkhurst Road area to investigate why. Currently, our timeframe for power to be restored is between 15:00 and 16:00, but once our staff arrive on site and assess the situation, this time may change. As there have been other power cuts recently it's difficult to know what repairs will be needed to restore your power safely, so timeframes we provide throughout have to be estimated. The results of our engineer's tests on our network will let us know if our estimate needs to be adjusted, so we'll update you as soon as they have arrived on site and investigated.",
-        "LoggedTime": "2021-01-14T13:13:59.493"
+        "Comment": "Update at 14:01 - We can now confirm that all power in the Parkhurst Road area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-01-14T14:01:22.937"
       }
     ],
     "PostCodesAffected": [
@@ -84,6 +84,7 @@
       "N70SQ",
       "N70SS",
       "N70ST",
+      "N70SU",
       "N70SX"
     ],
     "PostCodesPlanned": [
@@ -98,11 +99,12 @@
       "N70SQ",
       "N70SS",
       "N70ST",
+      "N70SU",
       "N70SX"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 220,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 238,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -720,6 +722,7 @@
     "N70SQ",
     "N70SS",
     "N70ST",
+    "N70SU",
     "N70SX"
   ],
   "PinLatitude": null,

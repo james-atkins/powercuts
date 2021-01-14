@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-8199-L",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-8199-L",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-8199-L",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-14T11:29:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-14T14:10:57.703",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "L00002007INCD",
     "IncidentReference": "INCD-8199-L",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-14T10:26:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-14T14:10:57.703",
     "EstimatedRestorationDate": "2021-01-14T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-14T10:21:00",
-    "NoCustomerAffected": 67,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 19,
+    "NoCallsReported": 20,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -84,9 +84,9 @@
       "N195RP",
       "N195RX"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 176,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 178,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
