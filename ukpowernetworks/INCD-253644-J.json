@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-253644-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-253644-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-253644-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-14T12:00:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-14T14:41:13.383",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003deccINCD",
     "IncidentReference": "INCD-253644-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-14T08:23:58",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-14T14:41:13.383",
     "EstimatedRestorationDate": "2021-01-14T14:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-14T08:23:00",
-    "NoCustomerAffected": 15,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -63,22 +63,22 @@
       "SW31QF",
       "SW31QP",
       "SW31RT",
+      "SW31RW",
       "SW31RX",
-      "SW31RY",
-      "SW31RW"
+      "SW31RY"
     ],
     "PostCodesPlanned": [
       "SW3",
       "SW31QF",
       "SW31QP",
       "SW31RT",
+      "SW31RW",
       "SW31RX",
-      "SW31RY",
-      "SW31RW"
+      "SW31RY"
     ],
-    "CustomersOnSupply": 49,
-    "CustomersOffSupply": 41,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 90,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -341,9 +341,9 @@
     "SW31QF",
     "SW31QP",
     "SW31RT",
+    "SW31RW",
     "SW31RX",
-    "SW31RY",
-    "SW31RW"
+    "SW31RY"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
