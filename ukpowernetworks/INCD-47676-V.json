@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-47676-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-47676-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-47676-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-15T00:14:59.707",
-      "Message": "Update at 00:14 - Our engineers on site have advised there has been some issues in starting up the temporary generator we have on site. A specialist engineer is on their way to the area to investigate what could be causing the issue. This does mean however that it will take us longer to restore your power. We're now estimating to have the power back on between 01:00 and 02:00. We're so sorry for the delay but we will continue to keep you updated with any further news we receive.",
+      "Date": "2021-01-15T01:37:24.003",
+      "Message": "Update at 01:37 - We're pleased to report that all power in the Maidstone Road area should now be restored. Our engineers have now safely connected a temporary generator, and these will be providing your power while our engineers work to fully repair the underground cable fault. Depending on what the issue is, it may take a few days for our engineers to plan in the work and make their repairs, but once this is completed safely the generator can be removed, and network power will be resumed. If you'd like any further information, or if your power is not restored, please call us any time on 08003163105.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-14T12:31:57",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-15T01:44:50.543",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000ba3cINCD",
     "IncidentReference": "INCD-47676-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 29,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-14T11:32:15",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-15T01:44:50.543",
     "EstimatedRestorationDate": "2021-01-15T01:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-14T11:31:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-15T00:14:00",
+        "ActualEventTime": "2021-01-15T01:37:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 00:14 - Our engineers on site have advised there has been some issues in starting up the temporary generator we have on site. A specialist engineer is on their way to the area to investigate what could be causing the issue. This does mean however that it will take us longer to restore your power. We're now estimating to have the power back on between 01:00 and 02:00. We're so sorry for the delay but we will continue to keep you updated with any further news we receive.",
-        "LoggedTime": "2021-01-15T00:14:59.707"
+        "Comment": "Update at 01:37 - We're pleased to report that all power in the Maidstone Road area should now be restored. Our engineers have now safely connected a temporary generator, and these will be providing your power while our engineers work to fully repair the underground cable fault. Depending on what the issue is, it may take a few days for our engineers to plan in the work and make their repairs, but once this is completed safely the generator can be removed, and network power will be resumed. If you'd like any further information, or if your power is not restored, please call us any time on 08003163105.",
+        "LoggedTime": "2021-01-15T01:37:24.003"
       }
     ],
     "PostCodesAffected": [
@@ -74,8 +74,8 @@
       "ME8 9"
     ],
     "PostCodesRestored": [
-      "ME80JY",
       "ME80JX",
+      "ME80JY",
       "ME80JZ",
       "ME80LG",
       "ME80LH",
@@ -86,8 +86,8 @@
       "ME89TD"
     ],
     "PostCodesPlanned": [
-      "ME80JY",
       "ME80JX",
+      "ME80JY",
       "ME80JZ",
       "ME80LG",
       "ME80LH",
@@ -97,9 +97,9 @@
       "ME80PX",
       "ME89TD"
     ],
-    "CustomersOnSupply": 92,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 96,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1320,8 +1320,8 @@
     }
   ],
   "FullPostcodeData": [
-    "ME80JY",
     "ME80JX",
+    "ME80JY",
     "ME80JZ",
     "ME80LG",
     "ME80LH",
