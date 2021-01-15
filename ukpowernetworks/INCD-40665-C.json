@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-40665-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40665-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40665-C",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-15T11:52:37.093",
+      "Message": "Update at 11:52 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Moulsham Street area for safety so they can repair a faulty section of the network. Our estimated time to have your power back on is between 11:30 and 12:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-15T10:51:48",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-15T08:14:23",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-15T11:54:41.87",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009ed9INCD",
     "IncidentReference": "INCD-40665-C",
-    "IncidentCategory": "24",
+    "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-14T17:18:48",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-15T11:54:41.87",
     "EstimatedRestorationDate": "2021-01-15T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-15T10:51:48",
-    "NoCustomerAffected": 85,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-15T11:52:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 11:52 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Moulsham Street area for safety so they can repair a faulty section of the network. Our estimated time to have your power back on is between 11:30 and 12:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
+        "LoggedTime": "2021-01-15T11:52:37.093"
+      }
+    ],
     "PostCodesAffected": [
       "CM2 0"
     ],
@@ -67,8 +81,8 @@
       "CM20JA",
       "CM20JU",
       "CM20LD",
-      "CM20XE",
-      "CM20LF"
+      "CM20LF",
+      "CM20XE"
     ],
     "PostCodesPlanned": [
       "CM20EY",
@@ -79,12 +93,12 @@
       "CM20JA",
       "CM20JU",
       "CM20LD",
-      "CM20XE",
-      "CM20LF"
+      "CM20LF",
+      "CM20XE"
     ],
-    "CustomersOnSupply": 6,
-    "CustomersOffSupply": 85,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 91,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -643,12 +657,12 @@
     "CM20JA",
     "CM20JU",
     "CM20LD",
-    "CM20XE",
-    "CM20LF"
+    "CM20LF",
+    "CM20XE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "12:00 - 13:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,

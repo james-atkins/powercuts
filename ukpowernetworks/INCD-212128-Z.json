@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-212128-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-212128-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-212128-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-15T11:00:45.25",
-      "Message": "Update at 11:00 - Sorry your power has gone off again today. We believed all power was restored but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. We are in the process of assigning engineers to attend and we will provide an estimated time frame for power to be back on as soon as possible.",
+      "Date": "2021-01-15T11:26:28.287",
+      "Message": "Update at 11:26 - Our engineers have now arrived on site in the Manor Drive area to continue with investigations to the loss of power. To allow them time to identify and repair the issue, we're estimating power to be back on between 14:00 and 15:00. We'll let you know when they arrive on site. If you have a vulnerable person at home, please call us on 08003163105 and we'll see if we can provide any additional support.",
       "Name": null
     },
     {
@@ -15,40 +15,40 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-15T11:07:53",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-01-15T11:25:18",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-15T11:34:17.747",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033ca0INCD",
     "IncidentReference": "INCD-212128-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-15T08:02:03",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-15T11:34:17.747",
     "EstimatedRestorationDate": "2021-01-15T14:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-15T08:01:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 12,
+    "NoCallsReported": 13,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -56,17 +56,17 @@
       "Name": "JOHN  (R5)",
       "EstimatedTimeOfArrival": "2021-01-15T11:40:00",
       "DispatchedDate": "2021-01-15T11:07:53",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-01-15T11:25:18",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-15T11:00:00",
+        "ActualEventTime": "2021-01-15T11:26:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 11:00 - Sorry your power has gone off again today. We believed all power was restored but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. We are in the process of assigning engineers to attend and we will provide an estimated time frame for power to be back on as soon as possible.",
-        "LoggedTime": "2021-01-15T11:00:45.25"
+        "Comment": "Update at 11:26 - Our engineers have now arrived on site in the Manor Drive area to continue with investigations to the loss of power. To allow them time to identify and repair the issue, we're estimating power to be back on between 14:00 and 15:00. We'll let you know when they arrive on site. If you have a vulnerable person at home, please call us on 08003163105 and we'll see if we can provide any additional support.",
+        "LoggedTime": "2021-01-15T11:26:28.287"
       }
     ],
     "PostCodesAffected": [
@@ -91,7 +91,7 @@
     ],
     "CustomersOnSupply": 96,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
