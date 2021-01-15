@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-243023-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243023-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243023-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-15T07:58:31",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-15T16:04:45.427",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b54fINCD",
     "IncidentReference": "INCD-243023-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-15T06:53:35",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-15T16:04:45.427",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-15T06:52:55",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,25 +59,25 @@
       "SM7 3"
     ],
     "PostCodesRestored": [
-      "SM73NA",
       "SM73LU",
       "SM73LY",
+      "SM73NA",
       "SM73NB",
       "SM73ND",
       "SM73NE"
     ],
     "PostCodesPlanned": [
-      "SM73NA",
       "SM73LU",
       "SM73LY",
+      "SM73NA",
       "SM73NB",
       "SM73ND",
       "SM73NE"
     ],
-    "CustomersOnSupply": 97,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 98,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -471,9 +471,9 @@
     }
   ],
   "FullPostcodeData": [
-    "SM73NA",
     "SM73LU",
     "SM73LY",
+    "SM73NA",
     "SM73NB",
     "SM73ND",
     "SM73NE"

@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-212060-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-212060-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-212060-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-15T08:58:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-15T16:42:34.317",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033c5cINCD",
     "IncidentReference": "INCD-212060-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 32,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-14T21:21:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-15T16:42:34.317",
     "EstimatedRestorationDate": "2021-01-15T18:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-14T21:12:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 18,
     "Latitude": 0.0,
@@ -73,10 +73,10 @@
       "E4 7"
     ],
     "PostCodesRestored": [
-      "E47HD",
       "E47EY",
       "E47HA",
       "E47HB",
+      "E47HD",
       "E47HE",
       "E47HF",
       "E47HH",
@@ -84,19 +84,19 @@
       "E47HN"
     ],
     "PostCodesPlanned": [
-      "E47HD",
       "E47EY",
       "E47HA",
       "E47HB",
+      "E47HD",
       "E47HE",
       "E47HF",
       "E47HH",
       "E47HL",
       "E47HN"
     ],
-    "CustomersOnSupply": 115,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 121,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -779,10 +779,10 @@
     }
   ],
   "FullPostcodeData": [
-    "E47HD",
     "E47EY",
     "E47HA",
     "E47HB",
+    "E47HD",
     "E47HE",
     "E47HF",
     "E47HH",
