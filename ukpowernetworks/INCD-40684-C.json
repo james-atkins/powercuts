@@ -1,15 +1,15 @@
 {
   "IncidentReference": "INCD-40684-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40684-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40684-C",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-14T20:22:27.93",
-      "Message": "Update at 20:22 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Cricklewood Lane area for safety so they can make safe repairs to an underground cable fault. Our estimated time to have your power back on is between 21:30 and 22:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Date": "2021-01-15T00:01:50.023",
+      "Message": "Update at 00:01 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground network fault in the Cricklewood Lane area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-14T19:59:00",
       "Message": "<p>We became aware of a power cut at 19:59. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -17,36 +17,36 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-14T22:29:25.083",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009eecINCD",
     "IncidentReference": "INCD-40684-C",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-14T19:51:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-14T22:29:25.083",
     "EstimatedRestorationDate": "2021-01-14T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-14T19:59:00",
-    "NoCustomerAffected": 50,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-14T20:21:00",
+        "ActualEventTime": "2021-01-15T00:01:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 20:22 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Cricklewood Lane area for safety so they can make safe repairs to an underground cable fault. Our estimated time to have your power back on is between 21:30 and 22:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
-        "LoggedTime": "2021-01-14T20:22:27.93"
+        "Comment": "Update at 00:01 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground network fault in the Cricklewood Lane area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-15T00:01:50.023"
       }
     ],
     "PostCodesAffected": [
@@ -80,14 +80,14 @@
       "NW21RD",
       "NW21RE",
       "NW21RG",
-      "NW22DN",
-      "NW22DQ",
       "NW21RL",
       "NW21RP",
       "NW21RS",
       "NW21RT",
       "NW21RU",
-      "NW22DL"
+      "NW22DL",
+      "NW22DN",
+      "NW22DQ"
     ],
     "PostCodesPlanned": [
       "NW21BP",
@@ -96,19 +96,19 @@
       "NW21RD",
       "NW21RE",
       "NW21RG",
-      "NW22DN",
-      "NW22DQ",
       "NW21RL",
       "NW21RP",
       "NW21RS",
       "NW21RT",
       "NW21RU",
-      "NW22DL"
+      "NW22DL",
+      "NW22DN",
+      "NW22DQ"
     ],
-    "CustomersOnSupply": 89,
-    "CustomersOffSupply": 50,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 139,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -826,14 +826,14 @@
     "NW21RD",
     "NW21RE",
     "NW21RG",
-    "NW22DN",
-    "NW22DQ",
     "NW21RL",
     "NW21RP",
     "NW21RS",
     "NW21RT",
     "NW21RU",
-    "NW22DL"
+    "NW22DL",
+    "NW22DN",
+    "NW22DQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
