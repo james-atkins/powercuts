@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-243080-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243080-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243080-G",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-15T22:33:39.05",
+      "Message": "Update at 22:33 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a fault on our network in the Uplands Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-15T21:00:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-15T21:15:33",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-15T22:30:09.533",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b588INCD",
     "IncidentReference": "INCD-243080-G",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-15T21:09:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-15T22:30:09.533",
     "EstimatedRestorationDate": "2021-01-15T22:15:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-15T21:00:00",
-    "NoCustomerAffected": 53,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -54,29 +60,37 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-15T22:33:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 22:33 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a fault on our network in the Uplands Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-15T22:33:39.05"
+      }
+    ],
     "PostCodesAffected": [
       "ME2 2"
     ],
     "PostCodesRestored": [
       "ME22RY",
       "ME22SE",
+      "ME22SJ",
       "ME22SL",
       "ME22SN",
-      "ME22SW",
-      "ME22SJ"
+      "ME22SW"
     ],
     "PostCodesPlanned": [
       "ME22RY",
       "ME22SE",
+      "ME22SJ",
       "ME22SL",
       "ME22SN",
-      "ME22SW",
-      "ME22SJ"
+      "ME22SW"
     ],
-    "CustomersOnSupply": 6,
-    "CustomersOffSupply": 53,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 59,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -461,10 +475,10 @@
   "FullPostcodeData": [
     "ME22RY",
     "ME22SE",
+    "ME22SJ",
     "ME22SL",
     "ME22SN",
-    "ME22SW",
-    "ME22SJ"
+    "ME22SW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
