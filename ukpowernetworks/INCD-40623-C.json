@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-40623-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40623-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40623-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-14T16:41:46",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-15T11:08:30.4432467+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009eafINCD",
     "IncidentReference": "INCD-40623-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-14T15:32:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-15T11:08:30.4432467+00:00",
     "EstimatedRestorationDate": "2021-01-15T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-14T15:30:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,7 +60,6 @@
     ],
     "PostCodesRestored": [
       "RM176DD",
-      "RM176HS",
       "RM176EN",
       "RM176ES",
       "RM176ET",
@@ -70,12 +69,12 @@
       "RM176FL",
       "RM176HA",
       "RM176HP",
+      "RM176HS",
       "RM176HY",
       "RM176JA"
     ],
     "PostCodesPlanned": [
       "RM176DD",
-      "RM176HS",
       "RM176EN",
       "RM176ES",
       "RM176ET",
@@ -85,12 +84,13 @@
       "RM176FL",
       "RM176HA",
       "RM176HP",
+      "RM176HS",
       "RM176HY",
       "RM176JA"
     ],
-    "CustomersOnSupply": 127,
-    "CustomersOffSupply": 13,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 140,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -634,7 +634,6 @@
   ],
   "FullPostcodeData": [
     "RM176DD",
-    "RM176HS",
     "RM176EN",
     "RM176ES",
     "RM176ET",
@@ -644,6 +643,7 @@
     "RM176FL",
     "RM176HA",
     "RM176HP",
+    "RM176HS",
     "RM176HY",
     "RM176JA"
   ],
