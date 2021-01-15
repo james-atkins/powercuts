@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-212124-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-212124-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-212124-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-15T08:00:25",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-15T10:01:03.24",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033c9cINCD",
     "IncidentReference": "INCD-212124-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-15T07:26:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-15T10:01:03.24",
     "EstimatedRestorationDate": "2021-01-15T10:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-15T07:23:00",
-    "NoCustomerAffected": 20,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -74,29 +74,29 @@
     ],
     "PostCodesRestored": [
       "SS71BZ",
+      "SS71LT",
       "SS71LW",
       "SS71NA",
       "SS71NB",
       "SS71ND",
       "SS71NF",
       "SS71NG",
-      "SS71NZ",
-      "SS71LT"
+      "SS71NZ"
     ],
     "PostCodesPlanned": [
       "SS71BZ",
+      "SS71LT",
       "SS71LW",
       "SS71NA",
       "SS71NB",
       "SS71ND",
       "SS71NF",
       "SS71NG",
-      "SS71NZ",
-      "SS71LT"
+      "SS71NZ"
     ],
-    "CustomersOnSupply": 4,
-    "CustomersOffSupply": 61,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 65,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -708,14 +708,14 @@
   ],
   "FullPostcodeData": [
     "SS71BZ",
+    "SS71LT",
     "SS71LW",
     "SS71NA",
     "SS71NB",
     "SS71ND",
     "SS71NF",
     "SS71NG",
-    "SS71NZ",
-    "SS71LT"
+    "SS71NZ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
