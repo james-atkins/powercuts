@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-212307-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-212307-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-212307-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-01-15T11:56:38",
+      "Date": "2021-01-15T11:56:00",
       "Message": "<p>We became aware of a power cut at 11:56. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-15T16:33:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-15T17:28:11.68",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033d53INCD",
     "IncidentReference": "INCD-212307-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-15T15:47:19",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-15T17:28:11.68",
     "EstimatedRestorationDate": "2021-01-15T18:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-15T11:56:38",
+    "ReceivedDate": "2021-01-15T11:56:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 4,
+    "NoCallsReported": 7,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -59,21 +59,21 @@
       "RM12 4"
     ],
     "PostCodesRestored": [
+      "RM124QP",
       "RM124QS",
       "RM124QT",
-      "RM124QP",
       "RM124QW"
     ],
     "PostCodesPlanned": [
+      "RM124QP",
       "RM124QS",
       "RM124QT",
-      "RM124QP",
       "RM124QW"
     ],
-    "CustomersOnSupply": 33,
-    "CustomersOffSupply": 39,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 72,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -675,9 +675,9 @@
     }
   ],
   "FullPostcodeData": [
+    "RM124QP",
     "RM124QS",
     "RM124QT",
-    "RM124QP",
     "RM124QW"
   ],
   "PinLatitude": null,
