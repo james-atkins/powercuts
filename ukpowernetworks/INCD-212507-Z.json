@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-212507-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-212507-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-212507-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-16T15:38:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-16T21:48:19.577",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033e1bINCD",
     "IncidentReference": "INCD-212507-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-16T12:37:26",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-16T21:48:19.577",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-16T12:33:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,8 +59,8 @@
       "IP14 1"
     ],
     "PostCodesRestored": [
-      "IP141DT",
       "IP141AH",
+      "IP141DT",
       "IP141DY",
       "IP141EB",
       "IP141EF",
@@ -72,8 +72,8 @@
       "IP141PW"
     ],
     "PostCodesPlanned": [
-      "IP141DT",
       "IP141AH",
+      "IP141DT",
       "IP141DY",
       "IP141EB",
       "IP141EF",
@@ -84,9 +84,9 @@
       "IP141PJ",
       "IP141PW"
     ],
-    "CustomersOnSupply": 21,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 22,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -421,8 +421,8 @@
     }
   ],
   "FullPostcodeData": [
-    "IP141DT",
     "IP141AH",
+    "IP141DT",
     "IP141DY",
     "IP141EB",
     "IP141EF",
