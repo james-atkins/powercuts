@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-40755-C",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40755-C",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40755-C",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-16T14:15:54.733",
+      "Message": "Update at 14:15 - We can now confirm that all power in the Undercliff Gardens area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-16T12:14:00",
@@ -15,46 +21,54 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-01-16T12:54:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-01-16T13:51:02.883",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "C00009f33INCD",
     "IncidentReference": "INCD-40755-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-01-16T12:27:14",
-    "RestoredDateTime": "2021-01-16T13:51:02.883",
-    "EstimatedRestorationDate": "2021-01-16T15:00:00",
+    "RestoredDateTime": null,
+    "EstimatedRestorationDate": "2021-01-16T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-16T12:14:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 6,
+    "NoCallsReported": 8,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
       "Id": null,
       "Name": "JASON",
-      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
+      "EstimatedTimeOfArrival": "2021-01-16T15:15:00",
       "DispatchedDate": "2021-01-16T12:46:09",
       "ArrivalDate": "2021-01-16T12:54:37",
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-16T14:14:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 14:15 - We can now confirm that all power in the Undercliff Gardens area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-01-16T14:15:54.733"
+      }
+    ],
     "PostCodesAffected": [
       "SS0 8",
       "SS9 1"
@@ -79,8 +93,8 @@
     ],
     "CustomersOnSupply": 119,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "IncidentTypeName": "Unplanned",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -899,7 +913,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "14:30 - 15:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "17:00 - 18:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
