@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-212520-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-212520-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-212520-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-01-16T15:55:36.837",
+      "Message": "Update at 15:55 - We can now confirm that all power in the Aubrey Road area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-01-16T13:24:08",
+      "Date": "2021-01-16T13:24:00",
       "Message": "<p>We became aware of a power cut at 13:24. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-16T15:04:12",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-16T15:54:14.687",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033e28INCD",
     "IncidentReference": "INCD-212520-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-16T13:27:02",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-16T15:54:14.687",
     "EstimatedRestorationDate": "2021-01-16T17:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-16T13:24:08",
+    "ReceivedDate": "2021-01-16T13:24:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
@@ -51,10 +57,18 @@
       "EstimatedTimeOfArrival": "2021-01-16T15:15:00",
       "DispatchedDate": "2021-01-16T14:41:24",
       "ArrivalDate": "2021-01-16T15:04:12",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-16T15:55:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 15:55 - We can now confirm that all power in the Aubrey Road area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-01-16T15:55:36.837"
+      }
+    ],
     "PostCodesAffected": [
       "N8 9"
     ],
@@ -72,9 +86,9 @@
       "N89TE",
       "N89TL"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 107,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 107,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
