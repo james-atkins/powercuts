@@ -1,45 +1,45 @@
 {
   "IncidentReference": "INCD-212680-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-212680-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-212680-Z",
   "Steps": [
     {
-      "Active": true,
-      "Date": "2021-01-17T10:05:57",
+      "Active": false,
+      "Date": "2021-01-17T10:05:00",
       "Message": "<p>We became aware of a power cut at 10:05. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-01-17T12:08:11",
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-01-17T12:08:18",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-17T12:07:18.48",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033ec8INCD",
     "IncidentReference": "INCD-212680-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-17T11:38:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-17T12:07:18.48",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-17T10:05:57",
+    "ReceivedDate": "2021-01-17T10:05:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 10,
@@ -47,11 +47,11 @@
     "Longitude": 0.0,
     "Resource": {
       "Id": null,
-      "Name": null,
+      "Name": "ADRIAN (R5)",
       "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
-      "DispatchedDate": null,
-      "ArrivalDate": null,
-      "StatusId": 0
+      "DispatchedDate": "2021-01-17T12:08:11",
+      "ArrivalDate": "2021-01-17T12:08:18",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -60,15 +60,17 @@
     ],
     "PostCodesRestored": [
       "SG54BH",
+      "SG54BJ",
       "SG54BQ"
     ],
     "PostCodesPlanned": [
       "SG54BH",
+      "SG54BJ",
       "SG54BQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 12,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 19,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -336,6 +338,7 @@
   ],
   "FullPostcodeData": [
     "SG54BH",
+    "SG54BJ",
     "SG54BQ"
   ],
   "PinLatitude": null,
