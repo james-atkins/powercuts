@@ -1,9 +1,15 @@
 {
   "IncidentReference": "INCD-212681-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-212681-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-212681-Z",
   "Steps": [
     {
       "Active": true,
+      "Date": "2021-01-17T13:01:18.857",
+      "Message": "Update at 13:01 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Perth Road area for safety so they can complete emergency repairs to a fault on our underground cabling. Our estimated time to have your power back on is between 13:30 and 14:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Name": null
+    },
+    {
+      "Active": false,
       "Date": "2021-01-17T11:42:00",
       "Message": "<p>We became aware of a power cut at 11:42. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -11,38 +17,38 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-17T13:24:34.853",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033ec9INCD",
     "IncidentReference": "INCD-212681-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-17T11:50:42",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-17T13:24:34.853",
     "EstimatedRestorationDate": "2021-01-17T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-17T11:42:00",
-    "NoCustomerAffected": 37,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 4,
+    "NoCallsReported": 0,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 0
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-17T13:01:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 13:01 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Perth Road area for safety so they can complete emergency repairs to a fault on our underground cabling. Our estimated time to have your power back on is between 13:30 and 14:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
+        "LoggedTime": "2021-01-17T13:01:18.857"
+      }
+    ],
     "PostCodesAffected": [
       "N22 5"
     ],
@@ -68,10 +82,10 @@
       "N225QS",
       "N225QX"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 37,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 37,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
