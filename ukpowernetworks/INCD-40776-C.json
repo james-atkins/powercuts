@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-40776-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40776-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40776-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-16T16:31:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-17T02:33:00.637",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009f48INCD",
     "IncidentReference": "INCD-40776-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-16T15:17:25",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-17T02:33:00.637",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-16T15:10:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "N11 3"
     ],
     "PostCodesRestored": [
-      "N113PD",
       "N113AQ",
       "N113BP",
       "N113BQ",
@@ -87,11 +86,11 @@
       "N113NS",
       "N113NT",
       "N113PB",
+      "N113PD",
       "N113PE",
       "N113PQ"
     ],
     "PostCodesPlanned": [
-      "N113PD",
       "N113AQ",
       "N113BP",
       "N113BQ",
@@ -119,13 +118,14 @@
       "N113NS",
       "N113NT",
       "N113PB",
+      "N113PD",
       "N113PE",
       "N113PQ"
     ],
-    "CustomersOnSupply": 375,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 377,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -523,7 +523,6 @@
     }
   ],
   "FullPostcodeData": [
-    "N113PD",
     "N113AQ",
     "N113BP",
     "N113BQ",
@@ -551,6 +550,7 @@
     "N113NS",
     "N113NT",
     "N113PB",
+    "N113PD",
     "N113PE",
     "N113PQ"
   ],
