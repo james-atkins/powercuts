@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-212629-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-212629-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-212629-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-17T09:05:56.897",
+      "Message": "Update at 09:05 - Our engineers have now restored power in the CM4 0 area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-17T05:23:00",
@@ -9,38 +15,38 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-17T07:13:45",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-01-17T09:02:35",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-17T09:02:38.913",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033e95INCD",
     "IncidentReference": "INCD-212629-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-17T05:24:43",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-17T09:02:38.913",
     "EstimatedRestorationDate": "2021-01-17T10:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-17T05:23:00",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -50,11 +56,19 @@
       "Name": "DEREK (R5)",
       "EstimatedTimeOfArrival": "2021-01-17T08:15:00",
       "DispatchedDate": "2021-01-17T07:13:45",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-01-17T09:02:35",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-17T09:05:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 09:05 - Our engineers have now restored power in the CM4 0 area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-01-17T09:05:56.897"
+      }
+    ],
     "PostCodesAffected": [
       "CM4 0"
     ],
@@ -62,21 +76,21 @@
       "CM40DB",
       "CM40DD",
       "CM40DE",
-      "CM40DL",
       "CM40DH",
+      "CM40DL",
       "CM40DQ"
     ],
     "PostCodesPlanned": [
       "CM40DB",
       "CM40DD",
       "CM40DE",
-      "CM40DL",
       "CM40DH",
+      "CM40DL",
       "CM40DQ"
     ],
-    "CustomersOnSupply": 31,
-    "CustomersOffSupply": 32,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 63,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -894,8 +908,8 @@
     "CM40DB",
     "CM40DD",
     "CM40DE",
-    "CM40DL",
     "CM40DH",
+    "CM40DL",
     "CM40DQ"
   ],
   "PinLatitude": null,
