@@ -1,48 +1,54 @@
 {
   "IncidentReference": "INCD-212628-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-212628-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-212628-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-01-17T08:13:21.7",
+      "Message": "Update at 08:12 - Our engineers have arrived on site in the Bramford Lane area, the estimated time hasn't changed. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government guidelines about social distancing when interacting with our staff. If you would like more information about what we think the fault is; here's a short YouTube video <a href=\"https://bit.ly/2y8Dtfz.\" target=\"_blank\">https://bit.ly/2y8Dtfz.</a>",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-01-17T05:17:43",
+      "Date": "2021-01-17T05:17:00",
       "Message": "<p>We became aware of a power cut at 05:17. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-17T07:07:10",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-01-17T07:57:30",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-17T08:48:37.263",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033e94INCD",
     "IncidentReference": "INCD-212628-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-17T05:19:20",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-01-17T08:48:37.263",
+    "EstimatedRestorationDate": "2021-01-17T10:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-17T05:17:43",
+    "ReceivedDate": "2021-01-17T05:17:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 2,
+    "NoCallsReported": 3,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -50,11 +56,19 @@
       "Name": "MARK (R5)",
       "EstimatedTimeOfArrival": "2021-01-17T08:15:00",
       "DispatchedDate": "2021-01-17T07:07:10",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-01-17T07:57:30",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-17T08:12:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 08:12 - Our engineers have arrived on site in the Bramford Lane area, the estimated time hasn't changed. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government guidelines about social distancing when interacting with our staff. If you would like more information about what we think the fault is; here's a short YouTube video https://bit.ly/2y8Dtfz.",
+        "LoggedTime": "2021-01-17T08:13:21.7"
+      }
+    ],
     "PostCodesAffected": [
       "IP1 2",
       "IP1 4"
@@ -85,9 +99,9 @@
       "IP14EA",
       "IP14EB"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 110,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 110,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -999,7 +1013,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "10:00 - 11:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
