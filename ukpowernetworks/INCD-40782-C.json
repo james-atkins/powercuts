@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-40782-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40782-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40782-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-16T17:07:22",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-17T11:35:33.907",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009f4eINCD",
     "IncidentReference": "INCD-40782-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-16T16:17:40",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-17T11:35:33.907",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-16T16:17:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,7 +60,6 @@
       "HA3 8"
     ],
     "PostCodesRestored": [
-      "HA30NG",
       "HA30DS",
       "HA30HL",
       "HA30HN",
@@ -68,10 +67,10 @@
       "HA30JF",
       "HA30JH",
       "HA30NB",
+      "HA30NG",
       "HA38DQ"
     ],
     "PostCodesPlanned": [
-      "HA30NG",
       "HA30DS",
       "HA30HL",
       "HA30HN",
@@ -79,11 +78,12 @@
       "HA30JF",
       "HA30JH",
       "HA30NB",
+      "HA30NG",
       "HA38DQ"
     ],
-    "CustomersOnSupply": 56,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 57,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1420,7 +1420,6 @@
     }
   ],
   "FullPostcodeData": [
-    "HA30NG",
     "HA30DS",
     "HA30HL",
     "HA30HN",
@@ -1428,6 +1427,7 @@
     "HA30JF",
     "HA30JH",
     "HA30NB",
+    "HA30NG",
     "HA38DQ"
   ],
   "PinLatitude": null,

@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-40795-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40795-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40795-C",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-17T09:42:50.597",
-      "Message": "Update at 09:42 - This is Bev from the messaging team again. Our engineers have just called in to advise us that they have turned off more power to allow them to safely repair the underground cable fault. Unfortunately, it's going to take us past our current timeframe to complete this safely, so we're now working towards between 11:30 and 12:30 to have power back on. We can appreciate how frustrating and disruptive being without power can be, and our staff are working as fast as they can. If you have any questions or concerns, call our team anytime on 08003163105. I'll let you know further news as it comes in from site.",
+      "Date": "2021-01-17T11:46:38.137",
+      "Message": "Update at 11:46 - We can now confirm that all power in the Crescent Way area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-16T23:56:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-17T11:34:40.53",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009f5bINCD",
     "IncidentReference": "INCD-40795-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-16T20:30:33",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-17T11:34:40.53",
     "EstimatedRestorationDate": "2021-01-17T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-16T20:29:00",
-    "NoCustomerAffected": 39,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 24,
+    "NoCallsReported": 25,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,17 +62,18 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-17T09:42:00",
+        "ActualEventTime": "2021-01-17T11:46:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 09:42 - This is Bev from the messaging team again. Our engineers have just called in to advise us that they have turned off more power to allow them to safely repair the underground cable fault. Unfortunately, it's going to take us past our current timeframe to complete this safely, so we're now working towards between 11:30 and 12:30 to have power back on. We can appreciate how frustrating and disruptive being without power can be, and our staff are working as fast as they can. If you have any questions or concerns, call our team anytime on 08003163105. I'll let you know further news as it comes in from site.",
-        "LoggedTime": "2021-01-17T09:42:50.597"
+        "Comment": "Update at 11:46 - We can now confirm that all power in the Crescent Way area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-01-17T11:46:38.137"
       }
     ],
     "PostCodesAffected": [
       "N12 0"
     ],
     "PostCodesRestored": [
+      "N120PA",
       "N120QN",
       "N120QP",
       "N120QS",
@@ -81,10 +82,10 @@
       "N120QX",
       "N120QY",
       "N120RA",
-      "N120RY",
-      "N120PA"
+      "N120RY"
     ],
     "PostCodesPlanned": [
+      "N120PA",
       "N120QN",
       "N120QP",
       "N120QS",
@@ -93,12 +94,11 @@
       "N120QX",
       "N120QY",
       "N120RA",
-      "N120RY",
-      "N120PA"
+      "N120RY"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 39,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 40,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -653,6 +653,7 @@
     }
   ],
   "FullPostcodeData": [
+    "N120PA",
     "N120QN",
     "N120QP",
     "N120QS",
@@ -661,8 +662,7 @@
     "N120QX",
     "N120QY",
     "N120RA",
-    "N120RY",
-    "N120PA"
+    "N120RY"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
