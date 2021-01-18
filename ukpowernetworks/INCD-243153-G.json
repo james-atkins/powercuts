@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-243153-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243153-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243153-G",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-18T08:10:29.887",
+      "Message": "Update at 08:10 - We believe our engineers have been able to restore power to all 276 customers in the Nursery Road area, by diverting power around the underground cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-18T06:15:57",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-18T07:24:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-18T08:06:15.58",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b5d1INCD",
     "IncidentReference": "INCD-243153-G",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 20,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-18T06:16:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-18T08:06:15.58",
     "EstimatedRestorationDate": "2021-01-18T10:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-18T06:15:57",
-    "NoCustomerAffected": 276,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 29,
+    "NoCallsReported": 30,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-18T08:08:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 08:10 - We believe our engineers have been able to restore power to all 276 customers in the Nursery Road area, by diverting power around the underground cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-01-18T08:10:29.887"
+      }
+    ],
     "PostCodesAffected": [
       "CR7 8",
       "SE25 6"
@@ -87,9 +101,9 @@
       "SE256NZ",
       "SE256RD"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 276,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 276,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
