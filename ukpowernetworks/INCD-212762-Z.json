@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-212762-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-212762-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-212762-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-18T01:04:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-18T13:43:03.903",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00033f1aINCD",
     "IncidentReference": "INCD-212762-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-17T20:40:00",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-18T13:43:03.903",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-17T20:34:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "N14 6"
     ],
     "PostCodesRestored": [
-      "N146RG",
       "N146RB",
       "N146RD",
+      "N146RG",
       "N146RS"
     ],
     "PostCodesPlanned": [
-      "N146RG",
       "N146RB",
       "N146RD",
+      "N146RG",
       "N146RS"
     ],
-    "CustomersOnSupply": 29,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 30,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -535,9 +535,9 @@
     }
   ],
   "FullPostcodeData": [
-    "N146RG",
     "N146RB",
     "N146RD",
+    "N146RG",
     "N146RS"
   ],
   "PinLatitude": null,

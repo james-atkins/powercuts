@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-40771-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40771-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40771-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-16T19:17:23",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-18T14:18:06.43",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009f43INCD",
     "IncidentReference": "INCD-40771-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 29,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-16T14:38:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-18T14:18:06.43",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-16T14:08:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -60,7 +60,6 @@
       "SS6 8"
     ],
     "PostCodesRestored": [
-      "SS67NY",
       "SS67JP",
       "SS67JR",
       "SS67JS",
@@ -69,11 +68,11 @@
       "SS67LD",
       "SS67LE",
       "SS67LZ",
+      "SS67NY",
       "SS67QP",
       "SS68QE"
     ],
     "PostCodesPlanned": [
-      "SS67NY",
       "SS67JP",
       "SS67JR",
       "SS67JS",
@@ -82,12 +81,13 @@
       "SS67LD",
       "SS67LE",
       "SS67LZ",
+      "SS67NY",
       "SS67QP",
       "SS68QE"
     ],
-    "CustomersOnSupply": 177,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 178,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1172,7 +1172,6 @@
     }
   ],
   "FullPostcodeData": [
-    "SS67NY",
     "SS67JP",
     "SS67JR",
     "SS67JS",
@@ -1181,6 +1180,7 @@
     "SS67LD",
     "SS67LE",
     "SS67LZ",
+    "SS67NY",
     "SS67QP",
     "SS68QE"
   ],
