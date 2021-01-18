@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-47962-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-47962-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-47962-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-18T08:57:20.987",
-      "Message": "Update at 08:56 -  There's a lot of work still required on site, so we have decided to use a temporary generator to provide power to you shortly while we complete repairs. Can you please keep your power usage to a minimum until we complete a permanent repair later today. We will continue to keep you updated with any further news from site.",
+      "Date": "2021-01-18T09:58:11.867",
+      "Message": "Update at 09:57 - Our engineers are in the process of connecting the generator. With a fault of this nature, you may find that your power is affected but other neighbouring properties are still on supply. This is because there are three separate power cables that supply your street and not all of these cables are affected by today's issue.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-17T23:17:42",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-18T10:31:08.84",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000bb5aINCD",
     "IncidentReference": "INCD-47962-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 28,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-17T22:39:15",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-18T10:31:08.84",
     "EstimatedRestorationDate": "2021-01-18T10:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-17T22:36:00",
-    "NoCustomerAffected": 9,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 15,
     "Latitude": 0.0,
@@ -62,32 +62,32 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-18T08:54:00",
+        "ActualEventTime": "2021-01-18T09:57:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 08:56 -  There's a lot of work still required on site, so we have decided to use a temporary generator to provide power to you shortly while we complete repairs. Can you please keep your power usage to a minimum until we complete a permanent repair later today. We will continue to keep you updated with any further news from site.",
-        "LoggedTime": "2021-01-18T08:57:20.987"
+        "Comment": "Update at 09:57 - Our engineers are in the process of connecting the generator. With a fault of this nature, you may find that your power is affected but other neighbouring properties are still on supply. This is because there are three separate power cables that supply your street and not all of these cables are affected by today's issue.",
+        "LoggedTime": "2021-01-18T09:58:11.867"
       }
     ],
     "PostCodesAffected": [
       "SE19 3"
     ],
     "PostCodesRestored": [
-      "SE193NP",
-      "SE193NW",
       "SE193NL",
-      "SE193NN"
+      "SE193NN",
+      "SE193NP",
+      "SE193NW"
     ],
     "PostCodesPlanned": [
-      "SE193NP",
-      "SE193NW",
       "SE193NL",
-      "SE193NN"
+      "SE193NN",
+      "SE193NP",
+      "SE193NW"
     ],
-    "CustomersOnSupply": 59,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 68,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -789,10 +789,10 @@
     }
   ],
   "FullPostcodeData": [
-    "SE193NP",
-    "SE193NW",
     "SE193NL",
-    "SE193NN"
+    "SE193NN",
+    "SE193NP",
+    "SE193NW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
