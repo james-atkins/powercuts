@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-243193-G",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243193-G",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243193-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-01-18T21:08:50",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-01-18T22:42:15.443",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "G0003b5f9INCD",
     "IncidentReference": "INCD-243193-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-01-18T20:40:17",
-    "RestoredDateTime": "2021-01-18T22:42:15.443",
-    "EstimatedRestorationDate": "2021-01-19T00:00:00",
+    "RestoredDateTime": null,
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-18T20:37:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 8,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -48,7 +48,7 @@
     "Resource": {
       "Id": null,
       "Name": "MICHAEL",
-      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
+      "EstimatedTimeOfArrival": "2021-01-19T03:45:00",
       "DispatchedDate": "2021-01-18T20:54:38",
       "ArrivalDate": "2021-01-18T21:08:50",
       "StatusId": 6
@@ -66,10 +66,10 @@
       "CT13RH",
       "CT13RW"
     ],
-    "CustomersOnSupply": 12,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 4,
+    "CustomersOffSupply": 8,
+    "IncidentTypeName": "Unplanned",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -557,7 +557,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "23:30 - 00:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
