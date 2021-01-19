@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-243217-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243217-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243217-G",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-01-19T10:01:07",
-      "Message": "<p>We became aware of a power cut at 10:01. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-01-19T17:00:00",
+      "Message": "<p>We became aware of a power cut at 17:00. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-19T10:37:04",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-19T19:44:34.103",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b611INCD",
     "IncidentReference": "INCD-243217-G",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-19T10:01:40",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-19T19:44:34.103",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-19T10:01:07",
+    "ReceivedDate": "2021-01-19T17:00:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
@@ -59,20 +59,20 @@
       "CT5 4"
     ],
     "PostCodesRestored": [
-      "CT54TU",
       "CT54TR",
       "CT54TS",
-      "CT54TT"
+      "CT54TT",
+      "CT54TU"
     ],
     "PostCodesPlanned": [
-      "CT54TU",
       "CT54TR",
       "CT54TS",
-      "CT54TT"
+      "CT54TT",
+      "CT54TU"
     ],
-    "CustomersOnSupply": 68,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 71,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -575,10 +575,10 @@
     }
   ],
   "FullPostcodeData": [
-    "CT54TU",
     "CT54TR",
     "CT54TS",
-    "CT54TT"
+    "CT54TT",
+    "CT54TU"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
