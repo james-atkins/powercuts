@@ -1,45 +1,51 @@
 {
   "IncidentReference": "INCD-243262-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243262-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243262-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-19T17:28:44",
+      "Date": "2021-01-19T18:17:45.46",
+      "Message": "Update at 18:17 -Our engineers arrived on site and can now confirm that all power in the Legge Lane area should be back on. After investigation, our engineers have now restarted a temporary generator which had unexpectedly stopped. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
+    {
+      "Active": false,
+      "Date": "2021-01-19T17:28:00",
       "Message": "<p>We became aware of a power cut at 17:28. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-01-19T18:16:00",
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-01-19T18:16:08",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-19T18:23:11.747",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b63eINCD",
     "IncidentReference": "INCD-243262-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-19T17:31:52",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-19T18:23:11.747",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-19T17:28:44",
+    "ReceivedDate": "2021-01-19T17:28:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
@@ -47,14 +53,22 @@
     "Longitude": 0.0,
     "Resource": {
       "Id": null,
-      "Name": null,
+      "Name": "GEORGE",
       "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
-      "DispatchedDate": null,
-      "ArrivalDate": null,
-      "StatusId": 0
+      "DispatchedDate": "2021-01-19T18:16:00",
+      "ArrivalDate": "2021-01-19T18:16:08",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-19T18:16:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 18:17 -Our engineers arrived on site and can now confirm that all power in the Legge Lane area should be back on. After investigation, our engineers have now restarted a temporary generator which had unexpectedly stopped. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-01-19T18:17:45.46"
+      }
+    ],
     "PostCodesAffected": [
       "ME19 5"
     ],
@@ -66,9 +80,9 @@
       "ME195JH",
       "ME195JQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 17,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 17,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
