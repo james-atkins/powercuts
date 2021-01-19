@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-210936-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-210936-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-210936-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-13T08:49:01.663",
+      "Message": "Update at 08:48 - We have been made aware that not all power has been restored to the area. Our engineers have now made us aware that the power is still off due to a fault on an underground cable which is causing safety equipment to operate. Although we know what's causing your power cut, we still need to locate the fault. To do this we're sending a specialist team, once they are on their way we'll be able to advise a new estimated timeframe for the repair. For more information about this type of fault; here's a short video <a href=\"https://bit.ly/2ScxQDZ.\" target=\"_blank\">https://bit.ly/2ScxQDZ.</a>",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-10T18:03:00",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-10T20:17:17",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-19T10:34:05.247",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000337f8INCD",
     "IncidentReference": "INCD-210936-Z",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-10T18:06:52",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-01-13T11:30:00",
+    "RestoredDateTime": "2021-01-19T10:34:05.247",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-10T18:03:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 4,
+    "NoCallsReported": 0,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-13T08:47:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 08:48 - We have been made aware that not all power has been restored to the area. Our engineers have now made us aware that the power is still off due to a fault on an underground cable which is causing safety equipment to operate. Although we know what's causing your power cut, we still need to locate the fault. To do this we're sending a specialist team, once they are on their way we'll be able to advise a new estimated timeframe for the repair. For more information about this type of fault; here's a short video https://bit.ly/2ScxQDZ.",
+        "LoggedTime": "2021-01-13T08:49:01.663"
+      }
+    ],
     "PostCodesAffected": [
       "HP2 6"
     ],
@@ -66,10 +80,10 @@
       "HP26AH",
       "HP26AJ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 45,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 45,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -480,8 +494,8 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "11:00 - 12:00",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
