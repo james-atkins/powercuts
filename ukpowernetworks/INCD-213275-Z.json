@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-213275-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-213275-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-213275-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-19T18:54:18.283",
-      "Message": "This is UK Power Networks. Due to a safety issue on our electricity network, we may need to switch off some power in your local area. We do normally contact our customers in advance, but as this is for emergency work and in the interest of public safety, we're unable to provide you with much notice. It is a possibility that your power will not be affected by this, if you would like more information call us on 08003163105.",
+      "Date": "2021-01-19T20:18:17.267",
+      "Message": "Update at 20:18 - We're pleased to report that all power in the Western Road area should now be restored. Our engineers have now safely connected temporary generator, and this will be providing your power while our engineers work to fully repair the faulty electrical equipment. Depending on what the issue is, it may take a few days for our engineers to plan in the work and make their repairs, but once this is completed safely the generator can be removed, and network power will be resumed. If you'd like any further information, or if your power is not restored, please call us any time on 08003163105.",
       "Name": null
     },
     {
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-19T17:46:39",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-19T20:16:18.003",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003411bINCD",
     "IncidentReference": "INCD-213275-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-19T17:37:55",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-19T20:16:18.003",
     "EstimatedRestorationDate": "2021-01-19T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-19T16:25:00",
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-19T18:54:00",
+        "ActualEventTime": "2021-01-19T20:18:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "This is UK Power Networks. Due to a safety issue on our electricity network, we may need to switch off some power in your local area. We do normally contact our customers in advance, but as this is for emergency work and in the interest of public safety, we're unable to provide you with much notice. It is a possibility that your power will not be affected by this, if you would like more information call us on 08003163105.",
-        "LoggedTime": "2021-01-19T18:54:18.283"
+        "Comment": "Update at 20:18 - We're pleased to report that all power in the Western Road area should now be restored. Our engineers have now safely connected temporary generator, and this will be providing your power while our engineers work to fully repair the faulty electrical equipment. Depending on what the issue is, it may take a few days for our engineers to plan in the work and make their repairs, but once this is completed safely the generator can be removed, and network power will be resumed. If you'd like any further information, or if your power is not restored, please call us any time on 08003163105.",
+        "LoggedTime": "2021-01-19T20:18:17.267"
       }
     ],
     "PostCodesAffected": [
@@ -90,7 +90,7 @@
     ],
     "CustomersOnSupply": 65,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
