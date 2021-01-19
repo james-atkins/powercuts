@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-213032-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-213032-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-213032-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-01-18T23:17:51",
+      "Date": "2021-01-18T23:17:00",
       "Message": "<p>We became aware of a power cut at 23:17. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-19T00:56:44",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-19T03:03:54.923",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034028INCD",
     "IncidentReference": "INCD-213032-Z",
-    "IncidentCategory": "124",
+    "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-18T23:21:28",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-01-19T03:00:00",
+    "RestoredDateTime": "2021-01-19T03:03:54.923",
+    "EstimatedRestorationDate": "2021-01-19T04:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-18T23:17:51",
+    "ReceivedDate": "2021-01-18T23:17:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -51,7 +51,7 @@
       "EstimatedTimeOfArrival": "2021-01-19T01:00:00",
       "DispatchedDate": "2021-01-18T23:59:24",
       "ArrivalDate": "2021-01-19T00:56:44",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -67,10 +67,10 @@
       "PE134RZ",
       "PE135JN"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 9,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1175,8 +1175,8 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "02:30 - 03:30",
+  "IncidentCategoryCustomerFriendlyDescription": "We were investigating an overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "04:00 - 05:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
