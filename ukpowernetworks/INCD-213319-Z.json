@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-213319-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-213319-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-213319-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-20T11:43:12.373",
-      "Message": "Update at 11:42 - We've turned off more power to allow engineers to safely repair the faulty underground cable. The estimated time hasn't changed. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Date": "2021-01-20T13:11:15.163",
+      "Message": "Update at 13:11 - We're sorry your power has now been off for several hours and we're working as quickly as possible to get you back on. We know you may be concerned about your phone battery running low, so here are some tips on how you can prolong battery life: Set your phone to power saving mode, reduce screen brightness, turn off WiFi, Bluetooth and GPS (if not in use), cut apps running in the background and if possible top up using a car charger or portable battery pack.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-20T08:06:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-20T13:20:58.043",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034147INCD",
     "IncidentReference": "INCD-213319-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-20T07:04:42",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-20T13:20:58.043",
     "EstimatedRestorationDate": "2021-01-20T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-20T07:02:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-20T11:43:00",
+        "ActualEventTime": "2021-01-20T13:10:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 11:42 - We've turned off more power to allow engineers to safely repair the faulty underground cable. The estimated time hasn't changed. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
-        "LoggedTime": "2021-01-20T11:43:12.373"
+        "Comment": "Update at 13:11 - We're sorry your power has now been off for several hours and we're working as quickly as possible to get you back on. We know you may be concerned about your phone battery running low, so here are some tips on how you can prolong battery life: Set your phone to power saving mode, reduce screen brightness, turn off WiFi, Bluetooth and GPS (if not in use), cut apps running in the background and if possible top up using a car charger or portable battery pack.",
+        "LoggedTime": "2021-01-20T13:11:15.163"
       }
     ],
     "PostCodesAffected": [
@@ -74,19 +74,19 @@
     ],
     "PostCodesRestored": [
       "NR94QP",
-      "NR94QS",
       "NR94QR",
+      "NR94QS",
       "NR94QW"
     ],
     "PostCodesPlanned": [
       "NR94QP",
-      "NR94QS",
       "NR94QR",
+      "NR94QS",
       "NR94QW"
     ],
-    "CustomersOnSupply": 46,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 53,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -606,8 +606,8 @@
   ],
   "FullPostcodeData": [
     "NR94QP",
-    "NR94QS",
     "NR94QR",
+    "NR94QS",
     "NR94QW"
   ],
   "PinLatitude": null,
