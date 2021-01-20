@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-243260-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243260-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243260-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-19T18:09:19",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-20T01:55:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b63cINCD",
     "IncidentReference": "INCD-243260-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-19T16:59:45",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-01-20T02:30:00",
+    "RestoredDateTime": "2021-01-20T01:55:00",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-19T16:55:00",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -59,22 +59,22 @@
       "TN11 9"
     ],
     "PostCodesRestored": [
-      "TN119PP",
-      "TN119PS",
       "TN119PB",
       "TN119PE",
-      "TN119PQ"
+      "TN119PP",
+      "TN119PQ",
+      "TN119PS"
     ],
     "PostCodesPlanned": [
-      "TN119PP",
-      "TN119PS",
       "TN119PB",
       "TN119PE",
-      "TN119PQ"
+      "TN119PP",
+      "TN119PQ",
+      "TN119PS"
     ],
-    "CustomersOnSupply": 10,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 24,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -741,16 +741,16 @@
     }
   ],
   "FullPostcodeData": [
-    "TN119PP",
-    "TN119PS",
     "TN119PB",
     "TN119PE",
-    "TN119PQ"
+    "TN119PP",
+    "TN119PQ",
+    "TN119PS"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "02:00 - 03:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
