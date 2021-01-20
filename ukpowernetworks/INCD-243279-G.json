@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-243279-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243279-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243279-G",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-01-19T22:09:15",
+      "Date": "2021-01-19T22:09:00",
       "Message": "<p>We became aware of a power cut at 22:09. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-19T22:34:25",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-20T05:41:33.5",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b64fINCD",
     "IncidentReference": "INCD-243279-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-19T22:10:00",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-20T05:41:33.5",
     "EstimatedRestorationDate": "2021-01-20T02:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-19T22:09:15",
+    "ReceivedDate": "2021-01-19T22:09:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -64,9 +64,9 @@
     "PostCodesPlanned": [
       "BR67HG"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 5,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
