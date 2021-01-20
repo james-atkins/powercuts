@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-213321-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-213321-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-213321-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-20T14:19:14.137",
+      "Message": "Update at 14:19 - We can now confirm that all power in the Sheepcote Road area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-20T07:52:00",
@@ -15,29 +21,29 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-20T13:02:46",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-20T14:50:48.963",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034149INCD",
     "IncidentReference": "INCD-213321-Z",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-20T07:53:19",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-01-20T12:00:00",
+    "RestoredDateTime": "2021-01-20T14:50:48.963",
+    "EstimatedRestorationDate": "2021-01-20T16:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-20T07:52:00",
     "NoCustomerAffected": 0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-20T14:19:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 14:19 - We can now confirm that all power in the Sheepcote Road area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-01-20T14:19:14.137"
+      }
+    ],
     "PostCodesAffected": [
       "HA1 2"
     ],
@@ -102,7 +116,7 @@
     ],
     "CustomersOnSupply": 209,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -515,8 +529,8 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "11:30 - 12:30",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "15:30 - 16:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
