@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-213540-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-213540-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-213540-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-21T10:47:23.157",
-      "Message": "Update at 10:46 - This is Kevin from the messaging team again. Our engineers have just called in to advise us a generator as been ordered to restore your power and we are awaiting hi arrival. Unfortunately, it's going to take us past our current timeframe to complete this safely, so we're now working towards between 12:30 and 13:30 to have power back on. We can appreciate how frustrating and disruptive being without power can be, and our staff are working as fast as they can. If you have any questions or concerns, call our team anytime on 08003163105. I'll let you know further news as it comes in from site.",
+      "Date": "2021-01-21T13:10:54.683",
+      "Message": "Update at 13:09 - We're pleased to report that all power in The Street area should now be restored. Our engineers have now safely connected temporary generator and this will be providing your power while our engineers work to fully repair the overhead network. Depending on what the issue is, it may take a few days for our engineers to plan in the work and make their repairs, but once this is completed safely the generator can be removed, and network power will be resumed. If you'd like any further information, or if your power is not restored, please call us any time on 08003163105.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-21T00:48:32",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-21T13:49:29.773",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034224INCD",
     "IncidentReference": "INCD-213540-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 28,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-20T23:44:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-21T13:49:29.773",
     "EstimatedRestorationDate": "2021-01-21T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-20T23:44:50",
-    "NoCustomerAffected": 8,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 4,
+    "NoCallsReported": 5,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-21T10:46:00",
+        "ActualEventTime": "2021-01-21T13:10:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:46 - This is Kevin from the messaging team again. Our engineers have just called in to advise us a generator as been ordered to restore your power and we are awaiting hi arrival. Unfortunately, it's going to take us past our current timeframe to complete this safely, so we're now working towards between 12:30 and 13:30 to have power back on. We can appreciate how frustrating and disruptive being without power can be, and our staff are working as fast as they can. If you have any questions or concerns, call our team anytime on 08003163105. I'll let you know further news as it comes in from site.",
-        "LoggedTime": "2021-01-21T10:47:23.157"
+        "Comment": "Update at 13:09 - We're pleased to report that all power in The Street area should now be restored. Our engineers have now safely connected temporary generator and this will be providing your power while our engineers work to fully repair the overhead network. Depending on what the issue is, it may take a few days for our engineers to plan in the work and make their repairs, but once this is completed safely the generator can be removed, and network power will be resumed. If you'd like any further information, or if your power is not restored, please call us any time on 08003163105.",
+        "LoggedTime": "2021-01-21T13:10:54.683"
       }
     ],
     "PostCodesAffected": [
@@ -77,7 +77,6 @@
       "NR35 1"
     ],
     "PostCodesRestored": [
-      "IP190JH",
       "IP190AA",
       "IP190AB",
       "IP190AD",
@@ -98,6 +97,7 @@
       "IP190JE",
       "IP190JF",
       "IP190JG",
+      "IP190JH",
       "IP190JJ",
       "IP190JN",
       "IP190JP",
@@ -172,7 +172,6 @@
       "NR351NF"
     ],
     "PostCodesPlanned": [
-      "IP190JH",
       "IP190AA",
       "IP190AB",
       "IP190AD",
@@ -193,6 +192,7 @@
       "IP190JE",
       "IP190JF",
       "IP190JG",
+      "IP190JH",
       "IP190JJ",
       "IP190JN",
       "IP190JP",
@@ -266,10 +266,10 @@
       "NR351NE",
       "NR351NF"
     ],
-    "CustomersOnSupply": 534,
-    "CustomersOffSupply": 8,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 542,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1998,7 +1998,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IP190JH",
     "IP190AA",
     "IP190AB",
     "IP190AD",
@@ -2019,6 +2018,7 @@
     "IP190JE",
     "IP190JF",
     "IP190JG",
+    "IP190JH",
     "IP190JJ",
     "IP190JN",
     "IP190JP",

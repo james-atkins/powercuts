@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-243402-G",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243402-G",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243402-G",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-21T14:46:38.02",
+      "Message": "Update at 14:47 - We can now confirm that all power in the Garden Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-21T08:14:00",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
-      "Date": null,
+      "Active": true,
+      "Date": "2021-01-21T12:49:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-01-21T09:09:12.557",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "G0003b6caINCD",
     "IncidentReference": "INCD-243402-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-01-21T08:18:04",
-    "RestoredDateTime": "2021-01-21T09:09:12.557",
-    "EstimatedRestorationDate": "2021-01-21T11:30:00",
+    "RestoredDateTime": null,
+    "EstimatedRestorationDate": "2021-01-21T17:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-21T08:14:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 21,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 5,
+    "NoCallsReported": 16,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -50,25 +56,36 @@
       "Name": "MARC (R5)",
       "EstimatedTimeOfArrival": "2021-01-21T08:45:00",
       "DispatchedDate": "2021-01-21T08:27:49",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-01-21T12:49:26",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-21T14:45:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 14:47 - We can now confirm that all power in the Garden Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-21T14:46:38.02"
+      }
+    ],
     "PostCodesAffected": [
       "TN1 2"
     ],
     "PostCodesRestored": [
-      "TN12NG",
       "TN12NJ",
+      "TN12QD",
+      "TN12QP",
+      "TN12XJ",
+      "TN12XL",
+      "TN12XW",
+      "TN12NG",
       "TN12PW",
       "TN12QB",
-      "TN12QD",
       "TN12QE",
       "TN12QH",
       "TN12QJ",
       "TN12QL",
-      "TN12QP",
       "TN12QR",
       "TN12QS",
       "TN12QX",
@@ -78,22 +95,22 @@
       "TN12SD",
       "TN12SF",
       "TN12XH",
-      "TN12XJ",
-      "TN12XL",
-      "TN12XP",
-      "TN12XW"
+      "TN12XP"
     ],
     "PostCodesPlanned": [
-      "TN12NG",
       "TN12NJ",
+      "TN12QD",
+      "TN12QP",
+      "TN12XJ",
+      "TN12XL",
+      "TN12XW",
+      "TN12NG",
       "TN12PW",
       "TN12QB",
-      "TN12QD",
       "TN12QE",
       "TN12QH",
       "TN12QJ",
       "TN12QL",
-      "TN12QP",
       "TN12QR",
       "TN12QS",
       "TN12QX",
@@ -103,15 +120,12 @@
       "TN12SD",
       "TN12SF",
       "TN12XH",
-      "TN12XJ",
-      "TN12XL",
-      "TN12XP",
-      "TN12XW"
+      "TN12XP"
     ],
-    "CustomersOnSupply": 250,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 207,
+    "CustomersOffSupply": 43,
+    "IncidentTypeName": "Unplanned",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -617,16 +631,19 @@
     }
   ],
   "FullPostcodeData": [
-    "TN12NG",
     "TN12NJ",
+    "TN12QD",
+    "TN12QP",
+    "TN12XJ",
+    "TN12XL",
+    "TN12XW",
+    "TN12NG",
     "TN12PW",
     "TN12QB",
-    "TN12QD",
     "TN12QE",
     "TN12QH",
     "TN12QJ",
     "TN12QL",
-    "TN12QP",
     "TN12QR",
     "TN12QS",
     "TN12QX",
@@ -636,15 +653,12 @@
     "TN12SD",
     "TN12SF",
     "TN12XH",
-    "TN12XJ",
-    "TN12XL",
-    "TN12XP",
-    "TN12XW"
+    "TN12XP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "11:00 - 12:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "16:30 - 17:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
