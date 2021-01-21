@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-213283-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-213283-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-213283-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-19T19:47:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-20T23:45:19.897",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034123INCD",
     "IncidentReference": "INCD-213283-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 501,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-19T18:45:47",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-01-20T22:00:00",
+    "RestoredDateTime": "2021-01-20T23:45:19.897",
+    "EstimatedRestorationDate": "2021-01-20T23:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-20T16:47:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
+    "NoCallsReported": 2,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -59,18 +59,18 @@
       "E4 8"
     ],
     "PostCodesRestored": [
-      "E48LZ",
       "E48LX",
-      "E48LY"
+      "E48LY",
+      "E48LZ"
     ],
     "PostCodesPlanned": [
-      "E48LZ",
       "E48LX",
-      "E48LY"
+      "E48LY",
+      "E48LZ"
     ],
-    "CustomersOnSupply": 66,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 70,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -641,14 +641,14 @@
     }
   ],
   "FullPostcodeData": [
-    "E48LZ",
     "E48LX",
-    "E48LY"
+    "E48LY",
+    "E48LZ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "21:30 - 22:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "23:00 - 00:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
