@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-213746-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-213746-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-213746-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-21T16:27:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-21T19:09:02.3460457+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000342f2INCD",
     "IncidentReference": "INCD-213746-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-21T15:59:40",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-21T19:09:02.3460457+00:00",
     "EstimatedRestorationDate": "2021-01-21T19:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-21T15:56:00",
-    "NoCustomerAffected": 18,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -75,11 +75,11 @@
     "PostCodesRestored": [
       "IP15JF",
       "IP15JG",
-      "IP15JP",
-      "IP15JR",
       "IP15JJ",
       "IP15JL",
       "IP15JN",
+      "IP15JP",
+      "IP15JR",
       "IP15JS",
       "IP15JT",
       "IP15JW"
@@ -87,18 +87,18 @@
     "PostCodesPlanned": [
       "IP15JF",
       "IP15JG",
-      "IP15JP",
-      "IP15JR",
       "IP15JJ",
       "IP15JL",
       "IP15JN",
+      "IP15JP",
+      "IP15JR",
       "IP15JS",
       "IP15JT",
       "IP15JW"
     ],
-    "CustomersOnSupply": 63,
-    "CustomersOffSupply": 28,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 91,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -507,11 +507,11 @@
   "FullPostcodeData": [
     "IP15JF",
     "IP15JG",
-    "IP15JP",
-    "IP15JR",
     "IP15JJ",
     "IP15JL",
     "IP15JN",
+    "IP15JP",
+    "IP15JR",
     "IP15JS",
     "IP15JT",
     "IP15JW"
