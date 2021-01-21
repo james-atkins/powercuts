@@ -1,9 +1,9 @@
 {
   "IncidentReference": "INCD-243486-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243486-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243486-G",
   "Steps": [
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-21T17:14:00",
       "Message": "<p>We became aware of this power cut at 17:14. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
       "Name": "We are restoring customers automatically"
@@ -11,38 +11,38 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-21T18:23:04.047",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b71eINCD",
     "IncidentReference": "INCD-243486-G",
     "IncidentCategory": "26",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 29,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-21T17:10:38",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-21T18:23:04.047",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-21T17:14:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 1,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -60,40 +60,40 @@
       "KT19 8"
     ],
     "PostCodesRestored": [
-      "CT157DG",
-      "CT157EE",
-      "CT157EL",
-      "CT157EN",
-      "CT157EW",
-      "KT198AA",
       "CT157BU",
       "CT157BX",
       "CT157DA",
       "CT157DE",
       "CT157DF",
+      "CT157DG",
       "CT157DS",
+      "CT157EE",
+      "CT157EL",
+      "CT157EN",
+      "CT157EW",
       "CT157QH",
-      "CT157QJ"
+      "CT157QJ",
+      "KT198AA"
     ],
     "PostCodesPlanned": [
-      "CT157DG",
-      "CT157EE",
-      "CT157EL",
-      "CT157EN",
-      "CT157EW",
-      "KT198AA",
       "CT157BU",
       "CT157BX",
       "CT157DA",
       "CT157DE",
       "CT157DF",
+      "CT157DG",
       "CT157DS",
+      "CT157EE",
+      "CT157EL",
+      "CT157EN",
+      "CT157EW",
       "CT157QH",
-      "CT157QJ"
+      "CT157QJ",
+      "KT198AA"
     ],
-    "CustomersOnSupply": 75,
-    "CustomersOffSupply": 20,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 95,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1178,20 +1178,20 @@
     }
   ],
   "FullPostcodeData": [
-    "CT157DG",
-    "CT157EE",
-    "CT157EL",
-    "CT157EN",
-    "CT157EW",
-    "KT198AA",
     "CT157BU",
     "CT157BX",
     "CT157DA",
     "CT157DE",
     "CT157DF",
+    "CT157DG",
     "CT157DS",
+    "CT157EE",
+    "CT157EL",
+    "CT157EN",
+    "CT157EW",
     "CT157QH",
-    "CT157QJ"
+    "CT157QJ",
+    "KT198AA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,

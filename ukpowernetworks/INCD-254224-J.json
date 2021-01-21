@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-254224-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-254224-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-254224-J",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-01-21T11:31:42.663",
+      "Message": "Update at 11:31 - It's Aaron from the text messaging team. Your power has been switched off for safety by the Fire Service following a serious flood in the area. It may not be safe to switch your power back on until the flood has been resolved. For this reason we will be unable to continue to provide SMS updates. Please Liaise with Thames Water and the Fire Service for further information. Once the Fire Service has advised the situation is safe, we can attend to investigate and reconnect your power. To arrange this please call us on 105, lines are open 24/7.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-01-21T10:07:24",
+      "Date": "2021-01-21T10:07:00",
       "Message": "<p>We became aware of a power cut at 10:07. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,46 +21,54 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-21T10:19:27",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-21T18:25:31.993",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003e110INCD",
     "IncidentReference": "INCD-254224-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-21T10:10:31",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-01-21T12:30:00",
+    "RestoredDateTime": "2021-01-21T18:25:31.993",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-21T10:07:24",
+    "ReceivedDate": "2021-01-21T10:07:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
       "Id": null,
       "Name": "ANTONIO (R5)",
-      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
+      "EstimatedTimeOfArrival": "2021-01-21T10:30:00",
       "DispatchedDate": "2021-01-21T10:19:17",
       "ArrivalDate": "2021-01-21T10:19:27",
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-21T11:22:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 11:31 - It's Aaron from the text messaging team. Your power has been switched off for safety by the Fire Service following a serious flood in the area. It may not be safe to switch your power back on until the flood has been resolved. For this reason we will be unable to continue to provide SMS updates. Please Liaise with Thames Water and the Fire Service for further information. Once the Fire Service has advised the situation is safe, we can attend to investigate and reconnect your power. To arrange this please call us on 105, lines are open 24/7.",
+        "LoggedTime": "2021-01-21T11:31:42.663"
+      }
+    ],
     "PostCodesAffected": [
       "W11 3",
       "W2 4"
@@ -77,9 +91,9 @@
       "W24LX",
       "W24NA"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 261,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 261,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1039,7 +1053,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "12:00 - 13:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
