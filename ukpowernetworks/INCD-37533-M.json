@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-37533-M",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-37533-M",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-37533-M",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-21T10:57:16",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-21T16:00:56.547",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "M0000929dINCD",
     "IncidentReference": "INCD-37533-M",
     "IncidentCategory": "48",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-15T05:08:21",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-21T16:00:56.547",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-15T05:09:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -74,28 +74,28 @@
       "DA8 2"
     ],
     "PostCodesRestored": [
-      "DA82BQ",
       "DA81RY",
       "DA81RZ",
       "DA81SQ",
       "DA82AB",
       "DA82BF",
+      "DA82BQ",
       "DA82BU",
       "DA82GQ"
     ],
     "PostCodesPlanned": [
-      "DA82BQ",
       "DA81RY",
       "DA81RZ",
       "DA81SQ",
       "DA82AB",
       "DA82BF",
+      "DA82BQ",
       "DA82BU",
       "DA82GQ"
     ],
-    "CustomersOnSupply": 193,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 195,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -104,43 +104,6 @@
     "DA8 2"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.49019,
-        "lng": 0.21165
-      },
-      "Coordinates": [
-        {
-          "lat": 51.49204,
-          "lng": 0.21228
-        },
-        {
-          "lat": 51.48786,
-          "lng": 0.21679
-        },
-        {
-          "lat": 51.48856,
-          "lng": 0.215
-        },
-        {
-          "lat": 51.48932,
-          "lng": 0.20841
-        },
-        {
-          "lat": 51.48917,
-          "lng": 0.20711
-        },
-        {
-          "lat": 51.49261,
-          "lng": 0.21084
-        },
-        {
-          "lat": 51.49204,
-          "lng": 0.21228
-        }
-      ],
-      "Postcode": "DA8 2"
-    },
     {
       "Center": {
         "lat": 51.49629,
@@ -189,15 +152,52 @@
         }
       ],
       "Postcode": "DA8 1"
+    },
+    {
+      "Center": {
+        "lat": 51.49019,
+        "lng": 0.21165
+      },
+      "Coordinates": [
+        {
+          "lat": 51.49204,
+          "lng": 0.21228
+        },
+        {
+          "lat": 51.48786,
+          "lng": 0.21679
+        },
+        {
+          "lat": 51.48856,
+          "lng": 0.215
+        },
+        {
+          "lat": 51.48932,
+          "lng": 0.20841
+        },
+        {
+          "lat": 51.48917,
+          "lng": 0.20711
+        },
+        {
+          "lat": 51.49261,
+          "lng": 0.21084
+        },
+        {
+          "lat": 51.49204,
+          "lng": 0.21228
+        }
+      ],
+      "Postcode": "DA8 2"
     }
   ],
   "FullPostcodeData": [
-    "DA82BQ",
     "DA81RY",
     "DA81RZ",
     "DA81SQ",
     "DA82AB",
     "DA82BF",
+    "DA82BQ",
     "DA82BU",
     "DA82GQ"
   ],
