@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-41098-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-41098-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-41098-C",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-22T08:53:41.723",
-      "Message": "Update at 08:54 - Our engineers have now arrived on site in the Russell Way area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. This can involve ground excavations, traffic management equipment or specialist teams. As soon as our staff can safely update us, we'll give you the latest news.",
+      "Date": "2021-01-22T11:23:25.397",
+      "Message": "Update at 11:23 - We can now confirm that all power in the Russell Way area should be back on. The issue was found to have been caused by a fault on our underground cabling, however engineers have managed to restore power from a street cabinet nearby. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-22T08:44:58",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-22T11:55:01.407",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000a08aINCD",
     "IncidentReference": "INCD-41098-C",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-22T06:54:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-22T11:55:01.407",
     "EstimatedRestorationDate": "2021-01-22T10:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-22T06:52:00",
-    "NoCustomerAffected": 21,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 8,
+    "NoCallsReported": 11,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-22T08:53:00",
+        "ActualEventTime": "2021-01-22T11:23:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 08:54 - Our engineers have now arrived on site in the Russell Way area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. This can involve ground excavations, traffic management equipment or specialist teams. As soon as our staff can safely update us, we'll give you the latest news.",
-        "LoggedTime": "2021-01-22T08:53:41.723"
+        "Comment": "Update at 11:23 - We can now confirm that all power in the Russell Way area should be back on. The issue was found to have been caused by a fault on our underground cabling, however engineers have managed to restore power from a street cabinet nearby. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-01-22T11:23:25.397"
       }
     ],
     "PostCodesAffected": [
@@ -84,9 +84,9 @@
       "LU73NF",
       "LU73NG"
     ],
-    "CustomersOnSupply": 2,
-    "CustomersOffSupply": 38,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 40,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -536,7 +536,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "10:00 - 11:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,

@@ -1,9 +1,9 @@
 {
   "IncidentReference": "INCD-213842-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-213842-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-213842-Z",
   "Steps": [
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-22T07:57:00",
       "Message": "<p>We became aware of a power cut at 07:57. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -11,36 +11,36 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-22T11:32:00.64",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034352INCD",
     "IncidentReference": "INCD-213842-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-22T08:44:42",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-22T11:32:00.64",
     "EstimatedRestorationDate": "2021-01-22T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-22T07:57:00",
-    "NoCustomerAffected": 9,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,16 +59,16 @@
       "CB23 7"
     ],
     "PostCodesRestored": [
-      "CB237DJ",
-      "CB237DF"
+      "CB237DF",
+      "CB237DJ"
     ],
     "PostCodesPlanned": [
-      "CB237DJ",
-      "CB237DF"
+      "CB237DF",
+      "CB237DJ"
     ],
-    "CustomersOnSupply": 30,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 39,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -383,8 +383,8 @@
     }
   ],
   "FullPostcodeData": [
-    "CB237DJ",
-    "CB237DF"
+    "CB237DF",
+    "CB237DJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
