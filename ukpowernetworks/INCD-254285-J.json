@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-254285-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-254285-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-254285-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-21T20:24:11",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-22T04:37:19.807",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003e14dINCD",
     "IncidentReference": "INCD-254285-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-21T19:58:05",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-22T04:37:19.807",
     "EstimatedRestorationDate": "2021-01-22T03:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-21T19:51:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2021-01-21T20:45:00",
       "DispatchedDate": "2021-01-21T20:04:06",
       "ArrivalDate": "2021-01-21T20:24:11",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -73,22 +73,22 @@
       "DA6 7"
     ],
     "PostCodesRestored": [
-      "DA67NR",
       "DA67NH",
       "DA67NL",
+      "DA67NR",
       "DA67NS",
       "DA67PB"
     ],
     "PostCodesPlanned": [
-      "DA67NR",
       "DA67NH",
       "DA67NL",
+      "DA67NR",
       "DA67NS",
       "DA67PB"
     ],
-    "CustomersOnSupply": 72,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 73,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -547,9 +547,9 @@
     }
   ],
   "FullPostcodeData": [
-    "DA67NR",
     "DA67NH",
     "DA67NL",
+    "DA67NR",
     "DA67NS",
     "DA67PB"
   ],
