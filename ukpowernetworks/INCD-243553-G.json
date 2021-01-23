@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-243553-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243553-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243553-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-22T22:34:32.593",
-      "Message": "Update at 22:33 - Our engineers on site have attempted to restart the temporary generator however this has not worked and the team believe a fault on our underground network may be preventing this. We're sending specialist engineers and a digging team as  possible to investigate this. At the moment we don't need to change the estimated timeframe however as the repairs progress, this may change.",
+      "Date": "2021-01-22T23:41:17.94",
+      "Message": "Update at 23:41 - We can now confirm that all power in the Pitfield Drive area should be back on, as our engineers have been able to resolve the issue on the underground network which caused the temporary generator to stop working. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-22T22:17:40",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-22T23:44:08.603",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b761INCD",
     "IncidentReference": "INCD-243553-G",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-22T21:08:42",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-22T23:44:08.603",
     "EstimatedRestorationDate": "2021-01-23T01:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-22T21:01:00",
-    "NoCustomerAffected": 144,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 23,
     "Latitude": 0.0,
@@ -57,16 +57,16 @@
       "EstimatedTimeOfArrival": "2021-01-22T22:15:00",
       "DispatchedDate": "2021-01-22T21:11:56",
       "ArrivalDate": "2021-01-22T22:17:40",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-22T22:33:00",
+        "ActualEventTime": "2021-01-22T23:41:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 22:33 - Our engineers on site have attempted to restart the temporary generator however this has not worked and the team believe a fault on our underground network may be preventing this. We're sending specialist engineers and a digging team as  possible to investigate this. At the moment we don't need to change the estimated timeframe however as the repairs progress, this may change.",
-        "LoggedTime": "2021-01-22T22:34:32.593"
+        "Comment": "Update at 23:41 - We can now confirm that all power in the Pitfield Drive area should be back on, as our engineers have been able to resolve the issue on the underground network which caused the temporary generator to stop working. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-22T23:41:17.94"
       }
     ],
     "PostCodesAffected": [
@@ -109,10 +109,10 @@
       "DA130QF",
       "DA130QU"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 144,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 144,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1027,7 +1027,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "01:00 - 02:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
