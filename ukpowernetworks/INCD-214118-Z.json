@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-214118-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-214118-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-214118-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-23T13:45:46",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-23T14:48:39.84",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034466INCD",
     "IncidentReference": "INCD-214118-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-23T13:01:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-23T14:48:39.84",
     "EstimatedRestorationDate": "2021-01-23T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-23T12:54:00",
-    "NoCustomerAffected": 16,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -84,9 +84,9 @@
       "SG120ET",
       "SG120EZ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 16,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 16,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
