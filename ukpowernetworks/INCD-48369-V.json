@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-48369-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-48369-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-48369-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-23T10:44:30.833",
-      "Message": "Update at 10:44 - Sorry your power has gone off again today. Our engineers investigated the fault earlier but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers will be back on site as quickly as possible. We'll continue to liaise with our engineers and keep you updated.",
+      "Date": "2021-01-23T13:13:43.493",
+      "Message": "Update at 13:13 - We can now confirm that all power in the Forge Lane area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-23T12:06:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-23T13:07:34.863",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000bcf1INCD",
     "IncidentReference": "INCD-48369-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-22T22:45:20",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-23T13:07:34.863",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-22T22:39:00",
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-23T10:42:00",
+        "ActualEventTime": "2021-01-23T13:13:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:44 - Sorry your power has gone off again today. Our engineers investigated the fault earlier but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers will be back on site as quickly as possible. We'll continue to liaise with our engineers and keep you updated.",
-        "LoggedTime": "2021-01-23T10:44:30.833"
+        "Comment": "Update at 13:13 - We can now confirm that all power in the Forge Lane area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-01-23T13:13:43.493"
       }
     ],
     "PostCodesAffected": [
@@ -77,12 +77,12 @@
     "PostCodesRestored": [
       "ME21HT",
       "ME38SF",
-      "ME38SL",
-      "ME38SN",
-      "ME38SS",
       "ME38SG",
       "ME38SH",
+      "ME38SL",
+      "ME38SN",
       "ME38SQ",
+      "ME38SS",
       "ME38ST",
       "ME38SY",
       "ME38TF",
@@ -91,20 +91,20 @@
     "PostCodesPlanned": [
       "ME21HT",
       "ME38SF",
-      "ME38SL",
-      "ME38SN",
-      "ME38SS",
       "ME38SG",
       "ME38SH",
+      "ME38SL",
+      "ME38SN",
       "ME38SQ",
+      "ME38SS",
       "ME38ST",
       "ME38SY",
       "ME38TF",
       "ME39RU"
     ],
-    "CustomersOnSupply": 67,
-    "CustomersOffSupply": 29,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 96,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1737,12 +1737,12 @@
   "FullPostcodeData": [
     "ME21HT",
     "ME38SF",
-    "ME38SL",
-    "ME38SN",
-    "ME38SS",
     "ME38SG",
     "ME38SH",
+    "ME38SL",
+    "ME38SN",
     "ME38SQ",
+    "ME38SS",
     "ME38ST",
     "ME38SY",
     "ME38TF",
