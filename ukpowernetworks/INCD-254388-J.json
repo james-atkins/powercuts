@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-254388-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-254388-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-254388-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-24T17:09:22.983",
-      "Message": "Update at 17:08 - It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers have found that digging up the cable has taken longer than expected. Therefore, we're now aiming to restore supplies between 17:30 and 18:30. We're sorry we've had to change the estimated time, but we'll keep you updated.",
+      "Date": "2021-01-24T18:16:03.187",
+      "Message": "Update at 18:15 - We can now confirm that all power in the Woodgrange Road area should be back on. The issue was caused by an underground cable fault, which our engineers have repaired. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-24T14:06:23",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-24T18:00:57.893",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003e1b4INCD",
     "IncidentReference": "INCD-254388-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-24T13:50:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-24T18:00:57.893",
     "EstimatedRestorationDate": "2021-01-24T18:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-24T13:38:00",
-    "NoCustomerAffected": 28,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-24T17:08:00",
+        "ActualEventTime": "2021-01-24T18:15:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 17:08 - It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers have found that digging up the cable has taken longer than expected. Therefore, we're now aiming to restore supplies between 17:30 and 18:30. We're sorry we've had to change the estimated time, but we'll keep you updated.",
-        "LoggedTime": "2021-01-24T17:09:22.983"
+        "Comment": "Update at 18:15 - We can now confirm that all power in the Woodgrange Road area should be back on. The issue was caused by an underground cable fault, which our engineers have repaired. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-24T18:16:03.187"
       }
     ],
     "PostCodesAffected": [
@@ -74,8 +74,6 @@
       "E7 9"
     ],
     "PostCodesRestored": [
-      "E70EW",
-      "E70NG",
       "E70BB",
       "E70BD",
       "E70BE",
@@ -85,6 +83,7 @@
       "E70ER",
       "E70ES",
       "E70ET",
+      "E70EW",
       "E70HD",
       "E70HG",
       "E70HJ",
@@ -92,13 +91,12 @@
       "E70HW",
       "E70HY",
       "E70HZ",
+      "E70NG",
       "E70NQ",
       "E79BB",
       "E79DP"
     ],
     "PostCodesPlanned": [
-      "E70EW",
-      "E70NG",
       "E70BB",
       "E70BD",
       "E70BE",
@@ -108,6 +106,7 @@
       "E70ER",
       "E70ES",
       "E70ET",
+      "E70EW",
       "E70HD",
       "E70HG",
       "E70HJ",
@@ -115,14 +114,15 @@
       "E70HW",
       "E70HY",
       "E70HZ",
+      "E70NG",
       "E70NQ",
       "E79BB",
       "E79DP"
     ],
-    "CustomersOnSupply": 345,
-    "CustomersOffSupply": 28,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 373,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1362,8 +1362,6 @@
     }
   ],
   "FullPostcodeData": [
-    "E70EW",
-    "E70NG",
     "E70BB",
     "E70BD",
     "E70BE",
@@ -1373,6 +1371,7 @@
     "E70ER",
     "E70ES",
     "E70ET",
+    "E70EW",
     "E70HD",
     "E70HG",
     "E70HJ",
@@ -1380,6 +1379,7 @@
     "E70HW",
     "E70HY",
     "E70HZ",
+    "E70NG",
     "E70NQ",
     "E79BB",
     "E79DP"
