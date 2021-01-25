@@ -1,15 +1,15 @@
 {
   "IncidentReference": "INCD-243690-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243690-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243690-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-25T18:10:39.16",
-      "Message": "Update at 18:07 - Our engineers have been able to restore power to another property in the area. The team are working to repair the fault on the network that has caused power cuts in the area recently. Once the team have done this, they will be able to remove some temporary generators that have been supplying power in the are and restore the supply onto the main network. If you have a vulnerable person at home, please call us on 08003163105 and we'll see if we can provide any additional support.",
+      "Date": "2021-01-25T19:46:58.447",
+      "Message": "Update at 19:46 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 379 customers in the Caterham CR3 area to safely remove temporary generators in the area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-25T14:25:00",
       "Message": "<p>We became aware of this power cut at 14:25. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
       "Name": "We are restoring customers automatically"
@@ -17,36 +17,36 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-25T19:45:11.597",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b7eaINCD",
     "IncidentReference": "INCD-243690-G",
     "IncidentCategory": "26",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-25T15:53:24",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-25T19:45:11.597",
     "EstimatedRestorationDate": "2021-01-25T19:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-25T14:25:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-25T18:07:00",
+        "ActualEventTime": "2021-01-25T19:46:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 18:07 - Our engineers have been able to restore power to another property in the area. The team are working to repair the fault on the network that has caused power cuts in the area recently. Once the team have done this, they will be able to remove some temporary generators that have been supplying power in the are and restore the supply onto the main network. If you have a vulnerable person at home, please call us on 08003163105 and we'll see if we can provide any additional support.",
-        "LoggedTime": "2021-01-25T18:10:39.16"
+        "Comment": "Update at 19:46 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 379 customers in the Caterham CR3 area to safely remove temporary generators in the area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-25T19:46:58.447"
       }
     ],
     "PostCodesAffected": [
@@ -74,7 +74,6 @@
       "RH1 3"
     ],
     "PostCodesRestored": [
-      "CR35BQ",
       "CR35AD",
       "CR35AE",
       "CR35AF",
@@ -89,6 +88,7 @@
       "CR35BJ",
       "CR35BN",
       "CR35BP",
+      "CR35BQ",
       "CR35DA",
       "CR35DB",
       "CR35DD",
@@ -110,7 +110,6 @@
       "RH13AH"
     ],
     "PostCodesPlanned": [
-      "CR35BQ",
       "CR35AD",
       "CR35AE",
       "CR35AF",
@@ -125,6 +124,7 @@
       "CR35BJ",
       "CR35BN",
       "CR35BP",
+      "CR35BQ",
       "CR35DA",
       "CR35DB",
       "CR35DD",
@@ -145,9 +145,9 @@
       "RH13AG",
       "RH13AH"
     ],
-    "CustomersOnSupply": 372,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 376,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -808,7 +808,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CR35BQ",
     "CR35AD",
     "CR35AE",
     "CR35AF",
@@ -823,6 +822,7 @@
     "CR35BJ",
     "CR35BN",
     "CR35BP",
+    "CR35BQ",
     "CR35DA",
     "CR35DB",
     "CR35DD",

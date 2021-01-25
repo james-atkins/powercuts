@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-214425-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-214425-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-214425-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-25T19:15:32.033",
+      "Message": "Update at 19:15 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 41 customers in the SG9 0 area to safely repair an overhead cable fault. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-25T17:45:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-25T14:27:55",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-25T19:11:56.147",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034599INCD",
     "IncidentReference": "INCD-214425-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-25T13:44:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-25T19:11:56.147",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-25T17:45:00",
-    "NoCustomerAffected": 41,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-25T19:14:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 19:15 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 41 customers in the SG9 0 area to safely repair an overhead cable fault. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-25T19:15:32.033"
+      }
+    ],
     "PostCodesAffected": [
       "SG11 2",
       "SG9 0"
@@ -62,6 +76,7 @@
     "PostCodesRestored": [
       "SG112QX",
       "SG112QY",
+      "SG90DZ",
       "SG90ED",
       "SG90JP",
       "SG90LS",
@@ -71,9 +86,8 @@
       "SG90LY",
       "SG90LZ",
       "SG90NA",
-      "SG90NJ",
-      "SG90DZ",
       "SG90NG",
+      "SG90NJ",
       "SG90NL",
       "SG90NN",
       "SG90NQ",
@@ -87,6 +101,7 @@
     "PostCodesPlanned": [
       "SG112QX",
       "SG112QY",
+      "SG90DZ",
       "SG90ED",
       "SG90JP",
       "SG90LS",
@@ -96,9 +111,8 @@
       "SG90LY",
       "SG90LZ",
       "SG90NA",
-      "SG90NJ",
-      "SG90DZ",
       "SG90NG",
+      "SG90NJ",
       "SG90NL",
       "SG90NN",
       "SG90NQ",
@@ -109,9 +123,9 @@
       "SG90NX",
       "SG90NZ"
     ],
-    "CustomersOnSupply": 94,
-    "CustomersOffSupply": 41,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 135,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -990,6 +1004,7 @@
   "FullPostcodeData": [
     "SG112QX",
     "SG112QY",
+    "SG90DZ",
     "SG90ED",
     "SG90JP",
     "SG90LS",
@@ -999,9 +1014,8 @@
     "SG90LY",
     "SG90LZ",
     "SG90NA",
-    "SG90NJ",
-    "SG90DZ",
     "SG90NG",
+    "SG90NJ",
     "SG90NL",
     "SG90NN",
     "SG90NQ",
