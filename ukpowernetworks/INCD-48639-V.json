@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-48639-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-48639-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-48639-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-26T20:00:57.363",
-      "Message": "Update at 20:00 - Thanks for bearing with us tonight. Our engineers are checking our substation equipment to ensure our network is healthy before they attempt to restore your power. They may also walk our cabling route throughout the area to check for any visible problems, check smaller electrical sites in the area, or apply specialist equipment which may restore power temporarily to help them with their testing. We know that with the current pandemic, our customers are more worried now than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. We'll keep you updated on our engineers progress.",
+      "Date": "2021-01-26T20:49:36.04",
+      "Message": "Update at 20:49 - We can now confirm that all power in the Sutton Common Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2021-01-26T17:44:58",
+      "Date": "2021-01-26T17:44:00",
       "Message": "<p>We became aware of a power cut at 17:44. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-26T19:22:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-26T20:37:47.53",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000bdffINCD",
     "IncidentReference": "INCD-48639-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-26T17:48:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-26T20:37:47.53",
     "EstimatedRestorationDate": "2021-01-26T22:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-26T17:44:58",
+    "ReceivedDate": "2021-01-26T17:44:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 20,
@@ -62,43 +62,53 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-26T20:00:00",
+        "ActualEventTime": "2021-01-26T20:49:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 20:00 - Thanks for bearing with us tonight. Our engineers are checking our substation equipment to ensure our network is healthy before they attempt to restore your power. They may also walk our cabling route throughout the area to check for any visible problems, check smaller electrical sites in the area, or apply specialist equipment which may restore power temporarily to help them with their testing. We know that with the current pandemic, our customers are more worried now than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. We'll keep you updated on our engineers progress.",
-        "LoggedTime": "2021-01-26T20:00:57.363"
+        "Comment": "Update at 20:49 - We can now confirm that all power in the Sutton Common Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-26T20:49:36.04"
       }
     ],
     "PostCodesAffected": [
       "SM3 9"
     ],
     "PostCodesRestored": [
+      "SM39BF",
       "SM39HZ",
+      "SM39JB",
       "SM39JP",
       "SM39JR",
       "SM39JS",
+      "SM39JW",
       "SM39LF",
       "SM39LJ",
       "SM39NH",
       "SM39NQ",
       "SM39NS",
-      "SM39PL"
+      "SM39PJ",
+      "SM39PL",
+      "SM39PQ"
     ],
     "PostCodesPlanned": [
+      "SM39BF",
       "SM39HZ",
+      "SM39JB",
       "SM39JP",
       "SM39JR",
       "SM39JS",
+      "SM39JW",
       "SM39LF",
       "SM39LJ",
       "SM39NH",
       "SM39NQ",
       "SM39NS",
-      "SM39PL"
+      "SM39PJ",
+      "SM39PL",
+      "SM39PQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 115,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 128,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -653,16 +663,21 @@
     }
   ],
   "FullPostcodeData": [
+    "SM39BF",
     "SM39HZ",
+    "SM39JB",
     "SM39JP",
     "SM39JR",
     "SM39JS",
+    "SM39JW",
     "SM39LF",
     "SM39LJ",
     "SM39NH",
     "SM39NQ",
     "SM39NS",
-    "SM39PL"
+    "SM39PJ",
+    "SM39PL",
+    "SM39PQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
