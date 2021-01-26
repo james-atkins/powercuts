@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-214505-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-214505-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-214505-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-26T05:54:17",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-26T06:41:36.217",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000345e9INCD",
     "IncidentReference": "INCD-214505-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-26T04:58:02",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-26T06:41:36.217",
     "EstimatedRestorationDate": "2021-01-26T08:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-26T04:57:00",
-    "NoCustomerAffected": 20,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 2,
+    "NoCallsReported": 1,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -66,8 +66,8 @@
       "SG36JL",
       "SG36JN",
       "SG36JP",
-      "SG36LD",
-      "SG36JX"
+      "SG36JX",
+      "SG36LD"
     ],
     "PostCodesPlanned": [
       "AL60BN",
@@ -76,13 +76,13 @@
       "SG36JL",
       "SG36JN",
       "SG36JP",
-      "SG36LD",
-      "SG36JX"
+      "SG36JX",
+      "SG36LD"
     ],
-    "CustomersOnSupply": 2,
-    "CustomersOffSupply": 62,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 64,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -868,8 +868,8 @@
     "SG36JL",
     "SG36JN",
     "SG36JP",
-    "SG36LD",
-    "SG36JX"
+    "SG36JX",
+    "SG36LD"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
