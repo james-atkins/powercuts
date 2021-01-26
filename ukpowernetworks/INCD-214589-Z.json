@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-214589-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-214589-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-214589-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-26T13:39:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-26T14:43:19.587",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003463dINCD",
     "IncidentReference": "INCD-214589-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-26T11:31:21",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-26T14:43:19.587",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-26T11:30:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,24 +59,24 @@
       "PE1 4"
     ],
     "PostCodesRestored": [
-      "PE14ET",
       "PE14ER",
+      "PE14ET",
       "PE14EU",
       "PE14EX",
       "PE14EY",
       "PE14EZ"
     ],
     "PostCodesPlanned": [
-      "PE14ET",
       "PE14ER",
+      "PE14ET",
       "PE14EU",
       "PE14EX",
       "PE14EY",
       "PE14EZ"
     ],
-    "CustomersOnSupply": 50,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 51,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -707,8 +707,8 @@
     }
   ],
   "FullPostcodeData": [
-    "PE14ET",
     "PE14ER",
+    "PE14ET",
     "PE14EU",
     "PE14EX",
     "PE14EY",
