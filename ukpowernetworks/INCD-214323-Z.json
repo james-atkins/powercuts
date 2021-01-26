@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-214323-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-214323-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-214323-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-25T09:20:20",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-26T10:15:33.86",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034533INCD",
     "IncidentReference": "INCD-214323-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-25T08:35:45",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-26T10:15:33.86",
     "EstimatedRestorationDate": "2021-01-26T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-25T08:35:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 10,
     "Latitude": 0.0,
@@ -74,11 +74,11 @@
       "N21 3"
     ],
     "PostCodesRestored": [
-      "N213AU",
       "N135AL",
       "N213AR",
       "N213AS",
       "N213AT",
+      "N213AU",
       "N213AW",
       "N213AY",
       "N213BG",
@@ -87,11 +87,11 @@
       "UK"
     ],
     "PostCodesPlanned": [
-      "N213AU",
       "N135AL",
       "N213AR",
       "N213AS",
       "N213AT",
+      "N213AU",
       "N213AW",
       "N213AY",
       "N213BG",
@@ -99,9 +99,9 @@
       "N213BQ",
       "UK"
     ],
-    "CustomersOnSupply": 183,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 186,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -110,6 +110,39 @@
     "N21 3"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 51.63306,
+        "lng": -0.09953
+      },
+      "Coordinates": [
+        {
+          "lat": 51.63356,
+          "lng": -0.09949
+        },
+        {
+          "lat": 51.63354,
+          "lng": -0.09941
+        },
+        {
+          "lat": 51.6327,
+          "lng": -0.09882
+        },
+        {
+          "lat": 51.63284,
+          "lng": -0.10018
+        },
+        {
+          "lat": 51.63305,
+          "lng": -0.10015
+        },
+        {
+          "lat": 51.63356,
+          "lng": -0.09949
+        }
+      ],
+      "Postcode": "N13 5"
+    },
     {
       "Center": {
         "lat": 51.63008,
@@ -722,47 +755,14 @@
         }
       ],
       "Postcode": "N21 3"
-    },
-    {
-      "Center": {
-        "lat": 51.63306,
-        "lng": -0.09953
-      },
-      "Coordinates": [
-        {
-          "lat": 51.63356,
-          "lng": -0.09949
-        },
-        {
-          "lat": 51.63354,
-          "lng": -0.09941
-        },
-        {
-          "lat": 51.6327,
-          "lng": -0.09882
-        },
-        {
-          "lat": 51.63284,
-          "lng": -0.10018
-        },
-        {
-          "lat": 51.63305,
-          "lng": -0.10015
-        },
-        {
-          "lat": 51.63356,
-          "lng": -0.09949
-        }
-      ],
-      "Postcode": "N13 5"
     }
   ],
   "FullPostcodeData": [
-    "N213AU",
     "N135AL",
     "N213AR",
     "N213AS",
     "N213AT",
+    "N213AU",
     "N213AW",
     "N213AY",
     "N213BG",
