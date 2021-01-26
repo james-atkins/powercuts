@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-207311-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-207311-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-207311-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-26T07:42:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-26T12:26:33.523",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000329cfINCD",
     "IncidentReference": "INCD-207311-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-23T23:52:53",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-26T12:26:33.523",
     "EstimatedRestorationDate": "2021-01-26T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-23T23:53:00",
-    "NoCustomerAffected": 17,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 2,
+    "NoCallsReported": 3,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -73,16 +73,16 @@
       "CB6 3"
     ],
     "PostCodesRestored": [
-      "CB63JP",
-      "CB63JH"
+      "CB63JH",
+      "CB63JP"
     ],
     "PostCodesPlanned": [
-      "CB63JP",
-      "CB63JH"
+      "CB63JH",
+      "CB63JP"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 17,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 18,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -649,8 +649,8 @@
     }
   ],
   "FullPostcodeData": [
-    "CB63JP",
-    "CB63JH"
+    "CB63JH",
+    "CB63JP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
