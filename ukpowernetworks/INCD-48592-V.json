@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-48592-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-48592-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-48592-V",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-26T13:33:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-26T16:21:27.307",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000bdd0INCD",
     "IncidentReference": "INCD-48592-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-26T12:22:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-26T16:21:27.307",
     "EstimatedRestorationDate": "2021-01-26T16:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-26T12:15:00",
@@ -60,19 +60,19 @@
     ],
     "PostCodesRestored": [
       "TN394PF",
+      "TN394PL",
       "TN394PP",
-      "TN394PR",
-      "TN394PL"
+      "TN394PR"
     ],
     "PostCodesPlanned": [
       "TN394PF",
+      "TN394PL",
       "TN394PP",
-      "TN394PR",
-      "TN394PL"
+      "TN394PR"
     ],
-    "CustomersOnSupply": 21,
-    "CustomersOffSupply": 39,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 60,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -760,9 +760,9 @@
   ],
   "FullPostcodeData": [
     "TN394PF",
+    "TN394PL",
     "TN394PP",
-    "TN394PR",
-    "TN394PL"
+    "TN394PR"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
