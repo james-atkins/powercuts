@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-41328-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-41328-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-41328-C",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-27T13:22:52.653",
+      "Message": "Update at 13:22 - We've turned off more power to allow engineers to safely repair the third party cable damage. The estimated time hasn't changed. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-27T09:48:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-27T10:57:33",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-27T13:25:01.25",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000a170INCD",
     "IncidentReference": "INCD-41328-C",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-27T09:49:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-27T13:25:01.25",
     "EstimatedRestorationDate": "2021-01-27T18:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-27T09:48:00",
-    "NoCustomerAffected": 30,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-27T13:22:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 13:22 - We've turned off more power to allow engineers to safely repair the third party cable damage. The estimated time hasn't changed. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
+        "LoggedTime": "2021-01-27T13:22:52.653"
+      }
+    ],
     "PostCodesAffected": [
       "HA9 0",
       "HA9 8",
@@ -74,10 +88,10 @@
       "HA98PQ",
       "HA99AA"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 88,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 88,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
