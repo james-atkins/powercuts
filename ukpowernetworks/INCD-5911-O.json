@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-5911-O",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-5911-O",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-5911-O",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-27T15:31:46.573",
-      "Message": "Update at 15:31 - Thanks for bearing with us today. Our engineers are checking our substation equipment to ensure our network is healthy before they attempt to restore your power. They may also walk our cabling route throughout the area to check for any visible problems, check smaller electrical sites in the area, or apply specialist equipment which may restore power temporarily to help them with their testing. We know that with the current pandemic, our customers are more worried now than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. We'll keep you updated on our engineers progress.",
+      "Date": "2021-01-27T17:15:45.753",
+      "Message": "Update at 17:14 - Our engineers have investigated and found that the power is off due to a fault on our underground network which has affected our substation equipment. Our specialist team are working on site to pinpoint the fault, and dig down to expose the cabling for repairs. Considering the work that may be required, the revised estimated time to have the power back on is between 21:30 and 22:30. We're sorry to change the time, we will keep you updated.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-27T14:42:23",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-27T17:38:49.78",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "O00001717INCD",
     "IncidentReference": "INCD-5911-O",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-27T13:41:06",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-01-27T17:30:00",
+    "RestoredDateTime": "2021-01-27T17:38:49.78",
+    "EstimatedRestorationDate": "2021-01-27T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-27T13:40:00",
-    "NoCustomerAffected": 21,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 6,
+    "NoCallsReported": 7,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,37 +62,37 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-27T15:31:00",
+        "ActualEventTime": "2021-01-27T17:14:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 15:31 - Thanks for bearing with us today. Our engineers are checking our substation equipment to ensure our network is healthy before they attempt to restore your power. They may also walk our cabling route throughout the area to check for any visible problems, check smaller electrical sites in the area, or apply specialist equipment which may restore power temporarily to help them with their testing. We know that with the current pandemic, our customers are more worried now than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. We'll keep you updated on our engineers progress.",
-        "LoggedTime": "2021-01-27T15:31:46.573"
+        "Comment": "Update at 17:14 - Our engineers have investigated and found that the power is off due to a fault on our underground network which has affected our substation equipment. Our specialist team are working on site to pinpoint the fault, and dig down to expose the cabling for repairs. Considering the work that may be required, the revised estimated time to have the power back on is between 21:30 and 22:30. We're sorry to change the time, we will keep you updated.",
+        "LoggedTime": "2021-01-27T17:15:45.753"
       }
     ],
     "PostCodesAffected": [
       "HA8 0"
     ],
     "PostCodesRestored": [
+      "HA80PB",
+      "HA80PD",
       "HA80PH",
       "HA80PJ",
       "HA80PL",
       "HA80PN",
-      "HA80PB",
-      "HA80PD",
       "HA80PQ"
     ],
     "PostCodesPlanned": [
+      "HA80PB",
+      "HA80PD",
       "HA80PH",
       "HA80PJ",
       "HA80PL",
       "HA80PN",
-      "HA80PB",
-      "HA80PD",
       "HA80PQ"
     ],
-    "CustomersOnSupply": 66,
-    "CustomersOffSupply": 21,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 87,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -759,18 +759,18 @@
     }
   ],
   "FullPostcodeData": [
+    "HA80PB",
+    "HA80PD",
     "HA80PH",
     "HA80PJ",
     "HA80PL",
     "HA80PN",
-    "HA80PB",
-    "HA80PD",
     "HA80PQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "17:00 - 18:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "21:30 - 22:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
