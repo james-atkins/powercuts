@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-214938-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-214938-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-214938-Z",
   "Steps": [
     {
       "Active": true,
@@ -10,7 +10,7 @@
     },
     {
       "Active": false,
-      "Date": "2021-01-27T22:49:22",
+      "Date": "2021-01-27T22:49:00",
       "Message": "<p>We became aware of a power cut at 22:49. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-27T22:54:57",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-27T23:54:25.9",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003479aINCD",
     "IncidentReference": "INCD-214938-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-27T22:53:02",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-27T23:54:25.9",
     "EstimatedRestorationDate": "2021-01-28T02:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-27T22:49:22",
+    "ReceivedDate": "2021-01-27T22:49:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
@@ -86,9 +86,9 @@
       "NW73JR",
       "NW73JW"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 85,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 85,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
