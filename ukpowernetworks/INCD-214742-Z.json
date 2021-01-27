@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-214742-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-214742-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-214742-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-27T08:47:35.94",
+      "Message": "Update at 08:46 - Our engineers have arrived and we can now confirm that all power in the Aspley Hill area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-27T06:38:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-27T08:09:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-27T08:50:36.6",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000346d6INCD",
     "IncidentReference": "INCD-214742-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-27T06:40:22",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-01-27T10:30:00",
+    "RestoredDateTime": "2021-01-27T08:50:36.6",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-27T06:38:00",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -54,18 +60,26 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-27T08:47:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 08:46 - Our engineers have arrived and we can now confirm that all power in the Aspley Hill area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-27T08:47:35.94"
+      }
+    ],
     "PostCodesAffected": [
       "MK17 8"
     ],
     "PostCodesRestored": [
+      "MK178ED",
+      "MK178LF",
       "MK178NH",
       "MK178NJ",
       "MK178NL",
       "MK178NN",
       "MK178NW",
-      "MK178ED",
-      "MK178LF",
       "MK178QJ",
       "MK178QR",
       "MK178QU",
@@ -76,13 +90,13 @@
       "MK178TA"
     ],
     "PostCodesPlanned": [
+      "MK178ED",
+      "MK178LF",
       "MK178NH",
       "MK178NJ",
       "MK178NL",
       "MK178NN",
       "MK178NW",
-      "MK178ED",
-      "MK178LF",
       "MK178QJ",
       "MK178QR",
       "MK178QU",
@@ -92,9 +106,9 @@
       "MK178SZ",
       "MK178TA"
     ],
-    "CustomersOnSupply": 63,
-    "CustomersOffSupply": 33,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 96,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -401,13 +415,13 @@
     }
   ],
   "FullPostcodeData": [
+    "MK178ED",
+    "MK178LF",
     "MK178NH",
     "MK178NJ",
     "MK178NL",
     "MK178NN",
     "MK178NW",
-    "MK178ED",
-    "MK178LF",
     "MK178QJ",
     "MK178QR",
     "MK178QU",
@@ -420,7 +434,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "10:00 - 11:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
