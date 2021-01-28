@@ -1,9 +1,15 @@
 {
   "IncidentReference": "INCD-5916-O",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-5916-O",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-5916-O",
   "Steps": [
     {
       "Active": true,
+      "Date": "2021-01-28T05:22:58.42",
+      "Message": "Update at 05:22 - We can now confirm that all power in the Thorpedene Avenue area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
+      "Active": false,
       "Date": "2021-01-28T03:30:00",
       "Message": "<p>We became aware of a power cut at 03:30. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -11,38 +17,38 @@
     {
       "Active": false,
       "Date": "2021-01-28T03:41:22",
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-01-28T04:24:01",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-28T05:12:50.487",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "O0000171cINCD",
     "IncidentReference": "INCD-5916-O",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T03:30:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-28T05:12:50.487",
     "EstimatedRestorationDate": "2021-01-28T06:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-28T03:30:00",
-    "NoCustomerAffected": 20,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
+    "NoCallsReported": 2,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -50,11 +56,19 @@
       "Name": "JACK (R5)",
       "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
       "DispatchedDate": "2021-01-28T03:41:22",
-      "ArrivalDate": null,
+      "ArrivalDate": "2021-01-28T04:24:01",
       "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-28T05:22:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 05:22 - We can now confirm that all power in the Thorpedene Avenue area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-28T05:22:58.42"
+      }
+    ],
     "PostCodesAffected": [
       "SS5 6"
     ],
@@ -74,9 +88,9 @@
       "SS56JB",
       "SS56JH"
     ],
-    "CustomersOnSupply": 5,
-    "CustomersOffSupply": 60,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 65,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
