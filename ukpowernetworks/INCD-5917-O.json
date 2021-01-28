@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-5917-O",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-5917-O",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-5917-O",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-28T08:16:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-28T13:58:56.763",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "O0000171dINCD",
     "IncidentReference": "INCD-5917-O",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T05:39:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-28T13:58:56.763",
     "EstimatedRestorationDate": "2021-01-28T16:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-28T05:12:00",
-    "NoCustomerAffected": 16,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 13,
     "Latitude": 0.0,
@@ -73,22 +73,22 @@
       "NW7 3"
     ],
     "PostCodesRestored": [
+      "NW73JJ",
+      "NW73JL",
       "NW73JN",
       "NW73JR",
-      "NW73JW",
-      "NW73JJ",
-      "NW73JL"
+      "NW73JW"
     ],
     "PostCodesPlanned": [
+      "NW73JJ",
+      "NW73JL",
       "NW73JN",
       "NW73JR",
-      "NW73JW",
-      "NW73JJ",
-      "NW73JL"
+      "NW73JW"
     ],
-    "CustomersOnSupply": 69,
-    "CustomersOffSupply": 16,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 85,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -723,11 +723,11 @@
     }
   ],
   "FullPostcodeData": [
+    "NW73JJ",
+    "NW73JL",
     "NW73JN",
     "NW73JR",
-    "NW73JW",
-    "NW73JJ",
-    "NW73JL"
+    "NW73JW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
