@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-41356-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-41356-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-41356-C",
   "Steps": [
     {
       "Active": true,
@@ -10,7 +10,7 @@
     },
     {
       "Active": false,
-      "Date": "2021-01-28T06:48:31",
+      "Date": "2021-01-28T06:48:00",
       "Message": "<p>We became aware of a power cut at 06:48. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-28T07:40:09",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-28T08:18:58.447",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000a18cINCD",
     "IncidentReference": "INCD-41356-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T06:49:42",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-28T08:18:58.447",
     "EstimatedRestorationDate": "2021-01-28T11:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-28T06:48:31",
+    "ReceivedDate": "2021-01-28T06:48:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 3,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2021-01-28T07:45:00",
       "DispatchedDate": "2021-01-28T07:03:39",
       "ArrivalDate": "2021-01-28T07:40:09",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -86,9 +86,9 @@
       "WD33PN",
       "WD33PW"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 73,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 73,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
