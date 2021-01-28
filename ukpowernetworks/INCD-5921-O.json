@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-5921-O",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-5921-O",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-5921-O",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-28T14:44:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-28T19:30:14.333",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "O00001721INCD",
     "IncidentReference": "INCD-5921-O",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T08:07:57",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-28T19:30:14.333",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-28T08:07:00",
-    "NoCustomerAffected": 18,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -76,9 +76,9 @@
       "IP138DB",
       "IP138DD"
     ],
-    "CustomersOnSupply": 27,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 45,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
