@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-214984-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-214984-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-214984-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-28T10:35:10.157",
-      "Message": "Update at 10:34 - We're sorry your power has gone off again. We are sending our engineers back to the Lifstan Way area to investigate why. Currently, our timeframe for power to be restored is between 12:30 and 13:30, but once our staff arrive on site and assess the situation, this time may change. As there have been other power cuts recently it's difficult to know what repairs will be needed to restore your power safely, so timeframes we provide throughout have to be estimated. The results of our engineer's tests on our network will let us know if our estimate needs to be adjusted, so we'll update you as soon as they have arrived on site and investigated.",
+      "Date": "2021-01-28T10:56:21.897",
+      "Message": "Update at 10:55 - Our engineers have now arrived on site in the Lifstan Way area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. This can involve ground excavations, traffic management equipment or specialist teams. As soon as our staff can safely update us, we'll give you the latest news.",
       "Name": null
     },
     {
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-28T10:35:25",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-28T11:20:39.6000601+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000347c8INCD",
     "IncidentReference": "INCD-214984-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T06:40:32",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-28T11:20:39.6000601+00:00",
     "EstimatedRestorationDate": "2021-01-28T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-28T06:36:00",
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-28T10:34:00",
+        "ActualEventTime": "2021-01-28T10:54:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:34 - We're sorry your power has gone off again. We are sending our engineers back to the Lifstan Way area to investigate why. Currently, our timeframe for power to be restored is between 12:30 and 13:30, but once our staff arrive on site and assess the situation, this time may change. As there have been other power cuts recently it's difficult to know what repairs will be needed to restore your power safely, so timeframes we provide throughout have to be estimated. The results of our engineer's tests on our network will let us know if our estimate needs to be adjusted, so we'll update you as soon as they have arrived on site and investigated.",
-        "LoggedTime": "2021-01-28T10:35:10.157"
+        "Comment": "Update at 10:55 - Our engineers have now arrived on site in the Lifstan Way area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. This can involve ground excavations, traffic management equipment or specialist teams. As soon as our staff can safely update us, we'll give you the latest news.",
+        "LoggedTime": "2021-01-28T10:56:21.897"
       }
     ],
     "PostCodesAffected": [
@@ -82,7 +82,7 @@
     ],
     "CustomersOnSupply": 49,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
