@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-215020-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215020-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215020-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-01-28T13:24:42",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-01-28T18:29:54.16",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z000347ecINCD",
     "IncidentReference": "INCD-215020-Z",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-01-28T09:15:08",
-    "RestoredDateTime": "2021-01-28T18:29:54.16",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-01-28T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-28T09:11:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 8,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2021-01-28T16:30:00",
       "DispatchedDate": "2021-01-28T13:03:40",
       "ArrivalDate": "2021-01-28T13:24:42",
-      "StatusId": 5
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -73,22 +73,22 @@
       "CM13 1"
     ],
     "PostCodesRestored": [
-      "CM131DY",
       "CM131DZ",
-      "CM131EA",
       "CM131EE",
-      "CM131EL"
+      "CM131EL",
+      "CM131DY",
+      "CM131EA"
     ],
     "PostCodesPlanned": [
-      "CM131DY",
       "CM131DZ",
-      "CM131EA",
       "CM131EE",
-      "CM131EL"
+      "CM131EL",
+      "CM131DY",
+      "CM131EA"
     ],
-    "CustomersOnSupply": 46,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "CustomersOnSupply": 38,
+    "CustomersOffSupply": 8,
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -547,15 +547,15 @@
     }
   ],
   "FullPostcodeData": [
-    "CM131DY",
     "CM131DZ",
-    "CM131EA",
     "CM131EE",
-    "CM131EL"
+    "CM131EL",
+    "CM131DY",
+    "CM131EA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "19:30 - 20:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,

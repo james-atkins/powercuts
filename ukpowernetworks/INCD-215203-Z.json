@@ -1,11 +1,17 @@
 {
   "IncidentReference": "INCD-215203-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215203-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215203-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-01-28T19:15:54.093",
+      "Message": "This is UK Power Networks. Due to a safety issue on our electricity network, we may need to switch off some power in your local area. We do normally contact our customers in advance, but as this is for emergency work and in the interest of public safety, we're unable to provide you with much notice. It is a possibility that your power will not be affected by this, if you would like more information call us on 08003163105.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-01-28T19:03:37",
-      "Message": "<p>We became aware of a power cut at 19:03. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-01-28T19:13:00",
+      "Message": "<p>We became aware of a power cut at 19:13. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-28T19:04:46",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-28T19:35:02.37",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000348a3INCD",
     "IncidentReference": "INCD-215203-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T19:03:37",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-28T19:35:02.37",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-28T19:03:37",
+    "ReceivedDate": "2021-01-28T19:13:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-28T19:15:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "This is UK Power Networks. Due to a safety issue on our electricity network, we may need to switch off some power in your local area. We do normally contact our customers in advance, but as this is for emergency work and in the interest of public safety, we're unable to provide you with much notice. It is a possibility that your power will not be affected by this, if you would like more information call us on 08003163105.",
+        "LoggedTime": "2021-01-28T19:15:54.093"
+      }
+    ],
     "PostCodesAffected": [
       "CB8 7"
     ],
@@ -68,9 +82,9 @@
       "CB87DR",
       "CB87SD"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 11,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 11,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
