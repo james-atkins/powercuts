@@ -1,11 +1,17 @@
 {
   "IncidentReference": "INCD-215073-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215073-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215073-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-01-28T12:58:10.313",
+      "Message": "Update at 12:57 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Bells Hill area for safety so they can repair a faulty underground cable. Our estimated time to have your power back on is between 13:00 and 14:00. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-01-28T11:59:45",
-      "Message": "<p>We became aware of a power cut at 11:59. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-01-28T12:33:00",
+      "Message": "<p>We became aware of a power cut at 12:33. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-28T12:02:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-28T13:09:20.82",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034821INCD",
     "IncidentReference": "INCD-215073-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T11:59:45",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-28T13:09:20.82",
     "EstimatedRestorationDate": "2021-01-28T13:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-28T11:59:45",
+    "ReceivedDate": "2021-01-28T12:33:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 1,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-28T12:57:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 12:57 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Bells Hill area for safety so they can repair a faulty underground cable. Our estimated time to have your power back on is between 13:00 and 14:00. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
+        "LoggedTime": "2021-01-28T12:58:10.313"
+      }
+    ],
     "PostCodesAffected": [
       "CM23 2"
     ],
@@ -74,9 +88,9 @@
       "CM232NW",
       "CM232WN"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 63,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 63,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
