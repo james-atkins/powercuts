@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-215205-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215205-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215205-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-28T19:55:01",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-28T20:59:42.697",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000348a5INCD",
     "IncidentReference": "INCD-215205-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T19:16:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-28T20:59:42.697",
     "EstimatedRestorationDate": "2021-01-28T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-28T19:02:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -61,9 +61,9 @@
     ],
     "PostCodesRestored": [
       "AL71BS",
+      "AL71HZ",
       "AL71JU",
       "AL71LA",
-      "AL71HZ",
       "AL71UT",
       "AL73AE",
       "AL73BA",
@@ -86,9 +86,9 @@
     ],
     "PostCodesPlanned": [
       "AL71BS",
+      "AL71HZ",
       "AL71JU",
       "AL71LA",
-      "AL71HZ",
       "AL71UT",
       "AL73AE",
       "AL73BA",
@@ -109,10 +109,10 @@
       "AL73UQ",
       "UK"
     ],
-    "CustomersOnSupply": 157,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 162,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1021,9 +1021,9 @@
   ],
   "FullPostcodeData": [
     "AL71BS",
+    "AL71HZ",
     "AL71JU",
     "AL71LA",
-    "AL71HZ",
     "AL71UT",
     "AL73AE",
     "AL73BA",
