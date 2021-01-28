@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-58161-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-58161-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-58161-N",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-28T19:32:22",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-28T20:49:07.683",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e331INCD",
     "IncidentReference": "INCD-58161-N",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T18:17:59",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-28T20:49:07.683",
     "EstimatedRestorationDate": "2021-01-29T01:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-28T19:25:00",
-    "NoCustomerAffected": 17,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,9 +60,9 @@
       "SW1V 1"
     ],
     "PostCodesRestored": [
+      "SW1P1ED",
       "SW1P1JH",
       "SW1P1JJ",
-      "SW1P1ED",
       "SW1P1JP",
       "SW1P1ZB",
       "SW1V1DX",
@@ -73,9 +73,9 @@
       "SW1V1TN"
     ],
     "PostCodesPlanned": [
+      "SW1P1ED",
       "SW1P1JH",
       "SW1P1JJ",
-      "SW1P1ED",
       "SW1P1JP",
       "SW1P1ZB",
       "SW1V1DX",
@@ -85,9 +85,9 @@
       "SW1V1TH",
       "SW1V1TN"
     ],
-    "CustomersOnSupply": 115,
-    "CustomersOffSupply": 17,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 132,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -768,9 +768,9 @@
     }
   ],
   "FullPostcodeData": [
+    "SW1P1ED",
     "SW1P1JH",
     "SW1P1JJ",
-    "SW1P1ED",
     "SW1P1JP",
     "SW1P1ZB",
     "SW1V1DX",
