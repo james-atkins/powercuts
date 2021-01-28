@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-215113-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215113-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215113-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-01-28T13:39:17",
+      "Date": "2021-01-28T13:39:00",
       "Message": "<p>We became aware of a power cut at 13:39. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-28T13:53:39",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-28T14:26:07.603",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034849INCD",
     "IncidentReference": "INCD-215113-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T13:42:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-28T14:26:07.603",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-28T13:39:17",
+    "ReceivedDate": "2021-01-28T13:39:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
@@ -59,28 +59,28 @@
       "HA6 2"
     ],
     "PostCodesRestored": [
+      "HA62FS",
       "HA62FT",
       "HA62FX",
       "HA62GU",
-      "HA62YL",
-      "HA62FS",
       "HA62YG",
       "HA62YH",
+      "HA62YL",
       "HA62YY"
     ],
     "PostCodesPlanned": [
+      "HA62FS",
       "HA62FT",
       "HA62FX",
       "HA62GU",
-      "HA62YL",
-      "HA62FS",
       "HA62YG",
       "HA62YH",
+      "HA62YL",
       "HA62YY"
     ],
-    "CustomersOnSupply": 48,
-    "CustomersOffSupply": 30,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 78,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -551,13 +551,13 @@
     }
   ],
   "FullPostcodeData": [
+    "HA62FS",
     "HA62FT",
     "HA62FX",
     "HA62GU",
-    "HA62YL",
-    "HA62FS",
     "HA62YG",
     "HA62YH",
+    "HA62YL",
     "HA62YY"
   ],
   "PinLatitude": null,
