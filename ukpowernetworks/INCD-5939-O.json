@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-5939-O",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-5939-O",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-5939-O",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-28T15:39:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-28T22:37:35.697",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "O00001733INCD",
     "IncidentReference": "INCD-5939-O",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T13:18:35",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-28T22:37:35.697",
     "EstimatedRestorationDate": "2021-01-28T22:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-28T13:18:00",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -60,20 +60,20 @@
       "CB4 5"
     ],
     "PostCodesRestored": [
-      "CB245JH",
       "CB245HY",
+      "CB245JH",
       "CB245JJ",
       "CB45JH"
     ],
     "PostCodesPlanned": [
-      "CB245JH",
       "CB245HY",
+      "CB245JH",
       "CB245JJ",
       "CB45JH"
     ],
-    "CustomersOnSupply": 82,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 88,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -281,8 +281,8 @@
     }
   ],
   "FullPostcodeData": [
-    "CB245JH",
     "CB245HY",
+    "CB245JH",
     "CB245JJ",
     "CB45JH"
   ],
