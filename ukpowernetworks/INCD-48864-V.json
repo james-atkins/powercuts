@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-48864-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-48864-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-48864-V",
   "Steps": [
     {
       "Active": true,
@@ -10,7 +10,7 @@
     },
     {
       "Active": false,
-      "Date": "2021-01-28T20:44:25",
+      "Date": "2021-01-28T20:44:00",
       "Message": "<p>We became aware of a power cut at 20:44. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-28T21:52:05",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-28T22:24:02.753",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000bee0INCD",
     "IncidentReference": "INCD-48864-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T20:45:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-28T22:24:02.753",
     "EstimatedRestorationDate": "2021-01-29T01:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-28T20:44:25",
+    "ReceivedDate": "2021-01-28T20:44:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
@@ -86,9 +86,9 @@
       "CR20LN",
       "CR20LT"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 25,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 25,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
