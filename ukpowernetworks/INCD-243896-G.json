@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-243896-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243896-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243896-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-28T09:42:55.75",
-      "Message": "Update at 09:42 - Sorry your power has gone off again today. Our engineers investigated the fault earlier but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers are on the way back to site to further investigate the issue, and we will provide an estimated time frame for power to be back on as soon as possible.",
+      "Date": "2021-01-28T10:11:32.47",
+      "Message": "Update at 10:11 - Our engineers have started arriving back on site to investigate further. We're sorry your power has gone off again. We are aware there is an underlying issue causing the recent power cuts. Due to the nature of the electricity network, the heat created by a developing fault can cause a break in a cable to reseal itself, making it difficult to locate. Our engineers are testing our equipment thoroughly to pinpoint the issue, but this kind of problem may interrupt power multiple times before it's possible for us to fix it.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-28T10:07:58",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-28T10:14:34.823",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b8b8INCD",
     "IncidentReference": "INCD-243896-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T03:10:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-28T10:14:34.823",
     "EstimatedRestorationDate": "2021-01-28T11:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-28T03:08:45",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 22,
+    "NoCallsReported": 23,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-28T09:42:00",
+        "ActualEventTime": "2021-01-28T10:10:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 09:42 - Sorry your power has gone off again today. Our engineers investigated the fault earlier but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers are on the way back to site to further investigate the issue, and we will provide an estimated time frame for power to be back on as soon as possible.",
-        "LoggedTime": "2021-01-28T09:42:55.75"
+        "Comment": "Update at 10:11 - Our engineers have started arriving back on site to investigate further. We're sorry your power has gone off again. We are aware there is an underlying issue causing the recent power cuts. Due to the nature of the electricity network, the heat created by a developing fault can cause a break in a cable to reseal itself, making it difficult to locate. Our engineers are testing our equipment thoroughly to pinpoint the issue, but this kind of problem may interrupt power multiple times before it's possible for us to fix it.",
+        "LoggedTime": "2021-01-28T10:11:32.47"
       }
     ],
     "PostCodesAffected": [
@@ -94,9 +94,9 @@
       "DA117QN",
       "DA117QW"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 121,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 122,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
