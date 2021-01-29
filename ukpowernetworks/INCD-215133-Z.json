@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-215133-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215133-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215133-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-29T01:34:05",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-29T13:24:19.317",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003485dINCD",
     "IncidentReference": "INCD-215133-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T14:39:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-29T13:24:19.317",
     "EstimatedRestorationDate": "2021-01-29T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-28T11:43:00",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 43,
     "Latitude": 0.0,
@@ -73,22 +73,22 @@
       "CM16 7"
     ],
     "PostCodesRestored": [
-      "CM167QU",
-      "CM167RD",
       "CM167FG",
       "CM167HT",
-      "CM167QY"
+      "CM167QU",
+      "CM167QY",
+      "CM167RD"
     ],
     "PostCodesPlanned": [
-      "CM167QU",
-      "CM167RD",
       "CM167FG",
       "CM167HT",
-      "CM167QY"
+      "CM167QU",
+      "CM167QY",
+      "CM167RD"
     ],
-    "CustomersOnSupply": 51,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 61,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -439,11 +439,11 @@
     }
   ],
   "FullPostcodeData": [
-    "CM167QU",
-    "CM167RD",
     "CM167FG",
     "CM167HT",
-    "CM167QY"
+    "CM167QU",
+    "CM167QY",
+    "CM167RD"
   ],
   "PinLatitude": null,
   "PinLongitude": null,

@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-215373-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215373-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215373-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-29T13:37:49.867",
+      "Message": "Update at 3:34 - We believe our engineers have been able to restore power to all 949 customers in the Wymondham area, by diverting power around an overhead fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-29T12:51:16",
@@ -9,40 +15,40 @@
       "Name": "We are restoring customers automatically"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-29T12:54:32",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-01-29T13:25:36",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-29T13:30:13.317",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003494dINCD",
     "IncidentReference": "INCD-215373-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-29T12:51:20",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-29T13:30:13.317",
     "EstimatedRestorationDate": "2021-01-29T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-29T12:51:16",
-    "NoCustomerAffected": 605,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 6,
+    "NoCallsReported": 9,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -50,11 +56,19 @@
       "Name": "MATT (R5)",
       "EstimatedTimeOfArrival": "2021-01-29T13:40:00",
       "DispatchedDate": "2021-01-29T12:54:32",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-01-29T13:25:36",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-29T13:37:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 3:34 - We believe our engineers have been able to restore power to all 949 customers in the Wymondham area, by diverting power around an overhead fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-01-29T13:37:49.867"
+      }
+    ],
     "PostCodesAffected": [
       "IP22 4",
       "N R",
@@ -183,9 +197,9 @@
       "NR189RV",
       "NR199AQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 602,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 602,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -2552,7 +2566,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "14:30 - 15:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
