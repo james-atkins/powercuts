@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-215419-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215419-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215419-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-29T18:06:08.63",
-      "Message": "Update at 18:05 - Our engineers are working to restore your power. With the cold weather, we understand that it can be very concerning to have a power cut as this may have affected your heating. If you have someone in the property who may be more vulnerable to the cold please do not hesitate to call us free on 105. We will do our best to provide additional care and support whilst work continues to get your power back on asap.",
+      "Date": "2021-01-29T19:04:26.593",
+      "Message": "Update at 19:03 - We can now confirm that all power in the Vaughan Way area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-29T16:36:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-29T18:49:31.953",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003497bINCD",
     "IncidentReference": "INCD-215419-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-29T15:13:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-29T18:49:31.953",
     "EstimatedRestorationDate": "2021-01-29T19:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-29T15:13:00",
-    "NoCustomerAffected": 29,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 11,
     "Latitude": 0.0,
@@ -62,26 +62,24 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-29T18:05:00",
+        "ActualEventTime": "2021-01-29T19:03:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 18:05 - Our engineers are working to restore your power. With the cold weather, we understand that it can be very concerning to have a power cut as this may have affected your heating. If you have someone in the property who may be more vulnerable to the cold please do not hesitate to call us free on 105. We will do our best to provide additional care and support whilst work continues to get your power back on asap.",
-        "LoggedTime": "2021-01-29T18:06:08.63"
+        "Comment": "Update at 19:03 - We can now confirm that all power in the Vaughan Way area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-01-29T19:04:26.593"
       }
     ],
     "PostCodesAffected": [
       "PE2 9"
     ],
     "PostCodesRestored": [
+      "PE29AS",
       "PE29BQ",
+      "PE29DA",
       "PE29HA",
       "PE29HD",
       "PE29HE",
       "PE29HF",
-      "PE29QG",
-      "PE29QQ",
-      "PE29AS",
-      "PE29DA",
       "PE29HT",
       "PE29JG",
       "PE29LW",
@@ -90,6 +88,8 @@
       "PE29PN",
       "PE29QA",
       "PE29QF",
+      "PE29QG",
+      "PE29QQ",
       "PE29QU",
       "PE29QW",
       "PE29RD",
@@ -97,15 +97,13 @@
       "PE29SR"
     ],
     "PostCodesPlanned": [
+      "PE29AS",
       "PE29BQ",
+      "PE29DA",
       "PE29HA",
       "PE29HD",
       "PE29HE",
       "PE29HF",
-      "PE29QG",
-      "PE29QQ",
-      "PE29AS",
-      "PE29DA",
       "PE29HT",
       "PE29JG",
       "PE29LW",
@@ -114,15 +112,17 @@
       "PE29PN",
       "PE29QA",
       "PE29QF",
+      "PE29QG",
+      "PE29QQ",
       "PE29QU",
       "PE29QW",
       "PE29RD",
       "PE29SN",
       "PE29SR"
     ],
-    "CustomersOnSupply": 121,
-    "CustomersOffSupply": 88,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 209,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -493,15 +493,13 @@
     }
   ],
   "FullPostcodeData": [
+    "PE29AS",
     "PE29BQ",
+    "PE29DA",
     "PE29HA",
     "PE29HD",
     "PE29HE",
     "PE29HF",
-    "PE29QG",
-    "PE29QQ",
-    "PE29AS",
-    "PE29DA",
     "PE29HT",
     "PE29JG",
     "PE29LW",
@@ -510,6 +508,8 @@
     "PE29PN",
     "PE29QA",
     "PE29QF",
+    "PE29QG",
+    "PE29QQ",
     "PE29QU",
     "PE29QW",
     "PE29RD",
