@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-215217-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215217-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215217-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-28T21:19:04",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-29T03:42:33.057",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000348b1INCD",
     "IncidentReference": "INCD-215217-Z",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T20:06:56",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-29T03:42:33.057",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-28T19:59:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "SS1 2"
     ],
     "PostCodesRestored": [
-      "SS12EJ",
       "SS12AJ",
-      "SS12EH"
+      "SS12EH",
+      "SS12EJ"
     ],
     "PostCodesPlanned": [
-      "SS12EJ",
       "SS12AJ",
-      "SS12EH"
+      "SS12EH",
+      "SS12EJ"
     ],
-    "CustomersOnSupply": 8,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 11,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -561,13 +561,13 @@
     }
   ],
   "FullPostcodeData": [
-    "SS12EJ",
     "SS12AJ",
-    "SS12EH"
+    "SS12EH",
+    "SS12EJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
