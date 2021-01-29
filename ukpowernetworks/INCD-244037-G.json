@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-244037-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244037-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244037-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-29T13:55:47",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-29T21:29:36.41",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b945INCD",
     "IncidentReference": "INCD-244037-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-29T12:29:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-29T21:29:36.41",
     "EstimatedRestorationDate": "2021-01-29T23:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-29T12:26:00",
-    "NoCustomerAffected": 11,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -74,9 +74,6 @@
       "RH13 8"
     ],
     "PostCodesRestored": [
-      "RH138BL",
-      "RH138BN",
-      "RH138DS",
       "RH137AA",
       "RH137AH",
       "RH137AP",
@@ -87,15 +84,15 @@
       "RH137HE",
       "RH137JQ",
       "RH138AA",
+      "RH138BL",
+      "RH138BN",
       "RH138BP",
       "RH138BT",
       "RH138BY",
+      "RH138DS",
       "RH138DZ"
     ],
     "PostCodesPlanned": [
-      "RH138BL",
-      "RH138BN",
-      "RH138DS",
       "RH137AA",
       "RH137AH",
       "RH137AP",
@@ -106,15 +103,18 @@
       "RH137HE",
       "RH137JQ",
       "RH138AA",
+      "RH138BL",
+      "RH138BN",
       "RH138BP",
       "RH138BT",
       "RH138BY",
+      "RH138DS",
       "RH138DZ"
     ],
-    "CustomersOnSupply": 32,
-    "CustomersOffSupply": 34,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 66,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -525,9 +525,6 @@
     }
   ],
   "FullPostcodeData": [
-    "RH138BL",
-    "RH138BN",
-    "RH138DS",
     "RH137AA",
     "RH137AH",
     "RH137AP",
@@ -538,9 +535,12 @@
     "RH137HE",
     "RH137JQ",
     "RH138AA",
+    "RH138BL",
+    "RH138BN",
     "RH138BP",
     "RH138BT",
     "RH138BY",
+    "RH138DS",
     "RH138DZ"
   ],
   "PinLatitude": null,
