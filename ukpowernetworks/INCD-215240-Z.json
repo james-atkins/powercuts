@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-215240-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215240-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215240-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-29T01:33:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-29T02:19:20.197",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000348c8INCD",
     "IncidentReference": "INCD-215240-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-29T00:52:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-29T02:19:20.197",
     "EstimatedRestorationDate": "2021-01-29T04:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-29T00:51:00",
-    "NoCustomerAffected": 30,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2021-01-29T01:45:00",
       "DispatchedDate": "2021-01-29T01:17:17",
       "ArrivalDate": "2021-01-29T01:33:53",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -74,28 +74,28 @@
     ],
     "PostCodesRestored": [
       "EN55EY",
+      "EN55HB",
       "EN55HG",
       "EN55HH",
       "EN55HJ",
       "EN55HL",
       "EN55HQ",
-      "EN55JR",
-      "EN55HB"
+      "EN55JR"
     ],
     "PostCodesPlanned": [
       "EN55EY",
+      "EN55HB",
       "EN55HG",
       "EN55HH",
       "EN55HJ",
       "EN55HL",
       "EN55HQ",
-      "EN55JR",
-      "EN55HB"
+      "EN55JR"
     ],
-    "CustomersOnSupply": 4,
-    "CustomersOffSupply": 91,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 95,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -670,13 +670,13 @@
   ],
   "FullPostcodeData": [
     "EN55EY",
+    "EN55HB",
     "EN55HG",
     "EN55HH",
     "EN55HJ",
     "EN55HL",
     "EN55HQ",
-    "EN55JR",
-    "EN55HB"
+    "EN55JR"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
