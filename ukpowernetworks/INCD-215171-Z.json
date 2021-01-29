@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-215171-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215171-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215171-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-28T21:12:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-29T00:25:44.057",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034883INCD",
     "IncidentReference": "INCD-215171-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T16:26:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-29T00:25:44.057",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-28T16:09:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "EN3 5"
     ],
     "PostCodesRestored": [
-      "EN35XH",
       "EN35SS",
       "EN35UN",
-      "EN35UT"
+      "EN35UT",
+      "EN35XH"
     ],
     "PostCodesPlanned": [
-      "EN35XH",
       "EN35SS",
       "EN35UN",
-      "EN35UT"
+      "EN35UT",
+      "EN35XH"
     ],
-    "CustomersOnSupply": 36,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 37,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -671,10 +671,10 @@
     }
   ],
   "FullPostcodeData": [
-    "EN35XH",
     "EN35SS",
     "EN35UN",
-    "EN35UT"
+    "EN35UT",
+    "EN35XH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
