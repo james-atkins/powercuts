@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-215256-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215256-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215256-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-29T04:29:39",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-29T05:30:16.423",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000348d8INCD",
     "IncidentReference": "INCD-215256-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-29T03:43:40",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-29T05:30:16.423",
     "EstimatedRestorationDate": "2021-01-29T06:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-29T03:35:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,10 +60,10 @@
       "CM21 9"
     ],
     "PostCodesRestored": [
-      "CM210EB",
       "CM210DY",
       "CM210DZ",
       "CM210EA",
+      "CM210EB",
       "CM219AR",
       "CM219EH",
       "CM219EN",
@@ -82,10 +82,10 @@
       "CM219QE"
     ],
     "PostCodesPlanned": [
-      "CM210EB",
       "CM210DY",
       "CM210DZ",
       "CM210EA",
+      "CM210EB",
       "CM219AR",
       "CM219EH",
       "CM219EN",
@@ -103,10 +103,10 @@
       "CM219QD",
       "CM219QE"
     ],
-    "CustomersOnSupply": 169,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 171,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -838,10 +838,10 @@
     }
   ],
   "FullPostcodeData": [
-    "CM210EB",
     "CM210DY",
     "CM210DZ",
     "CM210EA",
+    "CM210EB",
     "CM219AR",
     "CM219EH",
     "CM219EN",
