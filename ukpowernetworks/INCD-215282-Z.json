@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-215282-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215282-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215282-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-01-29T12:10:54.57",
+      "Message": "Update at 12:10 - Our engineers have investigated and found that the power is off due to a fault on our underground network which has affected our substation equipment. We're sending a specialist team to pinpoint the fault, and dig down to expose the cabling for repairs. Considering the work that may be required, the revised estimated time to have the power back on is between 15:30 and 16:30. We're sorry to change the time, we will keep you updated.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-29T08:02:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-29T09:55:22",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-29T12:25:45.573",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000348f2INCD",
     "IncidentReference": "INCD-215282-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-29T08:03:47",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-01-29T12:00:00",
+    "RestoredDateTime": "2021-01-29T12:25:45.573",
+    "EstimatedRestorationDate": "2021-01-29T17:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-29T08:02:00",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-01-29T12:10:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 12:10 - Our engineers have investigated and found that the power is off due to a fault on our underground network which has affected our substation equipment. We're sending a specialist team to pinpoint the fault, and dig down to expose the cabling for repairs. Considering the work that may be required, the revised estimated time to have the power back on is between 15:30 and 16:30. We're sorry to change the time, we will keep you updated.",
+        "LoggedTime": "2021-01-29T12:10:54.57"
+      }
+    ],
     "PostCodesAffected": [
       "CO10 1",
       "CO10 2"
@@ -75,9 +89,9 @@
       "CO102EF",
       "CO102TP"
     ],
-    "CustomersOnSupply": 2,
-    "CustomersOffSupply": 28,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 30,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1032,7 +1046,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "11:30 - 12:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "16:30 - 17:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
