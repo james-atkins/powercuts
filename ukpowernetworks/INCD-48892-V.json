@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-48892-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-48892-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-48892-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-30T09:09:21",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-30T12:43:30.65",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000befcINCD",
     "IncidentReference": "INCD-48892-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 28,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-29T13:17:48",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-30T12:43:30.65",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-29T13:15:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 20,
     "Latitude": 0.0,
@@ -60,7 +60,6 @@
       "CT5 4"
     ],
     "PostCodesRestored": [
-      "CT51RS",
       "CT51QJ",
       "CT51QL",
       "CT51QQ",
@@ -69,13 +68,13 @@
       "CT51RL",
       "CT51RN",
       "CT51RP",
+      "CT51RS",
       "CT51RW",
       "CT51SJ",
       "CT54RH",
       "CT54RX"
     ],
     "PostCodesPlanned": [
-      "CT51RS",
       "CT51QJ",
       "CT51QL",
       "CT51QQ",
@@ -84,14 +83,15 @@
       "CT51RL",
       "CT51RN",
       "CT51RP",
+      "CT51RS",
       "CT51RW",
       "CT51SJ",
       "CT54RH",
       "CT54RX"
     ],
-    "CustomersOnSupply": 152,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 153,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1104,7 +1104,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CT51RS",
     "CT51QJ",
     "CT51QL",
     "CT51QQ",
@@ -1113,6 +1112,7 @@
     "CT51RL",
     "CT51RN",
     "CT51RP",
+    "CT51RS",
     "CT51RW",
     "CT51SJ",
     "CT54RH",
