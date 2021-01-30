@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-215667-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215667-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215667-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-30T14:13:32",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-30T18:08:16.593",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034a73INCD",
     "IncidentReference": "INCD-215667-Z",
     "IncidentCategory": "108",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-30T14:04:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-30T18:08:16.593",
     "EstimatedRestorationDate": "2021-01-30T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-30T14:34:00",
-    "NoCustomerAffected": 16,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -60,28 +60,28 @@
       "CM16 5"
     ],
     "PostCodesRestored": [
+      "CM164AA",
       "CM164AQ",
       "CM164BL",
-      "CM164BQ",
-      "CM165DN",
-      "CM164AA",
       "CM164BP",
+      "CM164BQ",
       "CM164DA",
-      "CM164FA"
+      "CM164FA",
+      "CM165DN"
     ],
     "PostCodesPlanned": [
+      "CM164AA",
       "CM164AQ",
       "CM164BL",
-      "CM164BQ",
-      "CM165DN",
-      "CM164AA",
       "CM164BP",
+      "CM164BQ",
       "CM164DA",
-      "CM164FA"
+      "CM164FA",
+      "CM165DN"
     ],
-    "CustomersOnSupply": 14,
-    "CustomersOffSupply": 16,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 30,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -806,14 +806,14 @@
     }
   ],
   "FullPostcodeData": [
+    "CM164AA",
     "CM164AQ",
     "CM164BL",
-    "CM164BQ",
-    "CM165DN",
-    "CM164AA",
     "CM164BP",
+    "CM164BQ",
     "CM164DA",
-    "CM164FA"
+    "CM164FA",
+    "CM165DN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
