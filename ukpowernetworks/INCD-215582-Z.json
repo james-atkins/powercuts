@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-215582-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215582-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215582-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-30T10:29:53.75",
-      "Message": "Update at 10:29 - Engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the Derry Avenue area. We did not know this was going to happen, so timeframes we provide throughout are estimated, and are subject to change. Our estimate is currently between 13:30 and 14:30. After we arrive on site and assess the situation, this time may change. The reason for this is there can sometimes be a more complex underlying issue found from our engineers tests which may take longer, and if there is not we may get power back on sooner. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
+      "Date": "2021-01-30T11:52:49.43",
+      "Message": "Update at 11:52 - Our engineers have arrived on site in the Derry Avenue area, the estimated time hasn't changed. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government guidelines about social distancing when interacting with our staff. If you would like more information about what we think the fault is; here's a short YouTube video <a href=\"https://bit.ly/2y8Dtfz.\" target=\"_blank\">https://bit.ly/2y8Dtfz.</a>",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2021-01-30T08:57:19",
+      "Date": "2021-01-30T08:57:00",
       "Message": "<p>We became aware of a power cut at 08:57. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-30T11:46:12",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-30T12:10:06.503",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034a1eINCD",
     "IncidentReference": "INCD-215582-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-30T09:00:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-30T12:10:06.503",
     "EstimatedRestorationDate": "2021-01-30T14:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-01-30T08:57:19",
+    "ReceivedDate": "2021-01-30T08:57:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-30T10:29:00",
+        "ActualEventTime": "2021-01-30T11:52:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:29 - Engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the Derry Avenue area. We did not know this was going to happen, so timeframes we provide throughout are estimated, and are subject to change. Our estimate is currently between 13:30 and 14:30. After we arrive on site and assess the situation, this time may change. The reason for this is there can sometimes be a more complex underlying issue found from our engineers tests which may take longer, and if there is not we may get power back on sooner. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
-        "LoggedTime": "2021-01-30T10:29:53.75"
+        "Comment": "Update at 11:52 - Our engineers have arrived on site in the Derry Avenue area, the estimated time hasn't changed. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government guidelines about social distancing when interacting with our staff. If you would like more information about what we think the fault is; here's a short YouTube video https://bit.ly/2y8Dtfz.",
+        "LoggedTime": "2021-01-30T11:52:49.43"
       }
     ],
     "PostCodesAffected": [
@@ -75,20 +75,24 @@
     "PostCodesRestored": [
       "RM155DU",
       "RM155DZ",
+      "RM155EH",
       "RM155EJ",
       "RM155GN",
-      "RM155LN"
+      "RM155LN",
+      "RM155LS"
     ],
     "PostCodesPlanned": [
       "RM155DU",
       "RM155DZ",
+      "RM155EH",
       "RM155EJ",
       "RM155GN",
-      "RM155LN"
+      "RM155LN",
+      "RM155LS"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 36,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 46,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -421,9 +425,11 @@
   "FullPostcodeData": [
     "RM155DU",
     "RM155DZ",
+    "RM155EH",
     "RM155EJ",
     "RM155GN",
-    "RM155LN"
+    "RM155LN",
+    "RM155LS"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
