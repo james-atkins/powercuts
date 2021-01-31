@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-215886-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215886-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215886-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-31T16:46:41",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-31T23:30:09.893",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034b4eINCD",
     "IncidentReference": "INCD-215886-Z",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-31T15:24:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-31T23:30:09.893",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-31T15:17:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -74,22 +74,22 @@
       "N14 5"
     ],
     "PostCodesRestored": [
-      "N145RA",
       "N143BF",
       "N145BY",
       "N145HD",
-      "N145PP"
+      "N145PP",
+      "N145RA"
     ],
     "PostCodesPlanned": [
-      "N145RA",
       "N143BF",
       "N145BY",
       "N145HD",
-      "N145PP"
+      "N145PP",
+      "N145RA"
     ],
-    "CustomersOnSupply": 34,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 35,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -597,15 +597,15 @@
     }
   ],
   "FullPostcodeData": [
-    "N145RA",
     "N143BF",
     "N145BY",
     "N145HD",
-    "N145PP"
+    "N145PP",
+    "N145RA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
