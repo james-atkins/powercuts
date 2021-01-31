@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-254966-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-254966-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-254966-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-01-31T08:45:39.4",
-      "Message": "Update at 08:44 - Our engineers are on their way. At this point we think the issue is a faulty underground cable that initially interrupted power to 2,560 properties. However, by rerouting electricity in the area, currently 361 customers are still affected. Using an average timescale, we're estimating power will be on between 10:00 and 11:00, but this may change later. Power back on? To stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
+      "Date": "2021-01-31T10:18:52.74",
+      "Message": "Update at 10:18 - We believe our engineers have been able to restore power to all 2,560 customers in the E14 3/8 area, by diverting power around the faulty underground cable. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be,so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -15,7 +15,7 @@
       "Name": "We are restoring customers automatically"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-31T08:39:58",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
@@ -23,30 +23,30 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-31T10:13:19.26",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003e3f6INCD",
     "IncidentReference": "INCD-254966-J",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-31T08:32:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-31T10:13:19.26",
     "EstimatedRestorationDate": "2021-01-31T10:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-31T08:32:06",
-    "NoCustomerAffected": 124,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-01-31T08:44:00",
+        "ActualEventTime": "2021-01-31T10:17:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 08:44 - Our engineers are on their way. At this point we think the issue is a faulty underground cable that initially interrupted power to 2,560 properties. However, by rerouting electricity in the area, currently 361 customers are still affected. Using an average timescale, we're estimating power will be on between 10:00 and 11:00, but this may change later. Power back on? To stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
-        "LoggedTime": "2021-01-31T08:45:39.4"
+        "Comment": "Update at 10:18 - We believe our engineers have been able to restore power to all 2,560 customers in the E14 3/8 area, by diverting power around the faulty underground cable. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be,so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-01-31T10:18:52.74"
       }
     ],
     "PostCodesAffected": [
@@ -83,9 +83,6 @@
       "SW6 3"
     ],
     "PostCodesRestored": [
-      "E143RY",
-      "E143SS",
-      "E143ST",
       "BR14PB",
       "DA146SH",
       "DA81LL",
@@ -122,12 +119,15 @@
       "E143RS",
       "E143RU",
       "E143RX",
+      "E143RY",
       "E143SB",
       "E143SD",
       "E143SE",
       "E143SF",
       "E143SN",
       "E143SP",
+      "E143SS",
+      "E143ST",
       "E143TA",
       "E143TB",
       "E143TD",
@@ -184,9 +184,6 @@
       "SW63PS"
     ],
     "PostCodesPlanned": [
-      "E143RY",
-      "E143SS",
-      "E143ST",
       "BR14PB",
       "DA146SH",
       "DA81LL",
@@ -223,12 +220,15 @@
       "E143RS",
       "E143RU",
       "E143RX",
+      "E143RY",
       "E143SB",
       "E143SD",
       "E143SE",
       "E143SF",
       "E143SN",
       "E143SP",
+      "E143SS",
+      "E143ST",
       "E143TA",
       "E143TB",
       "E143TD",
@@ -284,10 +284,10 @@
       "SW181PL",
       "SW63PS"
     ],
-    "CustomersOnSupply": 2439,
-    "CustomersOffSupply": 124,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 2563,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -304,75 +304,6 @@
     "SW6 3"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.49242,
-        "lng": -0.0004
-      },
-      "Coordinates": [
-        {
-          "lat": 51.49582,
-          "lng": -0.00215
-        },
-        {
-          "lat": 51.49461,
-          "lng": -0.0007
-        },
-        {
-          "lat": 51.49459,
-          "lng": -0.00066
-        },
-        {
-          "lat": 51.49412,
-          "lng": -0.0006
-        },
-        {
-          "lat": 51.49342,
-          "lng": -0.00043
-        },
-        {
-          "lat": 51.49189,
-          "lng": 0.00031
-        },
-        {
-          "lat": 51.49104,
-          "lng": 0.00132
-        },
-        {
-          "lat": 51.48978,
-          "lng": 0.00029
-        },
-        {
-          "lat": 51.48941,
-          "lng": 0.00015
-        },
-        {
-          "lat": 51.48981,
-          "lng": 1e-05
-        },
-        {
-          "lat": 51.49179,
-          "lng": -0.00071
-        },
-        {
-          "lat": 51.49325,
-          "lng": -0.00123
-        },
-        {
-          "lat": 51.49388,
-          "lng": -0.00146
-        },
-        {
-          "lat": 51.49436,
-          "lng": -0.00163
-        },
-        {
-          "lat": 51.49582,
-          "lng": -0.00215
-        }
-      ],
-      "Postcode": "E14 3"
-    },
     {
       "Center": {
         "lat": 51.41883,
@@ -1691,6 +1622,75 @@
         }
       ],
       "Postcode": "DA8 1"
+    },
+    {
+      "Center": {
+        "lat": 51.49242,
+        "lng": -0.0004
+      },
+      "Coordinates": [
+        {
+          "lat": 51.49582,
+          "lng": -0.00215
+        },
+        {
+          "lat": 51.49461,
+          "lng": -0.0007
+        },
+        {
+          "lat": 51.49459,
+          "lng": -0.00066
+        },
+        {
+          "lat": 51.49412,
+          "lng": -0.0006
+        },
+        {
+          "lat": 51.49342,
+          "lng": -0.00043
+        },
+        {
+          "lat": 51.49189,
+          "lng": 0.00031
+        },
+        {
+          "lat": 51.49104,
+          "lng": 0.00132
+        },
+        {
+          "lat": 51.48978,
+          "lng": 0.00029
+        },
+        {
+          "lat": 51.48941,
+          "lng": 0.00015
+        },
+        {
+          "lat": 51.48981,
+          "lng": 1e-05
+        },
+        {
+          "lat": 51.49179,
+          "lng": -0.00071
+        },
+        {
+          "lat": 51.49325,
+          "lng": -0.00123
+        },
+        {
+          "lat": 51.49388,
+          "lng": -0.00146
+        },
+        {
+          "lat": 51.49436,
+          "lng": -0.00163
+        },
+        {
+          "lat": 51.49582,
+          "lng": -0.00215
+        }
+      ],
+      "Postcode": "E14 3"
     },
     {
       "Center": {
@@ -6221,9 +6221,6 @@
     }
   ],
   "FullPostcodeData": [
-    "E143RY",
-    "E143SS",
-    "E143ST",
     "BR14PB",
     "DA146SH",
     "DA81LL",
@@ -6260,12 +6257,15 @@
     "E143RS",
     "E143RU",
     "E143RX",
+    "E143RY",
     "E143SB",
     "E143SD",
     "E143SE",
     "E143SF",
     "E143SN",
     "E143SP",
+    "E143SS",
+    "E143ST",
     "E143TA",
     "E143TB",
     "E143TD",
