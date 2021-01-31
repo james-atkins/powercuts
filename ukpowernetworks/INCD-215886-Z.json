@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-215886-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215886-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215886-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-01-31T16:46:41",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-01-31T18:02:17.703",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z00034b4eINCD",
     "IncidentReference": "INCD-215886-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-01-31T15:24:16",
-    "RestoredDateTime": "2021-01-31T18:02:17.703",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-01-31T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-31T15:17:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 1,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 6,
+    "NoCallsReported": 7,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -74,22 +74,22 @@
       "N14 5"
     ],
     "PostCodesRestored": [
+      "N145RA",
       "N143BF",
       "N145BY",
       "N145HD",
-      "N145PP",
-      "N145RA"
+      "N145PP"
     ],
     "PostCodesPlanned": [
+      "N145RA",
       "N143BF",
       "N145BY",
       "N145HD",
-      "N145PP",
-      "N145RA"
+      "N145PP"
     ],
-    "CustomersOnSupply": 35,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "CustomersOnSupply": 34,
+    "CustomersOffSupply": 1,
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -597,11 +597,11 @@
     }
   ],
   "FullPostcodeData": [
+    "N145RA",
     "N143BF",
     "N145BY",
     "N145HD",
-    "N145PP",
-    "N145RA"
+    "N145PP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
