@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-244144-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244144-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244144-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-31T11:49:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-01-31T16:12:42.477",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b9b0INCD",
     "IncidentReference": "INCD-244144-G",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 29,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-31T10:00:09",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-01-31T16:12:42.477",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-31T09:59:56",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -73,7 +73,6 @@
       "KT10 9"
     ],
     "PostCodesRestored": [
-      "KT109LY",
       "KT109HE",
       "KT109HF",
       "KT109HG",
@@ -87,10 +86,10 @@
       "KT109JW",
       "KT109LT",
       "KT109LX",
+      "KT109LY",
       "KT109PH"
     ],
     "PostCodesPlanned": [
-      "KT109LY",
       "KT109HE",
       "KT109HF",
       "KT109HG",
@@ -104,12 +103,13 @@
       "KT109JW",
       "KT109LT",
       "KT109LX",
+      "KT109LY",
       "KT109PH"
     ],
-    "CustomersOnSupply": 136,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 138,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -715,7 +715,6 @@
     }
   ],
   "FullPostcodeData": [
-    "KT109LY",
     "KT109HE",
     "KT109HF",
     "KT109HG",
@@ -729,6 +728,7 @@
     "KT109JW",
     "KT109LT",
     "KT109LX",
+    "KT109LY",
     "KT109PH"
   ],
   "PinLatitude": null,
