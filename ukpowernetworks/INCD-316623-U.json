@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-316623-U",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-316623-U",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-316623-U",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-02-01T13:02:54.53",
+      "Message": "Update at 13:01 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Faversham, ME13 0 area for safety so they can safely repair a fault on the underground network. Our estimated time to have your power back on is between 15:30 and 16:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-02-01T09:40:07",
@@ -15,29 +21,29 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-01T10:58:06",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-01T13:03:05.843",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "U0004d4cfINCD",
     "IncidentReference": "INCD-316623-U",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-01T09:43:18",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-02-01T13:03:05.843",
+    "EstimatedRestorationDate": "2021-02-01T16:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-01T09:40:07",
     "NoCustomerAffected": 0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-01T13:01:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 13:01 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Faversham, ME13 0 area for safety so they can safely repair a fault on the underground network. Our estimated time to have your power back on is between 15:30 and 16:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
+        "LoggedTime": "2021-02-01T13:02:54.53"
+      }
+    ],
     "PostCodesAffected": [
       "M E",
       "ME13 0",
@@ -119,9 +133,9 @@
       "ME139BP",
       "ME199JX"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 124,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 124,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1802,7 +1816,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "An underground electricity cable faulted on our high voltage network, causing an area wide power cut.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "15:30 - 16:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
