@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-244134-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244134-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244134-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-31T07:05:04",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-01T02:40:39.743",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003b9a6INCD",
     "IncidentReference": "INCD-244134-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 32,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-31T04:29:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-01T02:40:39.743",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-31T04:28:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -73,8 +73,8 @@
       "DA3 7"
     ],
     "PostCodesRestored": [
-      "DA37HF",
       "DA37HB",
+      "DA37HF",
       "DA37HS",
       "DA37HT",
       "DA37HU",
@@ -82,17 +82,17 @@
       "DA37HY"
     ],
     "PostCodesPlanned": [
-      "DA37HF",
       "DA37HB",
+      "DA37HF",
       "DA37HS",
       "DA37HT",
       "DA37HU",
       "DA37HX",
       "DA37HY"
     ],
-    "CustomersOnSupply": 53,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 54,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -511,8 +511,8 @@
     }
   ],
   "FullPostcodeData": [
-    "DA37HF",
     "DA37HB",
+    "DA37HF",
     "DA37HS",
     "DA37HT",
     "DA37HU",
