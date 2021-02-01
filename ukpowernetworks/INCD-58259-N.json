@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-58259-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-58259-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-58259-N",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-01T21:15:52.99",
-      "Message": "Update at 21:15 - We're sorry your power has gone off again. We know there is an underlying issue causing the recent power cuts, but due to the nature of the electricity network, the heat created by a developing fault can cause a break in a cable to reseal itself. This can make it difficult to locate, so while our engineers are testing our equipment thoroughly to pinpoint the issue, this kind of problem may interrupt power multiple times before it's possible for us to fix. We know that our customers are more worried than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. We'll keep you updated.",
+      "Date": "2021-02-01T21:20:31.673",
+      "Message": "Update at 21:20 - We can now confirm that all power in the Boyd Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-01T20:39:12",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-01T22:52:28.48",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e393INCD",
     "IncidentReference": "INCD-58259-N",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-01T19:18:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-01T22:52:28.48",
     "EstimatedRestorationDate": "2021-02-01T22:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-01T19:14:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 41,
+    "NoCallsReported": 42,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-01T21:15:00",
+        "ActualEventTime": "2021-02-01T21:20:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 21:15 - We're sorry your power has gone off again. We know there is an underlying issue causing the recent power cuts, but due to the nature of the electricity network, the heat created by a developing fault can cause a break in a cable to reseal itself. This can make it difficult to locate, so while our engineers are testing our equipment thoroughly to pinpoint the issue, this kind of problem may interrupt power multiple times before it's possible for us to fix. We know that our customers are more worried than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. We'll keep you updated.",
-        "LoggedTime": "2021-02-01T21:15:52.99"
+        "Comment": "Update at 21:20 - We can now confirm that all power in the Boyd Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-01T21:20:31.673"
       }
     ],
     "PostCodesAffected": [
@@ -90,6 +90,7 @@
       "SW192AU",
       "SW192AX",
       "SW192BN",
+      "SW192BY",
       "SW192BZ",
       "SW192DA",
       "SW192DB",
@@ -97,11 +98,10 @@
       "SW192DF",
       "SW192DG",
       "SW192DH",
+      "SW192DJ",
       "SW192JE",
       "SW192JF",
-      "UK",
-      "SW192BY",
-      "SW192DJ"
+      "UK"
     ],
     "PostCodesPlanned": [
       "E182LL",
@@ -118,6 +118,7 @@
       "SW192AU",
       "SW192AX",
       "SW192BN",
+      "SW192BY",
       "SW192BZ",
       "SW192DA",
       "SW192DB",
@@ -125,15 +126,14 @@
       "SW192DF",
       "SW192DG",
       "SW192DH",
+      "SW192DJ",
       "SW192JE",
       "SW192JF",
-      "UK",
-      "SW192BY",
-      "SW192DJ"
+      "UK"
     ],
-    "CustomersOnSupply": 138,
-    "CustomersOffSupply": 280,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 418,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -2852,6 +2852,7 @@
     "SW192AU",
     "SW192AX",
     "SW192BN",
+    "SW192BY",
     "SW192BZ",
     "SW192DA",
     "SW192DB",
@@ -2859,11 +2860,10 @@
     "SW192DF",
     "SW192DG",
     "SW192DH",
+    "SW192DJ",
     "SW192JE",
     "SW192JF",
-    "UK",
-    "SW192BY",
-    "SW192DJ"
+    "UK"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
