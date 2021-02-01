@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-215444-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215444-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215444-Z",
   "Steps": [
     {
       "Active": true,
@@ -15,7 +15,7 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-29T19:46:20",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
@@ -23,30 +23,30 @@
     {
       "Active": false,
       "Date": "2021-01-29T21:04:17",
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-01T00:11:01.81",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034994INCD",
     "IncidentReference": "INCD-215444-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 2,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-29T16:25:42",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-01T00:11:01.81",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-29T16:23:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 21,
     "Latitude": 0.0,
@@ -73,18 +73,18 @@
       "N12 7"
     ],
     "PostCodesRestored": [
-      "N127AD",
       "N127AB",
+      "N127AD",
       "N127AE"
     ],
     "PostCodesPlanned": [
-      "N127AD",
       "N127AB",
+      "N127AD",
       "N127AE"
     ],
-    "CustomersOnSupply": 43,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 44,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -447,8 +447,8 @@
     }
   ],
   "FullPostcodeData": [
-    "N127AD",
     "N127AB",
+    "N127AD",
     "N127AE"
   ],
   "PinLatitude": null,
