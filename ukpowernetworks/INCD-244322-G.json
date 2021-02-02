@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-244322-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244322-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244322-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-02T16:19:06",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-02T19:51:52.427",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003ba62INCD",
     "IncidentReference": "INCD-244322-G",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-02T16:16:09",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-02T19:51:52.427",
     "EstimatedRestorationDate": "2021-02-03T01:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-02T14:45:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -59,28 +59,28 @@
       "CT13 0"
     ],
     "PostCodesRestored": [
-      "CT130QU",
       "CT130AR",
       "CT130BH",
       "CT130BS",
       "CT130BT",
       "CT130BU",
       "CT130BX",
-      "CT130BY"
+      "CT130BY",
+      "CT130QU"
     ],
     "PostCodesPlanned": [
-      "CT130QU",
       "CT130AR",
       "CT130BH",
       "CT130BS",
       "CT130BT",
       "CT130BU",
       "CT130BX",
-      "CT130BY"
+      "CT130BY",
+      "CT130QU"
     ],
-    "CustomersOnSupply": 51,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 54,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -419,14 +419,14 @@
     }
   ],
   "FullPostcodeData": [
-    "CT130QU",
     "CT130AR",
     "CT130BH",
     "CT130BS",
     "CT130BT",
     "CT130BU",
     "CT130BX",
-    "CT130BY"
+    "CT130BY",
+    "CT130QU"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
