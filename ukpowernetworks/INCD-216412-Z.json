@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-216412-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-216412-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-216412-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-02T19:13:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-02T21:01:43.523",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034d5cINCD",
     "IncidentReference": "INCD-216412-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-02T18:57:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-02T21:01:43.523",
     "EstimatedRestorationDate": "2021-02-02T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-02T18:55:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "IP4 1"
     ],
     "PostCodesRestored": [
+      "IP41ED",
       "IP41EG",
-      "IP41EJ",
-      "IP41ED"
+      "IP41EJ"
     ],
     "PostCodesPlanned": [
+      "IP41ED",
       "IP41EG",
-      "IP41EJ",
-      "IP41ED"
+      "IP41EJ"
     ],
-    "CustomersOnSupply": 8,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 12,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -609,9 +609,9 @@
     }
   ],
   "FullPostcodeData": [
+    "IP41ED",
     "IP41EG",
-    "IP41EJ",
-    "IP41ED"
+    "IP41EJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
