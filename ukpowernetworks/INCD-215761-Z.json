@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-215761-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215761-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215761-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-02T08:33:09",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-02T16:18:22.95",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034ad1INCD",
     "IncidentReference": "INCD-215761-Z",
     "IncidentCategory": "108",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-30T23:58:26",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-02T16:18:22.95",
     "EstimatedRestorationDate": "2021-02-02T16:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-31T00:00:00",
-    "NoCustomerAffected": 17,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -60,19 +60,19 @@
     ],
     "PostCodesRestored": [
       "CM28RS",
-      "CM28SE",
       "CM28SB",
+      "CM28SE",
       "CM28SF"
     ],
     "PostCodesPlanned": [
       "CM28RS",
-      "CM28SE",
       "CM28SB",
+      "CM28SE",
       "CM28SF"
     ],
-    "CustomersOnSupply": 25,
-    "CustomersOffSupply": 17,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 42,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -832,8 +832,8 @@
   ],
   "FullPostcodeData": [
     "CM28RS",
-    "CM28SE",
     "CM28SB",
+    "CM28SE",
     "CM28SF"
   ],
   "PinLatitude": null,
