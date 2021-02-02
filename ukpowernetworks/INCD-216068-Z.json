@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-216068-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-216068-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-216068-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-01T22:22:50.447",
-      "Message": "Update at 22:21 - Hi, it's Talie from the text messaging team and I'll be taking over Will to keep you updated. It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers are continuing with their repairs to the underground cabling however the repairs are more extensive than first thought. Therefore, we're now aiming to restore supplies between 23:00 and 00:00. We're sorry we've had to change the estimated time, but we'll keep you updated.",
+      "Date": "2021-02-02T00:14:47.347",
+      "Message": "Update at 00:14 - It's Talie from the text messaging team and I'm pleased to inform that we believe our engineers have been able to restore power to all customers in the Valentine Road area, by diverting power around the underground cable fault. We're sorry it's taken us longer than we expected to restore your power today. Please accept our sincere apologies as we know that it's difficult to be without power for a longer duration, and during the current pandemic this can be especially difficult, but please rest assured that as key workers our staff will continue to work around the clock to keep the lights on. If your power isn't back on, or to talk to us about anything else, call us on 08003163105, free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-01T14:38:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-02T00:09:42.96",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034c04INCD",
     "IncidentReference": "INCD-216068-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-01T13:41:34",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-02-01T23:30:00",
+    "RestoredDateTime": "2021-02-02T00:09:42.96",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-01T13:40:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,19 +62,19 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-01T22:21:00",
+        "ActualEventTime": "2021-02-02T00:14:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 22:21 - Hi, it's Talie from the text messaging team and I'll be taking over Will to keep you updated. It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers are continuing with their repairs to the underground cabling however the repairs are more extensive than first thought. Therefore, we're now aiming to restore supplies between 23:00 and 00:00. We're sorry we've had to change the estimated time, but we'll keep you updated.",
-        "LoggedTime": "2021-02-01T22:22:50.447"
+        "Comment": "Update at 00:14 - It's Talie from the text messaging team and I'm pleased to inform that we believe our engineers have been able to restore power to all customers in the Valentine Road area, by diverting power around the underground cable fault. We're sorry it's taken us longer than we expected to restore your power today. Please accept our sincere apologies as we know that it's difficult to be without power for a longer duration, and during the current pandemic this can be especially difficult, but please rest assured that as key workers our staff will continue to work around the clock to keep the lights on. If your power isn't back on, or to talk to us about anything else, call us on 08003163105, free from landlines and mobiles.",
+        "LoggedTime": "2021-02-02T00:14:47.347"
       }
     ],
     "PostCodesAffected": [
       "HA2 8"
     ],
     "PostCodesRestored": [
-      "HA28EG",
       "HA28EE",
+      "HA28EG",
       "HA28EJ",
       "HA28EN",
       "HA28EQ",
@@ -83,8 +83,8 @@
       "HA28FJ"
     ],
     "PostCodesPlanned": [
-      "HA28EG",
       "HA28EE",
+      "HA28EG",
       "HA28EJ",
       "HA28EN",
       "HA28EQ",
@@ -92,10 +92,10 @@
       "HA28EW",
       "HA28FJ"
     ],
-    "CustomersOnSupply": 88,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 91,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -601,8 +601,8 @@
     }
   ],
   "FullPostcodeData": [
-    "HA28EG",
     "HA28EE",
+    "HA28EG",
     "HA28EJ",
     "HA28EN",
     "HA28EQ",
@@ -613,7 +613,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "23:00 - 00:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
