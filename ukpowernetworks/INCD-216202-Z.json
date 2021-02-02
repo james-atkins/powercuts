@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-216202-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-216202-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-216202-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-02T06:30:26.683",
-      "Message": "Update at 06:30 - Our engineers have arrived on site in the Ellesmere Road area, the estimated time hasn't changed. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government guidelines about social distancing when interacting with our staff. If you would like more information about what we think the fault is; here's a short YouTube video <a href=\"https://bit.ly/2y8Dtfz.\" target=\"_blank\">https://bit.ly/2y8Dtfz.</a>",
+      "Date": "2021-02-02T09:16:33.733",
+      "Message": "Update at 09:16- Our engineers have investigated and found that the power is off due to a fault on our overhead network which has affected our substation equipment. A specialist team are on site and are in the process of diverting power around the fault. Considering the work that may be required, the revised estimated time to have the power back on is between 09:00 and 10:00. We're sorry to change the time, we will keep you updated.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-02T06:26:11",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-02T09:34:15.69",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034c8aINCD",
     "IncidentReference": "INCD-216202-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-02T05:09:10",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-02T09:34:15.69",
     "EstimatedRestorationDate": "2021-02-02T09:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-02T05:05:32",
-    "NoCustomerAffected": 26,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-02T06:29:00",
+        "ActualEventTime": "2021-02-02T09:14:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 06:30 - Our engineers have arrived on site in the Ellesmere Road area, the estimated time hasn't changed. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government guidelines about social distancing when interacting with our staff. If you would like more information about what we think the fault is; here's a short YouTube video https://bit.ly/2y8Dtfz.",
-        "LoggedTime": "2021-02-02T06:30:26.683"
+        "Comment": "Update at 09:16- Our engineers have investigated and found that the power is off due to a fault on our overhead network which has affected our substation equipment. A specialist team are on site and are in the process of diverting power around the fault. Considering the work that may be required, the revised estimated time to have the power back on is between 09:00 and 10:00. We're sorry to change the time, we will keep you updated.",
+        "LoggedTime": "2021-02-02T09:16:33.733"
       }
     ],
     "PostCodesAffected": [
@@ -86,9 +86,9 @@
       "SS43JU",
       "SS43JX"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 26,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 26,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
