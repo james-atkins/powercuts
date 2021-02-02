@@ -1,12 +1,18 @@
 {
   "IncidentReference": "INCD-216248-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-216248-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-216248-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-02-02T12:31:27.413",
+      "Message": "Update at 12:31 - We can now confirm that all power in the Thorpe Road area should be back on. Our engineers discovered the issue was caused by an overhead network fault which caused low volts and loss of power. We have now remotely diverted supplies around the fault. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-02-02T09:56:53",
-      "Message": "<p>We became aware of a power cut at 09:56. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
-      "Name": "Power cut reported"
+      "Date": "2021-02-02T09:36:00",
+      "Message": "<p>We became aware of this power cut at 09:36. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
+      "Name": "We are restoring customers automatically"
     },
     {
       "Active": false,
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-02T11:50:06",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-02T12:26:49.83",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034cb8INCD",
     "IncidentReference": "INCD-216248-Z",
-    "IncidentCategory": "124",
-    "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentCategory": "140",
+    "IncidentType": 3,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-02T09:58:51",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-02-02T12:26:49.83",
+    "EstimatedRestorationDate": "2021-02-02T14:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-02-02T09:56:53",
+    "ReceivedDate": "2021-02-02T09:36:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 18,
+    "NoCallsReported": 25,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,27 +60,45 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-02T12:28:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 12:31 - We can now confirm that all power in the Thorpe Road area should be back on. Our engineers discovered the issue was caused by an overhead network fault which caused low volts and loss of power. We have now remotely diverted supplies around the fault. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-02T12:31:27.413"
+      }
+    ],
     "PostCodesAffected": [
       "CO13 0"
     ],
     "PostCodesRestored": [
+      "CO130EL",
+      "CO130EN",
+      "CO130EW",
+      "CO130FH",
       "CO130FW",
       "CO130ND",
       "CO130NF",
       "CO130NH",
+      "CO130NJ",
       "CO130NQ"
     ],
     "PostCodesPlanned": [
+      "CO130EL",
+      "CO130EN",
+      "CO130EW",
+      "CO130FH",
       "CO130FW",
       "CO130ND",
       "CO130NF",
       "CO130NH",
+      "CO130NJ",
       "CO130NQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 58,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 153,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -109,16 +133,21 @@
     }
   ],
   "FullPostcodeData": [
+    "CO130EL",
+    "CO130EN",
+    "CO130EW",
+    "CO130FH",
     "CO130FW",
     "CO130ND",
     "CO130NF",
     "CO130NH",
+    "CO130NJ",
     "CO130NQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "13:30 - 14:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
