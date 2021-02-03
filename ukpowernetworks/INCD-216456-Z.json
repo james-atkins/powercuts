@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-216456-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-216456-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-216456-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-03T07:41:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-03T08:51:25.027",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034d88INCD",
     "IncidentReference": "INCD-216456-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-03T06:40:47",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-03T08:51:25.027",
     "EstimatedRestorationDate": "2021-02-03T10:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-03T06:40:00",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 3,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -66,9 +66,9 @@
       "MK438TP",
       "MK438TR"
     ],
-    "CustomersOnSupply": 21,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 35,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
