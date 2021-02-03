@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-216460-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-216460-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-216460-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-03T08:58:20",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-03T12:10:14.13",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034d8cINCD",
     "IncidentReference": "INCD-216460-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-03T07:28:09",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-02-03T12:00:00",
+    "RestoredDateTime": "2021-02-03T12:10:14.13",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-03T07:27:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "HP20 1"
     ],
     "PostCodesRestored": [
-      "HP201SA",
       "HP201QR",
+      "HP201SA",
       "HP201SB"
     ],
     "PostCodesPlanned": [
-      "HP201SA",
       "HP201QR",
+      "HP201SA",
       "HP201SB"
     ],
-    "CustomersOnSupply": 16,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 17,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -673,14 +673,14 @@
     }
   ],
   "FullPostcodeData": [
-    "HP201SA",
     "HP201QR",
+    "HP201SA",
     "HP201SB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "11:30 - 12:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
