@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-216573-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-216573-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-216573-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-02-03T16:27:19.303",
+      "Message": "Update at 16:27 - We can now confirm that all power in the Spinney Close area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-02-03T13:50:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-03T15:39:59",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-03T16:18:29.983",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034dfdINCD",
     "IncidentReference": "INCD-216573-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-03T13:51:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-03T16:18:29.983",
     "EstimatedRestorationDate": "2021-02-03T19:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-03T13:50:00",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -51,31 +57,39 @@
       "EstimatedTimeOfArrival": "2021-02-03T15:45:00",
       "DispatchedDate": "2021-02-03T15:18:59",
       "ArrivalDate": "2021-02-03T15:39:59",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-03T16:27:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 16:27 - We can now confirm that all power in the Spinney Close area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-03T16:27:19.303"
+      }
+    ],
     "PostCodesAffected": [
       "IP27 0"
     ],
     "PostCodesRestored": [
+      "IP270EX",
       "IP270HF",
       "IP270HG",
       "IP270HH",
-      "IP270EX",
       "IP270HJ"
     ],
     "PostCodesPlanned": [
+      "IP270EX",
       "IP270HF",
       "IP270HG",
       "IP270HH",
-      "IP270EX",
       "IP270HJ"
     ],
-    "CustomersOnSupply": 82,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 100,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -265,10 +279,10 @@
     }
   ],
   "FullPostcodeData": [
+    "IP270EX",
     "IP270HF",
     "IP270HG",
     "IP270HH",
-    "IP270EX",
     "IP270HJ"
   ],
   "PinLatitude": null,
