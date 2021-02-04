@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-208080-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-208080-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-208080-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-12-27T07:47:41",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-04T19:24:48.313",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00032cd0INCD",
     "IncidentReference": "INCD-208080-Z",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-12-27T05:47:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-04T19:24:48.313",
     "EstimatedRestorationDate": "2020-12-27T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-12-27T07:57:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "CO2 0"
     ],
     "PostCodesRestored": [
-      "CO20NF",
       "CO20NB",
-      "CO20ND"
+      "CO20ND",
+      "CO20NF"
     ],
     "PostCodesPlanned": [
-      "CO20NF",
       "CO20NB",
-      "CO20ND"
+      "CO20ND",
+      "CO20NF"
     ],
-    "CustomersOnSupply": 23,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 24,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -521,9 +521,9 @@
     }
   ],
   "FullPostcodeData": [
-    "CO20NF",
     "CO20NB",
-    "CO20ND"
+    "CO20ND",
+    "CO20NF"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
