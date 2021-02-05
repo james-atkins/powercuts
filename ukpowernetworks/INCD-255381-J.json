@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-255381-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-255381-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-255381-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-04T17:54:42",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-05T09:47:16.993",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003e595INCD",
     "IncidentReference": "INCD-255381-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-04T15:54:51",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-05T09:47:16.993",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-04T15:54:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -73,24 +73,24 @@
       "SE21 8"
     ],
     "PostCodesRestored": [
-      "SE218DP",
       "SE218BW",
+      "SE218DP",
       "SE218DR",
       "SE218DW",
       "SE218DX",
       "SE218LF"
     ],
     "PostCodesPlanned": [
-      "SE218DP",
       "SE218BW",
+      "SE218DP",
       "SE218DR",
       "SE218DW",
       "SE218DX",
       "SE218LF"
     ],
-    "CustomersOnSupply": 136,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 137,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -685,8 +685,8 @@
     }
   ],
   "FullPostcodeData": [
-    "SE218DP",
     "SE218BW",
+    "SE218DP",
     "SE218DR",
     "SE218DW",
     "SE218DX",
