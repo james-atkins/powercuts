@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-216832-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-216832-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-216832-Z",
   "Steps": [
     {
       "Active": false,
@@ -9,38 +9,38 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-05T04:06:45",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-02-05T04:31:27",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-05T04:44:16.157",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034f00INCD",
     "IncidentReference": "INCD-216832-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-04T22:49:32",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-05T04:44:16.157",
     "EstimatedRestorationDate": "2021-02-05T03:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-04T22:50:00",
-    "NoCustomerAffected": 18,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -50,8 +50,8 @@
       "Name": "DARREN (R5)",
       "EstimatedTimeOfArrival": "2021-02-05T04:30:00",
       "DispatchedDate": "2021-02-05T04:06:45",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-02-05T04:31:27",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -59,40 +59,40 @@
       "AL5 3"
     ],
     "PostCodesRestored": [
+      "AL53DS",
       "AL53ED",
       "AL53EE",
-      "AL53EG",
-      "AL53EZ",
-      "AL53FA",
-      "AL53DS",
       "AL53EF",
+      "AL53EG",
       "AL53EH",
       "AL53EJ",
       "AL53EL",
       "AL53EN",
       "AL53EQ",
       "AL53EW",
-      "AL53EY"
+      "AL53EY",
+      "AL53EZ",
+      "AL53FA"
     ],
     "PostCodesPlanned": [
+      "AL53DS",
       "AL53ED",
       "AL53EE",
-      "AL53EG",
-      "AL53EZ",
-      "AL53FA",
-      "AL53DS",
       "AL53EF",
+      "AL53EG",
       "AL53EH",
       "AL53EJ",
       "AL53EL",
       "AL53EN",
       "AL53EQ",
       "AL53EW",
-      "AL53EY"
+      "AL53EY",
+      "AL53EZ",
+      "AL53FA"
     ],
-    "CustomersOnSupply": 102,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 120,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -359,20 +359,20 @@
     }
   ],
   "FullPostcodeData": [
+    "AL53DS",
     "AL53ED",
     "AL53EE",
-    "AL53EG",
-    "AL53EZ",
-    "AL53FA",
-    "AL53DS",
     "AL53EF",
+    "AL53EG",
     "AL53EH",
     "AL53EJ",
     "AL53EL",
     "AL53EN",
     "AL53EQ",
     "AL53EW",
-    "AL53EY"
+    "AL53EY",
+    "AL53EZ",
+    "AL53FA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
