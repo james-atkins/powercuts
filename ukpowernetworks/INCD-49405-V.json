@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-49405-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-49405-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-49405-V",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-02-05T10:53:02.863",
+      "Message": "Update at 10:52 - Our engineers have now arrived on site in the Gloucester Crescent area to investigate the cause of the voltage issues. We are currently estimating the power will be back on between 13:30 and 14:30, but our staff will be checking our network equipment and cabling throughout the area to identify any problems. Depending on what they find, it's possible our timeframe may need to change later. We know that in the current pandemic, problems with your power can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members and we want to support you however we can. If you have any concerns, our team are always here on 08003163105. Please follow the government guidelines about social distancing when interacting with our staff.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-02-05T09:19:00",
@@ -9,38 +15,38 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-05T09:43:25",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-02-05T10:54:03",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-05T11:09:30.127",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c0fdINCD",
     "IncidentReference": "INCD-49405-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-05T09:14:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-05T11:09:30.127",
     "EstimatedRestorationDate": "2021-02-05T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-05T09:19:00",
-    "NoCustomerAffected": 14,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -50,11 +56,19 @@
       "Name": "TONY MARTIN (R5)",
       "EstimatedTimeOfArrival": "2021-02-05T10:45:00",
       "DispatchedDate": "2021-02-05T09:43:25",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-02-05T10:54:03",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-05T10:51:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 10:52 - Our engineers have now arrived on site in the Gloucester Crescent area to investigate the cause of the voltage issues. We are currently estimating the power will be back on between 13:30 and 14:30, but our staff will be checking our network equipment and cabling throughout the area to identify any problems. Depending on what they find, it's possible our timeframe may need to change later. We know that in the current pandemic, problems with your power can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members and we want to support you however we can. If you have any concerns, our team are always here on 08003163105. Please follow the government guidelines about social distancing when interacting with our staff.",
+        "LoggedTime": "2021-02-05T10:53:02.863"
+      }
+    ],
     "PostCodesAffected": [
       "TW18 1"
     ],
@@ -68,9 +82,9 @@
       "TW181PR",
       "TW181PS"
     ],
-    "CustomersOnSupply": 27,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 41,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
