@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-216919-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-216919-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-216919-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-02-05T11:53:19.377",
+      "Message": "Update at 11:53 - Our engineers have now arrived on site in the High Street  CO5 8, CO5 9  area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe to have the power backon is between 14:30 and 15:30, but if this is not successful it's possible that a cable repair may be needed. As soon as our staff can safely update us, we'll give you the latest news.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-02-05T11:20:00",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-05T11:38:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-05T12:24:26.707",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034f57INCD",
     "IncidentReference": "INCD-216919-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-05T11:24:09",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-05T12:24:26.707",
     "EstimatedRestorationDate": "2021-02-05T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-05T11:20:00",
-    "NoCustomerAffected": 79,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 3,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-05T11:53:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 11:53 - Our engineers have now arrived on site in the High Street  CO5 8, CO5 9  area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe to have the power backon is between 14:30 and 15:30, but if this is not successful it's possible that a cable repair may be needed. As soon as our staff can safely update us, we'll give you the latest news.",
+        "LoggedTime": "2021-02-05T11:53:19.377"
+      }
+    ],
     "PostCodesAffected": [
       "CO5 8",
       "CO5 9"
@@ -67,12 +81,12 @@
       "CO58JE",
       "CO58QA",
       "CO58QD",
-      "CO58QT",
-      "CO58QX",
-      "CO59DX",
       "CO58QL",
       "CO58QN",
-      "CO58QP"
+      "CO58QP",
+      "CO58QT",
+      "CO58QX",
+      "CO59DX"
     ],
     "PostCodesPlanned": [
       "CO58HZ",
@@ -82,16 +96,16 @@
       "CO58JE",
       "CO58QA",
       "CO58QD",
-      "CO58QT",
-      "CO58QX",
-      "CO59DX",
       "CO58QL",
       "CO58QN",
-      "CO58QP"
+      "CO58QP",
+      "CO58QT",
+      "CO58QX",
+      "CO59DX"
     ],
-    "CustomersOnSupply": 4,
-    "CustomersOffSupply": 79,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 83,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -819,12 +833,12 @@
     "CO58JE",
     "CO58QA",
     "CO58QD",
-    "CO58QT",
-    "CO58QX",
-    "CO59DX",
     "CO58QL",
     "CO58QN",
-    "CO58QP"
+    "CO58QP",
+    "CO58QT",
+    "CO58QX",
+    "CO59DX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
