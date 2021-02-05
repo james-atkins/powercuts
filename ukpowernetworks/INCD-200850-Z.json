@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-200850-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-200850-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-200850-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-24T23:08:09",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-05T19:36:06.123",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00031092INCD",
     "IncidentReference": "INCD-200850-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 502,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-24T22:38:39",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-05T19:36:06.123",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-24T22:37:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 28,
+    "NoCallsReported": 29,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -73,24 +73,24 @@
       "CM14 5"
     ],
     "PostCodesRestored": [
+      "CM145BD",
+      "CM145BE",
       "CM145BG",
       "CM145BQ",
       "CM145HB",
-      "CM145BD",
-      "CM145BE",
       "CM145HG"
     ],
     "PostCodesPlanned": [
+      "CM145BD",
+      "CM145BE",
       "CM145BG",
       "CM145BQ",
       "CM145HB",
-      "CM145BD",
-      "CM145BE",
       "CM145HG"
     ],
-    "CustomersOnSupply": 57,
-    "CustomersOffSupply": 26,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 83,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -885,11 +885,11 @@
     }
   ],
   "FullPostcodeData": [
+    "CM145BD",
+    "CM145BE",
     "CM145BG",
     "CM145BQ",
     "CM145HB",
-    "CM145BD",
-    "CM145BE",
     "CM145HG"
   ],
   "PinLatitude": null,
