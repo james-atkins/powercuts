@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-216474-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-216474-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-216474-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-03T13:12:39",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-05T15:39:30.94",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034d9aINCD",
     "IncidentReference": "INCD-216474-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-03T09:12:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-05T15:39:30.94",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-03T09:09:05",
@@ -60,22 +60,22 @@
     ],
     "PostCodesRestored": [
       "AL60EQ",
+      "AL60QA",
       "AL60QB",
       "AL60QD",
-      "AL60QH",
-      "AL60QA"
+      "AL60QH"
     ],
     "PostCodesPlanned": [
       "AL60EQ",
+      "AL60QA",
       "AL60QB",
       "AL60QD",
-      "AL60QH",
-      "AL60QA"
+      "AL60QH"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 30,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 31,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -550,10 +550,10 @@
   ],
   "FullPostcodeData": [
     "AL60EQ",
+    "AL60QA",
     "AL60QB",
     "AL60QD",
-    "AL60QH",
-    "AL60QA"
+    "AL60QH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
