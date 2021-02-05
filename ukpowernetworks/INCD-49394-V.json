@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-49394-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-49394-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-49394-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-04T21:39:50",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-05T14:46:42.733",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c0f2INCD",
     "IncidentReference": "INCD-49394-V",
     "IncidentCategory": "93",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-04T20:46:00",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-02-05T15:00:00",
+    "RestoredDateTime": "2021-02-05T14:46:42.733",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-05T13:12:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -73,9 +73,9 @@
       "KT4 8"
     ],
     "PostCodesRestored": [
-      "KT48RR",
       "KT48LT",
       "KT48RP",
+      "KT48RR",
       "KT48RS",
       "KT48RU",
       "KT48RX",
@@ -84,9 +84,9 @@
       "KT48TW"
     ],
     "PostCodesPlanned": [
-      "KT48RR",
       "KT48LT",
       "KT48RP",
+      "KT48RR",
       "KT48RS",
       "KT48RU",
       "KT48RX",
@@ -94,9 +94,9 @@
       "KT48TT",
       "KT48TW"
     ],
-    "CustomersOnSupply": 80,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 82,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -639,9 +639,9 @@
     }
   ],
   "FullPostcodeData": [
-    "KT48RR",
     "KT48LT",
     "KT48RP",
+    "KT48RR",
     "KT48RS",
     "KT48RU",
     "KT48RX",
@@ -652,7 +652,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "Due to a faulty piece of network equipment we had to turn off your power.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "14:30 - 15:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
