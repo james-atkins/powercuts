@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-216836-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-216836-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-216836-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-05T02:07:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-05T02:41:32.273",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034f04INCD",
     "IncidentReference": "INCD-216836-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-05T00:45:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-05T02:41:32.273",
     "EstimatedRestorationDate": "2021-02-05T03:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-05T00:39:00",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "CO10 0"
     ],
     "PostCodesRestored": [
+      "CO100FF",
       "CO100RR",
-      "CO100TZ",
-      "CO100FF"
+      "CO100TZ"
     ],
     "PostCodesPlanned": [
+      "CO100FF",
       "CO100RR",
-      "CO100TZ",
-      "CO100FF"
+      "CO100TZ"
     ],
-    "CustomersOnSupply": 3,
-    "CustomersOffSupply": 17,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 20,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -633,9 +633,9 @@
     }
   ],
   "FullPostcodeData": [
+    "CO100FF",
     "CO100RR",
-    "CO100TZ",
-    "CO100FF"
+    "CO100TZ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
