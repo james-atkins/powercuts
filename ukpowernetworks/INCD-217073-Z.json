@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-217073-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-217073-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-217073-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-06T07:29:08",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-06T12:57:39.007",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034ff1INCD",
     "IncidentReference": "INCD-217073-Z",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-06T06:11:14",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-06T12:57:39.007",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-06T06:06:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 1,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -60,17 +60,17 @@
       "SG1 3"
     ],
     "PostCodesRestored": [
-      "SG13GA",
-      "SG13"
+      "SG13",
+      "SG13GA"
     ],
     "PostCodesPlanned": [
-      "SG13GA",
-      "SG13"
+      "SG13",
+      "SG13GA"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 4,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -177,12 +177,12 @@
     }
   ],
   "FullPostcodeData": [
-    "SG13GA",
-    "SG13"
+    "SG13",
+    "SG13GA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
