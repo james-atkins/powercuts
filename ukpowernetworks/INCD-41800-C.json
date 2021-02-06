@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-41800-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-41800-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-41800-C",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-06T17:07:47.047",
-      "Message": "Update at 17:07 - Engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the St. Michaels Drive area. We did not know this was going to happen, so timeframes we provide throughout are estimated, and are subject to change. Our estimate is currently between 19:30 and 20:30. After we arrive on site and assess the situation, this time may change. The reason for this is there can sometimes be a more complex underlying issue found from our engineers tests which may take longer, and if there is not we may get power back on sooner. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
+      "Date": "2021-02-06T17:56:33.637",
+      "Message": "Update at 17:56 - Our engineers have now arrived on site in the St Michael's Drive area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. This can involve specialist teams and equipment, trimming trees or traffic management measures. As soon as our staff can safely update us, we'll give you the latest news.",
       "Name": null
     },
     {
@@ -15,38 +15,38 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-06T16:41:20",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-02-06T17:58:29",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-06T17:58:16.007",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000a348INCD",
     "IncidentReference": "INCD-41800-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-06T16:36:51",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-06T17:58:16.007",
     "EstimatedRestorationDate": "2021-02-06T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-06T16:34:00",
-    "NoCustomerAffected": 32,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 17,
     "Latitude": 0.0,
@@ -56,17 +56,17 @@
       "Name": "DEREK (R5)",
       "EstimatedTimeOfArrival": "2021-02-06T17:45:00",
       "DispatchedDate": "2021-02-06T16:41:20",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-02-06T17:58:29",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-06T17:06:00",
+        "ActualEventTime": "2021-02-06T17:56:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 17:07 - Engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the St. Michaels Drive area. We did not know this was going to happen, so timeframes we provide throughout are estimated, and are subject to change. Our estimate is currently between 19:30 and 20:30. After we arrive on site and assess the situation, this time may change. The reason for this is there can sometimes be a more complex underlying issue found from our engineers tests which may take longer, and if there is not we may get power back on sooner. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
-        "LoggedTime": "2021-02-06T17:07:47.047"
+        "Comment": "Update at 17:56 - Our engineers have now arrived on site in the St Michael's Drive area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. This can involve specialist teams and equipment, trimming trees or traffic management measures. As soon as our staff can safely update us, we'll give you the latest news.",
+        "LoggedTime": "2021-02-06T17:56:33.637"
       }
     ],
     "PostCodesAffected": [
@@ -90,9 +90,9 @@
       "CM14PG",
       "CM14PQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 95,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 95,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
