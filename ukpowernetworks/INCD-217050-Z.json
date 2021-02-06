@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-217050-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-217050-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-217050-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-05T22:52:47.453",
-      "Message": "Update at 22:52- Engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the Tottenham Lane area. We did not know this was going to happen, so timeframes we provide throughout are estimated, and are subject to change. Our estimate is currently between 01:00 and 02:00. After we arrive on site and assess the situation, this time may change. The reason for this is there can sometimes be a more complex underlying issue found from our engineers tests which may take longer, and if there is not we may get power back on sooner. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
+      "Date": "2021-02-06T00:27:47.39",
+      "Message": "Update at 00:26 - Our engineers are on site and we can now confirm that all power in the Tottenham Lane area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-05T23:09:39",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-05T23:53:48.137",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034fdaINCD",
     "IncidentReference": "INCD-217050-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-05T21:19:17",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-05T23:53:48.137",
     "EstimatedRestorationDate": "2021-02-06T01:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-05T21:17:00",
-    "NoCustomerAffected": 35,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
     "Latitude": 0.0,
@@ -57,16 +57,16 @@
       "EstimatedTimeOfArrival": "2021-02-05T23:15:00",
       "DispatchedDate": "2021-02-05T22:18:35",
       "ArrivalDate": "2021-02-05T23:09:39",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-05T22:52:00",
+        "ActualEventTime": "2021-02-06T00:27:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 22:52- Engineers are on their way. At this point we think the issue is a fault with some equipment in your local substation in the Tottenham Lane area. We did not know this was going to happen, so timeframes we provide throughout are estimated, and are subject to change. Our estimate is currently between 01:00 and 02:00. After we arrive on site and assess the situation, this time may change. The reason for this is there can sometimes be a more complex underlying issue found from our engineers tests which may take longer, and if there is not we may get power back on sooner. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
-        "LoggedTime": "2021-02-05T22:52:47.453"
+        "Comment": "Update at 00:26 - Our engineers are on site and we can now confirm that all power in the Tottenham Lane area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-06T00:27:47.39"
       }
     ],
     "PostCodesAffected": [
@@ -76,26 +76,26 @@
     ],
     "PostCodesRestored": [
       "N80HF",
+      "N80HT",
+      "N80LT",
       "N87BS",
       "N87EB",
       "N87NN",
-      "N89DJ",
-      "N80HT",
-      "N80LT"
+      "N89DJ"
     ],
     "PostCodesPlanned": [
       "N80HF",
+      "N80HT",
+      "N80LT",
       "N87BS",
       "N87EB",
       "N87NN",
-      "N89DJ",
-      "N80HT",
-      "N80LT"
+      "N89DJ"
     ],
-    "CustomersOnSupply": 4,
-    "CustomersOffSupply": 53,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 57,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1350,12 +1350,12 @@
   ],
   "FullPostcodeData": [
     "N80HF",
+    "N80HT",
+    "N80LT",
     "N87BS",
     "N87EB",
     "N87NN",
-    "N89DJ",
-    "N80HT",
-    "N80LT"
+    "N89DJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
