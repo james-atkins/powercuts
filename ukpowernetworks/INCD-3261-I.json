@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-3261-I",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-3261-I",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-3261-I",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-06T12:52:36.67",
-      "Message": "Update at 12:52 - Sorry your power has gone off again today. We believed all power was restored but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers are on site and working to restore the power. We will provide an estimated time frame for power to be back on as soon as possible.",
+      "Date": "2021-02-06T13:43:53.913",
+      "Message": "Update at 13:43 - We can now confirm that all power in the Pinner Road area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-04T23:59:36",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-06T13:27:08.743",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "I00000cbdINCD",
     "IncidentReference": "INCD-3261-I",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-04T21:43:05",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-06T13:27:08.743",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-04T21:42:00",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 23,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-06T12:51:00",
+        "ActualEventTime": "2021-02-06T13:42:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 12:52 - Sorry your power has gone off again today. We believed all power was restored but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers are on site and working to restore the power. We will provide an estimated time frame for power to be back on as soon as possible.",
-        "LoggedTime": "2021-02-06T12:52:36.67"
+        "Comment": "Update at 13:43 - We can now confirm that all power in the Pinner Road area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-02-06T13:43:53.913"
       }
     ],
     "PostCodesAffected": [
@@ -76,10 +76,10 @@
       "HA2 7"
     ],
     "PostCodesRestored": [
-      "HA14LB",
       "HA12",
       "HA14HN",
       "HA14HP",
+      "HA14LB",
       "HA14PN",
       "HA14PP",
       "HA14PW",
@@ -89,10 +89,10 @@
       "HA27SY"
     ],
     "PostCodesPlanned": [
-      "HA14LB",
       "HA12",
       "HA14HN",
       "HA14HP",
+      "HA14LB",
       "HA14PN",
       "HA14PP",
       "HA14PW",
@@ -101,9 +101,9 @@
       "HA27SE",
       "HA27SY"
     ],
-    "CustomersOnSupply": 108,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 118,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1883,10 +1883,10 @@
     }
   ],
   "FullPostcodeData": [
-    "HA14LB",
     "HA12",
     "HA14HN",
     "HA14HP",
+    "HA14LB",
     "HA14PN",
     "HA14PP",
     "HA14PW",
