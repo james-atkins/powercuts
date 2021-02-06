@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-48741-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-48741-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-48741-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-05T10:34:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-06T17:44:53.01",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000be65INCD",
     "IncidentReference": "INCD-48741-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-28T07:01:45",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-06T17:44:53.01",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-28T07:00:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "RH2 7"
     ],
     "PostCodesRestored": [
-      "RH27JJ",
       "RH27DY",
       "RH27HA",
       "RH27HB",
@@ -69,6 +68,7 @@
       "RH27HY",
       "RH27JE",
       "RH27JH",
+      "RH27JJ",
       "RH27JL",
       "RH27JN",
       "RH27JQ",
@@ -78,7 +78,6 @@
       "RH27LB"
     ],
     "PostCodesPlanned": [
-      "RH27JJ",
       "RH27DY",
       "RH27HA",
       "RH27HB",
@@ -88,6 +87,7 @@
       "RH27HY",
       "RH27JE",
       "RH27JH",
+      "RH27JJ",
       "RH27JL",
       "RH27JN",
       "RH27JQ",
@@ -96,9 +96,9 @@
       "RH27LA",
       "RH27LB"
     ],
-    "CustomersOnSupply": 274,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 275,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -693,7 +693,6 @@
     }
   ],
   "FullPostcodeData": [
-    "RH27JJ",
     "RH27DY",
     "RH27HA",
     "RH27HB",
@@ -703,6 +702,7 @@
     "RH27HY",
     "RH27JE",
     "RH27JH",
+    "RH27JJ",
     "RH27JL",
     "RH27JN",
     "RH27JQ",
