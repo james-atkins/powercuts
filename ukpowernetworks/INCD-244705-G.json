@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-244705-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244705-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244705-G",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-02-07T16:41:54.55",
+      "Message": "Update at 16:41 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a fault on a piece of network equipment, in the Russett Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-02-07T16:05:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-07T16:00:44",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-07T16:34:19.99",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003bbe1INCD",
     "IncidentReference": "INCD-244705-G",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-07T15:57:53",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-07T16:34:19.99",
     "EstimatedRestorationDate": "2021-02-07T18:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-07T16:05:00",
-    "NoCustomerAffected": 173,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-07T16:41:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 16:41 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a fault on a piece of network equipment, in the Russett Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-07T16:41:54.55"
+      }
+    ],
     "PostCodesAffected": [
       "CT1 1"
     ],
@@ -86,9 +100,9 @@
       "CT11RW",
       "CT11RY"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 173,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 173,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },

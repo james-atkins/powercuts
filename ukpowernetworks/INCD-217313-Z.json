@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-217313-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-217313-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-217313-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-07T10:34:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-07T16:53:09.353",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000350e1INCD",
     "IncidentReference": "INCD-217313-Z",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-07T09:44:57",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-07T16:53:09.353",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-07T16:02:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "IP18 6"
     ],
     "PostCodesRestored": [
-      "IP186PS",
       "IP186GZ",
       "IP186NF",
       "IP186NG",
@@ -68,13 +67,13 @@
       "IP186NL",
       "IP186NN",
       "IP186NQ",
+      "IP186PS",
       "IP186PT",
       "IP186PU",
       "IP186PY",
       "IP186RR"
     ],
     "PostCodesPlanned": [
-      "IP186PS",
       "IP186GZ",
       "IP186NF",
       "IP186NG",
@@ -83,15 +82,16 @@
       "IP186NL",
       "IP186NN",
       "IP186NQ",
+      "IP186PS",
       "IP186PT",
       "IP186PU",
       "IP186PY",
       "IP186RR"
     ],
-    "CustomersOnSupply": 96,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 97,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -345,7 +345,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IP186PS",
     "IP186GZ",
     "IP186NF",
     "IP186NG",
@@ -354,6 +353,7 @@
     "IP186NL",
     "IP186NN",
     "IP186NQ",
+    "IP186PS",
     "IP186PT",
     "IP186PU",
     "IP186PY",
