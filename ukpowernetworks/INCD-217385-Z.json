@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-217385-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-217385-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-217385-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-02-07T14:05:59",
+      "Date": "2021-02-07T14:05:00",
       "Message": "<p>We became aware of a power cut at 14:05. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-07T14:25:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-07T15:00:14.573",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035129INCD",
     "IncidentReference": "INCD-217385-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-07T14:07:55",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-07T15:00:14.573",
     "EstimatedRestorationDate": "2021-02-07T16:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-02-07T14:05:59",
+    "ReceivedDate": "2021-02-07T14:05:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -70,9 +70,9 @@
       "NR105NU",
       "NR105RY"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 20,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 20,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
