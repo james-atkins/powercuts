@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-217314-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-217314-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-217314-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-07T11:29:38.06",
-      "Message": "Update at 11:29 - We've remotely diverted electricity around the faulty part of the network, restoring power to 123 properties. This leaves 50 properties affected by the faulty underground cables. We'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
+      "Date": "2021-02-07T12:15:45.95",
+      "Message": "Update at 12:15 - It's Lee from the text messaging team and I'm very pleased to inform you that our engineers have been able to restore power to all 344 customers in the Kings Lynn, PE32 1 area. They have diverted the power around the faulty section of the network. Due to the nature of an issue like this, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-07T10:47:16",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-07T12:08:25.557",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000350e2INCD",
     "IncidentReference": "INCD-217314-Z",
-    "IncidentCategory": "61",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-07T09:48:28",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-02-07T12:00:00",
+    "RestoredDateTime": "2021-02-07T12:08:25.557",
+    "EstimatedRestorationDate": "2021-02-07T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-07T09:48:14",
-    "NoCustomerAffected": 50,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 29,
+    "NoCallsReported": 30,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-07T11:28:00",
+        "ActualEventTime": "2021-02-07T12:15:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 11:29 - We've remotely diverted electricity around the faulty part of the network, restoring power to 123 properties. This leaves 50 properties affected by the faulty underground cables. We'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
-        "LoggedTime": "2021-02-07T11:29:38.06"
+        "Comment": "Update at 12:15 - It's Lee from the text messaging team and I'm very pleased to inform you that our engineers have been able to restore power to all 344 customers in the Kings Lynn, PE32 1 area. They have diverted the power around the faulty section of the network. Due to the nature of an issue like this, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-02-07T12:15:45.95"
       }
     ],
     "PostCodesAffected": [
@@ -78,15 +78,14 @@
       "PE321EP",
       "PE321ER",
       "PE321ES",
-      "PE321LS",
-      "PE321LX",
-      "PE321LY",
-      "PE343PJ",
       "PE321LN",
       "PE321LP",
       "PE321LR",
+      "PE321LS",
       "PE321LT",
       "PE321LW",
+      "PE321LX",
+      "PE321LY",
       "PE321LZ",
       "PE321NA",
       "PE321NB",
@@ -101,22 +100,22 @@
       "PE321QW",
       "PE321WJ",
       "PE321WN",
-      "PE321XG"
+      "PE321XG",
+      "PE343PJ"
     ],
     "PostCodesPlanned": [
       "PE321EN",
       "PE321EP",
       "PE321ER",
       "PE321ES",
-      "PE321LS",
-      "PE321LX",
-      "PE321LY",
-      "PE343PJ",
       "PE321LN",
       "PE321LP",
       "PE321LR",
+      "PE321LS",
       "PE321LT",
       "PE321LW",
+      "PE321LX",
+      "PE321LY",
       "PE321LZ",
       "PE321NA",
       "PE321NB",
@@ -131,11 +130,12 @@
       "PE321QW",
       "PE321WJ",
       "PE321WN",
-      "PE321XG"
+      "PE321XG",
+      "PE343PJ"
     ],
-    "CustomersOnSupply": 294,
-    "CustomersOffSupply": 49,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 343,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1108,15 +1108,14 @@
     "PE321EP",
     "PE321ER",
     "PE321ES",
-    "PE321LS",
-    "PE321LX",
-    "PE321LY",
-    "PE343PJ",
     "PE321LN",
     "PE321LP",
     "PE321LR",
+    "PE321LS",
     "PE321LT",
     "PE321LW",
+    "PE321LX",
+    "PE321LY",
     "PE321LZ",
     "PE321NA",
     "PE321NB",
@@ -1131,12 +1130,13 @@
     "PE321QW",
     "PE321WJ",
     "PE321WN",
-    "PE321XG"
+    "PE321XG",
+    "PE343PJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "An underground electricity cable faulted on our high voltage network, causing an area wide power cut.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "11:30 - 12:30",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "12:30 - 13:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
