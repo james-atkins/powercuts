@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-49525-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-49525-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-49525-V",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-02-07T16:20:26.463",
+      "Message": "Update at 16:19 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a fault on the overhead network in the Sexburga Drive area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-02-07T12:55:42",
@@ -15,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-07T14:39:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-07T16:11:01.52",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c175INCD",
     "IncidentReference": "INCD-49525-V",
-    "IncidentCategory": "24",
+    "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-07T12:56:20",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-07T16:11:01.52",
     "EstimatedRestorationDate": "2021-02-07T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-07T12:55:42",
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-07T16:19:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 16:19 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a fault on the overhead network in the Sexburga Drive area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-07T16:20:26.463"
+      }
+    ],
     "PostCodesAffected": [
       "ME12 2"
     ],
@@ -72,9 +86,9 @@
       "ME122LQ",
       "ME122NA"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 32,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 32,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -653,7 +667,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
+  "IncidentCategoryCustomerFriendlyDescription": "We were investigating an overhead electricity line fault which caused a power cut in the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "17:00 - 18:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
