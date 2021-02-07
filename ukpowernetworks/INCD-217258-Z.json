@@ -3,6 +3,12 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-217258-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-02-07T15:22:11.137",
+      "Message": "Update at 15:21 - Sorry your power has gone off again today. We believed all power was restored but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers are back on site and using an average timeframe, we are aiming to have all power back on between 17:00 and 18:00. We will keep you updated with the engineers progress.",
+      "Name": null
+    },
+    {
       "Active": false,
       "Date": "2021-02-07T04:42:00",
       "Message": "<p>We became aware of a power cut at 04:42. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
@@ -40,7 +46,7 @@
     "EstimatedRestorationDate": "2021-02-07T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-07T04:42:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 5,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 11,
     "Latitude": 0.0,
@@ -54,32 +60,40 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-07T15:20:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 15:21 - Sorry your power has gone off again today. We believed all power was restored but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers are back on site and using an average timeframe, we are aiming to have all power back on between 17:00 and 18:00. We will keep you updated with the engineers progress.",
+        "LoggedTime": "2021-02-07T15:22:11.137"
+      }
+    ],
     "PostCodesAffected": [
       "EN5 5"
     ],
     "PostCodesRestored": [
-      "EN55EY",
-      "EN55HB",
       "EN55HG",
       "EN55HH",
-      "EN55HJ",
       "EN55HL",
+      "EN55EY",
+      "EN55HB",
+      "EN55HJ",
       "EN55HQ",
       "EN55JR"
     ],
     "PostCodesPlanned": [
-      "EN55EY",
-      "EN55HB",
       "EN55HG",
       "EN55HH",
-      "EN55HJ",
       "EN55HL",
+      "EN55EY",
+      "EN55HB",
+      "EN55HJ",
       "EN55HQ",
       "EN55JR"
     ],
-    "CustomersOnSupply": 95,
-    "CustomersOffSupply": 0,
+    "CustomersOnSupply": 90,
+    "CustomersOffSupply": 5,
     "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
@@ -655,12 +669,12 @@
     }
   ],
   "FullPostcodeData": [
-    "EN55EY",
-    "EN55HB",
     "EN55HG",
     "EN55HH",
-    "EN55HJ",
     "EN55HL",
+    "EN55EY",
+    "EN55HB",
+    "EN55HJ",
     "EN55HQ",
     "EN55JR"
   ],
