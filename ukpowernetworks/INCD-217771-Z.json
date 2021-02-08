@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-217771-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-217771-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-217771-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-02-08T18:35:16.34",
+      "Message": "Update at 18:35 - We can now confirm that all power in the London Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-02-08T17:22:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-08T17:44:44",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-08T18:34:19.49",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000352abINCD",
     "IncidentReference": "INCD-217771-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-08T17:24:15",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-08T18:34:19.49",
     "EstimatedRestorationDate": "2021-02-08T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-08T17:22:00",
-    "NoCustomerAffected": 11,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -54,31 +60,39 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-08T18:35:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 18:35 - We can now confirm that all power in the London Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-08T18:35:16.34"
+      }
+    ],
     "PostCodesAffected": [
       "SS7 2"
     ],
     "PostCodesRestored": [
-      "SS72PA",
-      "SS72RD",
-      "SS72RF",
       "SS72BN",
       "SS72DQ",
       "SS72ND",
-      "SS72PB"
+      "SS72PA",
+      "SS72PB",
+      "SS72RD",
+      "SS72RF"
     ],
     "PostCodesPlanned": [
-      "SS72PA",
-      "SS72RD",
-      "SS72RF",
       "SS72BN",
       "SS72DQ",
       "SS72ND",
-      "SS72PB"
+      "SS72PA",
+      "SS72PB",
+      "SS72RD",
+      "SS72RF"
     ],
-    "CustomersOnSupply": 31,
-    "CustomersOffSupply": 35,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 66,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -497,13 +511,13 @@
     }
   ],
   "FullPostcodeData": [
-    "SS72PA",
-    "SS72RD",
-    "SS72RF",
     "SS72BN",
     "SS72DQ",
     "SS72ND",
-    "SS72PB"
+    "SS72PA",
+    "SS72PB",
+    "SS72RD",
+    "SS72RF"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
