@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-49546-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-49546-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-49546-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-08T01:28:33.34",
-      "Message": "Update at 01:28 - We're sorry we've not been able to restore your power yet. We appreciate it can be unsettling to have a power cut during the night, but our engineers work 24 hours on issues like this so we're still aiming to have power restored as soon as possible. If you light candles, please be mindful of them and take extra care when using the stairs. If you have any concerns, please call us on 105 and our team will help. We'll keep you updated.",
+      "Date": "2021-02-08T02:07:54.363",
+      "Message": "Update at 02:07 - We can now confirm that all power in the Luton Road area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-07T17:21:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-08T13:34:15.13",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c18aINCD",
     "IncidentReference": "INCD-49546-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-07T17:06:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-08T13:34:15.13",
     "EstimatedRestorationDate": "2021-02-08T03:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-07T17:00:00",
-    "NoCustomerAffected": 28,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 42,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-08T01:28:00",
+        "ActualEventTime": "2021-02-08T02:07:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 01:28 - We're sorry we've not been able to restore your power yet. We appreciate it can be unsettling to have a power cut during the night, but our engineers work 24 hours on issues like this so we're still aiming to have power restored as soon as possible. If you light candles, please be mindful of them and take extra care when using the stairs. If you have any concerns, please call us on 105 and our team will help. We'll keep you updated.",
-        "LoggedTime": "2021-02-08T01:28:33.34"
+        "Comment": "Update at 02:07 - We can now confirm that all power in the Luton Road area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-02-08T02:07:54.363"
       }
     ],
     "PostCodesAffected": [
@@ -78,8 +78,8 @@
       "ME45AB",
       "ME45AE",
       "ME45AG",
-      "ME57AA",
       "ME45LB",
+      "ME57AA",
       "ME57EA"
     ],
     "PostCodesPlanned": [
@@ -87,13 +87,13 @@
       "ME45AB",
       "ME45AE",
       "ME45AG",
-      "ME57AA",
       "ME45LB",
+      "ME57AA",
       "ME57EA"
     ],
-    "CustomersOnSupply": 92,
-    "CustomersOffSupply": 105,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 197,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1526,8 +1526,8 @@
     "ME45AB",
     "ME45AE",
     "ME45AG",
-    "ME57AA",
     "ME45LB",
+    "ME57AA",
     "ME57EA"
   ],
   "PinLatitude": null,
