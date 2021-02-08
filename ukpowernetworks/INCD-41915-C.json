@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-41915-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-41915-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-41915-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-08T18:07:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-08T19:53:59.39",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000a3bbINCD",
     "IncidentReference": "INCD-41915-C",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-08T17:34:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-08T19:53:59.39",
     "EstimatedRestorationDate": "2021-02-08T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-08T18:03:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -59,26 +59,26 @@
       "SG2 7"
     ],
     "PostCodesRestored": [
-      "SG27PE",
       "SG27NZ",
       "SG27PA",
       "SG27PB",
       "SG27PD",
+      "SG27PE",
       "SG27PG",
       "SG27PQ"
     ],
     "PostCodesPlanned": [
-      "SG27PE",
       "SG27NZ",
       "SG27PA",
       "SG27PB",
       "SG27PD",
+      "SG27PE",
       "SG27PG",
       "SG27PQ"
     ],
-    "CustomersOnSupply": 35,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 39,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -613,11 +613,11 @@
     }
   ],
   "FullPostcodeData": [
-    "SG27PE",
     "SG27NZ",
     "SG27PA",
     "SG27PB",
     "SG27PD",
+    "SG27PE",
     "SG27PG",
     "SG27PQ"
   ],
