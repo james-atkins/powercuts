@@ -1,15 +1,15 @@
 {
   "IncidentReference": "INCD-217732-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-217732-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-217732-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-08T15:15:59.923",
-      "Message": "Update at 15:15 - It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers have been able divert power to a number of properties and there are currently five properties still affected however they need more time to complete their work on site. Therefore, we're now aiming to restore supplies between 16:30 and 17:30. We're sorry we've had to change the estimated time, but we'll keep you updated.",
+      "Date": "2021-02-08T15:48:05.51",
+      "Message": "Update at 15:47 - We believe our engineers have been able to restore power to all 256 customers in the Snape Road and Ferry Road area, by diverting power around an overhead network fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-08T14:28:41",
       "Message": "<p>We became aware of this power cut at 14:28. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
       "Name": "We are restoring customers automatically"
@@ -17,36 +17,36 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-08T15:46:48.75",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035284INCD",
     "IncidentReference": "INCD-217732-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-08T14:47:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-08T15:46:48.75",
     "EstimatedRestorationDate": "2021-02-08T17:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-08T14:28:41",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-08T15:15:00",
+        "ActualEventTime": "2021-02-08T15:47:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 15:15 - It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers have been able divert power to a number of properties and there are currently five properties still affected however they need more time to complete their work on site. Therefore, we're now aiming to restore supplies between 16:30 and 17:30. We're sorry we've had to change the estimated time, but we'll keep you updated.",
-        "LoggedTime": "2021-02-08T15:15:59.923"
+        "Comment": "Update at 15:47 - We believe our engineers have been able to restore power to all 256 customers in the Snape Road and Ferry Road area, by diverting power around an overhead network fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-02-08T15:48:05.51"
       }
     ],
     "PostCodesAffected": [
@@ -76,7 +76,6 @@
       "IP15 6"
     ],
     "PostCodesRestored": [
-      "IP122BS",
       "IP122AT",
       "IP122AU",
       "IP122AX",
@@ -92,6 +91,7 @@
       "IP122BN",
       "IP122BP",
       "IP122BQ",
+      "IP122BS",
       "IP122EL",
       "IP122EN",
       "IP122EP",
@@ -114,7 +114,6 @@
       "IP156TD"
     ],
     "PostCodesPlanned": [
-      "IP122BS",
       "IP122AT",
       "IP122AU",
       "IP122AX",
@@ -130,6 +129,7 @@
       "IP122BN",
       "IP122BP",
       "IP122BQ",
+      "IP122BS",
       "IP122EL",
       "IP122EN",
       "IP122EP",
@@ -151,9 +151,9 @@
       "IP124BT",
       "IP156TD"
     ],
-    "CustomersOnSupply": 242,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 247,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -992,7 +992,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IP122BS",
     "IP122AT",
     "IP122AU",
     "IP122AX",
@@ -1008,6 +1007,7 @@
     "IP122BN",
     "IP122BP",
     "IP122BQ",
+    "IP122BS",
     "IP122EL",
     "IP122EN",
     "IP122EP",
