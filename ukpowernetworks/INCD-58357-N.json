@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-58357-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-58357-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-58357-N",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-02-08T10:17:34.78",
+      "Message": "Update at 10:17 - We can now confirm that all power in the Prentis Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-02-08T09:23:42",
+      "Date": "2021-02-08T09:23:00",
       "Message": "<p>We became aware of a power cut at 09:23. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-08T09:53:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-08T10:14:01.16",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e3f5INCD",
     "IncidentReference": "INCD-58357-N",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-08T09:24:06",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-08T10:14:01.16",
     "EstimatedRestorationDate": "2021-02-08T12:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-02-08T09:23:42",
+    "ReceivedDate": "2021-02-08T09:23:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 5,
+    "NoCallsReported": 6,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-08T10:17:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 10:17 - We can now confirm that all power in the Prentis Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-08T10:17:34.78"
+      }
+    ],
     "PostCodesAffected": [
       "SW16 1",
       "SW17 8"
@@ -77,9 +91,9 @@
       "SW178BN",
       "SW178JU"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 74,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 74,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
