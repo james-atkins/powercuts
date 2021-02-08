@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-255661-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-255661-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-255661-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-08T12:16:50",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-08T13:54:32.657",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003e6adINCD",
     "IncidentReference": "INCD-255661-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-08T11:53:26",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-08T13:54:32.657",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-08T11:52:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,24 +60,24 @@
       "WC1N 2"
     ],
     "PostCodesRestored": [
-      "WC1N2AF",
       "SE100OR",
+      "WC1N2AF",
       "WC1N2AH",
       "WC1N2AJ",
       "WC1N2AN",
       "WC1N2AP"
     ],
     "PostCodesPlanned": [
-      "WC1N2AF",
       "SE100OR",
+      "WC1N2AF",
       "WC1N2AH",
       "WC1N2AJ",
       "WC1N2AN",
       "WC1N2AP"
     ],
-    "CustomersOnSupply": 39,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 40,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -86,6 +86,35 @@
     "WC1N 2"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 51.50322,
+        "lng": 0.01282
+      },
+      "Coordinates": [
+        {
+          "lat": 51.50181,
+          "lng": 0.0145
+        },
+        {
+          "lat": 51.50431,
+          "lng": 0.01062
+        },
+        {
+          "lat": 51.50362,
+          "lng": 0.01309
+        },
+        {
+          "lat": 51.50339,
+          "lng": 0.01345
+        },
+        {
+          "lat": 51.50181,
+          "lng": 0.0145
+        }
+      ],
+      "Postcode": "SE10 0"
+    },
     {
       "Center": {
         "lat": 51.52533,
@@ -210,40 +239,11 @@
         }
       ],
       "Postcode": "WC1N 2"
-    },
-    {
-      "Center": {
-        "lat": 51.50322,
-        "lng": 0.01282
-      },
-      "Coordinates": [
-        {
-          "lat": 51.50181,
-          "lng": 0.0145
-        },
-        {
-          "lat": 51.50431,
-          "lng": 0.01062
-        },
-        {
-          "lat": 51.50362,
-          "lng": 0.01309
-        },
-        {
-          "lat": 51.50339,
-          "lng": 0.01345
-        },
-        {
-          "lat": 51.50181,
-          "lng": 0.0145
-        }
-      ],
-      "Postcode": "SE10 0"
     }
   ],
   "FullPostcodeData": [
-    "WC1N2AF",
     "SE100OR",
+    "WC1N2AF",
     "WC1N2AH",
     "WC1N2AJ",
     "WC1N2AN",
