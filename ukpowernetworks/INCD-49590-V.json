@@ -1,9 +1,15 @@
 {
   "IncidentReference": "INCD-49590-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-49590-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-49590-V",
   "Steps": [
     {
       "Active": true,
+      "Date": "2021-02-08T09:04:42.693",
+      "Message": "Update at 09:04 - Our engineers arrived on site and now confirm that all power in the Recreation Way area should be back on. The issue was caused by a fault with some of our substation equipment, however engineers have managed to restore power from a street cabinet nearby. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
+    {
+      "Active": false,
       "Date": "2021-02-07T21:58:00",
       "Message": "<p>We became aware of a power cut at 21:58. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -11,36 +17,36 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-08T09:01:03.71",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c1b6INCD",
     "IncidentReference": "INCD-49590-V",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 2,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-08T08:11:47",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-08T09:01:03.71",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-07T21:58:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -54,28 +60,36 @@
       "StatusId": 0
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-08T09:03:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 09:04 - Our engineers arrived on site and now confirm that all power in the Recreation Way area should be back on. The issue was caused by a fault with some of our substation equipment, however engineers have managed to restore power from a street cabinet nearby. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-02-08T09:04:42.693"
+      }
+    ],
     "PostCodesAffected": [
       "ME10 2"
     ],
     "PostCodesRestored": [
       "ME102TG",
-      "ME102UL",
       "ME102UJ",
+      "ME102UL",
       "ME102UN",
       "ME102UP"
     ],
     "PostCodesPlanned": [
       "ME102TG",
-      "ME102UL",
       "ME102UJ",
+      "ME102UL",
       "ME102UN",
       "ME102UP"
     ],
-    "CustomersOnSupply": 100,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 114,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -486,14 +500,14 @@
   ],
   "FullPostcodeData": [
     "ME102TG",
-    "ME102UL",
     "ME102UJ",
+    "ME102UL",
     "ME102UN",
     "ME102UP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
