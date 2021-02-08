@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-217551-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-217551-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-217551-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-02-08T08:25:08.94",
+      "Message": "Update at 08:25 - We can now confirm that all power in the Great Amery Gardens area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-02-08T06:30:35",
+      "Date": "2021-02-08T06:30:00",
       "Message": "<p>We became aware of a power cut at 06:30. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-08T07:35:41",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-08T08:06:49.65",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000351cfINCD",
     "IncidentReference": "INCD-217551-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-08T06:31:25",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-08T08:06:49.65",
     "EstimatedRestorationDate": "2021-02-08T09:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-02-08T06:30:35",
+    "ReceivedDate": "2021-02-08T06:30:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-08T08:24:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 08:25 - We can now confirm that all power in the Great Amery Gardens area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have gotten your power back on as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-02-08T08:25:08.94"
+      }
+    ],
     "PostCodesAffected": [
       "RM2 6"
     ],
@@ -76,9 +90,9 @@
       "RM26RU",
       "RM26RX"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 93,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 93,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
