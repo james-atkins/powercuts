@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-49781-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-49781-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-49781-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-09T18:14:54.353",
-      "Message": "Update at 18:14 -  Our engineers have been in touch and they are checking the overhead cables in the area. We're now aiming to restore supplies between 20:30 and 21:30. We're sorry we've had to change the estimated time, but we'll keep you updated.",
+      "Date": "2021-02-09T19:20:18.727",
+      "Message": "Update at 19:20 - Our engineers are still on site and the estimated time frame hasn't changed. We're sorry for the disruption this power cut may be causing. If you're worried about elderly or ill neighbours, we can offer help and support to our vulnerable customers during a power cut. Find out more here: <a href=\"http://bit.ly/18Me8R8.\" target=\"_blank\">http://bit.ly/18Me8R8.</a> If you have any concerns, please call us on 08003163105.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-09T14:20:05",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-09T19:23:45.777",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c275INCD",
     "IncidentReference": "INCD-49781-V",
-    "IncidentCategory": "11",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-09T13:28:05",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-09T19:23:45.777",
     "EstimatedRestorationDate": "2021-02-09T21:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-09T13:25:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-09T18:14:00",
+        "ActualEventTime": "2021-02-09T19:20:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 18:14 -  Our engineers have been in touch and they are checking the overhead cables in the area. We're now aiming to restore supplies between 20:30 and 21:30. We're sorry we've had to change the estimated time, but we'll keep you updated.",
-        "LoggedTime": "2021-02-09T18:14:54.353"
+        "Comment": "Update at 19:20 - Our engineers are still on site and the estimated time frame hasn't changed. We're sorry for the disruption this power cut may be causing. If you're worried about elderly or ill neighbours, we can offer help and support to our vulnerable customers during a power cut. Find out more here: http://bit.ly/18Me8R8. If you have any concerns, please call us on 08003163105.",
+        "LoggedTime": "2021-02-09T19:20:18.727"
       }
     ],
     "PostCodesAffected": [
@@ -80,9 +80,9 @@
       "TN173PR",
       "TN173PS"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 11,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 11,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -390,7 +390,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating an overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "20:30 - 21:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,

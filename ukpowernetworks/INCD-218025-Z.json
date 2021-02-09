@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-218025-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-218025-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-218025-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-09T18:44:11",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-09T19:27:27.973",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000353a9INCD",
     "IncidentReference": "INCD-218025-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-09T17:23:17",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-09T19:27:27.973",
     "EstimatedRestorationDate": "2021-02-09T20:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-09T17:20:00",
-    "NoCustomerAffected": 95,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 46,
     "Latitude": 0.0,
@@ -74,6 +74,8 @@
       "NR32 2"
     ],
     "PostCodesRestored": [
+      "NR321QP",
+      "NR321QX",
       "NR321QZ",
       "NR321RR",
       "NR321RS",
@@ -89,11 +91,11 @@
       "NR322LD",
       "NR322LE",
       "NR322LN",
-      "NR321QP",
-      "NR321QX",
       "NR322LX"
     ],
     "PostCodesPlanned": [
+      "NR321QP",
+      "NR321QX",
       "NR321QZ",
       "NR321RR",
       "NR321RS",
@@ -109,13 +111,11 @@
       "NR322LD",
       "NR322LE",
       "NR322LN",
-      "NR321QP",
-      "NR321QX",
       "NR322LX"
     ],
-    "CustomersOnSupply": 190,
-    "CustomersOffSupply": 95,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 285,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -996,6 +996,8 @@
     }
   ],
   "FullPostcodeData": [
+    "NR321QP",
+    "NR321QX",
     "NR321QZ",
     "NR321RR",
     "NR321RS",
@@ -1011,8 +1013,6 @@
     "NR322LD",
     "NR322LE",
     "NR322LN",
-    "NR321QP",
-    "NR321QX",
     "NR322LX"
   ],
   "PinLatitude": null,
