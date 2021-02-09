@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-255676-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-255676-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-255676-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-08T14:35:29",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-09T01:33:07.717",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003e6bcINCD",
     "IncidentReference": "INCD-255676-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-08T14:14:20",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-09T01:33:07.717",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-08T14:12:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -60,26 +60,26 @@
       "EC4R 2"
     ],
     "PostCodesRestored": [
-      "EC4R2SS",
       "EC4N6AE",
       "EC4N6AP",
       "EC4R2SH",
       "EC4R2SP",
+      "EC4R2SS",
       "EC4R2ST",
       "EC4R2SU"
     ],
     "PostCodesPlanned": [
-      "EC4R2SS",
       "EC4N6AE",
       "EC4N6AP",
       "EC4R2SH",
       "EC4R2SP",
+      "EC4R2SS",
       "EC4R2ST",
       "EC4R2SU"
     ],
-    "CustomersOnSupply": 11,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 12,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -88,83 +88,6 @@
     "EC4R 2"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.51102,
-        "lng": -0.09171
-      },
-      "Coordinates": [
-        {
-          "lat": 51.51187,
-          "lng": -0.09186
-        },
-        {
-          "lat": 51.51135,
-          "lng": -0.09153
-        },
-        {
-          "lat": 51.51137,
-          "lng": -0.09096
-        },
-        {
-          "lat": 51.51129,
-          "lng": -0.09089
-        },
-        {
-          "lat": 51.51045,
-          "lng": -0.09094
-        },
-        {
-          "lat": 51.51039,
-          "lng": -0.09111
-        },
-        {
-          "lat": 51.51027,
-          "lng": -0.09132
-        },
-        {
-          "lat": 51.51028,
-          "lng": -0.09186
-        },
-        {
-          "lat": 51.5105,
-          "lng": -0.09221
-        },
-        {
-          "lat": 51.51114,
-          "lng": -0.09215
-        },
-        {
-          "lat": 51.51116,
-          "lng": -0.09222
-        },
-        {
-          "lat": 51.51127,
-          "lng": -0.09275
-        },
-        {
-          "lat": 51.51129,
-          "lng": -0.09276
-        },
-        {
-          "lat": 51.51152,
-          "lng": -0.09256
-        },
-        {
-          "lat": 51.51178,
-          "lng": -0.0926
-        },
-        {
-          "lat": 51.51172,
-          "lng": -0.0922
-        },
-        {
-          "lat": 51.51187,
-          "lng": -0.09186
-        }
-      ],
-      "Postcode": "EC4R 2"
-    },
     {
       "Center": {
         "lat": 51.51165,
@@ -241,14 +164,91 @@
         }
       ],
       "Postcode": "EC4N 6"
+    },
+    {
+      "Center": {
+        "lat": 51.51102,
+        "lng": -0.09171
+      },
+      "Coordinates": [
+        {
+          "lat": 51.51187,
+          "lng": -0.09186
+        },
+        {
+          "lat": 51.51135,
+          "lng": -0.09153
+        },
+        {
+          "lat": 51.51137,
+          "lng": -0.09096
+        },
+        {
+          "lat": 51.51129,
+          "lng": -0.09089
+        },
+        {
+          "lat": 51.51045,
+          "lng": -0.09094
+        },
+        {
+          "lat": 51.51039,
+          "lng": -0.09111
+        },
+        {
+          "lat": 51.51027,
+          "lng": -0.09132
+        },
+        {
+          "lat": 51.51028,
+          "lng": -0.09186
+        },
+        {
+          "lat": 51.5105,
+          "lng": -0.09221
+        },
+        {
+          "lat": 51.51114,
+          "lng": -0.09215
+        },
+        {
+          "lat": 51.51116,
+          "lng": -0.09222
+        },
+        {
+          "lat": 51.51127,
+          "lng": -0.09275
+        },
+        {
+          "lat": 51.51129,
+          "lng": -0.09276
+        },
+        {
+          "lat": 51.51152,
+          "lng": -0.09256
+        },
+        {
+          "lat": 51.51178,
+          "lng": -0.0926
+        },
+        {
+          "lat": 51.51172,
+          "lng": -0.0922
+        },
+        {
+          "lat": 51.51187,
+          "lng": -0.09186
+        }
+      ],
+      "Postcode": "EC4R 2"
     }
   ],
   "FullPostcodeData": [
-    "EC4R2SS",
     "EC4N6AE",
     "EC4N6AP",
     "EC4R2SH",
     "EC4R2SP",
+    "EC4R2SS",
     "EC4R2ST",
     "EC4R2SU"
   ],
