@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-244875-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244875-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244875-G",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-02-09T11:13:40.697",
+      "Message": "Update at 11:13 - We can now confirm that power to all 1284 customers in the Copthorne RH10 and RH6 areas should be back on. The issue was caused by an overhead cable fault, which our engineers have safely diverted power around. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-02-09T10:20:12",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-09T10:45:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-09T11:09:53.063",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003bc8bINCD",
     "IncidentReference": "INCD-244875-G",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-09T10:20:20",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-09T11:09:53.063",
     "EstimatedRestorationDate": "2021-02-09T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-09T10:20:12",
-    "NoCustomerAffected": 187,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-09T11:13:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 11:13 - We can now confirm that power to all 1284 customers in the Copthorne RH10 and RH6 areas should be back on. The issue was caused by an overhead cable fault, which our engineers have safely diverted power around. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-09T11:13:40.697"
+      }
+    ],
     "PostCodesAffected": [
       "RH10 3",
       "RH6 9"
@@ -99,9 +113,9 @@
       "RH69RR",
       "RH69TF"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 186,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 186,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1119,7 +1133,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "13:00 - 14:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
