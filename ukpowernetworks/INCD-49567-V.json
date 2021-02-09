@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-49567-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-49567-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-49567-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-07T19:43:20",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-09T09:02:45.123",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c19fINCD",
     "IncidentReference": "INCD-49567-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-07T19:06:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-09T09:02:45.123",
     "EstimatedRestorationDate": "2021-02-08T04:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-07T19:02:00",
-    "NoCustomerAffected": 18,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -73,23 +73,23 @@
       "KT16 9"
     ],
     "PostCodesRestored": [
-      "KT169HB",
       "KT169ES",
       "KT169EX",
       "KT169EY",
-      "KT169HA"
+      "KT169HA",
+      "KT169HB"
     ],
     "PostCodesPlanned": [
-      "KT169HB",
       "KT169ES",
       "KT169EX",
       "KT169EY",
-      "KT169HA"
+      "KT169HA",
+      "KT169HB"
     ],
-    "CustomersOnSupply": 53,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 71,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -511,11 +511,11 @@
     }
   ],
   "FullPostcodeData": [
-    "KT169HB",
     "KT169ES",
     "KT169EX",
     "KT169EY",
-    "KT169HA"
+    "KT169HA",
+    "KT169HB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
