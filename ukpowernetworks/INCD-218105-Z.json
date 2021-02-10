@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-218105-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-218105-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-218105-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-10T07:49:40",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-10T12:08:36.88",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000353f9INCD",
     "IncidentReference": "INCD-218105-Z",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 29,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-10T06:45:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-10T12:08:36.88",
     "EstimatedRestorationDate": "2021-02-10T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-10T06:45:39",
-    "NoCustomerAffected": 15,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -76,9 +76,6 @@
       "IP11 8"
     ],
     "PostCodesRestored": [
-      "IP112PL",
-      "IP112QD",
-      "IP112QF",
       "IP112FA",
       "IP112FB",
       "IP112FD",
@@ -104,7 +101,10 @@
       "IP112JP",
       "IP112JQ",
       "IP112NJ",
+      "IP112PL",
+      "IP112QD",
       "IP112QE",
+      "IP112QF",
       "IP112QJ",
       "IP112QQ",
       "IP112QX",
@@ -173,9 +173,6 @@
       "IP118YW"
     ],
     "PostCodesPlanned": [
-      "IP112PL",
-      "IP112QD",
-      "IP112QF",
       "IP112FA",
       "IP112FB",
       "IP112FD",
@@ -201,7 +198,10 @@
       "IP112JP",
       "IP112JQ",
       "IP112NJ",
+      "IP112PL",
+      "IP112QD",
       "IP112QE",
+      "IP112QF",
       "IP112QJ",
       "IP112QQ",
       "IP112QX",
@@ -269,9 +269,9 @@
       "IP118XD",
       "IP118YW"
     ],
-    "CustomersOnSupply": 1531,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 1546,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1203,9 +1203,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IP112PL",
-    "IP112QD",
-    "IP112QF",
     "IP112FA",
     "IP112FB",
     "IP112FD",
@@ -1231,7 +1228,10 @@
     "IP112JP",
     "IP112JQ",
     "IP112NJ",
+    "IP112PL",
+    "IP112QD",
     "IP112QE",
+    "IP112QF",
     "IP112QJ",
     "IP112QQ",
     "IP112QX",
