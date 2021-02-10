@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-255771-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-255771-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-255771-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-09T15:34:08",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-10T00:40:17.807",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003e71bINCD",
     "IncidentReference": "INCD-255771-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-09T15:02:36",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-10T00:40:17.807",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-09T15:02:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -74,8 +74,8 @@
     ],
     "PostCodesRestored": [
       "KT34SE",
-      "KT34SG",
       "KT34SF",
+      "KT34SG",
       "KT34SH",
       "KT34SL",
       "KT34SQ",
@@ -84,17 +84,17 @@
     ],
     "PostCodesPlanned": [
       "KT34SE",
-      "KT34SG",
       "KT34SF",
+      "KT34SG",
       "KT34SH",
       "KT34SL",
       "KT34SQ",
       "KT34SR",
       "KT34SW"
     ],
-    "CustomersOnSupply": 40,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 42,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -630,8 +630,8 @@
   ],
   "FullPostcodeData": [
     "KT34SE",
-    "KT34SG",
     "KT34SF",
+    "KT34SG",
     "KT34SH",
     "KT34SL",
     "KT34SQ",
