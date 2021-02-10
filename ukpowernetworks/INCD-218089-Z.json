@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-218089-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-218089-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-218089-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-10T08:27:33",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-10T11:20:17.96",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000353e9INCD",
     "IncidentReference": "INCD-218089-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 32,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-10T02:19:47",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-02-10T12:30:00",
+    "RestoredDateTime": "2021-02-10T11:20:17.96",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-10T02:12:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -60,7 +60,6 @@
       "HP5 3"
     ],
     "PostCodesRestored": [
-      "HP52EU",
       "HP52DL",
       "HP52DP",
       "HP52DT",
@@ -69,6 +68,7 @@
       "HP52ER",
       "HP52ES",
       "HP52ET",
+      "HP52EU",
       "HP52FU",
       "HP52NS",
       "HP52PG",
@@ -84,7 +84,6 @@
       "UK"
     ],
     "PostCodesPlanned": [
-      "HP52EU",
       "HP52DL",
       "HP52DP",
       "HP52DT",
@@ -93,6 +92,7 @@
       "HP52ER",
       "HP52ES",
       "HP52ET",
+      "HP52EU",
       "HP52FU",
       "HP52NS",
       "HP52PG",
@@ -107,9 +107,9 @@
       "HP53HD",
       "UK"
     ],
-    "CustomersOnSupply": 264,
-    "CustomersOffSupply": 11,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 275,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -1222,7 +1222,6 @@
     }
   ],
   "FullPostcodeData": [
-    "HP52EU",
     "HP52DL",
     "HP52DP",
     "HP52DT",
@@ -1231,6 +1230,7 @@
     "HP52ER",
     "HP52ES",
     "HP52ET",
+    "HP52EU",
     "HP52FU",
     "HP52NS",
     "HP52PG",
@@ -1248,7 +1248,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "12:00 - 13:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
