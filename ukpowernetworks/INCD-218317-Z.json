@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-218317-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-218317-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-218317-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-11T01:06:12.37",
-      "Message": "Update at 01:05 - We want to reassure you that we have certainly not forgotten about you and we know that the estimated time frame has now passed. Getting you an update is our priority, as we know it's important to provide you with the most up to date information. Our team on site are still working, and we are liaising with them to get a progress update to you as soon as we can safely do so. As soon as we hear from them we'll be in touch, or you can call us on 105 if you need any additional support.",
+      "Date": "2021-02-11T02:09:10.42",
+      "Message": "Update at 02:09 - We can now confirm that all power in the Ipswich IP1 area should be back on. Our engineers have diverted power around an underground cable fault to restore the majority of customers. However, due to the location and complexity of the issue, we have also used temporary generators to restore power to the last of the affected properties. This will provide power until our engineers plan in and safely complete the full repair, which may take a few days. We're really sorry for any disruption this caused. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-10T19:36:58",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-11T02:03:40.8",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000354cdINCD",
     "IncidentReference": "INCD-218317-Z",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 29,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-10T18:55:33",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-11T02:03:40.8",
     "EstimatedRestorationDate": "2021-02-11T00:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-10T18:55:30",
-    "NoCustomerAffected": 21,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 21,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-11T01:06:00",
+        "ActualEventTime": "2021-02-11T02:09:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 01:05 - We want to reassure you that we have certainly not forgotten about you and we know that the estimated time frame has now passed. Getting you an update is our priority, as we know it's important to provide you with the most up to date information. Our team on site are still working, and we are liaising with them to get a progress update to you as soon as we can safely do so. As soon as we hear from them we'll be in touch, or you can call us on 105 if you need any additional support.",
-        "LoggedTime": "2021-02-11T01:06:12.37"
+        "Comment": "Update at 02:09 - We can now confirm that all power in the Ipswich IP1 area should be back on. Our engineers have diverted power around an underground cable fault to restore the majority of customers. However, due to the location and complexity of the issue, we have also used temporary generators to restore power to the last of the affected properties. This will provide power until our engineers plan in and safely complete the full repair, which may take a few days. We're really sorry for any disruption this caused. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-11T02:09:10.42"
       }
     ],
     "PostCodesAffected": [
@@ -75,10 +75,6 @@
       "SG19 2"
     ],
     "PostCodesRestored": [
-      "IP16TB",
-      "IP16TD",
-      "IP16TE",
-      "IP16TF",
       "IP16AH",
       "IP16AJ",
       "IP16AL",
@@ -181,6 +177,10 @@
       "IP16SU",
       "IP16SX",
       "IP16SY",
+      "IP16TB",
+      "IP16TD",
+      "IP16TE",
+      "IP16TF",
       "IP84BF",
       "SG192AF",
       "SG192AG",
@@ -188,10 +188,6 @@
       "SG192BW"
     ],
     "PostCodesPlanned": [
-      "IP16TB",
-      "IP16TD",
-      "IP16TE",
-      "IP16TF",
       "IP16AH",
       "IP16AJ",
       "IP16AL",
@@ -294,15 +290,19 @@
       "IP16SU",
       "IP16SX",
       "IP16SY",
+      "IP16TB",
+      "IP16TD",
+      "IP16TE",
+      "IP16TF",
       "IP84BF",
       "SG192AF",
       "SG192AG",
       "SG192AJ",
       "SG192BW"
     ],
-    "CustomersOnSupply": 2093,
-    "CustomersOffSupply": 21,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 2114,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -1617,10 +1617,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IP16TB",
-    "IP16TD",
-    "IP16TE",
-    "IP16TF",
     "IP16AH",
     "IP16AJ",
     "IP16AL",
@@ -1723,6 +1719,10 @@
     "IP16SU",
     "IP16SX",
     "IP16SY",
+    "IP16TB",
+    "IP16TD",
+    "IP16TE",
+    "IP16TF",
     "IP84BF",
     "SG192AF",
     "SG192AG",
