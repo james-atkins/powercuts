@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-218522-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-218522-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-218522-Z",
   "Steps": [
     {
       "Active": true,
@@ -10,8 +10,8 @@
     },
     {
       "Active": false,
-      "Date": "2021-02-11T13:05:19",
-      "Message": "<p>We became aware of a power cut at 13:05. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-02-11T13:00:00",
+      "Message": "<p>We became aware of a power cut at 13:00. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-11T14:51:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-11T15:46:33.257",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003559aINCD",
     "IncidentReference": "INCD-218522-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-11T13:08:55",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-11T15:46:33.257",
     "EstimatedRestorationDate": "2021-02-11T17:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-02-11T13:05:19",
+    "ReceivedDate": "2021-02-11T13:00:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
@@ -105,9 +105,9 @@
       "N181SP",
       "N181TP"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 264,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 264,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
