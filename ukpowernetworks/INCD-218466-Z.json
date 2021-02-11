@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-218466-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-218466-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-218466-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-11T11:23:51",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-11T12:57:42.327",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035562INCD",
     "IncidentReference": "INCD-218466-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-11T11:12:49",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-11T12:57:42.327",
     "EstimatedRestorationDate": "2021-02-11T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-11T08:27:57",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -54,7 +54,7 @@
     "Resource": {
       "Id": null,
       "Name": "NICK (R5)",
-      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
+      "EstimatedTimeOfArrival": "2021-02-11T13:15:00",
       "DispatchedDate": "2021-02-11T11:23:47",
       "ArrivalDate": "2021-02-11T11:23:51",
       "StatusId": 6
@@ -76,17 +76,19 @@
       "CM210BT",
       "CM210BU",
       "CM210BX",
+      "CM210BY",
       "CM210DA"
     ],
     "PostCodesPlanned": [
       "CM210BT",
       "CM210BU",
       "CM210BX",
+      "CM210BY",
       "CM210DA"
     ],
-    "CustomersOnSupply": 18,
-    "CustomersOffSupply": 16,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 40,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -504,6 +506,7 @@
     "CM210BT",
     "CM210BU",
     "CM210BX",
+    "CM210BY",
     "CM210DA"
   ],
   "PinLatitude": null,
