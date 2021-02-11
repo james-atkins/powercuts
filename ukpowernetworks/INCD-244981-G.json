@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-244981-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244981-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244981-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-11T03:41:06.793",
-      "Message": "Update at 03:41 - Hi, this is Stuart from the UK Power Networks messaging team. Thanks for your patience this morning. Our engineers have been in contact with us to let us know that further time is now required to repair the damage pole and overhead lines. Due to this, the estimated timeframe to restore your power is now between 04:00 and 05:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
+      "Date": "2021-02-11T05:16:17.99",
+      "Message": "Update at 05:16 - We believe our engineers have been able to restore power to all 32 customers in the Wraik Hall area, by carrying out repairs to a pole damaged by a road traffic accident. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know your power may have been off for a long time, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-10T23:15:19",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-11T05:16:31.973",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003bcf5INCD",
     "IncidentReference": "INCD-244981-G",
-    "IncidentCategory": "1",
+    "IncidentCategory": "117",
     "IncidentType": 4,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-10T22:30:47",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-11T05:16:31.973",
     "EstimatedRestorationDate": "2021-02-11T04:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-10T22:27:38",
-    "NoCustomerAffected": 32,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-11T03:40:00",
+        "ActualEventTime": "2021-02-11T05:16:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 03:41 - Hi, this is Stuart from the UK Power Networks messaging team. Thanks for your patience this morning. Our engineers have been in contact with us to let us know that further time is now required to repair the damage pole and overhead lines. Due to this, the estimated timeframe to restore your power is now between 04:00 and 05:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
-        "LoggedTime": "2021-02-11T03:41:06.793"
+        "Comment": "Update at 05:16 - We believe our engineers have been able to restore power to all 32 customers in the Wraik Hall area, by carrying out repairs to a pole damaged by a road traffic accident. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know your power may have been off for a long time, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-02-11T05:16:17.99"
       }
     ],
     "PostCodesAffected": [
@@ -88,9 +88,9 @@
       "CT53DW",
       "CT53FW"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 32,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 32,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -658,7 +658,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which has caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "04:00 - 05:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
