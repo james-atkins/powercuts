@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-218740-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-218740-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-218740-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-12T17:15:32.9",
-      "Message": "Update at 17:15 - This is Rob from the messaging team at UK Power Networks. I'm sorry if your power has gone off again today. Our staff are still on site in the Pretoria Road area and investigating. They will do everything they can to keep the power stable, but we want to give them time to run their tests safely. As such we're estimating power will be on between 18:30 and 19:30. It's possible the underlying fault may have reached a point where it can be located using specialist equipment, and if this is the case, then your power may need to remain off for the repairs. However, I'll keep you updated with all of our progress, and if you have any concerns our team are here to talk on 08003163105.",
+      "Date": "2021-02-12T19:25:42.103",
+      "Message": "Update at 19:25 - Our staff have managed to restore your power by replacing our network safety equipment. However, due to the frequency of these issues they are staying on site to continue running tests and working to pinpoint the underlying fault. We're sorry for the continued disruption, and we'll do everything we can to keep the power on and stable. If your power isn't on or there's anything you'd like to talk to us about, call us 24 hours on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,29 +21,29 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-12T14:11:31",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-12T19:38:19.037",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035674INCD",
     "IncidentReference": "INCD-218740-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-12T12:20:34",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-02-12T19:00:00",
+    "RestoredDateTime": "2021-02-12T19:38:19.037",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-12T12:11:00",
     "NoCustomerAffected": 0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-12T17:15:00",
+        "ActualEventTime": "2021-02-12T19:25:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 17:15 - This is Rob from the messaging team at UK Power Networks. I'm sorry if your power has gone off again today. Our staff are still on site in the Pretoria Road area and investigating. They will do everything they can to keep the power stable, but we want to give them time to run their tests safely. As such we're estimating power will be on between 18:30 and 19:30. It's possible the underlying fault may have reached a point where it can be located using specialist equipment, and if this is the case, then your power may need to remain off for the repairs. However, I'll keep you updated with all of our progress, and if you have any concerns our team are here to talk on 08003163105.",
-        "LoggedTime": "2021-02-12T17:15:32.9"
+        "Comment": "Update at 19:25 - Our staff have managed to restore your power by replacing our network safety equipment. However, due to the frequency of these issues they are staying on site to continue running tests and working to pinpoint the underlying fault. We're sorry for the continued disruption, and we'll do everything we can to keep the power on and stable. If your power isn't on or there's anything you'd like to talk to us about, call us 24 hours on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-12T19:25:42.103"
       }
     ],
     "PostCodesAffected": [
@@ -89,7 +89,7 @@
     ],
     "CustomersOnSupply": 58,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -939,7 +939,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "18:30 - 19:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
