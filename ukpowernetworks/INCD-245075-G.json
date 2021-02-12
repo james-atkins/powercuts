@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245075-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245075-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245075-G",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-12T02:55:55",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-12T08:33:10.67",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003bd53INCD",
     "IncidentReference": "INCD-245075-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 2,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-12T02:00:32",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-12T08:33:10.67",
     "EstimatedRestorationDate": "2021-02-12T06:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-12T01:55:07",
@@ -59,24 +59,24 @@
       "BN14 0"
     ],
     "PostCodesRestored": [
-      "BN140HJ",
       "BN140DR",
       "BN140DS",
       "BN140HB",
+      "BN140HJ",
       "BN140HL",
       "BN140HN"
     ],
     "PostCodesPlanned": [
-      "BN140HJ",
       "BN140DR",
       "BN140DS",
       "BN140HB",
+      "BN140HJ",
       "BN140HL",
       "BN140HN"
     ],
-    "CustomersOnSupply": 60,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 61,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -335,10 +335,10 @@
     }
   ],
   "FullPostcodeData": [
-    "BN140HJ",
     "BN140DR",
     "BN140DS",
     "BN140HB",
+    "BN140HJ",
     "BN140HL",
     "BN140HN"
   ],
