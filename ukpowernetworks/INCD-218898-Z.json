@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-218898-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-218898-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-218898-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-13T09:51:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-13T11:24:41.627",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035712INCD",
     "IncidentReference": "INCD-218898-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-13T08:52:15",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-13T11:24:41.627",
     "EstimatedRestorationDate": "2021-02-13T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-13T08:46:00",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -60,23 +60,23 @@
     ],
     "PostCodesRestored": [
       "RM176JJ",
-      "RM176XG",
-      "RM176XR",
       "RM176LL",
       "RM176NA",
-      "RM176NX"
+      "RM176NX",
+      "RM176XG",
+      "RM176XR"
     ],
     "PostCodesPlanned": [
       "RM176JJ",
-      "RM176XG",
-      "RM176XR",
       "RM176LL",
       "RM176NA",
-      "RM176NX"
+      "RM176NX",
+      "RM176XG",
+      "RM176XR"
     ],
-    "CustomersOnSupply": 21,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 31,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -620,11 +620,11 @@
   ],
   "FullPostcodeData": [
     "RM176JJ",
-    "RM176XG",
-    "RM176XR",
     "RM176LL",
     "RM176NA",
-    "RM176NX"
+    "RM176NX",
+    "RM176XG",
+    "RM176XR"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
