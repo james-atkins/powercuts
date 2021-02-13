@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-37793-M",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-37793-M",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-37793-M",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-13T16:16:57.94",
-      "Message": "Update at 16:16 - Our engineers have investigated and found that the power is off due to a fault on our underground network in the Stewarts Grove area. We're sending a specialist team to dig down to expose the cabling for repairs. Considering the work that may be required, the estimated time to have the power back on is between 20:30 and 21:30. We will keep you updated.",
+      "Date": "2021-02-13T17:08:25.387",
+      "Message": "Update at 17:08 - Our engineers have been able to do a temporary fix to the issue. However, additional work is required in order to permanently fix the fault. To do this safely, your power may go off again later as repairs progress.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-13T10:44:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-13T17:04:26.963",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "M000093a1INCD",
     "IncidentReference": "INCD-37793-M",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-12T23:37:06",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-13T17:04:26.963",
     "EstimatedRestorationDate": "2021-02-13T21:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-12T23:33:00",
-    "NoCustomerAffected": 9,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 10,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-13T16:16:00",
+        "ActualEventTime": "2021-02-13T17:08:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 16:16 - Our engineers have investigated and found that the power is off due to a fault on our underground network in the Stewarts Grove area. We're sending a specialist team to dig down to expose the cabling for repairs. Considering the work that may be required, the estimated time to have the power back on is between 20:30 and 21:30. We will keep you updated.",
-        "LoggedTime": "2021-02-13T16:16:57.94"
+        "Comment": "Update at 17:08 - Our engineers have been able to do a temporary fix to the issue. However, additional work is required in order to permanently fix the fault. To do this safely, your power may go off again later as repairs progress.",
+        "LoggedTime": "2021-02-13T17:08:25.387"
       }
     ],
     "PostCodesAffected": [
@@ -75,22 +75,22 @@
     "PostCodesRestored": [
       "SW36PD",
       "SW36PH",
-      "SW36QB",
-      "SW36SN",
       "SW36PP",
-      "SW36PS"
+      "SW36PS",
+      "SW36QB",
+      "SW36SN"
     ],
     "PostCodesPlanned": [
       "SW36PD",
       "SW36PH",
-      "SW36QB",
-      "SW36SN",
       "SW36PP",
-      "SW36PS"
+      "SW36PS",
+      "SW36QB",
+      "SW36SN"
     ],
-    "CustomersOnSupply": 15,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 29,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -675,10 +675,10 @@
   "FullPostcodeData": [
     "SW36PD",
     "SW36PH",
-    "SW36QB",
-    "SW36SN",
     "SW36PP",
-    "SW36PS"
+    "SW36PS",
+    "SW36QB",
+    "SW36SN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
