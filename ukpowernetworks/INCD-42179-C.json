@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-42179-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-42179-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-42179-C",
   "Steps": [
     {
       "Active": true,
@@ -10,7 +10,7 @@
     },
     {
       "Active": false,
-      "Date": "2021-02-14T19:57:52",
+      "Date": "2021-02-14T19:57:00",
       "Message": "<p>We became aware of a power cut at 19:57. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-14T22:22:55",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-14T23:34:22.347",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000a4c3INCD",
     "IncidentReference": "INCD-42179-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-14T19:58:32",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-14T23:34:22.347",
     "EstimatedRestorationDate": "2021-02-15T00:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-02-14T19:57:52",
+    "ReceivedDate": "2021-02-14T19:57:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
@@ -73,30 +73,30 @@
       "PE1 2"
     ],
     "PostCodesRestored": [
+      "PE12AJ",
+      "PE12AL",
       "PE12BY",
       "PE12BZ",
       "PE12DA",
-      "PE12AJ",
-      "PE12AL",
       "PE12LA",
       "PE12LB",
       "PE12LD",
       "PE12LR"
     ],
     "PostCodesPlanned": [
+      "PE12AJ",
+      "PE12AL",
       "PE12BY",
       "PE12BZ",
       "PE12DA",
-      "PE12AJ",
-      "PE12AL",
       "PE12LA",
       "PE12LB",
       "PE12LD",
       "PE12LR"
     ],
-    "CustomersOnSupply": 64,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 82,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -659,11 +659,11 @@
     }
   ],
   "FullPostcodeData": [
+    "PE12AJ",
+    "PE12AL",
     "PE12BY",
     "PE12BZ",
     "PE12DA",
-    "PE12AJ",
-    "PE12AL",
     "PE12LA",
     "PE12LB",
     "PE12LD",
