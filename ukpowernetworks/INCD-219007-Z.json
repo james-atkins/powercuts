@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-219007-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-219007-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-219007-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-13T21:58:01",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-14T09:50:46.96",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003577fINCD",
     "IncidentReference": "INCD-219007-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-13T21:28:52",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-14T09:50:46.96",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-13T21:27:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -73,18 +73,18 @@
       "SS7 2"
     ],
     "PostCodesRestored": [
-      "SS72LL",
       "SS72LG",
-      "SS72LJ"
+      "SS72LJ",
+      "SS72LL"
     ],
     "PostCodesPlanned": [
-      "SS72LL",
       "SS72LG",
-      "SS72LJ"
+      "SS72LJ",
+      "SS72LL"
     ],
-    "CustomersOnSupply": 29,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 30,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -503,9 +503,9 @@
     }
   ],
   "FullPostcodeData": [
-    "SS72LL",
     "SS72LG",
-    "SS72LJ"
+    "SS72LJ",
+    "SS72LL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
