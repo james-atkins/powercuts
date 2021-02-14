@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245235-G",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245235-G",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245235-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-02-14T16:33:23",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-02-14T19:32:52.273",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "G0003bdf3INCD",
     "IncidentReference": "INCD-245235-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 29,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-02-14T00:03:25",
-    "RestoredDateTime": "2021-02-14T19:32:52.273",
-    "EstimatedRestorationDate": "2021-02-14T22:00:00",
+    "RestoredDateTime": null,
+    "EstimatedRestorationDate": "2021-02-15T01:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-14T00:05:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 1,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -68,10 +68,10 @@
       "GU48AY",
       "GU48BB"
     ],
-    "CustomersOnSupply": 41,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 40,
+    "CustomersOffSupply": 1,
+    "IncidentTypeName": "Unplanned",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -516,7 +516,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "21:30 - 22:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "00:30 - 01:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
