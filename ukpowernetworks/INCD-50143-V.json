@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-50143-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-50143-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-50143-V",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-02-14T06:17:42",
+      "Date": "2021-02-14T06:17:00",
       "Message": "<p>We became aware of a power cut at 06:17. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-14T07:28:09",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-14T09:07:49.453",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c3dfINCD",
     "IncidentReference": "INCD-50143-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-14T06:18:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-14T09:07:49.453",
     "EstimatedRestorationDate": "2021-02-14T10:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-02-14T06:17:42",
+    "ReceivedDate": "2021-02-14T06:17:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 3,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -63,17 +63,19 @@
       "GU11BW",
       "GU11EP",
       "GU11ET",
-      "GU14JN"
+      "GU14JN",
+      "GU14JW"
     ],
     "PostCodesPlanned": [
       "GU11BW",
       "GU11EP",
       "GU11ET",
-      "GU14JN"
+      "GU14JN",
+      "GU14JW"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 40,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 69,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1285,7 +1287,8 @@
     "GU11BW",
     "GU11EP",
     "GU11ET",
-    "GU14JN"
+    "GU14JN",
+    "GU14JW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
