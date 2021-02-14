@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-219100-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-219100-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-219100-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-14T18:03:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-14T21:31:11.793",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000357dcINCD",
     "IncidentReference": "INCD-219100-Z",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-14T16:52:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-14T21:31:11.793",
     "EstimatedRestorationDate": "2021-02-14T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-14T16:51:00",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -61,20 +61,20 @@
     "PostCodesRestored": [
       "AL54AS",
       "AL54AT",
+      "AL54AU",
       "AL54AX",
-      "AL54AY",
-      "AL54AU"
+      "AL54AY"
     ],
     "PostCodesPlanned": [
       "AL54AS",
       "AL54AT",
+      "AL54AU",
       "AL54AX",
-      "AL54AY",
-      "AL54AU"
+      "AL54AY"
     ],
-    "CustomersOnSupply": 23,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 29,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -675,13 +675,13 @@
   "FullPostcodeData": [
     "AL54AS",
     "AL54AT",
+    "AL54AU",
     "AL54AX",
-    "AL54AY",
-    "AL54AU"
+    "AL54AY"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "21:30 - 22:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
