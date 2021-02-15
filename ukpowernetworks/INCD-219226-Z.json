@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-219226-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-219226-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-219226-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-15T11:01:52",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-15T11:42:21.757",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003585aINCD",
     "IncidentReference": "INCD-219226-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-15T10:06:47",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-15T11:42:21.757",
     "EstimatedRestorationDate": "2021-02-15T14:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-15T10:05:00",
-    "NoCustomerAffected": 22,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -76,19 +76,19 @@
       "AL49DS",
       "AL49DX",
       "AL49DY",
-      "AL49FN",
-      "AL49FL"
+      "AL49FL",
+      "AL49FN"
     ],
     "PostCodesPlanned": [
       "AL49DS",
       "AL49DX",
       "AL49DY",
-      "AL49FN",
-      "AL49FL"
+      "AL49FL",
+      "AL49FN"
     ],
-    "CustomersOnSupply": 8,
-    "CustomersOffSupply": 67,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 75,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -538,8 +538,8 @@
     "AL49DS",
     "AL49DX",
     "AL49DY",
-    "AL49FN",
-    "AL49FL"
+    "AL49FL",
+    "AL49FN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
