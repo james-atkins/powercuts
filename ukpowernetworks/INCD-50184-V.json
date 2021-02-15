@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-50184-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-50184-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-50184-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-15T14:18:50",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-15T18:38:43.243",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c408INCD",
     "IncidentReference": "INCD-50184-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-15T09:23:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-15T18:38:43.243",
     "EstimatedRestorationDate": "2021-02-15T19:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-15T07:16:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -60,7 +60,6 @@
     ],
     "PostCodesRestored": [
       "TN131AX",
-      "TN131HG",
       "TN131BH",
       "TN131DR",
       "TN131DT",
@@ -76,6 +75,7 @@
       "TN131EW",
       "TN131EX",
       "TN131HE",
+      "TN131HG",
       "TN131HH",
       "TN131HJ",
       "TN131YD",
@@ -85,7 +85,6 @@
     ],
     "PostCodesPlanned": [
       "TN131AX",
-      "TN131HG",
       "TN131BH",
       "TN131DR",
       "TN131DT",
@@ -101,6 +100,7 @@
       "TN131EW",
       "TN131EX",
       "TN131HE",
+      "TN131HG",
       "TN131HH",
       "TN131HJ",
       "TN131YD",
@@ -108,10 +108,10 @@
       "TN131YF",
       "TN131YG"
     ],
-    "CustomersOnSupply": 224,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 233,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -518,7 +518,6 @@
   ],
   "FullPostcodeData": [
     "TN131AX",
-    "TN131HG",
     "TN131BH",
     "TN131DR",
     "TN131DT",
@@ -534,6 +533,7 @@
     "TN131EW",
     "TN131EX",
     "TN131HE",
+    "TN131HG",
     "TN131HH",
     "TN131HJ",
     "TN131YD",
