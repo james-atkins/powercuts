@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-256186-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-256186-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-256186-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-15T18:58:02",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-15T23:24:54.977",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003e8baINCD",
     "IncidentReference": "INCD-256186-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-15T16:34:03",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-15T23:24:54.977",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-15T16:30:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,9 +60,9 @@
       "SW9 8"
     ],
     "PostCodesRestored": [
-      "SW97EL",
       "SW97AH",
       "SW97DT",
+      "SW97EL",
       "SW97EP",
       "SW97EU",
       "SW97EX",
@@ -75,9 +75,9 @@
       "SW98SE"
     ],
     "PostCodesPlanned": [
-      "SW97EL",
       "SW97AH",
       "SW97DT",
+      "SW97EL",
       "SW97EP",
       "SW97EU",
       "SW97EX",
@@ -89,9 +89,9 @@
       "SW98SA",
       "SW98SE"
     ],
-    "CustomersOnSupply": 98,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 99,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1232,9 +1232,9 @@
     }
   ],
   "FullPostcodeData": [
-    "SW97EL",
     "SW97AH",
     "SW97DT",
+    "SW97EL",
     "SW97EP",
     "SW97EU",
     "SW97EX",
