@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-219409-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-219409-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-219409-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-15T18:52:21",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-15T19:25:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035911INCD",
     "IncidentReference": "INCD-219409-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-15T18:00:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-15T19:25:00",
     "EstimatedRestorationDate": "2021-02-15T21:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-15T17:54:00",
@@ -59,22 +59,22 @@
       "SG12 9"
     ],
     "PostCodesRestored": [
-      "SG129HB",
-      "SG129HE",
       "SG129DX",
       "SG129EX",
+      "SG129HB",
+      "SG129HE",
       "SG129HF"
     ],
     "PostCodesPlanned": [
-      "SG129HB",
-      "SG129HE",
       "SG129DX",
       "SG129EX",
+      "SG129HB",
+      "SG129HE",
       "SG129HF"
     ],
-    "CustomersOnSupply": 6,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 13,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -533,10 +533,10 @@
     }
   ],
   "FullPostcodeData": [
-    "SG129HB",
-    "SG129HE",
     "SG129DX",
     "SG129EX",
+    "SG129HB",
+    "SG129HE",
     "SG129HF"
   ],
   "PinLatitude": null,
