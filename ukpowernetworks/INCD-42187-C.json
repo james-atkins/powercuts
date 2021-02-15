@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-42187-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-42187-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-42187-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-14T23:05:46",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-15T08:40:20.023",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000a4cbINCD",
     "IncidentReference": "INCD-42187-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-14T22:23:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-15T08:40:20.023",
     "EstimatedRestorationDate": "2021-02-15T10:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-14T22:21:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -60,20 +60,20 @@
       "SS9 5"
     ],
     "PostCodesRestored": [
-      "SS94EX",
-      "SS95PQ",
       "SS94DH",
-      "SS95PG"
+      "SS94EX",
+      "SS95PG",
+      "SS95PQ"
     ],
     "PostCodesPlanned": [
-      "SS94EX",
-      "SS95PQ",
       "SS94DH",
-      "SS95PG"
+      "SS94EX",
+      "SS95PG",
+      "SS95PQ"
     ],
-    "CustomersOnSupply": 8,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 12,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1034,10 +1034,10 @@
     }
   ],
   "FullPostcodeData": [
-    "SS94EX",
-    "SS95PQ",
     "SS94DH",
-    "SS95PG"
+    "SS94EX",
+    "SS95PG",
+    "SS95PQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
