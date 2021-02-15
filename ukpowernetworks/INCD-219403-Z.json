@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-219403-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-219403-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-219403-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-02-15T19:18:16.487",
+      "Message": "Update at 19:17 - Our engineers are on site in the Water Tower Road area, the estimated time hasn't changed. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government guidelines about social distancing when interacting with our staff. If you would like more information about what we think the fault is; here's a short YouTube video <a href=\"https://bit.ly/2y8Dtfz.\" target=\"_blank\">https://bit.ly/2y8Dtfz.</a>",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-02-15T17:40:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-15T18:13:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-15T19:19:30.73",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003590bINCD",
     "IncidentReference": "INCD-219403-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-15T17:41:20",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-15T19:19:30.73",
     "EstimatedRestorationDate": "2021-02-15T21:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-15T17:40:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-15T19:17:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 19:17 - Our engineers are on site in the Water Tower Road area, the estimated time hasn't changed. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government guidelines about social distancing when interacting with our staff. If you would like more information about what we think the fault is; here's a short YouTube video https://bit.ly/2y8Dtfz.",
+        "LoggedTime": "2021-02-15T19:18:16.487"
+      }
+    ],
     "PostCodesAffected": [
       "CM13 3",
       "CM14 5"
@@ -77,9 +91,9 @@
       "CM145HJ",
       "CM145WF"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 31,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 31,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
