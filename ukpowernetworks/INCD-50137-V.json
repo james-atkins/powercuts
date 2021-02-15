@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-50137-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-50137-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-50137-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-13T22:06:16",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-15T12:35:02.55",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c3d9INCD",
     "IncidentReference": "INCD-50137-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 501,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-13T20:53:03",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-15T12:35:02.55",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-13T20:52:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "RH1 5"
     ],
     "PostCodesRestored": [
-      "RH15QW",
       "RH15QL",
       "RH15QN",
-      "RH15QP"
+      "RH15QP",
+      "RH15QW"
     ],
     "PostCodesPlanned": [
-      "RH15QW",
       "RH15QL",
       "RH15QN",
-      "RH15QP"
+      "RH15QP",
+      "RH15QW"
     ],
-    "CustomersOnSupply": 19,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 21,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -391,10 +391,10 @@
     }
   ],
   "FullPostcodeData": [
-    "RH15QW",
     "RH15QL",
     "RH15QN",
-    "RH15QP"
+    "RH15QP",
+    "RH15QW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
