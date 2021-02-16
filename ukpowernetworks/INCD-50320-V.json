@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-50320-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-50320-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-50320-V",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-02-16T13:34:19",
+      "Date": "2021-02-16T13:34:00",
       "Message": "<p>We became aware of a power cut at 13:34. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-16T14:26:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-16T15:17:59.0514016+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c490INCD",
     "IncidentReference": "INCD-50320-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-16T13:35:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-16T15:17:59.0514016+00:00",
     "EstimatedRestorationDate": "2021-02-16T17:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-02-16T13:34:19",
+    "ReceivedDate": "2021-02-16T13:34:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
@@ -68,9 +68,9 @@
       "TN131HG",
       "TN131HH"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 13,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 13,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
