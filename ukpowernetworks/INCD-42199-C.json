@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-42199-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-42199-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-42199-C",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-15T11:55:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-16T00:02:53.08",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000a4d7INCD",
     "IncidentReference": "INCD-42199-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-15T09:46:51",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-16T00:02:53.08",
     "EstimatedRestorationDate": "2021-02-15T22:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-15T09:46:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -73,28 +73,28 @@
       "NR25 6"
     ],
     "PostCodesRestored": [
-      "NR256HP",
-      "NR256HS",
       "NR256BD",
       "NR256BE",
       "NR256BG",
       "NR256BH",
+      "NR256HP",
       "NR256HR",
+      "NR256HS",
       "NR256HT"
     ],
     "PostCodesPlanned": [
-      "NR256HP",
-      "NR256HS",
       "NR256BD",
       "NR256BE",
       "NR256BG",
       "NR256BH",
+      "NR256HP",
       "NR256HR",
+      "NR256HS",
       "NR256HT"
     ],
-    "CustomersOnSupply": 65,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 68,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -413,13 +413,13 @@
     }
   ],
   "FullPostcodeData": [
-    "NR256HP",
-    "NR256HS",
     "NR256BD",
     "NR256BE",
     "NR256BG",
     "NR256BH",
+    "NR256HP",
     "NR256HR",
+    "NR256HS",
     "NR256HT"
   ],
   "PinLatitude": null,
