@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-219437-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-219437-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-219437-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-16T06:09:12.663",
-      "Message": "Update at 06:08 - We know the timeframe we initially estimated is now approaching. Our engineers are continuing their work on our underground network in the Alconbury area. As our staff are working with live electricity, we need to wait until it is safe for them to stop, and contact us with an update. We are really sorry you have been impacted this morning and we will provide a further update as soon as possible.",
+      "Date": "2021-02-16T06:32:19.53",
+      "Message": "Update at 06:31 - We can now confirm that all power in the Alconbury area should be back on. Our engineers have diverted power around underground cable fault to get the majority of customers back on.. However, due to the location and complexity of the issue, we have also used temporary generators to restore power to the last of the affected properties. These will provide power until our engineers plan in and safely complete the full repair, which may take a few days. We're really sorry for any disruption this caused. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-15T21:59:16",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-16T06:30:04.227",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003592dINCD",
     "IncidentReference": "INCD-219437-Z",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 29,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-15T21:18:55",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-16T06:30:04.227",
     "EstimatedRestorationDate": "2021-02-16T05:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-15T21:23:30",
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-16T06:08:00",
+        "ActualEventTime": "2021-02-16T06:31:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 06:08 - We know the timeframe we initially estimated is now approaching. Our engineers are continuing their work on our underground network in the Alconbury area. As our staff are working with live electricity, we need to wait until it is safe for them to stop, and contact us with an update. We are really sorry you have been impacted this morning and we will provide a further update as soon as possible.",
-        "LoggedTime": "2021-02-16T06:09:12.663"
+        "Comment": "Update at 06:31 - We can now confirm that all power in the Alconbury area should be back on. Our engineers have diverted power around underground cable fault to get the majority of customers back on.. However, due to the location and complexity of the issue, we have also used temporary generators to restore power to the last of the affected properties. These will provide power until our engineers plan in and safely complete the full repair, which may take a few days. We're really sorry for any disruption this caused. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-16T06:32:19.53"
       }
     ],
     "PostCodesAffected": [
@@ -158,7 +158,7 @@
     ],
     "CustomersOnSupply": 215,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
