@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-219668-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-219668-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-219668-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-16T19:48:20",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-16T21:29:03.977",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035a14INCD",
     "IncidentReference": "INCD-219668-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-16T19:14:19",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-16T21:29:03.977",
     "EstimatedRestorationDate": "2021-02-16T22:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-16T19:12:00",
-    "NoCustomerAffected": 15,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -74,29 +74,29 @@
     ],
     "PostCodesRestored": [
       "SG28AD",
+      "SG28AF",
       "SG28RS",
       "SG28RT",
       "SG28RU",
       "SG28RX",
       "SG28RY",
       "SG28RZ",
-      "SG28TN",
-      "SG28AF"
+      "SG28TN"
     ],
     "PostCodesPlanned": [
       "SG28AD",
+      "SG28AF",
       "SG28RS",
       "SG28RT",
       "SG28RU",
       "SG28RX",
       "SG28RY",
       "SG28RZ",
-      "SG28TN",
-      "SG28AF"
+      "SG28TN"
     ],
-    "CustomersOnSupply": 29,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 44,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -400,14 +400,14 @@
   ],
   "FullPostcodeData": [
     "SG28AD",
+    "SG28AF",
     "SG28RS",
     "SG28RT",
     "SG28RU",
     "SG28RX",
     "SG28RY",
     "SG28RZ",
-    "SG28TN",
-    "SG28AF"
+    "SG28TN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
