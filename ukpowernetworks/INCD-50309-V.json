@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-50309-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-50309-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-50309-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-16T14:17:12",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-17T09:17:51.64",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c485INCD",
     "IncidentReference": "INCD-50309-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-16T12:16:14",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-17T09:17:51.64",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-16T12:10:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,24 +59,24 @@
       "GU2 9"
     ],
     "PostCodesRestored": [
-      "GU29QY",
       "GU29QX",
+      "GU29QY",
       "GU29QZ",
       "GU29RE",
       "GU29RF",
       "GU29RQ"
     ],
     "PostCodesPlanned": [
-      "GU29QY",
       "GU29QX",
+      "GU29QY",
       "GU29QZ",
       "GU29RE",
       "GU29RF",
       "GU29RQ"
     ],
-    "CustomersOnSupply": 111,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 112,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -487,8 +487,8 @@
     }
   ],
   "FullPostcodeData": [
-    "GU29QY",
     "GU29QX",
+    "GU29QY",
     "GU29QZ",
     "GU29RE",
     "GU29RF",
