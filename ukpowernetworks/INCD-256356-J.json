@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-256356-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-256356-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-256356-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-17T03:47:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-17T04:59:56.72",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003e964INCD",
     "IncidentReference": "INCD-256356-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-17T01:31:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-17T04:59:56.72",
     "EstimatedRestorationDate": "2021-02-17T06:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-17T01:30:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -59,22 +59,22 @@
       "E1W 3"
     ],
     "PostCodesRestored": [
-      "E1W3DR",
       "E1W3DE",
+      "E1W3DR",
       "E1W3EH",
       "E1W3EL",
       "E1W3HT"
     ],
     "PostCodesPlanned": [
-      "E1W3DR",
       "E1W3DE",
+      "E1W3DR",
       "E1W3EH",
       "E1W3EL",
       "E1W3HT"
     ],
-    "CustomersOnSupply": 105,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 115,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -561,8 +561,8 @@
     }
   ],
   "FullPostcodeData": [
-    "E1W3DR",
     "E1W3DE",
+    "E1W3DR",
     "E1W3EH",
     "E1W3EL",
     "E1W3HT"
