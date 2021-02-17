@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-58725-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-58725-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-58725-N",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-17T18:13:04.117",
-      "Message": "Update at 18:12 - We have been made aware that not all power has been restored to the area. Our engineers diverted electricity around the fault, however this diversion has not held. They are continuing their work on site and we are waiting for an update before advising a new timeframe. We will continue to keep you informed of progress. If your power is back on, you can stop these by sending CANCEL to 80876 (standard fees apply).",
+      "Date": "2021-02-17T18:32:37.06",
+      "Message": "Update at 18:32 - Our engineers have investigated and found that the power is off due to a fault on our underground network which has affected our substation equipment. We're sending a specialist team to pinpoint the fault, and dig down to expose the cabling for repairs. Considering the work that may be required, the revised estimated time to have the power back on is between 23:30 and 00:30. We're sorry to change the time, we will keep you updated.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-17T16:01:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-17T18:37:49.343",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e565INCD",
     "IncidentReference": "INCD-58725-N",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-17T15:03:56",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-02-17T18:00:00",
+    "RestoredDateTime": "2021-02-17T18:37:49.343",
+    "EstimatedRestorationDate": "2021-02-18T00:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-17T15:01:00",
-    "NoCustomerAffected": 14,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 14,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-17T18:11:00",
+        "ActualEventTime": "2021-02-17T18:31:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 18:12 - We have been made aware that not all power has been restored to the area. Our engineers diverted electricity around the fault, however this diversion has not held. They are continuing their work on site and we are waiting for an update before advising a new timeframe. We will continue to keep you informed of progress. If your power is back on, you can stop these by sending CANCEL to 80876 (standard fees apply).",
-        "LoggedTime": "2021-02-17T18:13:04.117"
+        "Comment": "Update at 18:32 - Our engineers have investigated and found that the power is off due to a fault on our underground network which has affected our substation equipment. We're sending a specialist team to pinpoint the fault, and dig down to expose the cabling for repairs. Considering the work that may be required, the revised estimated time to have the power back on is between 23:30 and 00:30. We're sorry to change the time, we will keep you updated.",
+        "LoggedTime": "2021-02-17T18:32:37.06"
       }
     ],
     "PostCodesAffected": [
@@ -101,9 +101,9 @@
       "W1M9DL",
       "W60NE"
     ],
-    "CustomersOnSupply": 135,
-    "CustomersOffSupply": 47,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 182,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -2673,7 +2673,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "17:30 - 18:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "23:30 - 00:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
