@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-219817-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-219817-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-219817-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-17T13:59:40",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-17T22:50:10.793",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035aa9INCD",
     "IncidentReference": "INCD-219817-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-17T13:12:09",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-17T22:50:10.793",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-17T14:35:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -73,8 +73,8 @@
       "LU6 1"
     ],
     "PostCodesRestored": [
-      "LU61HX",
       "LU61AX",
+      "LU61HX",
       "LU61HY",
       "LU61JA",
       "LU61JR",
@@ -89,8 +89,8 @@
       "LU61XF"
     ],
     "PostCodesPlanned": [
-      "LU61HX",
       "LU61AX",
+      "LU61HX",
       "LU61HY",
       "LU61JA",
       "LU61JR",
@@ -104,9 +104,9 @@
       "LU61SY",
       "LU61XF"
     ],
-    "CustomersOnSupply": 57,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 58,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -661,8 +661,8 @@
     }
   ],
   "FullPostcodeData": [
-    "LU61HX",
     "LU61AX",
+    "LU61HX",
     "LU61HY",
     "LU61JA",
     "LU61JR",
