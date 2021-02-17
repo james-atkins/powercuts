@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-256352-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-256352-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-256352-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-17T02:56:22.1",
-      "Message": "Update at 02:56 - We have been able to divert electricity around the faulty part of the network, restoring power to some customers. We know your power may now be back on, however; we'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
+      "Date": "2021-02-17T03:43:45.75",
+      "Message": "Update at 03:43 - We can now confirm that all power in the Frith Road area should be back on. The issue was caused by a fault with some of our network equipment, which was being triggered by an underground cable. Our engineers have now replaced the faulty substation equipment. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-17T01:33:22",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-17T03:38:21.48",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003e960INCD",
     "IncidentReference": "INCD-256352-J",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-16T23:53:47",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-17T03:38:21.48",
     "EstimatedRestorationDate": "2021-02-17T04:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-16T23:32:00",
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-17T02:55:00",
+        "ActualEventTime": "2021-02-17T03:40:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 02:56 - We have been able to divert electricity around the faulty part of the network, restoring power to some customers. We know your power may now be back on, however; we'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
-        "LoggedTime": "2021-02-17T02:56:22.1"
+        "Comment": "Update at 03:43 - We can now confirm that all power in the Frith Road area should be back on. The issue was caused by a fault with some of our network equipment, which was being triggered by an underground cable. Our engineers have now replaced the faulty substation equipment. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-17T03:43:45.75"
       }
     ],
     "PostCodesAffected": [
@@ -95,7 +95,7 @@
     ],
     "CustomersOnSupply": 195,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1235,7 +1235,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "03:30 - 04:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
