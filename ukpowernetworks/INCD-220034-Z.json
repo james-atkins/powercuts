@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-220034-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-220034-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-220034-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-02-18T12:59:11",
-      "Message": "<p>We became aware of a power cut at 12:59. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-02-18T13:45:00",
+      "Message": "<p>We became aware of a power cut at 13:45. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-18T13:32:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-18T15:20:29.523",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035b82INCD",
     "IncidentReference": "INCD-220034-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-18T12:59:11",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-18T15:20:29.523",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-02-18T12:59:11",
+    "ReceivedDate": "2021-02-18T13:45:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
@@ -59,7 +59,6 @@
       "CO9 3"
     ],
     "PostCodesRestored": [
-      "CO93RE",
       "CO93HP",
       "CO93HT",
       "CO93HX",
@@ -69,13 +68,13 @@
       "CO93JT",
       "CO93RA",
       "CO93RD",
+      "CO93RE",
       "CO93RG",
       "CO93RT",
       "CO93SA",
       "CO93SB"
     ],
     "PostCodesPlanned": [
-      "CO93RE",
       "CO93HP",
       "CO93HT",
       "CO93HX",
@@ -85,14 +84,15 @@
       "CO93JT",
       "CO93RA",
       "CO93RD",
+      "CO93RE",
       "CO93RG",
       "CO93RT",
       "CO93SA",
       "CO93SB"
     ],
-    "CustomersOnSupply": 125,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 128,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -439,7 +439,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CO93RE",
     "CO93HP",
     "CO93HT",
     "CO93HX",
@@ -449,6 +448,7 @@
     "CO93JT",
     "CO93RA",
     "CO93RD",
+    "CO93RE",
     "CO93RG",
     "CO93RT",
     "CO93SA",
