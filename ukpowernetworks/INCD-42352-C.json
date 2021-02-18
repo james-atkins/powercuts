@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-42352-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-42352-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-42352-C",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-02-18T09:27:38",
-      "Message": "<p>We became aware of a power cut at 09:27. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-02-18T11:46:00",
+      "Message": "<p>We became aware of a power cut at 11:46. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-18T11:11:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-18T12:25:05.937",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000a570INCD",
     "IncidentReference": "INCD-42352-C",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-18T09:29:06",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-02-18T12:25:05.937",
+    "EstimatedRestorationDate": "2021-02-18T12:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-02-18T09:27:38",
+    "ReceivedDate": "2021-02-18T11:46:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
@@ -72,9 +72,9 @@
       "WD62QY",
       "WD62QZ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 72,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 72,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -538,7 +538,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "12:00 - 13:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
