@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245514-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245514-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245514-G",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-18T13:44:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-18T17:53:07.203",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003bf0aINCD",
     "IncidentReference": "INCD-245514-G",
     "IncidentCategory": "108",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-18T13:41:32",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-18T17:53:07.203",
     "EstimatedRestorationDate": "2021-02-18T19:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-18T13:41:32",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 7,
+    "NoCallsReported": 0,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -59,20 +59,20 @@
       "BN14 8"
     ],
     "PostCodesRestored": [
+      "BN148EB",
       "BN148JT",
       "BN148JY",
-      "BN148EB",
       "BN148JZ"
     ],
     "PostCodesPlanned": [
+      "BN148EB",
       "BN148JT",
       "BN148JY",
-      "BN148EB",
       "BN148JZ"
     ],
-    "CustomersOnSupply": 24,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 42,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -567,9 +567,9 @@
     }
   ],
   "FullPostcodeData": [
+    "BN148EB",
     "BN148JT",
     "BN148JY",
-    "BN148EB",
     "BN148JZ"
   ],
   "PinLatitude": null,
