@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-220078-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-220078-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-220078-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-02-18T16:35:56.77",
+      "Message": "Update at 16:35 - We have been made aware that not all power has been restored to the area. Our engineers diverted electricity around the fault, however this diversion has not held. They are continuing their work on site and are still aiming to have you back on between 17:00 and 18:00. We will continue to keep you informed of progress. If your power is back on, you can stop these by sending CANCEL to 80876 (standard fees apply).",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-02-18T15:23:41",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-02-18T15:52:31",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-02-18T15:58:36.083",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z00035baeINCD",
     "IncidentReference": "INCD-220078-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-02-18T15:23:48",
-    "RestoredDateTime": "2021-02-18T15:58:36.083",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-02-18T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-18T15:23:41",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 16,
+    "NoCallsReported": 26,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-18T16:35:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 16:35 - We have been made aware that not all power has been restored to the area. Our engineers diverted electricity around the fault, however this diversion has not held. They are continuing their work on site and are still aiming to have you back on between 17:00 and 18:00. We will continue to keep you informed of progress. If your power is back on, you can stop these by sending CANCEL to 80876 (standard fees apply).",
+        "LoggedTime": "2021-02-18T16:35:56.77"
+      }
+    ],
     "PostCodesAffected": [
       "AL10 9",
       "AL9 5",
@@ -190,8 +204,8 @@
     ],
     "CustomersOnSupply": 440,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "IncidentTypeName": "Unplanned",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
