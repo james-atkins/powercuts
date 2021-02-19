@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245538-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245538-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245538-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-19T07:54:47",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-19T21:23:21.017",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003bf22INCD",
     "IncidentReference": "INCD-245538-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-19T04:23:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-19T21:23:21.017",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-19T04:21:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 11,
     "Latitude": 0.0,
@@ -73,18 +73,18 @@
       "BR5 2"
     ],
     "PostCodesRestored": [
-      "BR52DN",
       "BR52DL",
+      "BR52DN",
       "BR52JD"
     ],
     "PostCodesPlanned": [
-      "BR52DN",
       "BR52DL",
+      "BR52DN",
       "BR52JD"
     ],
-    "CustomersOnSupply": 41,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 42,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -883,8 +883,8 @@
     }
   ],
   "FullPostcodeData": [
-    "BR52DN",
     "BR52DL",
+    "BR52DN",
     "BR52JD"
   ],
   "PinLatitude": null,
