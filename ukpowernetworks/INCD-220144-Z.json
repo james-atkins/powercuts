@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-220144-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-220144-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-220144-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-02-19T00:37:12.837",
+      "Message": "Update at 00:36 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair the underground network in the Elliot Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-02-18T20:20:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-18T20:07:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-19T00:41:16.76",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035bf0INCD",
     "IncidentReference": "INCD-220144-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-18T20:05:14",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-02-19T00:30:00",
+    "RestoredDateTime": "2021-02-19T00:41:16.76",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-18T20:20:00",
-    "NoCustomerAffected": 14,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -54,25 +60,33 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-19T00:36:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 00:36 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair the underground network in the Elliot Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-19T00:37:12.837"
+      }
+    ],
     "PostCodesAffected": [
       "HA7 3"
     ],
     "PostCodesRestored": [
       "HA73SE",
-      "HA73ST",
       "HA73SL",
+      "HA73ST",
       "HA73SW"
     ],
     "PostCodesPlanned": [
       "HA73SE",
-      "HA73ST",
       "HA73SL",
+      "HA73ST",
       "HA73SW"
     ],
-    "CustomersOnSupply": 6,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 20,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -832,14 +846,14 @@
   ],
   "FullPostcodeData": [
     "HA73SE",
-    "HA73ST",
     "HA73SL",
+    "HA73ST",
     "HA73SW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "00:00 - 01:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
