@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-215644-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-215644-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-215644-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-02-19T12:34:47.773",
+      "Message": "Update at 12:34 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground cable fault in the Topstreet Way area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-01-30T12:47:00",
@@ -15,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-19T10:56:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-19T12:31:53.977",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00034a5cINCD",
     "IncidentReference": "INCD-215644-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-30T12:46:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-19T12:31:53.977",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-30T12:47:00",
@@ -54,29 +60,37 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-19T12:34:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 12:34 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground cable fault in the Topstreet Way area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-19T12:34:47.773"
+      }
+    ],
     "PostCodesAffected": [
       "AL5 5"
     ],
     "PostCodesRestored": [
       "AL55TS",
-      "AL55TY",
       "AL55TU",
       "AL55TX",
+      "AL55TY",
       "AL55UD",
       "AL55UE"
     ],
     "PostCodesPlanned": [
       "AL55TS",
-      "AL55TY",
       "AL55TU",
       "AL55TX",
+      "AL55TY",
       "AL55UD",
       "AL55UE"
     ],
-    "CustomersOnSupply": 19,
-    "CustomersOffSupply": 32,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 51,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -668,9 +682,9 @@
   ],
   "FullPostcodeData": [
     "AL55TS",
-    "AL55TY",
     "AL55TU",
     "AL55TX",
+    "AL55TY",
     "AL55UD",
     "AL55UE"
   ],

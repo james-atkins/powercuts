@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-50595-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-50595-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-50595-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-19T12:14:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-19T12:36:47.9",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c5a3INCD",
     "IncidentReference": "INCD-50595-V",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-19T12:10:37",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-19T12:36:47.9",
     "EstimatedRestorationDate": "2021-02-19T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-19T12:15:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "TN2 4"
     ],
     "PostCodesRestored": [
+      "TN24AE",
       "TN24AG",
       "TN24AH",
-      "TN24AE",
       "TN24DB"
     ],
     "PostCodesPlanned": [
+      "TN24AE",
       "TN24AG",
       "TN24AH",
-      "TN24AE",
       "TN24DB"
     ],
-    "CustomersOnSupply": 8,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 15,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -579,9 +579,9 @@
     }
   ],
   "FullPostcodeData": [
+    "TN24AE",
     "TN24AG",
     "TN24AH",
-    "TN24AE",
     "TN24DB"
   ],
   "PinLatitude": null,
