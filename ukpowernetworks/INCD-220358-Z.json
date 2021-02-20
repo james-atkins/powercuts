@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-220358-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-220358-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-220358-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-20T16:39:23",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-20T18:25:34.75",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035cc6INCD",
     "IncidentReference": "INCD-220358-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-20T07:06:11",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-20T18:25:34.75",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-20T07:02:00",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -60,19 +60,19 @@
     ],
     "PostCodesRestored": [
       "WD187JX",
-      "WD187PE",
       "WD187LJ",
-      "WD187LQ"
+      "WD187LQ",
+      "WD187PE"
     ],
     "PostCodesPlanned": [
       "WD187JX",
-      "WD187PE",
       "WD187LJ",
-      "WD187LQ"
+      "WD187LQ",
+      "WD187PE"
     ],
-    "CustomersOnSupply": 14,
-    "CustomersOffSupply": 27,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 41,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -496,9 +496,9 @@
   ],
   "FullPostcodeData": [
     "WD187JX",
-    "WD187PE",
     "WD187LJ",
-    "WD187LQ"
+    "WD187LQ",
+    "WD187PE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
