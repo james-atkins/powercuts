@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-6016-O",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-6016-O",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-6016-O",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-20T10:59:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-20T14:21:53.753",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "O00001780INCD",
     "IncidentReference": "INCD-6016-O",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 32,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-04T17:09:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-20T14:21:53.753",
     "EstimatedRestorationDate": "2021-02-20T14:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-20T11:24:00",
-    "NoCustomerAffected": 20,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "CB3 9"
     ],
     "PostCodesRestored": [
-      "CB39BG",
       "CB39AR",
       "CB39BE",
+      "CB39BG",
       "CB39BQ"
     ],
     "PostCodesPlanned": [
-      "CB39BG",
       "CB39AR",
       "CB39BE",
+      "CB39BG",
       "CB39BQ"
     ],
-    "CustomersOnSupply": 23,
-    "CustomersOffSupply": 20,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 43,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -375,9 +375,9 @@
     }
   ],
   "FullPostcodeData": [
-    "CB39BG",
     "CB39AR",
     "CB39BE",
+    "CB39BG",
     "CB39BQ"
   ],
   "PinLatitude": null,
