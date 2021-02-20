@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-220347-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-220347-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-220347-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-20T10:42:30.053",
-      "Message": "Hi, it's Talie from the SMS team at UK Power Networks. I understand how difficult it can be without power, and the additional worries this can bring during a global pandemic. I want to reassure you that as keyworkers our teams operate 24 hours a day, as we continue to work around the clock for our customers without reducing our workforce . For both our businesses customers and those at home, we will be on hand to work as quickly and safely as possible to restore supplies. If you need any additional support or have any concerns, please call us on 105 or tweet us @ukpowernetworks. I will continue to personally keep you updated with our progress.",
+      "Date": "2021-02-20T12:07:45.183",
+      "Message": "Update at 12:06 - Our engineers are continuing to work on the fault, which they have advised is now on our underground cabling in the Fuller Street area. At the moment we don't need to change the estimated timeframe and we'll keep you updated. If you have a vulnerable person at home, please call us on 08003163105 and we'll see if we can provide any additional support.",
       "Name": null
     },
     {
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-20T07:00:20",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-20T12:20:10.107",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035cbbINCD",
     "IncidentReference": "INCD-220347-Z",
-    "IncidentCategory": "108",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-20T05:20:05",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-20T12:20:10.107",
     "EstimatedRestorationDate": "2021-02-20T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-20T05:19:00",
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-20T10:42:00",
+        "ActualEventTime": "2021-02-20T12:06:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Hi, it's Talie from the SMS team at UK Power Networks. I understand how difficult it can be without power, and the additional worries this can bring during a global pandemic. I want to reassure you that as keyworkers our teams operate 24 hours a day, as we continue to work around the clock for our customers without reducing our workforce . For both our businesses customers and those at home, we will be on hand to work as quickly and safely as possible to restore supplies. If you need any additional support or have any concerns, please call us on 105 or tweet us @ukpowernetworks. I will continue to personally keep you updated with our progress.",
-        "LoggedTime": "2021-02-20T10:42:30.053"
+        "Comment": "Update at 12:06 - Our engineers are continuing to work on the fault, which they have advised is now on our underground cabling in the Fuller Street area. At the moment we don't need to change the estimated timeframe and we'll keep you updated. If you have a vulnerable person at home, please call us on 08003163105 and we'll see if we can provide any additional support.",
+        "LoggedTime": "2021-02-20T12:07:45.183"
       }
     ],
     "PostCodesAffected": [
@@ -77,7 +77,9 @@
       "NW41QW",
       "NW41RS",
       "NW41SL",
+      "NW44DP",
       "NW44EB",
+      "NW44EN",
       "NW44QL",
       "NW44RP"
     ],
@@ -85,13 +87,15 @@
       "NW41QW",
       "NW41RS",
       "NW41SL",
+      "NW44DP",
       "NW44EB",
+      "NW44EN",
       "NW44QL",
       "NW44RP"
     ],
-    "CustomersOnSupply": 23,
+    "CustomersOnSupply": 40,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -619,13 +623,15 @@
     "NW41QW",
     "NW41RS",
     "NW41SL",
+    "NW44DP",
     "NW44EB",
+    "NW44EN",
     "NW44QL",
     "NW44RP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "Due to a faulty piece of underground network equipment we had to turn off your power.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "14:30 - 15:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
