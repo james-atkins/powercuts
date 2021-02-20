@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-220321-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-220321-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-220321-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-20T00:19:28.44",
-      "Message": "Update at 00:19 - We know the timeframe we initially estimated is now approaching. Our engineers are continuing their work to repair our overhead network in Main Street, Wisbech PE14 9.  As our staff are working with live electricity, we need to wait until it is safe for them to stop, and contact us with an update. We are really sorry you have been impacted this evening and we will provide a further update as soon as possible.",
+      "Date": "2021-02-20T01:31:51.59",
+      "Message": "Update at 01:31 - We believe our engineers have been able to restore power to all 205 customers in the Main Street, Wisbech PE14 9 area, by diverting power around an overhead cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know your power may have been off for a long time, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-19T20:48:55",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-20T01:14:15.373",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035ca1INCD",
     "IncidentReference": "INCD-220321-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-19T19:41:05",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-20T01:14:15.373",
     "EstimatedRestorationDate": "2021-02-20T02:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-19T19:40:57",
-    "NoCustomerAffected": 40,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 11,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-20T00:17:00",
+        "ActualEventTime": "2021-02-20T01:30:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 00:19 - We know the timeframe we initially estimated is now approaching. Our engineers are continuing their work to repair our overhead network in Main Street, Wisbech PE14 9.  As our staff are working with live electricity, we need to wait until it is safe for them to stop, and contact us with an update. We are really sorry you have been impacted this evening and we will provide a further update as soon as possible.",
-        "LoggedTime": "2021-02-20T00:19:28.44"
+        "Comment": "Update at 01:31 - We believe our engineers have been able to restore power to all 205 customers in the Main Street, Wisbech PE14 9 area, by diverting power around an overhead cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know your power may have been off for a long time, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-02-20T01:31:51.59"
       }
     ],
     "PostCodesAffected": [
@@ -74,12 +74,8 @@
       "PE38 0"
     ],
     "PostCodesRestored": [
-      "PE149RD",
-      "PE149TF",
-      "PE149TG",
-      "PE149TJ",
-      "PE149TL",
       "PE149RB",
+      "PE149RD",
       "PE149RE",
       "PE149RF",
       "PE149RG",
@@ -91,6 +87,10 @@
       "PE149TA",
       "PE149TB",
       "PE149TE",
+      "PE149TF",
+      "PE149TG",
+      "PE149TJ",
+      "PE149TL",
       "PE149TN",
       "PE149TW",
       "PE380EU",
@@ -98,12 +98,8 @@
       "PE380EZ"
     ],
     "PostCodesPlanned": [
-      "PE149RD",
-      "PE149TF",
-      "PE149TG",
-      "PE149TJ",
-      "PE149TL",
       "PE149RB",
+      "PE149RD",
       "PE149RE",
       "PE149RF",
       "PE149RG",
@@ -115,15 +111,19 @@
       "PE149TA",
       "PE149TB",
       "PE149TE",
+      "PE149TF",
+      "PE149TG",
+      "PE149TJ",
+      "PE149TL",
       "PE149TN",
       "PE149TW",
       "PE380EU",
       "PE380EY",
       "PE380EZ"
     ],
-    "CustomersOnSupply": 152,
-    "CustomersOffSupply": 39,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 191,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -972,12 +972,8 @@
     }
   ],
   "FullPostcodeData": [
-    "PE149RD",
-    "PE149TF",
-    "PE149TG",
-    "PE149TJ",
-    "PE149TL",
     "PE149RB",
+    "PE149RD",
     "PE149RE",
     "PE149RF",
     "PE149RG",
@@ -989,6 +985,10 @@
     "PE149TA",
     "PE149TB",
     "PE149TE",
+    "PE149TF",
+    "PE149TG",
+    "PE149TJ",
+    "PE149TL",
     "PE149TN",
     "PE149TW",
     "PE380EU",
@@ -997,7 +997,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "01:30 - 02:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
