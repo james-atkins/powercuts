@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-256663-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-256663-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-256663-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-21T21:03:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-22T04:27:04.51",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003ea97INCD",
     "IncidentReference": "INCD-256663-J",
     "IncidentCategory": "93",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 28,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-21T20:13:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-22T04:27:04.51",
     "EstimatedRestorationDate": "2021-02-22T03:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-21T20:12:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "W8 5"
     ],
     "PostCodesRestored": [
-      "W85RF",
       "W85DN",
       "W85PD",
-      "W85RD"
+      "W85RD",
+      "W85RF"
     ],
     "PostCodesPlanned": [
-      "W85RF",
       "W85DN",
       "W85PD",
-      "W85RD"
+      "W85RD",
+      "W85RF"
     ],
-    "CustomersOnSupply": 21,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 22,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -567,10 +567,10 @@
     }
   ],
   "FullPostcodeData": [
-    "W85RF",
     "W85DN",
     "W85PD",
-    "W85RD"
+    "W85RD",
+    "W85RF"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
