@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-6217-O",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-6217-O",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-6217-O",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-02-23T23:16:23.633",
+      "Message": "Update at 23:16 - We can now confirm that all power in the High Street area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-02-23T21:04:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-23T21:49:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-23T23:12:50.063",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "O00001849INCD",
     "IncidentReference": "INCD-6217-O",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-23T21:06:20",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-23T23:12:50.063",
     "EstimatedRestorationDate": "2021-02-24T02:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-23T21:04:00",
-    "NoCustomerAffected": 23,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -54,37 +60,45 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-23T23:15:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 23:16 - We can now confirm that all power in the High Street area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-23T23:16:23.633"
+      }
+    ],
     "PostCodesAffected": [
       "AL5 2"
     ],
     "PostCodesRestored": [
       "AL52FB",
+      "AL52FD",
+      "AL52PT",
       "AL52SD",
       "AL52SF",
       "AL52SG",
       "AL52SH",
       "AL52SJ",
       "AL52SN",
-      "AL52FD",
-      "AL52PT",
       "AL52SP"
     ],
     "PostCodesPlanned": [
       "AL52FB",
+      "AL52FD",
+      "AL52PT",
       "AL52SD",
       "AL52SF",
       "AL52SG",
       "AL52SH",
       "AL52SJ",
       "AL52SN",
-      "AL52FD",
-      "AL52PT",
       "AL52SP"
     ],
-    "CustomersOnSupply": 6,
-    "CustomersOffSupply": 35,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 41,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -548,14 +562,14 @@
   ],
   "FullPostcodeData": [
     "AL52FB",
+    "AL52FD",
+    "AL52PT",
     "AL52SD",
     "AL52SF",
     "AL52SG",
     "AL52SH",
     "AL52SJ",
     "AL52SN",
-    "AL52FD",
-    "AL52PT",
     "AL52SP"
   ],
   "PinLatitude": null,
