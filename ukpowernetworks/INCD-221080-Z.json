@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-221080-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-221080-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-221080-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-23T20:02:25",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-23T21:31:50.23",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035f98INCD",
     "IncidentReference": "INCD-221080-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-23T19:11:06",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-23T21:31:50.23",
     "EstimatedRestorationDate": "2021-02-23T23:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-23T19:07:00",
-    "NoCustomerAffected": 66,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 30,
     "Latitude": 0.0,
@@ -74,9 +74,11 @@
       "N11 3"
     ],
     "PostCodesRestored": [
+      "N111ND",
       "N111NE",
       "N113AA",
       "N113AB",
+      "N113DY",
       "N113EG",
       "N113EH",
       "N113EL",
@@ -85,16 +87,16 @@
       "N113EU",
       "N113EX",
       "N113EY",
-      "N113HF",
-      "N111ND",
-      "N113DY",
       "N113FU",
-      "N113GY"
+      "N113GY",
+      "N113HF"
     ],
     "PostCodesPlanned": [
+      "N111ND",
       "N111NE",
       "N113AA",
       "N113AB",
+      "N113DY",
       "N113EG",
       "N113EH",
       "N113EL",
@@ -103,15 +105,13 @@
       "N113EU",
       "N113EX",
       "N113EY",
-      "N113HF",
-      "N111ND",
-      "N113DY",
       "N113FU",
-      "N113GY"
+      "N113GY",
+      "N113HF"
     ],
-    "CustomersOnSupply": 210,
-    "CustomersOffSupply": 66,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 276,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -976,9 +976,11 @@
     }
   ],
   "FullPostcodeData": [
+    "N111ND",
     "N111NE",
     "N113AA",
     "N113AB",
+    "N113DY",
     "N113EG",
     "N113EH",
     "N113EL",
@@ -987,11 +989,9 @@
     "N113EU",
     "N113EX",
     "N113EY",
-    "N113HF",
-    "N111ND",
-    "N113DY",
     "N113FU",
-    "N113GY"
+    "N113GY",
+    "N113HF"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
