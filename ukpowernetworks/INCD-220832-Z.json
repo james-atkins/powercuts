@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-220832-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-220832-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-220832-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-23T00:29:52.263",
-      "Message": "Update at 00:29 - Sorry your power has gone off again today. Our engineers investigated the fault earlier but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers will be back on site as quickly as possible and using an average timeframe, we are aiming to have all power back on between 02:30 and 03:30.",
+      "Date": "2021-02-23T00:57:38.953",
+      "Message": "Update at 00:57 - Our engineers have now arrived on site in The Street area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. If your power is back on, you can stop receiving these texts by sending CANCEL to 80876 (standard fees apply).",
       "Name": null
     },
     {
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-22T19:38:44",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-23T01:45:48.0481028+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035ea0INCD",
     "IncidentReference": "INCD-220832-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-22T19:12:59",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-23T01:45:48.0481028+00:00",
     "EstimatedRestorationDate": "2021-02-23T03:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-22T19:12:00",
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-23T00:29:00",
+        "ActualEventTime": "2021-02-23T00:57:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 00:29 - Sorry your power has gone off again today. Our engineers investigated the fault earlier but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers will be back on site as quickly as possible and using an average timeframe, we are aiming to have all power back on between 02:30 and 03:30.",
-        "LoggedTime": "2021-02-23T00:29:52.263"
+        "Comment": "Update at 00:57 - Our engineers have now arrived on site in The Street area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. If your power is back on, you can stop receiving these texts by sending CANCEL to 80876 (standard fees apply).",
+        "LoggedTime": "2021-02-23T00:57:38.953"
       }
     ],
     "PostCodesAffected": [
@@ -75,16 +75,18 @@
     "PostCodesRestored": [
       "NR161AA",
       "NR161AB",
-      "NR161EZ"
+      "NR161EZ",
+      "NR161HA"
     ],
     "PostCodesPlanned": [
       "NR161AA",
       "NR161AB",
-      "NR161EZ"
+      "NR161EZ",
+      "NR161HA"
     ],
-    "CustomersOnSupply": 59,
+    "CustomersOnSupply": 97,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -573,7 +575,8 @@
   "FullPostcodeData": [
     "NR161AA",
     "NR161AB",
-    "NR161EZ"
+    "NR161EZ",
+    "NR161HA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
