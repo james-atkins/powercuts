@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-220856-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-220856-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-220856-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-02-22T23:31:27",
+      "Date": "2021-02-22T23:31:00",
       "Message": "<p>We became aware of a power cut at 23:31. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-22T23:41:08",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-23T00:42:18.553",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035eb8INCD",
     "IncidentReference": "INCD-220856-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-22T23:39:37",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-23T00:42:18.553",
     "EstimatedRestorationDate": "2021-02-23T01:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-02-22T23:31:27",
+    "ReceivedDate": "2021-02-22T23:31:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -68,9 +68,9 @@
       "E47NP",
       "E47PG"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 37,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 37,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
