@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-256674-J",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-256674-J",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-256674-J",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-02-22T11:58:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-02-22T17:44:33.51",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "J0003eaa2INCD",
     "IncidentReference": "INCD-256674-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 28,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-02-22T08:26:29",
-    "RestoredDateTime": "2021-02-22T17:44:33.51",
-    "EstimatedRestorationDate": "2021-02-22T20:00:00",
+    "RestoredDateTime": null,
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-22T08:25:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 1,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
+    "NoCallsReported": 2,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -60,21 +60,21 @@
       "DA8 2"
     ],
     "PostCodesRestored": [
+      "DA82LD",
       "DA15PN",
       "DA82LB",
-      "DA82LD",
       "DA82SP"
     ],
     "PostCodesPlanned": [
+      "DA82LD",
       "DA15PN",
       "DA82LB",
-      "DA82LD",
       "DA82SP"
     ],
-    "CustomersOnSupply": 9,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 5,
+    "CustomersOffSupply": 4,
+    "IncidentTypeName": "Unplanned",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -82,6 +82,43 @@
     "DA8 2"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 51.49019,
+        "lng": 0.21165
+      },
+      "Coordinates": [
+        {
+          "lat": 51.49204,
+          "lng": 0.21228
+        },
+        {
+          "lat": 51.48786,
+          "lng": 0.21679
+        },
+        {
+          "lat": 51.48856,
+          "lng": 0.215
+        },
+        {
+          "lat": 51.48932,
+          "lng": 0.20841
+        },
+        {
+          "lat": 51.48917,
+          "lng": 0.20711
+        },
+        {
+          "lat": 51.49261,
+          "lng": 0.21084
+        },
+        {
+          "lat": 51.49204,
+          "lng": 0.21228
+        }
+      ],
+      "Postcode": "DA8 2"
+    },
     {
       "Center": {
         "lat": 51.45923,
@@ -470,55 +507,18 @@
         }
       ],
       "Postcode": "DA1 5"
-    },
-    {
-      "Center": {
-        "lat": 51.49019,
-        "lng": 0.21165
-      },
-      "Coordinates": [
-        {
-          "lat": 51.49204,
-          "lng": 0.21228
-        },
-        {
-          "lat": 51.48786,
-          "lng": 0.21679
-        },
-        {
-          "lat": 51.48856,
-          "lng": 0.215
-        },
-        {
-          "lat": 51.48932,
-          "lng": 0.20841
-        },
-        {
-          "lat": 51.48917,
-          "lng": 0.20711
-        },
-        {
-          "lat": 51.49261,
-          "lng": 0.21084
-        },
-        {
-          "lat": 51.49204,
-          "lng": 0.21228
-        }
-      ],
-      "Postcode": "DA8 2"
     }
   ],
   "FullPostcodeData": [
+    "DA82LD",
     "DA15PN",
     "DA82LB",
-    "DA82LD",
     "DA82SP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "19:30 - 20:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
