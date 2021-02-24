@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-199277-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-199277-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-199277-Z",
   "Steps": [
     {
       "Active": true,
@@ -9,7 +9,7 @@
       "Name": null
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2020-11-17T12:20:00",
       "Message": "<p>We became aware of a power cut at 12:20. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -17,36 +17,36 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-24T16:03:38.333",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00030a6dINCD",
     "IncidentReference": "INCD-199277-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 2,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-11-17T12:15:59",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-24T16:03:38.333",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2020-11-17T12:20:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -73,31 +73,31 @@
       "NW9 6"
     ],
     "PostCodesRestored": [
-      "NW96EU",
       "NW96DX",
       "NW96DY",
       "NW96EA",
       "NW96EF",
       "NW96EL",
       "NW96EN",
+      "NW96EU",
       "NW96EY",
       "NW96HA"
     ],
     "PostCodesPlanned": [
-      "NW96EU",
       "NW96DX",
       "NW96DY",
       "NW96EA",
       "NW96EF",
       "NW96EL",
       "NW96EN",
+      "NW96EU",
       "NW96EY",
       "NW96HA"
     ],
-    "CustomersOnSupply": 72,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 73,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -595,13 +595,13 @@
     }
   ],
   "FullPostcodeData": [
-    "NW96EU",
     "NW96DX",
     "NW96DY",
     "NW96EA",
     "NW96EF",
     "NW96EL",
     "NW96EN",
+    "NW96EU",
     "NW96EY",
     "NW96HA"
   ],
