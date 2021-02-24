@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-245847-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245847-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245847-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-24T17:38:16.373",
-      "Message": "Update at 17:38 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the CT15 7 area for safety so they can make emergency repairs to a fault on our cabling network. We have been able to remotely divert some supplies and our estimated time to have the remaining power back on is between 19:30 and 20:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Date": "2021-02-24T18:44:13.403",
+      "Message": "Update at 18:44 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 17 customers in the CT15 7 area to safely repair a fault on our overhead cabling. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-24T17:18:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-24T18:40:47.503",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c057INCD",
     "IncidentReference": "INCD-245847-G",
     "IncidentCategory": "26",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-24T17:01:25",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-24T18:40:47.503",
     "EstimatedRestorationDate": "2021-02-24T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-24T17:17:51",
-    "NoCustomerAffected": 17,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-24T17:38:00",
+        "ActualEventTime": "2021-02-24T18:44:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 17:38 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the CT15 7 area for safety so they can make emergency repairs to a fault on our cabling network. We have been able to remotely divert some supplies and our estimated time to have the remaining power back on is between 19:30 and 20:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
-        "LoggedTime": "2021-02-24T17:38:16.373"
+        "Comment": "Update at 18:44 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 17 customers in the CT15 7 area to safely repair a fault on our overhead cabling. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-24T18:44:13.403"
       }
     ],
     "PostCodesAffected": [
@@ -75,10 +75,6 @@
       "TN32 5"
     ],
     "PostCodesRestored": [
-      "CT157ED",
-      "CT157EE",
-      "CT157EL",
-      "KT198AA",
       "CT157BU",
       "CT157BX",
       "CT157BY",
@@ -96,19 +92,19 @@
       "CT157DZ",
       "CT157EA",
       "CT157EB",
+      "CT157ED",
+      "CT157EE",
       "CT157EF",
+      "CT157EL",
       "CT157EW",
       "CT157EY",
       "CT157JN",
       "CT157QH",
       "CT157QJ",
+      "KT198AA",
       "TN325DD"
     ],
     "PostCodesPlanned": [
-      "CT157ED",
-      "CT157EE",
-      "CT157EL",
-      "KT198AA",
       "CT157BU",
       "CT157BX",
       "CT157BY",
@@ -126,17 +122,21 @@
       "CT157DZ",
       "CT157EA",
       "CT157EB",
+      "CT157ED",
+      "CT157EE",
       "CT157EF",
+      "CT157EL",
       "CT157EW",
       "CT157EY",
       "CT157JN",
       "CT157QH",
       "CT157QJ",
+      "KT198AA",
       "TN325DD"
     ],
-    "CustomersOnSupply": 235,
-    "CustomersOffSupply": 17,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 252,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1643,10 +1643,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CT157ED",
-    "CT157EE",
-    "CT157EL",
-    "KT198AA",
     "CT157BU",
     "CT157BX",
     "CT157BY",
@@ -1664,12 +1660,16 @@
     "CT157DZ",
     "CT157EA",
     "CT157EB",
+    "CT157ED",
+    "CT157EE",
     "CT157EF",
+    "CT157EL",
     "CT157EW",
     "CT157EY",
     "CT157JN",
     "CT157QH",
     "CT157QJ",
+    "KT198AA",
     "TN325DD"
   ],
   "PinLatitude": null,
