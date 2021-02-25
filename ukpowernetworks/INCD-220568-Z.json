@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-220568-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-220568-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-220568-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-22T10:37:11.23",
-      "Message": "Update at 10:37 - It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers are still working and have requested additional support to assist with the repairs and connection of the generator. Therefore, we're now aiming to restore supplies between 12:30 and 13:30. We're sorry we've had to change the estimated time, but we'll keep you updated.",
+      "Date": "2021-02-22T12:04:45.683",
+      "Message": "Update at 12:04 - We can now confirm that all power in the Folly Lane area should be back on. Our engineers have diverted power around the faulty underground section of the network to get the majority of customers back on.. However, due to the location and complexity of the issue, we have also used a temporary generator to restore power to the last of the affected properties. This will provide power until our engineers plan in and safely complete the full repair, which may take a few days. We're really sorry for any disruption this caused. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-21T18:53:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-25T22:15:20.827",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00035d98INCD",
     "IncidentReference": "INCD-220568-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-21T18:30:26",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-25T22:15:20.827",
     "EstimatedRestorationDate": "2021-02-22T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-21T18:24:00",
-    "NoCustomerAffected": 22,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 11,
+    "NoCallsReported": 14,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,18 +62,20 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-22T10:37:00",
+        "ActualEventTime": "2021-02-22T12:04:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:37 - It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers are still working and have requested additional support to assist with the repairs and connection of the generator. Therefore, we're now aiming to restore supplies between 12:30 and 13:30. We're sorry we've had to change the estimated time, but we'll keep you updated.",
-        "LoggedTime": "2021-02-22T10:37:11.23"
+        "Comment": "Update at 12:04 - We can now confirm that all power in the Folly Lane area should be back on. Our engineers have diverted power around the faulty underground section of the network to get the majority of customers back on.. However, due to the location and complexity of the issue, we have also used a temporary generator to restore power to the last of the affected properties. This will provide power until our engineers plan in and safely complete the full repair, which may take a few days. We're really sorry for any disruption this caused. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-22T12:04:45.683"
       }
     ],
     "PostCodesAffected": [
       "AL3 5"
     ],
     "PostCodesRestored": [
+      "AL35BN",
       "AL35BP",
+      "AL35BS",
       "AL35BT",
       "AL35JT",
       "AL35JU",
@@ -82,12 +84,12 @@
       "AL35QG",
       "AL35QH",
       "AL35QJ",
-      "AL35QQ",
-      "AL35BN",
-      "AL35BS"
+      "AL35QQ"
     ],
     "PostCodesPlanned": [
+      "AL35BN",
       "AL35BP",
+      "AL35BS",
       "AL35BT",
       "AL35JT",
       "AL35JU",
@@ -96,13 +98,11 @@
       "AL35QG",
       "AL35QH",
       "AL35QJ",
-      "AL35QQ",
-      "AL35BN",
-      "AL35BS"
+      "AL35QQ"
     ],
-    "CustomersOnSupply": 37,
-    "CustomersOffSupply": 81,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 118,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -729,7 +729,9 @@
     }
   ],
   "FullPostcodeData": [
+    "AL35BN",
     "AL35BP",
+    "AL35BS",
     "AL35BT",
     "AL35JT",
     "AL35JU",
@@ -738,9 +740,7 @@
     "AL35QG",
     "AL35QH",
     "AL35QJ",
-    "AL35QQ",
-    "AL35BN",
-    "AL35BS"
+    "AL35QQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
