@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-50507-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-50507-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-50507-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-18T13:27:19",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-25T14:14:12.457",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c54bINCD",
     "IncidentReference": "INCD-50507-V",
     "IncidentCategory": "132",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 26,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-18T12:21:17",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-25T14:14:12.457",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-18T12:20:34",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 16,
     "Latitude": 0.0,
@@ -73,11 +73,11 @@
       "TN15 0"
     ],
     "PostCodesRestored": [
-      "TN150LG",
       "TN150JS",
       "TN150JT",
       "TN150JU",
       "TN150LE",
+      "TN150LG",
       "TN150LQ",
       "TN150NG",
       "TN150SJ",
@@ -86,11 +86,11 @@
       "TN150SP"
     ],
     "PostCodesPlanned": [
-      "TN150LG",
       "TN150JS",
       "TN150JT",
       "TN150JU",
       "TN150LE",
+      "TN150LG",
       "TN150LQ",
       "TN150NG",
       "TN150SJ",
@@ -98,9 +98,9 @@
       "TN150SN",
       "TN150SP"
     ],
-    "CustomersOnSupply": 66,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 68,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -647,11 +647,11 @@
     }
   ],
   "FullPostcodeData": [
-    "TN150LG",
     "TN150JS",
     "TN150JT",
     "TN150JU",
     "TN150LE",
+    "TN150LG",
     "TN150LQ",
     "TN150NG",
     "TN150SJ",
