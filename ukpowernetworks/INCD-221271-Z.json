@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-221271-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-221271-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-221271-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-24T22:58:01",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-25T18:01:01.657",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036057INCD",
     "IncidentReference": "INCD-221271-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 21,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-24T22:04:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-25T18:01:01.657",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-24T22:04:10",
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2021-02-24T23:00:00",
       "DispatchedDate": "2021-02-24T22:05:47",
       "ArrivalDate": "2021-02-24T22:58:01",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -191,7 +191,7 @@
     ],
     "CustomersOnSupply": 903,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
