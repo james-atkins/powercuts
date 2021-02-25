@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-221450-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-221450-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-221450-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-25T18:30:21.25",
-      "Message": "Update at 18:29 - Our engineers have arrived on site in the Atherstone Road area, the estimated time hasn't changed. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government guidelines about social distancing when interacting with our staff. If you would like more information about what we think the fault is; here's a short YouTube video <a href=\"https://bit.ly/2y8Dtfz.\" target=\"_blank\">https://bit.ly/2y8Dtfz.</a>",
+      "Date": "2021-02-25T19:11:25.957",
+      "Message": "Update at 19:10 - We can now confirm that all power in the Atherstone Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-25T18:23:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-25T19:01:45.683",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003610aINCD",
     "IncidentReference": "INCD-221450-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-25T17:35:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-25T19:01:45.683",
     "EstimatedRestorationDate": "2021-02-25T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-25T17:30:00",
-    "NoCustomerAffected": 49,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 15,
+    "NoCallsReported": 16,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-25T18:28:00",
+        "ActualEventTime": "2021-02-25T19:11:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 18:29 - Our engineers have arrived on site in the Atherstone Road area, the estimated time hasn't changed. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government guidelines about social distancing when interacting with our staff. If you would like more information about what we think the fault is; here's a short YouTube video https://bit.ly/2y8Dtfz.",
-        "LoggedTime": "2021-02-25T18:30:21.25"
+        "Comment": "Update at 19:10 - We can now confirm that all power in the Atherstone Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-25T19:11:25.957"
       }
     ],
     "PostCodesAffected": [
@@ -74,6 +74,7 @@
     ],
     "PostCodesRestored": [
       "LU48QP",
+      "LU48QQ",
       "LU48QS",
       "LU48QU",
       "LU48QW",
@@ -81,11 +82,11 @@
       "LU48QY",
       "LU48SL",
       "LU48SN",
-      "LU48SW",
-      "LU48QQ"
+      "LU48SW"
     ],
     "PostCodesPlanned": [
       "LU48QP",
+      "LU48QQ",
       "LU48QS",
       "LU48QU",
       "LU48QW",
@@ -93,12 +94,11 @@
       "LU48QY",
       "LU48SL",
       "LU48SN",
-      "LU48SW",
-      "LU48QQ"
+      "LU48SW"
     ],
-    "CustomersOnSupply": 86,
-    "CustomersOffSupply": 99,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 185,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -570,6 +570,7 @@
   ],
   "FullPostcodeData": [
     "LU48QP",
+    "LU48QQ",
     "LU48QS",
     "LU48QU",
     "LU48QW",
@@ -577,8 +578,7 @@
     "LU48QY",
     "LU48SL",
     "LU48SN",
-    "LU48SW",
-    "LU48QQ"
+    "LU48SW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
