@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-191883-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-191883-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-191883-Z",
   "Steps": [
     {
       "Active": false,
@@ -10,48 +10,48 @@
     },
     {
       "Active": false,
-      "Date": "2020-10-14T16:57:29",
+      "Date": null,
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
-      "Date": "2020-10-14T17:12:57",
+      "Active": false,
+      "Date": null,
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-25T09:10:44.950961+00:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0002ed8bINCD",
     "IncidentReference": "INCD-191883-Z",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2020-10-14T16:53:02",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-25T09:10:44.950961+00:00",
     "EstimatedRestorationDate": "2020-10-14T19:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2020-10-14T16:39:00",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
       "Id": null,
-      "Name": "MARK (R5)",
-      "EstimatedTimeOfArrival": "2020-10-14T17:30:00",
-      "DispatchedDate": "2020-10-14T16:57:29",
-      "ArrivalDate": "2020-10-14T17:12:57",
-      "StatusId": 6
+      "Name": null,
+      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
+      "DispatchedDate": null,
+      "ArrivalDate": null,
+      "StatusId": 0
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -59,24 +59,24 @@
       "IP4 1"
     ],
     "PostCodesRestored": [
-      "IP41AQ",
       "IP41AG",
       "IP41AL",
+      "IP41AQ",
       "IP41AR",
       "IP41AY",
       "IP41DT"
     ],
     "PostCodesPlanned": [
-      "IP41AQ",
       "IP41AG",
       "IP41AL",
+      "IP41AQ",
       "IP41AR",
       "IP41AY",
       "IP41DT"
     ],
-    "CustomersOnSupply": 46,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 52,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -615,16 +615,16 @@
     }
   ],
   "FullPostcodeData": [
-    "IP41AQ",
     "IP41AG",
     "IP41AL",
+    "IP41AQ",
     "IP41AR",
     "IP41AY",
     "IP41DT"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "19:00 - 20:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
