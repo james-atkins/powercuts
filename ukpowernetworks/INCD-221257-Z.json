@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-221257-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-221257-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-221257-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-24T20:08:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-25T02:48:48.133",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036049INCD",
     "IncidentReference": "INCD-221257-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-24T19:24:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-25T02:48:48.133",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-24T19:22:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -73,8 +73,8 @@
       "IP13 6"
     ],
     "PostCodesRestored": [
-      "IP136TT",
       "IP136TS",
+      "IP136TT",
       "IP136UH",
       "IP136UJ",
       "IP136UL",
@@ -84,8 +84,8 @@
       "IP136XL"
     ],
     "PostCodesPlanned": [
-      "IP136TT",
       "IP136TS",
+      "IP136TT",
       "IP136UH",
       "IP136UJ",
       "IP136UL",
@@ -94,9 +94,9 @@
       "IP136UW",
       "IP136XL"
     ],
-    "CustomersOnSupply": 32,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 35,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -703,8 +703,8 @@
     }
   ],
   "FullPostcodeData": [
-    "IP136TT",
     "IP136TS",
+    "IP136TT",
     "IP136UH",
     "IP136UJ",
     "IP136UL",
