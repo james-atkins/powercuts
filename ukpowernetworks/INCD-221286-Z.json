@@ -1,9 +1,15 @@
 {
   "IncidentReference": "INCD-221286-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-221286-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-221286-Z",
   "Steps": [
     {
       "Active": true,
+      "Date": "2021-02-25T06:33:00.673",
+      "Message": "Update at 06:32 - We want to reassure you that we have certainly not forgotten about you and we know that the estimated time frame has now passed. Getting you an update is our priority, as we know it's important to provide you with the most up to date information. Our team on site are still working, and we are liaising with them to get a progress update to you as soon as we can safely do so. As soon as we hear from them we'll be in touch, or you can call us on 105 if you need any additional support.",
+      "Name": null
+    },
+    {
+      "Active": false,
       "Date": "2021-02-25T04:15:00",
       "Message": "<p>We became aware of a power cut at 04:15. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -11,36 +17,36 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-25T06:43:59.11",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036066INCD",
     "IncidentReference": "INCD-221286-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-25T03:40:22",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-02-25T06:00:00",
+    "RestoredDateTime": "2021-02-25T06:43:59.11",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-25T04:15:00",
-    "NoCustomerAffected": 13,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -54,28 +60,36 @@
       "StatusId": 0
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-25T06:32:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 06:32 - We want to reassure you that we have certainly not forgotten about you and we know that the estimated time frame has now passed. Getting you an update is our priority, as we know it's important to provide you with the most up to date information. Our team on site are still working, and we are liaising with them to get a progress update to you as soon as we can safely do so. As soon as we hear from them we'll be in touch, or you can call us on 105 if you need any additional support.",
+        "LoggedTime": "2021-02-25T06:33:00.673"
+      }
+    ],
     "PostCodesAffected": [
       "EN6 4"
     ],
     "PostCodesRestored": [
-      "EN64NS",
-      "EN64NT",
       "EN64NP",
       "EN64NR",
+      "EN64NS",
+      "EN64NT",
       "EN64NU"
     ],
     "PostCodesPlanned": [
-      "EN64NS",
-      "EN64NT",
       "EN64NP",
       "EN64NR",
+      "EN64NS",
+      "EN64NT",
       "EN64NU"
     ],
-    "CustomersOnSupply": 49,
-    "CustomersOffSupply": 13,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 62,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -377,16 +391,16 @@
     }
   ],
   "FullPostcodeData": [
-    "EN64NS",
-    "EN64NT",
     "EN64NP",
     "EN64NR",
+    "EN64NS",
+    "EN64NT",
     "EN64NU"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "05:30 - 06:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
