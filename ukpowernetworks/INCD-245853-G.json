@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245853-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245853-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245853-G",
   "Steps": [
     {
       "Active": true,
@@ -15,34 +15,34 @@
       "Name": "We are restoring customers automatically"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-25T02:32:18",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-02-25T04:41:39",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-25T04:24:27.97",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c05dINCD",
     "IncidentReference": "INCD-245853-G",
     "IncidentCategory": "54",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 23,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-25T01:59:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-25T04:24:27.97",
     "EstimatedRestorationDate": "2021-02-25T05:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-25T01:56:22",
@@ -56,8 +56,8 @@
       "Name": "NEIL (R5)",
       "EstimatedTimeOfArrival": "2021-02-25T03:00:00",
       "DispatchedDate": "2021-02-25T02:32:18",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-02-25T04:41:39",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -94,7 +94,7 @@
     ],
     "CustomersOnSupply": 109,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
