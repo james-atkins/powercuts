@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-217789-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-217789-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-217789-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-08T20:12:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-26T09:06:15.087",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000352bdINCD",
     "IncidentReference": "INCD-217789-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 501,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-08T18:40:09",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-26T09:06:15.087",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-08T18:36:43",
@@ -59,7 +59,6 @@
       "PE15 8"
     ],
     "PostCodesRestored": [
-      "PE158QQ",
       "PE158NJ",
       "PE158NR",
       "PE158NY",
@@ -68,11 +67,11 @@
       "PE158QF",
       "PE158QG",
       "PE158QJ",
+      "PE158QQ",
       "PE158QR",
       "PE158TJ"
     ],
     "PostCodesPlanned": [
-      "PE158QQ",
       "PE158NJ",
       "PE158NR",
       "PE158NY",
@@ -81,12 +80,13 @@
       "PE158QF",
       "PE158QG",
       "PE158QJ",
+      "PE158QQ",
       "PE158QR",
       "PE158TJ"
     ],
-    "CustomersOnSupply": 166,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 167,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -433,7 +433,6 @@
     }
   ],
   "FullPostcodeData": [
-    "PE158QQ",
     "PE158NJ",
     "PE158NR",
     "PE158NY",
@@ -442,6 +441,7 @@
     "PE158QF",
     "PE158QG",
     "PE158QJ",
+    "PE158QQ",
     "PE158QR",
     "PE158TJ"
   ],
