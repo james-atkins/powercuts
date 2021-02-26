@@ -1,11 +1,17 @@
 {
   "IncidentReference": "INCD-221548-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-221548-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-221548-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-02-26T12:16:50.397",
+      "Message": "Update at 12:16 - Our engineers have been in touch and have advised that they no longer need to isolate supplies to progress with repairs to a broken piece of overhead network equipment which supports one of our overhead poles. They have been able to reconfigure the network meaning supplies are being fed from a different part of the network whilst the work continues. If you are experiencing issues with your power and have any questions or concerns in relation to this, please contact us on 105.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-02-26T10:01:47",
-      "Message": "<p>We became aware of this power cut at 10:01. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
+      "Date": "2021-02-26T11:43:03",
+      "Message": "<p>We became aware of this power cut at 11:43. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
       "Name": "We are restoring customers automatically"
     },
     {
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-26T11:41:48",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-26T13:24:40.66",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003616cINCD",
     "IncidentReference": "INCD-221548-Z",
-    "IncidentCategory": "136",
+    "IncidentCategory": "42",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-26T10:05:33",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-26T13:24:40.66",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-02-26T10:01:47",
+    "ReceivedDate": "2021-02-26T11:43:03",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 5,
+    "NoCallsReported": 9,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -51,10 +57,18 @@
       "EstimatedTimeOfArrival": "2021-02-26T11:00:00",
       "DispatchedDate": "2021-02-26T10:24:13",
       "ArrivalDate": "2021-02-26T11:41:48",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-02-26T12:16:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 12:16 - Our engineers have been in touch and have advised that they no longer need to isolate supplies to progress with repairs to a broken piece of overhead network equipment which supports one of our overhead poles. They have been able to reconfigure the network meaning supplies are being fed from a different part of the network whilst the work continues. If you are experiencing issues with your power and have any questions or concerns in relation to this, please contact us on 105.",
+        "LoggedTime": "2021-02-26T12:16:50.397"
+      }
+    ],
     "PostCodesAffected": [
       "PE13 4"
     ],
@@ -66,10 +80,10 @@
       "PE134EG",
       "PE134EQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 14,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -656,7 +670,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line that was damaged, causing a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a high voltage electricity overhead line in the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
