@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-221639-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-221639-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-221639-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-26T15:04:52",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-26T20:59:06.003",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000361c7INCD",
     "IncidentReference": "INCD-221639-Z",
     "IncidentCategory": "9",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-26T14:10:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-26T20:59:06.003",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-26T14:09:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 10,
     "Latitude": 0.0,
@@ -73,7 +73,6 @@
       "IP6 8"
     ],
     "PostCodesRestored": [
-      "IP68BB",
       "IP68AL",
       "IP68AN",
       "IP68AP",
@@ -81,12 +80,12 @@
       "IP68AS",
       "IP68AT",
       "IP68AW",
+      "IP68BB",
       "IP68BD",
       "IP68BQ",
       "IP68DQ"
     ],
     "PostCodesPlanned": [
-      "IP68BB",
       "IP68AL",
       "IP68AN",
       "IP68AP",
@@ -94,13 +93,14 @@
       "IP68AS",
       "IP68AT",
       "IP68AW",
+      "IP68BB",
       "IP68BD",
       "IP68BQ",
       "IP68DQ"
     ],
-    "CustomersOnSupply": 108,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 109,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -495,7 +495,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IP68BB",
     "IP68AL",
     "IP68AN",
     "IP68AP",
@@ -503,6 +502,7 @@
     "IP68AS",
     "IP68AT",
     "IP68AW",
+    "IP68BB",
     "IP68BD",
     "IP68BQ",
     "IP68DQ"
