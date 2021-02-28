@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245995-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245995-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245995-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-28T12:23:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-28T19:26:56.297",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c0ebINCD",
     "IncidentReference": "INCD-245995-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-28T10:47:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-28T19:26:56.297",
     "EstimatedRestorationDate": "2021-02-28T19:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-28T10:46:42",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -73,26 +73,26 @@
       "ME7 1"
     ],
     "PostCodesRestored": [
-      "ME71QN",
       "ME71QH",
       "ME71QJ",
+      "ME71QN",
       "ME71QP",
       "ME71QZ",
       "ME71RE",
       "ME71RF"
     ],
     "PostCodesPlanned": [
-      "ME71QN",
       "ME71QH",
       "ME71QJ",
+      "ME71QN",
       "ME71QP",
       "ME71QZ",
       "ME71RE",
       "ME71RF"
     ],
-    "CustomersOnSupply": 205,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 208,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -507,9 +507,9 @@
     }
   ],
   "FullPostcodeData": [
-    "ME71QN",
     "ME71QH",
     "ME71QJ",
+    "ME71QN",
     "ME71QP",
     "ME71QZ",
     "ME71RE",
