@@ -1,45 +1,45 @@
 {
   "IncidentReference": "INCD-221862-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-221862-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-221862-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-02-28T02:31:35",
+      "Date": "2021-02-28T02:31:00",
       "Message": "<p>We became aware of a power cut at 02:31. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-28T02:57:20",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-02-28T03:40:03",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-28T03:50:13.967",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000362a6INCD",
     "IncidentReference": "INCD-221862-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-28T02:38:21",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-28T03:50:13.967",
     "EstimatedRestorationDate": "2021-02-28T05:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-02-28T02:31:35",
+    "ReceivedDate": "2021-02-28T02:31:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -50,8 +50,8 @@
       "Name": "KEITH (R5)",
       "EstimatedTimeOfArrival": "2021-02-28T03:30:00",
       "DispatchedDate": "2021-02-28T02:57:20",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-02-28T03:40:03",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -64,9 +64,9 @@
     "PostCodesPlanned": [
       "NR103TA"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 34,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 34,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
