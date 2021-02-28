@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-221890-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-221890-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-221890-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-02-28T14:09:02.387",
-      "Message": "Update at 14:08 - It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers have requested additional support in checking the network. Therefore, we're now aiming to restore supplies between 15:00 and 16:00. We're sorry we've had to change the estimated time, but we'll keep you updated.",
+      "Date": "2021-02-28T15:16:01.077",
+      "Message": "Update at 15:15 - We can now confirm that all power in the Westgate Street area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-28T12:09:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-02-28T15:11:38.197",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000362c2INCD",
     "IncidentReference": "INCD-221890-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-28T10:30:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-02-28T15:11:38.197",
     "EstimatedRestorationDate": "2021-02-28T15:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-28T10:26:00",
-    "NoCustomerAffected": 9,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-02-28T14:08:00",
+        "ActualEventTime": "2021-02-28T15:15:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 14:08 - It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers have requested additional support in checking the network. Therefore, we're now aiming to restore supplies between 15:00 and 16:00. We're sorry we've had to change the estimated time, but we'll keep you updated.",
-        "LoggedTime": "2021-02-28T14:09:02.387"
+        "Comment": "Update at 15:15 - We can now confirm that all power in the Westgate Street area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-02-28T15:16:01.077"
       }
     ],
     "PostCodesAffected": [
@@ -76,27 +76,27 @@
     ],
     "PostCodesRestored": [
       "IP11HQ",
+      "IP11HT",
       "IP12EF",
       "IP12FA",
       "IP13DX",
       "IP13DZ",
-      "IP11HT",
       "IP13EB",
       "UMS"
     ],
     "PostCodesPlanned": [
       "IP11HQ",
+      "IP11HT",
       "IP12EF",
       "IP12FA",
       "IP13DX",
       "IP13DZ",
-      "IP11HT",
       "IP13EB",
       "UMS"
     ],
-    "CustomersOnSupply": 20,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 29,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1380,11 +1380,11 @@
   ],
   "FullPostcodeData": [
     "IP11HQ",
+    "IP11HT",
     "IP12EF",
     "IP12FA",
     "IP13DX",
     "IP13DZ",
-    "IP11HT",
     "IP13EB",
     "UMS"
   ],
