@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-51138-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-51138-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-51138-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-01T00:57:57.35",
-      "Message": "Update at 00:58 - We're sorry your power has now been off for several hours and we're working as quickly as possible to get you back on. We know you may be concerned about your phone battery running low, so here are some tips on how you can prolong battery life: Set your phone to power saving mode, reduce screen brightness, turn off WiFi, Bluetooth and GPS (if not in use), cut apps running in the background and if possible top up using a car charger or portable battery pack.",
+      "Date": "2021-03-01T02:25:25.147",
+      "Message": "Update at 02:25 - It's Roland from the text messaging team and I'm pleased to inform that we believe our engineers have been able to restore power to all 84 customers in the Spring Lane area, by diverting power around the faulty overhead cables. We're sorry it's taken us longer than we expected to restore your power today. Please accept our sincere apologies as we know that it's difficult to be without power for a longer duration, and during the current pandemic this can be especially difficult, but please rest assured that as key workers our staff will continue to work around the clock to keep the lights on. If your power isn't back on, or to talk to us about anything else, call us on 08003163105, free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-28T20:55:31",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-01T02:23:13.303",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c7c2INCD",
     "IncidentReference": "INCD-51138-V",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 21,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-28T20:29:02",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-01T02:23:13.303",
     "EstimatedRestorationDate": "2021-03-01T03:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-02-28T20:28:50",
-    "NoCustomerAffected": 39,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 14,
+    "NoCallsReported": 13,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-01T00:47:00",
+        "ActualEventTime": "2021-03-01T02:24:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 00:58 - We're sorry your power has now been off for several hours and we're working as quickly as possible to get you back on. We know you may be concerned about your phone battery running low, so here are some tips on how you can prolong battery life: Set your phone to power saving mode, reduce screen brightness, turn off WiFi, Bluetooth and GPS (if not in use), cut apps running in the background and if possible top up using a car charger or portable battery pack.",
-        "LoggedTime": "2021-03-01T00:57:57.35"
+        "Comment": "Update at 02:25 - It's Roland from the text messaging team and I'm pleased to inform that we believe our engineers have been able to restore power to all 84 customers in the Spring Lane area, by diverting power around the faulty overhead cables. We're sorry it's taken us longer than we expected to restore your power today. Please accept our sincere apologies as we know that it's difficult to be without power for a longer duration, and during the current pandemic this can be especially difficult, but please rest assured that as key workers our staff will continue to work around the clock to keep the lights on. If your power isn't back on, or to talk to us about anything else, call us on 08003163105, free from landlines and mobiles.",
+        "LoggedTime": "2021-03-01T02:25:25.147"
       }
     ],
     "PostCodesAffected": [
@@ -74,11 +74,6 @@
       "TN15 9"
     ],
     "PostCodesRestored": [
-      "TN159DL",
-      "TN159DN",
-      "TN159DP",
-      "TN159DR",
-      "TN159DS",
       "CR82LU",
       "TN159AA",
       "TN159AP",
@@ -90,6 +85,11 @@
       "TN159DG",
       "TN159DH",
       "TN159DJ",
+      "TN159DL",
+      "TN159DN",
+      "TN159DP",
+      "TN159DR",
+      "TN159DS",
       "TN159HA",
       "TN159HB",
       "TN159HE",
@@ -100,11 +100,6 @@
       "TN159JD"
     ],
     "PostCodesPlanned": [
-      "TN159DL",
-      "TN159DN",
-      "TN159DP",
-      "TN159DR",
-      "TN159DS",
       "CR82LU",
       "TN159AA",
       "TN159AP",
@@ -116,6 +111,11 @@
       "TN159DG",
       "TN159DH",
       "TN159DJ",
+      "TN159DL",
+      "TN159DN",
+      "TN159DP",
+      "TN159DR",
+      "TN159DS",
       "TN159HA",
       "TN159HB",
       "TN159HE",
@@ -125,10 +125,10 @@
       "TN159HN",
       "TN159JD"
     ],
-    "CustomersOnSupply": 89,
-    "CustomersOffSupply": 39,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 128,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -136,203 +136,6 @@
     "TN15 9"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.28801,
-        "lng": 0.28086
-      },
-      "Coordinates": [
-        {
-          "lat": 51.29375,
-          "lng": 0.26252
-        },
-        {
-          "lat": 51.29701,
-          "lng": 0.26588
-        },
-        {
-          "lat": 51.29759,
-          "lng": 0.26849
-        },
-        {
-          "lat": 51.29758,
-          "lng": 0.26864
-        },
-        {
-          "lat": 51.30282,
-          "lng": 0.27807
-        },
-        {
-          "lat": 51.30463,
-          "lng": 0.28838
-        },
-        {
-          "lat": 51.30266,
-          "lng": 0.29324
-        },
-        {
-          "lat": 51.3011,
-          "lng": 0.29366
-        },
-        {
-          "lat": 51.29845,
-          "lng": 0.29964
-        },
-        {
-          "lat": 51.29599,
-          "lng": 0.29999
-        },
-        {
-          "lat": 51.29429,
-          "lng": 0.29941
-        },
-        {
-          "lat": 51.29297,
-          "lng": 0.29702
-        },
-        {
-          "lat": 51.29203,
-          "lng": 0.29682
-        },
-        {
-          "lat": 51.29132,
-          "lng": 0.29719
-        },
-        {
-          "lat": 51.28972,
-          "lng": 0.29655
-        },
-        {
-          "lat": 51.28868,
-          "lng": 0.29532
-        },
-        {
-          "lat": 51.2885,
-          "lng": 0.29481
-        },
-        {
-          "lat": 51.28685,
-          "lng": 0.29349
-        },
-        {
-          "lat": 51.28625,
-          "lng": 0.29334
-        },
-        {
-          "lat": 51.28321,
-          "lng": 0.29504
-        },
-        {
-          "lat": 51.28097,
-          "lng": 0.29537
-        },
-        {
-          "lat": 51.28002,
-          "lng": 0.29103
-        },
-        {
-          "lat": 51.27958,
-          "lng": 0.29039
-        },
-        {
-          "lat": 51.27916,
-          "lng": 0.29
-        },
-        {
-          "lat": 51.27356,
-          "lng": 0.28897
-        },
-        {
-          "lat": 51.27342,
-          "lng": 0.28845
-        },
-        {
-          "lat": 51.26994,
-          "lng": 0.28585
-        },
-        {
-          "lat": 51.26784,
-          "lng": 0.28602
-        },
-        {
-          "lat": 51.2685,
-          "lng": 0.27883
-        },
-        {
-          "lat": 51.26883,
-          "lng": 0.27869
-        },
-        {
-          "lat": 51.27023,
-          "lng": 0.27918
-        },
-        {
-          "lat": 51.27062,
-          "lng": 0.27876
-        },
-        {
-          "lat": 51.27213,
-          "lng": 0.27822
-        },
-        {
-          "lat": 51.27277,
-          "lng": 0.27481
-        },
-        {
-          "lat": 51.27452,
-          "lng": 0.27617
-        },
-        {
-          "lat": 51.2751,
-          "lng": 0.27568
-        },
-        {
-          "lat": 51.27521,
-          "lng": 0.27124
-        },
-        {
-          "lat": 51.27519,
-          "lng": 0.27117
-        },
-        {
-          "lat": 51.27688,
-          "lng": 0.26979
-        },
-        {
-          "lat": 51.27776,
-          "lng": 0.26867
-        },
-        {
-          "lat": 51.27804,
-          "lng": 0.26279
-        },
-        {
-          "lat": 51.2805,
-          "lng": 0.26166
-        },
-        {
-          "lat": 51.28136,
-          "lng": 0.26243
-        },
-        {
-          "lat": 51.28331,
-          "lng": 0.266
-        },
-        {
-          "lat": 51.28521,
-          "lng": 0.26663
-        },
-        {
-          "lat": 51.2909,
-          "lng": 0.26302
-        },
-        {
-          "lat": 51.29375,
-          "lng": 0.26252
-        }
-      ],
-      "Postcode": "TN15 9"
-    },
     {
       "Center": {
         "lat": 51.33885,
@@ -1049,14 +852,206 @@
         }
       ],
       "Postcode": "CR8 2"
+    },
+    {
+      "Center": {
+        "lat": 51.28801,
+        "lng": 0.28086
+      },
+      "Coordinates": [
+        {
+          "lat": 51.29375,
+          "lng": 0.26252
+        },
+        {
+          "lat": 51.29701,
+          "lng": 0.26588
+        },
+        {
+          "lat": 51.29759,
+          "lng": 0.26849
+        },
+        {
+          "lat": 51.29758,
+          "lng": 0.26864
+        },
+        {
+          "lat": 51.30282,
+          "lng": 0.27807
+        },
+        {
+          "lat": 51.30463,
+          "lng": 0.28838
+        },
+        {
+          "lat": 51.30266,
+          "lng": 0.29324
+        },
+        {
+          "lat": 51.3011,
+          "lng": 0.29366
+        },
+        {
+          "lat": 51.29845,
+          "lng": 0.29964
+        },
+        {
+          "lat": 51.29599,
+          "lng": 0.29999
+        },
+        {
+          "lat": 51.29429,
+          "lng": 0.29941
+        },
+        {
+          "lat": 51.29297,
+          "lng": 0.29702
+        },
+        {
+          "lat": 51.29203,
+          "lng": 0.29682
+        },
+        {
+          "lat": 51.29132,
+          "lng": 0.29719
+        },
+        {
+          "lat": 51.28972,
+          "lng": 0.29655
+        },
+        {
+          "lat": 51.28868,
+          "lng": 0.29532
+        },
+        {
+          "lat": 51.2885,
+          "lng": 0.29481
+        },
+        {
+          "lat": 51.28685,
+          "lng": 0.29349
+        },
+        {
+          "lat": 51.28625,
+          "lng": 0.29334
+        },
+        {
+          "lat": 51.28321,
+          "lng": 0.29504
+        },
+        {
+          "lat": 51.28097,
+          "lng": 0.29537
+        },
+        {
+          "lat": 51.28002,
+          "lng": 0.29103
+        },
+        {
+          "lat": 51.27958,
+          "lng": 0.29039
+        },
+        {
+          "lat": 51.27916,
+          "lng": 0.29
+        },
+        {
+          "lat": 51.27356,
+          "lng": 0.28897
+        },
+        {
+          "lat": 51.27342,
+          "lng": 0.28845
+        },
+        {
+          "lat": 51.26994,
+          "lng": 0.28585
+        },
+        {
+          "lat": 51.26784,
+          "lng": 0.28602
+        },
+        {
+          "lat": 51.2685,
+          "lng": 0.27883
+        },
+        {
+          "lat": 51.26883,
+          "lng": 0.27869
+        },
+        {
+          "lat": 51.27023,
+          "lng": 0.27918
+        },
+        {
+          "lat": 51.27062,
+          "lng": 0.27876
+        },
+        {
+          "lat": 51.27213,
+          "lng": 0.27822
+        },
+        {
+          "lat": 51.27277,
+          "lng": 0.27481
+        },
+        {
+          "lat": 51.27452,
+          "lng": 0.27617
+        },
+        {
+          "lat": 51.2751,
+          "lng": 0.27568
+        },
+        {
+          "lat": 51.27521,
+          "lng": 0.27124
+        },
+        {
+          "lat": 51.27519,
+          "lng": 0.27117
+        },
+        {
+          "lat": 51.27688,
+          "lng": 0.26979
+        },
+        {
+          "lat": 51.27776,
+          "lng": 0.26867
+        },
+        {
+          "lat": 51.27804,
+          "lng": 0.26279
+        },
+        {
+          "lat": 51.2805,
+          "lng": 0.26166
+        },
+        {
+          "lat": 51.28136,
+          "lng": 0.26243
+        },
+        {
+          "lat": 51.28331,
+          "lng": 0.266
+        },
+        {
+          "lat": 51.28521,
+          "lng": 0.26663
+        },
+        {
+          "lat": 51.2909,
+          "lng": 0.26302
+        },
+        {
+          "lat": 51.29375,
+          "lng": 0.26252
+        }
+      ],
+      "Postcode": "TN15 9"
     }
   ],
   "FullPostcodeData": [
-    "TN159DL",
-    "TN159DN",
-    "TN159DP",
-    "TN159DR",
-    "TN159DS",
     "CR82LU",
     "TN159AA",
     "TN159AP",
@@ -1068,6 +1063,11 @@
     "TN159DG",
     "TN159DH",
     "TN159DJ",
+    "TN159DL",
+    "TN159DN",
+    "TN159DP",
+    "TN159DR",
+    "TN159DS",
     "TN159HA",
     "TN159HB",
     "TN159HE",
