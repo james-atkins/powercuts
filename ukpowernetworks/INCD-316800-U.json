@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-316800-U",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-316800-U",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-316800-U",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-01T10:49:30",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-01T15:22:46.113",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "U0004d580INCD",
     "IncidentReference": "INCD-316800-U",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-01T10:47:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-01T15:22:46.113",
     "EstimatedRestorationDate": "2021-03-01T15:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-01T11:15:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -59,28 +59,28 @@
       "BN10 7"
     ],
     "PostCodesRestored": [
-      "BN107JT",
       "BN107JP",
       "BN107JR",
       "BN107JS",
+      "BN107JT",
       "BN107JU",
       "BN107JX",
       "BN107LR",
       "BN107LS"
     ],
     "PostCodesPlanned": [
-      "BN107JT",
       "BN107JP",
       "BN107JR",
       "BN107JS",
+      "BN107JT",
       "BN107JU",
       "BN107JX",
       "BN107LR",
       "BN107LS"
     ],
-    "CustomersOnSupply": 96,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 103,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -523,10 +523,10 @@
     }
   ],
   "FullPostcodeData": [
-    "BN107JT",
     "BN107JP",
     "BN107JR",
     "BN107JS",
+    "BN107JT",
     "BN107JU",
     "BN107JX",
     "BN107LR",
