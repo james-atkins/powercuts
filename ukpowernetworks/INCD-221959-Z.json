@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-221959-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-221959-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-221959-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-02-28T22:39:33",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-01T04:07:44.88",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036307INCD",
     "IncidentReference": "INCD-221959-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-28T22:06:54",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-03-01T04:00:00",
+    "RestoredDateTime": "2021-03-01T04:07:44.88",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-02-28T22:06:52",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -77,7 +77,6 @@
       "NR34 0"
     ],
     "PostCodesRestored": [
-      "NR319HY",
       "NR11EP",
       "NR14",
       "NR146AA",
@@ -113,6 +112,7 @@
       "NR146QQ",
       "NR146SJ",
       "NR146TG",
+      "NR319HY",
       "NR340DR",
       "NR340EN",
       "NR340ES",
@@ -140,7 +140,6 @@
       "NR340ND"
     ],
     "PostCodesPlanned": [
-      "NR319HY",
       "NR11EP",
       "NR14",
       "NR146AA",
@@ -176,6 +175,7 @@
       "NR146QQ",
       "NR146SJ",
       "NR146TG",
+      "NR319HY",
       "NR340DR",
       "NR340EN",
       "NR340ES",
@@ -202,9 +202,9 @@
       "NR340LQ",
       "NR340ND"
     ],
-    "CustomersOnSupply": 611,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 615,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -216,55 +216,6 @@
     "NR34 0"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 52.55136,
-        "lng": 1.59903
-      },
-      "Coordinates": [
-        {
-          "lat": 52.5412,
-          "lng": 1.6054
-        },
-        {
-          "lat": 52.55068,
-          "lng": 1.58901
-        },
-        {
-          "lat": 52.55434,
-          "lng": 1.58267
-        },
-        {
-          "lat": 52.55746,
-          "lng": 1.59732
-        },
-        {
-          "lat": 52.55858,
-          "lng": 1.59827
-        },
-        {
-          "lat": 52.55828,
-          "lng": 1.59969
-        },
-        {
-          "lat": 52.55868,
-          "lng": 1.60068
-        },
-        {
-          "lat": 52.55155,
-          "lng": 1.61194
-        },
-        {
-          "lat": 52.54514,
-          "lng": 1.60504
-        },
-        {
-          "lat": 52.5412,
-          "lng": 1.6054
-        }
-      ],
-      "Postcode": "NR31 9"
-    },
     {
       "Center": {
         "lat": 52.6238,
@@ -1165,6 +1116,55 @@
     },
     {
       "Center": {
+        "lat": 52.55136,
+        "lng": 1.59903
+      },
+      "Coordinates": [
+        {
+          "lat": 52.5412,
+          "lng": 1.6054
+        },
+        {
+          "lat": 52.55068,
+          "lng": 1.58901
+        },
+        {
+          "lat": 52.55434,
+          "lng": 1.58267
+        },
+        {
+          "lat": 52.55746,
+          "lng": 1.59732
+        },
+        {
+          "lat": 52.55858,
+          "lng": 1.59827
+        },
+        {
+          "lat": 52.55828,
+          "lng": 1.59969
+        },
+        {
+          "lat": 52.55868,
+          "lng": 1.60068
+        },
+        {
+          "lat": 52.55155,
+          "lng": 1.61194
+        },
+        {
+          "lat": 52.54514,
+          "lng": 1.60504
+        },
+        {
+          "lat": 52.5412,
+          "lng": 1.6054
+        }
+      ],
+      "Postcode": "NR31 9"
+    },
+    {
+      "Center": {
         "lat": 52.48704,
         "lng": 1.58586
       },
@@ -1594,7 +1594,6 @@
     }
   ],
   "FullPostcodeData": [
-    "NR319HY",
     "NR11EP",
     "NR14",
     "NR146AA",
@@ -1630,6 +1629,7 @@
     "NR146QQ",
     "NR146SJ",
     "NR146TG",
+    "NR319HY",
     "NR340DR",
     "NR340EN",
     "NR340ES",
@@ -1659,7 +1659,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "03:30 - 04:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
