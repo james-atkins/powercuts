@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-51234-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-51234-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-51234-V",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-03-01T16:19:54",
+      "Date": "2021-03-01T16:19:00",
       "Message": "<p>We became aware of a power cut at 16:19. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-01T17:08:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-01T17:34:53.433",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c822INCD",
     "IncidentReference": "INCD-51234-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-01T16:20:39",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-03-01T17:34:53.433",
+    "EstimatedRestorationDate": "2021-03-01T20:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-01T16:19:54",
+    "ReceivedDate": "2021-03-01T16:19:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -64,9 +64,9 @@
     "PostCodesPlanned": [
       "GU214XT"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 12,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 12,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -602,7 +602,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "19:30 - 20:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
