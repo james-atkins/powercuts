@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-51144-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-51144-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-51144-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-01T08:29:59",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-01T13:51:21.493",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c7c8INCD",
     "IncidentReference": "INCD-51144-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-01T08:09:37",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-01T13:51:21.493",
     "EstimatedRestorationDate": "2021-03-01T11:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-01T08:09:00",
-    "NoCustomerAffected": 8,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -75,30 +75,30 @@
     "PostCodesRestored": [
       "ME24DU",
       "ME24DZ",
-      "ME24ED",
-      "ME24EW",
       "ME24EB",
+      "ME24ED",
       "ME24EE",
       "ME24EF",
       "ME24EQ",
+      "ME24EW",
       "ME24HQ",
       "ME24HZ"
     ],
     "PostCodesPlanned": [
       "ME24DU",
       "ME24DZ",
-      "ME24ED",
-      "ME24EW",
       "ME24EB",
+      "ME24ED",
       "ME24EE",
       "ME24EF",
       "ME24EQ",
+      "ME24EW",
       "ME24HQ",
       "ME24HZ"
     ],
-    "CustomersOnSupply": 24,
-    "CustomersOffSupply": 8,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 32,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -763,12 +763,12 @@
   "FullPostcodeData": [
     "ME24DU",
     "ME24DZ",
-    "ME24ED",
-    "ME24EW",
     "ME24EB",
+    "ME24ED",
     "ME24EE",
     "ME24EF",
     "ME24EQ",
+    "ME24EW",
     "ME24HQ",
     "ME24HZ"
   ],
