@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-222226-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-222226-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-222226-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-02T22:59:45.48",
-      "Message": "It's Adam from the text messaging team. I know you have been off for a while now and are waiting for more information. A message has been left with our staff on site, but as they work with live electricity, we need to wait until it's safe for them to stop and contact us with an update.",
+      "Date": "2021-03-02T23:31:44.873",
+      "Message": "Update at 23:31 - It's Adam from the text messaging team and I'm very pleased to inform you that our engineers have been able to restore power to all 372 customers in the CM0 7, CM0 8 area. They have diverted power around the damaged underground cabling. Due to the nature of an issue like this, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-02T14:04:20",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-02T23:30:01.117",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036412INCD",
     "IncidentReference": "INCD-222226-Z",
     "IncidentCategory": "132",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-02T12:50:09",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-02T23:30:01.117",
     "EstimatedRestorationDate": "2021-03-02T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-02T12:50:03",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-02T22:59:00",
+        "ActualEventTime": "2021-03-02T23:31:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "It's Adam from the text messaging team. I know you have been off for a while now and are waiting for more information. A message has been left with our staff on site, but as they work with live electricity, we need to wait until it's safe for them to stop and contact us with an update.",
-        "LoggedTime": "2021-03-02T22:59:45.48"
+        "Comment": "Update at 23:31 - It's Adam from the text messaging team and I'm very pleased to inform you that our engineers have been able to restore power to all 372 customers in the CM0 7, CM0 8 area. They have diverted power around the damaged underground cabling. Due to the nature of an issue like this, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-03-02T23:31:44.873"
       }
     ],
     "PostCodesAffected": [
@@ -74,8 +74,6 @@
       "CM0 8"
     ],
     "PostCodesRestored": [
-      "CM07DZ",
-      "CM07EA",
       "CM07AG",
       "CM07DA",
       "CM07DE",
@@ -85,6 +83,8 @@
       "CM07DU",
       "CM07DX",
       "CM07DY",
+      "CM07DZ",
+      "CM07EA",
       "CM07EE",
       "CM07EG",
       "CM07EH",
@@ -116,8 +116,6 @@
       "UK"
     ],
     "PostCodesPlanned": [
-      "CM07DZ",
-      "CM07EA",
       "CM07AG",
       "CM07DA",
       "CM07DE",
@@ -127,6 +125,8 @@
       "CM07DU",
       "CM07DX",
       "CM07DY",
+      "CM07DZ",
+      "CM07EA",
       "CM07EE",
       "CM07EG",
       "CM07EH",
@@ -157,10 +157,10 @@
       "CM08NQ",
       "UK"
     ],
-    "CustomersOnSupply": 360,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 365,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -984,8 +984,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CM07DZ",
-    "CM07EA",
     "CM07AG",
     "CM07DA",
     "CM07DE",
@@ -995,6 +993,8 @@
     "CM07DU",
     "CM07DX",
     "CM07DY",
+    "CM07DZ",
+    "CM07EA",
     "CM07EE",
     "CM07EG",
     "CM07EH",
