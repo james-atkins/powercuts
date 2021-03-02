@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-59014-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-59014-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-59014-N",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-02T09:49:17",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-02T13:04:54.473",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e686INCD",
     "IncidentReference": "INCD-59014-N",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-02T08:15:57",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-02T13:04:54.473",
     "EstimatedRestorationDate": "2021-03-02T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-02T08:14:07",
@@ -60,26 +60,26 @@
       "SE18 7"
     ],
     "PostCodesRestored": [
-      "SE187EP",
-      "SE187ET",
       "SE18",
+      "SE187EP",
       "SE187ES",
+      "SE187ET",
       "SE187LN",
       "SE187LP",
       "SE187LW"
     ],
     "PostCodesPlanned": [
-      "SE187EP",
-      "SE187ET",
       "SE18",
+      "SE187EP",
       "SE187ES",
+      "SE187ET",
       "SE187LN",
       "SE187LP",
       "SE187LW"
     ],
-    "CustomersOnSupply": 106,
-    "CustomersOffSupply": 35,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 141,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -543,10 +543,10 @@
     }
   ],
   "FullPostcodeData": [
-    "SE187EP",
-    "SE187ET",
     "SE18",
+    "SE187EP",
     "SE187ES",
+    "SE187ET",
     "SE187LN",
     "SE187LP",
     "SE187LW"
