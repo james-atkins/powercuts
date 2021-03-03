@@ -1,9 +1,9 @@
 {
   "IncidentReference": "INCD-222399-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-222399-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-222399-Z",
   "Steps": [
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-03T11:00:00",
       "Message": "<p>We became aware of this power cut at 11:00. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
       "Name": "We are restoring customers automatically"
@@ -11,36 +11,36 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-03T13:30:45.573",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000364bfINCD",
     "IncidentReference": "INCD-222399-Z",
     "IncidentCategory": "26",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-03T09:53:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-03T13:30:45.573",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-03T11:00:00",
-    "NoCustomerAffected": 14,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -69,13 +69,10 @@
       "SG8 6"
     ],
     "PostCodesRestored": [
-      "CB225HT",
-      "CB231HE",
-      "CB25HT",
-      "CB25HU",
       "CB225FB",
       "CB225HP",
       "CB225HS",
+      "CB225HT",
       "CB225HW",
       "CB225JD",
       "CB225TD",
@@ -93,6 +90,7 @@
       "CB231AD",
       "CB231ER",
       "CB231ES",
+      "CB231HE",
       "CB231JA",
       "CB231JB",
       "CB231JD",
@@ -135,6 +133,8 @@
       "CB231NF",
       "CB24AG",
       "CB25HS",
+      "CB25HT",
+      "CB25HU",
       "CB25HW",
       "CB25RN",
       "CB25RP",
@@ -174,13 +174,10 @@
       "SG86QQ"
     ],
     "PostCodesPlanned": [
-      "CB225HT",
-      "CB231HE",
-      "CB25HT",
-      "CB25HU",
       "CB225FB",
       "CB225HP",
       "CB225HS",
+      "CB225HT",
       "CB225HW",
       "CB225JD",
       "CB225TD",
@@ -198,6 +195,7 @@
       "CB231AD",
       "CB231ER",
       "CB231ES",
+      "CB231HE",
       "CB231JA",
       "CB231JB",
       "CB231JD",
@@ -240,6 +238,8 @@
       "CB231NF",
       "CB24AG",
       "CB25HS",
+      "CB25HT",
+      "CB25HU",
       "CB25HW",
       "CB25RN",
       "CB25RP",
@@ -278,10 +278,10 @@
       "SG86QG",
       "SG86QQ"
     ],
-    "CustomersOnSupply": 1174,
-    "CustomersOffSupply": 12,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 1186,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -534,223 +534,6 @@
         }
       ],
       "Postcode": "CB22 5"
-    },
-    {
-      "Center": {
-        "lat": 52.15985,
-        "lng": 0.0294
-      },
-      "Coordinates": [
-        {
-          "lat": 52.16513,
-          "lng": -0.03368
-        },
-        {
-          "lat": 52.16927,
-          "lng": -0.03021
-        },
-        {
-          "lat": 52.17664,
-          "lng": -0.02303
-        },
-        {
-          "lat": 52.17698,
-          "lng": -0.0226
-        },
-        {
-          "lat": 52.17718,
-          "lng": -0.01563
-        },
-        {
-          "lat": 52.17666,
-          "lng": -0.01189
-        },
-        {
-          "lat": 52.17386,
-          "lng": -0.00328
-        },
-        {
-          "lat": 52.17455,
-          "lng": 0.00376
-        },
-        {
-          "lat": 52.1748,
-          "lng": 0.00442
-        },
-        {
-          "lat": 52.17478,
-          "lng": 0.0049
-        },
-        {
-          "lat": 52.17193,
-          "lng": 0.01615
-        },
-        {
-          "lat": 52.17189,
-          "lng": 0.02106
-        },
-        {
-          "lat": 52.17226,
-          "lng": 0.02219
-        },
-        {
-          "lat": 52.1751,
-          "lng": 0.03217
-        },
-        {
-          "lat": 52.16774,
-          "lng": 0.0424
-        },
-        {
-          "lat": 52.17205,
-          "lng": 0.05071
-        },
-        {
-          "lat": 52.16979,
-          "lng": 0.06439
-        },
-        {
-          "lat": 52.17023,
-          "lng": 0.06486
-        },
-        {
-          "lat": 52.17024,
-          "lng": 0.06487
-        },
-        {
-          "lat": 52.17413,
-          "lng": 0.07331
-        },
-        {
-          "lat": 52.17506,
-          "lng": 0.0775
-        },
-        {
-          "lat": 52.17103,
-          "lng": 0.08704
-        },
-        {
-          "lat": 52.16858,
-          "lng": 0.09037
-        },
-        {
-          "lat": 52.16561,
-          "lng": 0.09246
-        },
-        {
-          "lat": 52.16225,
-          "lng": 0.09251
-        },
-        {
-          "lat": 52.15622,
-          "lng": 0.07593
-        },
-        {
-          "lat": 52.15502,
-          "lng": 0.07576
-        },
-        {
-          "lat": 52.15316,
-          "lng": 0.07558
-        },
-        {
-          "lat": 52.1527,
-          "lng": 0.07569
-        },
-        {
-          "lat": 52.14616,
-          "lng": 0.06798
-        },
-        {
-          "lat": 52.1445,
-          "lng": 0.06779
-        },
-        {
-          "lat": 52.14305,
-          "lng": 0.06741
-        },
-        {
-          "lat": 52.13812,
-          "lng": 0.05147
-        },
-        {
-          "lat": 52.13922,
-          "lng": 0.04928
-        },
-        {
-          "lat": 52.13962,
-          "lng": 0.04605
-        },
-        {
-          "lat": 52.14061,
-          "lng": 0.04198
-        },
-        {
-          "lat": 52.14142,
-          "lng": 0.04097
-        },
-        {
-          "lat": 52.14456,
-          "lng": 0.03633
-        },
-        {
-          "lat": 52.14458,
-          "lng": 0.03614
-        },
-        {
-          "lat": 52.145,
-          "lng": 0.02447
-        },
-        {
-          "lat": 52.14313,
-          "lng": 0.01415
-        },
-        {
-          "lat": 52.14546,
-          "lng": 0.01186
-        },
-        {
-          "lat": 52.14929,
-          "lng": 0.00463
-        },
-        {
-          "lat": 52.15048,
-          "lng": 0.00108
-        },
-        {
-          "lat": 52.15154,
-          "lng": -0.00388
-        },
-        {
-          "lat": 52.15185,
-          "lng": -0.00704
-        },
-        {
-          "lat": 52.15138,
-          "lng": -0.00951
-        },
-        {
-          "lat": 52.15229,
-          "lng": -0.02151
-        },
-        {
-          "lat": 52.15718,
-          "lng": -0.02774
-        },
-        {
-          "lat": 52.16125,
-          "lng": -0.02884
-        },
-        {
-          "lat": 52.16231,
-          "lng": -0.02957
-        },
-        {
-          "lat": 52.16513,
-          "lng": -0.03368
-        }
-      ],
-      "Postcode": "CB23 1"
     },
     {
       "Center": {
@@ -1109,6 +892,223 @@
         }
       ],
       "Postcode": "CB22 7"
+    },
+    {
+      "Center": {
+        "lat": 52.15985,
+        "lng": 0.0294
+      },
+      "Coordinates": [
+        {
+          "lat": 52.16513,
+          "lng": -0.03368
+        },
+        {
+          "lat": 52.16927,
+          "lng": -0.03021
+        },
+        {
+          "lat": 52.17664,
+          "lng": -0.02303
+        },
+        {
+          "lat": 52.17698,
+          "lng": -0.0226
+        },
+        {
+          "lat": 52.17718,
+          "lng": -0.01563
+        },
+        {
+          "lat": 52.17666,
+          "lng": -0.01189
+        },
+        {
+          "lat": 52.17386,
+          "lng": -0.00328
+        },
+        {
+          "lat": 52.17455,
+          "lng": 0.00376
+        },
+        {
+          "lat": 52.1748,
+          "lng": 0.00442
+        },
+        {
+          "lat": 52.17478,
+          "lng": 0.0049
+        },
+        {
+          "lat": 52.17193,
+          "lng": 0.01615
+        },
+        {
+          "lat": 52.17189,
+          "lng": 0.02106
+        },
+        {
+          "lat": 52.17226,
+          "lng": 0.02219
+        },
+        {
+          "lat": 52.1751,
+          "lng": 0.03217
+        },
+        {
+          "lat": 52.16774,
+          "lng": 0.0424
+        },
+        {
+          "lat": 52.17205,
+          "lng": 0.05071
+        },
+        {
+          "lat": 52.16979,
+          "lng": 0.06439
+        },
+        {
+          "lat": 52.17023,
+          "lng": 0.06486
+        },
+        {
+          "lat": 52.17024,
+          "lng": 0.06487
+        },
+        {
+          "lat": 52.17413,
+          "lng": 0.07331
+        },
+        {
+          "lat": 52.17506,
+          "lng": 0.0775
+        },
+        {
+          "lat": 52.17103,
+          "lng": 0.08704
+        },
+        {
+          "lat": 52.16858,
+          "lng": 0.09037
+        },
+        {
+          "lat": 52.16561,
+          "lng": 0.09246
+        },
+        {
+          "lat": 52.16225,
+          "lng": 0.09251
+        },
+        {
+          "lat": 52.15622,
+          "lng": 0.07593
+        },
+        {
+          "lat": 52.15502,
+          "lng": 0.07576
+        },
+        {
+          "lat": 52.15316,
+          "lng": 0.07558
+        },
+        {
+          "lat": 52.1527,
+          "lng": 0.07569
+        },
+        {
+          "lat": 52.14616,
+          "lng": 0.06798
+        },
+        {
+          "lat": 52.1445,
+          "lng": 0.06779
+        },
+        {
+          "lat": 52.14305,
+          "lng": 0.06741
+        },
+        {
+          "lat": 52.13812,
+          "lng": 0.05147
+        },
+        {
+          "lat": 52.13922,
+          "lng": 0.04928
+        },
+        {
+          "lat": 52.13962,
+          "lng": 0.04605
+        },
+        {
+          "lat": 52.14061,
+          "lng": 0.04198
+        },
+        {
+          "lat": 52.14142,
+          "lng": 0.04097
+        },
+        {
+          "lat": 52.14456,
+          "lng": 0.03633
+        },
+        {
+          "lat": 52.14458,
+          "lng": 0.03614
+        },
+        {
+          "lat": 52.145,
+          "lng": 0.02447
+        },
+        {
+          "lat": 52.14313,
+          "lng": 0.01415
+        },
+        {
+          "lat": 52.14546,
+          "lng": 0.01186
+        },
+        {
+          "lat": 52.14929,
+          "lng": 0.00463
+        },
+        {
+          "lat": 52.15048,
+          "lng": 0.00108
+        },
+        {
+          "lat": 52.15154,
+          "lng": -0.00388
+        },
+        {
+          "lat": 52.15185,
+          "lng": -0.00704
+        },
+        {
+          "lat": 52.15138,
+          "lng": -0.00951
+        },
+        {
+          "lat": 52.15229,
+          "lng": -0.02151
+        },
+        {
+          "lat": 52.15718,
+          "lng": -0.02774
+        },
+        {
+          "lat": 52.16125,
+          "lng": -0.02884
+        },
+        {
+          "lat": 52.16231,
+          "lng": -0.02957
+        },
+        {
+          "lat": 52.16513,
+          "lng": -0.03368
+        }
+      ],
+      "Postcode": "CB23 1"
     },
     {
       "Center": {
@@ -1678,13 +1678,10 @@
     }
   ],
   "FullPostcodeData": [
-    "CB225HT",
-    "CB231HE",
-    "CB25HT",
-    "CB25HU",
     "CB225FB",
     "CB225HP",
     "CB225HS",
+    "CB225HT",
     "CB225HW",
     "CB225JD",
     "CB225TD",
@@ -1702,6 +1699,7 @@
     "CB231AD",
     "CB231ER",
     "CB231ES",
+    "CB231HE",
     "CB231JA",
     "CB231JB",
     "CB231JD",
@@ -1744,6 +1742,8 @@
     "CB231NF",
     "CB24AG",
     "CB25HS",
+    "CB25HT",
+    "CB25HU",
     "CB25HW",
     "CB25RN",
     "CB25RP",
