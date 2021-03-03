@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-246135-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246135-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246135-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-03T15:23:17.287",
-      "Message": "Update at 15:23 - Our engineers have arrived on site in the RH1 5 area to investigate the power cut affecting 29 properties. Specialist engineers are also working to divert power remotely, and this can cause your lights to go on and off. Please follow the government pandemic guidelines about social distancing when interacting with our staff. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress but if you need to speak to us, call our team on 08003163105 any time.",
+      "Date": "2021-03-03T16:10:15.567",
+      "Message": "Update at 16:10 - We're sorry you're still without power. Our engineers have advised the issue is being caused by a faulted section of our network where overhead cabling turns to underground. We'll keep you updated with progress. Is your power back on? We keep texting those signed up and will do until the final 29 customers are restored. WANT TO STOP MESSAGES? You will need to text CANCEL to 80876 to stop receiving texts (standard text fees apply). Thank you.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-03T15:13:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-03T16:31:46.017",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c177INCD",
     "IncidentReference": "INCD-246135-G",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 20,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-03T14:18:40",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-03T16:31:46.017",
     "EstimatedRestorationDate": "2021-03-03T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-03T14:18:37",
-    "NoCustomerAffected": 29,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -62,19 +62,17 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-03T15:23:00",
+        "ActualEventTime": "2021-03-03T16:10:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 15:23 - Our engineers have arrived on site in the RH1 5 area to investigate the power cut affecting 29 properties. Specialist engineers are also working to divert power remotely, and this can cause your lights to go on and off. Please follow the government pandemic guidelines about social distancing when interacting with our staff. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress but if you need to speak to us, call our team on 08003163105 any time.",
-        "LoggedTime": "2021-03-03T15:23:17.287"
+        "Comment": "Update at 16:10 - We're sorry you're still without power. Our engineers have advised the issue is being caused by a faulted section of our network where overhead cabling turns to underground. We'll keep you updated with progress. Is your power back on? We keep texting those signed up and will do until the final 29 customers are restored. WANT TO STOP MESSAGES? You will need to text CANCEL to 80876 to stop receiving texts (standard text fees apply). Thank you.",
+        "LoggedTime": "2021-03-03T16:10:15.567"
       }
     ],
     "PostCodesAffected": [
       "RH1 5"
     ],
     "PostCodesRestored": [
-      "RH15QL",
-      "RH15RG",
       "RH15DF",
       "RH15DG",
       "RH15DZ",
@@ -87,11 +85,11 @@
       "RH15JT",
       "RH15JU",
       "RH15JW",
-      "RH15RA"
+      "RH15QL",
+      "RH15RA",
+      "RH15RG"
     ],
     "PostCodesPlanned": [
-      "RH15QL",
-      "RH15RG",
       "RH15DF",
       "RH15DG",
       "RH15DZ",
@@ -104,12 +102,14 @@
       "RH15JT",
       "RH15JU",
       "RH15JW",
-      "RH15RA"
+      "RH15QL",
+      "RH15RA",
+      "RH15RG"
     ],
-    "CustomersOnSupply": 122,
-    "CustomersOffSupply": 28,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 150,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -427,8 +427,6 @@
     }
   ],
   "FullPostcodeData": [
-    "RH15QL",
-    "RH15RG",
     "RH15DF",
     "RH15DG",
     "RH15DZ",
@@ -441,7 +439,9 @@
     "RH15JT",
     "RH15JU",
     "RH15JW",
-    "RH15RA"
+    "RH15QL",
+    "RH15RA",
+    "RH15RG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
