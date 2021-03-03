@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-222182-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-222182-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-222182-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-02T11:27:09",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-03T01:24:35.19",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000363e6INCD",
     "IncidentReference": "INCD-222182-Z",
     "IncidentCategory": "9",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-02T10:49:49",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-03T01:24:35.19",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-02T11:42:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -73,22 +73,22 @@
       "IP12 2"
     ],
     "PostCodesRestored": [
-      "IP122QF",
       "IP122QE",
+      "IP122QF",
       "IP122QG",
       "IP122QL",
       "IP122QW"
     ],
     "PostCodesPlanned": [
-      "IP122QF",
       "IP122QE",
+      "IP122QF",
       "IP122QG",
       "IP122QL",
       "IP122QW"
     ],
-    "CustomersOnSupply": 20,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 21,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -251,8 +251,8 @@
     }
   ],
   "FullPostcodeData": [
-    "IP122QF",
     "IP122QE",
+    "IP122QF",
     "IP122QG",
     "IP122QL",
     "IP122QW"
