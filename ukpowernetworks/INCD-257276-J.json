@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-257276-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-257276-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-257276-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-03T12:43:47",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-03T14:40:10.647",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003ecfcINCD",
     "IncidentReference": "INCD-257276-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 32,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-03T11:28:36",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-03T14:40:10.647",
     "EstimatedRestorationDate": "2021-03-03T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-03T11:27:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -73,22 +73,22 @@
       "W14 9"
     ],
     "PostCodesRestored": [
-      "W149QS",
       "W149NU",
       "W149NX",
       "W149PB",
-      "W149QR"
+      "W149QR",
+      "W149QS"
     ],
     "PostCodesPlanned": [
-      "W149QS",
       "W149NU",
       "W149NX",
       "W149PB",
-      "W149QR"
+      "W149QR",
+      "W149QS"
     ],
-    "CustomersOnSupply": 123,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 124,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -523,11 +523,11 @@
     }
   ],
   "FullPostcodeData": [
-    "W149QS",
     "W149NU",
     "W149NX",
     "W149PB",
-    "W149QR"
+    "W149QR",
+    "W149QS"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
