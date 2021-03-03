@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-222460-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-222460-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-222460-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-03T13:25:58",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-03T17:46:48.3",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000364fcINCD",
     "IncidentReference": "INCD-222460-Z",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-03T12:34:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-03T17:46:48.3",
     "EstimatedRestorationDate": "2021-03-03T19:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-03T13:20:00",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 5,
+    "NoCallsReported": 6,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -64,9 +64,9 @@
     "PostCodesPlanned": [
       "CO107QU"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 10,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
