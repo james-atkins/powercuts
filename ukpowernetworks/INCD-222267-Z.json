@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-222267-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-222267-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-222267-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-02T20:22:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-03T15:18:06.91",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003643bINCD",
     "IncidentReference": "INCD-222267-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-02T15:23:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-03T15:18:06.91",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-02T15:21:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 14,
     "Latitude": 0.0,
@@ -74,12 +74,12 @@
       "N22 8"
     ],
     "PostCodesRestored": [
-      "N226DS",
       "N226AX",
       "N226AY",
       "N226BA",
       "N226BB",
       "N226DR",
+      "N226DS",
       "N226EB",
       "N226EN",
       "N226HE",
@@ -91,12 +91,12 @@
       "N228HH"
     ],
     "PostCodesPlanned": [
-      "N226DS",
       "N226AX",
       "N226AY",
       "N226BA",
       "N226BB",
       "N226DR",
+      "N226DS",
       "N226EB",
       "N226EN",
       "N226HE",
@@ -107,9 +107,9 @@
       "N226YQ",
       "N228HH"
     ],
-    "CustomersOnSupply": 125,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 130,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1130,12 +1130,12 @@
     }
   ],
   "FullPostcodeData": [
-    "N226DS",
     "N226AX",
     "N226AY",
     "N226BA",
     "N226BB",
     "N226DR",
+    "N226DS",
     "N226EB",
     "N226EN",
     "N226HE",
