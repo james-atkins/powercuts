@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-257434-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-257434-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-257434-J",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-03-04T17:37:13.45",
+      "Message": "Update at 17:37 - We can now confirm that all power in the Wigmore Street area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-03-04T17:07:54",
+      "Date": "2021-03-04T17:07:00",
       "Message": "<p>We became aware of a power cut at 17:07. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-04T17:09:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-04T17:31:02.503",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003ed9aINCD",
     "IncidentReference": "INCD-257434-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-04T17:09:00",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-04T17:31:02.503",
     "EstimatedRestorationDate": "2021-03-04T21:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-04T17:07:54",
+    "ReceivedDate": "2021-03-04T17:07:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
+    "NoCallsReported": 2,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,13 +60,26 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-03-04T17:37:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 17:37 - We can now confirm that all power in the Wigmore Street area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-03-04T17:37:13.45"
+      }
+    ],
     "PostCodesAffected": [
       "W1G 9",
       "W1H 9",
       "W1U 2"
     ],
     "PostCodesRestored": [
+      "W1G9RE",
+      "W1G9RG",
+      "W1G9RJ",
+      "W1G9RL",
+      "W1G9RQ",
       "W1G9SF",
       "W1G9SQ",
       "W1H9DE",
@@ -68,9 +87,15 @@
       "W1U2RG",
       "W1U2RH",
       "W1U2RJ",
+      "W1U2RL",
       "W1U2RQ"
     ],
     "PostCodesPlanned": [
+      "W1G9RE",
+      "W1G9RG",
+      "W1G9RJ",
+      "W1G9RL",
+      "W1G9RQ",
       "W1G9SF",
       "W1G9SQ",
       "W1H9DE",
@@ -78,11 +103,12 @@
       "W1U2RG",
       "W1U2RH",
       "W1U2RJ",
+      "W1U2RL",
       "W1U2RQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 21,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 31,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1300,6 +1326,11 @@
     }
   ],
   "FullPostcodeData": [
+    "W1G9RE",
+    "W1G9RG",
+    "W1G9RJ",
+    "W1G9RL",
+    "W1G9RQ",
     "W1G9SF",
     "W1G9SQ",
     "W1H9DE",
@@ -1307,6 +1338,7 @@
     "W1U2RG",
     "W1U2RH",
     "W1U2RJ",
+    "W1U2RL",
     "W1U2RQ"
   ],
   "PinLatitude": null,
