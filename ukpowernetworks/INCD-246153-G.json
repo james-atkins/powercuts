@@ -3,8 +3,14 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246153-G",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-03-04T03:52:01.417",
+      "Message": "Update at 03:51 - We have been made aware that not all power has been restored to the area. Our engineers have investigated this further and have discovered that the fault is with our underground network. They have managed to divert some power around the faulty section, restoring power to a number of properties but for the remaining properties, we require specialist engineers to attend to excavate down and carry out repairs. To allow them time to arrive and complete their work, we're estimating to have power restored between 10:30 and 11:30. We will continue to keep you updated.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-03-04T01:07:53",
+      "Date": "2021-03-04T01:07:00",
       "Message": "<p>We became aware of a power cut at 01:07. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -31,16 +37,16 @@
   "UKPNIncident": {
     "IncidentId": "G0003c189INCD",
     "IncidentReference": "INCD-246153-G",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
     "IncidentPriority": 2,
-    "StatusId": 1,
+    "StatusId": 2,
     "CreationDateTime": "2021-03-04T01:09:18",
     "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "EstimatedRestorationDate": "2021-03-04T11:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-04T01:07:53",
-    "NoCustomerAffected": 0,
+    "ReceivedDate": "2021-03-04T01:07:00",
+    "NoCustomerAffected": 11,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -54,22 +60,34 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-03-04T03:51:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 03:51 - We have been made aware that not all power has been restored to the area. Our engineers have investigated this further and have discovered that the fault is with our underground network. They have managed to divert some power around the faulty section, restoring power to a number of properties but for the remaining properties, we require specialist engineers to attend to excavate down and carry out repairs. To allow them time to arrive and complete their work, we're estimating to have power restored between 10:30 and 11:30. We will continue to keep you updated.",
+        "LoggedTime": "2021-03-04T03:52:01.417"
+      }
+    ],
     "PostCodesAffected": [
       "KT10 0"
     ],
     "PostCodesRestored": [
+      "KT100PD",
+      "KT100RB",
       "KT100HF",
       "KT100NA",
       "KT100NW"
     ],
     "PostCodesPlanned": [
+      "KT100PD",
+      "KT100RB",
       "KT100HF",
       "KT100NA",
       "KT100NW"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 38,
+    "CustomersOnSupply": 43,
+    "CustomersOffSupply": 11,
     "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
@@ -469,14 +487,16 @@
     }
   ],
   "FullPostcodeData": [
+    "KT100PD",
+    "KT100RB",
     "KT100HF",
     "KT100NA",
     "KT100NW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "10:30 - 11:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
