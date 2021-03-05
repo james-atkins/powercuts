@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-222877-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-222877-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-222877-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-03-05T11:21:41",
+      "Date": "2021-03-05T11:21:00",
       "Message": "<p>We became aware of a power cut at 11:21. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-05T15:49:08",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-05T16:27:40.013",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003669dINCD",
     "IncidentReference": "INCD-222877-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-05T11:30:57",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-05T16:27:40.013",
     "EstimatedRestorationDate": "2021-03-05T18:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-05T11:21:41",
+    "ReceivedDate": "2021-03-05T11:21:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -59,18 +59,18 @@
       "N18 3"
     ],
     "PostCodesRestored": [
+      "N183HR",
       "N183HT",
-      "N183LP",
-      "N183HR"
+      "N183LP"
     ],
     "PostCodesPlanned": [
+      "N183HR",
       "N183HT",
-      "N183LP",
-      "N183HR"
+      "N183LP"
     ],
-    "CustomersOnSupply": 3,
-    "CustomersOffSupply": 23,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 27,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -285,9 +285,9 @@
     }
   ],
   "FullPostcodeData": [
+    "N183HR",
     "N183HT",
-    "N183LP",
-    "N183HR"
+    "N183LP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
