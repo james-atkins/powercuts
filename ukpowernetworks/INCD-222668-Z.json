@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-222668-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-222668-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-222668-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-04T11:34:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-05T00:14:52.71",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000365ccINCD",
     "IncidentReference": "INCD-222668-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-04T10:45:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-05T00:14:52.71",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-04T10:39:21",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -74,7 +74,6 @@
       "RM12 6"
     ],
     "PostCodesRestored": [
-      "RM125QA",
       "RM125PL",
       "RM125PP",
       "RM125PR",
@@ -82,6 +81,7 @@
       "RM125PT",
       "RM125PU",
       "RM125PX",
+      "RM125QA",
       "RM126NT",
       "RM126NU",
       "RM126NY",
@@ -89,7 +89,6 @@
       "RM126QJ"
     ],
     "PostCodesPlanned": [
-      "RM125QA",
       "RM125PL",
       "RM125PP",
       "RM125PR",
@@ -97,15 +96,16 @@
       "RM125PT",
       "RM125PU",
       "RM125PX",
+      "RM125QA",
       "RM126NT",
       "RM126NU",
       "RM126NY",
       "RM126NZ",
       "RM126QJ"
     ],
-    "CustomersOnSupply": 165,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 166,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1142,7 +1142,6 @@
     }
   ],
   "FullPostcodeData": [
-    "RM125QA",
     "RM125PL",
     "RM125PP",
     "RM125PR",
@@ -1150,6 +1149,7 @@
     "RM125PT",
     "RM125PU",
     "RM125PX",
+    "RM125QA",
     "RM126NT",
     "RM126NU",
     "RM126NY",
