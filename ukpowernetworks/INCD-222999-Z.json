@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-222999-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-222999-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-222999-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-03-05T19:48:55",
-      "Message": "<p>We became aware of a power cut at 19:48. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-03-05T23:13:00",
+      "Message": "<p>We became aware of a power cut at 23:13. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-05T21:17:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-06T01:50:21.563",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036717INCD",
     "IncidentReference": "INCD-222999-Z",
-    "IncidentCategory": "57",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-05T19:51:12",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-03-06T01:50:21.563",
+    "EstimatedRestorationDate": "2021-03-06T02:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-05T19:48:55",
+    "ReceivedDate": "2021-03-05T23:13:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
@@ -72,9 +72,9 @@
       "CM195JY",
       "CM195JZ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 35,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 50,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -537,8 +537,8 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A problem on the electricity network caused power to go on and off in the area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "02:00 - 03:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
