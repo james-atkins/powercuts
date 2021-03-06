@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-222222-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-222222-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-222222-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-03-06T11:59:54.433",
+      "Message": "Update at 11:59 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground fault in the Finchfield area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-03-02T12:33:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-02T15:54:52",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-06T11:57:47.007",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003640eINCD",
     "IncidentReference": "INCD-222222-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-02T12:43:38",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-06T11:57:47.007",
     "EstimatedRestorationDate": "2021-03-06T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-02T12:33:00",
-    "NoCustomerAffected": 18,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -54,33 +60,41 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-03-06T11:59:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 11:59 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground fault in the Finchfield area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-03-06T11:59:54.433"
+      }
+    ],
     "PostCodesAffected": [
       "SS6 7",
       "SS6 8"
     ],
     "PostCodesRestored": [
-      "SS67JJ",
-      "SS67JL",
-      "SS67JQ",
       "SS67BF",
       "SS67EJ",
       "SS67JD",
+      "SS67JJ",
+      "SS67JL",
+      "SS67JQ",
       "SS68JQ"
     ],
     "PostCodesPlanned": [
-      "SS67JJ",
-      "SS67JL",
-      "SS67JQ",
       "SS67BF",
       "SS67EJ",
       "SS67JD",
+      "SS67JJ",
+      "SS67JL",
+      "SS67JQ",
       "SS68JQ"
     ],
-    "CustomersOnSupply": 44,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 62,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1164,12 +1178,12 @@
     }
   ],
   "FullPostcodeData": [
-    "SS67JJ",
-    "SS67JL",
-    "SS67JQ",
     "SS67BF",
     "SS67EJ",
     "SS67JD",
+    "SS67JJ",
+    "SS67JL",
+    "SS67JQ",
     "SS68JQ"
   ],
   "PinLatitude": null,
