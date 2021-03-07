@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-223221-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-223221-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-223221-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-07T20:06:45.357",
-      "Message": "Update at 20:06 - We can now confirm that all power in the High Street area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have restored your power as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Date": "2021-03-07T20:41:26.363",
+      "Message": "Update at 20:41 - Sorry if your power has gone back off again today. We believed all power was restored but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers will return to site and continue investigations and we will provide an estimated time frame for power to be back on as soon as possible. If your power is back on, you can stop receiving these texts by sending CANCEL to 80876 (standard fees apply).",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-03-07T19:26:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-03-07T20:00:43.873",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z000367f5INCD",
     "IncidentReference": "INCD-223221-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-03-07T19:10:19",
-    "RestoredDateTime": "2021-03-07T20:00:43.873",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-03-07T22:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-07T19:06:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 5,
+    "NoCallsReported": 8,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-07T20:06:00",
+        "ActualEventTime": "2021-03-07T20:41:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 20:06 - We can now confirm that all power in the High Street area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have restored your power as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
-        "LoggedTime": "2021-03-07T20:06:45.357"
+        "Comment": "Update at 20:41 - Sorry if your power has gone back off again today. We believed all power was restored but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers will return to site and continue investigations and we will provide an estimated time frame for power to be back on as soon as possible. If your power is back on, you can stop receiving these texts by sending CANCEL to 80876 (standard fees apply).",
+        "LoggedTime": "2021-03-07T20:41:26.363"
       }
     ],
     "PostCodesAffected": [
@@ -94,7 +94,7 @@
     ],
     "CustomersOnSupply": 95,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
