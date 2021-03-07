@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-223176-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-223176-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-223176-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-07T14:18:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-07T17:40:31.22",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000367c8INCD",
     "IncidentReference": "INCD-223176-Z",
     "IncidentCategory": "43",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-07T13:27:26",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-03-07T17:40:31.22",
+    "EstimatedRestorationDate": "2021-03-07T19:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-07T13:26:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -61,8 +61,6 @@
       "IP30 0"
     ],
     "PostCodesRestored": [
-      "IP294PS",
-      "IP294PT",
       "IP294DL",
       "IP294EA",
       "IP294FH",
@@ -79,6 +77,8 @@
       "IP294PP",
       "IP294PQ",
       "IP294PR",
+      "IP294PS",
+      "IP294PT",
       "IP294PU",
       "IP294PW",
       "IP294PX",
@@ -120,8 +120,6 @@
       "IP300JW"
     ],
     "PostCodesPlanned": [
-      "IP294PS",
-      "IP294PT",
       "IP294DL",
       "IP294EA",
       "IP294FH",
@@ -138,6 +136,8 @@
       "IP294PP",
       "IP294PQ",
       "IP294PR",
+      "IP294PS",
+      "IP294PT",
       "IP294PU",
       "IP294PW",
       "IP294PX",
@@ -178,9 +178,9 @@
       "IP300JP",
       "IP300JW"
     ],
-    "CustomersOnSupply": 550,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 553,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1711,8 +1711,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IP294PS",
-    "IP294PT",
     "IP294DL",
     "IP294EA",
     "IP294FH",
@@ -1729,6 +1727,8 @@
     "IP294PP",
     "IP294PQ",
     "IP294PR",
+    "IP294PS",
+    "IP294PT",
     "IP294PU",
     "IP294PW",
     "IP294PX",
@@ -1772,7 +1772,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a high voltage overhead electricity line in the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "18:30 - 19:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
