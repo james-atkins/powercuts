@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-257549-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-257549-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-257549-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-07T07:43:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-07T18:27:30.92",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003ee0dINCD",
     "IncidentReference": "INCD-257549-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 32,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-07T06:18:53",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-07T18:27:30.92",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-07T06:18:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 13,
     "Latitude": 0.0,
@@ -76,11 +76,11 @@
       "NW2 7"
     ],
     "PostCodesRestored": [
-      "NW101AN",
       "NW100AA",
       "NW100AD",
       "NW100EP",
       "NW101AL",
+      "NW101AN",
       "NW101AR",
       "NW26JH",
       "NW27PJ",
@@ -88,20 +88,20 @@
       "NW27RY"
     ],
     "PostCodesPlanned": [
-      "NW101AN",
       "NW100AA",
       "NW100AD",
       "NW100EP",
       "NW101AL",
+      "NW101AN",
       "NW101AR",
       "NW26JH",
       "NW27PJ",
       "NW27PR",
       "NW27RY"
     ],
-    "CustomersOnSupply": 105,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 107,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -112,6 +112,43 @@
     "NW2 7"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 51.53351,
+        "lng": -0.24875
+      },
+      "Coordinates": [
+        {
+          "lat": 51.53283,
+          "lng": -0.2491
+        },
+        {
+          "lat": 51.53284,
+          "lng": -0.24963
+        },
+        {
+          "lat": 51.53337,
+          "lng": -0.24945
+        },
+        {
+          "lat": 51.53434,
+          "lng": -0.24815
+        },
+        {
+          "lat": 51.53421,
+          "lng": -0.24779
+        },
+        {
+          "lat": 51.53306,
+          "lng": -0.24864
+        },
+        {
+          "lat": 51.53283,
+          "lng": -0.2491
+        }
+      ],
+      "Postcode": "NW10 0"
+    },
     {
       "Center": {
         "lat": 51.55508,
@@ -620,43 +657,6 @@
         }
       ],
       "Postcode": "NW10 1"
-    },
-    {
-      "Center": {
-        "lat": 51.53351,
-        "lng": -0.24875
-      },
-      "Coordinates": [
-        {
-          "lat": 51.53283,
-          "lng": -0.2491
-        },
-        {
-          "lat": 51.53284,
-          "lng": -0.24963
-        },
-        {
-          "lat": 51.53337,
-          "lng": -0.24945
-        },
-        {
-          "lat": 51.53434,
-          "lng": -0.24815
-        },
-        {
-          "lat": 51.53421,
-          "lng": -0.24779
-        },
-        {
-          "lat": 51.53306,
-          "lng": -0.24864
-        },
-        {
-          "lat": 51.53283,
-          "lng": -0.2491
-        }
-      ],
-      "Postcode": "NW10 0"
     },
     {
       "Center": {
@@ -1698,11 +1698,11 @@
     }
   ],
   "FullPostcodeData": [
-    "NW101AN",
     "NW100AA",
     "NW100AD",
     "NW100EP",
     "NW101AL",
+    "NW101AN",
     "NW101AR",
     "NW26JH",
     "NW27PJ",
