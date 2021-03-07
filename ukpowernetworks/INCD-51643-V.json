@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-51643-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-51643-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-51643-V",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-07T12:42:13",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-07T23:04:27.533",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000c9bbINCD",
     "IncidentReference": "INCD-51643-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-07T09:52:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-07T23:04:27.533",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-07T09:51:00",
@@ -73,24 +73,24 @@
       "ME13 8"
     ],
     "PostCodesRestored": [
-      "ME138NU",
       "ME138AF",
       "ME138NS",
+      "ME138NU",
       "ME138NY",
       "ME138PA",
       "ME138PN"
     ],
     "PostCodesPlanned": [
-      "ME138NU",
       "ME138AF",
       "ME138NS",
+      "ME138NU",
       "ME138NY",
       "ME138PA",
       "ME138PN"
     ],
-    "CustomersOnSupply": 52,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 54,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -549,9 +549,9 @@
     }
   ],
   "FullPostcodeData": [
-    "ME138NU",
     "ME138AF",
     "ME138NS",
+    "ME138NU",
     "ME138NY",
     "ME138PA",
     "ME138PN"
