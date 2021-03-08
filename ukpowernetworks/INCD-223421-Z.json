@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-223421-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-223421-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-223421-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-03-08T17:03:30",
-      "Message": "<p>We became aware of a power cut at 17:03. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-03-08T17:15:00",
+      "Message": "<p>We became aware of a power cut at 17:15. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-08T17:08:48",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-08T19:40:43.787",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000368bdINCD",
     "IncidentReference": "INCD-223421-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-08T17:03:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-08T19:40:43.787",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-08T17:03:30",
+    "ReceivedDate": "2021-03-08T17:15:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
@@ -59,8 +59,8 @@
       "HP20 2"
     ],
     "PostCodesRestored": [
-      "HP202AY",
       "HP202AF",
+      "HP202AY",
       "HP202EF",
       "HP202EG",
       "HP202ER",
@@ -70,8 +70,8 @@
       "HP202EZ"
     ],
     "PostCodesPlanned": [
-      "HP202AY",
       "HP202AF",
+      "HP202AY",
       "HP202EF",
       "HP202EG",
       "HP202ER",
@@ -80,9 +80,9 @@
       "HP202EY",
       "HP202EZ"
     ],
-    "CustomersOnSupply": 48,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 51,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -693,8 +693,8 @@
     }
   ],
   "FullPostcodeData": [
-    "HP202AY",
     "HP202AF",
+    "HP202AY",
     "HP202EF",
     "HP202EG",
     "HP202ER",
