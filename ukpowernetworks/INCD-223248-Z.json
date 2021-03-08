@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-223248-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-223248-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-223248-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-03-08T07:37:02.207",
+      "Message": "Update at 07:34 - Engineers have arrived on site in the Oakleigh Road North area. Using an average timescale for this type of issue, we're looking to have you back on between 10:00 and 11:00. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video <a href=\"https://bit.ly/2y8Dtfz.\" target=\"_blank\">https://bit.ly/2y8Dtfz.</a>",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-03-08T06:31:18",
+      "Date": "2021-03-08T06:31:00",
       "Message": "<p>We became aware of a power cut at 06:31. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-08T07:10:39",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-08T07:47:28.32",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036810INCD",
     "IncidentReference": "INCD-223248-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-08T06:33:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-08T07:47:28.32",
     "EstimatedRestorationDate": "2021-03-08T10:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-08T06:31:18",
+    "ReceivedDate": "2021-03-08T06:31:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 3,
+    "NoCallsReported": 5,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,31 +60,39 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-03-08T07:34:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 07:34 - Engineers have arrived on site in the Oakleigh Road North area. Using an average timescale for this type of issue, we're looking to have you back on between 10:00 and 11:00. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video https://bit.ly/2y8Dtfz.",
+        "LoggedTime": "2021-03-08T07:37:02.207"
+      }
+    ],
     "PostCodesAffected": [
       "N20 0"
     ],
     "PostCodesRestored": [
       "N200BJ",
+      "N200BP",
       "N200DG",
       "N200TX",
       "N200TZ",
       "N200UA",
-      "N200UU",
-      "N200BP"
+      "N200UU"
     ],
     "PostCodesPlanned": [
       "N200BJ",
+      "N200BP",
       "N200DG",
       "N200TX",
       "N200TZ",
       "N200UA",
-      "N200UU",
-      "N200BP"
+      "N200UU"
     ],
-    "CustomersOnSupply": 3,
-    "CustomersOffSupply": 63,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 66,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -670,12 +684,12 @@
   ],
   "FullPostcodeData": [
     "N200BJ",
+    "N200BP",
     "N200DG",
     "N200TX",
     "N200TZ",
     "N200UA",
-    "N200UU",
-    "N200BP"
+    "N200UU"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
