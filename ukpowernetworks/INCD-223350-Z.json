@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-223350-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-223350-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-223350-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-08T13:47:08",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-08T21:53:10.343",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036876INCD",
     "IncidentReference": "INCD-223350-Z",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-08T13:18:10",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-08T21:53:10.343",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-08T13:17:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -73,7 +73,6 @@
       "SG1 4"
     ],
     "PostCodesRestored": [
-      "SG14HA",
       "SG14DL",
       "SG14DN",
       "SG14DW",
@@ -82,6 +81,7 @@
       "SG14EP",
       "SG14EY",
       "SG14EZ",
+      "SG14HA",
       "SG14HB",
       "SG14HD",
       "SG14HN",
@@ -89,7 +89,6 @@
       "SG14XR"
     ],
     "PostCodesPlanned": [
-      "SG14HA",
       "SG14DL",
       "SG14DN",
       "SG14DW",
@@ -98,15 +97,16 @@
       "SG14EP",
       "SG14EY",
       "SG14EZ",
+      "SG14HA",
       "SG14HB",
       "SG14HD",
       "SG14HN",
       "SG14HW",
       "SG14XR"
     ],
-    "CustomersOnSupply": 132,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 134,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -653,7 +653,6 @@
     }
   ],
   "FullPostcodeData": [
-    "SG14HA",
     "SG14DL",
     "SG14DN",
     "SG14DW",
@@ -662,6 +661,7 @@
     "SG14EP",
     "SG14EY",
     "SG14EZ",
+    "SG14HA",
     "SG14HB",
     "SG14HD",
     "SG14HN",
@@ -670,7 +670,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
