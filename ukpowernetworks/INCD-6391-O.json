@@ -1,48 +1,54 @@
 {
   "IncidentReference": "INCD-6391-O",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-6391-O",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-6391-O",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-03-08T09:37:47.853",
+      "Message": "Update at 09:37 - Engineers have arrived on site in the Ongar Road area. Using an average timescale for this type of issue, we're looking to have you back on between 11:30 and 12:30. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video <a href=\"https://bit.ly/2y8Dtfz.\" target=\"_blank\">https://bit.ly/2y8Dtfz.</a>",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-03-08T08:37:35",
+      "Date": "2021-03-08T08:37:00",
       "Message": "<p>We became aware of a power cut at 08:37. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-08T08:45:35",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-03-08T09:32:01",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-08T09:53:09.503",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "O000018f7INCD",
     "IncidentReference": "INCD-6391-O",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-08T08:38:26",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-08T09:53:09.503",
     "EstimatedRestorationDate": "2021-03-08T12:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-08T08:37:35",
+    "ReceivedDate": "2021-03-08T08:37:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 4,
+    "NoCallsReported": 5,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -50,11 +56,19 @@
       "Name": "PETER",
       "EstimatedTimeOfArrival": "2021-03-08T09:45:00",
       "DispatchedDate": "2021-03-08T08:45:35",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-03-08T09:32:01",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-03-08T09:36:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 09:37 - Engineers have arrived on site in the Ongar Road area. Using an average timescale for this type of issue, we're looking to have you back on between 11:30 and 12:30. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video https://bit.ly/2y8Dtfz.",
+        "LoggedTime": "2021-03-08T09:37:47.853"
+      }
+    ],
     "PostCodesAffected": [
       "CM14 4",
       "CM15 9"
@@ -81,9 +95,9 @@
       "CM159DX",
       "CM159ED"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 103,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 103,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
