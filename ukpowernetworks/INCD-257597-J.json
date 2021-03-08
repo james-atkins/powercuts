@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-257597-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-257597-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-257597-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-08T12:48:25.717",
-      "Message": "Update at 12:48 - We're sorry your power has gone off again. We are sending our engineers back to the Churchfields area to investigate why. Currently, our timeframe for power to be restored is between 15:00 and 16:00, but once our staff arrive on site and assess the situation, this time may change. As there have been other power cuts recently it's difficult to know what repairs will be needed to restore your power safely, so timeframes we provide throughout have to be estimated. The results of our engineer's tests on our network will let us know if our estimate needs to be adjusted, so we'll update you as soon as they have arrived on site and investigated.",
+      "Date": "2021-03-08T13:39:03.067",
+      "Message": "Sent before P10 seen - Update at 13:37 - Our engineers have now arrived on site in the Churchfields area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed and this can involve specialist teams and equipment. As soon as our staff can safely update us, we'll give you the latest news.",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2021-03-08T10:05:21",
+      "Date": "2021-03-08T10:05:00",
       "Message": "<p>We became aware of a power cut at 10:05. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-08T12:03:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-08T13:37:11.82",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003ee3dINCD",
     "IncidentReference": "INCD-257597-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-08T10:06:09",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-08T13:37:11.82",
     "EstimatedRestorationDate": "2021-03-08T15:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-08T10:05:21",
+    "ReceivedDate": "2021-03-08T10:05:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-08T12:48:00",
+        "ActualEventTime": "2021-03-08T13:38:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 12:48 - We're sorry your power has gone off again. We are sending our engineers back to the Churchfields area to investigate why. Currently, our timeframe for power to be restored is between 15:00 and 16:00, but once our staff arrive on site and assess the situation, this time may change. As there have been other power cuts recently it's difficult to know what repairs will be needed to restore your power safely, so timeframes we provide throughout have to be estimated. The results of our engineer's tests on our network will let us know if our estimate needs to be adjusted, so we'll update you as soon as they have arrived on site and investigated.",
-        "LoggedTime": "2021-03-08T12:48:25.717"
+        "Comment": "Sent before P10 seen - Update at 13:37 - Our engineers have now arrived on site in the Churchfields area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed and this can involve specialist teams and equipment. As soon as our staff can safely update us, we'll give you the latest news.",
+        "LoggedTime": "2021-03-08T13:39:03.067"
       }
     ],
     "PostCodesAffected": [
@@ -78,6 +78,7 @@
       "W6 0"
     ],
     "PostCodesRestored": [
+      "E182QY",
       "E182RB",
       "E182RJ",
       "E182RN",
@@ -86,10 +87,10 @@
       "NW31AT",
       "W120TB",
       "W1M9DL",
-      "W60NE",
-      "E182QY"
+      "W60NE"
     ],
     "PostCodesPlanned": [
+      "E182QY",
       "E182RB",
       "E182RJ",
       "E182RN",
@@ -98,13 +99,12 @@
       "NW31AT",
       "W120TB",
       "W1M9DL",
-      "W60NE",
-      "E182QY"
+      "W60NE"
     ],
-    "CustomersOnSupply": 51,
-    "CustomersOffSupply": 131,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 182,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -2659,6 +2659,7 @@
     }
   ],
   "FullPostcodeData": [
+    "E182QY",
     "E182RB",
     "E182RJ",
     "E182RN",
@@ -2667,8 +2668,7 @@
     "NW31AT",
     "W120TB",
     "W1M9DL",
-    "W60NE",
-    "E182QY"
+    "W60NE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
