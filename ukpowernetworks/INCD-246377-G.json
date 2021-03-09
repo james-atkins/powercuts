@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-246377-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246377-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246377-G",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-03-09T11:17:25.483",
+      "Message": "Update at 11:17 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground network fault in the Woodgate Avenue area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-03-08T15:35:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-08T18:08:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-09T11:15:30.663",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c269INCD",
     "IncidentReference": "INCD-246377-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-08T15:39:14",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-09T11:15:30.663",
     "EstimatedRestorationDate": "2021-03-09T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-08T15:35:00",
-    "NoCustomerAffected": 44,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -54,14 +60,22 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-03-09T11:17:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 11:17 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground network fault in the Woodgate Avenue area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-03-09T11:17:25.483"
+      }
+    ],
     "PostCodesAffected": [
       "KT9 2"
     ],
     "PostCodesRestored": [
+      "KT92JL",
       "KT92QE",
       "KT92QJ",
-      "KT92JL",
       "KT92QN",
       "KT92QR",
       "KT92QS",
@@ -69,18 +83,18 @@
       "KT92QY"
     ],
     "PostCodesPlanned": [
+      "KT92JL",
       "KT92QE",
       "KT92QJ",
-      "KT92JL",
       "KT92QN",
       "KT92QR",
       "KT92QS",
       "KT92QW",
       "KT92QY"
     ],
-    "CustomersOnSupply": 92,
-    "CustomersOffSupply": 45,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 137,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -551,9 +565,9 @@
     }
   ],
   "FullPostcodeData": [
+    "KT92JL",
     "KT92QE",
     "KT92QJ",
-    "KT92JL",
     "KT92QN",
     "KT92QR",
     "KT92QS",
