@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-223534-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-223534-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-223534-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-09T11:39:34.723",
-      "Message": "Update at 11:39 - We're sorry your power has gone off again. We are sending our engineers back to the Hillside area to investigate why. Currently, our timeframe for power to be restored is between 14:30 and 15:30, but once our staff arrive on site and assess the situation, this time may change. As there have been other power cuts recently it's difficult to know what repairs will be needed to restore your power safely, so timeframes we provide throughout have to be estimated. The results of our engineer's tests on our network will let us know if our estimate needs to be adjusted, so we'll update you as soon as they have arrived on site and investigated.",
+      "Date": "2021-03-09T12:15:43.433",
+      "Message": "Update at 12:15- We can now confirm that all power in the Hillside area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have restored your power as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2021-03-09T10:57:56",
+      "Date": "2021-03-09T10:57:00",
       "Message": "<p>We became aware of a power cut at 10:57. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-09T11:45:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-09T12:13:33.773",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003692eINCD",
     "IncidentReference": "INCD-223534-Z",
-    "IncidentCategory": "124",
+    "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-09T11:02:25",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-09T12:13:33.773",
     "EstimatedRestorationDate": "2021-03-09T15:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-09T10:57:56",
+    "ReceivedDate": "2021-03-09T10:57:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-09T11:39:00",
+        "ActualEventTime": "2021-03-09T12:15:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 11:39 - We're sorry your power has gone off again. We are sending our engineers back to the Hillside area to investigate why. Currently, our timeframe for power to be restored is between 14:30 and 15:30, but once our staff arrive on site and assess the situation, this time may change. As there have been other power cuts recently it's difficult to know what repairs will be needed to restore your power safely, so timeframes we provide throughout have to be estimated. The results of our engineer's tests on our network will let us know if our estimate needs to be adjusted, so we'll update you as soon as they have arrived on site and investigated.",
-        "LoggedTime": "2021-03-09T11:39:34.723"
+        "Comment": "Update at 12:15- We can now confirm that all power in the Hillside area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have restored your power as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-03-09T12:15:43.433"
       }
     ],
     "PostCodesAffected": [
@@ -92,9 +92,9 @@
       "HP52PS",
       "HP52SD"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 46,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 46,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -604,7 +604,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "We were investigating an overhead electricity line fault which caused a power cut in the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "14:30 - 15:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
