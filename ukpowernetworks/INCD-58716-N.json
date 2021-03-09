@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-58716-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-58716-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-58716-N",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-03-09T05:57:52.843",
+      "Message": "Update at 05:57 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Cleveland Street area for safety so they can repair an underground cable fault. Our estimated time to have your power back on is between 06:30 and 07:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-03-08T04:28:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-08T20:05:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-09T06:12:52.313",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e55cINCD",
     "IncidentReference": "INCD-58716-N",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-02-17T14:12:14",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-09T06:12:52.313",
     "EstimatedRestorationDate": "2021-03-09T07:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-08T04:28:00",
-    "NoCustomerAffected": 24,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-03-09T05:56:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 05:57 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Cleveland Street area for safety so they can repair an underground cable fault. Our estimated time to have your power back on is between 06:30 and 07:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
+        "LoggedTime": "2021-03-09T05:57:52.843"
+      }
+    ],
     "PostCodesAffected": [
       "W1P 5",
       "W1T 4"
@@ -69,9 +83,9 @@
       "W1T4HY",
       "W1T4SR"
     ],
-    "CustomersOnSupply": 3,
-    "CustomersOffSupply": 24,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 27,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
