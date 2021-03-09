@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-246444-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246444-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246444-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-09T18:20:29",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-09T22:00:12.327",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c2acINCD",
     "IncidentReference": "INCD-246444-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-09T16:11:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-09T22:00:12.327",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-09T19:55:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -73,22 +73,22 @@
       "CT19 6"
     ],
     "PostCodesRestored": [
-      "CT196NX",
       "CT196HG",
       "CT196HQ",
       "CT196JJ",
-      "CT196JN"
+      "CT196JN",
+      "CT196NX"
     ],
     "PostCodesPlanned": [
-      "CT196NX",
       "CT196HG",
       "CT196HQ",
       "CT196JJ",
-      "CT196JN"
+      "CT196JN",
+      "CT196NX"
     ],
-    "CustomersOnSupply": 95,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 96,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -603,11 +603,11 @@
     }
   ],
   "FullPostcodeData": [
-    "CT196NX",
     "CT196HG",
     "CT196HQ",
     "CT196JJ",
-    "CT196JN"
+    "CT196JN",
+    "CT196NX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
