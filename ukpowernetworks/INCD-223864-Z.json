@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-223864-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-223864-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-223864-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-10T15:44:05",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-10T23:43:58.89",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036a78INCD",
     "IncidentReference": "INCD-223864-Z",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-10T14:36:19",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-10T23:43:58.89",
     "EstimatedRestorationDate": "2021-03-10T23:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-10T14:34:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -60,10 +60,10 @@
       "SS3 9"
     ],
     "PostCodesRestored": [
-      "SS38AT",
       "SS38AF",
       "SS38AR",
       "SS38AS",
+      "SS38AT",
       "SS38AU",
       "SS38AX",
       "SS38AY",
@@ -77,10 +77,10 @@
       "SS39EU"
     ],
     "PostCodesPlanned": [
-      "SS38AT",
       "SS38AF",
       "SS38AR",
       "SS38AS",
+      "SS38AT",
       "SS38AU",
       "SS38AX",
       "SS38AY",
@@ -93,9 +93,9 @@
       "SS38UW",
       "SS39EU"
     ],
-    "CustomersOnSupply": 165,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 168,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -484,10 +484,10 @@
     }
   ],
   "FullPostcodeData": [
-    "SS38AT",
     "SS38AF",
     "SS38AR",
     "SS38AS",
+    "SS38AT",
     "SS38AU",
     "SS38AX",
     "SS38AY",
