@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-224068-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-224068-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-224068-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-11T08:24:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-11T11:15:45.13",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036b44INCD",
     "IncidentReference": "INCD-224068-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-11T07:43:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-11T11:15:45.13",
     "EstimatedRestorationDate": "2021-03-11T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-11T07:42:46",
-    "NoCustomerAffected": 11,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -76,10 +76,6 @@
       "NR21 O"
     ],
     "PostCodesRestored": [
-      "NR210PA",
-      "NR217",
-      "NR217PN",
-      "NR217PP",
       "NR",
       "NR210AJ",
       "NR210AU",
@@ -114,15 +110,15 @@
       "NR210JW",
       "NR210NY",
       "NR210NZ",
+      "NR210PA",
       "NR210RB",
       "NR210RY",
+      "NR217",
+      "NR217PN",
+      "NR217PP",
       "NR21OJB"
     ],
     "PostCodesPlanned": [
-      "NR210PA",
-      "NR217",
-      "NR217PN",
-      "NR217PP",
       "NR",
       "NR210AJ",
       "NR210AU",
@@ -157,13 +153,17 @@
       "NR210JW",
       "NR210NY",
       "NR210NZ",
+      "NR210PA",
       "NR210RB",
       "NR210RY",
+      "NR217",
+      "NR217PN",
+      "NR217PP",
       "NR21OJB"
     ],
-    "CustomersOnSupply": 412,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 422,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1138,10 +1138,6 @@
     }
   ],
   "FullPostcodeData": [
-    "NR210PA",
-    "NR217",
-    "NR217PN",
-    "NR217PP",
     "NR",
     "NR210AJ",
     "NR210AU",
@@ -1176,8 +1172,12 @@
     "NR210JW",
     "NR210NY",
     "NR210NZ",
+    "NR210PA",
     "NR210RB",
     "NR210RY",
+    "NR217",
+    "NR217PN",
+    "NR217PP",
     "NR21OJB"
   ],
   "PinLatitude": null,
