@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-43027-C",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-43027-C",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-43027-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-03-11T07:20:41",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-03-11T11:22:58.053",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "C0000a813INCD",
     "IncidentReference": "INCD-43027-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-03-10T19:12:53",
-    "RestoredDateTime": "2021-03-11T11:22:58.053",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-10T18:59:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 1,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
     "Latitude": 0.0,
@@ -59,6 +59,7 @@
       "RM15 4"
     ],
     "PostCodesRestored": [
+      "RM154BX",
       "RM154AD",
       "RM154BA",
       "RM154BB",
@@ -66,7 +67,6 @@
       "RM154BH",
       "RM154BJ",
       "RM154BP",
-      "RM154BX",
       "RM154BY",
       "RM154HB",
       "RM154SX",
@@ -75,6 +75,7 @@
       "RM154TL"
     ],
     "PostCodesPlanned": [
+      "RM154BX",
       "RM154AD",
       "RM154BA",
       "RM154BB",
@@ -82,7 +83,6 @@
       "RM154BH",
       "RM154BJ",
       "RM154BP",
-      "RM154BX",
       "RM154BY",
       "RM154HB",
       "RM154SX",
@@ -90,10 +90,10 @@
       "RM154TJ",
       "RM154TL"
     ],
-    "CustomersOnSupply": 209,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 208,
+    "CustomersOffSupply": 1,
+    "IncidentTypeName": "Unplanned",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -307,6 +307,7 @@
     }
   ],
   "FullPostcodeData": [
+    "RM154BX",
     "RM154AD",
     "RM154BA",
     "RM154BB",
@@ -314,7 +315,6 @@
     "RM154BH",
     "RM154BJ",
     "RM154BP",
-    "RM154BX",
     "RM154BY",
     "RM154HB",
     "RM154SX",
