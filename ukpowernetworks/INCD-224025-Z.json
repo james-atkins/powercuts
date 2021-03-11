@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-224025-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-224025-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-224025-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-11T06:59:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-11T07:22:34.267",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036b19INCD",
     "IncidentReference": "INCD-224025-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-11T06:20:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-11T07:22:34.267",
     "EstimatedRestorationDate": "2021-03-11T09:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-11T06:20:37",
@@ -110,7 +110,7 @@
     ],
     "CustomersOnSupply": 74,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -839,7 +839,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "09:00 - 10:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
