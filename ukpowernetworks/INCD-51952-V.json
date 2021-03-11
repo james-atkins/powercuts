@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-51952-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-51952-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-51952-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-11T04:36:46.87",
-      "Message": "Update at 04:36 - Sorry your power has gone off again today. Our engineers investigated the fault earlier but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers are back on site and we are aiming to have all power back on between 06:30 and 07:30.",
+      "Date": "2021-03-11T05:39:06.45",
+      "Message": "Update at 05:38 - Our engineers have now restored power in the Millstream Close area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-11T04:33:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-11T05:38:29.547",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000caf0INCD",
     "IncidentReference": "INCD-51952-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-10T22:40:13",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-11T05:38:29.547",
     "EstimatedRestorationDate": "2021-03-11T07:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-10T22:38:00",
-    "NoCustomerAffected": 26,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 10,
     "Latitude": 0.0,
@@ -62,31 +62,31 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-11T04:36:00",
+        "ActualEventTime": "2021-03-11T05:38:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 04:36 - Sorry your power has gone off again today. Our engineers investigated the fault earlier but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers are back on site and we are aiming to have all power back on between 06:30 and 07:30.",
-        "LoggedTime": "2021-03-11T04:36:46.87"
+        "Comment": "Update at 05:38 - Our engineers have now restored power in the Millstream Close area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-03-11T05:39:06.45"
       }
     ],
     "PostCodesAffected": [
       "CT5 1"
     ],
     "PostCodesRestored": [
+      "CT51RD",
       "CT51RE",
       "CT51RG",
-      "CT51RQ",
-      "CT51RD"
+      "CT51RQ"
     ],
     "PostCodesPlanned": [
+      "CT51RD",
       "CT51RE",
       "CT51RG",
-      "CT51RQ",
-      "CT51RD"
+      "CT51RQ"
     ],
-    "CustomersOnSupply": 54,
-    "CustomersOffSupply": 26,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 80,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -605,10 +605,10 @@
     }
   ],
   "FullPostcodeData": [
+    "CT51RD",
     "CT51RE",
     "CT51RG",
-    "CT51RQ",
-    "CT51RD"
+    "CT51RQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
