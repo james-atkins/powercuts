@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-6446-O",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-6446-O",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-6446-O",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-11T09:46:05",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-11T14:41:40.11",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "O0000192eINCD",
     "IncidentReference": "INCD-6446-O",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-11T08:56:24",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-11T14:41:40.11",
     "EstimatedRestorationDate": "2021-03-11T16:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-11T08:43:00",
-    "NoCustomerAffected": 25,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "NR11 8"
     ],
     "PostCodesRestored": [
-      "NR118UW",
-      "NR118UX",
       "NR118UL",
-      "NR118UN"
+      "NR118UN",
+      "NR118UW",
+      "NR118UX"
     ],
     "PostCodesPlanned": [
-      "NR118UW",
-      "NR118UX",
       "NR118UL",
-      "NR118UN"
+      "NR118UN",
+      "NR118UW",
+      "NR118UX"
     ],
-    "CustomersOnSupply": 42,
-    "CustomersOffSupply": 25,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 67,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -727,10 +727,10 @@
     }
   ],
   "FullPostcodeData": [
-    "NR118UW",
-    "NR118UX",
     "NR118UL",
-    "NR118UN"
+    "NR118UN",
+    "NR118UW",
+    "NR118UX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
