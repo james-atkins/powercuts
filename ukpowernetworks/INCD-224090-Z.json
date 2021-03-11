@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-224090-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-224090-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-224090-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-11T13:30:29",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-11T20:51:58.28",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036b5aINCD",
     "IncidentReference": "INCD-224090-Z",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 2,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-11T08:13:37",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-11T20:51:58.28",
     "EstimatedRestorationDate": "2021-03-11T20:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-11T14:07:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,22 +59,22 @@
       "IP21 4"
     ],
     "PostCodesRestored": [
-      "IP214JD",
-      "IP214JR",
       "IP214JA",
       "IP214JB",
-      "IP214JP"
+      "IP214JD",
+      "IP214JP",
+      "IP214JR"
     ],
     "PostCodesPlanned": [
-      "IP214JD",
-      "IP214JR",
       "IP214JA",
       "IP214JB",
-      "IP214JP"
+      "IP214JD",
+      "IP214JP",
+      "IP214JR"
     ],
-    "CustomersOnSupply": 9,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 12,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -705,11 +705,11 @@
     }
   ],
   "FullPostcodeData": [
-    "IP214JD",
-    "IP214JR",
     "IP214JA",
     "IP214JB",
-    "IP214JP"
+    "IP214JD",
+    "IP214JP",
+    "IP214JR"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
