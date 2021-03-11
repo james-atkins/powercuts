@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-246550-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246550-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246550-G",
   "Steps": [
     {
       "Active": true,
@@ -15,7 +15,7 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-11T06:50:52",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
@@ -23,30 +23,30 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-11T09:29:57.927",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c316INCD",
     "IncidentReference": "INCD-246550-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-11T04:43:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-11T09:29:57.927",
     "EstimatedRestorationDate": "2021-03-11T09:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-11T05:53:00",
-    "NoCustomerAffected": 8,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -76,16 +76,15 @@
     "PostCodesRestored": [
       "CT91AY",
       "CT91BA",
-      "CT91NP",
-      "CT91NX",
-      "CT91PF",
-      "CT91PS",
-      "CT92LQ",
       "CT91NH",
+      "CT91NP",
       "CT91NR",
       "CT91NS",
+      "CT91NX",
+      "CT91PF",
       "CT91PP",
       "CT91PQ",
+      "CT91PS",
       "CT91PT",
       "CT91PW",
       "CT91QS",
@@ -93,21 +92,21 @@
       "CT91QU",
       "CT91QX",
       "CT91SF",
-      "CT91UP"
+      "CT91UP",
+      "CT92LQ"
     ],
     "PostCodesPlanned": [
       "CT91AY",
       "CT91BA",
-      "CT91NP",
-      "CT91NX",
-      "CT91PF",
-      "CT91PS",
-      "CT92LQ",
       "CT91NH",
+      "CT91NP",
       "CT91NR",
       "CT91NS",
+      "CT91NX",
+      "CT91PF",
       "CT91PP",
       "CT91PQ",
+      "CT91PS",
       "CT91PT",
       "CT91PW",
       "CT91QS",
@@ -115,11 +114,12 @@
       "CT91QU",
       "CT91QX",
       "CT91SF",
-      "CT91UP"
+      "CT91UP",
+      "CT92LQ"
     ],
-    "CustomersOnSupply": 196,
-    "CustomersOffSupply": 17,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 213,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1138,16 +1138,15 @@
   "FullPostcodeData": [
     "CT91AY",
     "CT91BA",
-    "CT91NP",
-    "CT91NX",
-    "CT91PF",
-    "CT91PS",
-    "CT92LQ",
     "CT91NH",
+    "CT91NP",
     "CT91NR",
     "CT91NS",
+    "CT91NX",
+    "CT91PF",
     "CT91PP",
     "CT91PQ",
+    "CT91PS",
     "CT91PT",
     "CT91PW",
     "CT91QS",
@@ -1155,7 +1154,8 @@
     "CT91QU",
     "CT91QX",
     "CT91SF",
-    "CT91UP"
+    "CT91UP",
+    "CT92LQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
