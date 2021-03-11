@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-43049-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-43049-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-43049-C",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-11T09:56:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-11T10:51:37.147",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000a829INCD",
     "IncidentReference": "INCD-43049-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-11T09:27:32",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-11T10:51:37.147",
     "EstimatedRestorationDate": "2021-03-11T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-11T09:25:00",
-    "NoCustomerAffected": 16,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 7,
+    "NoCallsReported": 8,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -85,9 +85,9 @@
       "HP217LT",
       "HP219NL"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 49,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 50,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },

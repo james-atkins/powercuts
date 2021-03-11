@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-223989-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-223989-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-223989-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-03-11T03:06:04",
+      "Date": "2021-03-11T03:06:00",
       "Message": "<p>We became aware of a power cut at 03:06. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-11T08:14:30",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-11T10:40:42.37",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036af5INCD",
     "IncidentReference": "INCD-223989-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-11T03:06:40",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-11T10:40:42.37",
     "EstimatedRestorationDate": "2021-03-11T11:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-11T03:06:04",
+    "ReceivedDate": "2021-03-11T03:06:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
@@ -61,18 +61,20 @@
     "PostCodesRestored": [
       "CM233AG",
       "CM233AL",
-      "CM233BL",
-      "CM233BJ"
+      "CM233BE",
+      "CM233BJ",
+      "CM233BL"
     ],
     "PostCodesPlanned": [
       "CM233AG",
       "CM233AL",
-      "CM233BL",
-      "CM233BJ"
+      "CM233BE",
+      "CM233BJ",
+      "CM233BL"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 18,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -585,8 +587,9 @@
   "FullPostcodeData": [
     "CM233AG",
     "CM233AL",
-    "CM233BL",
-    "CM233BJ"
+    "CM233BE",
+    "CM233BJ",
+    "CM233BL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
