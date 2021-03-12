@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-224591-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-224591-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-224591-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-12T12:13:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-12T14:30:20.327",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036d4fINCD",
     "IncidentReference": "INCD-224591-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-12T12:11:17",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-12T14:30:20.327",
     "EstimatedRestorationDate": "2021-03-12T14:45:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-12T12:36:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -73,24 +73,24 @@
       "CO11 1"
     ],
     "PostCodesRestored": [
-      "CO111BE",
       "CO111AJ",
       "CO111AN",
       "CO111AP",
       "CO111AW",
-      "CO111BA"
+      "CO111BA",
+      "CO111BE"
     ],
     "PostCodesPlanned": [
-      "CO111BE",
       "CO111AJ",
       "CO111AN",
       "CO111AP",
       "CO111AW",
-      "CO111BA"
+      "CO111BA",
+      "CO111BE"
     ],
-    "CustomersOnSupply": 32,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 34,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -665,12 +665,12 @@
     }
   ],
   "FullPostcodeData": [
-    "CO111BE",
     "CO111AJ",
     "CO111AN",
     "CO111AP",
     "CO111AW",
-    "CO111BA"
+    "CO111BA",
+    "CO111BE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
