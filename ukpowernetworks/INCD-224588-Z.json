@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-224588-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-224588-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-224588-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-12T12:02:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-12T16:15:20.24",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036d4cINCD",
     "IncidentReference": "INCD-224588-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-12T11:57:02",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-12T16:15:20.24",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-12T12:40:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -73,21 +73,21 @@
       "LU3 3"
     ],
     "PostCodesRestored": [
-      "LU33EQ",
       "LU33AL",
       "LU33EA",
-      "LU33EE"
+      "LU33EE",
+      "LU33EQ"
     ],
     "PostCodesPlanned": [
-      "LU33EQ",
       "LU33AL",
       "LU33EA",
-      "LU33EE"
+      "LU33EE",
+      "LU33EQ"
     ],
-    "CustomersOnSupply": 39,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 40,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -641,10 +641,10 @@
     }
   ],
   "FullPostcodeData": [
-    "LU33EQ",
     "LU33AL",
     "LU33EA",
-    "LU33EE"
+    "LU33EE",
+    "LU33EQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
