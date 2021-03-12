@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-38062-M",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-38062-M",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-38062-M",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-11T21:40:50",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-12T00:57:40.913",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "M000094aeINCD",
     "IncidentReference": "INCD-38062-M",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 32,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-07T23:44:52",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-12T00:57:40.913",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-07T23:46:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -74,26 +74,26 @@
       "NW10 9"
     ],
     "PostCodesRestored": [
-      "NW109UN",
       "NW103UJ",
       "NW109PE",
       "NW109TH",
       "NW109TJ",
       "NW109UH",
+      "NW109UN",
       "NW109UU"
     ],
     "PostCodesPlanned": [
-      "NW109UN",
       "NW103UJ",
       "NW109PE",
       "NW109TH",
       "NW109TJ",
       "NW109UH",
+      "NW109UN",
       "NW109UU"
     ],
-    "CustomersOnSupply": 141,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 142,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -102,83 +102,6 @@
     "NW10 9"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.55153,
-        "lng": -0.25645
-      },
-      "Coordinates": [
-        {
-          "lat": 51.55183,
-          "lng": -0.25774
-        },
-        {
-          "lat": 51.55331,
-          "lng": -0.25795
-        },
-        {
-          "lat": 51.55361,
-          "lng": -0.25742
-        },
-        {
-          "lat": 51.55373,
-          "lng": -0.25688
-        },
-        {
-          "lat": 51.55337,
-          "lng": -0.25667
-        },
-        {
-          "lat": 51.55174,
-          "lng": -0.25617
-        },
-        {
-          "lat": 51.55145,
-          "lng": -0.25438
-        },
-        {
-          "lat": 51.551,
-          "lng": -0.25442
-        },
-        {
-          "lat": 51.5505,
-          "lng": -0.25512
-        },
-        {
-          "lat": 51.54972,
-          "lng": -0.25581
-        },
-        {
-          "lat": 51.54961,
-          "lng": -0.25587
-        },
-        {
-          "lat": 51.55036,
-          "lng": -0.25731
-        },
-        {
-          "lat": 51.55037,
-          "lng": -0.25736
-        },
-        {
-          "lat": 51.55109,
-          "lng": -0.2575
-        },
-        {
-          "lat": 51.55139,
-          "lng": -0.25682
-        },
-        {
-          "lat": 51.55148,
-          "lng": -0.25678
-        },
-        {
-          "lat": 51.55183,
-          "lng": -0.25774
-        }
-      ],
-      "Postcode": "NW10 9"
-    },
     {
       "Center": {
         "lat": 51.53958,
@@ -763,15 +686,92 @@
         }
       ],
       "Postcode": "NW10 3"
+    },
+    {
+      "Center": {
+        "lat": 51.55153,
+        "lng": -0.25645
+      },
+      "Coordinates": [
+        {
+          "lat": 51.55183,
+          "lng": -0.25774
+        },
+        {
+          "lat": 51.55331,
+          "lng": -0.25795
+        },
+        {
+          "lat": 51.55361,
+          "lng": -0.25742
+        },
+        {
+          "lat": 51.55373,
+          "lng": -0.25688
+        },
+        {
+          "lat": 51.55337,
+          "lng": -0.25667
+        },
+        {
+          "lat": 51.55174,
+          "lng": -0.25617
+        },
+        {
+          "lat": 51.55145,
+          "lng": -0.25438
+        },
+        {
+          "lat": 51.551,
+          "lng": -0.25442
+        },
+        {
+          "lat": 51.5505,
+          "lng": -0.25512
+        },
+        {
+          "lat": 51.54972,
+          "lng": -0.25581
+        },
+        {
+          "lat": 51.54961,
+          "lng": -0.25587
+        },
+        {
+          "lat": 51.55036,
+          "lng": -0.25731
+        },
+        {
+          "lat": 51.55037,
+          "lng": -0.25736
+        },
+        {
+          "lat": 51.55109,
+          "lng": -0.2575
+        },
+        {
+          "lat": 51.55139,
+          "lng": -0.25682
+        },
+        {
+          "lat": 51.55148,
+          "lng": -0.25678
+        },
+        {
+          "lat": 51.55183,
+          "lng": -0.25774
+        }
+      ],
+      "Postcode": "NW10 9"
     }
   ],
   "FullPostcodeData": [
-    "NW109UN",
     "NW103UJ",
     "NW109PE",
     "NW109TH",
     "NW109TJ",
     "NW109UH",
+    "NW109UN",
     "NW109UU"
   ],
   "PinLatitude": null,
