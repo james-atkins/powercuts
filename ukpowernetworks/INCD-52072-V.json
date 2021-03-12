@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-52072-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-52072-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-52072-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-12T09:07:20",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-12T10:11:00.71",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000cb68INCD",
     "IncidentReference": "INCD-52072-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-12T08:17:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-12T10:11:00.71",
     "EstimatedRestorationDate": "2021-03-12T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-12T08:16:00",
-    "NoCustomerAffected": 16,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -84,9 +84,9 @@
       "BN72NT",
       "BN72PA"
     ],
-    "CustomersOnSupply": 33,
-    "CustomersOffSupply": 16,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 49,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
