@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-52168-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-52168-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-52168-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-13T10:41:48",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-13T18:34:19.3",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000cbc8INCD",
     "IncidentReference": "INCD-52168-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-13T07:41:03",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-13T18:34:19.3",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-13T07:40:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,9 +59,9 @@
       "BN27 1"
     ],
     "PostCodesRestored": [
-      "BN271HD",
       "BN271EP",
       "BN271ER",
+      "BN271HD",
       "BN271JQ",
       "BN271SP",
       "BN271UA",
@@ -69,19 +69,19 @@
       "BN271UD"
     ],
     "PostCodesPlanned": [
-      "BN271HD",
       "BN271EP",
       "BN271ER",
+      "BN271HD",
       "BN271JQ",
       "BN271SP",
       "BN271UA",
       "BN271UB",
       "BN271UD"
     ],
-    "CustomersOnSupply": 50,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 51,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -735,9 +735,9 @@
     }
   ],
   "FullPostcodeData": [
-    "BN271HD",
     "BN271EP",
     "BN271ER",
+    "BN271HD",
     "BN271JQ",
     "BN271SP",
     "BN271UA",

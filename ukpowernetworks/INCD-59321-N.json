@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-59321-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-59321-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-59321-N",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-03-13T13:38:16",
+      "Date": "2021-03-13T13:38:00",
       "Message": "<p>We became aware of a power cut at 13:38. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-13T14:50:50",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-13T18:43:03.503",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e7b9INCD",
     "IncidentReference": "INCD-59321-N",
-    "IncidentCategory": "124",
+    "IncidentCategory": "25",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 28,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-13T13:39:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-13T18:43:03.503",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-13T13:38:16",
+    "ReceivedDate": "2021-03-13T13:38:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -72,9 +72,9 @@
       "DA163JS",
       "DA163LP"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 45,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 45,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -561,7 +561,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
