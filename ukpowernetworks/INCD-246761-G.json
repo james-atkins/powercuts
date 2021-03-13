@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-246761-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246761-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246761-G",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-03-13T06:31:33",
+      "Date": "2021-03-13T06:31:00",
       "Message": "<p>We became aware of a power cut at 06:31. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-13T07:38:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-13T09:47:34.173",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c3e9INCD",
     "IncidentReference": "INCD-246761-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-13T06:37:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-13T09:47:34.173",
     "EstimatedRestorationDate": "2021-03-13T11:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-13T06:31:33",
+    "ReceivedDate": "2021-03-13T06:31:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -60,20 +60,30 @@
       "BN25 2"
     ],
     "PostCodesRestored": [
+      "BN251LA",
+      "BN251LS",
+      "BN251NG",
       "BN251NL",
+      "BN251NN",
+      "BN251NP",
       "BN251NS",
       "BN252AY",
       "BN252BA"
     ],
     "PostCodesPlanned": [
+      "BN251LA",
+      "BN251LS",
+      "BN251NG",
       "BN251NL",
+      "BN251NN",
+      "BN251NP",
       "BN251NS",
       "BN252AY",
       "BN252BA"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 25,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 78,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -842,7 +852,12 @@
     }
   ],
   "FullPostcodeData": [
+    "BN251LA",
+    "BN251LS",
+    "BN251NG",
     "BN251NL",
+    "BN251NN",
+    "BN251NP",
     "BN251NS",
     "BN252AY",
     "BN252BA"
