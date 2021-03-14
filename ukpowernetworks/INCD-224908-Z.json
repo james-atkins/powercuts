@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-224908-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-224908-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-224908-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-13T21:01:27",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-14T00:32:28.92",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00036e8cINCD",
     "IncidentReference": "INCD-224908-Z",
-    "IncidentCategory": "26",
+    "IncidentCategory": "1",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-13T20:27:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-14T00:32:28.92",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-13T20:25:55",
@@ -59,9 +59,9 @@
       "IP29 5"
     ],
     "PostCodesRestored": [
-      "IP295AD",
       "IP295AA",
       "IP295AB",
+      "IP295AD",
       "IP295AS",
       "IP295DT",
       "IP295DU",
@@ -69,18 +69,18 @@
       "IP295DZ"
     ],
     "PostCodesPlanned": [
-      "IP295AD",
       "IP295AA",
       "IP295AB",
+      "IP295AD",
       "IP295AS",
       "IP295DT",
       "IP295DU",
       "IP295DX",
       "IP295DZ"
     ],
-    "CustomersOnSupply": 58,
-    "CustomersOffSupply": 17,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 75,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -599,9 +599,9 @@
     }
   ],
   "FullPostcodeData": [
-    "IP295AD",
     "IP295AA",
     "IP295AB",
+    "IP295AD",
     "IP295AS",
     "IP295DT",
     "IP295DU",
@@ -610,7 +610,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
+  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which has caused a power cut in the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
