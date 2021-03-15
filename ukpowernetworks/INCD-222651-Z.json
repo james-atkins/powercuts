@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-222651-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-222651-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-222651-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-15T08:27:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-15T12:39:05.913",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000365bbINCD",
     "IncidentReference": "INCD-222651-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-04T09:39:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-15T12:39:05.913",
     "EstimatedRestorationDate": "2021-03-15T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-04T09:47:00",
@@ -59,28 +59,28 @@
       "IP1 6"
     ],
     "PostCodesRestored": [
-      "IP16BW",
       "IP16BA",
       "IP16BB",
       "IP16BL",
       "IP16BN",
       "IP16BP",
       "IP16BS",
-      "IP16BT"
+      "IP16BT",
+      "IP16BW"
     ],
     "PostCodesPlanned": [
-      "IP16BW",
       "IP16BA",
       "IP16BB",
       "IP16BL",
       "IP16BN",
       "IP16BP",
       "IP16BS",
-      "IP16BT"
+      "IP16BT",
+      "IP16BW"
     ],
-    "CustomersOnSupply": 119,
-    "CustomersOffSupply": 8,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 127,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -423,14 +423,14 @@
     }
   ],
   "FullPostcodeData": [
-    "IP16BW",
     "IP16BA",
     "IP16BB",
     "IP16BL",
     "IP16BN",
     "IP16BP",
     "IP16BS",
-    "IP16BT"
+    "IP16BT",
+    "IP16BW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
