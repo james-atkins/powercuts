@@ -1,9 +1,9 @@
 {
   "IncidentReference": "INCD-257972-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-257972-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-257972-J",
   "Steps": [
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-15T12:15:00",
       "Message": "<p>We became aware of a power cut at 12:15. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -11,36 +11,36 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-15T16:42:55.55",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003efb4INCD",
     "IncidentReference": "INCD-257972-J",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 2,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-15T10:45:13",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-15T16:42:55.55",
     "EstimatedRestorationDate": "2021-03-15T16:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-15T12:15:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -72,9 +72,9 @@
       "CR42HU",
       "CR42HW"
     ],
-    "CustomersOnSupply": 83,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 87,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
