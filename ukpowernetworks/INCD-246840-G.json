@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-246840-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246840-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246840-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-15T19:05:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-16T02:49:38.81",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c438INCD",
     "IncidentReference": "INCD-246840-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-15T18:24:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-16T02:49:38.81",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-15T18:24:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 13,
     "Latitude": 0.0,
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2021-03-15T19:30:00",
       "DispatchedDate": "2021-03-15T18:35:37",
       "ArrivalDate": "2021-03-15T19:05:49",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -74,7 +74,6 @@
       "CT5 3"
     ],
     "PostCodesRestored": [
-      "CT51NN",
       "CT51DA",
       "CT51HJ",
       "CT51JN",
@@ -91,6 +90,7 @@
       "CT51NH",
       "CT51NJ",
       "CT51NL",
+      "CT51NN",
       "CT51NQ",
       "CT51NW",
       "CT51QR",
@@ -98,7 +98,6 @@
       "CT53RF"
     ],
     "PostCodesPlanned": [
-      "CT51NN",
       "CT51DA",
       "CT51HJ",
       "CT51JN",
@@ -115,15 +114,16 @@
       "CT51NH",
       "CT51NJ",
       "CT51NL",
+      "CT51NN",
       "CT51NQ",
       "CT51NW",
       "CT51QR",
       "CT51QS",
       "CT53RF"
     ],
-    "CustomersOnSupply": 393,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 395,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -1192,7 +1192,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CT51NN",
     "CT51DA",
     "CT51HJ",
     "CT51JN",
@@ -1209,6 +1208,7 @@
     "CT51NH",
     "CT51NJ",
     "CT51NL",
+    "CT51NN",
     "CT51NQ",
     "CT51NW",
     "CT51QR",
