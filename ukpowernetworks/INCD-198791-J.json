@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-198791-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-198791-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-198791-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-18T11:07:32",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-18T14:56:31.34",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J00030887INCD",
     "IncidentReference": "INCD-198791-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2018-10-21T05:56:25",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-18T14:56:31.34",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2018-10-21T05:56:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -73,18 +73,18 @@
       "SE5 9"
     ],
     "PostCodesRestored": [
-      "SE59LB",
       "",
+      "SE59LB",
       "SE59LW"
     ],
     "PostCodesPlanned": [
-      "SE59LB",
       "",
+      "SE59LB",
       "SE59LW"
     ],
-    "CustomersOnSupply": 177,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 178,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -555,8 +555,8 @@
     }
   ],
   "FullPostcodeData": [
-    "SE59LB",
     "",
+    "SE59LB",
     "SE59LW"
   ],
   "PinLatitude": null,
