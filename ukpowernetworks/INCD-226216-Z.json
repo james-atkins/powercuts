@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-226216-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-226216-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-226216-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-19T22:33:55.853",
-      "Message": "Update at 22:33 - Our engineers are on their way. At this point we think the issue is a fault on our underground cabling network, that initially interrupted power to 1571 properties. However, by rerouting electricity in the area, currently 221 customers are still affected. Using an average timescale, we're estimating power will be on between 01:00 and 02:00, but this may change later. Power back on? To stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
+      "Date": "2021-03-19T23:04:59.27",
+      "Message": "Update at 23:04 - We believe our engineers have been able to restore power to all 1571 customers in the Barnet EN5 area, by diverting power around the fault on our underground cabling network. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -15,7 +15,7 @@
       "Name": "We are restoring customers automatically"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-19T22:17:29",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
@@ -23,26 +23,26 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-19T22:56:32.75",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000373a8INCD",
     "IncidentReference": "INCD-226216-Z",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-19T22:16:00",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-19T22:56:32.75",
     "EstimatedRestorationDate": "2021-03-20T01:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-19T22:15:56",
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-19T22:33:00",
+        "ActualEventTime": "2021-03-19T23:04:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 22:33 - Our engineers are on their way. At this point we think the issue is a fault on our underground cabling network, that initially interrupted power to 1571 properties. However, by rerouting electricity in the area, currently 221 customers are still affected. Using an average timescale, we're estimating power will be on between 01:00 and 02:00, but this may change later. Power back on? To stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
-        "LoggedTime": "2021-03-19T22:33:55.853"
+        "Comment": "Update at 23:04 - We believe our engineers have been able to restore power to all 1571 customers in the Barnet EN5 area, by diverting power around the fault on our underground cabling network. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-03-19T23:04:59.27"
       }
     ],
     "PostCodesAffected": [
@@ -333,7 +333,7 @@
     ],
     "CustomersOnSupply": 1571,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
