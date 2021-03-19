@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-226003-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-226003-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-226003-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-19T00:29:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-19T12:03:08.03",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000372d3INCD",
     "IncidentReference": "INCD-226003-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-19T00:27:14",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-19T12:03:08.03",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-18T23:57:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,9 +59,9 @@
       "RM10 7"
     ],
     "PostCodesRestored": [
-      "RM107UB",
       "RM107DL",
       "RM107UA",
+      "RM107UB",
       "RM107UP",
       "RM107UR",
       "RM107UU",
@@ -70,9 +70,9 @@
       "RM107XT"
     ],
     "PostCodesPlanned": [
-      "RM107UB",
       "RM107DL",
       "RM107UA",
+      "RM107UB",
       "RM107UP",
       "RM107UR",
       "RM107UU",
@@ -80,9 +80,9 @@
       "RM107XJ",
       "RM107XT"
     ],
-    "CustomersOnSupply": 80,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 84,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -509,9 +509,9 @@
     }
   ],
   "FullPostcodeData": [
-    "RM107UB",
     "RM107DL",
     "RM107UA",
+    "RM107UB",
     "RM107UP",
     "RM107UR",
     "RM107UU",
