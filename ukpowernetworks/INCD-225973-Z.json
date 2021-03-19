@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-225973-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-225973-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-225973-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-18T20:46:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-19T01:26:55.443",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000372b5INCD",
     "IncidentReference": "INCD-225973-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-18T19:29:08",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-19T01:26:55.443",
     "EstimatedRestorationDate": "2021-03-19T02:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-18T19:29:00",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -75,7 +75,6 @@
     ],
     "PostCodesRestored": [
       "NR129EL",
-      "PE280AB",
       "NR129LD",
       "NR129LH",
       "NR129LJ",
@@ -83,11 +82,11 @@
       "NR129LN",
       "NR129LQ",
       "NR129NG",
-      "NR129NQ"
+      "NR129NQ",
+      "PE280AB"
     ],
     "PostCodesPlanned": [
       "NR129EL",
-      "PE280AB",
       "NR129LD",
       "NR129LH",
       "NR129LJ",
@@ -95,11 +94,12 @@
       "NR129LN",
       "NR129LQ",
       "NR129NG",
-      "NR129NQ"
+      "NR129NQ",
+      "PE280AB"
     ],
-    "CustomersOnSupply": 67,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 77,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1081,7 +1081,6 @@
   ],
   "FullPostcodeData": [
     "NR129EL",
-    "PE280AB",
     "NR129LD",
     "NR129LH",
     "NR129LJ",
@@ -1089,7 +1088,8 @@
     "NR129LN",
     "NR129LQ",
     "NR129NG",
-    "NR129NQ"
+    "NR129NQ",
+    "PE280AB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
