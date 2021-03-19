@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-90611-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-90611-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-90611-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-19T08:05:12",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-19T09:09:59.667",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000161f3INCD",
     "IncidentReference": "INCD-90611-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2019-06-28T11:31:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-19T09:09:59.667",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2019-06-28T11:33:00",
@@ -59,16 +59,16 @@
       "NW2 2"
     ],
     "PostCodesRestored": [
-      "NW22PU",
-      ""
+      "",
+      "NW22PU"
     ],
     "PostCodesPlanned": [
-      "NW22PU",
-      ""
+      "",
+      "NW22PU"
     ],
-    "CustomersOnSupply": 55,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 57,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -147,8 +147,8 @@
     }
   ],
   "FullPostcodeData": [
-    "NW22PU",
-    ""
+    "",
+    "NW22PU"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
