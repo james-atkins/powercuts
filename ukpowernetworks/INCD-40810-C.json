@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-40810-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-40810-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-40810-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-01-17T12:22:51",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-20T10:37:11.153",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C00009f6aINCD",
     "IncidentReference": "INCD-40810-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 2,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-17T10:44:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-20T10:37:11.153",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-01-17T10:39:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -59,12 +59,12 @@
       "IP14 1"
     ],
     "PostCodesRestored": [
-      "IP141ES",
       "IP141AH",
       "IP141DT",
       "IP141DY",
       "IP141EB",
       "IP141EF",
+      "IP141ES",
       "IP141HA",
       "IP141HZ",
       "IP141NE",
@@ -72,22 +72,22 @@
       "IP141PW"
     ],
     "PostCodesPlanned": [
-      "IP141ES",
       "IP141AH",
       "IP141DT",
       "IP141DY",
       "IP141EB",
       "IP141EF",
+      "IP141ES",
       "IP141HA",
       "IP141HZ",
       "IP141NE",
       "IP141PJ",
       "IP141PW"
     ],
-    "CustomersOnSupply": 21,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 22,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -421,12 +421,12 @@
     }
   ],
   "FullPostcodeData": [
-    "IP141ES",
     "IP141AH",
     "IP141DT",
     "IP141DY",
     "IP141EB",
     "IP141EF",
+    "IP141ES",
     "IP141HA",
     "IP141HZ",
     "IP141NE",
