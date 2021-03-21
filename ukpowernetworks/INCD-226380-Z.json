@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-226380-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-226380-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-226380-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-21T22:39:49.417",
-      "Message": "Update at 22:39 - As it's approaching that time of night where most of our customers are going to sleep, we wanted to let you know that we will continue to send text messages throughout the night with progress updates. If you want to continue receiving updates but prefer not to be disturbed, you can place your phone on silent or activate the Do Not Disturb settings on smart phones. If you no longer want to receive updates, please text CANCEL to 80876 (standard text fees apply). Thank you.",
+      "Date": "2021-03-21T23:06:51.98",
+      "Message": "Update at 23:07 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a faulty underground cable in the Franklin Close area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-21T14:35:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-21T23:05:27.38",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003744cINCD",
     "IncidentReference": "INCD-226380-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-21T13:51:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-21T23:05:27.38",
     "EstimatedRestorationDate": "2021-03-21T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-21T13:49:00",
-    "NoCustomerAffected": 14,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -62,19 +62,17 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-21T22:39:00",
+        "ActualEventTime": "2021-03-21T23:06:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 22:39 - As it's approaching that time of night where most of our customers are going to sleep, we wanted to let you know that we will continue to send text messages throughout the night with progress updates. If you want to continue receiving updates but prefer not to be disturbed, you can place your phone on silent or activate the Do Not Disturb settings on smart phones. If you no longer want to receive updates, please text CANCEL to 80876 (standard text fees apply). Thank you.",
-        "LoggedTime": "2021-03-21T22:39:49.417"
+        "Comment": "Update at 23:07 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a faulty underground cable in the Franklin Close area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-03-21T23:06:51.98"
       }
     ],
     "PostCodesAffected": [
       "N20 9"
     ],
     "PostCodesRestored": [
-      "N209QG",
-      "N209QT",
       "N209DF",
       "N209DL",
       "N209DN",
@@ -82,11 +80,11 @@
       "N209QB",
       "N209QD",
       "N209QE",
+      "N209QG",
+      "N209QT",
       "N209RW"
     ],
     "PostCodesPlanned": [
-      "N209QG",
-      "N209QT",
       "N209DF",
       "N209DL",
       "N209DN",
@@ -94,11 +92,13 @@
       "N209QB",
       "N209QD",
       "N209QE",
+      "N209QG",
+      "N209QT",
       "N209RW"
     ],
-    "CustomersOnSupply": 89,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 103,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -469,8 +469,6 @@
     }
   ],
   "FullPostcodeData": [
-    "N209QG",
-    "N209QT",
     "N209DF",
     "N209DL",
     "N209DN",
@@ -478,6 +476,8 @@
     "N209QB",
     "N209QD",
     "N209QE",
+    "N209QG",
+    "N209QT",
     "N209RW"
   ],
   "PinLatitude": null,
