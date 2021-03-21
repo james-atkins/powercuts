@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-226365-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-226365-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-226365-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-03-21T12:15:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-03-21T15:50:02.627",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z0003743dINCD",
     "IncidentReference": "INCD-226365-Z",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-03-21T11:51:12",
-    "RestoredDateTime": "2021-03-21T15:50:02.627",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-03-21T18:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-21T11:45:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 5,
+    "NoCallsReported": 6,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -84,7 +84,7 @@
     ],
     "CustomersOnSupply": 29,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -477,7 +477,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "17:30 - 18:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
