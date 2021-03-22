@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-258400-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-258400-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-258400-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-22T10:03:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-22T19:09:42.027",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003f160INCD",
     "IncidentReference": "INCD-258400-J",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-22T09:58:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-22T19:09:42.027",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-22T12:10:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -59,19 +59,19 @@
       "DA16 2"
     ],
     "PostCodesRestored": [
-      "DA162RS",
       "DA162RR",
+      "DA162RS",
       "DA162RT"
     ],
     "PostCodesPlanned": [
-      "DA162RS",
       "DA162RR",
+      "DA162RS",
       "DA162RT"
     ],
-    "CustomersOnSupply": 68,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 69,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -545,8 +545,8 @@
     }
   ],
   "FullPostcodeData": [
-    "DA162RS",
     "DA162RR",
+    "DA162RS",
     "DA162RT"
   ],
   "PinLatitude": null,
