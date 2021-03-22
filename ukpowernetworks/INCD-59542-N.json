@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-59542-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-59542-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-59542-N",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-22T01:42:46",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-22T03:19:40.557",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e896INCD",
     "IncidentReference": "INCD-59542-N",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-21T21:24:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-22T03:19:40.557",
     "EstimatedRestorationDate": "2021-03-22T04:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-21T21:23:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 28,
     "Latitude": 0.0,
@@ -73,7 +73,6 @@
       "W14 9"
     ],
     "PostCodesRestored": [
-      "W149PJ",
       "W14",
       "W149DP",
       "W149DR",
@@ -83,12 +82,12 @@
       "W149NA",
       "W149NF",
       "W149NL",
+      "W149PJ",
       "W149PL",
       "W149UX",
       "W149UZ"
     ],
     "PostCodesPlanned": [
-      "W149PJ",
       "W14",
       "W149DP",
       "W149DR",
@@ -98,13 +97,14 @@
       "W149NA",
       "W149NF",
       "W149NL",
+      "W149PJ",
       "W149PL",
       "W149UX",
       "W149UZ"
     ],
-    "CustomersOnSupply": 205,
-    "CustomersOffSupply": 12,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 217,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -539,7 +539,6 @@
     }
   ],
   "FullPostcodeData": [
-    "W149PJ",
     "W14",
     "W149DP",
     "W149DR",
@@ -549,6 +548,7 @@
     "W149NA",
     "W149NF",
     "W149NL",
+    "W149PJ",
     "W149PL",
     "W149UX",
     "W149UZ"
