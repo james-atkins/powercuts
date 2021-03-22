@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-52852-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-52852-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-52852-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-22T02:07:49.3",
-      "Message": "Update at 02:07 - Sorry your power has gone off again today. We believed all power was restored but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers are still on site and are estimating to have the power restored between 04:30 and 05:30.",
+      "Date": "2021-03-22T04:03:35.467",
+      "Message": "Update at 04:03 - We're sorry we've not been able to restore your power yet. We appreciate it can be unsettling to have a power cut during the night, but our engineers work 24 hours on issues like this so we're still aiming to have power restored as soon as possible. If you light candles, please be mindful of them and take extra care when using the stairs. If you have any concerns, please call us on 105 and our team will help. We'll keep you updated.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-21T20:19:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-22T04:11:37.663",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000ce74INCD",
     "IncidentReference": "INCD-52852-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-21T19:28:21",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-22T04:11:37.663",
     "EstimatedRestorationDate": "2021-03-22T05:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-21T19:27:00",
-    "NoCustomerAffected": 14,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 14,
     "Latitude": 0.0,
@@ -62,36 +62,36 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-22T02:05:00",
+        "ActualEventTime": "2021-03-22T04:03:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 02:07 - Sorry your power has gone off again today. We believed all power was restored but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers are still on site and are estimating to have the power restored between 04:30 and 05:30.",
-        "LoggedTime": "2021-03-22T02:07:49.3"
+        "Comment": "Update at 04:03 - We're sorry we've not been able to restore your power yet. We appreciate it can be unsettling to have a power cut during the night, but our engineers work 24 hours on issues like this so we're still aiming to have power restored as soon as possible. If you light candles, please be mindful of them and take extra care when using the stairs. If you have any concerns, please call us on 105 and our team will help. We'll keep you updated.",
+        "LoggedTime": "2021-03-22T04:03:35.467"
       }
     ],
     "PostCodesAffected": [
       "KT9 2"
     ],
     "PostCodesRestored": [
+      "KT92HN",
       "KT92NH",
       "KT92NN",
       "KT92NQ",
       "KT92QL",
-      "KT92HN",
       "KT92QN"
     ],
     "PostCodesPlanned": [
+      "KT92HN",
       "KT92NH",
       "KT92NN",
       "KT92NQ",
       "KT92QL",
-      "KT92HN",
       "KT92QN"
     ],
-    "CustomersOnSupply": 29,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 43,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -561,11 +561,11 @@
     }
   ],
   "FullPostcodeData": [
+    "KT92HN",
     "KT92NH",
     "KT92NN",
     "KT92NQ",
     "KT92QL",
-    "KT92HN",
     "KT92QN"
   ],
   "PinLatitude": null,
