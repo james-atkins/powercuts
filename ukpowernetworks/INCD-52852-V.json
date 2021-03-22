@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-52852-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-52852-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-52852-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-21T23:17:14.547",
-      "Message": "Update at 23:16 - Our engineers have investigated and found that the power is off due to a fault on our underground network which has affected our substation equipment. We know the timeframe we initially estimated is now approaching. Our engineers are continuing their work to repair the fault.  As our staff are working with live electricity, we need to wait until it is safe for them to stop and contact us with an update. We're sorry you've been impacted by this tonight and we'll provide you an update as soon as possible.",
+      "Date": "2021-03-22T00:06:01.41",
+      "Message": "Update at 00:05 - We're sorry you're still without power. Our engineers are making progress with repairs, but are anticipating they will take longer than originally thought. To give them time to complete their work, we have had to make a change to the timeframe. We're now estimating to have you back on between 02:30 and 03:30. We're sorry the time has changed and appreciate how frustrating this can be. We'll have your power back on as soon as we can.",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2021-03-21T19:27:12",
+      "Date": "2021-03-21T19:27:00",
       "Message": "<p>We became aware of a power cut at 19:27. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-21T20:19:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-22T00:46:13.957",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000ce74INCD",
     "IncidentReference": "INCD-52852-V",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-21T19:28:21",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-22T00:46:13.957",
     "EstimatedRestorationDate": "2021-03-22T03:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-21T19:27:12",
+    "ReceivedDate": "2021-03-21T19:27:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-21T23:13:00",
+        "ActualEventTime": "2021-03-22T00:04:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 23:16 - Our engineers have investigated and found that the power is off due to a fault on our underground network which has affected our substation equipment. We know the timeframe we initially estimated is now approaching. Our engineers are continuing their work to repair the fault.  As our staff are working with live electricity, we need to wait until it is safe for them to stop and contact us with an update. We're sorry you've been impacted by this tonight and we'll provide you an update as soon as possible.",
-        "LoggedTime": "2021-03-21T23:17:14.547"
+        "Comment": "Update at 00:05 - We're sorry you're still without power. Our engineers are making progress with repairs, but are anticipating they will take longer than originally thought. To give them time to complete their work, we have had to make a change to the timeframe. We're now estimating to have you back on between 02:30 and 03:30. We're sorry the time has changed and appreciate how frustrating this can be. We'll have your power back on as soon as we can.",
+        "LoggedTime": "2021-03-22T00:06:01.41"
       }
     ],
     "PostCodesAffected": [
@@ -88,9 +88,9 @@
       "KT92QL",
       "KT92QN"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 43,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 43,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -570,7 +570,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "02:30 - 03:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
