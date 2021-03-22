@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-52856-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-52856-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-52856-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-22T08:26:06",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-22T13:08:38.527",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000ce78INCD",
     "IncidentReference": "INCD-52856-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-22T07:29:33",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-22T13:08:38.527",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-22T07:26:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2021-03-22T08:30:00",
       "DispatchedDate": "2021-03-22T07:35:32",
       "ArrivalDate": "2021-03-22T08:26:06",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -73,18 +73,18 @@
       "TN7 4"
     ],
     "PostCodesRestored": [
-      "TN74AN",
       "TN74AL",
+      "TN74AN",
       "TN74AP"
     ],
     "PostCodesPlanned": [
-      "TN74AN",
       "TN74AL",
+      "TN74AN",
       "TN74AP"
     ],
-    "CustomersOnSupply": 26,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 28,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -331,8 +331,8 @@
     }
   ],
   "FullPostcodeData": [
-    "TN74AN",
     "TN74AL",
+    "TN74AN",
     "TN74AP"
   ],
   "PinLatitude": null,
