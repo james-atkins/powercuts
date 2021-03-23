@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-247160-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247160-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247160-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-23T00:00:32.453",
-      "Message": "Update at 00:00 - Thanks for bearing with us over tonight. Our staff have been in contact to advise that our generator has arrived, however there has been an unforeseen issue with it's leads and connectors. We are arranging replacements for these, however this means there's going to be a delay in restoring your power. We're now estimating we should have the generator safely connected by 02:00-03:00. I am sorry for the delay, but I'll continue to keep you updated with progress as it comes in from our staff.",
+      "Date": "2021-03-23T01:42:26.297",
+      "Message": "Update at 01:42 - We can now confirm that all power in the Woldingham CR3 area should be back on. Our engineers have diverted power around the faulted section of our network to get the majority of properties restored. However, due to the location and complexity of the issue, we have also used a temporary generator to restore power to the last of the affected properties. This will provide power until our engineers plan in and safely complete the full repair, which may take a few days. We're really sorry for any disruption this caused. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-22T21:22:59",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-23T01:37:18.63",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c578INCD",
     "IncidentReference": "INCD-247160-G",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 29,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-22T16:52:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-23T01:37:18.63",
     "EstimatedRestorationDate": "2021-03-23T02:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-22T16:52:26",
-    "NoCustomerAffected": 9,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 10,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-23T00:00:00",
+        "ActualEventTime": "2021-03-23T01:42:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 00:00 - Thanks for bearing with us over tonight. Our staff have been in contact to advise that our generator has arrived, however there has been an unforeseen issue with it's leads and connectors. We are arranging replacements for these, however this means there's going to be a delay in restoring your power. We're now estimating we should have the generator safely connected by 02:00-03:00. I am sorry for the delay, but I'll continue to keep you updated with progress as it comes in from our staff.",
-        "LoggedTime": "2021-03-23T00:00:32.453"
+        "Comment": "Update at 01:42 - We can now confirm that all power in the Woldingham CR3 area should be back on. Our engineers have diverted power around the faulted section of our network to get the majority of properties restored. However, due to the location and complexity of the issue, we have also used a temporary generator to restore power to the last of the affected properties. This will provide power until our engineers plan in and safely complete the full repair, which may take a few days. We're really sorry for any disruption this caused. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-03-23T01:42:26.297"
       }
     ],
     "PostCodesAffected": [
@@ -75,9 +75,6 @@
       "CR6 9"
     ],
     "PostCodesRestored": [
-      "CR37JB",
-      "CR37JF",
-      "CR37LR",
       "CR36FD",
       "CR36FH",
       "CR36LJ",
@@ -144,6 +141,8 @@
       "CR37HN",
       "CR37HP",
       "CR37HX",
+      "CR37JB",
+      "CR37JF",
       "CR37JX",
       "CR37LA",
       "CR37LB",
@@ -156,14 +155,12 @@
       "CR37LL",
       "CR37LN",
       "CR37LQ",
+      "CR37LR",
       "CR37LS",
       "CR37LT",
       "CR69JH"
     ],
     "PostCodesPlanned": [
-      "CR37JB",
-      "CR37JF",
-      "CR37LR",
       "CR36FD",
       "CR36FH",
       "CR36LJ",
@@ -230,6 +227,8 @@
       "CR37HN",
       "CR37HP",
       "CR37HX",
+      "CR37JB",
+      "CR37JF",
       "CR37JX",
       "CR37LA",
       "CR37LB",
@@ -242,14 +241,15 @@
       "CR37LL",
       "CR37LN",
       "CR37LQ",
+      "CR37LR",
       "CR37LS",
       "CR37LT",
       "CR69JH"
     ],
-    "CustomersOnSupply": 901,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 910,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -258,223 +258,6 @@
     "CR6 9"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.28347,
-        "lng": -0.03761
-      },
-      "Coordinates": [
-        {
-          "lat": 51.29443,
-          "lng": -0.06462
-        },
-        {
-          "lat": 51.2973,
-          "lng": -0.06102
-        },
-        {
-          "lat": 51.29763,
-          "lng": -0.061
-        },
-        {
-          "lat": 51.29858,
-          "lng": -0.06025
-        },
-        {
-          "lat": 51.29952,
-          "lng": -0.0581
-        },
-        {
-          "lat": 51.2995,
-          "lng": -0.05415
-        },
-        {
-          "lat": 51.30051,
-          "lng": -0.05281
-        },
-        {
-          "lat": 51.30065,
-          "lng": -0.04698
-        },
-        {
-          "lat": 51.30066,
-          "lng": -0.04693
-        },
-        {
-          "lat": 51.30102,
-          "lng": -0.04641
-        },
-        {
-          "lat": 51.30143,
-          "lng": -0.04371
-        },
-        {
-          "lat": 51.30194,
-          "lng": -0.04294
-        },
-        {
-          "lat": 51.3037,
-          "lng": -0.03549
-        },
-        {
-          "lat": 51.30107,
-          "lng": -0.03439
-        },
-        {
-          "lat": 51.29973,
-          "lng": -0.02989
-        },
-        {
-          "lat": 51.29746,
-          "lng": -0.02701
-        },
-        {
-          "lat": 51.29743,
-          "lng": -0.02561
-        },
-        {
-          "lat": 51.29515,
-          "lng": -0.02158
-        },
-        {
-          "lat": 51.29314,
-          "lng": -0.01994
-        },
-        {
-          "lat": 51.28955,
-          "lng": -0.01503
-        },
-        {
-          "lat": 51.28917,
-          "lng": -0.01505
-        },
-        {
-          "lat": 51.28485,
-          "lng": -0.01365
-        },
-        {
-          "lat": 51.284,
-          "lng": -0.01079
-        },
-        {
-          "lat": 51.27573,
-          "lng": -0.00353
-        },
-        {
-          "lat": 51.2747,
-          "lng": -0.00214
-        },
-        {
-          "lat": 51.27129,
-          "lng": -0.00373
-        },
-        {
-          "lat": 51.2704,
-          "lng": -0.00639
-        },
-        {
-          "lat": 51.26998,
-          "lng": -0.00838
-        },
-        {
-          "lat": 51.26985,
-          "lng": -0.01188
-        },
-        {
-          "lat": 51.2742,
-          "lng": -0.01698
-        },
-        {
-          "lat": 51.27449,
-          "lng": -0.01802
-        },
-        {
-          "lat": 51.26853,
-          "lng": -0.02292
-        },
-        {
-          "lat": 51.26847,
-          "lng": -0.02294
-        },
-        {
-          "lat": 51.26794,
-          "lng": -0.02414
-        },
-        {
-          "lat": 51.26407,
-          "lng": -0.02751
-        },
-        {
-          "lat": 51.26283,
-          "lng": -0.03272
-        },
-        {
-          "lat": 51.26321,
-          "lng": -0.03443
-        },
-        {
-          "lat": 51.27013,
-          "lng": -0.04471
-        },
-        {
-          "lat": 51.27043,
-          "lng": -0.04486
-        },
-        {
-          "lat": 51.27133,
-          "lng": -0.05373
-        },
-        {
-          "lat": 51.27708,
-          "lng": -0.0604
-        },
-        {
-          "lat": 51.27781,
-          "lng": -0.06339
-        },
-        {
-          "lat": 51.27794,
-          "lng": -0.0635
-        },
-        {
-          "lat": 51.27926,
-          "lng": -0.06751
-        },
-        {
-          "lat": 51.28276,
-          "lng": -0.07119
-        },
-        {
-          "lat": 51.28501,
-          "lng": -0.07124
-        },
-        {
-          "lat": 51.28586,
-          "lng": -0.07003
-        },
-        {
-          "lat": 51.28826,
-          "lng": -0.06153
-        },
-        {
-          "lat": 51.28893,
-          "lng": -0.06167
-        },
-        {
-          "lat": 51.2894,
-          "lng": -0.06224
-        },
-        {
-          "lat": 51.2911,
-          "lng": -0.06378
-        },
-        {
-          "lat": 51.29443,
-          "lng": -0.06462
-        }
-      ],
-      "Postcode": "CR3 7"
-    },
     {
       "Center": {
         "lat": 51.27586,
@@ -787,6 +570,223 @@
         }
       ],
       "Postcode": "CR3 6"
+    },
+    {
+      "Center": {
+        "lat": 51.28347,
+        "lng": -0.03761
+      },
+      "Coordinates": [
+        {
+          "lat": 51.29443,
+          "lng": -0.06462
+        },
+        {
+          "lat": 51.2973,
+          "lng": -0.06102
+        },
+        {
+          "lat": 51.29763,
+          "lng": -0.061
+        },
+        {
+          "lat": 51.29858,
+          "lng": -0.06025
+        },
+        {
+          "lat": 51.29952,
+          "lng": -0.0581
+        },
+        {
+          "lat": 51.2995,
+          "lng": -0.05415
+        },
+        {
+          "lat": 51.30051,
+          "lng": -0.05281
+        },
+        {
+          "lat": 51.30065,
+          "lng": -0.04698
+        },
+        {
+          "lat": 51.30066,
+          "lng": -0.04693
+        },
+        {
+          "lat": 51.30102,
+          "lng": -0.04641
+        },
+        {
+          "lat": 51.30143,
+          "lng": -0.04371
+        },
+        {
+          "lat": 51.30194,
+          "lng": -0.04294
+        },
+        {
+          "lat": 51.3037,
+          "lng": -0.03549
+        },
+        {
+          "lat": 51.30107,
+          "lng": -0.03439
+        },
+        {
+          "lat": 51.29973,
+          "lng": -0.02989
+        },
+        {
+          "lat": 51.29746,
+          "lng": -0.02701
+        },
+        {
+          "lat": 51.29743,
+          "lng": -0.02561
+        },
+        {
+          "lat": 51.29515,
+          "lng": -0.02158
+        },
+        {
+          "lat": 51.29314,
+          "lng": -0.01994
+        },
+        {
+          "lat": 51.28955,
+          "lng": -0.01503
+        },
+        {
+          "lat": 51.28917,
+          "lng": -0.01505
+        },
+        {
+          "lat": 51.28485,
+          "lng": -0.01365
+        },
+        {
+          "lat": 51.284,
+          "lng": -0.01079
+        },
+        {
+          "lat": 51.27573,
+          "lng": -0.00353
+        },
+        {
+          "lat": 51.2747,
+          "lng": -0.00214
+        },
+        {
+          "lat": 51.27129,
+          "lng": -0.00373
+        },
+        {
+          "lat": 51.2704,
+          "lng": -0.00639
+        },
+        {
+          "lat": 51.26998,
+          "lng": -0.00838
+        },
+        {
+          "lat": 51.26985,
+          "lng": -0.01188
+        },
+        {
+          "lat": 51.2742,
+          "lng": -0.01698
+        },
+        {
+          "lat": 51.27449,
+          "lng": -0.01802
+        },
+        {
+          "lat": 51.26853,
+          "lng": -0.02292
+        },
+        {
+          "lat": 51.26847,
+          "lng": -0.02294
+        },
+        {
+          "lat": 51.26794,
+          "lng": -0.02414
+        },
+        {
+          "lat": 51.26407,
+          "lng": -0.02751
+        },
+        {
+          "lat": 51.26283,
+          "lng": -0.03272
+        },
+        {
+          "lat": 51.26321,
+          "lng": -0.03443
+        },
+        {
+          "lat": 51.27013,
+          "lng": -0.04471
+        },
+        {
+          "lat": 51.27043,
+          "lng": -0.04486
+        },
+        {
+          "lat": 51.27133,
+          "lng": -0.05373
+        },
+        {
+          "lat": 51.27708,
+          "lng": -0.0604
+        },
+        {
+          "lat": 51.27781,
+          "lng": -0.06339
+        },
+        {
+          "lat": 51.27794,
+          "lng": -0.0635
+        },
+        {
+          "lat": 51.27926,
+          "lng": -0.06751
+        },
+        {
+          "lat": 51.28276,
+          "lng": -0.07119
+        },
+        {
+          "lat": 51.28501,
+          "lng": -0.07124
+        },
+        {
+          "lat": 51.28586,
+          "lng": -0.07003
+        },
+        {
+          "lat": 51.28826,
+          "lng": -0.06153
+        },
+        {
+          "lat": 51.28893,
+          "lng": -0.06167
+        },
+        {
+          "lat": 51.2894,
+          "lng": -0.06224
+        },
+        {
+          "lat": 51.2911,
+          "lng": -0.06378
+        },
+        {
+          "lat": 51.29443,
+          "lng": -0.06462
+        }
+      ],
+      "Postcode": "CR3 7"
     },
     {
       "Center": {
@@ -1291,9 +1291,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CR37JB",
-    "CR37JF",
-    "CR37LR",
     "CR36FD",
     "CR36FH",
     "CR36LJ",
@@ -1360,6 +1357,8 @@
     "CR37HN",
     "CR37HP",
     "CR37HX",
+    "CR37JB",
+    "CR37JF",
     "CR37JX",
     "CR37LA",
     "CR37LB",
@@ -1372,6 +1371,7 @@
     "CR37LL",
     "CR37LN",
     "CR37LQ",
+    "CR37LR",
     "CR37LS",
     "CR37LT",
     "CR69JH"
