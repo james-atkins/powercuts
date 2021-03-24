@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-226928-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-226928-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-226928-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-03-24T05:35:42.4",
+      "Message": "Update at 05:35 - Our staff have now confirmed that our substation equipment has operated again due to an underground cable fault which we'll need to pinpoint, excavate and repair. We're sending specialist teams and equipment to site first thing this morning to do this, and once they are on their way we'll advise a new time for power to be restored. We'll keep you updated with all of our progress, but if you would like more information about this type of fault; here's a short video <a href=\"https://bit.ly/2ScxQDZ.\" target=\"_blank\">https://bit.ly/2ScxQDZ.</a>",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-03-24T01:53:00",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-03-24T02:56:33",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-03-24T03:20:26",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z00037670INCD",
     "IncidentReference": "INCD-226928-Z",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 2,
     "CreationDateTime": "2021-03-24T01:54:38",
-    "RestoredDateTime": "2021-03-24T03:20:26",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-03-24T05:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-24T01:53:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 7,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 2,
+    "NoCallsReported": 5,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,25 +60,33 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-03-24T05:35:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 05:35 - Our staff have now confirmed that our substation equipment has operated again due to an underground cable fault which we'll need to pinpoint, excavate and repair. We're sending specialist teams and equipment to site first thing this morning to do this, and once they are on their way we'll advise a new time for power to be restored. We'll keep you updated with all of our progress, but if you would like more information about this type of fault; here's a short video https://bit.ly/2ScxQDZ.",
+        "LoggedTime": "2021-03-24T05:35:42.4"
+      }
+    ],
     "PostCodesAffected": [
       "PE30 3"
     ],
     "PostCodesRestored": [
       "PE303BJ",
-      "PE303EA",
       "PE303EB",
-      "PE303EE"
+      "PE303EE",
+      "PE303EA"
     ],
     "PostCodesPlanned": [
       "PE303BJ",
-      "PE303EA",
       "PE303EB",
-      "PE303EE"
+      "PE303EE",
+      "PE303EA"
     ],
-    "CustomersOnSupply": 33,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "CustomersOnSupply": 23,
+    "CustomersOffSupply": 10,
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -480,13 +494,13 @@
   ],
   "FullPostcodeData": [
     "PE303BJ",
-    "PE303EA",
     "PE303EB",
-    "PE303EE"
+    "PE303EE",
+    "PE303EA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "05:00 - 06:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
