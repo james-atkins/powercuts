@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-227201-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-227201-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-227201-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-03-25T14:05:23.497",
+      "Message": "Update at 14;05 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 208 customers in the Bures area to safely repair a faulty piece of equipment on the overhead network. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-03-25T12:02:17",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-25T11:11:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-25T14:02:44.873",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037781INCD",
     "IncidentReference": "INCD-227201-Z",
     "IncidentCategory": "26",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-25T08:42:15",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-25T14:02:44.873",
     "EstimatedRestorationDate": "2021-03-25T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-25T12:02:17",
-    "NoCustomerAffected": 17,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -54,19 +60,26 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-03-25T14:05:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 14;05 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 208 customers in the Bures area to safely repair a faulty piece of equipment on the overhead network. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-03-25T14:05:23.497"
+      }
+    ],
     "PostCodesAffected": [
       "CO8 5"
     ],
     "PostCodesRestored": [
+      "CO85BU",
+      "CO85DE",
+      "CO85DH",
       "CO85DY",
       "CO85DZ",
       "CO85EA",
       "CO85EB",
-      "CO85EW",
-      "CO85BU",
-      "CO85DE",
-      "CO85DH",
       "CO85EH",
       "CO85EJ",
       "CO85EL",
@@ -76,6 +89,7 @@
       "CO85ES",
       "CO85ET",
       "CO85EU",
+      "CO85EW",
       "CO85FB",
       "CO85JB",
       "CO85JD",
@@ -91,14 +105,13 @@
       "CO85LA"
     ],
     "PostCodesPlanned": [
+      "CO85BU",
+      "CO85DE",
+      "CO85DH",
       "CO85DY",
       "CO85DZ",
       "CO85EA",
       "CO85EB",
-      "CO85EW",
-      "CO85BU",
-      "CO85DE",
-      "CO85DH",
       "CO85EH",
       "CO85EJ",
       "CO85EL",
@@ -108,6 +121,7 @@
       "CO85ES",
       "CO85ET",
       "CO85EU",
+      "CO85EW",
       "CO85FB",
       "CO85JB",
       "CO85JD",
@@ -122,10 +136,10 @@
       "CO85JW",
       "CO85LA"
     ],
-    "CustomersOnSupply": 188,
-    "CustomersOffSupply": 17,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 205,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -383,14 +397,13 @@
     }
   ],
   "FullPostcodeData": [
+    "CO85BU",
+    "CO85DE",
+    "CO85DH",
     "CO85DY",
     "CO85DZ",
     "CO85EA",
     "CO85EB",
-    "CO85EW",
-    "CO85BU",
-    "CO85DE",
-    "CO85DH",
     "CO85EH",
     "CO85EJ",
     "CO85EL",
@@ -400,6 +413,7 @@
     "CO85ES",
     "CO85ET",
     "CO85EU",
+    "CO85EW",
     "CO85FB",
     "CO85JB",
     "CO85JD",
