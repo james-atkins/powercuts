@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-53056-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-53056-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-53056-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-23T20:34:13",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-25T11:48:07.71",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000cf40INCD",
     "IncidentReference": "INCD-53056-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 501,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-23T19:17:08",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-25T11:48:07.71",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-23T19:15:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -73,11 +73,11 @@
       "CT10 1"
     ],
     "PostCodesRestored": [
-      "CT101PH",
       "CT101NL",
       "CT101NR",
       "CT101NT",
       "CT101PG",
+      "CT101PH",
       "CT101QD",
       "CT101QG",
       "CT101QQ",
@@ -85,20 +85,20 @@
       "CT101SS"
     ],
     "PostCodesPlanned": [
-      "CT101PH",
       "CT101NL",
       "CT101NR",
       "CT101NT",
       "CT101PG",
+      "CT101PH",
       "CT101QD",
       "CT101QG",
       "CT101QQ",
       "CT101RU",
       "CT101SS"
     ],
-    "CustomersOnSupply": 169,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 170,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -557,11 +557,11 @@
     }
   ],
   "FullPostcodeData": [
-    "CT101PH",
     "CT101NL",
     "CT101NR",
     "CT101NT",
     "CT101PG",
+    "CT101PH",
     "CT101QD",
     "CT101QG",
     "CT101QQ",
