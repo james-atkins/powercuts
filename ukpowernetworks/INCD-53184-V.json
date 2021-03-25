@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-53184-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-53184-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-53184-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-25T10:32:23",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-25T18:18:00.29",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000cfc0INCD",
     "IncidentReference": "INCD-53184-V",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-25T10:15:47",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-25T18:18:00.29",
     "EstimatedRestorationDate": "2021-03-25T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-25T10:14:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -74,35 +74,35 @@
       "CT10 2"
     ],
     "PostCodesRestored": [
-      "CT101LU",
       "CT101AN",
       "CT101ER",
       "CT101LD",
       "CT101LF",
       "CT101LH",
       "CT101LR",
+      "CT101LU",
       "CT101LX",
       "CT101QS",
       "CT101RA",
       "CT102HQ"
     ],
     "PostCodesPlanned": [
-      "CT101LU",
       "CT101AN",
       "CT101ER",
       "CT101LD",
       "CT101LF",
       "CT101LH",
       "CT101LR",
+      "CT101LU",
       "CT101LX",
       "CT101QS",
       "CT101RA",
       "CT102HQ"
     ],
-    "CustomersOnSupply": 66,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 68,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1138,13 +1138,13 @@
     }
   ],
   "FullPostcodeData": [
-    "CT101LU",
     "CT101AN",
     "CT101ER",
     "CT101LD",
     "CT101LF",
     "CT101LH",
     "CT101LR",
+    "CT101LU",
     "CT101LX",
     "CT101QS",
     "CT101RA",
