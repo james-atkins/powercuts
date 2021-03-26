@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-258749-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-258749-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-258749-J",
   "Steps": [
     {
       "Active": true,
@@ -9,7 +9,7 @@
       "Name": null
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-25T23:30:00",
       "Message": "<p>We became aware of a power cut at 23:30. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -17,36 +17,36 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-26T02:30:56.707",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003f2bdINCD",
     "IncidentReference": "INCD-258749-J",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-25T23:23:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-26T02:30:56.707",
     "EstimatedRestorationDate": "2021-03-26T02:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-25T23:30:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -75,19 +75,19 @@
       "SW14 8"
     ],
     "PostCodesRestored": [
-      "SW148AG",
       "SW147JE",
-      "SW148"
+      "SW148",
+      "SW148AG"
     ],
     "PostCodesPlanned": [
-      "SW148AG",
       "SW147JE",
-      "SW148"
+      "SW148",
+      "SW148AG"
     ],
-    "CustomersOnSupply": 41,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 42,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -96,59 +96,6 @@
     "SW14 8"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.47195,
-        "lng": -0.26009
-      },
-      "Coordinates": [
-        {
-          "lat": 51.47296,
-          "lng": -0.26107
-        },
-        {
-          "lat": 51.47232,
-          "lng": -0.25986
-        },
-        {
-          "lat": 51.47217,
-          "lng": -0.25818
-        },
-        {
-          "lat": 51.47218,
-          "lng": -0.25749
-        },
-        {
-          "lat": 51.47201,
-          "lng": -0.25801
-        },
-        {
-          "lat": 51.47155,
-          "lng": -0.25933
-        },
-        {
-          "lat": 51.47149,
-          "lng": -0.25952
-        },
-        {
-          "lat": 51.47136,
-          "lng": -0.25989
-        },
-        {
-          "lat": 51.47122,
-          "lng": -0.26029
-        },
-        {
-          "lat": 51.47132,
-          "lng": -0.26143
-        },
-        {
-          "lat": 51.47296,
-          "lng": -0.26107
-        }
-      ],
-      "Postcode": "SW14 8"
-    },
     {
       "Center": {
         "lat": 51.47237,
@@ -225,12 +172,65 @@
         }
       ],
       "Postcode": "SW14 7"
+    },
+    {
+      "Center": {
+        "lat": 51.47195,
+        "lng": -0.26009
+      },
+      "Coordinates": [
+        {
+          "lat": 51.47296,
+          "lng": -0.26107
+        },
+        {
+          "lat": 51.47232,
+          "lng": -0.25986
+        },
+        {
+          "lat": 51.47217,
+          "lng": -0.25818
+        },
+        {
+          "lat": 51.47218,
+          "lng": -0.25749
+        },
+        {
+          "lat": 51.47201,
+          "lng": -0.25801
+        },
+        {
+          "lat": 51.47155,
+          "lng": -0.25933
+        },
+        {
+          "lat": 51.47149,
+          "lng": -0.25952
+        },
+        {
+          "lat": 51.47136,
+          "lng": -0.25989
+        },
+        {
+          "lat": 51.47122,
+          "lng": -0.26029
+        },
+        {
+          "lat": 51.47132,
+          "lng": -0.26143
+        },
+        {
+          "lat": 51.47296,
+          "lng": -0.26107
+        }
+      ],
+      "Postcode": "SW14 8"
     }
   ],
   "FullPostcodeData": [
-    "SW148AG",
     "SW147JE",
-    "SW148"
+    "SW148",
+    "SW148AG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
