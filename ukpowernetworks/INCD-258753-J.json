@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-258753-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-258753-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-258753-J",
   "Steps": [
     {
       "Active": true,
@@ -10,7 +10,7 @@
     },
     {
       "Active": false,
-      "Date": "2021-03-26T05:48:45",
+      "Date": "2021-03-26T05:48:00",
       "Message": "<p>We became aware of a power cut at 05:48. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-26T06:43:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-26T07:04:15.24",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003f2c1INCD",
     "IncidentReference": "INCD-258753-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-26T05:53:21",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-26T07:04:15.24",
     "EstimatedRestorationDate": "2021-03-26T09:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-03-26T05:48:45",
+    "ReceivedDate": "2021-03-26T05:48:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
@@ -93,9 +93,9 @@
       "IG75QB",
       "IG76BF"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 126,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 126,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
