@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-53353-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-53353-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-53353-V",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-27T13:09:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-27T14:06:49.957",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000d069INCD",
     "IncidentReference": "INCD-53353-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-27T11:28:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-27T14:06:49.957",
     "EstimatedRestorationDate": "2021-03-27T16:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-27T11:20:24",
@@ -68,9 +68,9 @@
       "CR52HS",
       "CR52HT"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 13,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 13,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
