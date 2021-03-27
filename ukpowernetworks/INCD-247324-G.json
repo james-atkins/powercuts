@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247324-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247324-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247324-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-26T20:16:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-27T00:11:18.677",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c61cINCD",
     "IncidentReference": "INCD-247324-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-26T17:36:38",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-27T00:11:18.677",
     "EstimatedRestorationDate": "2021-03-27T03:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-26T17:36:00",
-    "NoCustomerAffected": 9,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -77,19 +77,19 @@
       "ME21HT",
       "ME38SF",
       "ME38SL",
-      "ME38SS",
-      "ME38SN"
+      "ME38SN",
+      "ME38SS"
     ],
     "PostCodesPlanned": [
       "ME21HT",
       "ME38SF",
       "ME38SL",
-      "ME38SS",
-      "ME38SN"
+      "ME38SN",
+      "ME38SS"
     ],
-    "CustomersOnSupply": 17,
-    "CustomersOffSupply": 17,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 34,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1045,8 +1045,8 @@
     "ME21HT",
     "ME38SF",
     "ME38SL",
-    "ME38SS",
-    "ME38SN"
+    "ME38SN",
+    "ME38SS"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
