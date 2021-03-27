@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-227622-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-227622-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-227622-Z",
   "Steps": [
     {
       "Active": false,
@@ -9,49 +9,49 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
-      "Date": "2021-03-27T02:34:07",
+      "Active": false,
+      "Date": null,
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-27T03:46:10.347",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037926INCD",
     "IncidentReference": "INCD-227622-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-27T02:12:25",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-27T03:46:10.347",
     "EstimatedRestorationDate": "2021-03-27T05:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-27T02:11:00",
-    "NoCustomerAffected": 20,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
       "Id": null,
-      "Name": "PAUL (R5)",
-      "EstimatedTimeOfArrival": "2021-03-27T03:00:00",
-      "DispatchedDate": "2021-03-27T02:34:07",
+      "Name": null,
+      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
+      "DispatchedDate": null,
       "ArrivalDate": null,
-      "StatusId": 5
+      "StatusId": 0
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -76,9 +76,9 @@
       "SG156YA",
       "SG156YH"
     ],
-    "CustomersOnSupply": 52,
-    "CustomersOffSupply": 20,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 72,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
