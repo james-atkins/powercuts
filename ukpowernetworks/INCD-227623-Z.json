@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-227623-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-227623-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-227623-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-27T03:04:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-27T10:47:30.34",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037927INCD",
     "IncidentReference": "INCD-227623-Z",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-27T02:25:37",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-27T10:47:30.34",
     "EstimatedRestorationDate": "2021-03-27T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-27T02:24:00",
-    "NoCustomerAffected": 9,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -74,7 +74,6 @@
     ],
     "PostCodesRestored": [
       "RM38AG",
-      "RM38YW",
       "RM38AN",
       "RM38AQ",
       "RM38AW",
@@ -82,11 +81,11 @@
       "RM38BG",
       "RM38BQ",
       "RM38BW",
-      "RM38HX"
+      "RM38HX",
+      "RM38YW"
     ],
     "PostCodesPlanned": [
       "RM38AG",
-      "RM38YW",
       "RM38AN",
       "RM38AQ",
       "RM38AW",
@@ -94,12 +93,13 @@
       "RM38BG",
       "RM38BQ",
       "RM38BW",
-      "RM38HX"
+      "RM38HX",
+      "RM38YW"
     ],
-    "CustomersOnSupply": 70,
-    "CustomersOffSupply": 28,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 98,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -558,7 +558,6 @@
   ],
   "FullPostcodeData": [
     "RM38AG",
-    "RM38YW",
     "RM38AN",
     "RM38AQ",
     "RM38AW",
@@ -566,11 +565,12 @@
     "RM38BG",
     "RM38BQ",
     "RM38BW",
-    "RM38HX"
+    "RM38HX",
+    "RM38YW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "11:30 - 12:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
