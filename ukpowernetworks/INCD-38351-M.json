@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-38351-M",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-38351-M",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-38351-M",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-28T10:32:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-28T14:47:06.013",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "M000095cfINCD",
     "IncidentReference": "INCD-38351-M",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-28T04:13:47",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-28T14:47:06.013",
     "EstimatedRestorationDate": "2021-03-28T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-28T04:09:00",
-    "NoCustomerAffected": 83,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 31,
     "Latitude": 0.0,
@@ -78,9 +78,9 @@
       "NW67LR",
       "NW67LW",
       "NW67LY",
-      "NW67ST",
       "NW67NA",
-      "NW67NG"
+      "NW67NG",
+      "NW67ST"
     ],
     "PostCodesPlanned": [
       "NW67LH",
@@ -88,13 +88,13 @@
       "NW67LR",
       "NW67LW",
       "NW67LY",
-      "NW67ST",
       "NW67NA",
-      "NW67NG"
+      "NW67NG",
+      "NW67ST"
     ],
-    "CustomersOnSupply": 70,
-    "CustomersOffSupply": 83,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 153,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -714,9 +714,9 @@
     "NW67LR",
     "NW67LW",
     "NW67LY",
-    "NW67ST",
     "NW67NA",
-    "NW67NG"
+    "NW67NG",
+    "NW67ST"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
