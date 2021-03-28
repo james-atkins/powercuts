@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-227758-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-227758-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-227758-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-28T17:22:33.443",
-      "Message": "Update at 17:22 - Thanks for bearing with us over today. Our team of cable jointers have now identified a suspected section of faulted underground cabling using their specialist equipment. Our digging team will now begin excavations, and this can take some time depending on the surface material, and how much space is needed to allow our engineers to assess the fault and make their repairs safely. Based on the amount of work that may be required, our field staff have passed on a more realistic timeframe of between 21:30 and 22:30 for power to be safely restored. We're sorry for another delay, but we'll continue to keep you updated with our progress.",
+      "Date": "2021-03-28T18:29:37.55",
+      "Message": "Update at 18:29 - We can now confirm that all power in the Brunswick Road area should be back on. The issue was caused by an underground cable fault, which our engineers have now safely diverted power around. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-28T12:53:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-28T18:23:37.177",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000379aeINCD",
     "IncidentReference": "INCD-227758-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-28T12:31:59",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-28T18:23:37.177",
     "EstimatedRestorationDate": "2021-03-28T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-28T12:30:15",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-28T17:22:00",
+        "ActualEventTime": "2021-03-28T18:29:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 17:22 - Thanks for bearing with us over today. Our team of cable jointers have now identified a suspected section of faulted underground cabling using their specialist equipment. Our digging team will now begin excavations, and this can take some time depending on the surface material, and how much space is needed to allow our engineers to assess the fault and make their repairs safely. Based on the amount of work that may be required, our field staff have passed on a more realistic timeframe of between 21:30 and 22:30 for power to be safely restored. We're sorry for another delay, but we'll continue to keep you updated with our progress.",
-        "LoggedTime": "2021-03-28T17:22:33.443"
+        "Comment": "Update at 18:29 - We can now confirm that all power in the Brunswick Road area should be back on. The issue was caused by an underground cable fault, which our engineers have now safely diverted power around. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-03-28T18:29:37.55"
       }
     ],
     "PostCodesAffected": [
@@ -74,9 +74,6 @@
       "SS13 0"
     ],
     "PostCodesRestored": [
-      "SS12UJ",
-      "SS12UL",
-      "SS130XX",
       "SS12SG",
       "SS12SH",
       "SS12SJ",
@@ -87,13 +84,13 @@
       "SS12UF",
       "SS12UG",
       "SS12UH",
+      "SS12UJ",
+      "SS12UL",
       "SS12UN",
-      "SS12UW"
+      "SS12UW",
+      "SS130XX"
     ],
     "PostCodesPlanned": [
-      "SS12UJ",
-      "SS12UL",
-      "SS130XX",
       "SS12SG",
       "SS12SH",
       "SS12SJ",
@@ -104,12 +101,15 @@
       "SS12UF",
       "SS12UG",
       "SS12UH",
+      "SS12UJ",
+      "SS12UL",
       "SS12UN",
-      "SS12UW"
+      "SS12UW",
+      "SS130XX"
     ],
-    "CustomersOnSupply": 226,
-    "CustomersOffSupply": 19,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 245,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -601,9 +601,6 @@
     }
   ],
   "FullPostcodeData": [
-    "SS12UJ",
-    "SS12UL",
-    "SS130XX",
     "SS12SG",
     "SS12SH",
     "SS12SJ",
@@ -614,8 +611,11 @@
     "SS12UF",
     "SS12UG",
     "SS12UH",
+    "SS12UJ",
+    "SS12UL",
     "SS12UN",
-    "SS12UW"
+    "SS12UW",
+    "SS130XX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
