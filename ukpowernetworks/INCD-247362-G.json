@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247362-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247362-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247362-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-28T06:42:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-28T07:17:31.1",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c642INCD",
     "IncidentReference": "INCD-247362-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-28T04:15:55",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-28T07:17:31.1",
     "EstimatedRestorationDate": "2021-03-28T08:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-28T04:12:00",
-    "NoCustomerAffected": 81,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -59,27 +59,27 @@
       "ME10 2"
     ],
     "PostCodesRestored": [
+      "ME102GE",
+      "ME102SA",
       "ME102SB",
       "ME102SE",
       "ME102SF",
-      "ME102GE",
-      "ME102SA",
       "ME102SH",
       "ME102SL"
     ],
     "PostCodesPlanned": [
+      "ME102GE",
+      "ME102SA",
       "ME102SB",
       "ME102SE",
       "ME102SF",
-      "ME102GE",
-      "ME102SA",
       "ME102SH",
       "ME102SL"
     ],
-    "CustomersOnSupply": 17,
-    "CustomersOffSupply": 81,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 98,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -489,11 +489,11 @@
     }
   ],
   "FullPostcodeData": [
+    "ME102GE",
+    "ME102SA",
     "ME102SB",
     "ME102SE",
     "ME102SF",
-    "ME102GE",
-    "ME102SA",
     "ME102SH",
     "ME102SL"
   ],
