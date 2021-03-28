@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-53427-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-53427-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-53427-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-28T22:18:38.153",
-      "Message": "Update at 22:18 - As it's approaching that time of night where most of our customers are going to sleep, we wanted to let you know that we will continue to send text messages throughout the night with progress updates. If you want to continue receiving updates but prefer not to be disturbed, you can place your phone on silent or activate the Do Not Disturb settings on smart phones. If you no longer want to receive updates, please text CANCEL to 80876 (standard text fees apply). Thank you.",
+      "Date": "2021-03-28T23:38:16.797",
+      "Message": "Update at 23:37 - Our engineers have been able to divert electricity around the faulty part of the network, restoring power to some customers. We know your power may now be back on, however; we'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-28T20:45:05",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-28T23:39:14.077",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000d0b3INCD",
     "IncidentReference": "INCD-53427-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-28T19:32:28",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-28T23:39:14.077",
     "EstimatedRestorationDate": "2021-03-29T00:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-28T19:32:00",
-    "NoCustomerAffected": 46,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 11,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-28T22:18:00",
+        "ActualEventTime": "2021-03-28T23:37:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 22:18 - As it's approaching that time of night where most of our customers are going to sleep, we wanted to let you know that we will continue to send text messages throughout the night with progress updates. If you want to continue receiving updates but prefer not to be disturbed, you can place your phone on silent or activate the Do Not Disturb settings on smart phones. If you no longer want to receive updates, please text CANCEL to 80876 (standard text fees apply). Thank you.",
-        "LoggedTime": "2021-03-28T22:18:38.153"
+        "Comment": "Update at 23:37 - Our engineers have been able to divert electricity around the faulty part of the network, restoring power to some customers. We know your power may now be back on, however; we'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
+        "LoggedTime": "2021-03-28T23:38:16.797"
       }
     ],
     "PostCodesAffected": [
@@ -88,10 +88,10 @@
       "ME101HR",
       "ME101HS"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 69,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 69,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
