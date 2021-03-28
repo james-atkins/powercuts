@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-38354-M",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-38354-M",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-38354-M",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-28T10:04:41.14",
-      "Message": "Update at 10:04 - Sorry your power has gone off again today. We believed all power was restored but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers are still on site and we will provide an estimated time frame for power to be back on as soon as possible.",
+      "Date": "2021-03-28T10:22:43.607",
+      "Message": "Update at 10:22 - To allow our engineers time to carry out investigations and repairs to the network, we're estimating power to be restored between 11:30 and 12:30. We'll keep you updated with their progress. If you have a vulnerable person at home, please call us on 08003163105 and we'll see if we can provide any additional support.",
       "Name": null
     },
     {
@@ -21,29 +21,29 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-28T07:40:36",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-28T10:28:30.257",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "M000095d2INCD",
     "IncidentReference": "INCD-38354-M",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-28T05:31:06",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-03-28T10:00:00",
+    "RestoredDateTime": "2021-03-28T10:28:30.257",
+    "EstimatedRestorationDate": "2021-03-28T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-28T05:29:00",
     "NoCustomerAffected": 0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-28T10:04:00",
+        "ActualEventTime": "2021-03-28T10:22:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:04 - Sorry your power has gone off again today. We believed all power was restored but it seems there may be a bigger underlying issue. This is making our network weak and causing substation equipment to fault. Our engineers are still on site and we will provide an estimated time frame for power to be back on as soon as possible.",
-        "LoggedTime": "2021-03-28T10:04:41.14"
+        "Comment": "Update at 10:22 - To allow our engineers time to carry out investigations and repairs to the network, we're estimating power to be restored between 11:30 and 12:30. We'll keep you updated with their progress. If you have a vulnerable person at home, please call us on 08003163105 and we'll see if we can provide any additional support.",
+        "LoggedTime": "2021-03-28T10:22:43.607"
       }
     ],
     "PostCodesAffected": [
@@ -87,7 +87,7 @@
     ],
     "CustomersOnSupply": 60,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -591,7 +591,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "09:30 - 10:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "11:30 - 12:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
