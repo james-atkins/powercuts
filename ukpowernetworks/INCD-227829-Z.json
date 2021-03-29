@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-227829-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-227829-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-227829-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-29T07:21:31",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-29T09:51:38.543",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000379f5INCD",
     "IncidentReference": "INCD-227829-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-29T06:01:25",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-29T09:51:38.543",
     "EstimatedRestorationDate": "2021-03-29T09:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-29T07:57:32",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 4,
+    "NoCallsReported": 0,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -74,22 +74,22 @@
       "SS4 1"
     ],
     "PostCodesRestored": [
-      "SS26RH",
-      "SS26UT",
       "SS26FW",
+      "SS26RH",
       "SS26UN",
+      "SS26UT",
       "SS41YG"
     ],
     "PostCodesPlanned": [
-      "SS26RH",
-      "SS26UT",
       "SS26FW",
+      "SS26RH",
       "SS26UN",
+      "SS26UT",
       "SS41YG"
     ],
-    "CustomersOnSupply": 9,
-    "CustomersOffSupply": 38,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 47,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1402,10 +1402,10 @@
     }
   ],
   "FullPostcodeData": [
-    "SS26RH",
-    "SS26UT",
     "SS26FW",
+    "SS26RH",
     "SS26UN",
+    "SS26UT",
     "SS41YG"
   ],
   "PinLatitude": null,
