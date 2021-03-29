@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-258917-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-258917-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-258917-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-28T22:00:48",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-29T11:51:17.963",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003f365INCD",
     "IncidentReference": "INCD-258917-J",
     "IncidentCategory": "93",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-28T14:18:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-29T11:51:17.963",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-29T09:11:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -73,22 +73,22 @@
       "W14 8"
     ],
     "PostCodesRestored": [
-      "W148UH",
       "W148RS",
       "W148RU",
       "W148RZ",
-      "W148SW"
+      "W148SW",
+      "W148UH"
     ],
     "PostCodesPlanned": [
-      "W148UH",
       "W148RS",
       "W148RU",
       "W148RZ",
-      "W148SW"
+      "W148SW",
+      "W148UH"
     ],
-    "CustomersOnSupply": 166,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 167,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -655,11 +655,11 @@
     }
   ],
   "FullPostcodeData": [
-    "W148UH",
     "W148RS",
     "W148RU",
     "W148RZ",
-    "W148SW"
+    "W148SW",
+    "W148UH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
