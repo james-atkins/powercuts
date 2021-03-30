@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-228132-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-228132-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-228132-Z",
   "Steps": [
     {
       "Active": true,
@@ -15,40 +15,40 @@
       "Name": "We are restoring customers automatically"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-30T11:48:55",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-03-30T12:28:10",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-30T12:28:01.39",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037b24INCD",
     "IncidentReference": "INCD-228132-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-30T11:38:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-30T12:28:01.39",
     "EstimatedRestorationDate": "2021-03-30T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-30T11:38:28",
-    "NoCustomerAffected": 669,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 14,
+    "NoCallsReported": 21,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -56,8 +56,8 @@
       "Name": "SIMON (R5) -  U/G & O/H S",
       "EstimatedTimeOfArrival": "2021-03-30T12:35:00",
       "DispatchedDate": "2021-03-30T11:48:55",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-03-30T12:28:10",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -83,51 +83,9 @@
       "MK41 0"
     ],
     "PostCodesRestored": [
-      "CM16BF",
-      "CM219BD",
-      "CM219BE",
-      "CM219BG",
-      "CM219BN",
-      "CM219BQ",
-      "CM219HX",
-      "CM219HY",
-      "CM219JA",
-      "CM219JE",
-      "CM219JX",
-      "CM219JY",
-      "CM219JZ",
-      "CM219LB",
-      "CM219PQ",
-      "CM219PX",
-      "CM226HP",
-      "CM227DR",
-      "CM227GX",
-      "CM227LD",
-      "CM227LH",
-      "CM227LN",
-      "CM227LP",
-      "CM227LR",
-      "CM227LS",
-      "CM227LT",
-      "CM227LU",
-      "CM227LW",
-      "CM227LX",
-      "CM227LY",
-      "CM227LZ",
-      "CM227NA",
-      "CM227NB",
-      "CM227ND",
-      "CM227NE",
-      "CM227NH",
-      "CM227NJ",
-      "CM227NL",
-      "CM227NN",
-      "CM227NP",
-      "CM227NR",
-      "CM227NW",
-      "CM227NX",
       "CB215HP",
       "CB218HR",
+      "CM16BF",
       "CM219AB",
       "CM219AD",
       "CM219AE",
@@ -145,9 +103,14 @@
       "CM219AZ",
       "CM219BA",
       "CM219BB",
+      "CM219BD",
+      "CM219BE",
+      "CM219BG",
       "CM219BH",
       "CM219BJ",
       "CM219BL",
+      "CM219BN",
+      "CM219BQ",
       "CM219BW",
       "CM219DA",
       "CM219DB",
@@ -172,14 +135,22 @@
       "CM219HL",
       "CM219HN",
       "CM219HR",
+      "CM219HX",
+      "CM219HY",
       "CM219HZ",
+      "CM219JA",
       "CM219JB",
+      "CM219JE",
       "CM219JG",
       "CM219JH",
       "CM219JJ",
       "CM219JN",
       "CM219JS",
       "CM219JT",
+      "CM219JX",
+      "CM219JY",
+      "CM219JZ",
+      "CM219LB",
       "CM219LD",
       "CM219LF",
       "CM219LG",
@@ -215,11 +186,13 @@
       "CM219PF",
       "CM219PN",
       "CM219PP",
+      "CM219PQ",
       "CM219PR",
       "CM219PS",
       "CM219PT",
       "CM219PU",
       "CM219PW",
+      "CM219PX",
       "CM219PY",
       "CM219PZ",
       "CM219QA",
@@ -233,8 +206,35 @@
       "CM219RF",
       "CM219RG",
       "CM219TD",
+      "CM226HP",
+      "CM227DR",
+      "CM227GX",
+      "CM227LD",
+      "CM227LH",
+      "CM227LN",
+      "CM227LP",
+      "CM227LR",
+      "CM227LS",
+      "CM227LT",
+      "CM227LU",
+      "CM227LW",
+      "CM227LX",
+      "CM227LY",
+      "CM227LZ",
+      "CM227NA",
+      "CM227NB",
+      "CM227ND",
+      "CM227NE",
       "CM227NF",
       "CM227NG",
+      "CM227NH",
+      "CM227NJ",
+      "CM227NL",
+      "CM227NN",
+      "CM227NP",
+      "CM227NR",
+      "CM227NW",
+      "CM227NX",
       "CM227SE",
       "CM227SG",
       "CM227SH",
@@ -248,51 +248,9 @@
       "MK410RH"
     ],
     "PostCodesPlanned": [
-      "CM16BF",
-      "CM219BD",
-      "CM219BE",
-      "CM219BG",
-      "CM219BN",
-      "CM219BQ",
-      "CM219HX",
-      "CM219HY",
-      "CM219JA",
-      "CM219JE",
-      "CM219JX",
-      "CM219JY",
-      "CM219JZ",
-      "CM219LB",
-      "CM219PQ",
-      "CM219PX",
-      "CM226HP",
-      "CM227DR",
-      "CM227GX",
-      "CM227LD",
-      "CM227LH",
-      "CM227LN",
-      "CM227LP",
-      "CM227LR",
-      "CM227LS",
-      "CM227LT",
-      "CM227LU",
-      "CM227LW",
-      "CM227LX",
-      "CM227LY",
-      "CM227LZ",
-      "CM227NA",
-      "CM227NB",
-      "CM227ND",
-      "CM227NE",
-      "CM227NH",
-      "CM227NJ",
-      "CM227NL",
-      "CM227NN",
-      "CM227NP",
-      "CM227NR",
-      "CM227NW",
-      "CM227NX",
       "CB215HP",
       "CB218HR",
+      "CM16BF",
       "CM219AB",
       "CM219AD",
       "CM219AE",
@@ -310,9 +268,14 @@
       "CM219AZ",
       "CM219BA",
       "CM219BB",
+      "CM219BD",
+      "CM219BE",
+      "CM219BG",
       "CM219BH",
       "CM219BJ",
       "CM219BL",
+      "CM219BN",
+      "CM219BQ",
       "CM219BW",
       "CM219DA",
       "CM219DB",
@@ -337,14 +300,22 @@
       "CM219HL",
       "CM219HN",
       "CM219HR",
+      "CM219HX",
+      "CM219HY",
       "CM219HZ",
+      "CM219JA",
       "CM219JB",
+      "CM219JE",
       "CM219JG",
       "CM219JH",
       "CM219JJ",
       "CM219JN",
       "CM219JS",
       "CM219JT",
+      "CM219JX",
+      "CM219JY",
+      "CM219JZ",
+      "CM219LB",
       "CM219LD",
       "CM219LF",
       "CM219LG",
@@ -380,11 +351,13 @@
       "CM219PF",
       "CM219PN",
       "CM219PP",
+      "CM219PQ",
       "CM219PR",
       "CM219PS",
       "CM219PT",
       "CM219PU",
       "CM219PW",
+      "CM219PX",
       "CM219PY",
       "CM219PZ",
       "CM219QA",
@@ -398,8 +371,35 @@
       "CM219RF",
       "CM219RG",
       "CM219TD",
+      "CM226HP",
+      "CM227DR",
+      "CM227GX",
+      "CM227LD",
+      "CM227LH",
+      "CM227LN",
+      "CM227LP",
+      "CM227LR",
+      "CM227LS",
+      "CM227LT",
+      "CM227LU",
+      "CM227LW",
+      "CM227LX",
+      "CM227LY",
+      "CM227LZ",
+      "CM227NA",
+      "CM227NB",
+      "CM227ND",
+      "CM227NE",
       "CM227NF",
       "CM227NG",
+      "CM227NH",
+      "CM227NJ",
+      "CM227NL",
+      "CM227NN",
+      "CM227NP",
+      "CM227NR",
+      "CM227NW",
+      "CM227NX",
       "CM227SE",
       "CM227SG",
       "CM227SH",
@@ -412,9 +412,9 @@
       "IP288JS",
       "MK410RH"
     ],
-    "CustomersOnSupply": 2275,
-    "CustomersOffSupply": 669,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 2944,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -432,6 +432,167 @@
     "MK41 0"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 52.14624,
+        "lng": 0.34984
+      },
+      "Coordinates": [
+        {
+          "lat": 52.15242,
+          "lng": 0.38333
+        },
+        {
+          "lat": 52.15161,
+          "lng": 0.38534
+        },
+        {
+          "lat": 52.14593,
+          "lng": 0.39007000000000003
+        },
+        {
+          "lat": 52.14583,
+          "lng": 0.39024
+        },
+        {
+          "lat": 52.14513,
+          "lng": 0.39097
+        },
+        {
+          "lat": 52.1382,
+          "lng": 0.38935
+        },
+        {
+          "lat": 52.12738,
+          "lng": 0.4045
+        },
+        {
+          "lat": 52.1267,
+          "lng": 0.37942
+        },
+        {
+          "lat": 52.13033,
+          "lng": 0.3734
+        },
+        {
+          "lat": 52.12538,
+          "lng": 0.3651
+        },
+        {
+          "lat": 52.12475,
+          "lng": 0.36342
+        },
+        {
+          "lat": 52.12433,
+          "lng": 0.35994
+        },
+        {
+          "lat": 52.12443,
+          "lng": 0.35321
+        },
+        {
+          "lat": 52.1298,
+          "lng": 0.34561
+        },
+        {
+          "lat": 52.12987,
+          "lng": 0.34409
+        },
+        {
+          "lat": 52.12985,
+          "lng": 0.34073
+        },
+        {
+          "lat": 52.13101,
+          "lng": 0.33931
+        },
+        {
+          "lat": 52.13778,
+          "lng": 0.33284
+        },
+        {
+          "lat": 52.1384,
+          "lng": 0.33256
+        },
+        {
+          "lat": 52.14124,
+          "lng": 0.32837
+        },
+        {
+          "lat": 52.14447,
+          "lng": 0.32317
+        },
+        {
+          "lat": 52.14596,
+          "lng": 0.31478
+        },
+        {
+          "lat": 52.14768,
+          "lng": 0.31115
+        },
+        {
+          "lat": 52.15022,
+          "lng": 0.30596
+        },
+        {
+          "lat": 52.1505,
+          "lng": 0.30375
+        },
+        {
+          "lat": 52.15662,
+          "lng": 0.29848
+        },
+        {
+          "lat": 52.16442,
+          "lng": 0.29846
+        },
+        {
+          "lat": 52.16454,
+          "lng": 0.29874
+        },
+        {
+          "lat": 52.16662,
+          "lng": 0.32048
+        },
+        {
+          "lat": 52.16677,
+          "lng": 0.33226
+        },
+        {
+          "lat": 52.1644,
+          "lng": 0.33365
+        },
+        {
+          "lat": 52.1595,
+          "lng": 0.34615
+        },
+        {
+          "lat": 52.16037,
+          "lng": 0.34911
+        },
+        {
+          "lat": 52.16052,
+          "lng": 0.35205
+        },
+        {
+          "lat": 52.16193,
+          "lng": 0.36562
+        },
+        {
+          "lat": 52.15522,
+          "lng": 0.37276
+        },
+        {
+          "lat": 52.15246,
+          "lng": 0.3795
+        },
+        {
+          "lat": 52.15242,
+          "lng": 0.38333
+        }
+      ],
+      "Postcode": "CB21 5"
+    },
     {
       "Center": {
         "lat": 51.7557,
@@ -2066,167 +2227,6 @@
     },
     {
       "Center": {
-        "lat": 52.14624,
-        "lng": 0.34984
-      },
-      "Coordinates": [
-        {
-          "lat": 52.15242,
-          "lng": 0.38333
-        },
-        {
-          "lat": 52.15161,
-          "lng": 0.38534
-        },
-        {
-          "lat": 52.14593,
-          "lng": 0.39007000000000003
-        },
-        {
-          "lat": 52.14583,
-          "lng": 0.39024
-        },
-        {
-          "lat": 52.14513,
-          "lng": 0.39097
-        },
-        {
-          "lat": 52.1382,
-          "lng": 0.38935
-        },
-        {
-          "lat": 52.12738,
-          "lng": 0.4045
-        },
-        {
-          "lat": 52.1267,
-          "lng": 0.37942
-        },
-        {
-          "lat": 52.13033,
-          "lng": 0.3734
-        },
-        {
-          "lat": 52.12538,
-          "lng": 0.3651
-        },
-        {
-          "lat": 52.12475,
-          "lng": 0.36342
-        },
-        {
-          "lat": 52.12433,
-          "lng": 0.35994
-        },
-        {
-          "lat": 52.12443,
-          "lng": 0.35321
-        },
-        {
-          "lat": 52.1298,
-          "lng": 0.34561
-        },
-        {
-          "lat": 52.12987,
-          "lng": 0.34409
-        },
-        {
-          "lat": 52.12985,
-          "lng": 0.34073
-        },
-        {
-          "lat": 52.13101,
-          "lng": 0.33931
-        },
-        {
-          "lat": 52.13778,
-          "lng": 0.33284
-        },
-        {
-          "lat": 52.1384,
-          "lng": 0.33256
-        },
-        {
-          "lat": 52.14124,
-          "lng": 0.32837
-        },
-        {
-          "lat": 52.14447,
-          "lng": 0.32317
-        },
-        {
-          "lat": 52.14596,
-          "lng": 0.31478
-        },
-        {
-          "lat": 52.14768,
-          "lng": 0.31115
-        },
-        {
-          "lat": 52.15022,
-          "lng": 0.30596
-        },
-        {
-          "lat": 52.1505,
-          "lng": 0.30375
-        },
-        {
-          "lat": 52.15662,
-          "lng": 0.29848
-        },
-        {
-          "lat": 52.16442,
-          "lng": 0.29846
-        },
-        {
-          "lat": 52.16454,
-          "lng": 0.29874
-        },
-        {
-          "lat": 52.16662,
-          "lng": 0.32048
-        },
-        {
-          "lat": 52.16677,
-          "lng": 0.33226
-        },
-        {
-          "lat": 52.1644,
-          "lng": 0.33365
-        },
-        {
-          "lat": 52.1595,
-          "lng": 0.34615
-        },
-        {
-          "lat": 52.16037,
-          "lng": 0.34911
-        },
-        {
-          "lat": 52.16052,
-          "lng": 0.35205
-        },
-        {
-          "lat": 52.16193,
-          "lng": 0.36562
-        },
-        {
-          "lat": 52.15522,
-          "lng": 0.37276
-        },
-        {
-          "lat": 52.15246,
-          "lng": 0.3795
-        },
-        {
-          "lat": 52.15242,
-          "lng": 0.38333
-        }
-      ],
-      "Postcode": "CB21 5"
-    },
-    {
-      "Center": {
         "lat": 51.85253,
         "lng": 0.14105
       },
@@ -3715,51 +3715,9 @@
     }
   ],
   "FullPostcodeData": [
-    "CM16BF",
-    "CM219BD",
-    "CM219BE",
-    "CM219BG",
-    "CM219BN",
-    "CM219BQ",
-    "CM219HX",
-    "CM219HY",
-    "CM219JA",
-    "CM219JE",
-    "CM219JX",
-    "CM219JY",
-    "CM219JZ",
-    "CM219LB",
-    "CM219PQ",
-    "CM219PX",
-    "CM226HP",
-    "CM227DR",
-    "CM227GX",
-    "CM227LD",
-    "CM227LH",
-    "CM227LN",
-    "CM227LP",
-    "CM227LR",
-    "CM227LS",
-    "CM227LT",
-    "CM227LU",
-    "CM227LW",
-    "CM227LX",
-    "CM227LY",
-    "CM227LZ",
-    "CM227NA",
-    "CM227NB",
-    "CM227ND",
-    "CM227NE",
-    "CM227NH",
-    "CM227NJ",
-    "CM227NL",
-    "CM227NN",
-    "CM227NP",
-    "CM227NR",
-    "CM227NW",
-    "CM227NX",
     "CB215HP",
     "CB218HR",
+    "CM16BF",
     "CM219AB",
     "CM219AD",
     "CM219AE",
@@ -3777,9 +3735,14 @@
     "CM219AZ",
     "CM219BA",
     "CM219BB",
+    "CM219BD",
+    "CM219BE",
+    "CM219BG",
     "CM219BH",
     "CM219BJ",
     "CM219BL",
+    "CM219BN",
+    "CM219BQ",
     "CM219BW",
     "CM219DA",
     "CM219DB",
@@ -3804,14 +3767,22 @@
     "CM219HL",
     "CM219HN",
     "CM219HR",
+    "CM219HX",
+    "CM219HY",
     "CM219HZ",
+    "CM219JA",
     "CM219JB",
+    "CM219JE",
     "CM219JG",
     "CM219JH",
     "CM219JJ",
     "CM219JN",
     "CM219JS",
     "CM219JT",
+    "CM219JX",
+    "CM219JY",
+    "CM219JZ",
+    "CM219LB",
     "CM219LD",
     "CM219LF",
     "CM219LG",
@@ -3847,11 +3818,13 @@
     "CM219PF",
     "CM219PN",
     "CM219PP",
+    "CM219PQ",
     "CM219PR",
     "CM219PS",
     "CM219PT",
     "CM219PU",
     "CM219PW",
+    "CM219PX",
     "CM219PY",
     "CM219PZ",
     "CM219QA",
@@ -3865,8 +3838,35 @@
     "CM219RF",
     "CM219RG",
     "CM219TD",
+    "CM226HP",
+    "CM227DR",
+    "CM227GX",
+    "CM227LD",
+    "CM227LH",
+    "CM227LN",
+    "CM227LP",
+    "CM227LR",
+    "CM227LS",
+    "CM227LT",
+    "CM227LU",
+    "CM227LW",
+    "CM227LX",
+    "CM227LY",
+    "CM227LZ",
+    "CM227NA",
+    "CM227NB",
+    "CM227ND",
+    "CM227NE",
     "CM227NF",
     "CM227NG",
+    "CM227NH",
+    "CM227NJ",
+    "CM227NL",
+    "CM227NN",
+    "CM227NP",
+    "CM227NR",
+    "CM227NW",
+    "CM227NX",
     "CM227SE",
     "CM227SG",
     "CM227SH",
@@ -3881,7 +3881,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "13:00 - 14:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
