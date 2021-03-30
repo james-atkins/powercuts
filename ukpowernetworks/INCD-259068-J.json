@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-259068-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-259068-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-259068-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-03-30T21:56:17.4",
-      "Message": "Update at 21:55 - As it's approaching that time of night where most of our customers are going to sleep, we wanted to let you know that we will continue to send text messages throughout the night with progress updates. If you want to continue receiving updates but prefer not to be disturbed, you can place your phone on silent or activate the Do Not Disturb settings on smart phones. If you no longer want to receive updates, please text CANCEL to 80876 (standard text fees apply). Thank you.",
+      "Date": "2021-03-30T22:25:09.2",
+      "Message": "Update at 22:24 - We believe our engineers have been able to restore power to all 1,681 customers in the W12 7 area, by diverting power around the faulty underground cable. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -15,7 +15,7 @@
       "Name": "We are restoring customers automatically"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-30T20:57:44",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
@@ -23,30 +23,30 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-30T22:23:19.257",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003f3fcINCD",
     "IncidentReference": "INCD-259068-J",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-30T20:49:58",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-30T22:23:19.257",
     "EstimatedRestorationDate": "2021-03-30T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-30T20:49:58",
-    "NoCustomerAffected": 247,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 11,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-03-30T21:55:00",
+        "ActualEventTime": "2021-03-30T22:24:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 21:55 - As it's approaching that time of night where most of our customers are going to sleep, we wanted to let you know that we will continue to send text messages throughout the night with progress updates. If you want to continue receiving updates but prefer not to be disturbed, you can place your phone on silent or activate the Do Not Disturb settings on smart phones. If you no longer want to receive updates, please text CANCEL to 80876 (standard text fees apply). Thank you.",
-        "LoggedTime": "2021-03-30T21:56:17.4"
+        "Comment": "Update at 22:24 - We believe our engineers have been able to restore power to all 1,681 customers in the W12 7 area, by diverting power around the faulty underground cable. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-03-30T22:25:09.2"
       }
     ],
     "PostCodesAffected": [
@@ -75,12 +75,6 @@
       "W12 8"
     ],
     "PostCodesRestored": [
-      "W127BN",
-      "W127EH",
-      "W127EL",
-      "W127NU",
-      "W127NX",
-      "W127PA",
       "SE19NL",
       "W12",
       "W127BA",
@@ -89,9 +83,12 @@
       "W127BH",
       "W127BJ",
       "W127BL",
+      "W127BN",
       "W127BS",
       "W127BW",
       "W127DF",
+      "W127EH",
+      "W127EL",
       "W127EN",
       "W127EP",
       "W127ER",
@@ -122,16 +119,13 @@
       "W127JQ",
       "W127LJ",
       "W127LL",
+      "W127NU",
+      "W127NX",
+      "W127PA",
       "W127PJ",
       "W128LH"
     ],
     "PostCodesPlanned": [
-      "W127BN",
-      "W127EH",
-      "W127EL",
-      "W127NU",
-      "W127NX",
-      "W127PA",
       "SE19NL",
       "W12",
       "W127BA",
@@ -140,9 +134,12 @@
       "W127BH",
       "W127BJ",
       "W127BL",
+      "W127BN",
       "W127BS",
       "W127BW",
       "W127DF",
+      "W127EH",
+      "W127EL",
       "W127EN",
       "W127EP",
       "W127ER",
@@ -173,12 +170,15 @@
       "W127JQ",
       "W127LJ",
       "W127LL",
+      "W127NU",
+      "W127NX",
+      "W127PA",
       "W127PJ",
       "W128LH"
     ],
-    "CustomersOnSupply": 1434,
-    "CustomersOffSupply": 247,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 1681,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -188,6 +188,127 @@
     "W12 8"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 51.50929,
+        "lng": -0.10019
+      },
+      "Coordinates": [
+        {
+          "lat": 51.50952,
+          "lng": -0.10878
+        },
+        {
+          "lat": 51.50957,
+          "lng": -0.10769
+        },
+        {
+          "lat": 51.50974,
+          "lng": -0.10705
+        },
+        {
+          "lat": 51.5095,
+          "lng": -0.1059
+        },
+        {
+          "lat": 51.50973,
+          "lng": -0.10346
+        },
+        {
+          "lat": 51.50984,
+          "lng": -0.10325
+        },
+        {
+          "lat": 51.50997,
+          "lng": -0.10212
+        },
+        {
+          "lat": 51.50988,
+          "lng": -0.101
+        },
+        {
+          "lat": 51.50987,
+          "lng": -0.10051
+        },
+        {
+          "lat": 51.50945,
+          "lng": -0.09968
+        },
+        {
+          "lat": 51.50951,
+          "lng": -0.09841
+        },
+        {
+          "lat": 51.50942,
+          "lng": -0.0975
+        },
+        {
+          "lat": 51.5092,
+          "lng": -0.09665
+        },
+        {
+          "lat": 51.50928,
+          "lng": -0.0951
+        },
+        {
+          "lat": 51.50925,
+          "lng": -0.09502
+        },
+        {
+          "lat": 51.50904,
+          "lng": -0.09405
+        },
+        {
+          "lat": 51.50886,
+          "lng": -0.0936
+        },
+        {
+          "lat": 51.50872,
+          "lng": -0.09343
+        },
+        {
+          "lat": 51.50858,
+          "lng": -0.09313
+        },
+        {
+          "lat": 51.50861,
+          "lng": -0.09359
+        },
+        {
+          "lat": 51.50871,
+          "lng": -0.09528
+        },
+        {
+          "lat": 51.50879,
+          "lng": -0.09673
+        },
+        {
+          "lat": 51.50897,
+          "lng": -0.09968
+        },
+        {
+          "lat": 51.50907,
+          "lng": -0.1014
+        },
+        {
+          "lat": 51.5092,
+          "lng": -0.1035
+        },
+        {
+          "lat": 51.50935,
+          "lng": -0.10592
+        },
+        {
+          "lat": 51.50945,
+          "lng": -0.10768
+        },
+        {
+          "lat": 51.50952,
+          "lng": -0.10878
+        }
+      ],
+      "Postcode": "SE1 9"
+    },
     {
       "Center": {
         "lat": 51.51075,
@@ -580,127 +701,6 @@
         }
       ],
       "Postcode": "W12 7"
-    },
-    {
-      "Center": {
-        "lat": 51.50929,
-        "lng": -0.10019
-      },
-      "Coordinates": [
-        {
-          "lat": 51.50952,
-          "lng": -0.10878
-        },
-        {
-          "lat": 51.50957,
-          "lng": -0.10769
-        },
-        {
-          "lat": 51.50974,
-          "lng": -0.10705
-        },
-        {
-          "lat": 51.5095,
-          "lng": -0.1059
-        },
-        {
-          "lat": 51.50973,
-          "lng": -0.10346
-        },
-        {
-          "lat": 51.50984,
-          "lng": -0.10325
-        },
-        {
-          "lat": 51.50997,
-          "lng": -0.10212
-        },
-        {
-          "lat": 51.50988,
-          "lng": -0.101
-        },
-        {
-          "lat": 51.50987,
-          "lng": -0.10051
-        },
-        {
-          "lat": 51.50945,
-          "lng": -0.09968
-        },
-        {
-          "lat": 51.50951,
-          "lng": -0.09841
-        },
-        {
-          "lat": 51.50942,
-          "lng": -0.0975
-        },
-        {
-          "lat": 51.5092,
-          "lng": -0.09665
-        },
-        {
-          "lat": 51.50928,
-          "lng": -0.0951
-        },
-        {
-          "lat": 51.50925,
-          "lng": -0.09502
-        },
-        {
-          "lat": 51.50904,
-          "lng": -0.09405
-        },
-        {
-          "lat": 51.50886,
-          "lng": -0.0936
-        },
-        {
-          "lat": 51.50872,
-          "lng": -0.09343
-        },
-        {
-          "lat": 51.50858,
-          "lng": -0.09313
-        },
-        {
-          "lat": 51.50861,
-          "lng": -0.09359
-        },
-        {
-          "lat": 51.50871,
-          "lng": -0.09528
-        },
-        {
-          "lat": 51.50879,
-          "lng": -0.09673
-        },
-        {
-          "lat": 51.50897,
-          "lng": -0.09968
-        },
-        {
-          "lat": 51.50907,
-          "lng": -0.1014
-        },
-        {
-          "lat": 51.5092,
-          "lng": -0.1035
-        },
-        {
-          "lat": 51.50935,
-          "lng": -0.10592
-        },
-        {
-          "lat": 51.50945,
-          "lng": -0.10768
-        },
-        {
-          "lat": 51.50952,
-          "lng": -0.10878
-        }
-      ],
-      "Postcode": "SE1 9"
     },
     {
       "Center": {
@@ -1177,12 +1177,6 @@
     }
   ],
   "FullPostcodeData": [
-    "W127BN",
-    "W127EH",
-    "W127EL",
-    "W127NU",
-    "W127NX",
-    "W127PA",
     "SE19NL",
     "W12",
     "W127BA",
@@ -1191,9 +1185,12 @@
     "W127BH",
     "W127BJ",
     "W127BL",
+    "W127BN",
     "W127BS",
     "W127BW",
     "W127DF",
+    "W127EH",
+    "W127EL",
     "W127EN",
     "W127EP",
     "W127ER",
@@ -1224,6 +1221,9 @@
     "W127JQ",
     "W127LJ",
     "W127LL",
+    "W127NU",
+    "W127NX",
+    "W127PA",
     "W127PJ",
     "W128LH"
   ],
