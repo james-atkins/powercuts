@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-228214-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-228214-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-228214-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-30T16:58:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-31T03:32:00.25",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037b76INCD",
     "IncidentReference": "INCD-228214-Z",
     "IncidentCategory": "108",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-30T15:40:43",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-31T03:32:00.25",
     "EstimatedRestorationDate": "2021-03-31T03:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-30T15:39:00",
-    "NoCustomerAffected": 8,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,25 +59,25 @@
       "NR2 1"
     ],
     "PostCodesRestored": [
+      "NR21QY",
       "NR21RF",
       "NR21RG",
       "NR21RL",
       "NR21SF",
-      "NR21QY",
       "UMS"
     ],
     "PostCodesPlanned": [
+      "NR21QY",
       "NR21RF",
       "NR21RG",
       "NR21RL",
       "NR21SF",
-      "NR21QY",
       "UMS"
     ],
-    "CustomersOnSupply": 26,
-    "CustomersOffSupply": 8,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 34,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -559,11 +559,11 @@
     }
   ],
   "FullPostcodeData": [
+    "NR21QY",
     "NR21RF",
     "NR21RG",
     "NR21RL",
     "NR21SF",
-    "NR21QY",
     "UMS"
   ],
   "PinLatitude": null,
