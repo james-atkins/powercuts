@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-228464-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-228464-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-228464-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-31T17:31:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-31T18:26:17.253",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037c70INCD",
     "IncidentReference": "INCD-228464-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-31T17:29:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-31T18:26:17.253",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-31T17:23:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "SS14 3"
     ],
     "PostCodesRestored": [
-      "SS143BE",
       "SS143BB",
       "SS143BD",
+      "SS143BE",
       "SS143BP"
     ],
     "PostCodesPlanned": [
-      "SS143BE",
       "SS143BB",
       "SS143BD",
+      "SS143BE",
       "SS143BP"
     ],
-    "CustomersOnSupply": 4,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 5,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -587,9 +587,9 @@
     }
   ],
   "FullPostcodeData": [
-    "SS143BE",
     "SS143BB",
     "SS143BD",
+    "SS143BE",
     "SS143BP"
   ],
   "PinLatitude": null,
