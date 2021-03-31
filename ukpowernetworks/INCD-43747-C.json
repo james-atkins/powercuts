@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-43747-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-43747-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-43747-C",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-31T07:16:55",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-31T10:01:12.767",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000aae3INCD",
     "IncidentReference": "INCD-43747-C",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-31T06:54:05",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-31T10:01:12.767",
     "EstimatedRestorationDate": "2021-03-31T10:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-31T06:52:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -73,20 +73,20 @@
       "CM6 1"
     ],
     "PostCodesRestored": [
+      "CM61DB",
       "CM61EX",
       "CM61XQ",
-      "CM61DB",
       "CM61YX"
     ],
     "PostCodesPlanned": [
+      "CM61DB",
       "CM61EX",
       "CM61XQ",
-      "CM61DB",
       "CM61YX"
     ],
-    "CustomersOnSupply": 71,
-    "CustomersOffSupply": 24,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 95,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -701,14 +701,14 @@
     }
   ],
   "FullPostcodeData": [
+    "CM61DB",
     "CM61EX",
     "CM61XQ",
-    "CM61DB",
     "CM61YX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "09:30 - 10:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
