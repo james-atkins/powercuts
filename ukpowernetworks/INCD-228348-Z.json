@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-228348-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-228348-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-228348-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-31T11:35:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-31T13:31:38.91",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037bfcINCD",
     "IncidentReference": "INCD-228348-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-31T10:26:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-31T13:31:38.91",
     "EstimatedRestorationDate": "2021-03-31T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-03-31T10:26:00",
-    "NoCustomerAffected": 30,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -63,11 +63,11 @@
       "NR20 5"
     ],
     "PostCodesRestored": [
+      "NR192AJ",
       "NR192NR",
       "NR192NT",
       "NR192NU",
       "NR192NY",
-      "NR192AJ",
       "NR192QB",
       "NR192QD",
       "NR192QE",
@@ -148,11 +148,11 @@
       "NR205TQ"
     ],
     "PostCodesPlanned": [
+      "NR192AJ",
       "NR192NR",
       "NR192NT",
       "NR192NU",
       "NR192NY",
-      "NR192AJ",
       "NR192QB",
       "NR192QD",
       "NR192QE",
@@ -232,10 +232,10 @@
       "NR204TW",
       "NR205TQ"
     ],
-    "CustomersOnSupply": 734,
-    "CustomersOffSupply": 28,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 762,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -2420,11 +2420,11 @@
     }
   ],
   "FullPostcodeData": [
+    "NR192AJ",
     "NR192NR",
     "NR192NT",
     "NR192NU",
     "NR192NY",
-    "NR192AJ",
     "NR192QB",
     "NR192QD",
     "NR192QE",
@@ -2506,7 +2506,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "14:30 - 15:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
