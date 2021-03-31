@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-59629-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-59629-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-59629-N",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-03-31T09:52:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-03-31T11:59:49.567",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e8edINCD",
     "IncidentReference": "INCD-59629-N",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-03-31T08:45:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-03-31T11:59:49.567",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-03-31T08:44:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,26 +59,26 @@
       "IG7 6"
     ],
     "PostCodesRestored": [
-      "IG76PJ",
-      "IG76PN",
       "IG76BD",
       "IG76LP",
       "IG76NT",
+      "IG76PJ",
+      "IG76PN",
       "IG76PT",
       "IG76PU"
     ],
     "PostCodesPlanned": [
-      "IG76PJ",
-      "IG76PN",
       "IG76BD",
       "IG76LP",
       "IG76NT",
+      "IG76PJ",
+      "IG76PN",
       "IG76PT",
       "IG76PU"
     ],
-    "CustomersOnSupply": 23,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 27,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -521,11 +521,11 @@
     }
   ],
   "FullPostcodeData": [
-    "IG76PJ",
-    "IG76PN",
     "IG76BD",
     "IG76LP",
     "IG76NT",
+    "IG76PJ",
+    "IG76PN",
     "IG76PT",
     "IG76PU"
   ],
