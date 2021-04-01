@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-43826-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-43826-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-43826-C",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-04-01T11:37:16.307",
-      "Message": "Update at 11:36 - Engineers are now on their way. At this point we think the issue is a fault with some equipment in your local substation in the Grammar School Road area. We did not know this was going to happen, so timeframes we provide throughout are estimated, and are subject to change. Our estimate is currently between 14:00 and 15:00. After we arrive on site and assess the situation, this time may change. The reason for this is there can sometimes be a more complex underlying issue found from our engineers tests which may take longer, and if there is not we may get power back on sooner. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
+      "Date": "2021-04-01T11:55:23.987",
+      "Message": "Update at 11:55 - Our engineers have now restored power in the Grammar School Road area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -15,7 +15,7 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-01T11:31:23",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
@@ -23,30 +23,30 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-01T11:51:40.623",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000ab32INCD",
     "IncidentReference": "INCD-43826-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-01T08:58:40",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-01T11:51:40.623",
     "EstimatedRestorationDate": "2021-04-01T14:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-01T08:55:00",
-    "NoCustomerAffected": 21,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-04-01T11:36:00",
+        "ActualEventTime": "2021-04-01T11:55:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 11:36 - Engineers are now on their way. At this point we think the issue is a fault with some equipment in your local substation in the Grammar School Road area. We did not know this was going to happen, so timeframes we provide throughout are estimated, and are subject to change. Our estimate is currently between 14:00 and 15:00. After we arrive on site and assess the situation, this time may change. The reason for this is there can sometimes be a more complex underlying issue found from our engineers tests which may take longer, and if there is not we may get power back on sooner. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
-        "LoggedTime": "2021-04-01T11:37:16.307"
+        "Comment": "Update at 11:55 - Our engineers have now restored power in the Grammar School Road area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-04-01T11:55:23.987"
       }
     ],
     "PostCodesAffected": [
@@ -101,9 +101,9 @@
       "NR289ND",
       "UK"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 63,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 63,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
