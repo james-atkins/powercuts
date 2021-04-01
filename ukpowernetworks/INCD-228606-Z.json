@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-228606-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-228606-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-228606-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-01T14:20:57",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-01T14:53:35.663",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037cfeINCD",
     "IncidentReference": "INCD-228606-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-01T11:47:33",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-01T14:53:35.663",
     "EstimatedRestorationDate": "2021-04-01T16:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-01T11:39:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,19 +60,19 @@
     ],
     "PostCodesRestored": [
       "CM201BA",
-      "CM201ES",
       "CM201BD",
-      "CM201BE"
+      "CM201BE",
+      "CM201ES"
     ],
     "PostCodesPlanned": [
       "CM201BA",
-      "CM201ES",
       "CM201BD",
-      "CM201BE"
+      "CM201BE",
+      "CM201ES"
     ],
-    "CustomersOnSupply": 39,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 42,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -456,9 +456,9 @@
   ],
   "FullPostcodeData": [
     "CM201BA",
-    "CM201ES",
     "CM201BD",
-    "CM201BE"
+    "CM201BE",
+    "CM201ES"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
