@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-259156-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-259156-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-259156-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-04-01T04:04:48.807",
-      "Message": "Update at 04:04 - We've liaised with our engineers and they have advised that they are still working to investigate the faulty equipment in our substation. To give them more time to carry on with their repairs, we're now estimating to have the power back on between 04:30 and 05:30. We're sorry that this is taking longer than we anticipated. We will continue to communicate with our staff and update you with any further news.",
+      "Date": "2021-04-01T04:27:59.187",
+      "Message": "Update at 04:27 - Our engineers have now restored power in the Pullman Mews area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-01T03:09:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-01T04:20:52.723",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003f454INCD",
     "IncidentReference": "INCD-259156-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-01T02:15:39",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-01T04:20:52.723",
     "EstimatedRestorationDate": "2021-04-01T05:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-01T02:10:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-04-01T04:03:00",
+        "ActualEventTime": "2021-04-01T04:27:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 04:04 - We've liaised with our engineers and they have advised that they are still working to investigate the faulty equipment in our substation. To give them more time to carry on with their repairs, we're now estimating to have the power back on between 04:30 and 05:30. We're sorry that this is taking longer than we anticipated. We will continue to communicate with our staff and update you with any further news.",
-        "LoggedTime": "2021-04-01T04:04:48.807"
+        "Comment": "Update at 04:27 - Our engineers have now restored power in the Pullman Mews area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-04-01T04:27:59.187"
       }
     ],
     "PostCodesAffected": [
@@ -75,20 +75,20 @@
     ],
     "PostCodesRestored": [
       "SE12",
-      "SE120EA",
       "SE120DU",
-      "SE120DZ"
+      "SE120DZ",
+      "SE120EA"
     ],
     "PostCodesPlanned": [
       "SE12",
-      "SE120EA",
       "SE120DU",
-      "SE120DZ"
+      "SE120DZ",
+      "SE120EA"
     ],
-    "CustomersOnSupply": 39,
-    "CustomersOffSupply": 21,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 60,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -584,9 +584,9 @@
   ],
   "FullPostcodeData": [
     "SE12",
-    "SE120EA",
     "SE120DU",
-    "SE120DZ"
+    "SE120DZ",
+    "SE120EA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
