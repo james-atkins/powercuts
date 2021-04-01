@@ -1,11 +1,17 @@
 {
   "IncidentReference": "INCD-43875-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-43875-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-43875-C",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-04-01T19:40:26.153",
+      "Message": "Update at 19:39 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 90 customers in the Caversham Avenue area to safely repair a underground network fault. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-04-01T18:54:22",
-      "Message": "<p>We became aware of a power cut at 18:54. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-04-01T19:02:00",
+      "Message": "<p>We became aware of a power cut at 19:02. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-01T18:59:32",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-01T19:38:48.877",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000ab63INCD",
     "IncidentReference": "INCD-43875-C",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-01T18:54:22",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-04-01T19:38:48.877",
+    "EstimatedRestorationDate": "2021-04-01T20:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-04-01T18:54:22",
+    "ReceivedDate": "2021-04-01T19:02:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 5,
+    "NoCallsReported": 9,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,36 +60,44 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-04-01T19:39:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 19:39 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 90 customers in the Caversham Avenue area to safely repair a underground network fault. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-04-01T19:40:26.153"
+      }
+    ],
     "PostCodesAffected": [
       "N13 4",
       "N21 3"
     ],
     "PostCodesRestored": [
       "N134AH",
-      "N134LL",
-      "N134LN",
       "N134AQ",
       "N134DB",
       "N134DL",
       "N134LG",
+      "N134LL",
+      "N134LN",
       "N213LH",
       "N213LN"
     ],
     "PostCodesPlanned": [
       "N134AH",
-      "N134LL",
-      "N134LN",
       "N134AQ",
       "N134DB",
       "N134DL",
       "N134LG",
+      "N134LL",
+      "N134LN",
       "N213LH",
       "N213LN"
     ],
-    "CustomersOnSupply": 32,
-    "CustomersOffSupply": 90,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 122,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1529,19 +1543,19 @@
   ],
   "FullPostcodeData": [
     "N134AH",
-    "N134LL",
-    "N134LN",
     "N134AQ",
     "N134DB",
     "N134DL",
     "N134LG",
+    "N134LL",
+    "N134LN",
     "N213LH",
     "N213LN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "19:30 - 20:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null

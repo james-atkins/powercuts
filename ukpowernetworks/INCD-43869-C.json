@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-43869-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-43869-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-43869-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-01T16:27:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-01T19:30:54.43",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000ab5dINCD",
     "IncidentReference": "INCD-43869-C",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-01T16:26:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-01T19:30:54.43",
     "EstimatedRestorationDate": "2021-04-01T21:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-01T17:00:00",
-    "NoCustomerAffected": 8,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -59,26 +59,26 @@
       "IP1 4"
     ],
     "PostCodesRestored": [
-      "IP14HU",
       "IP14BP",
       "IP14HB",
       "IP14HD",
+      "IP14HU",
       "IP14HX",
       "IP14LB",
       "IP14LD"
     ],
     "PostCodesPlanned": [
-      "IP14HU",
       "IP14BP",
       "IP14HB",
       "IP14HD",
+      "IP14HU",
       "IP14HX",
       "IP14LB",
       "IP14LD"
     ],
-    "CustomersOnSupply": 51,
-    "CustomersOffSupply": 8,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 59,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -541,10 +541,10 @@
     }
   ],
   "FullPostcodeData": [
-    "IP14HU",
     "IP14BP",
     "IP14HB",
     "IP14HD",
+    "IP14HU",
     "IP14HX",
     "IP14LB",
     "IP14LD"
