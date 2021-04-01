@@ -1,17 +1,17 @@
 {
   "IncidentReference": "INCD-228597-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-228597-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-228597-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-04-01T12:29:35.56",
-      "Message": "Update at 12:29 - Our engineers have now arrived on site in the High Street area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. This can involve ground excavations, traffic management equipment or specialist teams. As soon as our staff can safely update us, we'll give you the latest news.",
+      "Date": "2021-04-01T12:58:10.153",
+      "Message": "Update at 12:57 - We can now confirm that all power in the High Street area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have restored your power as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2021-04-01T11:51:19",
-      "Message": "<p>We became aware of a power cut at 11:51. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-04-01T11:17:00",
+      "Message": "<p>We became aware of a power cut at 11:17. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-01T12:12:07",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-01T12:57:35.263",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037cf5INCD",
     "IncidentReference": "INCD-228597-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-01T11:24:38",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-01T12:57:35.263",
     "EstimatedRestorationDate": "2021-04-01T14:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-04-01T11:51:19",
+    "ReceivedDate": "2021-04-01T11:17:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
@@ -62,21 +62,21 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-04-01T12:28:00",
+        "ActualEventTime": "2021-04-01T12:58:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 12:29 - Our engineers have now arrived on site in the High Street area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. This can involve ground excavations, traffic management equipment or specialist teams. As soon as our staff can safely update us, we'll give you the latest news.",
-        "LoggedTime": "2021-04-01T12:29:35.56"
+        "Comment": "Update at 12:57 - We can now confirm that all power in the High Street area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have restored your power as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-04-01T12:58:10.153"
       }
     ],
     "PostCodesAffected": [
       "CM14 4"
     ],
     "PostCodesRestored": [
-      "CM144AP",
-      "CM144AZ",
       "CM144AD",
+      "CM144AP",
       "CM144AX",
+      "CM144AZ",
       "CM144BG",
       "CM144ED",
       "CM144FU",
@@ -87,10 +87,10 @@
       "CM144SX"
     ],
     "PostCodesPlanned": [
-      "CM144AP",
-      "CM144AZ",
       "CM144AD",
+      "CM144AP",
       "CM144AX",
+      "CM144AZ",
       "CM144BG",
       "CM144ED",
       "CM144FU",
@@ -100,9 +100,9 @@
       "CM144SP",
       "CM144SX"
     ],
-    "CustomersOnSupply": 85,
-    "CustomersOffSupply": 40,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 125,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -661,10 +661,10 @@
     }
   ],
   "FullPostcodeData": [
-    "CM144AP",
-    "CM144AZ",
     "CM144AD",
+    "CM144AP",
     "CM144AX",
+    "CM144AZ",
     "CM144BG",
     "CM144ED",
     "CM144FU",
