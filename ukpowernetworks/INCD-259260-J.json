@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-259260-J",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-259260-J",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-259260-J",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-04-01T23:46:02",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-04-02T06:34:02.35",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "J0003f4bcINCD",
     "IncidentReference": "INCD-259260-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 28,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-04-01T22:17:17",
-    "RestoredDateTime": "2021-04-02T06:34:02.35",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-01T22:12:00",
@@ -74,6 +74,7 @@
       "N16 9"
     ],
     "PostCodesRestored": [
+      "N169LD",
       "N168QW",
       "N169AA",
       "N169AF",
@@ -81,10 +82,10 @@
       "N169AL",
       "N169AR",
       "N169AS",
-      "N169EX",
-      "N169LD"
+      "N169EX"
     ],
     "PostCodesPlanned": [
+      "N169LD",
       "N168QW",
       "N169AA",
       "N169AF",
@@ -92,13 +93,12 @@
       "N169AL",
       "N169AR",
       "N169AS",
-      "N169EX",
-      "N169LD"
+      "N169EX"
     ],
     "CustomersOnSupply": 113,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
-    "PlannedIncidentReason": "",
+    "CustomersOffSupply": 2,
+    "IncidentTypeName": "Unplanned",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -106,43 +106,6 @@
     "N16 9"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.54674,
-        "lng": -0.07569
-      },
-      "Coordinates": [
-        {
-          "lat": 51.54694,
-          "lng": -0.07537
-        },
-        {
-          "lat": 51.5464,
-          "lng": -0.0752
-        },
-        {
-          "lat": 51.54637,
-          "lng": -0.07528
-        },
-        {
-          "lat": 51.54654,
-          "lng": -0.07618
-        },
-        {
-          "lat": 51.54714,
-          "lng": -0.07599
-        },
-        {
-          "lat": 51.54712,
-          "lng": -0.07572
-        },
-        {
-          "lat": 51.54694,
-          "lng": -0.07537
-        }
-      ],
-      "Postcode": "N16 8"
-    },
     {
       "Center": {
         "lat": 51.55736,
@@ -535,9 +498,47 @@
         }
       ],
       "Postcode": "N16 9"
+    },
+    {
+      "Center": {
+        "lat": 51.54674,
+        "lng": -0.07569
+      },
+      "Coordinates": [
+        {
+          "lat": 51.54694,
+          "lng": -0.07537
+        },
+        {
+          "lat": 51.5464,
+          "lng": -0.0752
+        },
+        {
+          "lat": 51.54637,
+          "lng": -0.07528
+        },
+        {
+          "lat": 51.54654,
+          "lng": -0.07618
+        },
+        {
+          "lat": 51.54714,
+          "lng": -0.07599
+        },
+        {
+          "lat": 51.54712,
+          "lng": -0.07572
+        },
+        {
+          "lat": 51.54694,
+          "lng": -0.07537
+        }
+      ],
+      "Postcode": "N16 8"
     }
   ],
   "FullPostcodeData": [
+    "N169LD",
     "N168QW",
     "N169AA",
     "N169AF",
@@ -545,8 +546,7 @@
     "N169AL",
     "N169AR",
     "N169AS",
-    "N169EX",
-    "N169LD"
+    "N169EX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
