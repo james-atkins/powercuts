@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-259260-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-259260-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-259260-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-01T23:46:02",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-02T11:02:29.463",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003f4bcINCD",
     "IncidentReference": "INCD-259260-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 28,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-01T22:17:17",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-02T11:02:29.463",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-01T22:12:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 26,
     "Latitude": 0.0,
@@ -74,7 +74,6 @@
       "N16 9"
     ],
     "PostCodesRestored": [
-      "N169LD",
       "N168QW",
       "N169AA",
       "N169AF",
@@ -82,10 +81,10 @@
       "N169AL",
       "N169AR",
       "N169AS",
-      "N169EX"
+      "N169EX",
+      "N169LD"
     ],
     "PostCodesPlanned": [
-      "N169LD",
       "N168QW",
       "N169AA",
       "N169AF",
@@ -93,11 +92,12 @@
       "N169AL",
       "N169AR",
       "N169AS",
-      "N169EX"
+      "N169EX",
+      "N169LD"
     ],
-    "CustomersOnSupply": 114,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 115,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -106,6 +106,43 @@
     "N16 9"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 51.54674,
+        "lng": -0.07569
+      },
+      "Coordinates": [
+        {
+          "lat": 51.54694,
+          "lng": -0.07537
+        },
+        {
+          "lat": 51.5464,
+          "lng": -0.0752
+        },
+        {
+          "lat": 51.54637,
+          "lng": -0.07528
+        },
+        {
+          "lat": 51.54654,
+          "lng": -0.07618
+        },
+        {
+          "lat": 51.54714,
+          "lng": -0.07599
+        },
+        {
+          "lat": 51.54712,
+          "lng": -0.07572
+        },
+        {
+          "lat": 51.54694,
+          "lng": -0.07537
+        }
+      ],
+      "Postcode": "N16 8"
+    },
     {
       "Center": {
         "lat": 51.55736,
@@ -498,47 +535,9 @@
         }
       ],
       "Postcode": "N16 9"
-    },
-    {
-      "Center": {
-        "lat": 51.54674,
-        "lng": -0.07569
-      },
-      "Coordinates": [
-        {
-          "lat": 51.54694,
-          "lng": -0.07537
-        },
-        {
-          "lat": 51.5464,
-          "lng": -0.0752
-        },
-        {
-          "lat": 51.54637,
-          "lng": -0.07528
-        },
-        {
-          "lat": 51.54654,
-          "lng": -0.07618
-        },
-        {
-          "lat": 51.54714,
-          "lng": -0.07599
-        },
-        {
-          "lat": 51.54712,
-          "lng": -0.07572
-        },
-        {
-          "lat": 51.54694,
-          "lng": -0.07537
-        }
-      ],
-      "Postcode": "N16 8"
     }
   ],
   "FullPostcodeData": [
-    "N169LD",
     "N168QW",
     "N169AA",
     "N169AF",
@@ -546,7 +545,8 @@
     "N169AL",
     "N169AR",
     "N169AS",
-    "N169EX"
+    "N169EX",
+    "N169LD"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
