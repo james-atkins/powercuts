@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-228784-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-228784-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-228784-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-02T14:30:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-03T16:30:18.62",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037db0INCD",
     "IncidentReference": "INCD-228784-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-02T12:51:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-03T16:30:18.62",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-02T12:41:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -73,12 +73,12 @@
       "CM14 4"
     ],
     "PostCodesRestored": [
-      "CM144AP",
-      "CM144AX",
       "CM144AD",
       "CM144AL",
+      "CM144AP",
       "CM144AR",
       "CM144AS",
+      "CM144AX",
       "CM144AZ",
       "CM144BG",
       "CM144ED",
@@ -100,12 +100,12 @@
       "CM144SX"
     ],
     "PostCodesPlanned": [
-      "CM144AP",
-      "CM144AX",
       "CM144AD",
       "CM144AL",
+      "CM144AP",
       "CM144AR",
       "CM144AS",
+      "CM144AX",
       "CM144AZ",
       "CM144BG",
       "CM144ED",
@@ -126,10 +126,10 @@
       "CM144SU",
       "CM144SX"
     ],
-    "CustomersOnSupply": 324,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 326,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -687,12 +687,12 @@
     }
   ],
   "FullPostcodeData": [
-    "CM144AP",
-    "CM144AX",
     "CM144AD",
     "CM144AL",
+    "CM144AP",
     "CM144AR",
     "CM144AS",
+    "CM144AX",
     "CM144AZ",
     "CM144BG",
     "CM144ED",
