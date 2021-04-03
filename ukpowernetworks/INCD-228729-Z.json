@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-228729-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-228729-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-228729-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-02T02:02:42",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-03T04:53:38.75",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037d79INCD",
     "IncidentReference": "INCD-228729-Z",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-02T01:36:50",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-03T04:53:38.75",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-02T01:26:03",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 50,
     "Latitude": 0.0,
@@ -92,7 +92,6 @@
       "RM13 8"
     ],
     "PostCodesRestored": [
-      "NW94BQ",
       "CB28DD",
       "IP42AA",
       "N227XA",
@@ -521,6 +520,7 @@
       "NW44XR",
       "NW44XS",
       "NW44XW",
+      "NW94BQ",
       "NW95JE",
       "NW95LW",
       "NW96AB",
@@ -588,7 +588,6 @@
       "UMS"
     ],
     "PostCodesPlanned": [
-      "NW94BQ",
       "CB28DD",
       "IP42AA",
       "N227XA",
@@ -1017,6 +1016,7 @@
       "NW44XR",
       "NW44XS",
       "NW44XW",
+      "NW94BQ",
       "NW95JE",
       "NW95LW",
       "NW96AB",
@@ -1083,10 +1083,10 @@
       "UK",
       "UMS"
     ],
-    "CustomersOnSupply": 8300,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 8301,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -7411,7 +7411,6 @@
     }
   ],
   "FullPostcodeData": [
-    "NW94BQ",
     "CB28DD",
     "IP42AA",
     "N227XA",
@@ -7840,6 +7839,7 @@
     "NW44XR",
     "NW44XS",
     "NW44XW",
+    "NW94BQ",
     "NW95JE",
     "NW95LW",
     "NW96AB",
