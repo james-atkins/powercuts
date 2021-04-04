@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-53812-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-53812-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-53812-V",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-04T12:54:07",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-04T14:57:08.333",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000d234INCD",
     "IncidentReference": "INCD-53812-V",
-    "IncidentCategory": "6",
+    "IncidentCategory": "146",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 35,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-04T12:07:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-04T14:57:08.333",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-04T12:04:14",
@@ -60,20 +60,20 @@
     ],
     "PostCodesRestored": [
       "KT121BY",
-      "KT121QB",
       "KT121BZ",
-      "KT121DE"
+      "KT121DE",
+      "KT121QB"
     ],
     "PostCodesPlanned": [
       "KT121BY",
-      "KT121QB",
       "KT121BZ",
-      "KT121DE"
+      "KT121DE",
+      "KT121QB"
     ],
-    "CustomersOnSupply": 11,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 16,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -680,13 +680,13 @@
   ],
   "FullPostcodeData": [
     "KT121BY",
-    "KT121QB",
     "KT121BZ",
-    "KT121DE"
+    "KT121DE",
+    "KT121QB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a transformer fault on the electricity network that caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
