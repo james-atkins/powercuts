@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-229031-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-229031-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-229031-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-04T22:00:04",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-04T22:54:26.763",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037ea7INCD",
     "IncidentReference": "INCD-229031-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-04T21:14:19",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-04T22:54:26.763",
     "EstimatedRestorationDate": "2021-04-05T00:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-04T21:13:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -60,33 +60,33 @@
       "CO15 4"
     ],
     "PostCodesRestored": [
-      "CO153SB",
-      "CO154AR",
-      "CO154AS",
       "CO153RJ",
+      "CO153SB",
       "CO154AJ",
       "CO154AP",
+      "CO154AR",
+      "CO154AS",
       "CO154BP",
       "CO154BS",
       "CO154DA",
       "CO154DH"
     ],
     "PostCodesPlanned": [
-      "CO153SB",
-      "CO154AR",
-      "CO154AS",
       "CO153RJ",
+      "CO153SB",
       "CO154AJ",
       "CO154AP",
+      "CO154AR",
+      "CO154AS",
       "CO154BP",
       "CO154BS",
       "CO154DA",
       "CO154DH"
     ],
-    "CustomersOnSupply": 109,
-    "CustomersOffSupply": 12,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 121,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -674,12 +674,12 @@
     }
   ],
   "FullPostcodeData": [
-    "CO153SB",
-    "CO154AR",
-    "CO154AS",
     "CO153RJ",
+    "CO153SB",
     "CO154AJ",
     "CO154AP",
+    "CO154AR",
+    "CO154AS",
     "CO154BP",
     "CO154BS",
     "CO154DA",
