@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-229032-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-229032-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-229032-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-04T23:06:42",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-04T23:33:18.83",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037ea8INCD",
     "IncidentReference": "INCD-229032-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-04T22:18:21",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-04T23:33:18.83",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-04T22:17:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -61,9 +61,9 @@
     ],
     "PostCodesRestored": [
       "WD233AD",
-      "WD233AQ",
       "WD233AH",
       "WD233AJ",
+      "WD233AQ",
       "WD233AS",
       "WD233AT",
       "WD233AW",
@@ -76,9 +76,9 @@
     ],
     "PostCodesPlanned": [
       "WD233AD",
-      "WD233AQ",
       "WD233AH",
       "WD233AJ",
+      "WD233AQ",
       "WD233AS",
       "WD233AT",
       "WD233AW",
@@ -89,9 +89,9 @@
       "WD23AF",
       "WD23AQ"
     ],
-    "CustomersOnSupply": 102,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 107,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -476,9 +476,9 @@
   ],
   "FullPostcodeData": [
     "WD233AD",
-    "WD233AQ",
     "WD233AH",
     "WD233AJ",
+    "WD233AQ",
     "WD233AS",
     "WD233AT",
     "WD233AW",
