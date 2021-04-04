@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-228724-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-228724-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-228724-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-02T00:57:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-04T08:34:59.56",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037d74INCD",
     "IncidentReference": "INCD-228724-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-01T23:38:51",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-04T08:34:59.56",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-01T23:38:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -74,25 +74,25 @@
       "CB4 2"
     ],
     "PostCodesRestored": [
-      "CB41SP",
-      "CB42PA",
       "CB41RY",
+      "CB41SP",
       "CB41SR",
       "CB41ST",
-      "CB41SZ"
+      "CB41SZ",
+      "CB42PA"
     ],
     "PostCodesPlanned": [
-      "CB41SP",
-      "CB42PA",
       "CB41RY",
+      "CB41SP",
       "CB41SR",
       "CB41ST",
-      "CB41SZ"
+      "CB41SZ",
+      "CB42PA"
     ],
-    "CustomersOnSupply": 29,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 35,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1228,12 +1228,12 @@
     }
   ],
   "FullPostcodeData": [
-    "CB41SP",
-    "CB42PA",
     "CB41RY",
+    "CB41SP",
     "CB41SR",
     "CB41ST",
-    "CB41SZ"
+    "CB41SZ",
+    "CB42PA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
