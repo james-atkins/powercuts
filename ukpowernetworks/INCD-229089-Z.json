@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-229089-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-229089-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-229089-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-04-05T12:35:44.697",
+      "Message": "Update at 12:35 - We're sorry your power has gone off again. We know there is an underlying issue causing the recent power cuts, but due to the nature of the electricity network, the heat created by a developing fault can cause a break in a cable to reseal itself. This can make it difficult to locate, so while our engineers are testing our equipment thoroughly to pinpoint the issue, this kind of problem may interrupt power multiple times before it's possible for us to fix. We know that our customers are more worried than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. We'll keep you updated.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-04-05T11:39:00",
@@ -15,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-05T12:17:23",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-05T12:37:46.1",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00037ee1INCD",
     "IncidentReference": "INCD-229089-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-05T11:48:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-05T12:37:46.1",
     "EstimatedRestorationDate": "2021-04-05T14:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-05T11:39:00",
@@ -54,28 +60,36 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-04-05T12:35:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 12:35 - We're sorry your power has gone off again. We know there is an underlying issue causing the recent power cuts, but due to the nature of the electricity network, the heat created by a developing fault can cause a break in a cable to reseal itself. This can make it difficult to locate, so while our engineers are testing our equipment thoroughly to pinpoint the issue, this kind of problem may interrupt power multiple times before it's possible for us to fix. We know that our customers are more worried than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. We'll keep you updated.",
+        "LoggedTime": "2021-04-05T12:35:44.697"
+      }
+    ],
     "PostCodesAffected": [
       "EN1 3",
       "EN2 6"
     ],
     "PostCodesRestored": [
       "EN13ED",
+      "EN13EF",
       "EN13EG",
       "EN26BN",
-      "EN26LE",
-      "EN13EF"
+      "EN26LE"
     ],
     "PostCodesPlanned": [
       "EN13ED",
+      "EN13EF",
       "EN13EG",
       "EN26BN",
-      "EN26LE",
-      "EN13EF"
+      "EN26LE"
     ],
-    "CustomersOnSupply": 8,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 23,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1193,10 +1207,10 @@
   ],
   "FullPostcodeData": [
     "EN13ED",
+    "EN13EF",
     "EN13EG",
     "EN26BN",
-    "EN26LE",
-    "EN13EF"
+    "EN26LE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
