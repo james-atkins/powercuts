@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247755-G",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247755-G",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247755-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-04-06T13:45:14",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-04-06T14:58:25.417",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "G0003c7cbINCD",
     "IncidentReference": "INCD-247755-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-04-06T12:40:57",
-    "RestoredDateTime": "2021-04-06T14:58:25.417",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-04-06T17:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-06T12:32:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 1,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
     "Latitude": 0.0,
@@ -73,24 +73,24 @@
       "KT15 3"
     ],
     "PostCodesRestored": [
+      "KT153PY",
       "KT153DJ",
       "KT153PP",
-      "KT153PY",
       "KT153QE",
       "KT153QF",
       "KT153QG"
     ],
     "PostCodesPlanned": [
+      "KT153PY",
       "KT153DJ",
       "KT153PP",
-      "KT153PY",
       "KT153QE",
       "KT153QF",
       "KT153QG"
     ],
-    "CustomersOnSupply": 61,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "CustomersOnSupply": 60,
+    "CustomersOffSupply": 1,
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -493,9 +493,9 @@
     }
   ],
   "FullPostcodeData": [
+    "KT153PY",
     "KT153DJ",
     "KT153PP",
-    "KT153PY",
     "KT153QE",
     "KT153QF",
     "KT153QG"
