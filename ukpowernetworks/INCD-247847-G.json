@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247847-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247847-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247847-G",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-08T11:59:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-08T12:54:06.943",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c827INCD",
     "IncidentReference": "INCD-247847-G",
-    "IncidentCategory": "54",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-08T12:13:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-08T12:54:06.943",
     "EstimatedRestorationDate": "2021-04-08T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-08T10:32:36",
@@ -91,8 +91,8 @@
     ],
     "CustomersOnSupply": 107,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -901,7 +901,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A piece of network equipment had a fault on our high voltage electricity network, causing an area wide power cut.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "14:30 - 15:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
