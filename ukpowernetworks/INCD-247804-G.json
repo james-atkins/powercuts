@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-247804-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247804-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247804-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-04-07T22:51:19.967",
-      "Message": "Update at 22:51 - This is Rob from the messaging team at UK Power Networks. Just to assure you our staff are still working hard to restore your power, and our timeframe hasn't changed. As it's approaching that time of night where most of our customers are going to sleep, I wanted to let you know that we will continue to send text messages throughout the night with progress updates. If you want to continue receiving updates but prefer not to be disturbed, you can place your phone on silent or activate the Do Not Disturb settings on smart phones. If you no longer want to receive updates, please text CANCEL to 80876 (standard text fees apply). Thank you.",
+      "Date": "2021-04-08T00:09:52.007",
+      "Message": "Update at 00:09 - We can now confirm that all power in the Warwick Place area should be back on. The issue was caused by an underground cable fault, which our engineers have safely diverted power around. We know that being without power during the current pandemic can be especially difficult, so we're sorry that you were without power for so long. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-07T16:00:30",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-08T04:35:16.3836884+01:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c7fcINCD",
     "IncidentReference": "INCD-247804-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-07T14:55:17",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-08T04:35:16.3836884+01:00",
     "EstimatedRestorationDate": "2021-04-07T23:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-07T14:50:00",
-    "NoCustomerAffected": 11,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 17,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-04-07T22:51:00",
+        "ActualEventTime": "2021-04-08T00:09:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 22:51 - This is Rob from the messaging team at UK Power Networks. Just to assure you our staff are still working hard to restore your power, and our timeframe hasn't changed. As it's approaching that time of night where most of our customers are going to sleep, I wanted to let you know that we will continue to send text messages throughout the night with progress updates. If you want to continue receiving updates but prefer not to be disturbed, you can place your phone on silent or activate the Do Not Disturb settings on smart phones. If you no longer want to receive updates, please text CANCEL to 80876 (standard text fees apply). Thank you.",
-        "LoggedTime": "2021-04-07T22:51:19.967"
+        "Comment": "Update at 00:09 - We can now confirm that all power in the Warwick Place area should be back on. The issue was caused by an underground cable fault, which our engineers have safely diverted power around. We know that being without power during the current pandemic can be especially difficult, so we're sorry that you were without power for so long. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-04-08T00:09:52.007"
       }
     ],
     "PostCodesAffected": [
@@ -74,7 +74,6 @@
     ],
     "PostCodesRestored": [
       "DA119DB",
-      "DA119EJ",
       "DA119DJ",
       "DA119DL",
       "DA119DN",
@@ -84,6 +83,7 @@
       "DA119DU",
       "DA119DX",
       "DA119DY",
+      "DA119EJ",
       "DA119EN",
       "DA119EQ",
       "DA119EW",
@@ -92,7 +92,6 @@
     ],
     "PostCodesPlanned": [
       "DA119DB",
-      "DA119EJ",
       "DA119DJ",
       "DA119DL",
       "DA119DN",
@@ -102,16 +101,17 @@
       "DA119DU",
       "DA119DX",
       "DA119DY",
+      "DA119EJ",
       "DA119EN",
       "DA119EQ",
       "DA119EW",
       "DA119HG",
       "DA119HX"
     ],
-    "CustomersOnSupply": 340,
-    "CustomersOffSupply": 37,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 377,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -502,7 +502,6 @@
   ],
   "FullPostcodeData": [
     "DA119DB",
-    "DA119EJ",
     "DA119DJ",
     "DA119DL",
     "DA119DN",
@@ -512,6 +511,7 @@
     "DA119DU",
     "DA119DX",
     "DA119DY",
+    "DA119EJ",
     "DA119EN",
     "DA119EQ",
     "DA119EW",
