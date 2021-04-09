@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-259642-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-259642-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-259642-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-09T17:49:42",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-09T22:57:48.383",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003f63aINCD",
     "IncidentReference": "INCD-259642-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-09T15:26:53",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-04-09T23:00:00",
+    "RestoredDateTime": "2021-04-09T22:57:48.383",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-09T15:26:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,11 +60,11 @@
       "BR3 6"
     ],
     "PostCodesRestored": [
+      "BR33AA",
       "BR33AT",
       "BR33AX",
-      "BR33BS",
-      "BR33AA",
       "BR33BQ",
+      "BR33BS",
       "BR33FE",
       "BR33GD",
       "BR33GE",
@@ -75,11 +75,11 @@
       "BR36RL"
     ],
     "PostCodesPlanned": [
+      "BR33AA",
       "BR33AT",
       "BR33AX",
-      "BR33BS",
-      "BR33AA",
       "BR33BQ",
+      "BR33BS",
       "BR33FE",
       "BR33GD",
       "BR33GE",
@@ -89,10 +89,10 @@
       "BR36RJ",
       "BR36RL"
     ],
-    "CustomersOnSupply": 116,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 121,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1368,11 +1368,11 @@
     }
   ],
   "FullPostcodeData": [
+    "BR33AA",
     "BR33AT",
     "BR33AX",
-    "BR33BS",
-    "BR33AA",
     "BR33BQ",
+    "BR33BS",
     "BR33FE",
     "BR33GD",
     "BR33GE",
@@ -1385,7 +1385,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "22:30 - 23:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
