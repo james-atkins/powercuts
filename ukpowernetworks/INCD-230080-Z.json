@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-230080-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-230080-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-230080-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-04-10T13:09:18.113",
-      "Message": "This is Roland from the text messaging team. Just to let you know, we haven't forgotten about you. We understand it can be really frustrating not knowing a time for when power will be back. We'll continue to liaise with our engineers and provide this information as soon as possible. If you would like more information or detail on the issue, you can tweet us using @UKPowerNetworks. Or give us a call, we'll be happy to help.",
+      "Date": "2021-04-10T13:42:27.82",
+      "Message": "Update at 13:42 - We can now confirm that all power in the area should be back on. Our engineers turned power off in the Approach Road area due to the possible risk of damage from a fire nearby. Emergency services have now advised it is safe for us to restore supplies. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-10T09:09:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-10T13:38:26.463",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000382c0INCD",
     "IncidentReference": "INCD-230080-Z",
-    "IncidentCategory": "47",
+    "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-10T08:06:10",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-10T13:38:26.463",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-10T08:05:00",
-    "NoCustomerAffected": 75,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 15,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-04-10T13:08:00",
+        "ActualEventTime": "2021-04-10T13:40:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "This is Roland from the text messaging team. Just to let you know, we haven't forgotten about you. We understand it can be really frustrating not knowing a time for when power will be back. We'll continue to liaise with our engineers and provide this information as soon as possible. If you would like more information or detail on the issue, you can tweet us using @UKPowerNetworks. Or give us a call, we'll be happy to help.",
-        "LoggedTime": "2021-04-10T13:09:18.113"
+        "Comment": "Update at 13:42 - We can now confirm that all power in the area should be back on. Our engineers turned power off in the Approach Road area due to the possible risk of damage from a fire nearby. Emergency services have now advised it is safe for us to restore supplies. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-04-10T13:42:27.82"
       }
     ],
     "PostCodesAffected": [
@@ -74,12 +74,6 @@
       "EN5 1"
     ],
     "PostCodesRestored": [
-      "EN48RW",
-      "EN51FG",
-      "EN51LP",
-      "EN51PB",
-      "EN51QN",
-      "EN51QW",
       "EN48AP",
       "EN48AR",
       "EN48AS",
@@ -89,15 +83,15 @@
       "EN48BZ",
       "EN48FG",
       "EN48RA",
-      "EN48RQ"
+      "EN48RQ",
+      "EN48RW",
+      "EN51FG",
+      "EN51LP",
+      "EN51PB",
+      "EN51QN",
+      "EN51QW"
     ],
     "PostCodesPlanned": [
-      "EN48RW",
-      "EN51FG",
-      "EN51LP",
-      "EN51PB",
-      "EN51QN",
-      "EN51QW",
       "EN48AP",
       "EN48AR",
       "EN48AS",
@@ -107,11 +101,17 @@
       "EN48BZ",
       "EN48FG",
       "EN48RA",
-      "EN48RQ"
+      "EN48RQ",
+      "EN48RW",
+      "EN51FG",
+      "EN51LP",
+      "EN51PB",
+      "EN51QN",
+      "EN51QW"
     ],
-    "CustomersOnSupply": 43,
-    "CustomersOffSupply": 75,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 118,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1276,12 +1276,6 @@
     }
   ],
   "FullPostcodeData": [
-    "EN48RW",
-    "EN51FG",
-    "EN51LP",
-    "EN51PB",
-    "EN51QN",
-    "EN51QW",
     "EN48AP",
     "EN48AR",
     "EN48AS",
@@ -1291,11 +1285,17 @@
     "EN48BZ",
     "EN48FG",
     "EN48RA",
-    "EN48RQ"
+    "EN48RQ",
+    "EN48RW",
+    "EN51FG",
+    "EN51LP",
+    "EN51PB",
+    "EN51QN",
+    "EN51QW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
