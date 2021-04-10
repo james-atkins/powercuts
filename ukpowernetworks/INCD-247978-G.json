@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247978-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247978-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247978-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-10T13:28:42",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-10T16:25:21.82",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c8aaINCD",
     "IncidentReference": "INCD-247978-G",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-10T12:30:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-10T16:25:21.82",
     "EstimatedRestorationDate": "2021-04-10T17:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-10T12:29:59",
-    "NoCustomerAffected": 97,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 15,
     "Latitude": 0.0,
@@ -78,8 +78,6 @@
       "TN16 3"
     ],
     "PostCodesRestored": [
-      "BR26HU",
-      "BR26HZ",
       "BR26AA",
       "BR26AB",
       "BR26AD",
@@ -107,6 +105,8 @@
       "BR26HR",
       "BR26HS",
       "BR26HT",
+      "BR26HU",
+      "BR26HZ",
       "BR67GZ",
       "BR67HH",
       "BR67JB",
@@ -168,8 +168,6 @@
       "TN163YN"
     ],
     "PostCodesPlanned": [
-      "BR26HU",
-      "BR26HZ",
       "BR26AA",
       "BR26AB",
       "BR26AD",
@@ -197,6 +195,8 @@
       "BR26HR",
       "BR26HS",
       "BR26HT",
+      "BR26HU",
+      "BR26HZ",
       "BR67GZ",
       "BR67HH",
       "BR67JB",
@@ -257,9 +257,9 @@
       "TN163XN",
       "TN163YN"
     ],
-    "CustomersOnSupply": 1026,
-    "CustomersOffSupply": 96,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 1122,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -2900,8 +2900,6 @@
     }
   ],
   "FullPostcodeData": [
-    "BR26HU",
-    "BR26HZ",
     "BR26AA",
     "BR26AB",
     "BR26AD",
@@ -2929,6 +2927,8 @@
     "BR26HR",
     "BR26HS",
     "BR26HT",
+    "BR26HU",
+    "BR26HZ",
     "BR67GZ",
     "BR67HH",
     "BR67JB",
