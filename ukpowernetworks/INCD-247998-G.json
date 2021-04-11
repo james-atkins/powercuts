@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247998-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247998-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247998-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-11T03:19:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-11T17:33:56.347",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c8beINCD",
     "IncidentReference": "INCD-247998-G",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-11T01:33:42",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-11T17:33:56.347",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-11T01:32:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -59,24 +59,24 @@
       "CT14 9"
     ],
     "PostCodesRestored": [
-      "CT149EY",
       "CT149ER",
+      "CT149EY",
       "CT149FB",
       "CT149FJ",
       "CT149HY",
       "CT149JB"
     ],
     "PostCodesPlanned": [
-      "CT149EY",
       "CT149ER",
+      "CT149EY",
       "CT149FB",
       "CT149FJ",
       "CT149HY",
       "CT149JB"
     ],
-    "CustomersOnSupply": 37,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 39,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -607,8 +607,8 @@
     }
   ],
   "FullPostcodeData": [
-    "CT149EY",
     "CT149ER",
+    "CT149EY",
     "CT149FB",
     "CT149FJ",
     "CT149HY",
@@ -616,7 +616,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
