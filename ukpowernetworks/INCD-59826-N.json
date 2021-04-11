@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-59826-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-59826-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-59826-N",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-11T22:15:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-11T22:43:43.697",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e9b2INCD",
     "IncidentReference": "INCD-59826-N",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-11T20:28:05",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-04-11T23:30:00",
+    "RestoredDateTime": "2021-04-11T22:43:43.697",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-11T20:23:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -73,24 +73,24 @@
       "N7 9"
     ],
     "PostCodesRestored": [
-      "N79SJ",
       "N79SG",
       "N79SH",
+      "N79SJ",
       "N79SL",
       "N79SQ",
       "N79TD"
     ],
     "PostCodesPlanned": [
-      "N79SJ",
       "N79SG",
       "N79SH",
+      "N79SJ",
       "N79SL",
       "N79SQ",
       "N79TD"
     ],
-    "CustomersOnSupply": 137,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 144,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -629,9 +629,9 @@
     }
   ],
   "FullPostcodeData": [
-    "N79SJ",
     "N79SG",
     "N79SH",
+    "N79SJ",
     "N79SL",
     "N79SQ",
     "N79TD"
@@ -639,7 +639,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "23:00 - 00:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
