@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-59830-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-59830-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-59830-N",
   "Steps": [
     {
       "Active": true,
@@ -9,7 +9,7 @@
       "Name": null
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-12T08:59:00",
       "Message": "<p>We became aware of a power cut at 08:59. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -17,38 +17,38 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-12T12:01:23.767",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e9b6INCD",
     "IncidentReference": "INCD-59830-N",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-12T08:52:57",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-12T12:01:23.767",
     "EstimatedRestorationDate": "2021-04-12T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-12T08:59:00",
-    "NoCustomerAffected": 15,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 1,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -74,7 +74,6 @@
       "N16 9"
     ],
     "PostCodesRestored": [
-      "N169LD",
       "N168QW",
       "N169AA",
       "N169AF",
@@ -84,6 +83,7 @@
       "N169AS",
       "N169BE",
       "N169EX",
+      "N169LD",
       "N169LH",
       "N169LJ",
       "N169LL",
@@ -91,7 +91,6 @@
       "N169NX"
     ],
     "PostCodesPlanned": [
-      "N169LD",
       "N168QW",
       "N169AA",
       "N169AF",
@@ -101,15 +100,16 @@
       "N169AS",
       "N169BE",
       "N169EX",
+      "N169LD",
       "N169LH",
       "N169LJ",
       "N169LL",
       "N169LN",
       "N169NX"
     ],
-    "CustomersOnSupply": 224,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 239,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -118,6 +118,43 @@
     "N16 9"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 51.54674,
+        "lng": -0.07569
+      },
+      "Coordinates": [
+        {
+          "lat": 51.54694,
+          "lng": -0.07537
+        },
+        {
+          "lat": 51.5464,
+          "lng": -0.0752
+        },
+        {
+          "lat": 51.54637,
+          "lng": -0.07528
+        },
+        {
+          "lat": 51.54654,
+          "lng": -0.07618
+        },
+        {
+          "lat": 51.54714,
+          "lng": -0.07599
+        },
+        {
+          "lat": 51.54712,
+          "lng": -0.07572
+        },
+        {
+          "lat": 51.54694,
+          "lng": -0.07537
+        }
+      ],
+      "Postcode": "N16 8"
+    },
     {
       "Center": {
         "lat": 51.55736,
@@ -510,47 +547,9 @@
         }
       ],
       "Postcode": "N16 9"
-    },
-    {
-      "Center": {
-        "lat": 51.54674,
-        "lng": -0.07569
-      },
-      "Coordinates": [
-        {
-          "lat": 51.54694,
-          "lng": -0.07537
-        },
-        {
-          "lat": 51.5464,
-          "lng": -0.0752
-        },
-        {
-          "lat": 51.54637,
-          "lng": -0.07528
-        },
-        {
-          "lat": 51.54654,
-          "lng": -0.07618
-        },
-        {
-          "lat": 51.54714,
-          "lng": -0.07599
-        },
-        {
-          "lat": 51.54712,
-          "lng": -0.07572
-        },
-        {
-          "lat": 51.54694,
-          "lng": -0.07537
-        }
-      ],
-      "Postcode": "N16 8"
     }
   ],
   "FullPostcodeData": [
-    "N169LD",
     "N168QW",
     "N169AA",
     "N169AF",
@@ -560,6 +559,7 @@
     "N169AS",
     "N169BE",
     "N169EX",
+    "N169LD",
     "N169LH",
     "N169LJ",
     "N169LL",
