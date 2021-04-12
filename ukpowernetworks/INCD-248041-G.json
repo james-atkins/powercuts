@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-248041-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248041-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248041-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-12T13:59:07",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-12T20:27:27.127",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c8e9INCD",
     "IncidentReference": "INCD-248041-G",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-12T11:30:58",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-12T20:27:27.127",
     "EstimatedRestorationDate": "2021-04-12T21:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-12T18:45:00",
-    "NoCustomerAffected": 42,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 10,
     "Latitude": 0.0,
@@ -73,10 +73,10 @@
       "CR2 9"
     ],
     "PostCodesRestored": [
+      "CR29AR",
       "CR29EE",
       "CR29EF",
       "CR29FE",
-      "CR29AR",
       "CR29HE",
       "CR29HF",
       "CR29HQ",
@@ -84,19 +84,19 @@
       "CR29LG"
     ],
     "PostCodesPlanned": [
+      "CR29AR",
       "CR29EE",
       "CR29EF",
       "CR29FE",
-      "CR29AR",
       "CR29HE",
       "CR29HF",
       "CR29HQ",
       "CR29HW",
       "CR29LG"
     ],
-    "CustomersOnSupply": 30,
-    "CustomersOffSupply": 42,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 72,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -407,10 +407,10 @@
     }
   ],
   "FullPostcodeData": [
+    "CR29AR",
     "CR29EE",
     "CR29EF",
     "CR29FE",
-    "CR29AR",
     "CR29HE",
     "CR29HF",
     "CR29HQ",
