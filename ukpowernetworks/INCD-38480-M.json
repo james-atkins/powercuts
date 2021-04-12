@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-38480-M",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-38480-M",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-38480-M",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-04-12T11:19:00.457",
+      "Message": "Update at 11:18 - We can now confirm that all power in the Kingston Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-04-12T03:04:48",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-12T10:36:20",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-12T11:16:52.49",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "M00009650INCD",
     "IncidentReference": "INCD-38480-M",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-12T03:05:33",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-12T11:16:52.49",
     "EstimatedRestorationDate": "2021-04-12T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-12T03:04:48",
-    "NoCustomerAffected": 14,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -54,17 +60,24 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-04-12T11:18:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 11:18 - We can now confirm that all power in the Kingston Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-04-12T11:19:00.457"
+      }
+    ],
     "PostCodesAffected": [
       "KT3 3",
       "NW2 5"
     ],
     "PostCodesRestored": [
-      "KT33PB",
-      "KT33QW",
       "KT33AA",
       "KT33BF",
       "KT33BG",
+      "KT33PB",
       "KT33PE",
       "KT33QA",
       "KT33QD",
@@ -78,15 +91,15 @@
       "KT33QS",
       "KT33QT",
       "KT33QU",
+      "KT33QW",
       "KT33RE",
       "NW25TJ"
     ],
     "PostCodesPlanned": [
-      "KT33PB",
-      "KT33QW",
       "KT33AA",
       "KT33BF",
       "KT33BG",
+      "KT33PB",
       "KT33PE",
       "KT33QA",
       "KT33QD",
@@ -100,12 +113,13 @@
       "KT33QS",
       "KT33QT",
       "KT33QU",
+      "KT33QW",
       "KT33RE",
       "NW25TJ"
     ],
-    "CustomersOnSupply": 319,
-    "CustomersOffSupply": 40,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 359,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1390,11 +1404,10 @@
     }
   ],
   "FullPostcodeData": [
-    "KT33PB",
-    "KT33QW",
     "KT33AA",
     "KT33BF",
     "KT33BG",
+    "KT33PB",
     "KT33PE",
     "KT33QA",
     "KT33QD",
@@ -1408,6 +1421,7 @@
     "KT33QS",
     "KT33QT",
     "KT33QU",
+    "KT33QW",
     "KT33RE",
     "NW25TJ"
   ],
