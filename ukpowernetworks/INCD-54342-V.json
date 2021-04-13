@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-54342-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-54342-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-54342-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-13T10:32:40",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-13T13:54:34.29",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000d446INCD",
     "IncidentReference": "INCD-54342-V",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-13T08:02:21",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-13T13:54:34.29",
     "EstimatedRestorationDate": "2021-04-13T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-13T08:01:19",
-    "NoCustomerAffected": 64,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
     "Latitude": 0.0,
@@ -106,9 +106,9 @@
       "TN306TL",
       "TN306TQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 60,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 60,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
