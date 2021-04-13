@@ -3,15 +3,15 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-54342-V",
   "Steps": [
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-13T08:01:19",
-      "Message": "<p>We became aware of a power cut at 08:01. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
-      "Name": "Power cut reported"
+      "Message": "<p>We became aware of this power cut at 08:01. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
+      "Name": "We are restoring customers automatically"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-04-13T08:16:22",
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
@@ -31,16 +31,16 @@
   "UKPNIncident": {
     "IncidentId": "V0000d446INCD",
     "IncidentReference": "INCD-54342-V",
-    "IncidentCategory": "124",
-    "IncidentType": 2,
+    "IncidentCategory": "140",
+    "IncidentType": 3,
     "IncidentPriority": 2,
     "StatusId": 1,
     "CreationDateTime": "2021-04-13T08:02:21",
     "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "EstimatedRestorationDate": "2021-04-13T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-13T08:01:19",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 8,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -48,7 +48,7 @@
     "Resource": {
       "Id": null,
       "Name": "PAUL (R5)",
-      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
+      "EstimatedTimeOfArrival": "2021-04-13T10:45:00",
       "DispatchedDate": "2021-04-13T08:16:22",
       "ArrivalDate": null,
       "StatusId": 5
@@ -456,8 +456,8 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "12:30 - 13:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
