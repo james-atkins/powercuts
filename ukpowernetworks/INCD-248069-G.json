@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-248069-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248069-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248069-G",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-13T07:38:16",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-13T10:04:07.773",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c905INCD",
     "IncidentReference": "INCD-248069-G",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-13T06:53:09",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-13T10:04:07.773",
     "EstimatedRestorationDate": "2021-04-13T10:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-13T06:53:06",
@@ -321,7 +321,7 @@
     ],
     "CustomersOnSupply": 2092,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
