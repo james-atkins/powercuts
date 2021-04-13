@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-54327-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-54327-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-54327-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-12T22:04:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-13T18:00:28.793",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000d437INCD",
     "IncidentReference": "INCD-54327-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 32,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-12T19:17:49",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-13T18:00:28.793",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-12T19:16:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -60,8 +60,8 @@
       "CT19 5"
     ],
     "PostCodesRestored": [
-      "CT194BE",
       "CT194BD",
+      "CT194BE",
       "CT194BG",
       "CT194BJ",
       "CT194BL",
@@ -71,8 +71,8 @@
       "CT195HB"
     ],
     "PostCodesPlanned": [
-      "CT194BE",
       "CT194BD",
+      "CT194BE",
       "CT194BG",
       "CT194BJ",
       "CT194BL",
@@ -81,9 +81,9 @@
       "CT194BU",
       "CT195HB"
     ],
-    "CustomersOnSupply": 100,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 102,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -1012,8 +1012,8 @@
     }
   ],
   "FullPostcodeData": [
-    "CT194BE",
     "CT194BD",
+    "CT194BE",
     "CT194BG",
     "CT194BJ",
     "CT194BL",
