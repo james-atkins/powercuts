@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247943-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247943-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247943-G",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-09T16:03:36",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-14T14:20:00.827",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c887INCD",
     "IncidentReference": "INCD-247943-G",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 501,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-09T14:58:13",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-14T14:20:00.827",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-09T14:56:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 3,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -74,23 +74,23 @@
       "CR8 4"
     ],
     "PostCodesRestored": [
-      "CR82HG",
       "CR82HF",
+      "CR82HG",
       "CR82HN",
       "CR82HR",
       "CR84DU"
     ],
     "PostCodesPlanned": [
-      "CR82HG",
       "CR82HF",
+      "CR82HG",
       "CR82HN",
       "CR82HR",
       "CR84DU"
     ],
-    "CustomersOnSupply": 21,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 22,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1246,8 +1246,8 @@
     }
   ],
   "FullPostcodeData": [
-    "CR82HG",
     "CR82HF",
+    "CR82HG",
     "CR82HN",
     "CR82HR",
     "CR84DU"
