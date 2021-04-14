@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-230790-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-230790-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-230790-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-14T08:22:30",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-14T09:06:30.313",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00038586INCD",
     "IncidentReference": "INCD-230790-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-14T05:33:05",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-14T09:06:30.313",
     "EstimatedRestorationDate": "2021-04-14T10:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-14T05:29:00",
-    "NoCustomerAffected": 11,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -61,24 +61,24 @@
     "PostCodesRestored": [
       "N80AD",
       "N80AE",
-      "N80RE",
       "N80AG",
       "N80AP",
       "N80NP",
-      "N80NS"
+      "N80NS",
+      "N80RE"
     ],
     "PostCodesPlanned": [
       "N80AD",
       "N80AE",
-      "N80RE",
       "N80AG",
       "N80AP",
       "N80NP",
-      "N80NS"
+      "N80NS",
+      "N80RE"
     ],
-    "CustomersOnSupply": 7,
-    "CustomersOffSupply": 33,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 40,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -475,11 +475,11 @@
   "FullPostcodeData": [
     "N80AD",
     "N80AE",
-    "N80RE",
     "N80AG",
     "N80AP",
     "N80NP",
-    "N80NS"
+    "N80NS",
+    "N80RE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
