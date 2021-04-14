@@ -3,7 +3,7 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-230902-Z",
   "Steps": [
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-14T12:07:42",
       "Message": "<p>We became aware of a power cut at 12:07. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -11,19 +11,19 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": null,
-      "Message": null,
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
@@ -34,7 +34,7 @@
     "IncidentCategory": "24",
     "IncidentType": 2,
     "IncidentPriority": 2,
-    "StatusId": 0,
+    "StatusId": 8,
     "CreationDateTime": "2021-04-14T12:07:42",
     "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-04-14T13:00:00",
@@ -90,8 +90,8 @@
       "CM144SP",
       "CM144SX"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 101,
+    "CustomersOnSupply": 101,
+    "CustomersOffSupply": 0,
     "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
