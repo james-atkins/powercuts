@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-260039-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-260039-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-260039-J",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-04-15T10:41:16.873",
+      "Message": "Update at 10:40 - We can now confirm that all power in the Garrett Lane area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-04-15T07:44:53",
+      "Date": "2021-04-15T07:44:00",
       "Message": "<p>We became aware of a power cut at 07:44. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-15T09:42:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-15T10:39:47.867",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003f7c7INCD",
     "IncidentReference": "INCD-260039-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-15T07:45:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-15T10:39:47.867",
     "EstimatedRestorationDate": "2021-04-15T11:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-04-15T07:44:53",
+    "ReceivedDate": "2021-04-15T07:44:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 3,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-04-15T10:40:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 10:40 - We can now confirm that all power in the Garrett Lane area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-04-15T10:41:16.873"
+      }
+    ],
     "PostCodesAffected": [
       "SW17 0"
     ],
@@ -72,9 +86,9 @@
       "SW170JH",
       "SW170NP"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 22,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 22,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
