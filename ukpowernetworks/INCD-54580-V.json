@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-54580-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-54580-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-54580-V",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-04-15T19:19:32.727",
+      "Message": "Update at 19:19 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a fault on the underground network in the Lower Park Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-04-15T18:37:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-15T18:35:08",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-15T19:16:33.093",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000d534INCD",
     "IncidentReference": "INCD-54580-V",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-15T18:33:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-15T19:16:33.093",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-15T18:37:00",
-    "NoCustomerAffected": 13,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-04-15T19:18:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 19:19 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a fault on the underground network in the Lower Park Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-04-15T19:19:32.727"
+      }
+    ],
     "PostCodesAffected": [
       "TN34 2"
     ],
@@ -68,9 +82,9 @@
       "TN342LB",
       "TN342LL"
     ],
-    "CustomersOnSupply": 26,
-    "CustomersOffSupply": 13,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 39,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
