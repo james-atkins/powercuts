@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-231061-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-231061-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-231061-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-04-15T09:29:33",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-04-15T12:17:32.653",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z00038695INCD",
     "IncidentReference": "INCD-231061-Z",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-04-15T08:32:28",
-    "RestoredDateTime": "2021-04-15T12:17:32.653",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-04-15T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-15T08:31:00",
@@ -74,28 +74,28 @@
       "HA8 9"
     ],
     "PostCodesRestored": [
+      "HA88YS",
       "HA88YE",
       "HA88YL",
       "HA88YN",
-      "HA88YS",
       "HA89TY",
       "HA89UA",
       "HA89UB",
       "HA89UE"
     ],
     "PostCodesPlanned": [
+      "HA88YS",
       "HA88YE",
       "HA88YL",
       "HA88YN",
-      "HA88YS",
       "HA89TY",
       "HA89UA",
       "HA89UB",
       "HA89UE"
     ],
-    "CustomersOnSupply": 113,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "CustomersOnSupply": 109,
+    "CustomersOffSupply": 4,
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1604,10 +1604,10 @@
     }
   ],
   "FullPostcodeData": [
+    "HA88YS",
     "HA88YE",
     "HA88YL",
     "HA88YN",
-    "HA88YS",
     "HA89TY",
     "HA89UA",
     "HA89UB",
@@ -1615,7 +1615,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "12:30 - 13:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
