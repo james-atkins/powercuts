@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-260051-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-260051-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-260051-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-15T11:43:50",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-15T13:39:28.037",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003f7d3INCD",
     "IncidentReference": "INCD-260051-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-15T09:55:43",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-15T13:39:28.037",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-15T09:55:00",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -74,18 +74,18 @@
       "E8 2"
     ],
     "PostCodesRestored": [
-      "E82JP",
       "DA81RX",
+      "E82JP",
       "E82NR"
     ],
     "PostCodesPlanned": [
-      "E82JP",
       "DA81RX",
+      "E82JP",
       "E82NR"
     ],
-    "CustomersOnSupply": 4,
-    "CustomersOffSupply": 12,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 16,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -94,6 +94,55 @@
     "E8 2"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 51.49629,
+        "lng": 0.18161
+      },
+      "Coordinates": [
+        {
+          "lat": 51.49977,
+          "lng": 0.17874
+        },
+        {
+          "lat": 51.49674,
+          "lng": 0.18449
+        },
+        {
+          "lat": 51.49594,
+          "lng": 0.18371
+        },
+        {
+          "lat": 51.49227,
+          "lng": 0.18185
+        },
+        {
+          "lat": 51.49203,
+          "lng": 0.1819
+        },
+        {
+          "lat": 51.49176,
+          "lng": 0.18199
+        },
+        {
+          "lat": 51.49202,
+          "lng": 0.18188
+        },
+        {
+          "lat": 51.49226,
+          "lng": 0.18179
+        },
+        {
+          "lat": 51.49587,
+          "lng": 0.18032
+        },
+        {
+          "lat": 51.49977,
+          "lng": 0.17874
+        }
+      ],
+      "Postcode": "DA8 1"
+    },
     {
       "Center": {
         "lat": 51.55068,
@@ -642,60 +691,11 @@
         }
       ],
       "Postcode": "E8 2"
-    },
-    {
-      "Center": {
-        "lat": 51.49629,
-        "lng": 0.18161
-      },
-      "Coordinates": [
-        {
-          "lat": 51.49977,
-          "lng": 0.17874
-        },
-        {
-          "lat": 51.49674,
-          "lng": 0.18449
-        },
-        {
-          "lat": 51.49594,
-          "lng": 0.18371
-        },
-        {
-          "lat": 51.49227,
-          "lng": 0.18185
-        },
-        {
-          "lat": 51.49203,
-          "lng": 0.1819
-        },
-        {
-          "lat": 51.49176,
-          "lng": 0.18199
-        },
-        {
-          "lat": 51.49202,
-          "lng": 0.18188
-        },
-        {
-          "lat": 51.49226,
-          "lng": 0.18179
-        },
-        {
-          "lat": 51.49587,
-          "lng": 0.18032
-        },
-        {
-          "lat": 51.49977,
-          "lng": 0.17874
-        }
-      ],
-      "Postcode": "DA8 1"
     }
   ],
   "FullPostcodeData": [
-    "E82JP",
     "DA81RX",
+    "E82JP",
     "E82NR"
   ],
   "PinLatitude": null,

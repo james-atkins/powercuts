@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-231159-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-231159-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-231159-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-04-15T13:51:49.237",
+      "Message": "Update at 13:51 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Butt Lane area for safety so they can complete emergency repairs to a fault on our underground cabling network. Our estimated time to have your power back on is between 13:30 and 14:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-04-15T12:35:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-15T12:23:25",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-15T13:54:40.937",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000386f7INCD",
     "IncidentReference": "INCD-231159-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-15T12:20:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-15T13:54:40.937",
     "EstimatedRestorationDate": "2021-04-15T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-15T12:35:00",
-    "NoCustomerAffected": 27,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-04-15T13:51:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 13:51 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Butt Lane area for safety so they can complete emergency repairs to a fault on our underground cabling network. Our estimated time to have your power back on is between 13:30 and 14:30. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
+        "LoggedTime": "2021-04-15T13:51:49.237"
+      }
+    ],
     "PostCodesAffected": [
       "CB24 6",
       "CB4 6"
@@ -63,10 +77,9 @@
       "CB246BT",
       "CB246DF",
       "CB246DG",
-      "CB246DS",
-      "CB46DG",
       "CB246DH",
       "CB246DJ",
+      "CB246DS",
       "CB246EE",
       "CB246EU",
       "CB246YX",
@@ -75,16 +88,16 @@
       "CB246ZG",
       "CB246ZL",
       "CB246ZN",
-      "CB246ZQ"
+      "CB246ZQ",
+      "CB46DG"
     ],
     "PostCodesPlanned": [
       "CB246BT",
       "CB246DF",
       "CB246DG",
-      "CB246DS",
-      "CB46DG",
       "CB246DH",
       "CB246DJ",
+      "CB246DS",
       "CB246EE",
       "CB246EU",
       "CB246YX",
@@ -93,12 +106,13 @@
       "CB246ZG",
       "CB246ZL",
       "CB246ZN",
-      "CB246ZQ"
+      "CB246ZQ",
+      "CB46DG"
     ],
-    "CustomersOnSupply": 182,
-    "CustomersOffSupply": 27,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 209,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -248,10 +262,9 @@
     "CB246BT",
     "CB246DF",
     "CB246DG",
-    "CB246DS",
-    "CB46DG",
     "CB246DH",
     "CB246DJ",
+    "CB246DS",
     "CB246EE",
     "CB246EU",
     "CB246YX",
@@ -260,7 +273,8 @@
     "CB246ZG",
     "CB246ZL",
     "CB246ZN",
-    "CB246ZQ"
+    "CB246ZQ",
+    "CB46DG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
