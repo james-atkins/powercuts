@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-231496-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-231496-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-231496-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-16T20:23:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-16T21:42:45.647",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00038848INCD",
     "IncidentReference": "INCD-231496-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-16T19:35:48",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-16T21:42:45.647",
     "EstimatedRestorationDate": "2021-04-16T22:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-16T19:35:00",
-    "NoCustomerAffected": 97,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 23,
     "Latitude": 0.0,
@@ -84,6 +84,7 @@
       "SS91DJ",
       "SS91DQ",
       "SS91DY",
+      "SS91FR",
       "SS91PE",
       "SS91PG",
       "SS91PH",
@@ -97,8 +98,7 @@
       "SS91RJ",
       "SS91RL",
       "SS91RN",
-      "SS91RP",
-      "SS91FR"
+      "SS91RP"
     ],
     "PostCodesPlanned": [
       "SS91AA",
@@ -112,6 +112,7 @@
       "SS91DJ",
       "SS91DQ",
       "SS91DY",
+      "SS91FR",
       "SS91PE",
       "SS91PG",
       "SS91PH",
@@ -125,12 +126,11 @@
       "SS91RJ",
       "SS91RL",
       "SS91RN",
-      "SS91RP",
-      "SS91FR"
+      "SS91RP"
     ],
-    "CustomersOnSupply": 29,
-    "CustomersOffSupply": 291,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 320,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -556,6 +556,7 @@
     "SS91DJ",
     "SS91DQ",
     "SS91DY",
+    "SS91FR",
     "SS91PE",
     "SS91PG",
     "SS91PH",
@@ -569,8 +570,7 @@
     "SS91RJ",
     "SS91RL",
     "SS91RN",
-    "SS91RP",
-    "SS91FR"
+    "SS91RP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
