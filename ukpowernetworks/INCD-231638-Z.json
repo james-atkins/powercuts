@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-231638-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-231638-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-231638-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-18T12:14:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-18T20:19:55.017",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000388d6INCD",
     "IncidentReference": "INCD-231638-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-18T10:40:25",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-18T20:19:55.017",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-18T10:37:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -73,8 +73,6 @@
       "IP3 9"
     ],
     "PostCodesRestored": [
-      "IP39PY",
-      "IP39QA",
       "IP39HP",
       "IP39HR",
       "IP39HS",
@@ -84,11 +82,11 @@
       "IP39HY",
       "IP39HZ",
       "IP39JA",
-      "IP39NN"
+      "IP39NN",
+      "IP39PY",
+      "IP39QA"
     ],
     "PostCodesPlanned": [
-      "IP39PY",
-      "IP39QA",
       "IP39HP",
       "IP39HR",
       "IP39HS",
@@ -98,12 +96,14 @@
       "IP39HY",
       "IP39HZ",
       "IP39JA",
-      "IP39NN"
+      "IP39NN",
+      "IP39PY",
+      "IP39QA"
     ],
-    "CustomersOnSupply": 201,
-    "CustomersOffSupply": 12,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 213,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -585,8 +585,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IP39PY",
-    "IP39QA",
     "IP39HP",
     "IP39HR",
     "IP39HS",
@@ -596,7 +594,9 @@
     "IP39HY",
     "IP39HZ",
     "IP39JA",
-    "IP39NN"
+    "IP39NN",
+    "IP39PY",
+    "IP39QA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
