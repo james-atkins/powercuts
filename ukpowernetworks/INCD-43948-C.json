@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-43948-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-43948-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-43948-C",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-18T07:17:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-18T13:29:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000abacINCD",
     "IncidentReference": "INCD-43948-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-07T08:43:05",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-18T13:29:00",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-07T08:42:00",
@@ -74,28 +74,28 @@
       "SG19 2"
     ],
     "PostCodesRestored": [
-      "SG191HX",
       "SG191AG",
       "SG191BG",
       "SG191HT",
       "SG191HU",
+      "SG191HX",
       "SG191JE",
       "SG191JJ",
       "SG192NP"
     ],
     "PostCodesPlanned": [
-      "SG191HX",
       "SG191AG",
       "SG191BG",
       "SG191HT",
       "SG191HU",
+      "SG191HX",
       "SG191JE",
       "SG191JJ",
       "SG192NP"
     ],
-    "CustomersOnSupply": 37,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 38,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -964,11 +964,11 @@
     }
   ],
   "FullPostcodeData": [
-    "SG191HX",
     "SG191AG",
     "SG191BG",
     "SG191HT",
     "SG191HU",
+    "SG191HX",
     "SG191JE",
     "SG191JJ",
     "SG192NP"
