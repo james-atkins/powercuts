@@ -1,45 +1,51 @@
 {
   "IncidentReference": "INCD-38528-M",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-38528-M",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-38528-M",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-04-19T01:57:05.8",
+      "Message": "Update at 01:57 - Our engineers have now arrived on site in the Charlotte Mews area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. This can involve ground excavations, traffic management equipment or specialist teams.. As soon as our staff can safely update us, we'll give you the latest news.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-04-19T00:35:09",
+      "Date": "2021-04-19T00:35:00",
       "Message": "<p>We became aware of a power cut at 00:35. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-19T00:43:09",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-04-19T01:43:35",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-19T02:10:40.007",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "M00009680INCD",
     "IncidentReference": "INCD-38528-M",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-19T00:37:00",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-19T02:10:40.007",
     "EstimatedRestorationDate": "2021-04-19T03:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-04-19T00:35:09",
+    "ReceivedDate": "2021-04-19T00:35:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -50,37 +56,45 @@
       "Name": "MARK (R5)(LV)",
       "EstimatedTimeOfArrival": "2021-04-19T02:00:00",
       "DispatchedDate": "2021-04-19T00:43:09",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-04-19T01:43:35",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-04-19T01:56:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 01:57 - Our engineers have now arrived on site in the Charlotte Mews area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed. This can involve ground excavations, traffic management equipment or specialist teams.. As soon as our staff can safely update us, we'll give you the latest news.",
+        "LoggedTime": "2021-04-19T01:57:05.8"
+      }
+    ],
     "PostCodesAffected": [
       "W10 6",
       "W1P 1",
       "W1T 4"
     ],
     "PostCodesRestored": [
+      "W106TU",
+      "W106UB",
+      "W106UD",
       "W106UH",
       "W106UJ",
       "W1P1LN",
-      "W1T4ED",
-      "W106TU",
-      "W106UB",
-      "W106UD"
+      "W1T4ED"
     ],
     "PostCodesPlanned": [
+      "W106TU",
+      "W106UB",
+      "W106UD",
       "W106UH",
       "W106UJ",
       "W1P1LN",
-      "W1T4ED",
-      "W106TU",
-      "W106UB",
-      "W106UD"
+      "W1T4ED"
     ],
-    "CustomersOnSupply": 123,
-    "CustomersOffSupply": 26,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 149,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -1130,13 +1144,13 @@
     }
   ],
   "FullPostcodeData": [
+    "W106TU",
+    "W106UB",
+    "W106UD",
     "W106UH",
     "W106UJ",
     "W1P1LN",
-    "W1T4ED",
-    "W106TU",
-    "W106UB",
-    "W106UD"
+    "W1T4ED"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
