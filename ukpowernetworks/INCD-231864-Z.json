@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-231864-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-231864-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-231864-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-19T16:09:51",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-19T18:02:53",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000389b8INCD",
     "IncidentReference": "INCD-231864-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-19T14:24:19",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-19T18:02:53",
     "EstimatedRestorationDate": "2021-04-19T19:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-19T14:23:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,24 +59,24 @@
       "IP24 1"
     ],
     "PostCodesRestored": [
-      "IP241JD",
       "IP241AF",
+      "IP241JD",
       "IP241JE",
       "IP241JF",
       "IP241JG",
       "IP241LB"
     ],
     "PostCodesPlanned": [
-      "IP241JD",
       "IP241AF",
+      "IP241JD",
       "IP241JE",
       "IP241JF",
       "IP241JG",
       "IP241LB"
     ],
-    "CustomersOnSupply": 40,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 41,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -615,8 +615,8 @@
     }
   ],
   "FullPostcodeData": [
-    "IP241JD",
     "IP241AF",
+    "IP241JD",
     "IP241JE",
     "IP241JF",
     "IP241JG",
