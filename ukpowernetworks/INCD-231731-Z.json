@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-231731-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-231731-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-231731-Z",
   "Steps": [
     {
       "Active": true,
@@ -10,7 +10,7 @@
     },
     {
       "Active": false,
-      "Date": "2021-04-19T08:53:53",
+      "Date": "2021-04-19T08:53:00",
       "Message": "<p>We became aware of a power cut at 08:53. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-19T09:22:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-19T09:58:19.593",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00038933INCD",
     "IncidentReference": "INCD-231731-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-19T08:54:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-19T09:58:19.593",
     "EstimatedRestorationDate": "2021-04-19T11:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-04-19T08:53:53",
+    "ReceivedDate": "2021-04-19T08:53:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 5,
+    "NoCallsReported": 6,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -76,9 +76,9 @@
       "SS93AR",
       "SS93AS",
       "SS93AT",
+      "SS93AX",
       "SS93BB",
       "SS93BE",
-      "SS93AX",
       "SS93DB",
       "SS93DD",
       "SS93DE",
@@ -88,17 +88,17 @@
       "SS93AR",
       "SS93AS",
       "SS93AT",
+      "SS93AX",
       "SS93BB",
       "SS93BE",
-      "SS93AX",
       "SS93DB",
       "SS93DD",
       "SS93DE",
       "SS93DF"
     ],
-    "CustomersOnSupply": 72,
-    "CustomersOffSupply": 31,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 103,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -792,9 +792,9 @@
     "SS93AR",
     "SS93AS",
     "SS93AT",
+    "SS93AX",
     "SS93BB",
     "SS93BE",
-    "SS93AX",
     "SS93DB",
     "SS93DD",
     "SS93DE",
