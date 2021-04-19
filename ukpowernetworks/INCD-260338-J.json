@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-260338-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-260338-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-260338-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-04-19T22:57:46.037",
-      "Message": "Update at 22:57 - Hi, this is Will from the UK Power Networks messaging team. Thanks for your patience over tonight. Our engineers have been in contact with us to let us know that due to the work required to locate the underground network fault and complete their repairs.To give them time to do this safely, the estimated timeframe to restore your power is now between 03:00 and 04:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
+      "Date": "2021-04-19T23:30:58.937",
+      "Message": "Update at 23:30 - We can now confirm that all power in the Netherall Gardens should be back on. The issue was due to an underground cable fault, however engineers have managed to restore power from the substation nearby, and will be investigating the root cause. If there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-19T20:29:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-19T23:29:01.54",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003f8f2INCD",
     "IncidentReference": "INCD-260338-J",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-19T19:23:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-19T23:29:01.54",
     "EstimatedRestorationDate": "2021-04-20T03:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-19T19:20:00",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-04-19T22:57:00",
+        "ActualEventTime": "2021-04-19T23:30:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 22:57 - Hi, this is Will from the UK Power Networks messaging team. Thanks for your patience over tonight. Our engineers have been in contact with us to let us know that due to the work required to locate the underground network fault and complete their repairs.To give them time to do this safely, the estimated timeframe to restore your power is now between 03:00 and 04:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
-        "LoggedTime": "2021-04-19T22:57:46.037"
+        "Comment": "Update at 23:30 - We can now confirm that all power in the Netherall Gardens should be back on. The issue was due to an underground cable fault, however engineers have managed to restore power from the substation nearby, and will be investigating the root cause. If there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-04-19T23:30:58.937"
       }
     ],
     "PostCodesAffected": [
@@ -82,10 +82,10 @@
       "NW35RT",
       "NW35SA"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 36,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 37,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -769,7 +769,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "03:00 - 04:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
