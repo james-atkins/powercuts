@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-44270-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-44270-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-44270-C",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-04-19T10:54:24.91",
-      "Message": "Update at 10:54 - Our staff have now confirmed that our substation equipment has operated due to an underground cable fault which we'll need to pinpoint, excavate and repair. We're sending specialist teams and equipment to site, and it's possible they will still be able to restore your power within the current timeframe using other methods. However, once they've further assessed we'll have a better idea of the works required, so we'll let you know if the time frame needs to change. If you would like more information about this type of fault; here's a short video <a href=\"https://bit.ly/2ScxQDZ.\" target=\"_blank\">https://bit.ly/2ScxQDZ.</a>",
+      "Date": "2021-04-19T11:38:14.353",
+      "Message": "Update at 11:38 - Our engineers have now restored power in the Brook Street area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-19T09:19:30",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-19T11:32:41.177",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000aceeINCD",
     "IncidentReference": "INCD-44270-C",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-19T09:12:25",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-19T11:32:41.177",
     "EstimatedRestorationDate": "2021-04-19T11:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-19T09:11:19",
-    "NoCustomerAffected": 66,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-04-19T10:53:00",
+        "ActualEventTime": "2021-04-19T11:37:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:54 - Our staff have now confirmed that our substation equipment has operated due to an underground cable fault which we'll need to pinpoint, excavate and repair. We're sending specialist teams and equipment to site, and it's possible they will still be able to restore your power within the current timeframe using other methods. However, once they've further assessed we'll have a better idea of the works required, so we'll let you know if the time frame needs to change. If you would like more information about this type of fault; here's a short video https://bit.ly/2ScxQDZ.",
-        "LoggedTime": "2021-04-19T10:54:24.91"
+        "Comment": "Update at 11:38 - Our engineers have now restored power in the Brook Street area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-04-19T11:38:14.353"
       }
     ],
     "PostCodesAffected": [
@@ -75,6 +75,7 @@
     ],
     "PostCodesRestored": [
       "CO11LN",
+      "CO12AN",
       "CO12LJ",
       "CO12LL",
       "CO12LN",
@@ -82,11 +83,11 @@
       "CO12UU",
       "CO12UZ",
       "CO12WA",
-      "CO12ZR",
-      "CO12AN"
+      "CO12ZR"
     ],
     "PostCodesPlanned": [
       "CO11LN",
+      "CO12AN",
       "CO12LJ",
       "CO12LL",
       "CO12LN",
@@ -94,12 +95,11 @@
       "CO12UU",
       "CO12UZ",
       "CO12WA",
-      "CO12ZR",
-      "CO12AN"
+      "CO12ZR"
     ],
-    "CustomersOnSupply": 2,
-    "CustomersOffSupply": 66,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 68,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1333,6 +1333,7 @@
   ],
   "FullPostcodeData": [
     "CO11LN",
+    "CO12AN",
     "CO12LJ",
     "CO12LL",
     "CO12LN",
@@ -1340,12 +1341,11 @@
     "CO12UU",
     "CO12UZ",
     "CO12WA",
-    "CO12ZR",
-    "CO12AN"
+    "CO12ZR"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "11:00 - 12:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
