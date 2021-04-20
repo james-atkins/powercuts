@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-248438-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248438-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248438-G",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-20T07:54:09",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-20T18:01:45.677",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003ca76INCD",
     "IncidentReference": "INCD-248438-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-20T06:26:05",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-20T18:01:45.677",
     "EstimatedRestorationDate": "2021-04-20T17:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-20T06:25:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 9,
+    "NoCallsReported": 8,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -73,10 +73,10 @@
       "GU4 7"
     ],
     "PostCodesRestored": [
-      "GU47AX",
       "GU47AS",
       "GU47AT",
       "GU47AU",
+      "GU47AX",
       "GU47DL",
       "GU47EA",
       "GU47EP",
@@ -84,19 +84,19 @@
       "GU47PJ"
     ],
     "PostCodesPlanned": [
-      "GU47AX",
       "GU47AS",
       "GU47AT",
       "GU47AU",
+      "GU47AX",
       "GU47DL",
       "GU47EA",
       "GU47EP",
       "GU47ER",
       "GU47PJ"
     ],
-    "CustomersOnSupply": 53,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 55,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -859,10 +859,10 @@
     }
   ],
   "FullPostcodeData": [
-    "GU47AX",
     "GU47AS",
     "GU47AT",
     "GU47AU",
+    "GU47AX",
     "GU47DL",
     "GU47EA",
     "GU47EP",
