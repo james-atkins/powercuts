@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-135241-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-135241-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-135241-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-21T07:44:55",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-21T09:36:26.157",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G00021049INCD",
     "IncidentReference": "INCD-135241-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2018-03-06T02:50:13",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-21T09:36:26.157",
     "EstimatedRestorationDate": "2021-04-21T09:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2018-03-06T02:50:00",
-    "NoCustomerAffected": 9,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -59,17 +59,17 @@
       "KT5 9"
     ],
     "PostCodesRestored": [
-      "KT59ET",
-      ""
+      "",
+      "KT59ET"
     ],
     "PostCodesPlanned": [
-      "KT59ET",
-      ""
+      "",
+      "KT59ET"
     ],
-    "CustomersOnSupply": 84,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 93,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -539,8 +539,8 @@
     }
   ],
   "FullPostcodeData": [
-    "KT59ET",
-    ""
+    "",
+    "KT59ET"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
