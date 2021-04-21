@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-260439-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-260439-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-260439-J",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-04-21T17:03:08.973",
+      "Message": "Update at 17:03 - We believe our engineers have been able to restore power to all 259 customers in the London EC1A 7 area, by diverting power around an overhead/underground cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-04-21T14:00:00",
@@ -15,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-21T15:31:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-21T16:59:25.047",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003f957INCD",
     "IncidentReference": "INCD-260439-J",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-21T13:59:56",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-21T16:59:25.047",
     "EstimatedRestorationDate": "2021-04-21T18:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-21T14:00:00",
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-04-21T17:02:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 17:03 - We believe our engineers have been able to restore power to all 259 customers in the London EC1A 7 area, by diverting power around an overhead/underground cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-04-21T17:03:08.973"
+      }
+    ],
     "PostCodesAffected": [
       "EC1A 2",
       "EC1A 7",
@@ -202,7 +216,7 @@
     ],
     "CustomersOnSupply": 356,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
