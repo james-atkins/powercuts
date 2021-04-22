@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-54965-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-54965-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-54965-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-22T16:57:59",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-22T22:04:40.48",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000d6b5INCD",
     "IncidentReference": "INCD-54965-V",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-22T15:58:13",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-22T22:04:40.48",
     "EstimatedRestorationDate": "2021-04-22T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-22T15:57:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -73,24 +73,24 @@
       "TN11 8"
     ],
     "PostCodesRestored": [
-      "TN118RS",
       "TN118RL",
       "TN118RQ",
+      "TN118RS",
       "TN118RT",
       "TN118RU",
       "TN118RX"
     ],
     "PostCodesPlanned": [
-      "TN118RS",
       "TN118RL",
       "TN118RQ",
+      "TN118RS",
       "TN118RT",
       "TN118RU",
       "TN118RX"
     ],
-    "CustomersOnSupply": 65,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 68,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -517,9 +517,9 @@
     }
   ],
   "FullPostcodeData": [
-    "TN118RS",
     "TN118RL",
     "TN118RQ",
+    "TN118RS",
     "TN118RT",
     "TN118RU",
     "TN118RX"
