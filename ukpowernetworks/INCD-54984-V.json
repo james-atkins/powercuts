@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-54984-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-54984-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-54984-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-04-23T12:14:46.2",
-      "Message": "Update at 12:14 - It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers have advised that the repairs are taking longer than first anticipated. Therefore, we're now aiming to restore supplies between 12:30 and 13:30. We're sorry we've had to change the estimated time, but we'll keep you updated.",
+      "Date": "2021-04-23T12:36:54.07",
+      "Message": "Update at 12:36 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground network fault in the Church Hill Avenue area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-23T09:51:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-23T12:32:59.853",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000d6c8INCD",
     "IncidentReference": "INCD-54984-V",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-23T09:48:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-23T12:32:59.853",
     "EstimatedRestorationDate": "2021-04-23T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-23T10:09:00",
-    "NoCustomerAffected": 52,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-04-23T12:13:00",
+        "ActualEventTime": "2021-04-23T12:35:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 12:14 - It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers have advised that the repairs are taking longer than first anticipated. Therefore, we're now aiming to restore supplies between 12:30 and 13:30. We're sorry we've had to change the estimated time, but we'll keep you updated.",
-        "LoggedTime": "2021-04-23T12:14:46.2"
+        "Comment": "Update at 12:36 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground network fault in the Church Hill Avenue area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-04-23T12:36:54.07"
       }
     ],
     "PostCodesAffected": [
@@ -75,21 +75,21 @@
     ],
     "PostCodesRestored": [
       "TN393TD",
-      "TN394SG",
-      "TN394SL",
       "TN393TG",
-      "TN393TH"
+      "TN393TH",
+      "TN394SG",
+      "TN394SL"
     ],
     "PostCodesPlanned": [
       "TN393TD",
-      "TN394SG",
-      "TN394SL",
       "TN393TG",
-      "TN393TH"
+      "TN393TH",
+      "TN394SG",
+      "TN394SL"
     ],
-    "CustomersOnSupply": 11,
-    "CustomersOffSupply": 48,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 59,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1359,10 +1359,10 @@
   ],
   "FullPostcodeData": [
     "TN393TD",
-    "TN394SG",
-    "TN394SL",
     "TN393TG",
-    "TN393TH"
+    "TN393TH",
+    "TN394SG",
+    "TN394SL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
