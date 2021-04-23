@@ -1,9 +1,9 @@
 {
   "IncidentReference": "INCD-260549-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-260549-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-260549-J",
   "Steps": [
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-23T02:58:00",
       "Message": "<p>We became aware of a power cut at 02:58. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
@@ -11,32 +11,32 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-23T03:08:10.637",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003f9c5INCD",
     "IncidentReference": "INCD-260549-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-23T03:02:03",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-23T03:08:10.637",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-23T02:58:00",
@@ -64,43 +64,43 @@
       "TW9 4"
     ],
     "PostCodesRestored": [
+      "DA176AA",
       "E10BT",
+      "E10BX",
+      "E12PH",
+      "E12PJ",
+      "E12PW",
       "E12QD",
       "E12QE",
       "E12QF",
       "E12QG",
       "E12QL",
       "E12QQ",
-      "DA176AA",
-      "E10BX",
-      "E12PH",
-      "E12PJ",
-      "E12PW",
       "IG26EW",
       "SE153JQ",
       "TW94EF"
     ],
     "PostCodesPlanned": [
+      "DA176AA",
       "E10BT",
+      "E10BX",
+      "E12PH",
+      "E12PJ",
+      "E12PW",
       "E12QD",
       "E12QE",
       "E12QF",
       "E12QG",
       "E12QL",
       "E12QQ",
-      "DA176AA",
-      "E10BX",
-      "E12PH",
-      "E12PJ",
-      "E12PW",
       "IG26EW",
       "SE153JQ",
       "TW94EF"
     ],
-    "CustomersOnSupply": 78,
-    "CustomersOffSupply": 77,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 155,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -112,6 +112,35 @@
     "TW9 4"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 51.51184,
+        "lng": 0.15922
+      },
+      "Coordinates": [
+        {
+          "lat": 51.51273,
+          "lng": 0.15932
+        },
+        {
+          "lat": 51.51094,
+          "lng": 0.1618
+        },
+        {
+          "lat": 51.51106,
+          "lng": 0.16147
+        },
+        {
+          "lat": 51.51176,
+          "lng": 0.15666
+        },
+        {
+          "lat": 51.51273,
+          "lng": 0.15932
+        }
+      ],
+      "Postcode": "DA17 6"
+    },
     {
       "Center": {
         "lat": 51.51344,
@@ -809,35 +838,6 @@
         }
       ],
       "Postcode": "E1 2"
-    },
-    {
-      "Center": {
-        "lat": 51.51184,
-        "lng": 0.15922
-      },
-      "Coordinates": [
-        {
-          "lat": 51.51273,
-          "lng": 0.15932
-        },
-        {
-          "lat": 51.51094,
-          "lng": 0.1618
-        },
-        {
-          "lat": 51.51106,
-          "lng": 0.16147
-        },
-        {
-          "lat": 51.51176,
-          "lng": 0.15666
-        },
-        {
-          "lat": 51.51273,
-          "lng": 0.15932
-        }
-      ],
-      "Postcode": "DA17 6"
     },
     {
       "Center": {
@@ -2308,18 +2308,18 @@
     }
   ],
   "FullPostcodeData": [
+    "DA176AA",
     "E10BT",
+    "E10BX",
+    "E12PH",
+    "E12PJ",
+    "E12PW",
     "E12QD",
     "E12QE",
     "E12QF",
     "E12QG",
     "E12QL",
     "E12QQ",
-    "DA176AA",
-    "E10BX",
-    "E12PH",
-    "E12PJ",
-    "E12PW",
     "IG26EW",
     "SE153JQ",
     "TW94EF"
