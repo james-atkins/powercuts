@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-232458-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-232458-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-232458-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-22T08:06:32",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-23T10:51:15.65",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00038c0aINCD",
     "IncidentReference": "INCD-232458-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-22T05:47:56",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-23T10:51:15.65",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-22T05:47:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -73,20 +73,20 @@
       "MK43 0"
     ],
     "PostCodesRestored": [
-      "MK430LW",
       "MK430LJ",
       "MK430LN",
-      "MK430LP"
+      "MK430LP",
+      "MK430LW"
     ],
     "PostCodesPlanned": [
-      "MK430LW",
       "MK430LJ",
       "MK430LN",
-      "MK430LP"
+      "MK430LP",
+      "MK430LW"
     ],
-    "CustomersOnSupply": 59,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 61,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -449,10 +449,10 @@
     }
   ],
   "FullPostcodeData": [
-    "MK430LW",
     "MK430LJ",
     "MK430LN",
-    "MK430LP"
+    "MK430LP",
+    "MK430LW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
