@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-55050-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-55050-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-55050-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-24T10:31:22",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-24T20:25:41.427",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000d70aINCD",
     "IncidentReference": "INCD-55050-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-24T09:01:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-24T20:25:41.427",
     "EstimatedRestorationDate": "2021-04-24T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-24T09:00:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -75,20 +75,20 @@
     "PostCodesRestored": [
       "GU67HL",
       "GU67HN",
-      "GU67HW",
       "GU67HP",
-      "GU67HR"
+      "GU67HR",
+      "GU67HW"
     ],
     "PostCodesPlanned": [
       "GU67HL",
       "GU67HN",
-      "GU67HW",
       "GU67HP",
-      "GU67HR"
+      "GU67HR",
+      "GU67HW"
     ],
-    "CustomersOnSupply": 40,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 47,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -505,9 +505,9 @@
   "FullPostcodeData": [
     "GU67HL",
     "GU67HN",
-    "GU67HW",
     "GU67HP",
-    "GU67HR"
+    "GU67HR",
+    "GU67HW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
