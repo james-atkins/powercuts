@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-233003-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-233003-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-233003-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-04-26T08:16:09.497",
-      "Message": "Update at 08:16 - Our engineers have arrived on site in the Hardwich CB23 area to investigate the power cut affecting 292 properties. Specialist engineers are also working to divert power remotely, and this can cause your lights to go on and off. Please follow the government pandemic guidelines about social distancing when interacting with our staff. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress but if you need to speak to us, call our team on 08003163105 any time.",
+      "Date": "2021-04-26T08:48:45.097",
+      "Message": "Update at 08:48 - It's Roland from the text messaging team and I'm pleased to inform you that we believe our engineers have been able to restore power to all 292 customers in the Hardwich CB23 area, by diverting power around the faulty underground cable. We're sorry it's taken us longer than we expected to restore your power today. Please accept our sincere apologies as we know that it's difficult to be without power for a longer duration, and during the current pandemic this can be especially difficult, but please rest assured that as key workers our staff will continue to work around the clock to keep the lights on. If your power isn't back on, or to talk to us about anything else, call us on 08003163105, free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-26T08:10:21",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-26T08:56:14.487",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00038e2bINCD",
     "IncidentReference": "INCD-233003-Z",
-    "IncidentCategory": "61",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-26T07:34:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-26T08:56:14.487",
     "EstimatedRestorationDate": "2021-04-26T09:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-26T07:34:38",
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-04-26T08:15:00",
+        "ActualEventTime": "2021-04-26T08:46:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 08:16 - Our engineers have arrived on site in the Hardwich CB23 area to investigate the power cut affecting 292 properties. Specialist engineers are also working to divert power remotely, and this can cause your lights to go on and off. Please follow the government pandemic guidelines about social distancing when interacting with our staff. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress but if you need to speak to us, call our team on 08003163105 any time.",
-        "LoggedTime": "2021-04-26T08:16:09.497"
+        "Comment": "Update at 08:48 - It's Roland from the text messaging team and I'm pleased to inform you that we believe our engineers have been able to restore power to all 292 customers in the Hardwich CB23 area, by diverting power around the faulty underground cable. We're sorry it's taken us longer than we expected to restore your power today. Please accept our sincere apologies as we know that it's difficult to be without power for a longer duration, and during the current pandemic this can be especially difficult, but please rest assured that as key workers our staff will continue to work around the clock to keep the lights on. If your power isn't back on, or to talk to us about anything else, call us on 08003163105, free from landlines and mobiles.",
+        "LoggedTime": "2021-04-26T08:48:45.097"
       }
     ],
     "PostCodesAffected": [
@@ -114,8 +114,8 @@
     ],
     "CustomersOnSupply": 292,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -692,7 +692,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "An underground electricity cable faulted on our high voltage network, causing an area wide power cut.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "09:00 - 10:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
