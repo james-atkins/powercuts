@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-232996-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-232996-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-232996-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-26T04:32:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-26T07:06:39.293",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00038e24INCD",
     "IncidentReference": "INCD-232996-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-26T03:22:06",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-26T07:06:39.293",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-26T03:21:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,14 +60,14 @@
       "SS11 7"
     ],
     "PostCodesRestored": [
-      "CM111LG",
-      "CM111LH",
       "CM111JT",
       "CM111JZ",
       "CM111LA",
       "CM111LB",
       "CM111LD",
       "CM111LE",
+      "CM111LG",
+      "CM111LH",
       "CM111PU",
       "CM111PZ",
       "CM111QA",
@@ -90,14 +90,14 @@
       "SS117PF"
     ],
     "PostCodesPlanned": [
-      "CM111LG",
-      "CM111LH",
       "CM111JT",
       "CM111JZ",
       "CM111LA",
       "CM111LB",
       "CM111LD",
       "CM111LE",
+      "CM111LG",
+      "CM111LH",
       "CM111PU",
       "CM111PZ",
       "CM111QA",
@@ -119,10 +119,10 @@
       "SS117PE",
       "SS117PF"
     ],
-    "CustomersOnSupply": 255,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 257,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1130,14 +1130,14 @@
     }
   ],
   "FullPostcodeData": [
-    "CM111LG",
-    "CM111LH",
     "CM111JT",
     "CM111JZ",
     "CM111LA",
     "CM111LB",
     "CM111LD",
     "CM111LE",
+    "CM111LG",
+    "CM111LH",
     "CM111PU",
     "CM111PZ",
     "CM111QA",
@@ -1161,7 +1161,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
