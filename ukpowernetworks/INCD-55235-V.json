@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-55235-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-55235-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-55235-V",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-04-27T16:01:14",
+      "Date": "2021-04-27T16:01:00",
       "Message": "<p>We became aware of a power cut at 16:01. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-27T17:31:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-27T18:56:43.73",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000d7c3INCD",
     "IncidentReference": "INCD-55235-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-27T16:03:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-27T18:56:43.73",
     "EstimatedRestorationDate": "2021-04-27T21:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-04-27T16:01:14",
+    "ReceivedDate": "2021-04-27T16:01:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -63,20 +63,20 @@
     "PostCodesRestored": [
       "KT124DD",
       "KT130LF",
-      "RH203BN",
       "KT130LG",
-      "KT130QA"
+      "KT130QA",
+      "RH203BN"
     ],
     "PostCodesPlanned": [
       "KT124DD",
       "KT130LF",
-      "RH203BN",
       "KT130LG",
-      "KT130QA"
+      "KT130QA",
+      "RH203BN"
     ],
-    "CustomersOnSupply": 4,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 22,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1497,9 +1497,9 @@
   "FullPostcodeData": [
     "KT124DD",
     "KT130LF",
-    "RH203BN",
     "KT130LG",
-    "KT130QA"
+    "KT130QA",
+    "RH203BN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
