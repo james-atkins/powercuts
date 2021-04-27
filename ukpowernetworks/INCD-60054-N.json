@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-60054-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-60054-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-60054-N",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-04-27T08:22:02.263",
+      "Message": "Update at 08:21 - Our engineers have arrived on site in the Inverness Terrace area, the estimated time hasn't changed. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government guidelines about social distancing when interacting with our staff. If you would like more information about what we think the fault is; here's a short YouTube video <a href=\"https://bit.ly/2y8Dtfz.\" target=\"_blank\">https://bit.ly/2y8Dtfz.</a>",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-04-27T07:17:00",
@@ -9,38 +15,38 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-27T07:30:55",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-04-27T08:14:16",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-27T08:31:15.813",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000ea96INCD",
     "IncidentReference": "INCD-60054-N",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-27T07:23:24",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-27T08:31:15.813",
     "EstimatedRestorationDate": "2021-04-27T10:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-27T07:17:00",
-    "NoCustomerAffected": 28,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -50,11 +56,19 @@
       "Name": "Jordan (R5)",
       "EstimatedTimeOfArrival": "2021-04-27T08:30:00",
       "DispatchedDate": "2021-04-27T07:30:55",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-04-27T08:14:16",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-04-27T08:21:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 08:21 - Our engineers have arrived on site in the Inverness Terrace area, the estimated time hasn't changed. We know that in the current pandemic, a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members, and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government guidelines about social distancing when interacting with our staff. If you would like more information about what we think the fault is; here's a short YouTube video https://bit.ly/2y8Dtfz.",
+        "LoggedTime": "2021-04-27T08:22:02.263"
+      }
+    ],
     "PostCodesAffected": [
       "W2 3"
     ],
@@ -68,9 +82,9 @@
       "W23JT",
       "W23JU"
     ],
-    "CustomersOnSupply": 42,
-    "CustomersOffSupply": 42,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 84,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
