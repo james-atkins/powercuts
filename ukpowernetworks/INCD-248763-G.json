@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-248763-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248763-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248763-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-26T06:31:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-27T08:48:34.543",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003cbbbINCD",
     "IncidentReference": "INCD-248763-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-26T03:44:48",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-27T08:48:34.543",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-26T03:42:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
     "Latitude": 0.0,
@@ -73,9 +73,9 @@
       "ME8 6"
     ],
     "PostCodesRestored": [
-      "ME86DG",
       "ME86BX",
       "ME86DF",
+      "ME86DG",
       "ME86DU",
       "ME86HW",
       "ME86NT",
@@ -87,9 +87,9 @@
       "ME86PH"
     ],
     "PostCodesPlanned": [
-      "ME86DG",
       "ME86BX",
       "ME86DF",
+      "ME86DG",
       "ME86DU",
       "ME86HW",
       "ME86NT",
@@ -100,9 +100,9 @@
       "ME86PD",
       "ME86PH"
     ],
-    "CustomersOnSupply": 151,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 152,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -421,9 +421,9 @@
     }
   ],
   "FullPostcodeData": [
-    "ME86DG",
     "ME86BX",
     "ME86DF",
+    "ME86DG",
     "ME86DU",
     "ME86HW",
     "ME86NT",
