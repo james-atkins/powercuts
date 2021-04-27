@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-248852-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248852-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248852-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-04-27T21:55:10.77",
-      "Message": "Update at 21:54 - This is Aaron from the messaging team again. Our engineers have just called in to advise us we need to check internal electrical equipment for the remaining properties affected, before we can safely switch the power back on. Unfortunately, it's going to take us past our current timeframe to complete this, so we're now working towards between 23:30 and 00:30 to have power back on. We can appreciate how frustrating and disruptive being without power can be, and our staff are working as fast as they can. If you have any questions or concerns, call our team anytime on 08003163105. I'll let you know further news as it comes in from site.",
+      "Date": "2021-04-27T22:38:46.167",
+      "Message": "Update at 22:38 - We believe our engineers have been able to restore power to all 1882 customers in the GU4 8 area, by isolating some damaged network equipment from the network following a fire. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know your power may have been off for a long time, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -15,7 +15,7 @@
       "Name": "We are restoring customers automatically"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-27T18:40:41",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
@@ -23,30 +23,30 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-27T22:33:59.873",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003cc14INCD",
     "IncidentReference": "INCD-248852-G",
     "IncidentCategory": "26",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-27T16:39:03",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-27T22:33:59.873",
     "EstimatedRestorationDate": "2021-04-28T00:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-27T16:11:20",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-04-27T21:52:00",
+        "ActualEventTime": "2021-04-27T22:38:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 21:54 - This is Aaron from the messaging team again. Our engineers have just called in to advise us we need to check internal electrical equipment for the remaining properties affected, before we can safely switch the power back on. Unfortunately, it's going to take us past our current timeframe to complete this, so we're now working towards between 23:30 and 00:30 to have power back on. We can appreciate how frustrating and disruptive being without power can be, and our staff are working as fast as they can. If you have any questions or concerns, call our team anytime on 08003163105. I'll let you know further news as it comes in from site.",
-        "LoggedTime": "2021-04-27T21:55:10.77"
+        "Comment": "Update at 22:38 - We believe our engineers have been able to restore power to all 1882 customers in the GU4 8 area, by isolating some damaged network equipment from the network following a fire. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know your power may have been off for a long time, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-04-27T22:38:46.167"
       }
     ],
     "PostCodesAffected": [
@@ -87,10 +87,6 @@
     ],
     "PostCodesRestored": [
       "BN212FB",
-      "GU48AE",
-      "GU48AS",
-      "GU48AT",
-      "GU48BA",
       "BN21XXX",
       "GU11BL",
       "GU13HT",
@@ -98,10 +94,14 @@
       "GU26DT",
       "GU26PY",
       "GU27DP",
+      "GU48AE",
       "GU48AR",
+      "GU48AS",
+      "GU48AT",
       "GU48AX",
       "GU48AY",
       "GU48AZ",
+      "GU48BA",
       "GU48BB",
       "GU48ER",
       "GU48ES",
@@ -250,10 +250,6 @@
     ],
     "PostCodesPlanned": [
       "BN212FB",
-      "GU48AE",
-      "GU48AS",
-      "GU48AT",
-      "GU48BA",
       "BN21XXX",
       "GU11BL",
       "GU13HT",
@@ -261,10 +257,14 @@
       "GU26DT",
       "GU26PY",
       "GU27DP",
+      "GU48AE",
       "GU48AR",
+      "GU48AS",
+      "GU48AT",
       "GU48AX",
       "GU48AY",
       "GU48AZ",
+      "GU48BA",
       "GU48BB",
       "GU48ER",
       "GU48ES",
@@ -411,10 +411,10 @@
       "TN119DZ",
       "TW110BU"
     ],
-    "CustomersOnSupply": 1702,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 1711,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1042,435 +1042,6 @@
         }
       ],
       "Postcode": "BN21 2"
-    },
-    {
-      "Center": {
-        "lat": 51.21702,
-        "lng": -0.5401
-      },
-      "Coordinates": [
-        {
-          "lat": 51.2324,
-          "lng": -0.52383
-        },
-        {
-          "lat": 51.22538,
-          "lng": -0.52892
-        },
-        {
-          "lat": 51.2247,
-          "lng": -0.52885
-        },
-        {
-          "lat": 51.22279,
-          "lng": -0.5252
-        },
-        {
-          "lat": 51.22477,
-          "lng": -0.5189
-        },
-        {
-          "lat": 51.22355,
-          "lng": -0.51469
-        },
-        {
-          "lat": 51.22175,
-          "lng": -0.51433
-        },
-        {
-          "lat": 51.22157,
-          "lng": -0.51341
-        },
-        {
-          "lat": 51.22155,
-          "lng": -0.51143
-        },
-        {
-          "lat": 51.2216,
-          "lng": -0.51118
-        },
-        {
-          "lat": 51.22231,
-          "lng": -0.51019
-        },
-        {
-          "lat": 51.21818,
-          "lng": -0.50647
-        },
-        {
-          "lat": 51.21623,
-          "lng": -0.50653
-        },
-        {
-          "lat": 51.21576,
-          "lng": -0.50686
-        },
-        {
-          "lat": 51.2132,
-          "lng": -0.50516
-        },
-        {
-          "lat": 51.20983,
-          "lng": -0.50874
-        },
-        {
-          "lat": 51.20421,
-          "lng": -0.50917
-        },
-        {
-          "lat": 51.20373,
-          "lng": -0.51006
-        },
-        {
-          "lat": 51.19729,
-          "lng": -0.50908
-        },
-        {
-          "lat": 51.19616,
-          "lng": -0.51345
-        },
-        {
-          "lat": 51.19738,
-          "lng": -0.52029
-        },
-        {
-          "lat": 51.20115,
-          "lng": -0.52126
-        },
-        {
-          "lat": 51.20141,
-          "lng": -0.52361
-        },
-        {
-          "lat": 51.20141,
-          "lng": -0.52369
-        },
-        {
-          "lat": 51.20091,
-          "lng": -0.52804
-        },
-        {
-          "lat": 51.20308,
-          "lng": -0.53312
-        },
-        {
-          "lat": 51.20575,
-          "lng": -0.53433
-        },
-        {
-          "lat": 51.2063,
-          "lng": -0.53433
-        },
-        {
-          "lat": 51.20662,
-          "lng": -0.53409
-        },
-        {
-          "lat": 51.2086,
-          "lng": -0.53379
-        },
-        {
-          "lat": 51.20931,
-          "lng": -0.53407
-        },
-        {
-          "lat": 51.21048,
-          "lng": -0.53769
-        },
-        {
-          "lat": 51.21099,
-          "lng": -0.53989
-        },
-        {
-          "lat": 51.21099,
-          "lng": -0.54125
-        },
-        {
-          "lat": 51.21067,
-          "lng": -0.54272
-        },
-        {
-          "lat": 51.21033,
-          "lng": -0.54358
-        },
-        {
-          "lat": 51.20859,
-          "lng": -0.54431
-        },
-        {
-          "lat": 51.2087,
-          "lng": -0.54987
-        },
-        {
-          "lat": 51.2096,
-          "lng": -0.55065
-        },
-        {
-          "lat": 51.21004,
-          "lng": -0.55229
-        },
-        {
-          "lat": 51.20991,
-          "lng": -0.55382
-        },
-        {
-          "lat": 51.20812,
-          "lng": -0.55722
-        },
-        {
-          "lat": 51.20641,
-          "lng": -0.55722
-        },
-        {
-          "lat": 51.20599,
-          "lng": -0.55697
-        },
-        {
-          "lat": 51.20426,
-          "lng": -0.56008
-        },
-        {
-          "lat": 51.20396,
-          "lng": -0.56391
-        },
-        {
-          "lat": 51.20354,
-          "lng": -0.56535
-        },
-        {
-          "lat": 51.20452,
-          "lng": -0.56671
-        },
-        {
-          "lat": 51.20537,
-          "lng": -0.56911
-        },
-        {
-          "lat": 51.20561,
-          "lng": -0.57139
-        },
-        {
-          "lat": 51.20613,
-          "lng": -0.57228
-        },
-        {
-          "lat": 51.20652,
-          "lng": -0.57318
-        },
-        {
-          "lat": 51.20686,
-          "lng": -0.57534
-        },
-        {
-          "lat": 51.20703,
-          "lng": -0.57576
-        },
-        {
-          "lat": 51.2071,
-          "lng": -0.57577
-        },
-        {
-          "lat": 51.20888,
-          "lng": -0.57607
-        },
-        {
-          "lat": 51.2093,
-          "lng": -0.5763
-        },
-        {
-          "lat": 51.21094,
-          "lng": -0.57788
-        },
-        {
-          "lat": 51.212,
-          "lng": -0.57852
-        },
-        {
-          "lat": 51.21267,
-          "lng": -0.57896
-        },
-        {
-          "lat": 51.21292,
-          "lng": -0.57854
-        },
-        {
-          "lat": 51.21297,
-          "lng": -0.57847
-        },
-        {
-          "lat": 51.21423,
-          "lng": -0.57675
-        },
-        {
-          "lat": 51.21434,
-          "lng": -0.57569
-        },
-        {
-          "lat": 51.2144,
-          "lng": -0.57555
-        },
-        {
-          "lat": 51.21569,
-          "lng": -0.57223
-        },
-        {
-          "lat": 51.21759,
-          "lng": -0.57181
-        },
-        {
-          "lat": 51.21831,
-          "lng": -0.5723
-        },
-        {
-          "lat": 51.21882,
-          "lng": -0.57358
-        },
-        {
-          "lat": 51.21933,
-          "lng": -0.5754
-        },
-        {
-          "lat": 51.21946,
-          "lng": -0.57586
-        },
-        {
-          "lat": 51.22087,
-          "lng": -0.57535
-        },
-        {
-          "lat": 51.22292,
-          "lng": -0.57461
-        },
-        {
-          "lat": 51.22325,
-          "lng": -0.57485
-        },
-        {
-          "lat": 51.22499,
-          "lng": -0.57396
-        },
-        {
-          "lat": 51.2267,
-          "lng": -0.57458
-        },
-        {
-          "lat": 51.22744,
-          "lng": -0.57414
-        },
-        {
-          "lat": 51.22688,
-          "lng": -0.56934
-        },
-        {
-          "lat": 51.22692,
-          "lng": -0.56918
-        },
-        {
-          "lat": 51.22598,
-          "lng": -0.56767
-        },
-        {
-          "lat": 51.22665,
-          "lng": -0.56573
-        },
-        {
-          "lat": 51.22628,
-          "lng": -0.56483
-        },
-        {
-          "lat": 51.22661,
-          "lng": -0.56225
-        },
-        {
-          "lat": 51.22553,
-          "lng": -0.55805
-        },
-        {
-          "lat": 51.22753,
-          "lng": -0.55766
-        },
-        {
-          "lat": 51.22989,
-          "lng": -0.55599
-        },
-        {
-          "lat": 51.23101,
-          "lng": -0.55251
-        },
-        {
-          "lat": 51.23123,
-          "lng": -0.55074
-        },
-        {
-          "lat": 51.23176,
-          "lng": -0.55041
-        },
-        {
-          "lat": 51.23354,
-          "lng": -0.54621
-        },
-        {
-          "lat": 51.23398,
-          "lng": -0.54602
-        },
-        {
-          "lat": 51.23457,
-          "lng": -0.54522
-        },
-        {
-          "lat": 51.23627,
-          "lng": -0.54451
-        },
-        {
-          "lat": 51.23717,
-          "lng": -0.54318
-        },
-        {
-          "lat": 51.23801,
-          "lng": -0.543
-        },
-        {
-          "lat": 51.23838,
-          "lng": -0.5418
-        },
-        {
-          "lat": 51.23851,
-          "lng": -0.5397
-        },
-        {
-          "lat": 51.23829,
-          "lng": -0.53831
-        },
-        {
-          "lat": 51.23804,
-          "lng": -0.53769
-        },
-        {
-          "lat": 51.23698,
-          "lng": -0.53559
-        },
-        {
-          "lat": 51.23652,
-          "lng": -0.53423
-        },
-        {
-          "lat": 51.23612,
-          "lng": -0.53352
-        },
-        {
-          "lat": 51.23598,
-          "lng": -0.53348
-        },
-        {
-          "lat": 51.23484,
-          "lng": -0.53096
-        },
-        {
-          "lat": 51.2324,
-          "lng": -0.52383
-        }
-      ],
-      "Postcode": "GU4 8"
     },
     {
       "Center": {
@@ -3102,6 +2673,435 @@
         }
       ],
       "Postcode": "GU2 7"
+    },
+    {
+      "Center": {
+        "lat": 51.21702,
+        "lng": -0.5401
+      },
+      "Coordinates": [
+        {
+          "lat": 51.2324,
+          "lng": -0.52383
+        },
+        {
+          "lat": 51.22538,
+          "lng": -0.52892
+        },
+        {
+          "lat": 51.2247,
+          "lng": -0.52885
+        },
+        {
+          "lat": 51.22279,
+          "lng": -0.5252
+        },
+        {
+          "lat": 51.22477,
+          "lng": -0.5189
+        },
+        {
+          "lat": 51.22355,
+          "lng": -0.51469
+        },
+        {
+          "lat": 51.22175,
+          "lng": -0.51433
+        },
+        {
+          "lat": 51.22157,
+          "lng": -0.51341
+        },
+        {
+          "lat": 51.22155,
+          "lng": -0.51143
+        },
+        {
+          "lat": 51.2216,
+          "lng": -0.51118
+        },
+        {
+          "lat": 51.22231,
+          "lng": -0.51019
+        },
+        {
+          "lat": 51.21818,
+          "lng": -0.50647
+        },
+        {
+          "lat": 51.21623,
+          "lng": -0.50653
+        },
+        {
+          "lat": 51.21576,
+          "lng": -0.50686
+        },
+        {
+          "lat": 51.2132,
+          "lng": -0.50516
+        },
+        {
+          "lat": 51.20983,
+          "lng": -0.50874
+        },
+        {
+          "lat": 51.20421,
+          "lng": -0.50917
+        },
+        {
+          "lat": 51.20373,
+          "lng": -0.51006
+        },
+        {
+          "lat": 51.19729,
+          "lng": -0.50908
+        },
+        {
+          "lat": 51.19616,
+          "lng": -0.51345
+        },
+        {
+          "lat": 51.19738,
+          "lng": -0.52029
+        },
+        {
+          "lat": 51.20115,
+          "lng": -0.52126
+        },
+        {
+          "lat": 51.20141,
+          "lng": -0.52361
+        },
+        {
+          "lat": 51.20141,
+          "lng": -0.52369
+        },
+        {
+          "lat": 51.20091,
+          "lng": -0.52804
+        },
+        {
+          "lat": 51.20308,
+          "lng": -0.53312
+        },
+        {
+          "lat": 51.20575,
+          "lng": -0.53433
+        },
+        {
+          "lat": 51.2063,
+          "lng": -0.53433
+        },
+        {
+          "lat": 51.20662,
+          "lng": -0.53409
+        },
+        {
+          "lat": 51.2086,
+          "lng": -0.53379
+        },
+        {
+          "lat": 51.20931,
+          "lng": -0.53407
+        },
+        {
+          "lat": 51.21048,
+          "lng": -0.53769
+        },
+        {
+          "lat": 51.21099,
+          "lng": -0.53989
+        },
+        {
+          "lat": 51.21099,
+          "lng": -0.54125
+        },
+        {
+          "lat": 51.21067,
+          "lng": -0.54272
+        },
+        {
+          "lat": 51.21033,
+          "lng": -0.54358
+        },
+        {
+          "lat": 51.20859,
+          "lng": -0.54431
+        },
+        {
+          "lat": 51.2087,
+          "lng": -0.54987
+        },
+        {
+          "lat": 51.2096,
+          "lng": -0.55065
+        },
+        {
+          "lat": 51.21004,
+          "lng": -0.55229
+        },
+        {
+          "lat": 51.20991,
+          "lng": -0.55382
+        },
+        {
+          "lat": 51.20812,
+          "lng": -0.55722
+        },
+        {
+          "lat": 51.20641,
+          "lng": -0.55722
+        },
+        {
+          "lat": 51.20599,
+          "lng": -0.55697
+        },
+        {
+          "lat": 51.20426,
+          "lng": -0.56008
+        },
+        {
+          "lat": 51.20396,
+          "lng": -0.56391
+        },
+        {
+          "lat": 51.20354,
+          "lng": -0.56535
+        },
+        {
+          "lat": 51.20452,
+          "lng": -0.56671
+        },
+        {
+          "lat": 51.20537,
+          "lng": -0.56911
+        },
+        {
+          "lat": 51.20561,
+          "lng": -0.57139
+        },
+        {
+          "lat": 51.20613,
+          "lng": -0.57228
+        },
+        {
+          "lat": 51.20652,
+          "lng": -0.57318
+        },
+        {
+          "lat": 51.20686,
+          "lng": -0.57534
+        },
+        {
+          "lat": 51.20703,
+          "lng": -0.57576
+        },
+        {
+          "lat": 51.2071,
+          "lng": -0.57577
+        },
+        {
+          "lat": 51.20888,
+          "lng": -0.57607
+        },
+        {
+          "lat": 51.2093,
+          "lng": -0.5763
+        },
+        {
+          "lat": 51.21094,
+          "lng": -0.57788
+        },
+        {
+          "lat": 51.212,
+          "lng": -0.57852
+        },
+        {
+          "lat": 51.21267,
+          "lng": -0.57896
+        },
+        {
+          "lat": 51.21292,
+          "lng": -0.57854
+        },
+        {
+          "lat": 51.21297,
+          "lng": -0.57847
+        },
+        {
+          "lat": 51.21423,
+          "lng": -0.57675
+        },
+        {
+          "lat": 51.21434,
+          "lng": -0.57569
+        },
+        {
+          "lat": 51.2144,
+          "lng": -0.57555
+        },
+        {
+          "lat": 51.21569,
+          "lng": -0.57223
+        },
+        {
+          "lat": 51.21759,
+          "lng": -0.57181
+        },
+        {
+          "lat": 51.21831,
+          "lng": -0.5723
+        },
+        {
+          "lat": 51.21882,
+          "lng": -0.57358
+        },
+        {
+          "lat": 51.21933,
+          "lng": -0.5754
+        },
+        {
+          "lat": 51.21946,
+          "lng": -0.57586
+        },
+        {
+          "lat": 51.22087,
+          "lng": -0.57535
+        },
+        {
+          "lat": 51.22292,
+          "lng": -0.57461
+        },
+        {
+          "lat": 51.22325,
+          "lng": -0.57485
+        },
+        {
+          "lat": 51.22499,
+          "lng": -0.57396
+        },
+        {
+          "lat": 51.2267,
+          "lng": -0.57458
+        },
+        {
+          "lat": 51.22744,
+          "lng": -0.57414
+        },
+        {
+          "lat": 51.22688,
+          "lng": -0.56934
+        },
+        {
+          "lat": 51.22692,
+          "lng": -0.56918
+        },
+        {
+          "lat": 51.22598,
+          "lng": -0.56767
+        },
+        {
+          "lat": 51.22665,
+          "lng": -0.56573
+        },
+        {
+          "lat": 51.22628,
+          "lng": -0.56483
+        },
+        {
+          "lat": 51.22661,
+          "lng": -0.56225
+        },
+        {
+          "lat": 51.22553,
+          "lng": -0.55805
+        },
+        {
+          "lat": 51.22753,
+          "lng": -0.55766
+        },
+        {
+          "lat": 51.22989,
+          "lng": -0.55599
+        },
+        {
+          "lat": 51.23101,
+          "lng": -0.55251
+        },
+        {
+          "lat": 51.23123,
+          "lng": -0.55074
+        },
+        {
+          "lat": 51.23176,
+          "lng": -0.55041
+        },
+        {
+          "lat": 51.23354,
+          "lng": -0.54621
+        },
+        {
+          "lat": 51.23398,
+          "lng": -0.54602
+        },
+        {
+          "lat": 51.23457,
+          "lng": -0.54522
+        },
+        {
+          "lat": 51.23627,
+          "lng": -0.54451
+        },
+        {
+          "lat": 51.23717,
+          "lng": -0.54318
+        },
+        {
+          "lat": 51.23801,
+          "lng": -0.543
+        },
+        {
+          "lat": 51.23838,
+          "lng": -0.5418
+        },
+        {
+          "lat": 51.23851,
+          "lng": -0.5397
+        },
+        {
+          "lat": 51.23829,
+          "lng": -0.53831
+        },
+        {
+          "lat": 51.23804,
+          "lng": -0.53769
+        },
+        {
+          "lat": 51.23698,
+          "lng": -0.53559
+        },
+        {
+          "lat": 51.23652,
+          "lng": -0.53423
+        },
+        {
+          "lat": 51.23612,
+          "lng": -0.53352
+        },
+        {
+          "lat": 51.23598,
+          "lng": -0.53348
+        },
+        {
+          "lat": 51.23484,
+          "lng": -0.53096
+        },
+        {
+          "lat": 51.2324,
+          "lng": -0.52383
+        }
+      ],
+      "Postcode": "GU4 8"
     },
     {
       "Center": {
@@ -5262,10 +5262,6 @@
   ],
   "FullPostcodeData": [
     "BN212FB",
-    "GU48AE",
-    "GU48AS",
-    "GU48AT",
-    "GU48BA",
     "BN21XXX",
     "GU11BL",
     "GU13HT",
@@ -5273,10 +5269,14 @@
     "GU26DT",
     "GU26PY",
     "GU27DP",
+    "GU48AE",
     "GU48AR",
+    "GU48AS",
+    "GU48AT",
     "GU48AX",
     "GU48AY",
     "GU48AZ",
+    "GU48BA",
     "GU48BB",
     "GU48ER",
     "GU48ES",
