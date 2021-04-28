@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-260967-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-260967-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-260967-J",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-04-28T09:33:16.9",
+      "Message": "This is UK Power Networks. We're contacting you to let you know that we have just been made aware of a safety issue relating to the electricity supply in your local area, and in the interest of public health and safety, we have had to turn off power to 38 properties. As this is an emergency, we did not know this was going to happen and we're sorry that we were unable to provide you with prior notice of this unplanned power cut. We're texting a wide area so if your power is not currently off we do not expect you to be affected. To get updates, text POWER with your full postcode to 80876 (e.g. POWER IP3 8AA). Std. text fees apply.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-04-28T09:20:00",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-28T08:47:32",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-28T09:32:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0003fb67INCD",
     "IncidentReference": "INCD-260967-J",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-28T08:44:38",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-28T09:32:00",
     "EstimatedRestorationDate": "2021-04-28T10:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-28T09:20:00",
-    "NoCustomerAffected": 38,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 1,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,31 +60,39 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-04-28T09:33:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "This is UK Power Networks. We're contacting you to let you know that we have just been made aware of a safety issue relating to the electricity supply in your local area, and in the interest of public health and safety, we have had to turn off power to 38 properties. As this is an emergency, we did not know this was going to happen and we're sorry that we were unable to provide you with prior notice of this unplanned power cut. We're texting a wide area so if your power is not currently off we do not expect you to be affected. To get updates, text POWER with your full postcode to 80876 (e.g. POWER IP3 8AA). Std. text fees apply.",
+        "LoggedTime": "2021-04-28T09:33:16.9"
+      }
+    ],
     "PostCodesAffected": [
       "SM4 5",
       "SW19 2"
     ],
     "PostCodesRestored": [
+      "SM45JA",
       "SM45JD",
       "SM45JG",
       "SM45JH",
-      "SM45JA",
       "SM45JL",
       "SW192SZ"
     ],
     "PostCodesPlanned": [
+      "SM45JA",
       "SM45JD",
       "SM45JG",
       "SM45JH",
-      "SM45JA",
       "SM45JL",
       "SW192SZ"
     ],
-    "CustomersOnSupply": 47,
-    "CustomersOffSupply": 38,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 85,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1262,10 +1276,10 @@
     }
   ],
   "FullPostcodeData": [
+    "SM45JA",
     "SM45JD",
     "SM45JG",
     "SM45JH",
-    "SM45JA",
     "SM45JL",
     "SW192SZ"
   ],
