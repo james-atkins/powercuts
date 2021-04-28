@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-55289-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-55289-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-55289-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-28T11:56:48",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-28T15:01:30.963",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000d7f9INCD",
     "IncidentReference": "INCD-55289-V",
     "IncidentCategory": "93",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-28T11:18:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-28T15:01:30.963",
     "EstimatedRestorationDate": "2021-04-28T15:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-04-28T11:18:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,9 +59,9 @@
       "TN38 9"
     ],
     "PostCodesRestored": [
-      "TN389HZ",
       "TN389HX",
       "TN389HY",
+      "TN389HZ",
       "TN389JY",
       "TN389LA",
       "TN389LB",
@@ -69,18 +69,18 @@
       "TN389LF"
     ],
     "PostCodesPlanned": [
-      "TN389HZ",
       "TN389HX",
       "TN389HY",
+      "TN389HZ",
       "TN389JY",
       "TN389LA",
       "TN389LB",
       "TN389LD",
       "TN389LF"
     ],
-    "CustomersOnSupply": 117,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 118,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -591,9 +591,9 @@
     }
   ],
   "FullPostcodeData": [
-    "TN389HZ",
     "TN389HX",
     "TN389HY",
+    "TN389HZ",
     "TN389JY",
     "TN389LA",
     "TN389LB",
