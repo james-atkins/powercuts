@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-55331-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-55331-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-55331-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-28T18:05:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-29T13:37:23.47",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000d823INCD",
     "IncidentReference": "INCD-55331-V",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 2,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-28T14:06:33",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-29T13:37:23.47",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-28T22:15:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,28 +59,28 @@
       "ME19 5"
     ],
     "PostCodesRestored": [
-      "ME195AS",
       "ME195AD",
       "ME195AE",
       "ME195AG",
       "ME195AH",
       "ME195AQ",
+      "ME195AS",
       "ME195AT",
       "ME195FP"
     ],
     "PostCodesPlanned": [
-      "ME195AS",
       "ME195AD",
       "ME195AE",
       "ME195AG",
       "ME195AH",
       "ME195AQ",
+      "ME195AS",
       "ME195AT",
       "ME195FP"
     ],
-    "CustomersOnSupply": 63,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 65,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -579,12 +579,12 @@
     }
   ],
   "FullPostcodeData": [
-    "ME195AS",
     "ME195AD",
     "ME195AE",
     "ME195AG",
     "ME195AH",
     "ME195AQ",
+    "ME195AS",
     "ME195AT",
     "ME195FP"
   ],
