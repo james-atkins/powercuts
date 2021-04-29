@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-233774-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-233774-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-233774-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-04-29T10:52:23",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-04-29T14:30:51.813",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003912eINCD",
     "IncidentReference": "INCD-233774-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-29T10:47:11",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-04-29T14:30:51.813",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-29T10:30:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -60,19 +60,19 @@
       "RM17 5"
     ],
     "PostCodesRestored": [
-      "RM175AJ",
       "RM162TS",
-      "RM175AH"
+      "RM175AH",
+      "RM175AJ"
     ],
     "PostCodesPlanned": [
-      "RM175AJ",
       "RM162TS",
-      "RM175AH"
+      "RM175AH",
+      "RM175AJ"
     ],
-    "CustomersOnSupply": 18,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 20,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -80,39 +80,6 @@
     "RM17 5"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.47418,
-        "lng": 0.30545
-      },
-      "Coordinates": [
-        {
-          "lat": 51.47563,
-          "lng": 0.30746
-        },
-        {
-          "lat": 51.47555,
-          "lng": 0.30749
-        },
-        {
-          "lat": 51.47279,
-          "lng": 0.30635
-        },
-        {
-          "lat": 51.47247,
-          "lng": 0.30334
-        },
-        {
-          "lat": 51.47583,
-          "lng": 0.30474
-        },
-        {
-          "lat": 51.47563,
-          "lng": 0.30746
-        }
-      ],
-      "Postcode": "RM17 5"
-    },
     {
       "Center": {
         "lat": 51.49501,
@@ -473,12 +440,45 @@
         }
       ],
       "Postcode": "RM16 2"
+    },
+    {
+      "Center": {
+        "lat": 51.47418,
+        "lng": 0.30545
+      },
+      "Coordinates": [
+        {
+          "lat": 51.47563,
+          "lng": 0.30746
+        },
+        {
+          "lat": 51.47555,
+          "lng": 0.30749
+        },
+        {
+          "lat": 51.47279,
+          "lng": 0.30635
+        },
+        {
+          "lat": 51.47247,
+          "lng": 0.30334
+        },
+        {
+          "lat": 51.47583,
+          "lng": 0.30474
+        },
+        {
+          "lat": 51.47563,
+          "lng": 0.30746
+        }
+      ],
+      "Postcode": "RM17 5"
     }
   ],
   "FullPostcodeData": [
-    "RM175AJ",
     "RM162TS",
-    "RM175AH"
+    "RM175AH",
+    "RM175AJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
