@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-234205-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-234205-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-234205-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-01T20:02:40",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-01T21:41:21.8868019+01:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000392ddINCD",
     "IncidentReference": "INCD-234205-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-01T19:19:59",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-01T21:41:21.8868019+01:00",
     "EstimatedRestorationDate": "2021-05-01T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-01T19:19:07",
-    "NoCustomerAffected": 52,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 16,
     "Latitude": 0.0,
@@ -83,9 +83,9 @@
       "PE132QB",
       "PE132QD",
       "PE132QF",
+      "PE132QZ",
       "PE132UP",
-      "PE132UW",
-      "PE132QZ"
+      "PE132UW"
     ],
     "PostCodesPlanned": [
       "CB",
@@ -98,13 +98,13 @@
       "PE132QB",
       "PE132QD",
       "PE132QF",
+      "PE132QZ",
       "PE132UP",
-      "PE132UW",
-      "PE132QZ"
+      "PE132UW"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 156,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 157,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -637,9 +637,9 @@
     "PE132QB",
     "PE132QD",
     "PE132QF",
+    "PE132QZ",
     "PE132UP",
-    "PE132UW",
-    "PE132QZ"
+    "PE132UW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
