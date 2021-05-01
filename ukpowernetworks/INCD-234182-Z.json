@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-234182-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-234182-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-234182-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-05-01T16:24:35.403",
-      "Message": "Update at 16:24 - Our engineers have now arrived on site in the Torrington Gardens area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed, and this can involve specialist teams and equipment. We'll keep you updated with all of our progress.",
+      "Date": "2021-05-01T16:47:49.513",
+      "Message": "Update at 16:47 - Our engineers have now restored power in the Torrington Gardens area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -15,38 +15,38 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-01T15:04:39",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-05-01T16:24:43",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-01T16:44:09.343",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000392c6INCD",
     "IncidentReference": "INCD-234182-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-01T15:00:42",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-05-01T18:00:00",
+    "RestoredDateTime": "2021-05-01T16:44:09.343",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-01T14:59:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -56,26 +56,25 @@
       "Name": "PAUL (R5)",
       "EstimatedTimeOfArrival": "2021-05-01T16:00:00",
       "DispatchedDate": "2021-05-01T15:04:39",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-05-01T16:24:43",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-05-01T16:24:00",
+        "ActualEventTime": "2021-05-01T16:47:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 16:24 - Our engineers have now arrived on site in the Torrington Gardens area. As any issues that currently exist on our network have affected our equipment at the substation, engineers will start their testing there. They will then check our network equipment throughout the area to try and identify any problems, before trying to restore power. Our estimated timeframe hasn't changed, but if this is not successful it's possible that a cable repair may be needed, and this can involve specialist teams and equipment. We'll keep you updated with all of our progress.",
-        "LoggedTime": "2021-05-01T16:24:35.403"
+        "Comment": "Update at 16:47 - Our engineers have now restored power in the Torrington Gardens area. We're aware there is an underlying issue causing the recent powercuts, and engineers are testing our equipment to pinpoint the cause. It's possible power may go off again, but we'll try to keep further interruptions to a minimum. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-05-01T16:47:49.513"
       }
     ],
     "PostCodesAffected": [
       "N11 2"
     ],
     "PostCodesRestored": [
-      "N112AB",
-      "N112NF",
       "N112AA",
+      "N112AB",
       "N112AD",
       "N112AE",
       "N112AH",
@@ -84,15 +83,15 @@
       "N112EA",
       "N112LX",
       "N112LZ",
+      "N112NF",
       "N112NH",
       "N112NJ",
       "N112NL",
       "N112NN"
     ],
     "PostCodesPlanned": [
-      "N112AB",
-      "N112NF",
       "N112AA",
+      "N112AB",
       "N112AD",
       "N112AE",
       "N112AH",
@@ -101,14 +100,15 @@
       "N112EA",
       "N112LX",
       "N112LZ",
+      "N112NF",
       "N112NH",
       "N112NJ",
       "N112NL",
       "N112NN"
     ],
-    "CustomersOnSupply": 180,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 182,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -471,9 +471,8 @@
     }
   ],
   "FullPostcodeData": [
-    "N112AB",
-    "N112NF",
     "N112AA",
+    "N112AB",
     "N112AD",
     "N112AE",
     "N112AH",
@@ -482,6 +481,7 @@
     "N112EA",
     "N112LX",
     "N112LZ",
+    "N112NF",
     "N112NH",
     "N112NJ",
     "N112NL",
@@ -490,7 +490,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "17:30 - 18:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
