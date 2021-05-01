@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-234141-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-234141-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-234141-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-01T10:49:05",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-01T19:46:23.103",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003929dINCD",
     "IncidentReference": "INCD-234141-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 28,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-01T09:03:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-01T19:46:23.103",
     "EstimatedRestorationDate": "2021-05-01T19:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-01T09:02:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -73,22 +73,22 @@
       "NR27 9"
     ],
     "PostCodesRestored": [
-      "NR279BW",
       "NR279AL",
       "NR279AN",
       "NR279AP",
-      "NR279AW"
+      "NR279AW",
+      "NR279BW"
     ],
     "PostCodesPlanned": [
-      "NR279BW",
       "NR279AL",
       "NR279AN",
       "NR279AP",
-      "NR279AW"
+      "NR279AW",
+      "NR279BW"
     ],
-    "CustomersOnSupply": 46,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 49,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -587,11 +587,11 @@
     }
   ],
   "FullPostcodeData": [
-    "NR279BW",
     "NR279AL",
     "NR279AN",
     "NR279AP",
-    "NR279AW"
+    "NR279AW",
+    "NR279BW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
