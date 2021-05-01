@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-234195-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-234195-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-234195-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-05-01T19:23:03.747",
+      "Message": "Update at 19:22 - We can now confirm that all power in the High Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-05-01T17:52:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-01T18:28:52",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-01T19:03:57.287",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000392d3INCD",
     "IncidentReference": "INCD-234195-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-01T17:53:44",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-05-01T21:00:00",
+    "RestoredDateTime": "2021-05-01T19:03:57.287",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-01T17:52:00",
-    "NoCustomerAffected": 22,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -54,29 +60,37 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-01T19:22:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 19:22 - We can now confirm that all power in the High Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-05-01T19:23:03.747"
+      }
+    ],
     "PostCodesAffected": [
       "SG5 3"
     ],
     "PostCodesRestored": [
       "SG53LE",
+      "SG53LJ",
       "SG53LL",
       "SG53LP",
       "SG53LW",
-      "SG53LJ",
       "UK"
     ],
     "PostCodesPlanned": [
       "SG53LE",
+      "SG53LJ",
       "SG53LL",
       "SG53LP",
       "SG53LW",
-      "SG53LJ",
       "UK"
     ],
-    "CustomersOnSupply": 5,
-    "CustomersOffSupply": 33,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 38,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -560,16 +574,16 @@
   ],
   "FullPostcodeData": [
     "SG53LE",
+    "SG53LJ",
     "SG53LL",
     "SG53LP",
     "SG53LW",
-    "SG53LJ",
     "UK"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "20:30 - 21:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
