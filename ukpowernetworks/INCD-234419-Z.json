@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-234419-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-234419-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-234419-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-03T22:09:01",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-04T00:16:58.537",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000393b3INCD",
     "IncidentReference": "INCD-234419-Z",
-    "IncidentCategory": "11",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-03T20:38:50",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-04T00:16:58.537",
     "EstimatedRestorationDate": "2021-05-04T01:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-03T20:36:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -68,9 +68,9 @@
       "IP144QB",
       "IP144QD"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 5,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -515,7 +515,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating an overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "00:30 - 01:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
