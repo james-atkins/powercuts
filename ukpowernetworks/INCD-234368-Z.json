@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-234368-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-234368-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-234368-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-05-03T20:18:30.45",
-      "Message": "Update at 20:18 - Our engineers are still on site working to remove the fallen trees on the overhead electrical equipment. We're sorry for the disruption this power cut may be causing. If you're worried about elderly or ill neighbours, we can offer help and support to our vulnerable customers during a power cut. Find out more here: <a href=\"http://bit.ly/18Me8R8.\" target=\"_blank\">http://bit.ly/18Me8R8.</a> If you have any concerns, please call us on 08003163105.",
+      "Date": "2021-05-03T20:43:53.637",
+      "Message": "Update at 20:43 - We can confirm that all power in the Bayfortd Close area should be back on. The issue was due to a tree branch falling onto our overhead cabling, which caused our substation equipment to operate for safety. Our engineers have now safely removed this and repaired the damage. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-03T17:42:26",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-03T20:40:36.953",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00039380INCD",
     "IncidentReference": "INCD-234368-Z",
-    "IncidentCategory": "61",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-03T16:41:58",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-03T20:40:36.953",
     "EstimatedRestorationDate": "2021-05-03T21:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-03T16:40:00",
-    "NoCustomerAffected": 233,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 44,
     "Latitude": 0.0,
@@ -62,17 +62,19 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-05-03T20:18:00",
+        "ActualEventTime": "2021-05-03T20:43:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 20:18 - Our engineers are still on site working to remove the fallen trees on the overhead electrical equipment. We're sorry for the disruption this power cut may be causing. If you're worried about elderly or ill neighbours, we can offer help and support to our vulnerable customers during a power cut. Find out more here: http://bit.ly/18Me8R8. If you have any concerns, please call us on 08003163105.",
-        "LoggedTime": "2021-05-03T20:18:30.45"
+        "Comment": "Update at 20:43 - We can confirm that all power in the Bayfortd Close area should be back on. The issue was due to a tree branch falling onto our overhead cabling, which caused our substation equipment to operate for safety. Our engineers have now safely removed this and repaired the damage. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-05-03T20:43:53.637"
       }
     ],
     "PostCodesAffected": [
       "HP2 7"
     ],
     "PostCodesRestored": [
+      "HP27HP",
+      "HP27HS",
       "HP27LS",
       "HP27LT",
       "HP27LY",
@@ -83,11 +85,11 @@
       "HP27QY",
       "HP27RR",
       "HP27RU",
-      "HP27RZ",
-      "HP27HP",
-      "HP27HS"
+      "HP27RZ"
     ],
     "PostCodesPlanned": [
+      "HP27HP",
+      "HP27HS",
       "HP27LS",
       "HP27LT",
       "HP27LY",
@@ -98,13 +100,11 @@
       "HP27QY",
       "HP27RR",
       "HP27RU",
-      "HP27RZ",
-      "HP27HP",
-      "HP27HS"
+      "HP27RZ"
     ],
-    "CustomersOnSupply": 7,
-    "CustomersOffSupply": 233,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 240,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -539,6 +539,8 @@
     }
   ],
   "FullPostcodeData": [
+    "HP27HP",
+    "HP27HS",
     "HP27LS",
     "HP27LT",
     "HP27LY",
@@ -549,13 +551,11 @@
     "HP27QY",
     "HP27RR",
     "HP27RU",
-    "HP27RZ",
-    "HP27HP",
-    "HP27HS"
+    "HP27RZ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "An underground electricity cable faulted on our high voltage network, causing an area wide power cut.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "21:00 - 22:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
