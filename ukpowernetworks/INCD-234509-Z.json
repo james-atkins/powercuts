@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-234509-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-234509-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-234509-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-04T09:07:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-04T11:35:55.103",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003940dINCD",
     "IncidentReference": "INCD-234509-Z",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-04T06:54:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-04T11:35:55.103",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-04T06:53:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -74,8 +74,8 @@
       "IP9 2"
     ],
     "PostCodesRestored": [
-      "IP11TS",
       "IP",
+      "IP11TS",
       "IP11XF",
       "IP121AE",
       "IP121AN",
@@ -116,8 +116,8 @@
       "IP92RS"
     ],
     "PostCodesPlanned": [
-      "IP11TS",
       "IP",
+      "IP11TS",
       "IP11XF",
       "IP121AE",
       "IP121AN",
@@ -157,9 +157,9 @@
       "IP77PH",
       "IP92RS"
     ],
-    "CustomersOnSupply": 132,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 133,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -6596,8 +6596,8 @@
     }
   ],
   "FullPostcodeData": [
-    "IP11TS",
     "IP",
+    "IP11TS",
     "IP11XF",
     "IP121AE",
     "IP121AN",
@@ -6639,7 +6639,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
