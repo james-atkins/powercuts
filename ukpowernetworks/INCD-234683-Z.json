@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-234683-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-234683-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-234683-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-04T14:10:11",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-05T00:30:44.073",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000394bbINCD",
     "IncidentReference": "INCD-234683-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-04T13:10:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-05T00:30:44.073",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-04T13:09:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,9 +59,9 @@
       "N17 9"
     ],
     "PostCodesRestored": [
-      "N179EX",
       "N179AT",
       "N179EU",
+      "N179EX",
       "N179EY",
       "N179EZ",
       "N179HB",
@@ -71,9 +71,9 @@
       "N179HH"
     ],
     "PostCodesPlanned": [
-      "N179EX",
       "N179AT",
       "N179EU",
+      "N179EX",
       "N179EY",
       "N179EZ",
       "N179HB",
@@ -82,9 +82,9 @@
       "N179HG",
       "N179HH"
     ],
-    "CustomersOnSupply": 151,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 152,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -591,9 +591,9 @@
     }
   ],
   "FullPostcodeData": [
-    "N179EX",
     "N179AT",
     "N179EU",
+    "N179EX",
     "N179EY",
     "N179EZ",
     "N179HB",
