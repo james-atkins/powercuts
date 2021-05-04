@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-234514-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-234514-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-234514-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-04T08:01:57",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-04T10:43:25.17",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00039412INCD",
     "IncidentReference": "INCD-234514-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-04T07:04:57",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-04T10:43:25.17",
     "EstimatedRestorationDate": "2021-05-04T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-04T07:04:53",
-    "NoCustomerAffected": 147,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 13,
+    "NoCallsReported": 15,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -80,25 +80,6 @@
       "CO5 O"
     ],
     "PostCodesRestored": [
-      "CO50JD",
-      "CO50LL",
-      "CO50PN",
-      "CO50PP",
-      "CO50PR",
-      "CO50PT",
-      "CO50PU",
-      "CO50PZ",
-      "CO50QE",
-      "CO50QG",
-      "CO50QH",
-      "CO50QJ",
-      "CO50QN",
-      "CO50QQ",
-      "CO50TX",
-      "CO50TY",
-      "CO50UB",
-      "CO50UD",
-      "CO50UE",
       "CM27GA",
       "CM66LG",
       "CM83EF",
@@ -178,8 +159,10 @@
       "CO50HA",
       "CO50HD",
       "CO50HE",
+      "CO50JD",
       "CO50LA",
       "CO50LE",
+      "CO50LL",
       "CO50LN",
       "CO50PA",
       "CO50PB",
@@ -187,12 +170,24 @@
       "CO50PG",
       "CO50PH",
       "CO50PJ",
+      "CO50PN",
+      "CO50PP",
       "CO50PQ",
+      "CO50PR",
+      "CO50PT",
+      "CO50PU",
       "CO50PW",
+      "CO50PZ",
       "CO50QA",
       "CO50QB",
       "CO50QD",
+      "CO50QE",
       "CO50QF",
+      "CO50QG",
+      "CO50QH",
+      "CO50QJ",
+      "CO50QN",
+      "CO50QQ",
       "CO50QR",
       "CO50QS",
       "CO50QT",
@@ -212,7 +207,12 @@
       "CO50TS",
       "CO50TT",
       "CO50TU",
+      "CO50TX",
+      "CO50TY",
       "CO50UA",
+      "CO50UB",
+      "CO50UD",
+      "CO50UE",
       "CO50UG",
       "CO50UH",
       "CO50UL",
@@ -223,25 +223,6 @@
       "CO5OQA"
     ],
     "PostCodesPlanned": [
-      "CO50JD",
-      "CO50LL",
-      "CO50PN",
-      "CO50PP",
-      "CO50PR",
-      "CO50PT",
-      "CO50PU",
-      "CO50PZ",
-      "CO50QE",
-      "CO50QG",
-      "CO50QH",
-      "CO50QJ",
-      "CO50QN",
-      "CO50QQ",
-      "CO50TX",
-      "CO50TY",
-      "CO50UB",
-      "CO50UD",
-      "CO50UE",
       "CM27GA",
       "CM66LG",
       "CM83EF",
@@ -321,8 +302,10 @@
       "CO50HA",
       "CO50HD",
       "CO50HE",
+      "CO50JD",
       "CO50LA",
       "CO50LE",
+      "CO50LL",
       "CO50LN",
       "CO50PA",
       "CO50PB",
@@ -330,12 +313,24 @@
       "CO50PG",
       "CO50PH",
       "CO50PJ",
+      "CO50PN",
+      "CO50PP",
       "CO50PQ",
+      "CO50PR",
+      "CO50PT",
+      "CO50PU",
       "CO50PW",
+      "CO50PZ",
       "CO50QA",
       "CO50QB",
       "CO50QD",
+      "CO50QE",
       "CO50QF",
+      "CO50QG",
+      "CO50QH",
+      "CO50QJ",
+      "CO50QN",
+      "CO50QQ",
       "CO50QR",
       "CO50QS",
       "CO50QT",
@@ -355,7 +350,12 @@
       "CO50TS",
       "CO50TT",
       "CO50TU",
+      "CO50TX",
+      "CO50TY",
       "CO50UA",
+      "CO50UB",
+      "CO50UD",
+      "CO50UE",
       "CO50UG",
       "CO50UH",
       "CO50UL",
@@ -365,9 +365,9 @@
       "CO58QH",
       "CO5OQA"
     ],
-    "CustomersOnSupply": 1712,
-    "CustomersOffSupply": 147,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 1859,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -382,235 +382,6 @@
     "CO5 O"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.80725,
-        "lng": 0.7421
-      },
-      "Coordinates": [
-        {
-          "lat": 51.80956,
-          "lng": 0.7789
-        },
-        {
-          "lat": 51.8087,
-          "lng": 0.7755
-        },
-        {
-          "lat": 51.80685,
-          "lng": 0.77278
-        },
-        {
-          "lat": 51.80651,
-          "lng": 0.77284
-        },
-        {
-          "lat": 51.80409,
-          "lng": 0.77427
-        },
-        {
-          "lat": 51.79949,
-          "lng": 0.76906
-        },
-        {
-          "lat": 51.79928,
-          "lng": 0.76961
-        },
-        {
-          "lat": 51.79842,
-          "lng": 0.77112
-        },
-        {
-          "lat": 51.79576,
-          "lng": 0.77042
-        },
-        {
-          "lat": 51.79509,
-          "lng": 0.76646
-        },
-        {
-          "lat": 51.79425,
-          "lng": 0.76304
-        },
-        {
-          "lat": 51.79289,
-          "lng": 0.76253
-        },
-        {
-          "lat": 51.78782,
-          "lng": 0.76529
-        },
-        {
-          "lat": 51.78728,
-          "lng": 0.75516
-        },
-        {
-          "lat": 51.78467,
-          "lng": 0.75039
-        },
-        {
-          "lat": 51.78988,
-          "lng": 0.74261
-        },
-        {
-          "lat": 51.79402,
-          "lng": 0.74444
-        },
-        {
-          "lat": 51.7958,
-          "lng": 0.7435
-        },
-        {
-          "lat": 51.79621,
-          "lng": 0.7319
-        },
-        {
-          "lat": 51.7962,
-          "lng": 0.73186
-        },
-        {
-          "lat": 51.79042,
-          "lng": 0.72473
-        },
-        {
-          "lat": 51.78913,
-          "lng": 0.72443
-        },
-        {
-          "lat": 51.78717,
-          "lng": 0.72187
-        },
-        {
-          "lat": 51.78715,
-          "lng": 0.7218
-        },
-        {
-          "lat": 51.78761,
-          "lng": 0.72063
-        },
-        {
-          "lat": 51.79316,
-          "lng": 0.70902
-        },
-        {
-          "lat": 51.79514,
-          "lng": 0.70946
-        },
-        {
-          "lat": 51.79571,
-          "lng": 0.70901
-        },
-        {
-          "lat": 51.8038,
-          "lng": 0.7082
-        },
-        {
-          "lat": 51.80649,
-          "lng": 0.70455
-        },
-        {
-          "lat": 51.80802,
-          "lng": 0.70447
-        },
-        {
-          "lat": 51.81104,
-          "lng": 0.71031
-        },
-        {
-          "lat": 51.81644,
-          "lng": 0.71607
-        },
-        {
-          "lat": 51.81785,
-          "lng": 0.71634
-        },
-        {
-          "lat": 51.81889,
-          "lng": 0.71574
-        },
-        {
-          "lat": 51.82535,
-          "lng": 0.71837
-        },
-        {
-          "lat": 51.82419,
-          "lng": 0.72781
-        },
-        {
-          "lat": 51.8212,
-          "lng": 0.72987
-        },
-        {
-          "lat": 51.82272,
-          "lng": 0.73405
-        },
-        {
-          "lat": 51.82592,
-          "lng": 0.73789
-        },
-        {
-          "lat": 51.82735,
-          "lng": 0.73846
-        },
-        {
-          "lat": 51.82717,
-          "lng": 0.741
-        },
-        {
-          "lat": 51.82551,
-          "lng": 0.74407
-        },
-        {
-          "lat": 51.82537,
-          "lng": 0.74459
-        },
-        {
-          "lat": 51.82511,
-          "lng": 0.74601
-        },
-        {
-          "lat": 51.82481,
-          "lng": 0.74873
-        },
-        {
-          "lat": 51.82463,
-          "lng": 0.75104
-        },
-        {
-          "lat": 51.82462,
-          "lng": 0.75199
-        },
-        {
-          "lat": 51.82744,
-          "lng": 0.75777
-        },
-        {
-          "lat": 51.82662,
-          "lng": 0.75991
-        },
-        {
-          "lat": 51.82117,
-          "lng": 0.76363
-        },
-        {
-          "lat": 51.81976,
-          "lng": 0.76869
-        },
-        {
-          "lat": 51.81987,
-          "lng": 0.7692
-        },
-        {
-          "lat": 51.81675,
-          "lng": 0.77965
-        },
-        {
-          "lat": 51.80956,
-          "lng": 0.7789
-        }
-      ],
-      "Postcode": "CO5 0"
-    },
     {
       "Center": {
         "lat": 51.70635,
@@ -3377,6 +3148,235 @@
     },
     {
       "Center": {
+        "lat": 51.80725,
+        "lng": 0.7421
+      },
+      "Coordinates": [
+        {
+          "lat": 51.80956,
+          "lng": 0.7789
+        },
+        {
+          "lat": 51.8087,
+          "lng": 0.7755
+        },
+        {
+          "lat": 51.80685,
+          "lng": 0.77278
+        },
+        {
+          "lat": 51.80651,
+          "lng": 0.77284
+        },
+        {
+          "lat": 51.80409,
+          "lng": 0.77427
+        },
+        {
+          "lat": 51.79949,
+          "lng": 0.76906
+        },
+        {
+          "lat": 51.79928,
+          "lng": 0.76961
+        },
+        {
+          "lat": 51.79842,
+          "lng": 0.77112
+        },
+        {
+          "lat": 51.79576,
+          "lng": 0.77042
+        },
+        {
+          "lat": 51.79509,
+          "lng": 0.76646
+        },
+        {
+          "lat": 51.79425,
+          "lng": 0.76304
+        },
+        {
+          "lat": 51.79289,
+          "lng": 0.76253
+        },
+        {
+          "lat": 51.78782,
+          "lng": 0.76529
+        },
+        {
+          "lat": 51.78728,
+          "lng": 0.75516
+        },
+        {
+          "lat": 51.78467,
+          "lng": 0.75039
+        },
+        {
+          "lat": 51.78988,
+          "lng": 0.74261
+        },
+        {
+          "lat": 51.79402,
+          "lng": 0.74444
+        },
+        {
+          "lat": 51.7958,
+          "lng": 0.7435
+        },
+        {
+          "lat": 51.79621,
+          "lng": 0.7319
+        },
+        {
+          "lat": 51.7962,
+          "lng": 0.73186
+        },
+        {
+          "lat": 51.79042,
+          "lng": 0.72473
+        },
+        {
+          "lat": 51.78913,
+          "lng": 0.72443
+        },
+        {
+          "lat": 51.78717,
+          "lng": 0.72187
+        },
+        {
+          "lat": 51.78715,
+          "lng": 0.7218
+        },
+        {
+          "lat": 51.78761,
+          "lng": 0.72063
+        },
+        {
+          "lat": 51.79316,
+          "lng": 0.70902
+        },
+        {
+          "lat": 51.79514,
+          "lng": 0.70946
+        },
+        {
+          "lat": 51.79571,
+          "lng": 0.70901
+        },
+        {
+          "lat": 51.8038,
+          "lng": 0.7082
+        },
+        {
+          "lat": 51.80649,
+          "lng": 0.70455
+        },
+        {
+          "lat": 51.80802,
+          "lng": 0.70447
+        },
+        {
+          "lat": 51.81104,
+          "lng": 0.71031
+        },
+        {
+          "lat": 51.81644,
+          "lng": 0.71607
+        },
+        {
+          "lat": 51.81785,
+          "lng": 0.71634
+        },
+        {
+          "lat": 51.81889,
+          "lng": 0.71574
+        },
+        {
+          "lat": 51.82535,
+          "lng": 0.71837
+        },
+        {
+          "lat": 51.82419,
+          "lng": 0.72781
+        },
+        {
+          "lat": 51.8212,
+          "lng": 0.72987
+        },
+        {
+          "lat": 51.82272,
+          "lng": 0.73405
+        },
+        {
+          "lat": 51.82592,
+          "lng": 0.73789
+        },
+        {
+          "lat": 51.82735,
+          "lng": 0.73846
+        },
+        {
+          "lat": 51.82717,
+          "lng": 0.741
+        },
+        {
+          "lat": 51.82551,
+          "lng": 0.74407
+        },
+        {
+          "lat": 51.82537,
+          "lng": 0.74459
+        },
+        {
+          "lat": 51.82511,
+          "lng": 0.74601
+        },
+        {
+          "lat": 51.82481,
+          "lng": 0.74873
+        },
+        {
+          "lat": 51.82463,
+          "lng": 0.75104
+        },
+        {
+          "lat": 51.82462,
+          "lng": 0.75199
+        },
+        {
+          "lat": 51.82744,
+          "lng": 0.75777
+        },
+        {
+          "lat": 51.82662,
+          "lng": 0.75991
+        },
+        {
+          "lat": 51.82117,
+          "lng": 0.76363
+        },
+        {
+          "lat": 51.81976,
+          "lng": 0.76869
+        },
+        {
+          "lat": 51.81987,
+          "lng": 0.7692
+        },
+        {
+          "lat": 51.81675,
+          "lng": 0.77965
+        },
+        {
+          "lat": 51.80956,
+          "lng": 0.7789
+        }
+      ],
+      "Postcode": "CO5 0"
+    },
+    {
+      "Center": {
         "lat": 51.7902,
         "lng": 0.94899
       },
@@ -3642,25 +3642,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CO50JD",
-    "CO50LL",
-    "CO50PN",
-    "CO50PP",
-    "CO50PR",
-    "CO50PT",
-    "CO50PU",
-    "CO50PZ",
-    "CO50QE",
-    "CO50QG",
-    "CO50QH",
-    "CO50QJ",
-    "CO50QN",
-    "CO50QQ",
-    "CO50TX",
-    "CO50TY",
-    "CO50UB",
-    "CO50UD",
-    "CO50UE",
     "CM27GA",
     "CM66LG",
     "CM83EF",
@@ -3740,8 +3721,10 @@
     "CO50HA",
     "CO50HD",
     "CO50HE",
+    "CO50JD",
     "CO50LA",
     "CO50LE",
+    "CO50LL",
     "CO50LN",
     "CO50PA",
     "CO50PB",
@@ -3749,12 +3732,24 @@
     "CO50PG",
     "CO50PH",
     "CO50PJ",
+    "CO50PN",
+    "CO50PP",
     "CO50PQ",
+    "CO50PR",
+    "CO50PT",
+    "CO50PU",
     "CO50PW",
+    "CO50PZ",
     "CO50QA",
     "CO50QB",
     "CO50QD",
+    "CO50QE",
     "CO50QF",
+    "CO50QG",
+    "CO50QH",
+    "CO50QJ",
+    "CO50QN",
+    "CO50QQ",
     "CO50QR",
     "CO50QS",
     "CO50QT",
@@ -3774,7 +3769,12 @@
     "CO50TS",
     "CO50TT",
     "CO50TU",
+    "CO50TX",
+    "CO50TY",
     "CO50UA",
+    "CO50UB",
+    "CO50UD",
+    "CO50UE",
     "CO50UG",
     "CO50UH",
     "CO50UL",
@@ -3786,7 +3786,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "11:30 - 12:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
