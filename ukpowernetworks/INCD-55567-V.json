@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-55567-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-55567-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-55567-V",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-05-04T07:35:08",
+      "Date": "2021-05-04T07:35:00",
       "Message": "<p>We became aware of a power cut at 07:35. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-04T13:00:17",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-04T14:04:13.033",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000d90fINCD",
     "IncidentReference": "INCD-55567-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 2,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-04T07:35:45",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-04T14:04:13.033",
     "EstimatedRestorationDate": "2021-05-04T16:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-05-04T07:35:08",
+    "ReceivedDate": "2021-05-04T07:35:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -64,9 +64,9 @@
     "PostCodesPlanned": [
       "TN278DW"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 6,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },

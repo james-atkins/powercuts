@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-234477-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-234477-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-234477-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-04T08:18:27",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-04T13:39:36.02",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000393edINCD",
     "IncidentReference": "INCD-234477-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 32,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-04T01:09:19",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-04T13:39:36.02",
     "EstimatedRestorationDate": "2021-05-04T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-04T01:10:00",
-    "NoCustomerAffected": 11,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 14,
     "Latitude": 0.0,
@@ -73,20 +73,20 @@
       "PE3 8"
     ],
     "PostCodesRestored": [
+      "PE38EH",
       "PE38EJ",
       "PE38EU",
-      "PE38EH",
       "PE38EX"
     ],
     "PostCodesPlanned": [
+      "PE38EH",
       "PE38EJ",
       "PE38EU",
-      "PE38EH",
       "PE38EX"
     ],
-    "CustomersOnSupply": 66,
-    "CustomersOffSupply": 11,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 77,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -361,9 +361,9 @@
     }
   ],
   "FullPostcodeData": [
+    "PE38EH",
     "PE38EJ",
     "PE38EU",
-    "PE38EH",
     "PE38EX"
   ],
   "PinLatitude": null,
