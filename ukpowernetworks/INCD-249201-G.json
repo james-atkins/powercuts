@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-249201-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-249201-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-249201-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-05-04T00:42:16.84",
-      "Message": "Hi, it's Adam from the messaging team at UK Power Networks. I understand how difficult it can be without power and the additional worries this can bring during a global pandemic. I want to assure you that as keyworkers, our teams operate 24 hours a day, and we continue to work around the clock for our customers without reducing our workforce. For both our businesses customers and those at home, we will work as quickly and safely as possible to restore supplies. If you need any additional support or have any concerns, please call us on 105 or tweet us @ukpowernetworks. I will personally continue to keep you updated with our progress.",
+      "Date": "2021-05-04T03:19:00.757",
+      "Message": "Update at 03:18 - Our staff have now confirmed that our substation equipment has operated due to an underground cable fault which we'll need to pinpoint, excavate and repair. We have further specialist teams and equipment on site with more on the way. We'll provide a revised time for the power to be back on asap. If you would like more information about this type of fault; here's a short video <a href=\"https://bit.ly/2ScxQDZ.\" target=\"_blank\">https://bit.ly/2ScxQDZ.</a>",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2021-05-03T21:26:07",
+      "Date": "2021-05-03T21:26:00",
       "Message": "<p>We became aware of a power cut at 21:26. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-03T22:23:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-04T03:21:03.667",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003cd71INCD",
     "IncidentReference": "INCD-249201-G",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-03T21:27:09",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-04T03:21:03.667",
     "EstimatedRestorationDate": "2021-05-04T01:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-05-03T21:26:07",
+    "ReceivedDate": "2021-05-03T21:26:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 25,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-05-04T00:42:00",
+        "ActualEventTime": "2021-05-04T03:18:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Hi, it's Adam from the messaging team at UK Power Networks. I understand how difficult it can be without power and the additional worries this can bring during a global pandemic. I want to assure you that as keyworkers, our teams operate 24 hours a day, and we continue to work around the clock for our customers without reducing our workforce. For both our businesses customers and those at home, we will work as quickly and safely as possible to restore supplies. If you need any additional support or have any concerns, please call us on 105 or tweet us @ukpowernetworks. I will personally continue to keep you updated with our progress.",
-        "LoggedTime": "2021-05-04T00:42:16.84"
+        "Comment": "Update at 03:18 - Our staff have now confirmed that our substation equipment has operated due to an underground cable fault which we'll need to pinpoint, excavate and repair. We have further specialist teams and equipment on site with more on the way. We'll provide a revised time for the power to be back on asap. If you would like more information about this type of fault; here's a short video https://bit.ly/2ScxQDZ.",
+        "LoggedTime": "2021-05-04T03:19:00.757"
       }
     ],
     "PostCodesAffected": [
@@ -86,9 +86,9 @@
       "BN69RZ",
       "BN69SB"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 48,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 48,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -627,7 +627,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "01:00 - 02:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
