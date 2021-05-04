@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-44798-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-44798-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-44798-C",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-05-04T23:34:19.727",
+      "Message": "This is UK Power Networks. Due to a safety issue on our electricity network, we may need to switch off some power in your local area for up to 15 minutes. We do normally contact our customers in advance, but as this is for emergency work and in the interest of public safety, we're unable to provide you with much notice. It is a possibility that your power will not be affected by this, if you would like more information call us on 08003163105.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-05-04T20:23:00",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-04T20:41:11",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-04T23:41:15.123",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000aefeINCD",
     "IncidentReference": "INCD-44798-C",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-04T20:25:05",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-04T23:41:15.123",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-04T20:23:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
+    "NoCallsReported": 3,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-04T23:33:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "This is UK Power Networks. Due to a safety issue on our electricity network, we may need to switch off some power in your local area for up to 15 minutes. We do normally contact our customers in advance, but as this is for emergency work and in the interest of public safety, we're unable to provide you with much notice. It is a possibility that your power will not be affected by this, if you would like more information call us on 08003163105.",
+        "LoggedTime": "2021-05-04T23:34:19.727"
+      }
+    ],
     "PostCodesAffected": [
       "CO3 4"
     ],
@@ -70,10 +84,10 @@
       "CO34RB",
       "CO34RY"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 42,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 42,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
