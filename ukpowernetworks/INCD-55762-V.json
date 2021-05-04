@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-55762-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-55762-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-55762-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-04T22:04:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-04T23:57:06.497",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000d9d2INCD",
     "IncidentReference": "INCD-55762-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-04T20:43:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-04T23:57:06.497",
     "EstimatedRestorationDate": "2021-05-05T00:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-04T20:43:00",
-    "NoCustomerAffected": 21,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -73,9 +73,8 @@
       "BN9 0"
     ],
     "PostCodesRestored": [
-      "BN90BA",
-      "BN90ET",
       "BN90AY",
+      "BN90BA",
       "BN90BB",
       "BN90BH",
       "BN90BP",
@@ -83,12 +82,12 @@
       "BN90BU",
       "BN90DA",
       "BN90DE",
+      "BN90ET",
       "BN90JF"
     ],
     "PostCodesPlanned": [
-      "BN90BA",
-      "BN90ET",
       "BN90AY",
+      "BN90BA",
       "BN90BB",
       "BN90BH",
       "BN90BP",
@@ -96,11 +95,12 @@
       "BN90BU",
       "BN90DA",
       "BN90DE",
+      "BN90ET",
       "BN90JF"
     ],
-    "CustomersOnSupply": 117,
-    "CustomersOffSupply": 26,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 143,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -359,9 +359,8 @@
     }
   ],
   "FullPostcodeData": [
-    "BN90BA",
-    "BN90ET",
     "BN90AY",
+    "BN90BA",
     "BN90BB",
     "BN90BH",
     "BN90BP",
@@ -369,6 +368,7 @@
     "BN90BU",
     "BN90DA",
     "BN90DE",
+    "BN90ET",
     "BN90JF"
   ],
   "PinLatitude": null,
