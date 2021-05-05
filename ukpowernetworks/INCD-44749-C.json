@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-44749-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-44749-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-44749-C",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-05-05T10:40:34.66",
+      "Message": "Update at 10:40- We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground network fault in the Johns Avenue area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-05-04T12:34:00",
@@ -15,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-05T07:21:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-05T10:50:01.5468485+01:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000aecdINCD",
     "IncidentReference": "INCD-44749-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-04T12:31:19",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-05T10:50:01.5468485+01:00",
     "EstimatedRestorationDate": "2021-05-05T11:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-04T12:34:00",
@@ -54,12 +60,22 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-05T10:39:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 10:40- We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground network fault in the Johns Avenue area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-05-05T10:40:34.66"
+      }
+    ],
     "PostCodesAffected": [
       "NW4 1",
       "NW4 4"
     ],
     "PostCodesRestored": [
+      "NW41BX",
+      "NW44DG",
       "NW44DP",
       "NW44DT",
       "NW44EE",
@@ -67,11 +83,11 @@
       "NW44EL",
       "NW44EN",
       "NW44EP",
-      "NW44ER",
-      "NW41BX",
-      "NW44DG"
+      "NW44ER"
     ],
     "PostCodesPlanned": [
+      "NW41BX",
+      "NW44DG",
       "NW44DP",
       "NW44DT",
       "NW44EE",
@@ -79,13 +95,11 @@
       "NW44EL",
       "NW44EN",
       "NW44EP",
-      "NW44ER",
-      "NW41BX",
-      "NW44DG"
+      "NW44ER"
     ],
-    "CustomersOnSupply": 2,
-    "CustomersOffSupply": 82,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 84,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -94,51 +108,6 @@
     "NW4 4"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.57835,
-        "lng": -0.23964
-      },
-      "Coordinates": [
-        {
-          "lat": 51.57809,
-          "lng": -0.23988
-        },
-        {
-          "lat": 51.57816,
-          "lng": -0.23988
-        },
-        {
-          "lat": 51.57849,
-          "lng": -0.24005
-        },
-        {
-          "lat": 51.57866,
-          "lng": -0.23983
-        },
-        {
-          "lat": 51.57859,
-          "lng": -0.23966
-        },
-        {
-          "lat": 51.57858,
-          "lng": -0.23935
-        },
-        {
-          "lat": 51.57817,
-          "lng": -0.23926
-        },
-        {
-          "lat": 51.5781,
-          "lng": -0.23938
-        },
-        {
-          "lat": 51.57809,
-          "lng": -0.23988
-        }
-      ],
-      "Postcode": "NW4 4"
-    },
     {
       "Center": {
         "lat": 51.59775,
@@ -607,9 +576,56 @@
         }
       ],
       "Postcode": "NW4 1"
+    },
+    {
+      "Center": {
+        "lat": 51.57835,
+        "lng": -0.23964
+      },
+      "Coordinates": [
+        {
+          "lat": 51.57809,
+          "lng": -0.23988
+        },
+        {
+          "lat": 51.57816,
+          "lng": -0.23988
+        },
+        {
+          "lat": 51.57849,
+          "lng": -0.24005
+        },
+        {
+          "lat": 51.57866,
+          "lng": -0.23983
+        },
+        {
+          "lat": 51.57859,
+          "lng": -0.23966
+        },
+        {
+          "lat": 51.57858,
+          "lng": -0.23935
+        },
+        {
+          "lat": 51.57817,
+          "lng": -0.23926
+        },
+        {
+          "lat": 51.5781,
+          "lng": -0.23938
+        },
+        {
+          "lat": 51.57809,
+          "lng": -0.23988
+        }
+      ],
+      "Postcode": "NW4 4"
     }
   ],
   "FullPostcodeData": [
+    "NW41BX",
+    "NW44DG",
     "NW44DP",
     "NW44DT",
     "NW44EE",
@@ -617,9 +633,7 @@
     "NW44EL",
     "NW44EN",
     "NW44EP",
-    "NW44ER",
-    "NW41BX",
-    "NW44DG"
+    "NW44ER"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
