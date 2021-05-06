@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-55974-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-55974-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-55974-V",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-05-06T15:19:51.18",
+      "Message": "Update at 15:19 - We believe our engineers have been able to restore power to all 190 customers in the Hove BN3 area, by diverting power around an underground cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-05-06T14:00:00",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-06T14:39:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-06T15:16:50.17",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000daa6INCD",
     "IncidentReference": "INCD-55974-V",
-    "IncidentCategory": "52",
+    "IncidentCategory": "117",
     "IncidentType": 4,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-06T14:07:03",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-06T15:16:50.17",
     "EstimatedRestorationDate": "2021-05-06T17:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-06T14:00:00",
-    "NoCustomerAffected": 190,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 32,
+    "NoCallsReported": 33,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-06T15:18:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 15:19 - We believe our engineers have been able to restore power to all 190 customers in the Hove BN3 area, by diverting power around an underground cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-05-06T15:19:51.18"
+      }
+    ],
     "PostCodesAffected": [
       "BN3 4",
       "BN3 5",
@@ -104,9 +118,9 @@
       "BN35NP",
       "CT126NT"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 179,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 179,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1476,7 +1490,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable on the high voltage network affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "16:30 - 17:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
