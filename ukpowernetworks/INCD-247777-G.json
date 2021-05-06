@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247777-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247777-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247777-G",
   "Steps": [
     {
       "Active": false,
@@ -15,29 +15,29 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-05T09:04:36",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-06T13:14:43.807",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003c7e1INCD",
     "IncidentReference": "INCD-247777-G",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-04-06T23:55:25",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-04-07T03:00:00",
+    "RestoredDateTime": "2021-05-06T13:14:43.807",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-04-06T23:55:15",
     "NoCustomerAffected": 0,
@@ -190,8 +190,8 @@
     ],
     "CustomersOnSupply": 492,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -3625,7 +3625,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "An underground electricity cable faulted on our high voltage network, causing an area wide power cut.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "02:30 - 03:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
