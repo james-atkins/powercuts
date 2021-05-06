@@ -3,21 +3,27 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-249379-G",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-05-06T07:59:24.367",
+      "Message": "Update at 07:59 - We've remotely diverted electricity around the faulty part of the network, restoring power to 175 properties. This leaves 251 properties affected by the overhead network fault. We'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
+      "Name": null
+    },
+    {
       "Active": false,
       "Date": "2021-05-06T07:18:44",
       "Message": "<p>We became aware of this power cut at 07:18. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
       "Name": "We are restoring customers automatically"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-06T07:22:26",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-06T07:58:43",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
@@ -40,9 +46,9 @@
     "EstimatedRestorationDate": "2021-05-06T10:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-06T07:18:44",
-    "NoCustomerAffected": 426,
+    "NoCustomerAffected": 251,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
+    "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -50,22 +56,23 @@
       "Name": "TONY (R5)",
       "EstimatedTimeOfArrival": "2021-05-06T08:30:00",
       "DispatchedDate": "2021-05-06T07:22:26",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-05-06T07:58:43",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-06T07:58:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 07:59 - We've remotely diverted electricity around the faulty part of the network, restoring power to 175 properties. This leaves 251 properties affected by the overhead network fault. We'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
+        "LoggedTime": "2021-05-06T07:59:24.367"
+      }
+    ],
     "PostCodesAffected": [
       "RH17 6"
     ],
     "PostCodesRestored": [
-      "RH176BF",
-      "RH176BJ",
-      "RH176BL",
-      "RH176BQ",
-      "RH176BS",
-      "RH176BT",
-      "RH176EB",
       "RH176HP",
       "RH176HQ",
       "RH176HR",
@@ -97,16 +104,16 @@
       "RH176PS",
       "RH176PW",
       "RH176PX",
-      "RH176PY"
+      "RH176PY",
+      "RH176BF",
+      "RH176BJ",
+      "RH176BL",
+      "RH176BQ",
+      "RH176BS",
+      "RH176BT",
+      "RH176EB"
     ],
     "PostCodesPlanned": [
-      "RH176BF",
-      "RH176BJ",
-      "RH176BL",
-      "RH176BQ",
-      "RH176BS",
-      "RH176BT",
-      "RH176EB",
       "RH176HP",
       "RH176HQ",
       "RH176HR",
@@ -138,10 +145,17 @@
       "RH176PS",
       "RH176PW",
       "RH176PX",
-      "RH176PY"
+      "RH176PY",
+      "RH176BF",
+      "RH176BJ",
+      "RH176BL",
+      "RH176BQ",
+      "RH176BS",
+      "RH176BT",
+      "RH176EB"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 401,
+    "CustomersOnSupply": 170,
+    "CustomersOffSupply": 231,
     "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
@@ -485,13 +499,6 @@
     }
   ],
   "FullPostcodeData": [
-    "RH176BF",
-    "RH176BJ",
-    "RH176BL",
-    "RH176BQ",
-    "RH176BS",
-    "RH176BT",
-    "RH176EB",
     "RH176HP",
     "RH176HQ",
     "RH176HR",
@@ -523,7 +530,14 @@
     "RH176PS",
     "RH176PW",
     "RH176PX",
-    "RH176PY"
+    "RH176PY",
+    "RH176BF",
+    "RH176BJ",
+    "RH176BL",
+    "RH176BQ",
+    "RH176BS",
+    "RH176BT",
+    "RH176EB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
