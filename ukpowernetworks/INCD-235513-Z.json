@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-235513-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-235513-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-235513-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-08T10:46:59",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-08T13:23:58.247",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z000397f9INCD",
     "IncidentReference": "INCD-235513-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-08T09:57:45",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-08T13:23:58.247",
     "EstimatedRestorationDate": "2021-05-08T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-08T09:53:00",
-    "NoCustomerAffected": 8,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -74,18 +74,18 @@
       "N9 8"
     ],
     "PostCodesRestored": [
-      "N97NR",
       "N97LG",
+      "N97NR",
       "N98AG"
     ],
     "PostCodesPlanned": [
-      "N97NR",
       "N97LG",
+      "N97NR",
       "N98AG"
     ],
-    "CustomersOnSupply": 9,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 24,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -998,8 +998,8 @@
     }
   ],
   "FullPostcodeData": [
-    "N97NR",
     "N97LG",
+    "N97NR",
     "N98AG"
   ],
   "PinLatitude": null,
