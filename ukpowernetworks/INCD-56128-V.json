@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-56128-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-56128-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-56128-V",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-08T18:44:22",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-08T20:40:14.077",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000db40INCD",
     "IncidentReference": "INCD-56128-V",
-    "IncidentCategory": "140",
+    "IncidentCategory": "43",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-08T16:55:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-08T20:40:14.077",
     "EstimatedRestorationDate": "2021-05-08T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-08T16:53:22",
@@ -104,7 +104,7 @@
     ],
     "CustomersOnSupply": 150,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -2460,7 +2460,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a high voltage overhead electricity line in the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "22:30 - 23:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
