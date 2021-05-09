@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-261663-J",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-261663-J",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-261663-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-05-09T00:28:02",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-05-09T00:27:56.443",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "J0003fe1fINCD",
     "IncidentReference": "INCD-261663-J",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-05-08T22:16:31",
-    "RestoredDateTime": "2021-05-09T00:27:56.443",
-    "EstimatedRestorationDate": "2021-05-09T01:30:00",
+    "RestoredDateTime": null,
+    "EstimatedRestorationDate": "2021-05-09T06:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-08T22:06:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 12,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -48,7 +48,7 @@
     "Resource": {
       "Id": null,
       "Name": "KEVIN (R5)",
-      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
+      "EstimatedTimeOfArrival": "2021-05-09T02:30:00",
       "DispatchedDate": "2021-05-09T00:27:58",
       "ArrivalDate": "2021-05-09T00:28:02",
       "StatusId": 6
@@ -59,25 +59,25 @@
       "SE1 5"
     ],
     "PostCodesRestored": [
+      "SE15NG",
+      "SE15NN",
       "SE15NA",
       "SE15NB",
       "SE15NF",
-      "SE15NG",
-      "SE15NH",
-      "SE15NN"
+      "SE15NH"
     ],
     "PostCodesPlanned": [
+      "SE15NG",
+      "SE15NN",
       "SE15NA",
       "SE15NB",
       "SE15NF",
-      "SE15NG",
-      "SE15NH",
-      "SE15NN"
+      "SE15NH"
     ],
-    "CustomersOnSupply": 64,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 46,
+    "CustomersOffSupply": 18,
+    "IncidentTypeName": "Unplanned",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -723,17 +723,17 @@
     }
   ],
   "FullPostcodeData": [
+    "SE15NG",
+    "SE15NN",
     "SE15NA",
     "SE15NB",
     "SE15NF",
-    "SE15NG",
-    "SE15NH",
-    "SE15NN"
+    "SE15NH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "01:00 - 02:00",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "05:30 - 06:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
