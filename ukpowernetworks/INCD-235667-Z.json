@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-235667-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-235667-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-235667-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-05-09T02:37:41",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-05-09T09:03:03.173",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z00039893INCD",
     "IncidentReference": "INCD-235667-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-05-09T01:50:51",
-    "RestoredDateTime": "2021-05-09T09:03:03.173",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-05-09T11:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-09T01:49:00",
-    "NoCustomerAffected": 0,
+    "NoCustomerAffected": 1,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -73,16 +73,16 @@
       "RM10 8"
     ],
     "PostCodesRestored": [
-      "RM108LD",
-      "RM108NA"
+      "RM108NA",
+      "RM108LD"
     ],
     "PostCodesPlanned": [
-      "RM108LD",
-      "RM108NA"
+      "RM108NA",
+      "RM108LD"
     ],
-    "CustomersOnSupply": 65,
-    "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "CustomersOnSupply": 64,
+    "CustomersOffSupply": 1,
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -657,8 +657,8 @@
     }
   ],
   "FullPostcodeData": [
-    "RM108LD",
-    "RM108NA"
+    "RM108NA",
+    "RM108LD"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
