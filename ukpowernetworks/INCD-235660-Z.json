@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-235660-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-235660-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-235660-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-08T23:41:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-09T10:54:01",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003988cINCD",
     "IncidentReference": "INCD-235660-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-08T22:36:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-09T10:54:01",
     "EstimatedRestorationDate": "2021-05-09T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-08T22:35:00",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -73,26 +73,26 @@
       "NR4 7"
     ],
     "PostCodesRestored": [
-      "NR47JB",
       "NR47AA",
       "NR47AH",
       "NR47HA",
       "NR47HY",
       "NR47HZ",
+      "NR47JB",
       "NR47JD"
     ],
     "PostCodesPlanned": [
-      "NR47JB",
       "NR47AA",
       "NR47AH",
       "NR47HA",
       "NR47HY",
       "NR47HZ",
+      "NR47JB",
       "NR47JD"
     ],
-    "CustomersOnSupply": 46,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 52,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -739,12 +739,12 @@
     }
   ],
   "FullPostcodeData": [
-    "NR47JB",
     "NR47AA",
     "NR47AH",
     "NR47HA",
     "NR47HY",
     "NR47HZ",
+    "NR47JB",
     "NR47JD"
   ],
   "PinLatitude": null,
