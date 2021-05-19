@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-60276-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-60276-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-60276-N",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-18T08:56:22",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-19T01:30:31.973",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000eb74INCD",
     "IncidentReference": "INCD-60276-N",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-18T07:33:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-19T01:30:31.973",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-18T07:30:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "SW19 4"
     ],
     "PostCodesRestored": [
-      "SW194JZ",
       "SW194AS",
       "SW194AT",
       "SW194DT",
@@ -68,10 +67,10 @@
       "SW194EG",
       "SW194EQ",
       "SW194EX",
+      "SW194JZ",
       "SW194LA"
     ],
     "PostCodesPlanned": [
-      "SW194JZ",
       "SW194AS",
       "SW194AT",
       "SW194DT",
@@ -80,12 +79,13 @@
       "SW194EG",
       "SW194EQ",
       "SW194EX",
+      "SW194JZ",
       "SW194LA"
     ],
-    "CustomersOnSupply": 102,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 105,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -707,7 +707,6 @@
     }
   ],
   "FullPostcodeData": [
-    "SW194JZ",
     "SW194AS",
     "SW194AT",
     "SW194DT",
@@ -716,6 +715,7 @@
     "SW194EG",
     "SW194EQ",
     "SW194EX",
+    "SW194JZ",
     "SW194LA"
   ],
   "PinLatitude": null,
