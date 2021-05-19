@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-237697-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237697-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237697-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-19T15:52:30",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-19T23:23:47.13",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a081INCD",
     "IncidentReference": "INCD-237697-Z",
-    "IncidentCategory": "124",
+    "IncidentCategory": "93",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-19T15:33:52",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-19T23:23:47.13",
     "EstimatedRestorationDate": "2021-05-19T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-19T09:18:00",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -60,8 +60,8 @@
       "N14 7"
     ],
     "PostCodesRestored": [
-      "N146DX",
       "N146DU",
+      "N146DX",
       "N146DY",
       "N147JN",
       "N147JZ",
@@ -75,8 +75,8 @@
       "N147PL"
     ],
     "PostCodesPlanned": [
-      "N146DX",
       "N146DU",
+      "N146DX",
       "N146DY",
       "N147JN",
       "N147JZ",
@@ -89,9 +89,9 @@
       "N147PJ",
       "N147PL"
     ],
-    "CustomersOnSupply": 128,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 138,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1004,8 +1004,8 @@
     }
   ],
   "FullPostcodeData": [
-    "N146DX",
     "N146DU",
+    "N146DX",
     "N146DY",
     "N147JN",
     "N147JZ",
@@ -1020,7 +1020,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "Due to a faulty piece of network equipment we had to turn off your power.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "22:30 - 23:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
