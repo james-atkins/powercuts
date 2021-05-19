@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-237577-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237577-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237577-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-19T08:09:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-19T14:12:16.863",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a009INCD",
     "IncidentReference": "INCD-237577-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-19T07:16:48",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-19T14:12:16.863",
     "EstimatedRestorationDate": "2021-05-19T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-19T07:16:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -73,28 +73,28 @@
       "MK42 0"
     ],
     "PostCodesRestored": [
-      "MK420HR",
       "MK420HJ",
       "MK420HN",
       "MK420HP",
+      "MK420HR",
       "MK420HS",
       "MK420HT",
       "MK420HW",
       "MK420WE"
     ],
     "PostCodesPlanned": [
-      "MK420HR",
       "MK420HJ",
       "MK420HN",
       "MK420HP",
+      "MK420HR",
       "MK420HS",
       "MK420HT",
       "MK420HW",
       "MK420WE"
     ],
-    "CustomersOnSupply": 113,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 116,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -585,10 +585,10 @@
     }
   ],
   "FullPostcodeData": [
-    "MK420HR",
     "MK420HJ",
     "MK420HN",
     "MK420HP",
+    "MK420HR",
     "MK420HS",
     "MK420HT",
     "MK420HW",
