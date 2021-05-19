@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-237744-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237744-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237744-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-05-19T18:12:59",
+      "Date": "2021-05-19T18:12:00",
       "Message": "<p>We became aware of a power cut at 18:12. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-19T19:50:47",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-19T20:45:02.78",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a0b0INCD",
     "IncidentReference": "INCD-237744-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-19T18:14:17",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-19T20:45:02.78",
     "EstimatedRestorationDate": "2021-05-19T23:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-05-19T18:12:59",
+    "ReceivedDate": "2021-05-19T18:12:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -80,9 +80,9 @@
       "HA13TF",
       "HA13TG"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 78,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 78,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
