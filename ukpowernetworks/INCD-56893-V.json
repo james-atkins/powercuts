@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-56893-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-56893-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-56893-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-19T15:52:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-19T21:38:01.037",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000de3dINCD",
     "IncidentReference": "INCD-56893-V",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-19T14:18:21",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-05-19T22:30:00",
+    "RestoredDateTime": "2021-05-19T21:38:01.037",
+    "EstimatedRestorationDate": "2021-05-19T21:45:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-19T14:12:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -59,19 +59,19 @@
       "DA13 9"
     ],
     "PostCodesRestored": [
-      "DA139AT",
       "DA139AR",
-      "DA139AS"
+      "DA139AS",
+      "DA139AT"
     ],
     "PostCodesPlanned": [
-      "DA139AT",
       "DA139AR",
-      "DA139AS"
+      "DA139AS",
+      "DA139AT"
     ],
-    "CustomersOnSupply": 5,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 9,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -533,14 +533,14 @@
     }
   ],
   "FullPostcodeData": [
-    "DA139AT",
     "DA139AR",
-    "DA139AS"
+    "DA139AS",
+    "DA139AT"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We were investigating an overhead electricity line fault which caused a power cut in the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "22:00 - 23:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "21:15 - 22:15",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null

@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-38819-M",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-38819-M",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-38819-M",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-19T13:47:19",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-19T21:28:25.62",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "M000097a3INCD",
     "IncidentReference": "INCD-38819-M",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-19T12:07:42",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-19T21:28:25.62",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-19T12:05:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -73,7 +73,6 @@
       "SW19 8"
     ],
     "PostCodesRestored": [
-      "SW198LD",
       "SW198HA",
       "SW198HB",
       "SW198HD",
@@ -81,10 +80,10 @@
       "SW198HF",
       "SW198HL",
       "SW198LA",
+      "SW198LD",
       "SW198RP"
     ],
     "PostCodesPlanned": [
-      "SW198LD",
       "SW198HA",
       "SW198HB",
       "SW198HD",
@@ -92,11 +91,12 @@
       "SW198HF",
       "SW198HL",
       "SW198LA",
+      "SW198LD",
       "SW198RP"
     ],
-    "CustomersOnSupply": 209,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 210,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -719,7 +719,6 @@
     }
   ],
   "FullPostcodeData": [
-    "SW198LD",
     "SW198HA",
     "SW198HB",
     "SW198HD",
@@ -727,6 +726,7 @@
     "SW198HF",
     "SW198HL",
     "SW198LA",
+    "SW198LD",
     "SW198RP"
   ],
   "PinLatitude": null,
