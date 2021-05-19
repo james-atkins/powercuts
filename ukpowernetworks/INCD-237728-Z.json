@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-237728-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237728-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237728-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-05-19T18:37:45.963",
+      "Message": "Update at 18:37 - Engineers have arrived on site in the Longwick Road area. Using an average timescale for this type of issue, we're looking to have you back on between 21:30 and 22:30. We know that in the current pandemic a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video <a href=\"https://bit.ly/2y8Dtfz.\" target=\"_blank\">https://bit.ly/2y8Dtfz.</a>",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-05-19T16:57:08",
+      "Date": "2021-05-19T16:57:00",
       "Message": "<p>We became aware of a power cut at 16:57. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-19T18:30:27",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-19T19:07:23.33",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a0a0INCD",
     "IncidentReference": "INCD-237728-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-19T17:00:14",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-19T19:07:23.33",
     "EstimatedRestorationDate": "2021-05-19T22:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-05-19T16:57:08",
+    "ReceivedDate": "2021-05-19T16:57:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
@@ -54,11 +60,21 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-19T18:37:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 18:37 - Engineers have arrived on site in the Longwick Road area. Using an average timescale for this type of issue, we're looking to have you back on between 21:30 and 22:30. We know that in the current pandemic a power cut can be especially disruptive, as you may be working from home, or taking care of elderly or unwell family members and we want to support you however we can. We'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. Please follow the government pandemic guidelines about social distancing when interacting with our staff. For more information about this type of fault; here's a short YouTube video https://bit.ly/2y8Dtfz.",
+        "LoggedTime": "2021-05-19T18:37:45.963"
+      }
+    ],
     "PostCodesAffected": [
       "HP27 9"
     ],
     "PostCodesRestored": [
+      "HP279AX",
+      "HP279BQ",
       "HP279EZ",
       "HP279HB",
       "HP279HD",
@@ -66,15 +82,17 @@
       "HP279HG"
     ],
     "PostCodesPlanned": [
+      "HP279AX",
+      "HP279BQ",
       "HP279EZ",
       "HP279HB",
       "HP279HD",
       "HP279HE",
       "HP279HG"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 90,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 95,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -597,6 +615,8 @@
     }
   ],
   "FullPostcodeData": [
+    "HP279AX",
+    "HP279BQ",
     "HP279EZ",
     "HP279HB",
     "HP279HD",
