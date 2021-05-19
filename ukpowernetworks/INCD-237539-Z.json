@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-237539-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237539-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237539-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-18T21:33:41",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-19T12:18:48.347",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z00039fe3INCD",
     "IncidentReference": "INCD-237539-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-18T20:05:55",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-19T12:18:48.347",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-18T20:04:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
     "Latitude": 0.0,
@@ -74,24 +74,24 @@
       "HA4 6"
     ],
     "PostCodesRestored": [
-      "HA40BB",
       "HA40AY",
       "HA40BA",
+      "HA40BB",
       "HA40BD",
       "HA46BA",
       "HA46BB"
     ],
     "PostCodesPlanned": [
-      "HA40BB",
       "HA40AY",
       "HA40BA",
+      "HA40BB",
       "HA40BD",
       "HA46BA",
       "HA46BB"
     ],
-    "CustomersOnSupply": 70,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 71,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1152,9 +1152,9 @@
     }
   ],
   "FullPostcodeData": [
-    "HA40BB",
     "HA40AY",
     "HA40BA",
+    "HA40BB",
     "HA40BD",
     "HA46BA",
     "HA46BB"
