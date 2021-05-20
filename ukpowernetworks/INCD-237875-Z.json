@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-237875-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237875-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237875-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-05-20T12:33:08.513",
+      "Message": "Update at 12:33 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a faulty piece of equipment in the Dollis Park area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-05-20T12:03:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-20T11:45:11",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-20T12:29:45.077",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a133INCD",
     "IncidentReference": "INCD-237875-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-20T11:42:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-20T12:29:45.077",
     "EstimatedRestorationDate": "2021-05-20T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-20T12:03:00",
-    "NoCustomerAffected": 42,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -54,31 +60,39 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-20T12:32:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 12:33 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a faulty piece of equipment in the Dollis Park area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-05-20T12:33:08.513"
+      }
+    ],
     "PostCodesAffected": [
       "N3 1"
     ],
     "PostCodesRestored": [
-      "N31BP",
-      "N31BT",
-      "N31HN",
       "N31BE",
       "N31BG",
       "N31BJ",
-      "N31BN"
+      "N31BN",
+      "N31BP",
+      "N31BT",
+      "N31HN"
     ],
     "PostCodesPlanned": [
-      "N31BP",
-      "N31BT",
-      "N31HN",
       "N31BE",
       "N31BG",
       "N31BJ",
-      "N31BN"
+      "N31BN",
+      "N31BP",
+      "N31BT",
+      "N31HN"
     ],
-    "CustomersOnSupply": 61,
-    "CustomersOffSupply": 42,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 103,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -669,13 +683,13 @@
     }
   ],
   "FullPostcodeData": [
-    "N31BP",
-    "N31BT",
-    "N31HN",
     "N31BE",
     "N31BG",
     "N31BJ",
-    "N31BN"
+    "N31BN",
+    "N31BP",
+    "N31BT",
+    "N31HN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
