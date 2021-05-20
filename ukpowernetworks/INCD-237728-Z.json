@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-237728-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237728-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237728-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-19T18:30:27",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-20T04:57:14.96",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a0a0INCD",
     "IncidentReference": "INCD-237728-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-19T17:00:14",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-20T04:57:14.96",
     "EstimatedRestorationDate": "2021-05-20T05:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-19T16:57:00",
-    "NoCustomerAffected": 77,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -73,26 +73,26 @@
       "HP27 9"
     ],
     "PostCodesRestored": [
+      "HP279AX",
+      "HP279BQ",
       "HP279EZ",
       "HP279HB",
       "HP279HD",
       "HP279HE",
-      "HP279AX",
-      "HP279BQ",
       "HP279HG"
     ],
     "PostCodesPlanned": [
+      "HP279AX",
+      "HP279BQ",
       "HP279EZ",
       "HP279HB",
       "HP279HD",
       "HP279HE",
-      "HP279AX",
-      "HP279BQ",
       "HP279HG"
     ],
-    "CustomersOnSupply": 18,
-    "CustomersOffSupply": 77,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 95,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -615,12 +615,12 @@
     }
   ],
   "FullPostcodeData": [
+    "HP279AX",
+    "HP279BQ",
     "HP279EZ",
     "HP279HB",
     "HP279HD",
     "HP279HE",
-    "HP279AX",
-    "HP279BQ",
     "HP279HG"
   ],
   "PinLatitude": null,
