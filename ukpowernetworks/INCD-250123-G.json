@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-250123-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-250123-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-250123-G",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-05-21T00:15:31.94",
+      "Message": "Hi, it's Luke from the messaging team at UK Power Networks. I understand how difficult it can be without power and the additional worries this can bring during a global pandemic. I want to assure you that as keyworkers, our teams operate 24 hours a day, and we continue to work around the clock for our customers without reducing our workforce. For both our businesses customers and those at home, we will work as quickly and safely as possible to restore supplies. If you need any additional support or have any concerns, please call us on 105 or tweet us @ukpowernetworks. I will personally continue to keep you updated with our progress.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-05-20T21:45:16",
@@ -15,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-20T22:39:42",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-21T00:18:44.35",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003d10bINCD",
     "IncidentReference": "INCD-250123-G",
     "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-20T21:45:26",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-21T00:18:44.35",
     "EstimatedRestorationDate": "2021-05-21T01:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-20T21:45:16",
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-21T00:15:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Hi, it's Luke from the messaging team at UK Power Networks. I understand how difficult it can be without power and the additional worries this can bring during a global pandemic. I want to assure you that as keyworkers, our teams operate 24 hours a day, and we continue to work around the clock for our customers without reducing our workforce. For both our businesses customers and those at home, we will work as quickly and safely as possible to restore supplies. If you need any additional support or have any concerns, please call us on 105 or tweet us @ukpowernetworks. I will personally continue to keep you updated with our progress.",
+        "LoggedTime": "2021-05-21T00:15:31.94"
+      }
+    ],
     "PostCodesAffected": [
       "CT20 1",
       "RH16 1",
@@ -150,8 +164,8 @@
     ],
     "CustomersOnSupply": 486,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
