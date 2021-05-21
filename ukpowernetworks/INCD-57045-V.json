@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-57045-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-57045-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-57045-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-20T23:33:19",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-21T01:44:46.897",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000ded5INCD",
     "IncidentReference": "INCD-57045-V",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-20T19:55:24",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-05-21T01:30:00",
+    "RestoredDateTime": "2021-05-21T01:44:46.897",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-20T19:42:47",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -77,21 +77,21 @@
     ],
     "PostCodesRestored": [
       "CT47DP",
+      "CT47DT",
       "CT48DH",
       "ME160GN",
-      "SM60AR",
-      "CT47DT"
+      "SM60AR"
     ],
     "PostCodesPlanned": [
       "CT47DP",
+      "CT47DT",
       "CT48DH",
       "ME160GN",
-      "SM60AR",
-      "CT47DT"
+      "SM60AR"
     ],
-    "CustomersOnSupply": 11,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 17,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -2077,15 +2077,15 @@
   ],
   "FullPostcodeData": [
     "CT47DP",
+    "CT47DT",
     "CT48DH",
     "ME160GN",
-    "SM60AR",
-    "CT47DT"
+    "SM60AR"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "01:00 - 02:00",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
