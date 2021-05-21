@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-237987-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237987-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237987-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-05-21T04:44:56.387",
-      "Message": "Update at 04:44 - We've remotely diverted electricity around the faulty part of the network, restoring power to 112 properties. This leaves 48 properties affected by the fault. We'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
+      "Date": "2021-05-21T06:15:10.707",
+      "Message": "PLEASE READ! Is your power back on? We keep texting those signed up, and will continue to until the final 48 customers are restored. WANT TO STOP MESSAGES? You will need to text CANCEL to 80876 to stop receiving texts (standard text fees apply). Thank you.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-20T22:03:13",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-21T06:41:21.607",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a1a3INCD",
     "IncidentReference": "INCD-237987-Z",
     "IncidentCategory": "143",
     "IncidentType": 4,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-20T20:50:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-21T06:41:21.607",
     "EstimatedRestorationDate": "2021-05-21T07:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-20T20:48:00",
-    "NoCustomerAffected": 48,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 30,
     "Latitude": 0.0,
@@ -62,23 +62,17 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-05-21T04:44:00",
+        "ActualEventTime": "2021-05-21T06:14:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 04:44 - We've remotely diverted electricity around the faulty part of the network, restoring power to 112 properties. This leaves 48 properties affected by the fault. We'll keep sending text updates to everyone until all the power to your area is on. If you want to stop receiving texts, please just send CANCEL to 80876 (standard text fees apply).",
-        "LoggedTime": "2021-05-21T04:44:56.387"
+        "Comment": "PLEASE READ! Is your power back on? We keep texting those signed up, and will continue to until the final 48 customers are restored. WANT TO STOP MESSAGES? You will need to text CANCEL to 80876 to stop receiving texts (standard text fees apply). Thank you.",
+        "LoggedTime": "2021-05-21T06:15:10.707"
       }
     ],
     "PostCodesAffected": [
       "HP7 0"
     ],
     "PostCodesRestored": [
-      "HP70PB",
-      "HP70PF",
-      "HP70PJ",
-      "HP70PL",
-      "HP70PN",
-      "HP70PW",
       "HP70NA",
       "HP70NH",
       "HP70NJ",
@@ -93,15 +87,15 @@
       "HP70NY",
       "HP70NZ",
       "HP70PA",
-      "HP70PH"
+      "HP70PB",
+      "HP70PF",
+      "HP70PH",
+      "HP70PJ",
+      "HP70PL",
+      "HP70PN",
+      "HP70PW"
     ],
     "PostCodesPlanned": [
-      "HP70PB",
-      "HP70PF",
-      "HP70PJ",
-      "HP70PL",
-      "HP70PN",
-      "HP70PW",
       "HP70NA",
       "HP70NH",
       "HP70NJ",
@@ -116,12 +110,18 @@
       "HP70NY",
       "HP70NZ",
       "HP70PA",
-      "HP70PH"
+      "HP70PB",
+      "HP70PF",
+      "HP70PH",
+      "HP70PJ",
+      "HP70PL",
+      "HP70PN",
+      "HP70PW"
     ],
-    "CustomersOnSupply": 112,
-    "CustomersOffSupply": 48,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 160,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -547,12 +547,6 @@
     }
   ],
   "FullPostcodeData": [
-    "HP70PB",
-    "HP70PF",
-    "HP70PJ",
-    "HP70PL",
-    "HP70PN",
-    "HP70PW",
     "HP70NA",
     "HP70NH",
     "HP70NJ",
@@ -567,7 +561,13 @@
     "HP70NY",
     "HP70NZ",
     "HP70PA",
-    "HP70PH"
+    "HP70PB",
+    "HP70PF",
+    "HP70PH",
+    "HP70PJ",
+    "HP70PL",
+    "HP70PN",
+    "HP70PW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
