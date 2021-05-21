@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-238056-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-238056-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-238056-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-21T10:54:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-21T14:44:01.747",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a1e8INCD",
     "IncidentReference": "INCD-238056-Z",
     "IncidentCategory": "26",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-21T10:19:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-21T14:44:01.747",
     "EstimatedRestorationDate": "2021-05-21T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-21T10:19:15",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -75,7 +75,6 @@
       "SS3 9"
     ],
     "PostCodesRestored": [
-      "SS39TS",
       "SS11JQ",
       "SS30AA",
       "SS30AB",
@@ -171,6 +170,7 @@
       "SS39TN",
       "SS39TP",
       "SS39TR",
+      "SS39TS",
       "SS39TT",
       "SS39TW",
       "SS39UR",
@@ -184,7 +184,6 @@
       "UK"
     ],
     "PostCodesPlanned": [
-      "SS39TS",
       "SS11JQ",
       "SS30AA",
       "SS30AB",
@@ -280,6 +279,7 @@
       "SS39TN",
       "SS39TP",
       "SS39TR",
+      "SS39TS",
       "SS39TT",
       "SS39TW",
       "SS39UR",
@@ -292,10 +292,10 @@
       "SS39XE",
       "UK"
     ],
-    "CustomersOnSupply": 1841,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 1843,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -304,67 +304,6 @@
     "SS3 9"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.60257,
-        "lng": 0.85798
-      },
-      "Coordinates": [
-        {
-          "lat": 51.60171,
-          "lng": 0.84924
-        },
-        {
-          "lat": 51.60374,
-          "lng": 0.8521
-        },
-        {
-          "lat": 51.61054,
-          "lng": 0.85884
-        },
-        {
-          "lat": 51.61145,
-          "lng": 0.85998
-        },
-        {
-          "lat": 51.61155,
-          "lng": 0.86035
-        },
-        {
-          "lat": 51.61307,
-          "lng": 0.86395
-        },
-        {
-          "lat": 51.61056,
-          "lng": 0.8642
-        },
-        {
-          "lat": 51.60221,
-          "lng": 0.86503
-        },
-        {
-          "lat": 51.60076,
-          "lng": 0.86473
-        },
-        {
-          "lat": 51.59834,
-          "lng": 0.86424
-        },
-        {
-          "lat": 51.59539,
-          "lng": 0.86001
-        },
-        {
-          "lat": 51.5963,
-          "lng": 0.84836
-        },
-        {
-          "lat": 51.60171,
-          "lng": 0.84924
-        }
-      ],
-      "Postcode": "SS3 9"
-    },
     {
       "Center": {
         "lat": 51.5366,
@@ -1150,10 +1089,70 @@
         }
       ],
       "Postcode": "SS3 0"
+    },
+    {
+      "Center": {
+        "lat": 51.60257,
+        "lng": 0.85798
+      },
+      "Coordinates": [
+        {
+          "lat": 51.60171,
+          "lng": 0.84924
+        },
+        {
+          "lat": 51.60374,
+          "lng": 0.8521
+        },
+        {
+          "lat": 51.61054,
+          "lng": 0.85884
+        },
+        {
+          "lat": 51.61145,
+          "lng": 0.85998
+        },
+        {
+          "lat": 51.61155,
+          "lng": 0.86035
+        },
+        {
+          "lat": 51.61307,
+          "lng": 0.86395
+        },
+        {
+          "lat": 51.61056,
+          "lng": 0.8642
+        },
+        {
+          "lat": 51.60221,
+          "lng": 0.86503
+        },
+        {
+          "lat": 51.60076,
+          "lng": 0.86473
+        },
+        {
+          "lat": 51.59834,
+          "lng": 0.86424
+        },
+        {
+          "lat": 51.59539,
+          "lng": 0.86001
+        },
+        {
+          "lat": 51.5963,
+          "lng": 0.84836
+        },
+        {
+          "lat": 51.60171,
+          "lng": 0.84924
+        }
+      ],
+      "Postcode": "SS3 9"
     }
   ],
   "FullPostcodeData": [
-    "SS39TS",
     "SS11JQ",
     "SS30AA",
     "SS30AB",
@@ -1249,6 +1248,7 @@
     "SS39TN",
     "SS39TP",
     "SS39TR",
+    "SS39TS",
     "SS39TT",
     "SS39TW",
     "SS39UR",
