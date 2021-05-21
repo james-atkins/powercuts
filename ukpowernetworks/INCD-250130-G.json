@@ -3,6 +3,12 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-250130-G",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-05-21T04:04:05.623",
+      "Message": "Update at 04:03 - Our engineers are on their way. At this point we think the issue is an overhead fault affecting 159 properties. Specialist engineers from our control room are also working to divert power remotely, so it's possible for your power to come back on at any point, but sometimes we can't restore everyone this way. That's why we're also sending staff to the area to check our equipment. Every fault is different, so our time frames have to be estimated, but currently we hope to have power back on between 04:30 and 05:30. We must stress that it may become necessary for this to change, depending on what our engineers find. We'll keep you updated with our progress, but if you need to talk our team are always here on 08003163105.",
+      "Name": null
+    },
+    {
       "Active": false,
       "Date": "2021-05-21T03:00:59",
       "Message": "<p>We became aware of this power cut at 03:00. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
@@ -37,12 +43,12 @@
     "StatusId": 1,
     "CreationDateTime": "2021-05-21T03:01:04",
     "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "EstimatedRestorationDate": "2021-05-21T05:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-21T03:00:59",
     "NoCustomerAffected": 159,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 1,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-21T04:03:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 04:03 - Our engineers are on their way. At this point we think the issue is an overhead fault affecting 159 properties. Specialist engineers from our control room are also working to divert power remotely, so it's possible for your power to come back on at any point, but sometimes we can't restore everyone this way. That's why we're also sending staff to the area to check our equipment. Every fault is different, so our time frames have to be estimated, but currently we hope to have power back on between 04:30 and 05:30. We must stress that it may become necessary for this to change, depending on what our engineers find. We'll keep you updated with our progress, but if you need to talk our team are always here on 08003163105.",
+        "LoggedTime": "2021-05-21T04:04:05.623"
+      }
+    ],
     "PostCodesAffected": [
       "TN3 9",
       "TN7 4",
@@ -99,7 +113,7 @@
     "CustomersOnSupply": 0,
     "CustomersOffSupply": 148,
     "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1449,7 +1463,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "04:30 - 05:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
