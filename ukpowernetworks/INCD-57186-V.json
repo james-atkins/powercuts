@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-57186-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-57186-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-57186-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-21T17:23:08",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-22T01:46:40.49",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000df62INCD",
     "IncidentReference": "INCD-57186-V",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-21T16:13:11",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-22T01:46:40.49",
     "EstimatedRestorationDate": "2021-05-23T03:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-21T16:16:16",
-    "NoCustomerAffected": 30,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 13,
     "Latitude": 0.0,
@@ -75,9 +75,6 @@
     ],
     "PostCodesRestored": [
       "CT79RA",
-      "RH104SZ",
-      "RH104TA",
-      "RH104TB",
       "RH104LZ",
       "RH104NA",
       "RH104NB",
@@ -90,13 +87,13 @@
       "RH104QH",
       "RH104SB",
       "RH104SE",
-      "RH104SF"
+      "RH104SF",
+      "RH104SZ",
+      "RH104TA",
+      "RH104TB"
     ],
     "PostCodesPlanned": [
       "CT79RA",
-      "RH104SZ",
-      "RH104TA",
-      "RH104TB",
       "RH104LZ",
       "RH104NA",
       "RH104NB",
@@ -109,11 +106,14 @@
       "RH104QH",
       "RH104SB",
       "RH104SE",
-      "RH104SF"
+      "RH104SF",
+      "RH104SZ",
+      "RH104TA",
+      "RH104TB"
     ],
-    "CustomersOnSupply": 132,
-    "CustomersOffSupply": 28,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 160,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -819,9 +819,6 @@
   ],
   "FullPostcodeData": [
     "CT79RA",
-    "RH104SZ",
-    "RH104TA",
-    "RH104TB",
     "RH104LZ",
     "RH104NA",
     "RH104NB",
@@ -834,7 +831,10 @@
     "RH104QH",
     "RH104SB",
     "RH104SE",
-    "RH104SF"
+    "RH104SF",
+    "RH104SZ",
+    "RH104TA",
+    "RH104TB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
