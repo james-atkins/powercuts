@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-238529-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-238529-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-238529-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-23T21:57:48",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-24T00:36:13.61",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a3c1INCD",
     "IncidentReference": "INCD-238529-Z",
-    "IncidentCategory": "47",
+    "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-23T21:25:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-24T00:36:13.61",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-23T21:24:07",
@@ -59,20 +59,20 @@
       "CO7 7"
     ],
     "PostCodesRestored": [
-      "CO77DE",
       "CO77DB",
       "CO77DD",
+      "CO77DE",
       "CO77FG"
     ],
     "PostCodesPlanned": [
-      "CO77DE",
       "CO77DB",
       "CO77DD",
+      "CO77DE",
       "CO77FG"
     ],
-    "CustomersOnSupply": 52,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 55,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -651,14 +651,14 @@
     }
   ],
   "FullPostcodeData": [
-    "CO77DE",
     "CO77DB",
     "CO77DD",
+    "CO77DE",
     "CO77FG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
