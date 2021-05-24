@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-238738-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-238738-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-238738-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-05-24T22:39:48.73",
-      "Message": "Update at 22:39 - As it's approaching that time of night where most of our customers are going to sleep, we wanted to let you know that we will continue to send text messages throughout the night with progress updates. If you want to continue receiving updates but prefer not to be disturbed, you can place your phone on silent or activate the Do Not Disturb settings on smart phones. If you no longer want to receive updates, please text CANCEL to 80876 (standard text fees apply). Thank you.",
+      "Date": "2021-05-24T23:22:47.813",
+      "Message": "Update at 23:22- It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers are undergoing some additional excavations and repairs that are required. Therefore, we're now aiming to restore supplies between 23:30 and 00:30. We're sorry we've had to change the estimated time, but we'll keep you updated.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-24T15:53:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-24T23:40:55.6",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a492INCD",
     "IncidentReference": "INCD-238738-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-24T14:52:26",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-24T23:40:55.6",
     "EstimatedRestorationDate": "2021-05-25T00:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-24T14:51:00",
-    "NoCustomerAffected": 29,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -62,27 +62,27 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-05-24T22:39:00",
+        "ActualEventTime": "2021-05-24T23:21:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 22:39 - As it's approaching that time of night where most of our customers are going to sleep, we wanted to let you know that we will continue to send text messages throughout the night with progress updates. If you want to continue receiving updates but prefer not to be disturbed, you can place your phone on silent or activate the Do Not Disturb settings on smart phones. If you no longer want to receive updates, please text CANCEL to 80876 (standard text fees apply). Thank you.",
-        "LoggedTime": "2021-05-24T22:39:48.73"
+        "Comment": "Update at 23:22- It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers are undergoing some additional excavations and repairs that are required. Therefore, we're now aiming to restore supplies between 23:30 and 00:30. We're sorry we've had to change the estimated time, but we'll keep you updated.",
+        "LoggedTime": "2021-05-24T23:22:47.813"
       }
     ],
     "PostCodesAffected": [
       "LU4 0"
     ],
     "PostCodesRestored": [
-      "LU40QU",
-      "LU40QT"
+      "LU40QT",
+      "LU40QU"
     ],
     "PostCodesPlanned": [
-      "LU40QU",
-      "LU40QT"
+      "LU40QT",
+      "LU40QU"
     ],
-    "CustomersOnSupply": 9,
-    "CustomersOffSupply": 29,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 38,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -505,8 +505,8 @@
     }
   ],
   "FullPostcodeData": [
-    "LU40QU",
-    "LU40QT"
+    "LU40QT",
+    "LU40QU"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
