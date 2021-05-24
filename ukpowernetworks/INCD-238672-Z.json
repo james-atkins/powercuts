@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-238672-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-238672-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-238672-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-24T12:11:29",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-24T14:10:09.9",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a450INCD",
     "IncidentReference": "INCD-238672-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-24T12:07:28",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-24T14:10:09.9",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-24T12:38:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -60,16 +60,16 @@
       "CB21 4"
     ],
     "PostCodesRestored": [
-      "CB214ER",
-      "CB16ER"
+      "CB16ER",
+      "CB214ER"
     ],
     "PostCodesPlanned": [
-      "CB214ER",
-      "CB16ER"
+      "CB16ER",
+      "CB214ER"
     ],
-    "CustomersOnSupply": 30,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 32,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -449,8 +449,8 @@
     }
   ],
   "FullPostcodeData": [
-    "CB214ER",
-    "CB16ER"
+    "CB16ER",
+    "CB214ER"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
