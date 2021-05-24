@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-238456-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-238456-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-238456-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-24T07:34:46.303",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-24T11:46:15.03",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a378INCD",
     "IncidentReference": "INCD-238456-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-23T10:09:51",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-24T11:46:15.03",
     "EstimatedRestorationDate": "2021-05-24T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-23T10:09:00",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -73,10 +73,10 @@
       "SS13 1"
     ],
     "PostCodesRestored": [
-      "SS131EG",
-      "SS131EP",
       "SS131DD",
+      "SS131EG",
       "SS131EH",
+      "SS131EP",
       "SS131FL",
       "SS131LP",
       "SS131LS",
@@ -84,19 +84,19 @@
       "SS131RP"
     ],
     "PostCodesPlanned": [
-      "SS131EG",
-      "SS131EP",
       "SS131DD",
+      "SS131EG",
       "SS131EH",
+      "SS131EP",
       "SS131FL",
       "SS131LP",
       "SS131LS",
       "SS131LT",
       "SS131RP"
     ],
-    "CustomersOnSupply": 51,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 57,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -427,10 +427,10 @@
     }
   ],
   "FullPostcodeData": [
-    "SS131EG",
-    "SS131EP",
     "SS131DD",
+    "SS131EG",
     "SS131EH",
+    "SS131EP",
     "SS131FL",
     "SS131LP",
     "SS131LS",
