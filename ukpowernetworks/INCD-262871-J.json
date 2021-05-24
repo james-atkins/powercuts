@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-262871-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-262871-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-262871-J",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-05-24T20:42:29.54",
+      "Message": "Update at 20:41 - Thank you for your patience while our engineers investigated the cause of the power cut in the Wrotham Road area. We've confirmed that our network should be running correctly at this time. If you're without power, then we'll need to hear from you. Please call us on 08003163105 (free from landlines and mobiles). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-05-24T19:31:36",
@@ -15,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-24T19:59:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-24T20:40:27.443",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J000402d7INCD",
     "IncidentReference": "INCD-262871-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-24T18:59:05",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-24T20:40:27.443",
     "EstimatedRestorationDate": "2021-05-24T22:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-24T19:31:36",
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-24T20:41:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 20:41 - Thank you for your patience while our engineers investigated the cause of the power cut in the Wrotham Road area. We've confirmed that our network should be running correctly at this time. If you're without power, then we'll need to hear from you. Please call us on 08003163105 (free from landlines and mobiles). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-05-24T20:42:29.54"
+      }
+    ],
     "PostCodesAffected": [
       "DA16 1"
     ],
@@ -76,10 +90,10 @@
       "DA161LS",
       "DA161LW"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 148,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 148,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
