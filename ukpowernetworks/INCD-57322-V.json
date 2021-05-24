@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-57322-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-57322-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-57322-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-24T14:35:29",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-24T23:12:05.577",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000dfeaINCD",
     "IncidentReference": "INCD-57322-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 29,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-24T11:10:15",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-24T23:12:05.577",
     "EstimatedRestorationDate": "2021-05-25T00:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-24T11:02:00",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -59,17 +59,17 @@
       "CT4 7"
     ],
     "PostCodesRestored": [
-      "CT47SH",
-      "CT47NL"
+      "CT47NL",
+      "CT47SH"
     ],
     "PostCodesPlanned": [
-      "CT47SH",
-      "CT47NL"
+      "CT47NL",
+      "CT47SH"
     ],
-    "CustomersOnSupply": 12,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 18,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -603,8 +603,8 @@
     }
   ],
   "FullPostcodeData": [
-    "CT47SH",
-    "CT47NL"
+    "CT47NL",
+    "CT47SH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
