@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-57423-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-57423-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-57423-V",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-25T10:57:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-25T11:58:09.387",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000e04fINCD",
     "IncidentReference": "INCD-57423-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-25T10:32:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-25T11:58:09.387",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-25T10:29:00",
@@ -60,19 +60,19 @@
     ],
     "PostCodesRestored": [
       "BN21EF",
+      "BN21EH",
       "BN21EP",
-      "BN21FU",
-      "BN21EH"
+      "BN21FU"
     ],
     "PostCodesPlanned": [
       "BN21EF",
+      "BN21EH",
       "BN21EP",
-      "BN21FU",
-      "BN21EH"
+      "BN21FU"
     ],
-    "CustomersOnSupply": 30,
-    "CustomersOffSupply": 60,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 90,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -620,9 +620,9 @@
   ],
   "FullPostcodeData": [
     "BN21EF",
+    "BN21EH",
     "BN21EP",
-    "BN21FU",
-    "BN21EH"
+    "BN21FU"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
