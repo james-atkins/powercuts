@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-250444-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-250444-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-250444-G",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-24T12:13:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-25T04:55:28.497",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003d24cINCD",
     "IncidentReference": "INCD-250444-G",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-24T11:48:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-25T04:55:28.497",
     "EstimatedRestorationDate": "2021-05-25T05:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-24T11:48:46",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -76,7 +76,6 @@
     ],
     "PostCodesRestored": [
       "DA99UD",
-      "RH175UE",
       "RH175JA",
       "RH175JB",
       "RH175JD",
@@ -97,13 +96,13 @@
       "RH175SU",
       "RH175SX",
       "RH175SY",
+      "RH175UE",
       "RH175UQ",
       "RH176AU",
       "UMS"
     ],
     "PostCodesPlanned": [
       "DA99UD",
-      "RH175UE",
       "RH175JA",
       "RH175JB",
       "RH175JD",
@@ -124,13 +123,14 @@
       "RH175SU",
       "RH175SX",
       "RH175SY",
+      "RH175UE",
       "RH175UQ",
       "RH176AU",
       "UMS"
     ],
-    "CustomersOnSupply": 203,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 209,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1190,7 +1190,6 @@
   ],
   "FullPostcodeData": [
     "DA99UD",
-    "RH175UE",
     "RH175JA",
     "RH175JB",
     "RH175JD",
@@ -1211,6 +1210,7 @@
     "RH175SU",
     "RH175SX",
     "RH175SY",
+    "RH175UE",
     "RH175UQ",
     "RH176AU",
     "UMS"
