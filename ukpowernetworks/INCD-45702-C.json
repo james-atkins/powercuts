@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-45702-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-45702-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-45702-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-24T20:00:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-25T09:42:24.1",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000b286INCD",
     "IncidentReference": "INCD-45702-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-24T16:37:25",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-25T09:42:24.1",
     "EstimatedRestorationDate": "2021-05-25T10:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-24T16:33:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "N9 0"
     ],
     "PostCodesRestored": [
-      "N90LD",
       "N90JE",
       "N90JG",
       "N90JH",
@@ -72,11 +71,11 @@
       "N90JY",
       "N90LA",
       "N90LB",
+      "N90LD",
       "N90LE",
       "N90LL"
     ],
     "PostCodesPlanned": [
-      "N90LD",
       "N90JE",
       "N90JG",
       "N90JH",
@@ -89,12 +88,13 @@
       "N90JY",
       "N90LA",
       "N90LB",
+      "N90LD",
       "N90LE",
       "N90LL"
     ],
-    "CustomersOnSupply": 197,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 200,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -649,7 +649,6 @@
     }
   ],
   "FullPostcodeData": [
-    "N90LD",
     "N90JE",
     "N90JG",
     "N90JH",
@@ -662,6 +661,7 @@
     "N90JY",
     "N90LA",
     "N90LB",
+    "N90LD",
     "N90LE",
     "N90LL"
   ],
