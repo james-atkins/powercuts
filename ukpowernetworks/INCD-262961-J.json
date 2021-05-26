@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-262961-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-262961-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-262961-J",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-05-26T02:19:44.817",
+      "Message": "Update at 02:19 - We have now restored power to the George Mathers Road area. We are truly sorry for the power cuts recently. We know the underlying problem is on an underground cable so our engineers have installed specialist network equipment to help trace where on the cable the issue is. The installed equipment can report back on a location to allow us to make full repairs. If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-05-26T00:45:00",
@@ -9,38 +15,38 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-26T00:55:33",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-05-26T01:32:50",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-26T02:17:26.003",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J00040331INCD",
     "IncidentReference": "INCD-262961-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-26T00:50:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-26T02:17:26.003",
     "EstimatedRestorationDate": "2021-05-26T03:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-26T00:45:00",
-    "NoCustomerAffected": 16,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -50,11 +56,19 @@
       "Name": "KEVIN (R5)",
       "EstimatedTimeOfArrival": "2021-05-26T01:30:00",
       "DispatchedDate": "2021-05-26T00:55:33",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-05-26T01:32:50",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-26T02:19:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 02:19 - We have now restored power to the George Mathers Road area. We are truly sorry for the power cuts recently. We know the underlying problem is on an underground cable so our engineers have installed specialist network equipment to help trace where on the cable the issue is. The installed equipment can report back on a location to allow us to make full repairs. If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-05-26T02:19:44.817"
+      }
+    ],
     "PostCodesAffected": [
       "SE11 4"
     ],
@@ -72,9 +86,9 @@
       "SE114RU",
       "SE114TH"
     ],
-    "CustomersOnSupply": 16,
-    "CustomersOffSupply": 34,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 50,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
