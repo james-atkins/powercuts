@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-38892-M",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-38892-M",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-38892-M",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-05-26T20:07:35.367",
-      "Message": "Update at 20:07 - Just a quick update to let you know our engineers have brought a temporary generator to site to connect to restore your power and will be in the process of connecting it shortly. The power may come back on to your area in stages. At the moment, we don't need to change the timeframe and we'll keep you updated with progress.",
+      "Date": "2021-05-26T21:25:11.06",
+      "Message": "Update at 21:24 - We're pleased to report that all power in the Longbridge Road area should now be restored. Our engineers have now safely connected a temporary generator, and this will be providing your power while our engineers work to fully repair the damaged underground cable caused by another company. Depending on what the issue is, it may take a few days for our engineers to plan in the work and make their repairs, but once this is completed safely the generator can be removed, and network power will be resumed. If you'd like any further information, or if your power is not restored, please call us any time on 08003163105",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2021-05-26T15:36:26",
+      "Date": "2021-05-26T15:36:00",
       "Message": "<p>We became aware of a power cut at 15:36. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-26T17:19:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-26T21:23:09.467",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "M000097ecINCD",
     "IncidentReference": "INCD-38892-M",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 28,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-26T15:37:02",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-26T21:23:09.467",
     "EstimatedRestorationDate": "2021-05-26T21:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-05-26T15:36:26",
+    "ReceivedDate": "2021-05-26T15:36:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-05-26T20:07:00",
+        "ActualEventTime": "2021-05-26T21:25:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 20:07 - Just a quick update to let you know our engineers have brought a temporary generator to site to connect to restore your power and will be in the process of connecting it shortly. The power may come back on to your area in stages. At the moment, we don't need to change the timeframe and we'll keep you updated with progress.",
-        "LoggedTime": "2021-05-26T20:07:35.367"
+        "Comment": "Update at 21:24 - We're pleased to report that all power in the Longbridge Road area should now be restored. Our engineers have now safely connected a temporary generator, and this will be providing your power while our engineers work to fully repair the damaged underground cable caused by another company. Depending on what the issue is, it may take a few days for our engineers to plan in the work and make their repairs, but once this is completed safely the generator can be removed, and network power will be resumed. If you'd like any further information, or if your power is not restored, please call us any time on 08003163105",
+        "LoggedTime": "2021-05-26T21:25:11.06"
       }
     ],
     "PostCodesAffected": [
@@ -75,20 +75,20 @@
       "NW6 1"
     ],
     "PostCodesRestored": [
-      "IG118UP",
       "IG118UN",
+      "IG118UP",
       "IG119LW",
       "NW61LG"
     ],
     "PostCodesPlanned": [
-      "IG118UP",
       "IG118UN",
+      "IG118UP",
       "IG119LW",
       "NW61LG"
     ],
-    "CustomersOnSupply": 47,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 49,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1703,8 +1703,8 @@
     }
   ],
   "FullPostcodeData": [
-    "IG118UP",
     "IG118UN",
+    "IG118UP",
     "IG119LW",
     "NW61LG"
   ],
