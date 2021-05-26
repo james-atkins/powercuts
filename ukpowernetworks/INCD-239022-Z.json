@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-239022-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-239022-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-239022-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-26T09:26:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-26T19:17:28.997",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a5aeINCD",
     "IncidentReference": "INCD-239022-Z",
-    "IncidentCategory": "3",
+    "IncidentCategory": "58",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-26T07:40:24",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-26T19:17:28.997",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-26T07:38:26",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 5,
+    "NoCallsReported": 7,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -125,9 +125,9 @@
       "CM226JW",
       "CM232ED"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 230,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 230,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -2141,7 +2141,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating an overhead electricity equipment fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A problem on the electricity network caused power to go on and off in the area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
