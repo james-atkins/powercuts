@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-250649-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-250649-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-250649-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-05-27T22:43:35.847",
-      "Message": "Update at 22:43 - We know the timeframe we initially estimated is now approaching. Our engineers are continuing their work to repair our underground network in the Alma Street area.  As our staff are working with live electricity, we need to wait until it is safe for them to stop and contact us with an update. We're sorry you've been impacted by this today and we'll provide you an update as soon as possible.",
+      "Date": "2021-05-27T23:02:11.38",
+      "Message": "Update at 23:02 - It's Talie from the text messaging team and I'm pleased to inform you that we believe our engineers have been able to restore power to all customers in the Alma Street area, by carrying out repairs to an underground cable.  For this reason, It has taken us longer than we expected to restore your power today. Please accept our sincere apology as we know that it is difficult to be without power for a longer duration. If your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We're really sorry for any disruption this caused.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-27T11:03:30",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-27T22:50:15.783",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003d319INCD",
     "IncidentReference": "INCD-250649-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-27T10:51:39",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-27T22:50:15.783",
     "EstimatedRestorationDate": "2021-05-27T22:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-27T10:42:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,18 +62,17 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-05-27T22:43:00",
+        "ActualEventTime": "2021-05-27T23:02:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 22:43 - We know the timeframe we initially estimated is now approaching. Our engineers are continuing their work to repair our underground network in the Alma Street area.  As our staff are working with live electricity, we need to wait until it is safe for them to stop and contact us with an update. We're sorry you've been impacted by this today and we'll provide you an update as soon as possible.",
-        "LoggedTime": "2021-05-27T22:43:35.847"
+        "Comment": "Update at 23:02 - It's Talie from the text messaging team and I'm pleased to inform you that we believe our engineers have been able to restore power to all customers in the Alma Street area, by carrying out repairs to an underground cable.  For this reason, It has taken us longer than we expected to restore your power today. Please accept our sincere apology as we know that it is difficult to be without power for a longer duration. If your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We're really sorry for any disruption this caused.",
+        "LoggedTime": "2021-05-27T23:02:11.38"
       }
     ],
     "PostCodesAffected": [
       "CT1 1"
     ],
     "PostCodesRestored": [
-      "CT11NB",
       "CT11BE",
       "CT11BH",
       "CT11BL",
@@ -81,12 +80,12 @@
       "CT11LR",
       "CT11LS",
       "CT11NA",
+      "CT11NB",
       "CT11UB",
       "CT11WJ",
       "CT11WL"
     ],
     "PostCodesPlanned": [
-      "CT11NB",
       "CT11BE",
       "CT11BH",
       "CT11BL",
@@ -94,13 +93,14 @@
       "CT11LR",
       "CT11LS",
       "CT11NA",
+      "CT11NB",
       "CT11UB",
       "CT11WJ",
       "CT11WL"
     ],
-    "CustomersOnSupply": 139,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 144,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -603,7 +603,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CT11NB",
     "CT11BE",
     "CT11BH",
     "CT11BL",
@@ -611,6 +610,7 @@
     "CT11LR",
     "CT11LS",
     "CT11NA",
+    "CT11NB",
     "CT11UB",
     "CT11WJ",
     "CT11WL"
