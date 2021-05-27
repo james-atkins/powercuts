@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-239228-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-239228-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-239228-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-27T10:36:30",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-27T12:35:46.49",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a67cINCD",
     "IncidentReference": "INCD-239228-Z",
-    "IncidentCategory": "57",
+    "IncidentCategory": "146",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 35,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-27T03:14:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-27T12:35:46.49",
     "EstimatedRestorationDate": "2021-05-27T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-27T03:10:58",
@@ -72,9 +72,9 @@
       "HP218JL",
       "HP218LR"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 41,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 41,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -617,7 +617,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A problem on the electricity network caused power to go on and off in the area.",
+  "IncidentCategoryCustomerFriendlyDescription": "",
   "IncidentTypeTBCEstimatedFriendlyDescription": "13:30 - 14:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
