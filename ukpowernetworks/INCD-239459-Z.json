@@ -1,11 +1,17 @@
 {
   "IncidentReference": "INCD-239459-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-239459-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-239459-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-05-28T09:43:30.46",
+      "Message": "Update at 09:43 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a faulty underground cable in the Norfolk Street area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-05-28T08:30:40",
-      "Message": "<p>We became aware of a power cut at 08:30. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-05-28T09:01:00",
+      "Message": "<p>We became aware of a power cut at 09:01. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-28T08:34:41",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-28T09:40:18.543",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a763INCD",
     "IncidentReference": "INCD-239459-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-28T08:30:40",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-28T09:40:18.543",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-05-28T08:30:40",
+    "ReceivedDate": "2021-05-28T09:01:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-28T09:42:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 09:43 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a faulty underground cable in the Norfolk Street area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-05-28T09:43:30.46"
+      }
+    ],
     "PostCodesAffected": [
       "PE13 1",
       "PE13 2"
@@ -62,22 +76,22 @@
     "PostCodesRestored": [
       "PE131BL",
       "PE132LD",
+      "PE132LE",
       "PE132LF",
       "PE132LJ",
-      "PE132LY",
-      "PE132LE"
+      "PE132LY"
     ],
     "PostCodesPlanned": [
       "PE131BL",
       "PE132LD",
+      "PE132LE",
       "PE132LF",
       "PE132LJ",
-      "PE132LY",
-      "PE132LE"
+      "PE132LY"
     ],
-    "CustomersOnSupply": 12,
-    "CustomersOffSupply": 56,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 68,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -992,10 +1006,10 @@
   "FullPostcodeData": [
     "PE131BL",
     "PE132LD",
+    "PE132LE",
     "PE132LF",
     "PE132LJ",
-    "PE132LY",
-    "PE132LE"
+    "PE132LY"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
