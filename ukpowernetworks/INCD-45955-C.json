@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-45955-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-45955-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-45955-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-29T01:15:36",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-29T15:53:00.6604755+01:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000b383INCD",
     "IncidentReference": "INCD-45955-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-28T19:14:51",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-29T15:53:00.6604755+01:00",
     "EstimatedRestorationDate": "2021-05-29T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-28T19:14:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -59,25 +59,25 @@
       "NW4 1"
     ],
     "PostCodesRestored": [
-      "NW41RY",
-      "NW41SA",
       "NW41AP",
       "NW41JB",
+      "NW41RY",
+      "NW41SA",
       "NW41SB",
       "NW41SH"
     ],
     "PostCodesPlanned": [
-      "NW41RY",
-      "NW41SA",
       "NW41AP",
       "NW41JB",
+      "NW41RY",
+      "NW41SA",
       "NW41SB",
       "NW41SH"
     ],
-    "CustomersOnSupply": 21,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 25,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -555,10 +555,10 @@
     }
   ],
   "FullPostcodeData": [
-    "NW41RY",
-    "NW41SA",
     "NW41AP",
     "NW41JB",
+    "NW41RY",
+    "NW41SA",
     "NW41SB",
     "NW41SH"
   ],
