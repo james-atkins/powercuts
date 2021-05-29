@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-239615-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-239615-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-239615-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-05-29T17:40:05.83",
+      "Message": "Update at 17:39 - Our staff have now managed to restore power back to the Eastgate area again. They have thoroughly investigated our network equipment in the area, but the underlying network fault has not appeared on any of their diagnostic tests. As such, they have replaced our network fuses and gotten your power back up and running. I'm sorry this affected your power again today. This may happen again before we're able to pinpoint the issue and fix it, but if you'd like to talk to us about anything or if your power isn't on, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-05-29T13:44:00",
@@ -9,34 +15,34 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-29T15:34:21",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-05-29T17:04:16",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-29T17:39:19.807",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a7ffINCD",
     "IncidentReference": "INCD-239615-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-29T13:53:08",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-29T17:39:19.807",
     "EstimatedRestorationDate": "2021-05-29T19:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-05-29T13:44:00",
@@ -50,11 +56,19 @@
       "Name": "STUART (R5)",
       "EstimatedTimeOfArrival": "2021-05-29T17:15:00",
       "DispatchedDate": "2021-05-29T15:34:21",
-      "ArrivalDate": null,
+      "ArrivalDate": "2021-05-29T17:04:16",
       "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-29T17:39:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 17:39 - Our staff have now managed to restore power back to the Eastgate area again. They have thoroughly investigated our network equipment in the area, but the underlying network fault has not appeared on any of their diagnostic tests. As such, they have replaced our network fuses and gotten your power back up and running. I'm sorry this affected your power again today. This may happen again before we're able to pinpoint the issue and fix it, but if you'd like to talk to us about anything or if your power isn't on, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-05-29T17:40:05.83"
+      }
+    ],
     "PostCodesAffected": [
       "PE7 1"
     ],
@@ -78,8 +92,8 @@
     ],
     "CustomersOnSupply": 30,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
