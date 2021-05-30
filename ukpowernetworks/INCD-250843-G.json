@@ -1,17 +1,17 @@
 {
   "IncidentReference": "INCD-250843-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-250843-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-250843-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-05-30T13:56:19.487",
-      "Message": "Update at 13:56 - We know the timeframe we initially estimated is now approaching. Our engineers are continuing their work to repair our overhead network in the Martineeau Lane area.  As our staff are working with live electricity, we need to wait until it is safe for them to stop and contact us with an update. We're sorry you've been impacted by this Afternoon and we'll provide you an update as soon as possible.",
+      "Date": "2021-05-30T15:15:27.447",
+      "Message": "Update at 15:15 - We believe our engineers have been able to restore power to all 15 customers in the Martineau Lane area, by diverting power around the overhead cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know your power may have been off for a long time, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2021-05-30T10:24:00",
-      "Message": "<p>We became aware of this power cut at 10:24. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
+      "Date": "2021-05-30T06:54:09",
+      "Message": "<p>We became aware of this power cut at 06:54. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
       "Name": "We are restoring customers automatically"
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-30T12:38:46",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-30T15:13:09.167",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003d3dbINCD",
     "IncidentReference": "INCD-250843-G",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-30T10:22:14",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-05-30T13:30:00",
+    "RestoredDateTime": "2021-05-30T15:13:09.167",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-05-30T10:24:00",
-    "NoCustomerAffected": 15,
+    "ReceivedDate": "2021-05-30T06:54:09",
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-05-30T13:56:00",
+        "ActualEventTime": "2021-05-30T15:15:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 13:56 - We know the timeframe we initially estimated is now approaching. Our engineers are continuing their work to repair our overhead network in the Martineeau Lane area.  As our staff are working with live electricity, we need to wait until it is safe for them to stop and contact us with an update. We're sorry you've been impacted by this Afternoon and we'll provide you an update as soon as possible.",
-        "LoggedTime": "2021-05-30T13:56:19.487"
+        "Comment": "Update at 15:15 - We believe our engineers have been able to restore power to all 15 customers in the Martineau Lane area, by diverting power around the overhead cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know your power may have been off for a long time, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-05-30T15:15:27.447"
       }
     ],
     "PostCodesAffected": [
@@ -83,9 +83,9 @@
       "TN355DR",
       "TN355DT"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 14,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1049,7 +1049,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "13:00 - 14:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
