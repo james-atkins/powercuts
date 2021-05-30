@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-238303-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-238303-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-238303-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-22T08:41:27",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-30T07:21:28.827",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a2dfINCD",
     "IncidentReference": "INCD-238303-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-22T08:23:17",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-30T07:21:28.827",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-22T08:22:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -74,31 +74,31 @@
       "CM16 7"
     ],
     "PostCodesRestored": [
-      "CM164JP",
-      "CM167PE",
       "CM164ER",
       "CM164JN",
+      "CM164JP",
       "CM164JW",
       "CM167AW",
       "CM167BG",
       "CM167BS",
-      "CM167BT"
+      "CM167BT",
+      "CM167PE"
     ],
     "PostCodesPlanned": [
-      "CM164JP",
-      "CM167PE",
       "CM164ER",
       "CM164JN",
+      "CM164JP",
       "CM164JW",
       "CM167AW",
       "CM167BG",
       "CM167BS",
-      "CM167BT"
+      "CM167BT",
+      "CM167PE"
     ],
-    "CustomersOnSupply": 38,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 41,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -810,15 +810,15 @@
     }
   ],
   "FullPostcodeData": [
-    "CM164JP",
-    "CM167PE",
     "CM164ER",
     "CM164JN",
+    "CM164JP",
     "CM164JW",
     "CM167AW",
     "CM167BG",
     "CM167BS",
-    "CM167BT"
+    "CM167BT",
+    "CM167PE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
