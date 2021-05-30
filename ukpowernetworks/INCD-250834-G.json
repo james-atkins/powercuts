@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-250834-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-250834-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-250834-G",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-05-30T01:58:58.343",
+      "Message": "Update at 01:57 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 645 customers in the Rochester area to safely investigate reports of damage to our overhead network. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-05-30T00:27:30",
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-30T00:57:32",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-30T01:50:10.92",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003d3d2INCD",
     "IncidentReference": "INCD-250834-G",
     "IncidentCategory": "26",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-30T00:28:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-30T01:50:10.92",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-30T00:27:30",
-    "NoCustomerAffected": 645,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 7,
+    "NoCallsReported": 9,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -51,10 +57,18 @@
       "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
       "DispatchedDate": "2021-05-30T00:57:27",
       "ArrivalDate": "2021-05-30T00:57:32",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-30T01:58:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 01:57 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 645 customers in the Rochester area to safely investigate reports of damage to our overhead network. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-05-30T01:58:58.343"
+      }
+    ],
     "PostCodesAffected": [
       "BN15 9",
       "BN16 4",
@@ -131,10 +145,10 @@
       "ME39LH",
       "ME39LN"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 625,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 625,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
