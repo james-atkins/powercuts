@@ -1,45 +1,51 @@
 {
   "IncidentReference": "INCD-239706-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-239706-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-239706-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-05-30T13:47:38.483",
+      "Message": "Update at 13:47 - We can now confirm that all power in the High Street area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have restored your power as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-05-30T11:16:55",
+      "Date": "2021-05-30T11:16:00",
       "Message": "<p>We became aware of a power cut at 11:16. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-30T12:47:54",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-05-30T13:43:07",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-05-30T13:43:33.37",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a85aINCD",
     "IncidentReference": "INCD-239706-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-30T11:18:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-05-30T13:43:33.37",
     "EstimatedRestorationDate": "2021-05-30T16:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-05-30T11:16:55",
+    "ReceivedDate": "2021-05-30T11:16:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
@@ -50,11 +56,19 @@
       "Name": "DEREK (R5)",
       "EstimatedTimeOfArrival": "2021-05-30T14:00:00",
       "DispatchedDate": "2021-05-30T12:47:54",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-05-30T13:43:07",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-05-30T13:46:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 13:47 - We can now confirm that all power in the High Street area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have restored your power as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-05-30T13:47:38.483"
+      }
+    ],
     "PostCodesAffected": [
       "CM6 3"
     ],
@@ -72,9 +86,9 @@
       "CM63SJ",
       "CM63SQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 33,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 34,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
