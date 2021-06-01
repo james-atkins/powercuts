@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-239889-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-239889-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-239889-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-06-01T09:40:31",
+      "Date": "2021-06-01T09:40:00",
       "Message": "<p>We became aware of a power cut at 09:40. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-01T10:49:05",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-01T12:23:13.05",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003a911INCD",
     "IncidentReference": "INCD-239889-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-01T09:41:35",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-01T12:23:13.05",
     "EstimatedRestorationDate": "2021-06-01T14:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-06-01T09:40:31",
+    "ReceivedDate": "2021-06-01T09:40:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -59,10 +59,10 @@
       "HP22 6"
     ],
     "PostCodesRestored": [
-      "HP226EA",
       "HP226BS",
       "HP226DT",
       "HP226DU",
+      "HP226EA",
       "HP226EB",
       "HP226EE",
       "HP226EP",
@@ -74,10 +74,10 @@
       "HP226NT"
     ],
     "PostCodesPlanned": [
-      "HP226EA",
       "HP226BS",
       "HP226DT",
       "HP226DU",
+      "HP226EA",
       "HP226EB",
       "HP226EE",
       "HP226EP",
@@ -88,9 +88,9 @@
       "HP226NR",
       "HP226NT"
     ],
-    "CustomersOnSupply": 95,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 97,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -377,10 +377,10 @@
     }
   ],
   "FullPostcodeData": [
-    "HP226EA",
     "HP226BS",
     "HP226DT",
     "HP226DU",
+    "HP226EA",
     "HP226EB",
     "HP226EE",
     "HP226EP",

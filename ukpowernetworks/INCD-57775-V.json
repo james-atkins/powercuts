@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-57775-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-57775-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-57775-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-05-31T15:52:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-01T12:11:34.707",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000e1afINCD",
     "IncidentReference": "INCD-57775-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-05-31T15:12:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-01T12:11:34.707",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-31T15:09:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -73,33 +73,33 @@
       "CR8 5"
     ],
     "PostCodesRestored": [
-      "CR85JB",
       "CR85EE",
       "CR85EF",
       "CR85EH",
       "CR85EL",
       "CR85HJ",
+      "CR85JB",
       "CR85JG",
       "CR85JH",
       "CR85JJ",
       "CR85JL"
     ],
     "PostCodesPlanned": [
-      "CR85JB",
       "CR85EE",
       "CR85EF",
       "CR85EH",
       "CR85EL",
       "CR85HJ",
+      "CR85JB",
       "CR85JG",
       "CR85JH",
       "CR85JJ",
       "CR85JL"
     ],
-    "CustomersOnSupply": 81,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 82,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -585,12 +585,12 @@
     }
   ],
   "FullPostcodeData": [
-    "CR85JB",
     "CR85EE",
     "CR85EF",
     "CR85EH",
     "CR85EL",
     "CR85HJ",
+    "CR85JB",
     "CR85JG",
     "CR85JH",
     "CR85JJ",
