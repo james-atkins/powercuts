@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-46069-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-46069-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-46069-C",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-06-02T17:39:18.567",
+      "Message": "Update at 17:39 - We can now confirm that all power in the Winkfield Road area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have restored your power as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-06-02T15:04:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-02T16:41:06",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-02T17:09:25.793",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000b3f5INCD",
     "IncidentReference": "INCD-46069-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-02T15:13:03",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-02T17:09:25.793",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-02T15:04:00",
-    "NoCustomerAffected": 47,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-06-02T17:38:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 17:39 - We can now confirm that all power in the Winkfield Road area should be back on. To fix the issue permanently we're trying to find the underlying root cause, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have restored your power as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-06-02T17:39:18.567"
+      }
+    ],
     "PostCodesAffected": [
       "N22 5"
     ],
@@ -63,27 +77,27 @@
       "N225HG",
       "N225JH",
       "N225RE",
+      "N225RL",
       "N225RP",
       "N225RY",
       "N225RZ",
-      "N225TD",
-      "N225RL"
+      "N225TD"
     ],
     "PostCodesPlanned": [
       "N225BA",
       "N225HG",
       "N225JH",
       "N225RE",
+      "N225RL",
       "N225RP",
       "N225RY",
       "N225RZ",
-      "N225TD",
-      "N225RL"
+      "N225TD"
     ],
-    "CustomersOnSupply": 9,
-    "CustomersOffSupply": 143,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 152,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -589,11 +603,11 @@
     "N225HG",
     "N225JH",
     "N225RE",
+    "N225RL",
     "N225RP",
     "N225RY",
     "N225RZ",
-    "N225TD",
-    "N225RL"
+    "N225TD"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
