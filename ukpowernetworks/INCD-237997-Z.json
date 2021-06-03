@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-237997-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-237997-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-237997-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-05-20T22:25:48",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-05-21T16:57:07.923",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z0003a1adINCD",
     "IncidentReference": "INCD-237997-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 29,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-05-20T21:53:12",
-    "RestoredDateTime": "2021-05-21T16:57:07.923",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-05-20T21:53:09",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 31,
+    "NoCallsReported": 32,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2021-05-20T22:30:00",
       "DispatchedDate": "2021-05-20T21:59:33",
       "ArrivalDate": "2021-05-20T22:25:48",
-      "StatusId": 5
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -443,7 +443,7 @@
     ],
     "CustomersOnSupply": 2541,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
