@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-240507-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-240507-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-240507-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-03T19:31:04.38",
-      "Message": "Update at 19:30 - We've managed to restore power to a further 10 supplies by remotely diverting power. There are now 64 properties still affected, so your power may have come on sooner than we originally advised. If you're still off, please don't worry; work on the issue will continue along with SMS updates until everyone is back on. Power back on? To stop receiving texts, just follow this link <a href=\"https://bit.ly/348KOZ3\" target=\"_blank\">https://bit.ly/348KOZ3</a> to unsubscribe, or send CANCEL to 80876 (standard text fees apply).",
+      "Date": "2021-06-03T20:11:13.343",
+      "Message": "Update at 20:10 - We believe our engineers have been able to restore power to all 1404 customers in the Manor Road area, by diverting power around an overhead equipment fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-03T19:43:21",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-03T19:50:28.07",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003ab7bINCD",
     "IncidentReference": "INCD-240507-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "14",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-03T17:43:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-03T19:50:28.07",
     "EstimatedRestorationDate": "2021-06-03T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-03T17:43:37",
-    "NoCustomerAffected": 21,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-03T19:30:00",
+        "ActualEventTime": "2021-06-03T20:10:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 19:30 - We've managed to restore power to a further 10 supplies by remotely diverting power. There are now 64 properties still affected, so your power may have come on sooner than we originally advised. If you're still off, please don't worry; work on the issue will continue along with SMS updates until everyone is back on. Power back on? To stop receiving texts, just follow this link https://bit.ly/348KOZ3 to unsubscribe, or send CANCEL to 80876 (standard text fees apply).",
-        "LoggedTime": "2021-06-03T19:31:04.38"
+        "Comment": "Update at 20:10 - We believe our engineers have been able to restore power to all 1404 customers in the Manor Road area, by diverting power around an overhead equipment fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-06-03T20:11:13.343"
       }
     ],
     "PostCodesAffected": [
@@ -74,8 +74,6 @@
       "SG5 3"
     ],
     "PostCodesRestored": [
-      "MK454JZ",
-      "MK454LA",
       "MK454FN",
       "MK454HF",
       "MK454HH",
@@ -96,6 +94,8 @@
       "MK454JR",
       "MK454JS",
       "MK454JU",
+      "MK454JZ",
+      "MK454LA",
       "MK454LJ",
       "MK454LL",
       "MK454LN",
@@ -172,8 +172,6 @@
       "UMS"
     ],
     "PostCodesPlanned": [
-      "MK454JZ",
-      "MK454LA",
       "MK454FN",
       "MK454HF",
       "MK454HH",
@@ -194,6 +192,8 @@
       "MK454JR",
       "MK454JS",
       "MK454JU",
+      "MK454JZ",
+      "MK454LA",
       "MK454LJ",
       "MK454LL",
       "MK454LN",
@@ -269,9 +269,9 @@
       "UK",
       "UMS"
     ],
-    "CustomersOnSupply": 1382,
-    "CustomersOffSupply": 21,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 1403,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1132,8 +1132,6 @@
     }
   ],
   "FullPostcodeData": [
-    "MK454JZ",
-    "MK454LA",
     "MK454FN",
     "MK454HF",
     "MK454HH",
@@ -1154,6 +1152,8 @@
     "MK454JR",
     "MK454JS",
     "MK454JU",
+    "MK454JZ",
+    "MK454LA",
     "MK454LJ",
     "MK454LL",
     "MK454LN",
@@ -1231,7 +1231,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "We were fixing an overhead electricity line that was damaged in the area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "19:30 - 20:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
