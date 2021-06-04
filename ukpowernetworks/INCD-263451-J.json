@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-263451-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-263451-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-263451-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-02T14:19:14",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-04T09:19:10.64",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0004051bINCD",
     "IncidentReference": "INCD-263451-J",
     "IncidentCategory": "108",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 501,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-02T13:12:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-04T09:19:10.64",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-02T13:04:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 13,
     "Latitude": 0.0,
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2021-06-02T15:00:00",
       "DispatchedDate": "2021-06-02T13:19:05",
       "ArrivalDate": "2021-06-02T14:19:14",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -73,24 +73,24 @@
       "E2 7"
     ],
     "PostCodesRestored": [
-      "E27RG",
-      "E27RN",
       "E27BJ",
       "E27BP",
       "E27BX",
-      "E27BY"
+      "E27BY",
+      "E27RG",
+      "E27RN"
     ],
     "PostCodesPlanned": [
-      "E27RG",
-      "E27RN",
       "E27BJ",
       "E27BP",
       "E27BX",
-      "E27BY"
+      "E27BY",
+      "E27RG",
+      "E27RN"
     ],
-    "CustomersOnSupply": 125,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 128,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -613,12 +613,12 @@
     }
   ],
   "FullPostcodeData": [
-    "E27RG",
-    "E27RN",
     "E27BJ",
     "E27BP",
     "E27BX",
-    "E27BY"
+    "E27BY",
+    "E27RG",
+    "E27RN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
