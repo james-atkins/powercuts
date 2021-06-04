@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-240716-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-240716-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-240716-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-04T19:18:13.007",
-      "Message": "Hi, it's David from the messaging team at UK Power Networks. I understand how difficult it can be without power and the additional worries this can bring during a global pandemic. I want to assure you that as keyworkers, our teams operate 24 hours a day, and we continue to work around the clock for our customers without reducing our workforce. For both our businesses customers and those at home, we will work as quickly and safely as possible to restore supplies. If you need any additional support or have any concerns, please call us on 105 or tweet us @ukpowernetworks. I will personally continue to keep you updated with our progress.",
+      "Date": "2021-06-04T20:22:01.3",
+      "Message": "Update at 20:21 - Our team of specialist engineers arrived on site to locate and fix the overhead line fault. At the moment we don't need to change the estimated timeframe, and we'll continue to keep you updated with all of our progress as it comes in from site.",
       "Name": null
     },
     {
@@ -15,7 +15,7 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-04T16:08:47",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
@@ -23,30 +23,30 @@
     {
       "Active": false,
       "Date": "2021-06-04T16:50:33",
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-04T20:41:55.29",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003ac4cINCD",
     "IncidentReference": "INCD-240716-Z",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-04T14:53:42",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-04T20:41:55.29",
     "EstimatedRestorationDate": "2021-06-04T21:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-04T14:52:00",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-04T19:18:00",
+        "ActualEventTime": "2021-06-04T20:21:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Hi, it's David from the messaging team at UK Power Networks. I understand how difficult it can be without power and the additional worries this can bring during a global pandemic. I want to assure you that as keyworkers, our teams operate 24 hours a day, and we continue to work around the clock for our customers without reducing our workforce. For both our businesses customers and those at home, we will work as quickly and safely as possible to restore supplies. If you need any additional support or have any concerns, please call us on 105 or tweet us @ukpowernetworks. I will personally continue to keep you updated with our progress.",
-        "LoggedTime": "2021-06-04T19:18:13.007"
+        "Comment": "Update at 20:21 - Our team of specialist engineers arrived on site to locate and fix the overhead line fault. At the moment we don't need to change the estimated timeframe, and we'll continue to keep you updated with all of our progress as it comes in from site.",
+        "LoggedTime": "2021-06-04T20:22:01.3"
       }
     ],
     "PostCodesAffected": [
@@ -75,24 +75,24 @@
     "PostCodesRestored": [
       "CB97LA",
       "CB97LD",
-      "CB97LF",
-      "CB97LQ",
       "CB97LE",
+      "CB97LF",
       "CB97LJ",
+      "CB97LQ",
       "CB97RX"
     ],
     "PostCodesPlanned": [
       "CB97LA",
       "CB97LD",
-      "CB97LF",
-      "CB97LQ",
       "CB97LE",
+      "CB97LF",
       "CB97LJ",
+      "CB97LQ",
       "CB97RX"
     ],
-    "CustomersOnSupply": 20,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 38,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -889,10 +889,10 @@
   "FullPostcodeData": [
     "CB97LA",
     "CB97LD",
-    "CB97LF",
-    "CB97LQ",
     "CB97LE",
+    "CB97LF",
     "CB97LJ",
+    "CB97LQ",
     "CB97RX"
   ],
   "PinLatitude": null,
