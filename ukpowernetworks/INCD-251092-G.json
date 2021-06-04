@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-251092-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-251092-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-251092-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-04T10:50:06.15",
-      "Message": "Update at 10:49 - Our engineers have completed investigations. There's a lot of work required on site, so we have decided to use temporary generators to provide power. To allow time for us to get the generators out to your area and connect them, we're now estimating we'll have power back on between 14:30 and 15:30. We're sorry to change the timeframe and will let you know when they arrive.",
+      "Date": "2021-06-04T12:56:27.43",
+      "Message": "Update at 12:56 - Just a quick update to let you know our temporary generator has arrived and engineers are in the process of connecting it. The power may come back on to your area in stages. At the moment, we don't need to change the timeframe and we'll keep you updated with progress.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-04T02:06:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-04T13:31:07.747",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003d4d4INCD",
     "IncidentReference": "INCD-251092-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 29,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-04T00:33:05",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-04T13:31:07.747",
     "EstimatedRestorationDate": "2021-06-04T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-04T00:31:00",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -62,19 +62,17 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-04T10:49:00",
+        "ActualEventTime": "2021-06-04T12:56:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:49 - Our engineers have completed investigations. There's a lot of work required on site, so we have decided to use temporary generators to provide power. To allow time for us to get the generators out to your area and connect them, we're now estimating we'll have power back on between 14:30 and 15:30. We're sorry to change the timeframe and will let you know when they arrive.",
-        "LoggedTime": "2021-06-04T10:50:06.15"
+        "Comment": "Update at 12:56 - Just a quick update to let you know our temporary generator has arrived and engineers are in the process of connecting it. The power may come back on to your area in stages. At the moment, we don't need to change the timeframe and we'll keep you updated with progress.",
+        "LoggedTime": "2021-06-04T12:56:27.43"
       }
     ],
     "PostCodesAffected": [
       "TN2 3"
     ],
     "PostCodesRestored": [
-      "TN23AR",
-      "TN23AZ",
       "TN23AG",
       "TN23AH",
       "TN23AJ",
@@ -82,13 +80,13 @@
       "TN23AN",
       "TN23AP",
       "TN23AQ",
+      "TN23AR",
       "TN23AT",
       "TN23AW",
-      "TN23AY"
+      "TN23AY",
+      "TN23AZ"
     ],
     "PostCodesPlanned": [
-      "TN23AR",
-      "TN23AZ",
       "TN23AG",
       "TN23AH",
       "TN23AJ",
@@ -96,13 +94,15 @@
       "TN23AN",
       "TN23AP",
       "TN23AQ",
+      "TN23AR",
       "TN23AT",
       "TN23AW",
-      "TN23AY"
+      "TN23AY",
+      "TN23AZ"
     ],
-    "CustomersOnSupply": 155,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 161,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -637,8 +637,6 @@
     }
   ],
   "FullPostcodeData": [
-    "TN23AR",
-    "TN23AZ",
     "TN23AG",
     "TN23AH",
     "TN23AJ",
@@ -646,9 +644,11 @@
     "TN23AN",
     "TN23AP",
     "TN23AQ",
+    "TN23AR",
     "TN23AT",
     "TN23AW",
-    "TN23AY"
+    "TN23AY",
+    "TN23AZ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
