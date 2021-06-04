@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-251116-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-251116-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-251116-G",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-06-05T00:11:16.66",
+      "Message": "Update at 00:11 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 153 customers in the Yew Tree Lane area to safely repair an overhead fault and carry out some tree trimming. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-06-04T20:03:57",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-04T13:33:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-05T00:11:34.03",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003d4ecINCD",
     "IncidentReference": "INCD-251116-G",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 21,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-04T10:39:11",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-05T00:11:34.03",
     "EstimatedRestorationDate": "2021-06-05T01:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-04T20:03:57",
-    "NoCustomerAffected": 35,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -54,30 +60,38 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-06-05T00:10:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 00:11 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to 153 customers in the Yew Tree Lane area to safely repair an overhead fault and carry out some tree trimming. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-06-05T00:11:16.66"
+      }
+    ],
     "PostCodesAffected": [
       "TN6 3"
     ],
     "PostCodesRestored": [
       "TN63JE",
-      "TN63NN",
-      "TN63QP",
       "TN63NF",
       "TN63NH",
-      "TN63NQ"
+      "TN63NN",
+      "TN63NQ",
+      "TN63QP"
     ],
     "PostCodesPlanned": [
       "TN63JE",
-      "TN63NN",
-      "TN63QP",
       "TN63NF",
       "TN63NH",
-      "TN63NQ"
+      "TN63NN",
+      "TN63NQ",
+      "TN63QP"
     ],
-    "CustomersOnSupply": 18,
-    "CustomersOffSupply": 35,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 53,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -656,11 +670,11 @@
   ],
   "FullPostcodeData": [
     "TN63JE",
-    "TN63NN",
-    "TN63QP",
     "TN63NF",
     "TN63NH",
-    "TN63NQ"
+    "TN63NN",
+    "TN63NQ",
+    "TN63QP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
