@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-240816-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-240816-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-240816-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-05T07:48:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-06T01:02:32.623",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003acb0INCD",
     "IncidentReference": "INCD-240816-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-05T05:47:48",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-06T01:02:32.623",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-05T05:47:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,19 +59,19 @@
       "IG10 4"
     ],
     "PostCodesRestored": [
-      "IG104AJ",
       "IG104AF",
+      "IG104AJ",
       "IG104AL"
     ],
     "PostCodesPlanned": [
-      "IG104AJ",
       "IG104AF",
+      "IG104AJ",
       "IG104AL"
     ],
-    "CustomersOnSupply": 7,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 8,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -425,8 +425,8 @@
     }
   ],
   "FullPostcodeData": [
-    "IG104AJ",
     "IG104AF",
+    "IG104AJ",
     "IG104AL"
   ],
   "PinLatitude": null,
