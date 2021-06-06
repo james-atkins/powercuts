@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-46247-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-46247-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-46247-C",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-06-06T21:37:30.313",
+      "Message": "Update at 21:37 - We have now restored power to the High Street area. We are truly sorry for the power cuts recently. We know there is an underlying issue causing this, but it is proving difficult for our engineers to locate and therefore fix. To get your power back on today we have reconfigured the local electricity network. This in turn will both help pinpoint the issue and minimise further interruptions. If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-06-06T14:11:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-06T20:56:39",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-06T21:35:32.283",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000b4a7INCD",
     "IncidentReference": "INCD-46247-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-06T14:14:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-06T21:35:32.283",
     "EstimatedRestorationDate": "2021-06-06T22:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-06T14:11:00",
-    "NoCustomerAffected": 11,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-06-06T21:37:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 21:37 - We have now restored power to the High Street area. We are truly sorry for the power cuts recently. We know there is an underlying issue causing this, but it is proving difficult for our engineers to locate and therefore fix. To get your power back on today we have reconfigured the local electricity network. This in turn will both help pinpoint the issue and minimise further interruptions. If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-06-06T21:37:30.313"
+      }
+    ],
     "PostCodesAffected": [
       "CM6 3"
     ],
@@ -72,9 +86,9 @@
       "CM63SJ",
       "CM63SQ"
     ],
-    "CustomersOnSupply": 22,
-    "CustomersOffSupply": 11,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 33,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
