@@ -1,9 +1,15 @@
 {
   "IncidentReference": "INCD-251239-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-251239-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-251239-G",
   "Steps": [
     {
       "Active": true,
+      "Date": "2021-06-06T20:05:09.673",
+      "Message": "This is UK Power Networks. We're contacting you to let you know that we have just been made aware of a safety issue relating to the electricity supply in your local area, and in the interest of public health and safety, we have had to turn off power to 228 properties. As this is an emergency, we did not know this was going to happen and we're sorry that we were unable to provide you with prior notice of this unplanned power cut. We're texting a wide area so if your power is not currently off we do not expect you to be affected. To get updates, text POWER with your full postcode to 80876 (e.g. POWER IP3 8AA). Std. text fees apply.",
+      "Name": null
+    },
+    {
+      "Active": false,
       "Date": "2021-06-06T19:57:36",
       "Message": "<p>We became aware of this power cut at 19:57. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
       "Name": "We are restoring customers automatically"
@@ -11,38 +17,38 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-06T20:52:38.663",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003d567INCD",
     "IncidentReference": "INCD-251239-G",
-    "IncidentCategory": "104",
+    "IncidentCategory": "26",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 0,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-06T19:38:38",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-06-06T20:52:38.663",
+    "EstimatedRestorationDate": "2021-06-06T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-06T19:57:36",
-    "NoCustomerAffected": 228,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 13,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 0
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-06-06T20:04:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "This is UK Power Networks. We're contacting you to let you know that we have just been made aware of a safety issue relating to the electricity supply in your local area, and in the interest of public health and safety, we have had to turn off power to 228 properties. As this is an emergency, we did not know this was going to happen and we're sorry that we were unable to provide you with prior notice of this unplanned power cut. We're texting a wide area so if your power is not currently off we do not expect you to be affected. To get updates, text POWER with your full postcode to 80876 (e.g. POWER IP3 8AA). Std. text fees apply.",
+        "LoggedTime": "2021-06-06T20:05:09.673"
+      }
+    ],
     "PostCodesAffected": [
       "BN9 0",
       "ME13 0",
@@ -64,19 +78,47 @@
       "TW1 4"
     ],
     "PostCodesRestored": [
+      "BN90HE",
+      "ME130RL",
+      "ME130RP",
+      "ME130SD",
+      "ME130SE",
+      "ME130SF",
+      "ME130SG",
+      "ME130SH",
+      "ME130SJ",
       "ME130SL",
       "ME130SN",
+      "ME130SQ",
       "ME130ST",
       "ME130SU",
       "ME130SW",
       "ME130SY",
       "ME130SZ",
       "ME130TW",
+      "ME90EN",
+      "ME90EP",
+      "ME90ES",
       "ME90ET",
+      "ME90EW",
       "ME90EX",
+      "ME90EZ",
+      "ME90HB",
+      "ME90HD",
+      "ME90HF",
+      "ME90HJ",
+      "ME90HL",
+      "ME90HR",
       "ME90HS",
+      "ME90HW",
+      "ME90JH",
+      "ME90RH",
+      "ME90RP",
+      "ME99AG",
+      "ME99BE",
       "ME99ES",
       "ME99ET",
+      "ME99JB",
       "ME99JD",
       "ME99JE",
       "ME99JJ",
@@ -96,34 +138,6 @@
       "ME99LJ",
       "ME99LL",
       "ME99QT",
-      "BN90HE",
-      "ME130RL",
-      "ME130RP",
-      "ME130SD",
-      "ME130SE",
-      "ME130SF",
-      "ME130SG",
-      "ME130SH",
-      "ME130SJ",
-      "ME130SQ",
-      "ME90EN",
-      "ME90EP",
-      "ME90ES",
-      "ME90EW",
-      "ME90EZ",
-      "ME90HB",
-      "ME90HD",
-      "ME90HF",
-      "ME90HJ",
-      "ME90HL",
-      "ME90HR",
-      "ME90HW",
-      "ME90JH",
-      "ME90RH",
-      "ME90RP",
-      "ME99AG",
-      "ME99BE",
-      "ME99JB",
       "ME99QY",
       "ME99RA",
       "ME99RB",
@@ -135,19 +149,47 @@
       "TW14SW"
     ],
     "PostCodesPlanned": [
+      "BN90HE",
+      "ME130RL",
+      "ME130RP",
+      "ME130SD",
+      "ME130SE",
+      "ME130SF",
+      "ME130SG",
+      "ME130SH",
+      "ME130SJ",
       "ME130SL",
       "ME130SN",
+      "ME130SQ",
       "ME130ST",
       "ME130SU",
       "ME130SW",
       "ME130SY",
       "ME130SZ",
       "ME130TW",
+      "ME90EN",
+      "ME90EP",
+      "ME90ES",
       "ME90ET",
+      "ME90EW",
       "ME90EX",
+      "ME90EZ",
+      "ME90HB",
+      "ME90HD",
+      "ME90HF",
+      "ME90HJ",
+      "ME90HL",
+      "ME90HR",
       "ME90HS",
+      "ME90HW",
+      "ME90JH",
+      "ME90RH",
+      "ME90RP",
+      "ME99AG",
+      "ME99BE",
       "ME99ES",
       "ME99ET",
+      "ME99JB",
       "ME99JD",
       "ME99JE",
       "ME99JJ",
@@ -167,34 +209,6 @@
       "ME99LJ",
       "ME99LL",
       "ME99QT",
-      "BN90HE",
-      "ME130RL",
-      "ME130RP",
-      "ME130SD",
-      "ME130SE",
-      "ME130SF",
-      "ME130SG",
-      "ME130SH",
-      "ME130SJ",
-      "ME130SQ",
-      "ME90EN",
-      "ME90EP",
-      "ME90ES",
-      "ME90EW",
-      "ME90EZ",
-      "ME90HB",
-      "ME90HD",
-      "ME90HF",
-      "ME90HJ",
-      "ME90HL",
-      "ME90HR",
-      "ME90HW",
-      "ME90JH",
-      "ME90RH",
-      "ME90RP",
-      "ME99AG",
-      "ME99BE",
-      "ME99JB",
       "ME99QY",
       "ME99RA",
       "ME99RB",
@@ -205,9 +219,9 @@
       "TN249LQ",
       "TW14SW"
     ],
-    "CustomersOnSupply": 247,
-    "CustomersOffSupply": 218,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 465,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -220,6 +234,255 @@
     "TW1 4"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 50.80928,
+        "lng": 0.05735
+      },
+      "Coordinates": [
+        {
+          "lat": 50.81982,
+          "lng": 0.02402
+        },
+        {
+          "lat": 50.82308,
+          "lng": 0.02367
+        },
+        {
+          "lat": 50.82661,
+          "lng": 0.02891
+        },
+        {
+          "lat": 50.82666,
+          "lng": 0.03559
+        },
+        {
+          "lat": 50.82628,
+          "lng": 0.04808
+        },
+        {
+          "lat": 50.82808,
+          "lng": 0.05471
+        },
+        {
+          "lat": 50.82831,
+          "lng": 0.0577
+        },
+        {
+          "lat": 50.82834,
+          "lng": 0.05798
+        },
+        {
+          "lat": 50.82211,
+          "lng": 0.06423
+        },
+        {
+          "lat": 50.81924,
+          "lng": 0.06904
+        },
+        {
+          "lat": 50.81773,
+          "lng": 0.07453
+        },
+        {
+          "lat": 50.81467,
+          "lng": 0.08704
+        },
+        {
+          "lat": 50.80728,
+          "lng": 0.07844
+        },
+        {
+          "lat": 50.80484,
+          "lng": 0.07622
+        },
+        {
+          "lat": 50.7972,
+          "lng": 0.07626
+        },
+        {
+          "lat": 50.79642,
+          "lng": 0.07768
+        },
+        {
+          "lat": 50.795,
+          "lng": 0.07856
+        },
+        {
+          "lat": 50.79384,
+          "lng": 0.07643
+        },
+        {
+          "lat": 50.79095,
+          "lng": 0.0736
+        },
+        {
+          "lat": 50.79025,
+          "lng": 0.07208
+        },
+        {
+          "lat": 50.78999,
+          "lng": 0.07072
+        },
+        {
+          "lat": 50.78958,
+          "lng": 0.06619
+        },
+        {
+          "lat": 50.78556,
+          "lng": 0.06594
+        },
+        {
+          "lat": 50.78523,
+          "lng": 0.06617
+        },
+        {
+          "lat": 50.78222,
+          "lng": 0.06735
+        },
+        {
+          "lat": 50.78333,
+          "lng": 0.06133
+        },
+        {
+          "lat": 50.78189,
+          "lng": 0.06036
+        },
+        {
+          "lat": 50.78137,
+          "lng": 0.06001
+        },
+        {
+          "lat": 50.78239,
+          "lng": 0.05936
+        },
+        {
+          "lat": 50.78644,
+          "lng": 0.05677
+        },
+        {
+          "lat": 50.78906,
+          "lng": 0.0551
+        },
+        {
+          "lat": 50.7904,
+          "lng": 0.05424
+        },
+        {
+          "lat": 50.79104,
+          "lng": 0.05383
+        },
+        {
+          "lat": 50.79137,
+          "lng": 0.05362
+        },
+        {
+          "lat": 50.79206,
+          "lng": 0.05318
+        },
+        {
+          "lat": 50.79209,
+          "lng": 0.05343
+        },
+        {
+          "lat": 50.7921,
+          "lng": 0.05342
+        },
+        {
+          "lat": 50.79336,
+          "lng": 0.05295
+        },
+        {
+          "lat": 50.79447,
+          "lng": 0.05295
+        },
+        {
+          "lat": 50.79498,
+          "lng": 0.05343
+        },
+        {
+          "lat": 50.79622,
+          "lng": 0.05346
+        },
+        {
+          "lat": 50.79631,
+          "lng": 0.05271
+        },
+        {
+          "lat": 50.79633,
+          "lng": 0.05257
+        },
+        {
+          "lat": 50.79913,
+          "lng": 0.04797
+        },
+        {
+          "lat": 50.79988,
+          "lng": 0.04761
+        },
+        {
+          "lat": 50.80011,
+          "lng": 0.04727
+        },
+        {
+          "lat": 50.80226,
+          "lng": 0.04578
+        },
+        {
+          "lat": 50.80368,
+          "lng": 0.04409
+        },
+        {
+          "lat": 50.80507,
+          "lng": 0.04439
+        },
+        {
+          "lat": 50.80616,
+          "lng": 0.04493
+        },
+        {
+          "lat": 50.807,
+          "lng": 0.04555
+        },
+        {
+          "lat": 50.80722,
+          "lng": 0.04565
+        },
+        {
+          "lat": 50.80735,
+          "lng": 0.0456
+        },
+        {
+          "lat": 50.80974,
+          "lng": 0.04462
+        },
+        {
+          "lat": 50.80985,
+          "lng": 0.0446
+        },
+        {
+          "lat": 50.81082,
+          "lng": 0.04347
+        },
+        {
+          "lat": 50.81366,
+          "lng": 0.03873
+        },
+        {
+          "lat": 50.81581,
+          "lng": 0.03696
+        },
+        {
+          "lat": 50.81603,
+          "lng": 0.03188
+        },
+        {
+          "lat": 50.81982,
+          "lng": 0.02402
+        }
+      ],
+      "Postcode": "BN9 0"
+    },
     {
       "Center": {
         "lat": 51.27845,
@@ -1749,255 +2012,6 @@
     },
     {
       "Center": {
-        "lat": 50.80928,
-        "lng": 0.05735
-      },
-      "Coordinates": [
-        {
-          "lat": 50.81982,
-          "lng": 0.02402
-        },
-        {
-          "lat": 50.82308,
-          "lng": 0.02367
-        },
-        {
-          "lat": 50.82661,
-          "lng": 0.02891
-        },
-        {
-          "lat": 50.82666,
-          "lng": 0.03559
-        },
-        {
-          "lat": 50.82628,
-          "lng": 0.04808
-        },
-        {
-          "lat": 50.82808,
-          "lng": 0.05471
-        },
-        {
-          "lat": 50.82831,
-          "lng": 0.0577
-        },
-        {
-          "lat": 50.82834,
-          "lng": 0.05798
-        },
-        {
-          "lat": 50.82211,
-          "lng": 0.06423
-        },
-        {
-          "lat": 50.81924,
-          "lng": 0.06904
-        },
-        {
-          "lat": 50.81773,
-          "lng": 0.07453
-        },
-        {
-          "lat": 50.81467,
-          "lng": 0.08704
-        },
-        {
-          "lat": 50.80728,
-          "lng": 0.07844
-        },
-        {
-          "lat": 50.80484,
-          "lng": 0.07622
-        },
-        {
-          "lat": 50.7972,
-          "lng": 0.07626
-        },
-        {
-          "lat": 50.79642,
-          "lng": 0.07768
-        },
-        {
-          "lat": 50.795,
-          "lng": 0.07856
-        },
-        {
-          "lat": 50.79384,
-          "lng": 0.07643
-        },
-        {
-          "lat": 50.79095,
-          "lng": 0.0736
-        },
-        {
-          "lat": 50.79025,
-          "lng": 0.07208
-        },
-        {
-          "lat": 50.78999,
-          "lng": 0.07072
-        },
-        {
-          "lat": 50.78958,
-          "lng": 0.06619
-        },
-        {
-          "lat": 50.78556,
-          "lng": 0.06594
-        },
-        {
-          "lat": 50.78523,
-          "lng": 0.06617
-        },
-        {
-          "lat": 50.78222,
-          "lng": 0.06735
-        },
-        {
-          "lat": 50.78333,
-          "lng": 0.06133
-        },
-        {
-          "lat": 50.78189,
-          "lng": 0.06036
-        },
-        {
-          "lat": 50.78137,
-          "lng": 0.06001
-        },
-        {
-          "lat": 50.78239,
-          "lng": 0.05936
-        },
-        {
-          "lat": 50.78644,
-          "lng": 0.05677
-        },
-        {
-          "lat": 50.78906,
-          "lng": 0.0551
-        },
-        {
-          "lat": 50.7904,
-          "lng": 0.05424
-        },
-        {
-          "lat": 50.79104,
-          "lng": 0.05383
-        },
-        {
-          "lat": 50.79137,
-          "lng": 0.05362
-        },
-        {
-          "lat": 50.79206,
-          "lng": 0.05318
-        },
-        {
-          "lat": 50.79209,
-          "lng": 0.05343
-        },
-        {
-          "lat": 50.7921,
-          "lng": 0.05342
-        },
-        {
-          "lat": 50.79336,
-          "lng": 0.05295
-        },
-        {
-          "lat": 50.79447,
-          "lng": 0.05295
-        },
-        {
-          "lat": 50.79498,
-          "lng": 0.05343
-        },
-        {
-          "lat": 50.79622,
-          "lng": 0.05346
-        },
-        {
-          "lat": 50.79631,
-          "lng": 0.05271
-        },
-        {
-          "lat": 50.79633,
-          "lng": 0.05257
-        },
-        {
-          "lat": 50.79913,
-          "lng": 0.04797
-        },
-        {
-          "lat": 50.79988,
-          "lng": 0.04761
-        },
-        {
-          "lat": 50.80011,
-          "lng": 0.04727
-        },
-        {
-          "lat": 50.80226,
-          "lng": 0.04578
-        },
-        {
-          "lat": 50.80368,
-          "lng": 0.04409
-        },
-        {
-          "lat": 50.80507,
-          "lng": 0.04439
-        },
-        {
-          "lat": 50.80616,
-          "lng": 0.04493
-        },
-        {
-          "lat": 50.807,
-          "lng": 0.04555
-        },
-        {
-          "lat": 50.80722,
-          "lng": 0.04565
-        },
-        {
-          "lat": 50.80735,
-          "lng": 0.0456
-        },
-        {
-          "lat": 50.80974,
-          "lng": 0.04462
-        },
-        {
-          "lat": 50.80985,
-          "lng": 0.0446
-        },
-        {
-          "lat": 50.81082,
-          "lng": 0.04347
-        },
-        {
-          "lat": 50.81366,
-          "lng": 0.03873
-        },
-        {
-          "lat": 50.81581,
-          "lng": 0.03696
-        },
-        {
-          "lat": 50.81603,
-          "lng": 0.03188
-        },
-        {
-          "lat": 50.81982,
-          "lng": 0.02402
-        }
-      ],
-      "Postcode": "BN9 0"
-    },
-    {
-      "Center": {
         "lat": 51.16377,
         "lng": 0.88825
       },
@@ -2808,19 +2822,47 @@
     }
   ],
   "FullPostcodeData": [
+    "BN90HE",
+    "ME130RL",
+    "ME130RP",
+    "ME130SD",
+    "ME130SE",
+    "ME130SF",
+    "ME130SG",
+    "ME130SH",
+    "ME130SJ",
     "ME130SL",
     "ME130SN",
+    "ME130SQ",
     "ME130ST",
     "ME130SU",
     "ME130SW",
     "ME130SY",
     "ME130SZ",
     "ME130TW",
+    "ME90EN",
+    "ME90EP",
+    "ME90ES",
     "ME90ET",
+    "ME90EW",
     "ME90EX",
+    "ME90EZ",
+    "ME90HB",
+    "ME90HD",
+    "ME90HF",
+    "ME90HJ",
+    "ME90HL",
+    "ME90HR",
     "ME90HS",
+    "ME90HW",
+    "ME90JH",
+    "ME90RH",
+    "ME90RP",
+    "ME99AG",
+    "ME99BE",
     "ME99ES",
     "ME99ET",
+    "ME99JB",
     "ME99JD",
     "ME99JE",
     "ME99JJ",
@@ -2840,34 +2882,6 @@
     "ME99LJ",
     "ME99LL",
     "ME99QT",
-    "BN90HE",
-    "ME130RL",
-    "ME130RP",
-    "ME130SD",
-    "ME130SE",
-    "ME130SF",
-    "ME130SG",
-    "ME130SH",
-    "ME130SJ",
-    "ME130SQ",
-    "ME90EN",
-    "ME90EP",
-    "ME90ES",
-    "ME90EW",
-    "ME90EZ",
-    "ME90HB",
-    "ME90HD",
-    "ME90HF",
-    "ME90HJ",
-    "ME90HL",
-    "ME90HR",
-    "ME90HW",
-    "ME90JH",
-    "ME90RH",
-    "ME90RP",
-    "ME99AG",
-    "ME99BE",
-    "ME99JB",
     "ME99QY",
     "ME99RA",
     "ME99RB",
@@ -2880,8 +2894,8 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "Our engineers are currently working to find out what caused this power cut.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "22:30 - 23:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
