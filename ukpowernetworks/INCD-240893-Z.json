@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-240893-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-240893-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-240893-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-06T02:10:38.53",
-      "Message": "Update at 02:10 - It's Adam from the text messaging team. I wanted to apologise that you are still without power. I can confirm that the gas board are still working on the gas leak and we await instruction that it is safe to continue with our repairs. Once we have received assurance that our work can be continued safely, we will look to have specialist staff re-attend to carry out the work required. Due to this, it means that you may not receive any texts for a while. We'll let you know as soon as the team are on their way.",
+      "Date": "2021-06-06T03:40:49.973",
+      "Message": "Update at 03:40 - It's Adam from the text messaging team and I'm very pleased to inform you that our engineers have been able to restore power to all customers in the Tollhouse Road area. They have diverted power around the underground network fault following delays due to a gas leak. Due to the nature of an issue like this, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-05T16:44:13",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-06T03:38:46.077",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003acfdINCD",
     "IncidentReference": "INCD-240893-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-05T15:16:52",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-06T03:38:46.077",
     "EstimatedRestorationDate": "2021-06-06T03:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-05T15:14:00",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-06T02:10:00",
+        "ActualEventTime": "2021-06-06T03:40:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 02:10 - It's Adam from the text messaging team. I wanted to apologise that you are still without power. I can confirm that the gas board are still working on the gas leak and we await instruction that it is safe to continue with our repairs. Once we have received assurance that our work can be continued safely, we will look to have specialist staff re-attend to carry out the work required. Due to this, it means that you may not receive any texts for a while. We'll let you know as soon as the team are on their way.",
-        "LoggedTime": "2021-06-06T02:10:38.53"
+        "Comment": "Update at 03:40 - It's Adam from the text messaging team and I'm very pleased to inform you that our engineers have been able to restore power to all customers in the Tollhouse Road area. They have diverted power around the underground network fault following delays due to a gas leak. Due to the nature of an issue like this, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-06-06T03:40:49.973"
       }
     ],
     "PostCodesAffected": [
@@ -75,7 +75,6 @@
       "NR6 5"
     ],
     "PostCodesRestored": [
-      "NR58QF",
       "NR24DJ",
       "NR24DL",
       "NR24GW",
@@ -88,6 +87,7 @@
       "NR58QB",
       "NR58QD",
       "NR58QE",
+      "NR58QF",
       "NR58QG",
       "NR58QH",
       "NR58QJ",
@@ -96,7 +96,6 @@
       "UK"
     ],
     "PostCodesPlanned": [
-      "NR58QF",
       "NR24DJ",
       "NR24DL",
       "NR24GW",
@@ -109,6 +108,7 @@
       "NR58QB",
       "NR58QD",
       "NR58QE",
+      "NR58QF",
       "NR58QG",
       "NR58QH",
       "NR58QJ",
@@ -116,9 +116,9 @@
       "NR65EB",
       "UK"
     ],
-    "CustomersOnSupply": 157,
-    "CustomersOffSupply": 12,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 169,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -128,6 +128,115 @@
     "NR6 5"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 52.63019,
+        "lng": 1.29777
+      },
+      "Coordinates": [
+        {
+          "lat": 52.62962,
+          "lng": 1.299
+        },
+        {
+          "lat": 52.62948,
+          "lng": 1.29895
+        },
+        {
+          "lat": 52.62936,
+          "lng": 1.29814
+        },
+        {
+          "lat": 52.62948,
+          "lng": 1.29805
+        },
+        {
+          "lat": 52.62979,
+          "lng": 1.29741
+        },
+        {
+          "lat": 52.62985,
+          "lng": 1.29742
+        },
+        {
+          "lat": 52.63015,
+          "lng": 1.29723
+        },
+        {
+          "lat": 52.63027,
+          "lng": 1.29674
+        },
+        {
+          "lat": 52.63027,
+          "lng": 1.29663
+        },
+        {
+          "lat": 52.63098,
+          "lng": 1.29679
+        },
+        {
+          "lat": 52.63102,
+          "lng": 1.29715
+        },
+        {
+          "lat": 52.631,
+          "lng": 1.29726
+        },
+        {
+          "lat": 52.63099,
+          "lng": 1.29728
+        },
+        {
+          "lat": 52.63077,
+          "lng": 1.29736
+        },
+        {
+          "lat": 52.63064,
+          "lng": 1.29763
+        },
+        {
+          "lat": 52.63074,
+          "lng": 1.29813
+        },
+        {
+          "lat": 52.63071,
+          "lng": 1.29819
+        },
+        {
+          "lat": 52.63063,
+          "lng": 1.29823
+        },
+        {
+          "lat": 52.63045,
+          "lng": 1.29869
+        },
+        {
+          "lat": 52.63031,
+          "lng": 1.29868
+        },
+        {
+          "lat": 52.63018,
+          "lng": 1.29818
+        },
+        {
+          "lat": 52.63009,
+          "lng": 1.29818
+        },
+        {
+          "lat": 52.62992,
+          "lng": 1.29839
+        },
+        {
+          "lat": 52.6298,
+          "lng": 1.29879
+        },
+        {
+          "lat": 52.62962,
+          "lng": 1.299
+        }
+      ],
+      "Postcode": "NR2 4"
+    },
     {
       "Center": {
         "lat": 52.63446,
@@ -604,115 +713,6 @@
         }
       ],
       "Postcode": "NR5 8"
-    },
-    {
-      "Center": {
-        "lat": 52.63019,
-        "lng": 1.29777
-      },
-      "Coordinates": [
-        {
-          "lat": 52.62962,
-          "lng": 1.299
-        },
-        {
-          "lat": 52.62948,
-          "lng": 1.29895
-        },
-        {
-          "lat": 52.62936,
-          "lng": 1.29814
-        },
-        {
-          "lat": 52.62948,
-          "lng": 1.29805
-        },
-        {
-          "lat": 52.62979,
-          "lng": 1.29741
-        },
-        {
-          "lat": 52.62985,
-          "lng": 1.29742
-        },
-        {
-          "lat": 52.63015,
-          "lng": 1.29723
-        },
-        {
-          "lat": 52.63027,
-          "lng": 1.29674
-        },
-        {
-          "lat": 52.63027,
-          "lng": 1.29663
-        },
-        {
-          "lat": 52.63098,
-          "lng": 1.29679
-        },
-        {
-          "lat": 52.63102,
-          "lng": 1.29715
-        },
-        {
-          "lat": 52.631,
-          "lng": 1.29726
-        },
-        {
-          "lat": 52.63099,
-          "lng": 1.29728
-        },
-        {
-          "lat": 52.63077,
-          "lng": 1.29736
-        },
-        {
-          "lat": 52.63064,
-          "lng": 1.29763
-        },
-        {
-          "lat": 52.63074,
-          "lng": 1.29813
-        },
-        {
-          "lat": 52.63071,
-          "lng": 1.29819
-        },
-        {
-          "lat": 52.63063,
-          "lng": 1.29823
-        },
-        {
-          "lat": 52.63045,
-          "lng": 1.29869
-        },
-        {
-          "lat": 52.63031,
-          "lng": 1.29868
-        },
-        {
-          "lat": 52.63018,
-          "lng": 1.29818
-        },
-        {
-          "lat": 52.63009,
-          "lng": 1.29818
-        },
-        {
-          "lat": 52.62992,
-          "lng": 1.29839
-        },
-        {
-          "lat": 52.6298,
-          "lng": 1.29879
-        },
-        {
-          "lat": 52.62962,
-          "lng": 1.299
-        }
-      ],
-      "Postcode": "NR2 4"
     },
     {
       "Center": {
@@ -1309,7 +1309,6 @@
     }
   ],
   "FullPostcodeData": [
-    "NR58QF",
     "NR24DJ",
     "NR24DL",
     "NR24GW",
@@ -1322,6 +1321,7 @@
     "NR58QB",
     "NR58QD",
     "NR58QE",
+    "NR58QF",
     "NR58QG",
     "NR58QH",
     "NR58QJ",

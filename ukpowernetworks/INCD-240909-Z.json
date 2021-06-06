@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-240909-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-240909-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-240909-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-05T20:32:20",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-06T02:50:39.343",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003ad0dINCD",
     "IncidentReference": "INCD-240909-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 32,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-05T18:00:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-06T02:50:39.343",
     "EstimatedRestorationDate": "2021-06-06T02:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-05T17:59:00",
-    "NoCustomerAffected": 8,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 10,
     "Latitude": 0.0,
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2021-06-05T22:30:00",
       "DispatchedDate": "2021-06-05T20:18:31",
       "ArrivalDate": "2021-06-05T20:32:20",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -73,27 +73,27 @@
       "NR18 0"
     ],
     "PostCodesRestored": [
-      "NR180QR",
-      "NR180QZ",
       "NR180NT",
       "NR180NX",
       "NR180PA",
+      "NR180QR",
       "NR180QS",
-      "NR180QT"
+      "NR180QT",
+      "NR180QZ"
     ],
     "PostCodesPlanned": [
-      "NR180QR",
-      "NR180QZ",
       "NR180NT",
       "NR180NX",
       "NR180PA",
+      "NR180QR",
       "NR180QS",
-      "NR180QT"
+      "NR180QT",
+      "NR180QZ"
     ],
-    "CustomersOnSupply": 35,
-    "CustomersOffSupply": 8,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 43,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -419,13 +419,13 @@
     }
   ],
   "FullPostcodeData": [
-    "NR180QR",
-    "NR180QZ",
     "NR180NT",
     "NR180NX",
     "NR180PA",
+    "NR180QR",
     "NR180QS",
-    "NR180QT"
+    "NR180QT",
+    "NR180QZ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
