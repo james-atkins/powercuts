@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-241000-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-241000-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-241000-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-06-06T13:34:36.473",
+      "Message": "Update at 13:34 - We're sorry you've lost power today. Specialist engineers and digging teams are on site and working to pinpoint an underground cable fault we believe is causing the issue. Based on what we know so far, we're estimating power will be on by 15:00-16:00. We'll be on hand to pass on news as it comes in from site, and if you have any concerns, our team are always here to talk on 105 from any phone.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-06-06T08:44:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-06T09:03:02",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-06T13:43:55.4",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003ad68INCD",
     "IncidentReference": "INCD-241000-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 32,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-06T08:50:33",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-06T13:43:55.4",
     "EstimatedRestorationDate": "2021-06-06T15:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-06T08:44:00",
-    "NoCustomerAffected": 17,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-06-06T13:34:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 13:34 - We're sorry you've lost power today. Specialist engineers and digging teams are on site and working to pinpoint an underground cable fault we believe is causing the issue. Based on what we know so far, we're estimating power will be on by 15:00-16:00. We'll be on hand to pass on news as it comes in from site, and if you have any concerns, our team are always here to talk on 105 from any phone.",
+        "LoggedTime": "2021-06-06T13:34:36.473"
+      }
+    ],
     "PostCodesAffected": [
       "EN3 6"
     ],
@@ -78,9 +92,9 @@
       "EN36SN",
       "EN36XE"
     ],
-    "CustomersOnSupply": 82,
-    "CustomersOffSupply": 25,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 107,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
