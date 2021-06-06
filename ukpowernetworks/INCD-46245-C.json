@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-46245-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-46245-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-46245-C",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-06T14:26:22",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-06T17:25:59.13",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000b4a5INCD",
     "IncidentReference": "INCD-46245-C",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-06T12:37:43",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-06T17:25:59.13",
     "EstimatedRestorationDate": "2021-06-06T18:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-06T12:36:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2021-06-06T13:45:00",
       "DispatchedDate": "2021-06-06T13:12:49",
       "ArrivalDate": "2021-06-06T14:26:22",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -74,28 +74,28 @@
       "CM9 5"
     ],
     "PostCodesRestored": [
-      "CM95HD",
-      "CM95HG",
       "CM94LF",
       "CM95AG",
       "CM95GU",
+      "CM95HD",
       "CM95HE",
       "CM95HF",
+      "CM95HG",
       "CM95HR"
     ],
     "PostCodesPlanned": [
-      "CM95HD",
-      "CM95HG",
       "CM94LF",
       "CM95AG",
       "CM95GU",
+      "CM95HD",
       "CM95HE",
       "CM95HF",
+      "CM95HG",
       "CM95HR"
     ],
-    "CustomersOnSupply": 49,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 52,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -104,99 +104,6 @@
     "CM9 5"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.73083,
-        "lng": 0.68936
-      },
-      "Coordinates": [
-        {
-          "lat": 51.73306,
-          "lng": 0.68836
-        },
-        {
-          "lat": 51.73154,
-          "lng": 0.69132
-        },
-        {
-          "lat": 51.7313,
-          "lng": 0.69188
-        },
-        {
-          "lat": 51.73101,
-          "lng": 0.69098
-        },
-        {
-          "lat": 51.73134,
-          "lng": 0.69054
-        },
-        {
-          "lat": 51.73207,
-          "lng": 0.68957
-        },
-        {
-          "lat": 51.73111,
-          "lng": 0.6896
-        },
-        {
-          "lat": 51.73058,
-          "lng": 0.68962
-        },
-        {
-          "lat": 51.73003,
-          "lng": 0.68964
-        },
-        {
-          "lat": 51.72923,
-          "lng": 0.69123
-        },
-        {
-          "lat": 51.72871,
-          "lng": 0.69227
-        },
-        {
-          "lat": 51.72852,
-          "lng": 0.69263
-        },
-        {
-          "lat": 51.72859,
-          "lng": 0.69155
-        },
-        {
-          "lat": 51.72873,
-          "lng": 0.68937
-        },
-        {
-          "lat": 51.72899,
-          "lng": 0.6892
-        },
-        {
-          "lat": 51.7302,
-          "lng": 0.68844
-        },
-        {
-          "lat": 51.73074,
-          "lng": 0.6881
-        },
-        {
-          "lat": 51.73223,
-          "lng": 0.68717
-        },
-        {
-          "lat": 51.73237,
-          "lng": 0.68708
-        },
-        {
-          "lat": 51.73267,
-          "lng": 0.68765
-        },
-        {
-          "lat": 51.73306,
-          "lng": 0.68836
-        }
-      ],
-      "Postcode": "CM9 5"
-    },
     {
       "Center": {
         "lat": 51.74438,
@@ -533,16 +440,109 @@
         }
       ],
       "Postcode": "CM9 4"
+    },
+    {
+      "Center": {
+        "lat": 51.73083,
+        "lng": 0.68936
+      },
+      "Coordinates": [
+        {
+          "lat": 51.73306,
+          "lng": 0.68836
+        },
+        {
+          "lat": 51.73154,
+          "lng": 0.69132
+        },
+        {
+          "lat": 51.7313,
+          "lng": 0.69188
+        },
+        {
+          "lat": 51.73101,
+          "lng": 0.69098
+        },
+        {
+          "lat": 51.73134,
+          "lng": 0.69054
+        },
+        {
+          "lat": 51.73207,
+          "lng": 0.68957
+        },
+        {
+          "lat": 51.73111,
+          "lng": 0.6896
+        },
+        {
+          "lat": 51.73058,
+          "lng": 0.68962
+        },
+        {
+          "lat": 51.73003,
+          "lng": 0.68964
+        },
+        {
+          "lat": 51.72923,
+          "lng": 0.69123
+        },
+        {
+          "lat": 51.72871,
+          "lng": 0.69227
+        },
+        {
+          "lat": 51.72852,
+          "lng": 0.69263
+        },
+        {
+          "lat": 51.72859,
+          "lng": 0.69155
+        },
+        {
+          "lat": 51.72873,
+          "lng": 0.68937
+        },
+        {
+          "lat": 51.72899,
+          "lng": 0.6892
+        },
+        {
+          "lat": 51.7302,
+          "lng": 0.68844
+        },
+        {
+          "lat": 51.73074,
+          "lng": 0.6881
+        },
+        {
+          "lat": 51.73223,
+          "lng": 0.68717
+        },
+        {
+          "lat": 51.73237,
+          "lng": 0.68708
+        },
+        {
+          "lat": 51.73267,
+          "lng": 0.68765
+        },
+        {
+          "lat": 51.73306,
+          "lng": 0.68836
+        }
+      ],
+      "Postcode": "CM9 5"
     }
   ],
   "FullPostcodeData": [
-    "CM95HD",
-    "CM95HG",
     "CM94LF",
     "CM95AG",
     "CM95GU",
+    "CM95HD",
     "CM95HE",
     "CM95HF",
+    "CM95HG",
     "CM95HR"
   ],
   "PinLatitude": null,
