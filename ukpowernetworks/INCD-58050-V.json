@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-58050-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-58050-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-58050-V",
   "Steps": [
     {
       "Active": false,
@@ -9,40 +9,40 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-04T08:46:40",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-06-04T09:37:05",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-07T08:40:57.287",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000e2c2INCD",
     "IncidentReference": "INCD-58050-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-04T08:41:38",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-07T08:40:57.287",
     "EstimatedRestorationDate": "2021-06-04T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-04T08:46:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 2,
+    "NoCallsReported": 3,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -50,8 +50,8 @@
       "Name": "JAMES (R5)",
       "EstimatedTimeOfArrival": "2021-06-04T09:30:00",
       "DispatchedDate": "2021-06-04T08:46:40",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-06-04T09:37:05",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -64,9 +64,9 @@
     "PostCodesPlanned": [
       "TN147NP"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 5,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
