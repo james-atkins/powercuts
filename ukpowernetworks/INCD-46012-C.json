@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-46012-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-46012-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-46012-C",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-07T11:08:20",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-08T15:21:16.893",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000b3bcINCD",
     "IncidentReference": "INCD-46012-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-01T12:46:38",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-08T15:21:16.893",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-01T12:49:00",
@@ -59,8 +59,6 @@
       "N3 2"
     ],
     "PostCodesRestored": [
-      "N32QA",
-      "N32QB",
       "N32GY",
       "N32HT",
       "N32HU",
@@ -69,11 +67,11 @@
       "N32PU",
       "N32PX",
       "N32PZ",
+      "N32QA",
+      "N32QB",
       "N32SD"
     ],
     "PostCodesPlanned": [
-      "N32QA",
-      "N32QB",
       "N32GY",
       "N32HT",
       "N32HU",
@@ -82,12 +80,14 @@
       "N32PU",
       "N32PX",
       "N32PZ",
+      "N32QA",
+      "N32QB",
       "N32SD"
     ],
-    "CustomersOnSupply": 129,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 134,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -573,8 +573,6 @@
     }
   ],
   "FullPostcodeData": [
-    "N32QA",
-    "N32QB",
     "N32GY",
     "N32HT",
     "N32HU",
@@ -583,6 +581,8 @@
     "N32PU",
     "N32PX",
     "N32PZ",
+    "N32QA",
+    "N32QB",
     "N32SD"
   ],
   "PinLatitude": null,
