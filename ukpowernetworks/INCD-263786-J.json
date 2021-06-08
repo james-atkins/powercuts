@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-263786-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-263786-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-263786-J",
   "Steps": [
     {
       "Active": true,
@@ -21,29 +21,29 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-07T17:37:55",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-08T07:06:41.857",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0004066aINCD",
     "IncidentReference": "INCD-263786-J",
     "IncidentCategory": "108",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 2,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-07T16:52:01",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-06-07T04:30:00",
+    "RestoredDateTime": "2021-06-08T07:06:41.857",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-07T16:41:00",
     "NoCustomerAffected": 0,
@@ -90,8 +90,8 @@
     ],
     "CustomersOnSupply": 120,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -747,7 +747,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "Due to a faulty piece of underground network equipment we had to turn off your power.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "04:00 - 05:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
