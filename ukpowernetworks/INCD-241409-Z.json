@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-241409-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-241409-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-241409-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-09T03:05:05.617",
-      "Message": "Update at 03:04 - We have now heard from our staff on site and they require additional time to complete the work required. In a repeat issue like this, It is always our aim to get you back on as fast as possible, so at first we try to redirect power or replace safety equipment. If this fails, we have no option but to try and locate the cause of the fault, and this may involve a cable repair. This can take longer due to needing specialist teams. Complications can occur sometimes so timeframes are subject to change, but we are now estimating we'll restore power between 03:00 & 04:00. We will keep in touch with you when our staff can safely stop work and update us.",
+      "Date": "2021-06-09T04:07:00.113",
+      "Message": "Update at 04:06 - It's Adam from the text messaging team and I'm very pleased to inform you that our engineers have been able to restore power to all customers in the Trinity Street area. They have diverted power around the underground network fault. Due to the nature of an issue like this, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-08T18:46:06",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-09T04:05:34.827",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003af01INCD",
     "IncidentReference": "INCD-241409-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-08T17:46:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-09T04:05:34.827",
     "EstimatedRestorationDate": "2021-06-09T03:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-08T17:45:00",
-    "NoCustomerAffected": 15,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-09T03:04:00",
+        "ActualEventTime": "2021-06-09T04:06:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 03:04 - We have now heard from our staff on site and they require additional time to complete the work required. In a repeat issue like this, It is always our aim to get you back on as fast as possible, so at first we try to redirect power or replace safety equipment. If this fails, we have no option but to try and locate the cause of the fault, and this may involve a cable repair. This can take longer due to needing specialist teams. Complications can occur sometimes so timeframes are subject to change, but we are now estimating we'll restore power between 03:00 & 04:00. We will keep in touch with you when our staff can safely stop work and update us.",
-        "LoggedTime": "2021-06-09T03:05:05.617"
+        "Comment": "Update at 04:06 - It's Adam from the text messaging team and I'm very pleased to inform you that our engineers have been able to restore power to all customers in the Trinity Street area. They have diverted power around the underground network fault. Due to the nature of an issue like this, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-06-09T04:07:00.113"
       }
     ],
     "PostCodesAffected": [
@@ -74,12 +74,12 @@
       "CO9 2"
     ],
     "PostCodesRestored": [
-      "CO91GY",
-      "CO91JA",
       "CO91FD",
+      "CO91GY",
       "CO91HB",
       "CO91HQ",
       "CO91HZ",
+      "CO91JA",
       "CO91JD",
       "CO91LL",
       "CO92AP",
@@ -93,12 +93,12 @@
       "CO92PQ"
     ],
     "PostCodesPlanned": [
-      "CO91GY",
-      "CO91JA",
       "CO91FD",
+      "CO91GY",
       "CO91HB",
       "CO91HQ",
       "CO91HZ",
+      "CO91JA",
       "CO91JD",
       "CO91LL",
       "CO92AP",
@@ -111,9 +111,9 @@
       "CO92LU",
       "CO92PQ"
     ],
-    "CustomersOnSupply": 87,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 102,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -930,12 +930,12 @@
     }
   ],
   "FullPostcodeData": [
-    "CO91GY",
-    "CO91JA",
     "CO91FD",
+    "CO91GY",
     "CO91HB",
     "CO91HQ",
     "CO91HZ",
+    "CO91JA",
     "CO91JD",
     "CO91LL",
     "CO92AP",
