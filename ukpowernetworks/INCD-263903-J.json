@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-263903-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-263903-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-263903-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-09T13:33:04",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-09T19:05:48.65",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J000406dfINCD",
     "IncidentReference": "INCD-263903-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 13,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-09T11:31:55",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-09T19:05:48.65",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-09T11:28:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -73,28 +73,28 @@
       "SW19 4"
     ],
     "PostCodesRestored": [
-      "SW194HB",
       "SW194EW",
       "SW194EY",
       "SW194EZ",
       "SW194HA",
+      "SW194HB",
       "SW194HD",
       "SW194HH",
       "SW194HW"
     ],
     "PostCodesPlanned": [
-      "SW194HB",
       "SW194EW",
       "SW194EY",
       "SW194EZ",
       "SW194HA",
+      "SW194HB",
       "SW194HD",
       "SW194HH",
       "SW194HW"
     ],
-    "CustomersOnSupply": 86,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 88,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -717,11 +717,11 @@
     }
   ],
   "FullPostcodeData": [
-    "SW194HB",
     "SW194EW",
     "SW194EY",
     "SW194EZ",
     "SW194HA",
+    "SW194HB",
     "SW194HD",
     "SW194HH",
     "SW194HW"
