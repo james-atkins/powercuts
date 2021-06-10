@@ -1,45 +1,51 @@
 {
-  "IncidentReference": "INCD-57411-V",
-  "PanelContentUrl": "/power-cut/map/planned-work?incidentId=INCD-57411-V",
+  "IncidentReference": "INCD-317260-U",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-317260-U",
   "Steps": [
     {
-      "Active": false,
-      "Date": "2021-06-10T09:00:00",
-      "Message": "<p>We became aware of a power cut at 09:00. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
-      "Name": "Power cut reported"
+      "Active": true,
+      "Date": "2021-06-10T09:55:34.42",
+      "Message": "Power cut alert from UK Power Networks. We are letting you know about an unplanned power cut which has caused power to go off unexpectedly, this is affecting 1/3 of properties in your area. If your electricity is off, you can get live updates on our power cut map at <a href=\"http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID].\" target=\"_blank\">http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID].</a> Not all customers will be affected by this and you may have power. If you need extra help or support, please call us on 08003163105.",
+      "Name": null
     },
     {
       "Active": false,
-      "Date": null,
+      "Date": "2021-06-10T09:38:46",
+      "Message": "<p>We became aware of a power cut at 09:38. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Name": "Power cut reported"
+    },
+    {
+      "Active": true,
+      "Date": "2021-06-10T09:46:20",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
+      "Message": null,
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": null,
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Planned",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
-    "IncidentId": "V0000e043INCD",
-    "IncidentReference": "INCD-57411-V",
-    "IncidentCategory": "28",
+    "IncidentId": "U0004d74cINCD",
+    "IncidentReference": "INCD-317260-U",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 12,
+    "IncidentPriority": 2,
     "StatusId": 1,
-    "CreationDateTime": "2021-05-25T09:50:03",
+    "CreationDateTime": "2021-06-10T09:40:48",
     "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-06-10T15:00:00",
-    "PlannedDate": "2021-06-10T08:00:00",
-    "ReceivedDate": "2021-06-10T09:00:00",
+    "EstimatedRestorationDate": null,
+    "PlannedDate": null,
+    "ReceivedDate": "2021-06-10T09:38:46",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -47,27 +53,53 @@
     "Longitude": 0.0,
     "Resource": {
       "Id": null,
-      "Name": null,
-      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
-      "DispatchedDate": null,
+      "Name": "BRUCE (R5)",
+      "EstimatedTimeOfArrival": "2021-06-10T10:15:00",
+      "DispatchedDate": "2021-06-10T09:46:20",
       "ArrivalDate": null,
-      "StatusId": 0
+      "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-06-10T09:55:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Power cut alert from UK Power Networks. We are letting you know about an unplanned power cut which has caused power to go off unexpectedly, this is affecting 1/3 of properties in your area. If your electricity is off, you can get live updates on our power cut map at http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID]. Not all customers will be affected by this and you may have power. If you need extra help or support, please call us on 08003163105.",
+        "LoggedTime": "2021-06-10T09:55:34.42"
+      }
+    ],
     "PostCodesAffected": [
       "DA2 7"
     ],
     "PostCodesRestored": [
-      "DA27SF"
+      "DA27RB",
+      "DA27RG",
+      "DA27RP",
+      "DA27RQ",
+      "DA27RR",
+      "DA27RS",
+      "DA27RW",
+      "DA27RY",
+      "DA27RZ",
+      "DA27SR"
     ],
     "PostCodesPlanned": [
-      "DA27SF"
+      "DA27RB",
+      "DA27RG",
+      "DA27RP",
+      "DA27RQ",
+      "DA27RR",
+      "DA27RS",
+      "DA27RW",
+      "DA27RY",
+      "DA27RZ",
+      "DA27SR"
     ],
     "CustomersOnSupply": 0,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Planned",
-    "PlannedIncidentReason": "Our contractors Avidety Ltd are replacing and upgrading electricity poles due to them decaying. This will improve the reliability of our electricity network and will reduce the risk of you having an unplanned power cut. This is why it is important to complete this work during the Coronavirus pandemic. You may see our contractors completing preparation works prior to the outage to allow for a shorter interruption on the day of the planned power cut. Please note two way traffic management will be in place on the day. This work is taking place outside 102 Shirehall Road and outside Bretheren Meeting Room. The government has given exemptions to certain industries and activities, this outage falls into this category",
+    "CustomersOffSupply": 109,
+    "IncidentTypeName": "Unplanned",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -861,12 +893,21 @@
     }
   ],
   "FullPostcodeData": [
-    "DA27SF"
+    "DA27RB",
+    "DA27RG",
+    "DA27RP",
+    "DA27RQ",
+    "DA27RR",
+    "DA27RS",
+    "DA27RW",
+    "DA27RY",
+    "DA27RZ",
+    "DA27SR"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "Our contractors Avidety Ltd are replacing and upgrading electricity poles due to them decaying. This will improve the reliability of our electricity network and will reduce the risk of you having an unplanned power cut. This is why it is important to complete this work during the Coronavirus pandemic. You may see our contractors completing preparation works prior to the outage to allow for a shorter interruption on the day of the planned power cut. Please note two way traffic management will be in place on the day. This work is taking place outside 102 Shirehall Road and outside Bretheren Meeting Room. The government has given exemptions to certain industries and activities, this outage falls into this category",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "14:30 - 15:30",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
