@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-241738-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-241738-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-241738-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-10T11:58:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-10T13:29:58.967",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b04aINCD",
     "IncidentReference": "INCD-241738-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-10T11:08:47",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-10T13:29:58.967",
     "EstimatedRestorationDate": "2021-06-10T14:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-10T11:02:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "NR34 7"
     ],
     "PostCodesRestored": [
+      "NR347BP",
       "NR347JE",
       "NR347JF",
-      "NR347BP",
       "NR347JG"
     ],
     "PostCodesPlanned": [
+      "NR347BP",
       "NR347JE",
       "NR347JF",
-      "NR347BP",
       "NR347JG"
     ],
-    "CustomersOnSupply": 52,
-    "CustomersOffSupply": 8,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 60,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -663,9 +663,9 @@
     }
   ],
   "FullPostcodeData": [
+    "NR347BP",
     "NR347JE",
     "NR347JF",
-    "NR347BP",
     "NR347JG"
   ],
   "PinLatitude": null,
