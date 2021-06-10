@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-46529-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-46529-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-46529-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-09T22:35:23",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-10T12:58:14.65",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000b5c1INCD",
     "IncidentReference": "INCD-46529-C",
     "IncidentCategory": "26",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-09T21:49:24",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-10T12:58:14.65",
     "EstimatedRestorationDate": "2021-06-10T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-10T11:53:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,8 +60,6 @@
       "PE28 0"
     ],
     "PostCodesRestored": [
-      "PE280JB",
-      "PE280JG",
       "PE180HA",
       "PE180HB",
       "PE180HJ",
@@ -75,11 +73,11 @@
       "PE280HN",
       "PE280HQ",
       "PE280HW",
-      "PE280JE"
+      "PE280JB",
+      "PE280JE",
+      "PE280JG"
     ],
     "PostCodesPlanned": [
-      "PE280JB",
-      "PE280JG",
       "PE180HA",
       "PE180HB",
       "PE180HJ",
@@ -93,11 +91,13 @@
       "PE280HN",
       "PE280HQ",
       "PE280HW",
-      "PE280JE"
+      "PE280JB",
+      "PE280JE",
+      "PE280JG"
     ],
-    "CustomersOnSupply": 135,
-    "CustomersOffSupply": 8,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 143,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -641,8 +641,6 @@
     }
   ],
   "FullPostcodeData": [
-    "PE280JB",
-    "PE280JG",
     "PE180HA",
     "PE180HB",
     "PE180HJ",
@@ -656,7 +654,9 @@
     "PE280HN",
     "PE280HQ",
     "PE280HW",
-    "PE280JE"
+    "PE280JB",
+    "PE280JE",
+    "PE280JG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
