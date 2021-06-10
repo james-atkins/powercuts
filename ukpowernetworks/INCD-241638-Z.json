@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-241638-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-241638-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-241638-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-10T07:07:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-10T18:08:39.927",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003afe6INCD",
     "IncidentReference": "INCD-241638-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-10T04:29:08",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-10T18:08:39.927",
     "EstimatedRestorationDate": "2021-06-10T19:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-10T04:25:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -73,28 +73,28 @@
       "NW11 7"
     ],
     "PostCodesRestored": [
-      "NW117SY",
       "NW117SG",
       "NW117SJ",
       "NW117SL",
       "NW117SR",
       "NW117SU",
       "NW117SX",
+      "NW117SY",
       "NW117TA"
     ],
     "PostCodesPlanned": [
-      "NW117SY",
       "NW117SG",
       "NW117SJ",
       "NW117SL",
       "NW117SR",
       "NW117SU",
       "NW117SX",
+      "NW117SY",
       "NW117TA"
     ],
-    "CustomersOnSupply": 45,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 55,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -705,13 +705,13 @@
     }
   ],
   "FullPostcodeData": [
-    "NW117SY",
     "NW117SG",
     "NW117SJ",
     "NW117SL",
     "NW117SR",
     "NW117SU",
     "NW117SX",
+    "NW117SY",
     "NW117TA"
   ],
   "PinLatitude": null,
