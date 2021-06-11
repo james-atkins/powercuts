@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-58436-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-58436-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-58436-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-10T07:26:17",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-11T02:28:48.237",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000e444INCD",
     "IncidentReference": "INCD-58436-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-10T05:14:33",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-11T02:28:48.237",
     "EstimatedRestorationDate": "2021-06-11T02:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-10T05:12:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2021-06-10T07:15:00",
       "DispatchedDate": "2021-06-10T06:19:01",
       "ArrivalDate": "2021-06-10T07:26:17",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -73,7 +73,6 @@
       "BN9 9"
     ],
     "PostCodesRestored": [
-      "BN99QL",
       "BN99LA",
       "BN99LJ",
       "BN99LL",
@@ -83,6 +82,7 @@
       "BN99PR",
       "BN99PU",
       "BN99QJ",
+      "BN99QL",
       "BN99QS",
       "BN99QX",
       "BN99RB",
@@ -91,7 +91,6 @@
       "BN99RL"
     ],
     "PostCodesPlanned": [
-      "BN99QL",
       "BN99LA",
       "BN99LJ",
       "BN99LL",
@@ -101,6 +100,7 @@
       "BN99PR",
       "BN99PU",
       "BN99QJ",
+      "BN99QL",
       "BN99QS",
       "BN99QX",
       "BN99RB",
@@ -108,9 +108,9 @@
       "BN99RG",
       "BN99RL"
     ],
-    "CustomersOnSupply": 124,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 127,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -441,7 +441,6 @@
     }
   ],
   "FullPostcodeData": [
-    "BN99QL",
     "BN99LA",
     "BN99LJ",
     "BN99LL",
@@ -451,6 +450,7 @@
     "BN99PR",
     "BN99PU",
     "BN99QJ",
+    "BN99QL",
     "BN99QS",
     "BN99QX",
     "BN99RB",
