@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-241952-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-241952-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-241952-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-11T11:01:23",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-11T12:43:34.213",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b120INCD",
     "IncidentReference": "INCD-241952-Z",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-11T10:42:24",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-11T12:43:34.213",
     "EstimatedRestorationDate": "2021-06-11T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-11T10:42:18",
-    "NoCustomerAffected": 96,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -60,11 +60,6 @@
       "RM18 8"
     ],
     "PostCodesRestored": [
-      "RM188DU",
-      "RM188DX",
-      "RM188EA",
-      "RM188ED",
-      "RM188EL",
       "RM187DB",
       "RM187DG",
       "RM187PD",
@@ -82,7 +77,12 @@
       "RM188AA",
       "RM188AD",
       "RM188DF",
+      "RM188DU",
+      "RM188DX",
       "RM188DY",
+      "RM188EA",
+      "RM188ED",
+      "RM188EL",
       "RM188LA",
       "RM188LD",
       "RM188XU",
@@ -94,11 +94,6 @@
       "RM188YL"
     ],
     "PostCodesPlanned": [
-      "RM188DU",
-      "RM188DX",
-      "RM188EA",
-      "RM188ED",
-      "RM188EL",
       "RM187DB",
       "RM187DG",
       "RM187PD",
@@ -116,7 +111,12 @@
       "RM188AA",
       "RM188AD",
       "RM188DF",
+      "RM188DU",
+      "RM188DX",
       "RM188DY",
+      "RM188EA",
+      "RM188ED",
+      "RM188EL",
       "RM188LA",
       "RM188LD",
       "RM188XU",
@@ -127,10 +127,10 @@
       "RM188YJ",
       "RM188YL"
     ],
-    "CustomersOnSupply": 376,
-    "CustomersOffSupply": 96,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 472,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -138,31 +138,6 @@
     "RM18 8"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.46328,
-        "lng": 0.45484
-      },
-      "Coordinates": [
-        {
-          "lat": 51.46384,
-          "lng": 0.45549
-        },
-        {
-          "lat": 51.46216,
-          "lng": 0.45479
-        },
-        {
-          "lat": 51.46384,
-          "lng": 0.45424
-        },
-        {
-          "lat": 51.46384,
-          "lng": 0.45549
-        }
-      ],
-      "Postcode": "RM18 8"
-    },
     {
       "Center": {
         "lat": 51.46104,
@@ -559,14 +534,34 @@
         }
       ],
       "Postcode": "RM18 7"
+    },
+    {
+      "Center": {
+        "lat": 51.46328,
+        "lng": 0.45484
+      },
+      "Coordinates": [
+        {
+          "lat": 51.46384,
+          "lng": 0.45549
+        },
+        {
+          "lat": 51.46216,
+          "lng": 0.45479
+        },
+        {
+          "lat": 51.46384,
+          "lng": 0.45424
+        },
+        {
+          "lat": 51.46384,
+          "lng": 0.45549
+        }
+      ],
+      "Postcode": "RM18 8"
     }
   ],
   "FullPostcodeData": [
-    "RM188DU",
-    "RM188DX",
-    "RM188EA",
-    "RM188ED",
-    "RM188EL",
     "RM187DB",
     "RM187DG",
     "RM187PD",
@@ -584,7 +579,12 @@
     "RM188AA",
     "RM188AD",
     "RM188DF",
+    "RM188DU",
+    "RM188DX",
     "RM188DY",
+    "RM188EA",
+    "RM188ED",
+    "RM188EL",
     "RM188LA",
     "RM188LD",
     "RM188XU",
