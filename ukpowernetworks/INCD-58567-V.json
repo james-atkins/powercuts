@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-58567-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-58567-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-58567-V",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-06-11T23:59:17.65",
+      "Message": "Update at 23:59 - We have now restored power to the Colyer Road area. We are truly sorry for the power cuts recently. Our engineers removed a temporary generator which was supporting the network following a fault. We're aware that some customer have been suffering from no power and some with low voltage.  If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-06-11T18:15:00",
@@ -15,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-11T22:24:05",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-11T23:53:11.02",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000e4c7INCD",
     "IncidentReference": "INCD-58567-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-11T18:20:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-11T23:53:11.02",
     "EstimatedRestorationDate": "2021-06-12T01:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-11T18:15:00",
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-06-11T23:59:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 23:59 - We have now restored power to the Colyer Road area. We are truly sorry for the power cuts recently. Our engineers removed a temporary generator which was supporting the network following a fault. We're aware that some customer have been suffering from no power and some with low voltage.  If you'd like more information on the issue, or if your power isn't back on, call us on 08003163105 (free to call). We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-06-11T23:59:17.65"
+      }
+    ],
     "PostCodesAffected": [
       "DA11 8"
     ],
@@ -98,7 +112,7 @@
     ],
     "CustomersOnSupply": 361,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
