@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-58190-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-58190-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-58190-N",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-11T09:01:02.93",
-      "Message": "Update at 09:00 - Thanks for bearing with us this morning. Our team of cable jointers have now identified the suspected section of faulted underground cabling using their specialist equipment. Our digging team will now begin excavations, and this can take some time depending on the surface material, and how much space is needed to allow our engineers to assess the fault and make their repairs safely. Our estimated timeframe doesn't need to change currently, and we'll continue to keep you updated, but our team are always here on 08003163105 from any phone if you have any questions.",
+      "Date": "2021-06-11T09:24:37.14",
+      "Message": "Update at 09:24 - We can now confirm that all power in the Brooking Road area should be back on. The issue was caused by a faulty piece of underground electrical equipment, which our engineers have replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-06T12:21:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-11T09:21:18.61",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000e34eINCD",
     "IncidentReference": "INCD-58190-N",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 32,
+    "StatusId": 5,
     "CreationDateTime": "2021-01-29T13:19:49",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-11T09:21:18.61",
     "EstimatedRestorationDate": "2021-06-11T10:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-01-29T13:25:00",
-    "NoCustomerAffected": 19,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-11T09:00:00",
+        "ActualEventTime": "2021-06-11T09:24:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 09:00 - Thanks for bearing with us this morning. Our team of cable jointers have now identified the suspected section of faulted underground cabling using their specialist equipment. Our digging team will now begin excavations, and this can take some time depending on the surface material, and how much space is needed to allow our engineers to assess the fault and make their repairs safely. Our estimated timeframe doesn't need to change currently, and we'll continue to keep you updated, but our team are always here on 08003163105 from any phone if you have any questions.",
-        "LoggedTime": "2021-06-11T09:01:02.93"
+        "Comment": "Update at 09:24 - We can now confirm that all power in the Brooking Road area should be back on. The issue was caused by a faulty piece of underground electrical equipment, which our engineers have replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-06-11T09:24:37.14"
       }
     ],
     "PostCodesAffected": [
@@ -74,12 +74,11 @@
       "E7 9"
     ],
     "PostCodesRestored": [
-      "E70EP",
-      "E70HJ",
       "E70BB",
       "E70BD",
       "E70BE",
       "E70DH",
+      "E70EP",
       "E70EQ",
       "E70ER",
       "E70ES",
@@ -87,6 +86,7 @@
       "E70EW",
       "E70HD",
       "E70HG",
+      "E70HJ",
       "E70HQ",
       "E70HW",
       "E70HY",
@@ -97,12 +97,11 @@
       "E79DP"
     ],
     "PostCodesPlanned": [
-      "E70EP",
-      "E70HJ",
       "E70BB",
       "E70BD",
       "E70BE",
       "E70DH",
+      "E70EP",
       "E70EQ",
       "E70ER",
       "E70ES",
@@ -110,6 +109,7 @@
       "E70EW",
       "E70HD",
       "E70HG",
+      "E70HJ",
       "E70HQ",
       "E70HW",
       "E70HY",
@@ -119,10 +119,10 @@
       "E79BB",
       "E79DP"
     ],
-    "CustomersOnSupply": 356,
-    "CustomersOffSupply": 19,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 375,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1362,12 +1362,11 @@
     }
   ],
   "FullPostcodeData": [
-    "E70EP",
-    "E70HJ",
     "E70BB",
     "E70BD",
     "E70BE",
     "E70DH",
+    "E70EP",
     "E70EQ",
     "E70ER",
     "E70ES",
@@ -1375,6 +1374,7 @@
     "E70EW",
     "E70HD",
     "E70HG",
+    "E70HJ",
     "E70HQ",
     "E70HW",
     "E70HY",
