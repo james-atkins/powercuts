@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-242167-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242167-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-242167-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-12T16:34:41",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-12T19:06:58.92",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b1f7INCD",
     "IncidentReference": "INCD-242167-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-12T13:57:36",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-12T19:06:58.92",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-12T13:57:00",
@@ -59,22 +59,22 @@
       "CM22 7"
     ],
     "PostCodesRestored": [
-      "CM227ED",
-      "CM227EE",
       "CM227DL",
       "CM227EB",
+      "CM227ED",
+      "CM227EE",
       "CM227FA"
     ],
     "PostCodesPlanned": [
-      "CM227ED",
-      "CM227EE",
       "CM227DL",
       "CM227EB",
+      "CM227ED",
+      "CM227EE",
       "CM227FA"
     ],
-    "CustomersOnSupply": 22,
-    "CustomersOffSupply": 16,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 38,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -513,10 +513,10 @@
     }
   ],
   "FullPostcodeData": [
-    "CM227ED",
-    "CM227EE",
     "CM227DL",
     "CM227EB",
+    "CM227ED",
+    "CM227EE",
     "CM227FA"
   ],
   "PinLatitude": null,
