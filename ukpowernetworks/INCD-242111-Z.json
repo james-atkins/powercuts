@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-242111-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242111-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-242111-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-12T06:45:13.363",
-      "Message": "Update at 06:45 - Our engineers are on their way. We think the issue is faulty underground equipment affecting 157 properties. Specialist engineers from our control room are also working to divert power remotely, so it's possible for your power to come back on at any point, but sometimes we can't restore everyone this way. That's why we're also sending staff to the area to check our equipment. Every fault is different, so our time frames have to be estimated, but currently we hope to have power back on between 08:00 and 09:00. We must stress that it may become necessary for this to change, depending on what our engineers find. We'll keep you updated with our progress, but if you need to talk our team are always here on 08003163105.",
+      "Date": "2021-06-12T07:00:07.687",
+      "Message": "Update at 06:59 - It's David from the text messaging team and I'm very pleased to inform you that our engineers have been able to restore power to all 1018 customers in the Redwald Road area. They have remotely diverted power to a heather side of the network. Due to the nature of an issue like this, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -15,7 +15,7 @@
       "Name": "We are restoring customers automatically"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-12T06:41:59",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
@@ -23,32 +23,32 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-12T06:58:02.337",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b1bfINCD",
     "IncidentReference": "INCD-242111-Z",
-    "IncidentCategory": "61",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-12T06:23:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-12T06:58:02.337",
     "EstimatedRestorationDate": "2021-06-12T08:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-12T06:23:40",
-    "NoCustomerAffected": 157,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 2,
+    "NoCallsReported": 3,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-12T06:45:00",
+        "ActualEventTime": "2021-06-12T07:00:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 06:45 - Our engineers are on their way. We think the issue is faulty underground equipment affecting 157 properties. Specialist engineers from our control room are also working to divert power remotely, so it's possible for your power to come back on at any point, but sometimes we can't restore everyone this way. That's why we're also sending staff to the area to check our equipment. Every fault is different, so our time frames have to be estimated, but currently we hope to have power back on between 08:00 and 09:00. We must stress that it may become necessary for this to change, depending on what our engineers find. We'll keep you updated with our progress, but if you need to talk our team are always here on 08003163105.",
-        "LoggedTime": "2021-06-12T06:45:13.363"
+        "Comment": "Update at 06:59 - It's David from the text messaging team and I'm very pleased to inform you that our engineers have been able to restore power to all 1018 customers in the Redwald Road area. They have remotely diverted power to a heather side of the network. Due to the nature of an issue like this, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-06-12T07:00:07.687"
       }
     ],
     "PostCodesAffected": [
@@ -76,20 +76,6 @@
       "IP13 0"
     ],
     "PostCodesRestored": [
-      "IP122GR",
-      "IP122GW",
-      "IP122GX",
-      "IP122HJ",
-      "IP122RG",
-      "IP122SL",
-      "IP122TA",
-      "IP122TB",
-      "IP122TN",
-      "IP122TP",
-      "IP122TQ",
-      "IP122TR",
-      "IP127TN",
-      "IP130QE",
       "IP122DA",
       "IP122DB",
       "IP122DD",
@@ -105,12 +91,16 @@
       "IP122GN",
       "IP122GP",
       "IP122GQ",
+      "IP122GR",
       "IP122GS",
       "IP122GT",
       "IP122GU",
+      "IP122GW",
+      "IP122GX",
       "IP122GY",
       "IP122GZ",
       "IP122HH",
+      "IP122HJ",
       "IP122HQ",
       "IP122HR",
       "IP122HZ",
@@ -141,13 +131,21 @@
       "IP122RD",
       "IP122RE",
       "IP122RF",
+      "IP122RG",
       "IP122RJ",
       "IP122RL",
       "IP122RN",
       "IP122RQ",
       "IP122SF",
+      "IP122SL",
       "IP122SN",
       "IP122SZ",
+      "IP122TA",
+      "IP122TB",
+      "IP122TN",
+      "IP122TP",
+      "IP122TQ",
+      "IP122TR",
       "IP122TX",
       "IP122UA",
       "IP122UD",
@@ -161,24 +159,12 @@
       "IP123AL",
       "IP123RE",
       "IP123UF",
+      "IP127TN",
       "IP130JN",
+      "IP130QE",
       "UK"
     ],
     "PostCodesPlanned": [
-      "IP122GR",
-      "IP122GW",
-      "IP122GX",
-      "IP122HJ",
-      "IP122RG",
-      "IP122SL",
-      "IP122TA",
-      "IP122TB",
-      "IP122TN",
-      "IP122TP",
-      "IP122TQ",
-      "IP122TR",
-      "IP127TN",
-      "IP130QE",
       "IP122DA",
       "IP122DB",
       "IP122DD",
@@ -194,12 +180,16 @@
       "IP122GN",
       "IP122GP",
       "IP122GQ",
+      "IP122GR",
       "IP122GS",
       "IP122GT",
       "IP122GU",
+      "IP122GW",
+      "IP122GX",
       "IP122GY",
       "IP122GZ",
       "IP122HH",
+      "IP122HJ",
       "IP122HQ",
       "IP122HR",
       "IP122HZ",
@@ -230,13 +220,21 @@
       "IP122RD",
       "IP122RE",
       "IP122RF",
+      "IP122RG",
       "IP122RJ",
       "IP122RL",
       "IP122RN",
       "IP122RQ",
       "IP122SF",
+      "IP122SL",
       "IP122SN",
       "IP122SZ",
+      "IP122TA",
+      "IP122TB",
+      "IP122TN",
+      "IP122TP",
+      "IP122TQ",
+      "IP122TR",
       "IP122TX",
       "IP122UA",
       "IP122UD",
@@ -250,13 +248,15 @@
       "IP123AL",
       "IP123RE",
       "IP123UF",
+      "IP127TN",
       "IP130JN",
+      "IP130QE",
       "UK"
     ],
-    "CustomersOnSupply": 855,
-    "CustomersOffSupply": 157,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 1012,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -418,6 +418,55 @@
         }
       ],
       "Postcode": "IP12 2"
+    },
+    {
+      "Center": {
+        "lat": 52.04772,
+        "lng": 1.47009
+      },
+      "Coordinates": [
+        {
+          "lat": 52.05257,
+          "lng": 1.47476
+        },
+        {
+          "lat": 52.05133,
+          "lng": 1.47633
+        },
+        {
+          "lat": 52.04915,
+          "lng": 1.47148
+        },
+        {
+          "lat": 52.04452,
+          "lng": 1.46868
+        },
+        {
+          "lat": 52.04171,
+          "lng": 1.46699
+        },
+        {
+          "lat": 52.04416,
+          "lng": 1.46562
+        },
+        {
+          "lat": 52.04462,
+          "lng": 1.46597
+        },
+        {
+          "lat": 52.04466,
+          "lng": 1.466
+        },
+        {
+          "lat": 52.05044,
+          "lng": 1.47042
+        },
+        {
+          "lat": 52.05257,
+          "lng": 1.47476
+        }
+      ],
+      "Postcode": "IP12 3"
     },
     {
       "Center": {
@@ -907,72 +956,9 @@
         }
       ],
       "Postcode": "IP13 0"
-    },
-    {
-      "Center": {
-        "lat": 52.04772,
-        "lng": 1.47009
-      },
-      "Coordinates": [
-        {
-          "lat": 52.05257,
-          "lng": 1.47476
-        },
-        {
-          "lat": 52.05133,
-          "lng": 1.47633
-        },
-        {
-          "lat": 52.04915,
-          "lng": 1.47148
-        },
-        {
-          "lat": 52.04452,
-          "lng": 1.46868
-        },
-        {
-          "lat": 52.04171,
-          "lng": 1.46699
-        },
-        {
-          "lat": 52.04416,
-          "lng": 1.46562
-        },
-        {
-          "lat": 52.04462,
-          "lng": 1.46597
-        },
-        {
-          "lat": 52.04466,
-          "lng": 1.466
-        },
-        {
-          "lat": 52.05044,
-          "lng": 1.47042
-        },
-        {
-          "lat": 52.05257,
-          "lng": 1.47476
-        }
-      ],
-      "Postcode": "IP12 3"
     }
   ],
   "FullPostcodeData": [
-    "IP122GR",
-    "IP122GW",
-    "IP122GX",
-    "IP122HJ",
-    "IP122RG",
-    "IP122SL",
-    "IP122TA",
-    "IP122TB",
-    "IP122TN",
-    "IP122TP",
-    "IP122TQ",
-    "IP122TR",
-    "IP127TN",
-    "IP130QE",
     "IP122DA",
     "IP122DB",
     "IP122DD",
@@ -988,12 +974,16 @@
     "IP122GN",
     "IP122GP",
     "IP122GQ",
+    "IP122GR",
     "IP122GS",
     "IP122GT",
     "IP122GU",
+    "IP122GW",
+    "IP122GX",
     "IP122GY",
     "IP122GZ",
     "IP122HH",
+    "IP122HJ",
     "IP122HQ",
     "IP122HR",
     "IP122HZ",
@@ -1024,13 +1014,21 @@
     "IP122RD",
     "IP122RE",
     "IP122RF",
+    "IP122RG",
     "IP122RJ",
     "IP122RL",
     "IP122RN",
     "IP122RQ",
     "IP122SF",
+    "IP122SL",
     "IP122SN",
     "IP122SZ",
+    "IP122TA",
+    "IP122TB",
+    "IP122TN",
+    "IP122TP",
+    "IP122TQ",
+    "IP122TR",
     "IP122TX",
     "IP122UA",
     "IP122UD",
@@ -1044,12 +1042,14 @@
     "IP123AL",
     "IP123RE",
     "IP123UF",
+    "IP127TN",
     "IP130JN",
+    "IP130QE",
     "UK"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "An underground electricity cable faulted on our high voltage network, causing an area wide power cut.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "08:00 - 09:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
