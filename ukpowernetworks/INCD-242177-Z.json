@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-242177-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242177-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-242177-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-12T16:00:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-12T19:49:06.037",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b201INCD",
     "IncidentReference": "INCD-242177-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-12T15:13:10",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-06-12T20:00:00",
+    "RestoredDateTime": "2021-06-12T19:49:06.037",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-12T15:11:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -60,24 +60,24 @@
     ],
     "PostCodesRestored": [
       "SG180AA",
-      "SG180BS",
       "SG180BP",
+      "SG180BS",
       "SG180DE",
       "SG180EG",
       "SG180HF"
     ],
     "PostCodesPlanned": [
       "SG180AA",
-      "SG180BS",
       "SG180BP",
+      "SG180BS",
       "SG180DE",
       "SG180EG",
       "SG180HF"
     ],
-    "CustomersOnSupply": 54,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 61,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -344,8 +344,8 @@
   ],
   "FullPostcodeData": [
     "SG180AA",
-    "SG180BS",
     "SG180BP",
+    "SG180BS",
     "SG180DE",
     "SG180EG",
     "SG180HF"
@@ -353,7 +353,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "19:30 - 20:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
