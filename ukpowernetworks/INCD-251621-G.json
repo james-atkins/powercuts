@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-251621-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-251621-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-251621-G",
   "Steps": [
     {
       "Active": true,
@@ -10,7 +10,7 @@
     },
     {
       "Active": false,
-      "Date": "2021-06-12T19:52:48",
+      "Date": "2021-06-12T19:52:00",
       "Message": "<p>We became aware of a power cut at 19:52. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-12T20:41:25",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-12T22:02:55.783",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003d6e5INCD",
     "IncidentReference": "INCD-251621-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-12T19:53:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-12T22:02:55.783",
     "EstimatedRestorationDate": "2021-06-13T00:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-06-12T19:52:48",
+    "ReceivedDate": "2021-06-12T19:52:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
@@ -94,9 +94,9 @@
       "CT162PH",
       "CT162PQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 129,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 129,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
