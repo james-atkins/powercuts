@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-60676-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-60676-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-60676-N",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-12T13:32:34.373",
-      "Message": "Update at 13:32 - Our engineers are in the final stages of their repairs but these are taking a little longer than expected so we're now estimating to have the power back on between 13:30 and 14:30. We're sorry for the delay but will continue to provide you with any further updates we receive.",
+      "Date": "2021-06-12T14:14:04.663",
+      "Message": "Update at 14:13 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground cable fault in the Hawthorn Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-12T03:35:06",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-12T14:13:09.507",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000ed04INCD",
     "IncidentReference": "INCD-60676-N",
     "IncidentCategory": "25",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-12T01:17:43",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-12T14:13:09.507",
     "EstimatedRestorationDate": "2021-06-12T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-12T01:05:00",
-    "NoCustomerAffected": 15,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-12T13:32:00",
+        "ActualEventTime": "2021-06-12T14:13:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 13:32 - Our engineers are in the final stages of their repairs but these are taking a little longer than expected so we're now estimating to have the power back on between 13:30 and 14:30. We're sorry for the delay but will continue to provide you with any further updates we receive.",
-        "LoggedTime": "2021-06-12T13:32:34.373"
+        "Comment": "Update at 14:13 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair an underground cable fault in the Hawthorn Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-06-12T14:14:04.663"
       }
     ],
     "PostCodesAffected": [
@@ -74,24 +74,24 @@
       "DA6 8"
     ],
     "PostCodesRestored": [
-      "DA67AF",
       "DA67AE",
+      "DA67AF",
       "DA67AH",
       "DA67AJ",
       "DA67AN",
       "DA68NP"
     ],
     "PostCodesPlanned": [
-      "DA67AF",
       "DA67AE",
+      "DA67AF",
       "DA67AH",
       "DA67AJ",
       "DA67AN",
       "DA68NP"
     ],
-    "CustomersOnSupply": 98,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 113,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -892,8 +892,8 @@
     }
   ],
   "FullPostcodeData": [
-    "DA67AF",
     "DA67AE",
+    "DA67AF",
     "DA67AH",
     "DA67AJ",
     "DA67AN",
