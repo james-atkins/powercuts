@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-242157-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242157-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-242157-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-12T13:59:42.56",
-      "Message": "Update at 13:59 - Sorry your power has gone off again today. Our engineers remotely diverted the electricity around the faulted part of the network. However, this has not held and we believe there may be an underlying issue. We have your information from the earlier power cut so will continue to send progress updates to you until all power is back on.",
+      "Date": "2021-06-12T14:48:37.383",
+      "Message": "Update at 14:46 - We believe our engineers have been able to restore power to all 1086 customers in the Southwold area, by diverting power around the overhead fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be,so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-12T13:36:31",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-12T14:55:47.003",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b1edINCD",
     "IncidentReference": "INCD-242157-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-12T12:54:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-12T14:55:47.003",
     "EstimatedRestorationDate": "2021-06-12T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-12T12:54:18",
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-12T13:59:00",
+        "ActualEventTime": "2021-06-12T14:48:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 13:59 - Sorry your power has gone off again today. Our engineers remotely diverted the electricity around the faulted part of the network. However, this has not held and we believe there may be an underlying issue. We have your information from the earlier power cut so will continue to send progress updates to you until all power is back on.",
-        "LoggedTime": "2021-06-12T13:59:42.56"
+        "Comment": "Update at 14:46 - We believe our engineers have been able to restore power to all 1086 customers in the Southwold area, by diverting power around the overhead fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be,so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-06-12T14:48:37.383"
       }
     ],
     "PostCodesAffected": [
@@ -253,8 +253,8 @@
     ],
     "CustomersOnSupply": 1085,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1120,7 +1120,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "14:30 - 15:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
