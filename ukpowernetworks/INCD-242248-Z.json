@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-242248-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242248-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-242248-Z",
   "Steps": [
     {
       "Active": false,
@@ -9,38 +9,38 @@
       "Name": "We are restoring customers automatically"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-13T09:34:57",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-06-13T10:56:40",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-13T11:05:50.423",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b248INCD",
     "IncidentReference": "INCD-242248-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-13T09:31:21",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-13T11:05:50.423",
     "EstimatedRestorationDate": "2021-06-13T11:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-13T09:31:13",
-    "NoCustomerAffected": 295,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -50,8 +50,8 @@
       "Name": "MARTYN (R5)",
       "EstimatedTimeOfArrival": "2021-06-13T10:20:00",
       "DispatchedDate": "2021-06-13T09:34:57",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-06-13T10:56:40",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -123,10 +123,10 @@
       "NR305TJ",
       "NR319HU"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 290,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 290,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
