@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-251626-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-251626-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-251626-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-12T22:37:05",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-13T16:13:34.17",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003d6eaINCD",
     "IncidentReference": "INCD-251626-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-12T20:59:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-13T16:13:34.17",
     "EstimatedRestorationDate": "2021-06-13T17:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-12T20:53:00",
-    "NoCustomerAffected": 13,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -60,21 +60,21 @@
     ],
     "PostCodesRestored": [
       "BN252BP",
+      "BN252DB",
       "BN252DD",
       "BN252DE",
-      "BN252DB",
       "BN252DJ"
     ],
     "PostCodesPlanned": [
       "BN252BP",
+      "BN252DB",
       "BN252DD",
       "BN252DE",
-      "BN252DB",
       "BN252DJ"
     ],
-    "CustomersOnSupply": 23,
-    "CustomersOffSupply": 11,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 34,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -474,9 +474,9 @@
   ],
   "FullPostcodeData": [
     "BN252BP",
+    "BN252DB",
     "BN252DD",
     "BN252DE",
-    "BN252DB",
     "BN252DJ"
   ],
   "PinLatitude": null,
