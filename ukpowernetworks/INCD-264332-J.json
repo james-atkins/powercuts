@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-264332-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-264332-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-264332-J",
   "Steps": [
     {
       "Active": true,
@@ -10,7 +10,7 @@
     },
     {
       "Active": false,
-      "Date": "2021-06-14T20:47:04",
+      "Date": "2021-06-14T20:47:00",
       "Message": "<p>We became aware of a power cut at 20:47. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-14T22:03:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-14T23:16:43.62",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0004088cINCD",
     "IncidentReference": "INCD-264332-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-14T20:50:57",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-06-15T00:30:00",
+    "RestoredDateTime": "2021-06-14T23:16:43.62",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-06-14T20:47:04",
+    "ReceivedDate": "2021-06-14T20:47:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
@@ -74,12 +74,12 @@
     ],
     "PostCodesRestored": [
       "E111EP",
-      "E111JD",
-      "E111JE",
       "E111ES",
       "E111HA",
       "E111HD",
       "E111HF",
+      "E111JD",
+      "E111JE",
       "E111JG",
       "E111JS",
       "E111JX",
@@ -87,20 +87,20 @@
     ],
     "PostCodesPlanned": [
       "E111EP",
-      "E111JD",
-      "E111JE",
       "E111ES",
       "E111HA",
       "E111HD",
       "E111HF",
+      "E111JD",
+      "E111JE",
       "E111JG",
       "E111JS",
       "E111JX",
       "E111LS"
     ],
-    "CustomersOnSupply": 96,
-    "CustomersOffSupply": 49,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 145,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -868,12 +868,12 @@
   ],
   "FullPostcodeData": [
     "E111EP",
-    "E111JD",
-    "E111JE",
     "E111ES",
     "E111HA",
     "E111HD",
     "E111HF",
+    "E111JD",
+    "E111JE",
     "E111JG",
     "E111JS",
     "E111JX",
@@ -882,7 +882,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "00:00 - 01:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
