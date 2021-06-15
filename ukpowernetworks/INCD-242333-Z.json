@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-242333-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242333-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-242333-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-14T11:22:15",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-15T05:11:13.473",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b29dINCD",
     "IncidentReference": "INCD-242333-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-14T09:16:00",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-15T05:11:13.473",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-14T09:11:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "MK42 8"
     ],
     "PostCodesRestored": [
-      "MK428QB",
       "MK428BL",
       "MK428BP",
       "MK428HP",
@@ -67,10 +66,10 @@
       "MK428HS",
       "MK428PH",
       "MK428PN",
-      "MK428PP"
+      "MK428PP",
+      "MK428QB"
     ],
     "PostCodesPlanned": [
-      "MK428QB",
       "MK428BL",
       "MK428BP",
       "MK428HP",
@@ -78,11 +77,12 @@
       "MK428HS",
       "MK428PH",
       "MK428PN",
-      "MK428PP"
+      "MK428PP",
+      "MK428QB"
     ],
-    "CustomersOnSupply": 96,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 97,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -585,7 +585,6 @@
     }
   ],
   "FullPostcodeData": [
-    "MK428QB",
     "MK428BL",
     "MK428BP",
     "MK428HP",
@@ -593,7 +592,8 @@
     "MK428HS",
     "MK428PH",
     "MK428PN",
-    "MK428PP"
+    "MK428PP",
+    "MK428QB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
