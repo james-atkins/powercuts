@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-242809-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242809-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-242809-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-16T18:43:39",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-16T20:13:30.237",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b479INCD",
     "IncidentReference": "INCD-242809-Z",
     "IncidentCategory": "52",
     "IncidentType": 4,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 20,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-16T18:18:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-16T20:13:30.237",
     "EstimatedRestorationDate": "2021-06-16T20:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-16T18:14:00",
-    "NoCustomerAffected": 230,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 19,
     "Latitude": 0.0,
@@ -94,10 +94,10 @@
       "LU40DG",
       "LU40DQ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 230,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 230,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
