@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-58750-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-58750-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-58750-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-15T11:33:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-16T12:18:18.41",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000e57eINCD",
     "IncidentReference": "INCD-58750-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-15T10:12:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-16T12:18:18.41",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-15T10:11:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,25 +60,25 @@
       "CT20 2"
     ],
     "PostCodesRestored": [
-      "CT201DW",
       "CT201AU",
+      "CT201DW",
       "CT201RX",
       "CT201RY",
       "CT201WB",
       "CT202AA"
     ],
     "PostCodesPlanned": [
-      "CT201DW",
       "CT201AU",
+      "CT201DW",
       "CT201RX",
       "CT201RY",
       "CT201WB",
       "CT202AA"
     ],
-    "CustomersOnSupply": 21,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 22,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -502,8 +502,8 @@
     }
   ],
   "FullPostcodeData": [
-    "CT201DW",
     "CT201AU",
+    "CT201DW",
     "CT201RX",
     "CT201RY",
     "CT201WB",
