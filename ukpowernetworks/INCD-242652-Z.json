@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-242652-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242652-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-242652-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-16T10:03:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-16T14:05:26.71",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b3dcINCD",
     "IncidentReference": "INCD-242652-Z",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-16T09:13:28",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-16T14:05:26.71",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-16T09:12:48",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -73,25 +73,25 @@
       "RM3 9"
     ],
     "PostCodesRestored": [
-      "RM39AP",
       "RM39AJ",
       "RM39AL",
+      "RM39AP",
       "RM39AR",
       "RM39AS",
       "RM39AT"
     ],
     "PostCodesPlanned": [
-      "RM39AP",
       "RM39AJ",
       "RM39AL",
+      "RM39AP",
       "RM39AR",
       "RM39AS",
       "RM39AT"
     ],
-    "CustomersOnSupply": 43,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 44,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -485,9 +485,9 @@
     }
   ],
   "FullPostcodeData": [
-    "RM39AP",
     "RM39AJ",
     "RM39AL",
+    "RM39AP",
     "RM39AR",
     "RM39AS",
     "RM39AT"
