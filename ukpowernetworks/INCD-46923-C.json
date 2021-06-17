@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-46923-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-46923-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-46923-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-17T11:57:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-17T20:50:40.543",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000b74bINCD",
     "IncidentReference": "INCD-46923-C",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-17T11:43:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-17T20:50:40.543",
     "EstimatedRestorationDate": "2021-06-17T21:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-17T11:42:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,22 +59,22 @@
       "LU2 9"
     ],
     "PostCodesRestored": [
-      "LU29HP",
       "LU29HJ",
       "LU29HL",
       "LU29HN",
+      "LU29HP",
       "LU29HW"
     ],
     "PostCodesPlanned": [
-      "LU29HP",
       "LU29HJ",
       "LU29HL",
       "LU29HN",
+      "LU29HP",
       "LU29HW"
     ],
-    "CustomersOnSupply": 87,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 92,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -753,10 +753,10 @@
     }
   ],
   "FullPostcodeData": [
-    "LU29HP",
     "LU29HJ",
     "LU29HL",
     "LU29HN",
+    "LU29HP",
     "LU29HW"
   ],
   "PinLatitude": null,
