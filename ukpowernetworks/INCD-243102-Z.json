@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-243102-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243102-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243102-Z",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-06-17T14:58:08.117",
+      "Message": "Update at 14:58 - We're sorry your power has gone off again. We know there is an underlying issue causing the recent power cuts, and engineers are on site carrying out investigations and repairs to faulty street lights, so they are now checking the cabling route through the area to check for any faults that have caused your power to go off this afternoon. We know that our customers are more worried than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. We'll keep you updated.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-06-17T14:26:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-17T14:38:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-17T15:04:20.6974705+01:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b59eINCD",
     "IncidentReference": "INCD-243102-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-17T14:29:35",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-17T15:04:20.6974705+01:00",
     "EstimatedRestorationDate": "2021-06-17T16:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-17T14:26:00",
-    "NoCustomerAffected": 9,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-06-17T14:58:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 14:58 - We're sorry your power has gone off again. We know there is an underlying issue causing the recent power cuts, and engineers are on site carrying out investigations and repairs to faulty street lights, so they are now checking the cabling route through the area to check for any faults that have caused your power to go off this afternoon. We know that our customers are more worried than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. We'll keep you updated.",
+        "LoggedTime": "2021-06-17T14:58:08.117"
+      }
+    ],
     "PostCodesAffected": [
       "EN10 7",
       "EN11 8"
@@ -67,9 +81,9 @@
       "EN107LH",
       "EN118BL"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 14,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
