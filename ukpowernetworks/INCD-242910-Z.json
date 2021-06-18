@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-242910-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-242910-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-242910-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-17T06:08:57",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-18T15:38:42.43",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b4deINCD",
     "IncidentReference": "INCD-242910-Z",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-17T04:29:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-18T15:38:42.43",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-17T06:03:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,16 +59,16 @@
       "CO9 2"
     ],
     "PostCodesRestored": [
-      "CO92QD",
-      "CO92NU"
+      "CO92NU",
+      "CO92QD"
     ],
     "PostCodesPlanned": [
-      "CO92QD",
-      "CO92NU"
+      "CO92NU",
+      "CO92QD"
     ],
-    "CustomersOnSupply": 9,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 10,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -527,8 +527,8 @@
     }
   ],
   "FullPostcodeData": [
-    "CO92QD",
-    "CO92NU"
+    "CO92NU",
+    "CO92QD"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
