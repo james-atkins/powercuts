@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-243247-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243247-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243247-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-18T07:47:07",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-18T08:43:24.977",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b62fINCD",
     "IncidentReference": "INCD-243247-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-18T07:07:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-18T08:43:24.977",
     "EstimatedRestorationDate": "2021-06-18T10:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-18T06:55:46",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -60,21 +60,21 @@
     ],
     "PostCodesRestored": [
       "CM40QL",
-      "CM40QW",
-      "CM40SB",
       "CM40QP",
-      "CM40QY"
+      "CM40QW",
+      "CM40QY",
+      "CM40SB"
     ],
     "PostCodesPlanned": [
       "CM40QL",
-      "CM40QW",
-      "CM40SB",
       "CM40QP",
-      "CM40QY"
+      "CM40QW",
+      "CM40QY",
+      "CM40SB"
     ],
-    "CustomersOnSupply": 24,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 34,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -890,10 +890,10 @@
   ],
   "FullPostcodeData": [
     "CM40QL",
-    "CM40QW",
-    "CM40SB",
     "CM40QP",
-    "CM40QY"
+    "CM40QW",
+    "CM40QY",
+    "CM40SB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
