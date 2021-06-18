@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-243559-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243559-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243559-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-06-18T18:24:33.913",
+      "Message": "Update at 18:24 - Our staff are on site in the Bideford Road area. They will start running tests at our substation to see how the local network is operating. It's quite common for power to be restored briefly and go off again; this is our engineers using testing equipment to energise different sections of our network - this helps to narrow down any possible issues. Our cabling network is often broken down by smaller sites, and our staff may also check these to test for any problems, and they may also walk the cabling route to see if there are any signs of malfunction that have appeared on the surface. Our timeframe to have power back is between 21:00 and 22:00. So for now I'll let you know more news as soon as our staff update us.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-06-18T17:08:14",
+      "Date": "2021-06-18T17:08:00",
       "Message": "<p>We became aware of a power cut at 17:08. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-18T18:16:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-18T18:44:11.51",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b767INCD",
     "IncidentReference": "INCD-243559-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-18T17:13:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-18T18:44:11.51",
     "EstimatedRestorationDate": "2021-06-18T21:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-06-18T17:08:14",
+    "ReceivedDate": "2021-06-18T17:08:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
@@ -54,7 +60,15 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-06-18T18:24:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 18:24 - Our staff are on site in the Bideford Road area. They will start running tests at our substation to see how the local network is operating. It's quite common for power to be restored briefly and go off again; this is our engineers using testing equipment to energise different sections of our network - this helps to narrow down any possible issues. Our cabling network is often broken down by smaller sites, and our staff may also check these to test for any problems, and they may also walk the cabling route to see if there are any signs of malfunction that have appeared on the surface. Our timeframe to have power back is between 21:00 and 22:00. So for now I'll let you know more news as soon as our staff update us.",
+        "LoggedTime": "2021-06-18T18:24:33.913"
+      }
+    ],
     "PostCodesAffected": [
       "HA4 0"
     ],
@@ -74,9 +88,9 @@
       "HA40UB",
       "HA40UD"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 52,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 52,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
