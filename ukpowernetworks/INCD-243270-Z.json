@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-243270-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243270-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243270-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-18T19:54:26.943",
-      "Message": "Update at 19:54 - Hi, this is Lee from the UK Power Networks messaging team. Thanks for your patience. Our engineers have been in contact with us to let us know that due to the amount of work still needed to repair a faulty piece of network equipment .To give them time to do this safely, the estimated timeframe to restore your power is now between 03:30 and 04:30. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
+      "Date": "2021-06-18T20:44:16.53",
+      "Message": "Update at 20:44 - We can now confirm that all power in the 20:43 should be back on. The issue was due to an underground cable fault, however engineers have managed to restore power from the substation nearby, and will be investigating the root cause. If there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-18T08:55:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-18T20:39:54.68",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b646INCD",
     "IncidentReference": "INCD-243270-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-18T08:00:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-18T20:39:54.68",
     "EstimatedRestorationDate": "2021-06-19T04:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-18T07:59:13",
-    "NoCustomerAffected": 8,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-18T19:54:00",
+        "ActualEventTime": "2021-06-18T20:44:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 19:54 - Hi, this is Lee from the UK Power Networks messaging team. Thanks for your patience. Our engineers have been in contact with us to let us know that due to the amount of work still needed to repair a faulty piece of network equipment .To give them time to do this safely, the estimated timeframe to restore your power is now between 03:30 and 04:30. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
-        "LoggedTime": "2021-06-18T19:54:26.943"
+        "Comment": "Update at 20:44 - We can now confirm that all power in the 20:43 should be back on. The issue was due to an underground cable fault, however engineers have managed to restore power from the substation nearby, and will be investigating the root cause. If there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-06-18T20:44:16.53"
       }
     ],
     "PostCodesAffected": [
@@ -74,22 +74,22 @@
       "SS2 6"
     ],
     "PostCodesRestored": [
-      "SS00LD",
       "SS00JU",
+      "SS00LD",
       "SS00NW",
       "SS00RL",
       "SS26RL"
     ],
     "PostCodesPlanned": [
-      "SS00LD",
       "SS00JU",
+      "SS00LD",
       "SS00NW",
       "SS00RL",
       "SS26RL"
     ],
-    "CustomersOnSupply": 33,
-    "CustomersOffSupply": 8,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 41,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1430,8 +1430,8 @@
     }
   ],
   "FullPostcodeData": [
-    "SS00LD",
     "SS00JU",
+    "SS00LD",
     "SS00NW",
     "SS00RL",
     "SS26RL"
