@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-243463-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243463-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243463-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-18T14:42:03.71",
-      "Message": "Update at 14:41 - Hi, this is David from the messaging team here at UK Power Networks. Just to let you know our staff are on their way back to the Ridgeway area to get your power back on. I appreciate losing power multiple times on the same day is frustrating, so thanks for bearing with us while we work to fix these issues. At the moment, our estimated timeframe for power is between 17;30 and 18:30. However, as before there is a chance this could change depending on what our staff discover when they arrive. I'll be on hand to advise updates until your power is back up and running, but you can always reach our team on 105 if you need to speak to us.",
+      "Date": "2021-06-18T15:49:34.423",
+      "Message": "Update at 15;49 - Our staff have now arrived on site in the Ridgeway area. Due to there being multiple power cuts over a short space of time, our engineers are going to be starting their tests at the nearby substation. Our current timeframe is between 17:30 and 18;30; this is an estimate based on them checking the state of our network, and attempting to restore your power. It's possible that the underground cabling fault we believe has been causing these power cuts has reach a point where they can't safely replace our substation equipment. If this happens we'll need to arrange further teams and equipment, so I'll let you know more news as soon as our staff update us.",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2021-06-18T13:38:41",
+      "Date": "2021-06-18T13:38:00",
       "Message": "<p>We became aware of a power cut at 13:38. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-18T15:44:21",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-18T16:02:39.71",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b707INCD",
     "IncidentReference": "INCD-243463-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-18T13:43:57",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-18T16:02:39.71",
     "EstimatedRestorationDate": "2021-06-18T18:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-06-18T13:38:41",
+    "ReceivedDate": "2021-06-18T13:38:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-18T14:41:00",
+        "ActualEventTime": "2021-06-18T15:49:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 14:41 - Hi, this is David from the messaging team here at UK Power Networks. Just to let you know our staff are on their way back to the Ridgeway area to get your power back on. I appreciate losing power multiple times on the same day is frustrating, so thanks for bearing with us while we work to fix these issues. At the moment, our estimated timeframe for power is between 17;30 and 18:30. However, as before there is a chance this could change depending on what our staff discover when they arrive. I'll be on hand to advise updates until your power is back up and running, but you can always reach our team on 105 if you need to speak to us.",
-        "LoggedTime": "2021-06-18T14:42:03.71"
+        "Comment": "Update at 15;49 - Our staff have now arrived on site in the Ridgeway area. Due to there being multiple power cuts over a short space of time, our engineers are going to be starting their tests at the nearby substation. Our current timeframe is between 17:30 and 18;30; this is an estimate based on them checking the state of our network, and attempting to restore your power. It's possible that the underground cabling fault we believe has been causing these power cuts has reach a point where they can't safely replace our substation equipment. If this happens we'll need to arrange further teams and equipment, so I'll let you know more news as soon as our staff update us.",
+        "LoggedTime": "2021-06-18T15:49:34.423"
       }
     ],
     "PostCodesAffected": [
@@ -89,9 +89,9 @@
       "HA74BD",
       "HA74BE"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 77,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 77,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
