@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-243420-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243420-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243420-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-18T12:50:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-18T21:13:05.81",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b6dcINCD",
     "IncidentReference": "INCD-243420-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-18T12:24:08",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-18T21:13:05.81",
     "EstimatedRestorationDate": "2021-06-18T21:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-18T12:17:00",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "CO5 7"
     ],
     "PostCodesRestored": [
-      "CO57HG",
       "CO57EN",
+      "CO57HG",
       "CO57HJ"
     ],
     "PostCodesPlanned": [
-      "CO57HG",
       "CO57EN",
+      "CO57HG",
       "CO57HJ"
     ],
-    "CustomersOnSupply": 28,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 34,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -789,8 +789,8 @@
     }
   ],
   "FullPostcodeData": [
-    "CO57HG",
     "CO57EN",
+    "CO57HG",
     "CO57HJ"
   ],
   "PinLatitude": null,
