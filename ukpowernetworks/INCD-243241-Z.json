@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-243241-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243241-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243241-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-18T10:18:13.027",
-      "Message": "Update at 10:17 - We've managed to restore power to a further 108 supplies by remotely diverting power. There are now 44 properties still affected, so your power may have come on sooner than we originally advised. Currently due to the amount of work still to do we are estimating between 10:30 and 11:30 to have the power back on. If you're still off, please don't worry; work on the issue will continue along with SMS updates until everyone is back on. To stop receiving texts, just follow this link <a href=\"https://bit.ly/348KOZ3\" target=\"_blank\">https://bit.ly/348KOZ3</a> to unsubscribe.",
+      "Date": "2021-06-18T13:11:55.913",
+      "Message": "Update at 13:11 - We believe our engineers have been able to restore power to all 606 customers in the Crow Spinney Lane area, by diverting power around the overhead cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know your power may have been off for a long time, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-18T07:46:58",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-18T13:00:12.103",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b629INCD",
     "IncidentReference": "INCD-243241-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-18T06:51:19",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-06-18T11:00:00",
+    "RestoredDateTime": "2021-06-18T13:00:12.103",
+    "EstimatedRestorationDate": "2021-06-18T16:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-18T06:51:17",
-    "NoCustomerAffected": 19,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -57,16 +57,16 @@
       "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
       "DispatchedDate": "2021-06-18T07:11:11",
       "ArrivalDate": "2021-06-18T07:46:58",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-18T10:16:00",
+        "ActualEventTime": "2021-06-18T13:11:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:17 - We've managed to restore power to a further 108 supplies by remotely diverting power. There are now 44 properties still affected, so your power may have come on sooner than we originally advised. Currently due to the amount of work still to do we are estimating between 10:30 and 11:30 to have the power back on. If you're still off, please don't worry; work on the issue will continue along with SMS updates until everyone is back on. To stop receiving texts, just follow this link https://bit.ly/348KOZ3 to unsubscribe.",
-        "LoggedTime": "2021-06-18T10:18:13.027"
+        "Comment": "Update at 13:11 - We believe our engineers have been able to restore power to all 606 customers in the Crow Spinney Lane area, by diverting power around the overhead cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We know your power may have been off for a long time, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-06-18T13:11:55.913"
       }
     ],
     "PostCodesAffected": [
@@ -76,7 +76,6 @@
       "IP26 6"
     ],
     "PostCodesRestored": [
-      "IP265AT",
       "IP241EY",
       "IP256AB",
       "IP256DB",
@@ -95,6 +94,7 @@
       "IP265AP",
       "IP265AQ",
       "IP265AR",
+      "IP265AT",
       "IP265AU",
       "IP265AW",
       "IP265AX",
@@ -132,7 +132,6 @@
       "UMS"
     ],
     "PostCodesPlanned": [
-      "IP265AT",
       "IP241EY",
       "IP256AB",
       "IP256DB",
@@ -151,6 +150,7 @@
       "IP265AP",
       "IP265AQ",
       "IP265AR",
+      "IP265AT",
       "IP265AU",
       "IP265AW",
       "IP265AX",
@@ -187,9 +187,9 @@
       "IP266LB",
       "UMS"
     ],
-    "CustomersOnSupply": 574,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 592,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -200,235 +200,6 @@
     "IP26 6"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 52.53155,
-        "lng": 0.66283
-      },
-      "Coordinates": [
-        {
-          "lat": 52.47637,
-          "lng": 0.72682
-        },
-        {
-          "lat": 52.47672,
-          "lng": 0.71079
-        },
-        {
-          "lat": 52.4714,
-          "lng": 0.69698
-        },
-        {
-          "lat": 52.47664,
-          "lng": 0.67867
-        },
-        {
-          "lat": 52.47363,
-          "lng": 0.66863
-        },
-        {
-          "lat": 52.48344,
-          "lng": 0.65958
-        },
-        {
-          "lat": 52.48179,
-          "lng": 0.63198
-        },
-        {
-          "lat": 52.48268,
-          "lng": 0.6296
-        },
-        {
-          "lat": 52.4917,
-          "lng": 0.61906
-        },
-        {
-          "lat": 52.4916,
-          "lng": 0.61779
-        },
-        {
-          "lat": 52.49132,
-          "lng": 0.61139
-        },
-        {
-          "lat": 52.50614,
-          "lng": 0.59121
-        },
-        {
-          "lat": 52.51497,
-          "lng": 0.6009
-        },
-        {
-          "lat": 52.51635,
-          "lng": 0.59945
-        },
-        {
-          "lat": 52.52029,
-          "lng": 0.5955
-        },
-        {
-          "lat": 52.5253,
-          "lng": 0.59047
-        },
-        {
-          "lat": 52.52618,
-          "lng": 0.58809
-        },
-        {
-          "lat": 52.52579,
-          "lng": 0.57807
-        },
-        {
-          "lat": 52.53367,
-          "lng": 0.57661
-        },
-        {
-          "lat": 52.53404,
-          "lng": 0.57615
-        },
-        {
-          "lat": 52.53914,
-          "lng": 0.56812
-        },
-        {
-          "lat": 52.54153,
-          "lng": 0.56665
-        },
-        {
-          "lat": 52.5417,
-          "lng": 0.56661
-        },
-        {
-          "lat": 52.54374,
-          "lng": 0.56137
-        },
-        {
-          "lat": 52.54984,
-          "lng": 0.55441
-        },
-        {
-          "lat": 52.55978,
-          "lng": 0.56855
-        },
-        {
-          "lat": 52.56068,
-          "lng": 0.57558
-        },
-        {
-          "lat": 52.56607,
-          "lng": 0.57977
-        },
-        {
-          "lat": 52.56973,
-          "lng": 0.59069
-        },
-        {
-          "lat": 52.5733,
-          "lng": 0.59579
-        },
-        {
-          "lat": 52.57514,
-          "lng": 0.59978
-        },
-        {
-          "lat": 52.57675,
-          "lng": 0.61098
-        },
-        {
-          "lat": 52.57684,
-          "lng": 0.61567
-        },
-        {
-          "lat": 52.5766,
-          "lng": 0.62087
-        },
-        {
-          "lat": 52.5774,
-          "lng": 0.62503
-        },
-        {
-          "lat": 52.57218,
-          "lng": 0.63945
-        },
-        {
-          "lat": 52.57878,
-          "lng": 0.65812
-        },
-        {
-          "lat": 52.59103,
-          "lng": 0.65748
-        },
-        {
-          "lat": 52.59583,
-          "lng": 0.69269
-        },
-        {
-          "lat": 52.59863,
-          "lng": 0.69703
-        },
-        {
-          "lat": 52.59276,
-          "lng": 0.70563
-        },
-        {
-          "lat": 52.57787,
-          "lng": 0.71329
-        },
-        {
-          "lat": 52.5712,
-          "lng": 0.71105
-        },
-        {
-          "lat": 52.56416,
-          "lng": 0.71308
-        },
-        {
-          "lat": 52.56038,
-          "lng": 0.72115
-        },
-        {
-          "lat": 52.55178,
-          "lng": 0.73156
-        },
-        {
-          "lat": 52.53676,
-          "lng": 0.7284
-        },
-        {
-          "lat": 52.5316,
-          "lng": 0.73402
-        },
-        {
-          "lat": 52.51686,
-          "lng": 0.74752
-        },
-        {
-          "lat": 52.51452,
-          "lng": 0.74967
-        },
-        {
-          "lat": 52.51289,
-          "lng": 0.75309
-        },
-        {
-          "lat": 52.49984,
-          "lng": 0.75058
-        },
-        {
-          "lat": 52.49747,
-          "lng": 0.74731
-        },
-        {
-          "lat": 52.49524,
-          "lng": 0.74451
-        },
-        {
-          "lat": 52.47637,
-          "lng": 0.72682
-        }
-      ],
-      "Postcode": "IP26 5"
-    },
     {
       "Center": {
         "lat": 52.47912,
@@ -1314,10 +1085,238 @@
         }
       ],
       "Postcode": "IP25 6"
+    },
+    {
+      "Center": {
+        "lat": 52.53155,
+        "lng": 0.66283
+      },
+      "Coordinates": [
+        {
+          "lat": 52.47637,
+          "lng": 0.72682
+        },
+        {
+          "lat": 52.47672,
+          "lng": 0.71079
+        },
+        {
+          "lat": 52.4714,
+          "lng": 0.69698
+        },
+        {
+          "lat": 52.47664,
+          "lng": 0.67867
+        },
+        {
+          "lat": 52.47363,
+          "lng": 0.66863
+        },
+        {
+          "lat": 52.48344,
+          "lng": 0.65958
+        },
+        {
+          "lat": 52.48179,
+          "lng": 0.63198
+        },
+        {
+          "lat": 52.48268,
+          "lng": 0.6296
+        },
+        {
+          "lat": 52.4917,
+          "lng": 0.61906
+        },
+        {
+          "lat": 52.4916,
+          "lng": 0.61779
+        },
+        {
+          "lat": 52.49132,
+          "lng": 0.61139
+        },
+        {
+          "lat": 52.50614,
+          "lng": 0.59121
+        },
+        {
+          "lat": 52.51497,
+          "lng": 0.6009
+        },
+        {
+          "lat": 52.51635,
+          "lng": 0.59945
+        },
+        {
+          "lat": 52.52029,
+          "lng": 0.5955
+        },
+        {
+          "lat": 52.5253,
+          "lng": 0.59047
+        },
+        {
+          "lat": 52.52618,
+          "lng": 0.58809
+        },
+        {
+          "lat": 52.52579,
+          "lng": 0.57807
+        },
+        {
+          "lat": 52.53367,
+          "lng": 0.57661
+        },
+        {
+          "lat": 52.53404,
+          "lng": 0.57615
+        },
+        {
+          "lat": 52.53914,
+          "lng": 0.56812
+        },
+        {
+          "lat": 52.54153,
+          "lng": 0.56665
+        },
+        {
+          "lat": 52.5417,
+          "lng": 0.56661
+        },
+        {
+          "lat": 52.54374,
+          "lng": 0.56137
+        },
+        {
+          "lat": 52.54984,
+          "lng": 0.55441
+        },
+        {
+          "lat": 52.55978,
+          "lng": 0.56855
+        },
+        {
+          "lat": 52.56068,
+          "lng": 0.57558
+        },
+        {
+          "lat": 52.56607,
+          "lng": 0.57977
+        },
+        {
+          "lat": 52.56973,
+          "lng": 0.59069
+        },
+        {
+          "lat": 52.5733,
+          "lng": 0.59579
+        },
+        {
+          "lat": 52.57514,
+          "lng": 0.59978
+        },
+        {
+          "lat": 52.57675,
+          "lng": 0.61098
+        },
+        {
+          "lat": 52.57684,
+          "lng": 0.61567
+        },
+        {
+          "lat": 52.5766,
+          "lng": 0.62087
+        },
+        {
+          "lat": 52.5774,
+          "lng": 0.62503
+        },
+        {
+          "lat": 52.57218,
+          "lng": 0.63945
+        },
+        {
+          "lat": 52.57878,
+          "lng": 0.65812
+        },
+        {
+          "lat": 52.59103,
+          "lng": 0.65748
+        },
+        {
+          "lat": 52.59583,
+          "lng": 0.69269
+        },
+        {
+          "lat": 52.59863,
+          "lng": 0.69703
+        },
+        {
+          "lat": 52.59276,
+          "lng": 0.70563
+        },
+        {
+          "lat": 52.57787,
+          "lng": 0.71329
+        },
+        {
+          "lat": 52.5712,
+          "lng": 0.71105
+        },
+        {
+          "lat": 52.56416,
+          "lng": 0.71308
+        },
+        {
+          "lat": 52.56038,
+          "lng": 0.72115
+        },
+        {
+          "lat": 52.55178,
+          "lng": 0.73156
+        },
+        {
+          "lat": 52.53676,
+          "lng": 0.7284
+        },
+        {
+          "lat": 52.5316,
+          "lng": 0.73402
+        },
+        {
+          "lat": 52.51686,
+          "lng": 0.74752
+        },
+        {
+          "lat": 52.51452,
+          "lng": 0.74967
+        },
+        {
+          "lat": 52.51289,
+          "lng": 0.75309
+        },
+        {
+          "lat": 52.49984,
+          "lng": 0.75058
+        },
+        {
+          "lat": 52.49747,
+          "lng": 0.74731
+        },
+        {
+          "lat": 52.49524,
+          "lng": 0.74451
+        },
+        {
+          "lat": 52.47637,
+          "lng": 0.72682
+        }
+      ],
+      "Postcode": "IP26 5"
     }
   ],
   "FullPostcodeData": [
-    "IP265AT",
     "IP241EY",
     "IP256AB",
     "IP256DB",
@@ -1336,6 +1335,7 @@
     "IP265AP",
     "IP265AQ",
     "IP265AR",
+    "IP265AT",
     "IP265AU",
     "IP265AW",
     "IP265AX",
@@ -1374,8 +1374,8 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "10:30 - 11:30",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "15:30 - 16:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
