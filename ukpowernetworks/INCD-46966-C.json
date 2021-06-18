@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-46966-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-46966-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-46966-C",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-18T16:32:46.35",
-      "Message": "Hi - this is an alert from UK Power Networks. We have an ongoing problem on the local electricity network which has been causing unplanned power cuts recently, and we've been made aware power has gone off again. My name is Lee , I work on the messaging team at UK Power Networks and I just wanted to inform you that we know about this, and if your electricity is off again you can get live updates on today's power cut from my team on our power cut map at <a href=\"http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID].\" target=\"_blank\">http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID].</a> If you need extra help or support, or just want to speak to us about anything, call us on 105.",
+      "Date": "2021-06-18T17:07:32.907",
+      "Message": "Update at 17:07 - This is Jim from the messaging team once more, as I'm glad to report power to the Grasmere Road, N17 area should now be back on. Our engineers have now replaced the safety equipment within the specialist device we have installed at the local substation, and the diagnostic data it has recorded will help us narrow down where the issue is coming from. I'm afraid this may happen again, but every time you lose power it gives us a better chance of pinpointing the problem. I'm sorry for the continued disruption, but If you'd like to talk to us or if your power isn't on, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-18T16:31:32",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-18T16:54:41.807",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000b776INCD",
     "IncidentReference": "INCD-46966-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-18T16:27:57",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-06-18T16:54:41.807",
+    "EstimatedRestorationDate": "2021-06-18T18:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-18T14:31:00",
-    "NoCustomerAffected": 28,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-18T16:32:00",
+        "ActualEventTime": "2021-06-18T17:05:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Hi - this is an alert from UK Power Networks. We have an ongoing problem on the local electricity network which has been causing unplanned power cuts recently, and we've been made aware power has gone off again. My name is Lee , I work on the messaging team at UK Power Networks and I just wanted to inform you that we know about this, and if your electricity is off again you can get live updates on today's power cut from my team on our power cut map at http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID]. If you need extra help or support, or just want to speak to us about anything, call us on 105.",
-        "LoggedTime": "2021-06-18T16:32:46.35"
+        "Comment": "Update at 17:07 - This is Jim from the messaging team once more, as I'm glad to report power to the Grasmere Road, N17 area should now be back on. Our engineers have now replaced the safety equipment within the specialist device we have installed at the local substation, and the diagnostic data it has recorded will help us narrow down where the issue is coming from. I'm afraid this may happen again, but every time you lose power it gives us a better chance of pinpointing the problem. I'm sorry for the continued disruption, but If you'd like to talk to us or if your power isn't on, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-06-18T17:07:32.907"
       }
     ],
     "PostCodesAffected": [
@@ -86,9 +86,9 @@
       "N170EX",
       "N170HE"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 85,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 85,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -608,7 +608,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "18:00 - 19:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
