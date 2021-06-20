@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-243837-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243837-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243837-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-20T10:20:38.86",
-      "Message": "Update at 10:20 - Our engineers have confirmed that a damaged underground cable is the cause of the power cut today. They are making repairs though as we're not far from the estimated timeframe previously advised, it's possible that this may change. As soon as we have further information from site, we'll let you know.",
+      "Date": "2021-06-20T10:46:40.19",
+      "Message": "Update at 10:46 - It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers have advised that additional repairs are required and will take them longer than first expected. Therefore, we're now aiming to restore supplies between 11:00 and 12:00. We're sorry we've had to change the estimated time, but we'll keep you updated.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-20T08:38:36",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-20T10:47:10.603",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b87dINCD",
     "IncidentReference": "INCD-243837-Z",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-20T06:37:19",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-06-20T10:30:00",
+    "RestoredDateTime": "2021-06-20T10:47:10.603",
+    "EstimatedRestorationDate": "2021-06-20T11:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-20T06:15:00",
-    "NoCustomerAffected": 13,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-20T10:20:00",
+        "ActualEventTime": "2021-06-20T10:46:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:20 - Our engineers have confirmed that a damaged underground cable is the cause of the power cut today. They are making repairs though as we're not far from the estimated timeframe previously advised, it's possible that this may change. As soon as we have further information from site, we'll let you know.",
-        "LoggedTime": "2021-06-20T10:20:38.86"
+        "Comment": "Update at 10:46 - It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers have advised that additional repairs are required and will take them longer than first expected. Therefore, we're now aiming to restore supplies between 11:00 and 12:00. We're sorry we've had to change the estimated time, but we'll keep you updated.",
+        "LoggedTime": "2021-06-20T10:46:40.19"
       }
     ],
     "PostCodesAffected": [
@@ -88,9 +88,9 @@
       "NR129NG",
       "NR129NH"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 40,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 40,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -547,7 +547,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We were investigating an electricity cable that was damaged, causing a power cut in the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "10:00 - 11:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "11:00 - 12:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
