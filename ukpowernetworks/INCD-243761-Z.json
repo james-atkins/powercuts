@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-243761-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243761-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243761-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-06-20T11:12:41",
-      "Message": "<p>We became aware of a power cut at 11:12. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-06-20T11:00:00",
+      "Message": "<p>We became aware of a power cut at 11:00. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-19T18:59:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-20T11:58:56.503",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b831INCD",
     "IncidentReference": "INCD-243761-Z",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-19T15:23:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-20T11:58:56.503",
     "EstimatedRestorationDate": "2021-06-20T12:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-06-20T11:12:41",
+    "ReceivedDate": "2021-06-20T11:00:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
@@ -61,24 +61,24 @@
     "PostCodesRestored": [
       "IP286DG",
       "IP286SA",
-      "IP286SE",
-      "IP286SL",
       "IP286SD",
+      "IP286SE",
       "IP286SF",
-      "IP286SG"
+      "IP286SG",
+      "IP286SL"
     ],
     "PostCodesPlanned": [
       "IP286DG",
       "IP286SA",
-      "IP286SE",
-      "IP286SL",
       "IP286SD",
+      "IP286SE",
       "IP286SF",
-      "IP286SG"
+      "IP286SG",
+      "IP286SL"
     ],
-    "CustomersOnSupply": 25,
-    "CustomersOffSupply": 49,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 74,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -631,11 +631,11 @@
   "FullPostcodeData": [
     "IP286DG",
     "IP286SA",
-    "IP286SE",
-    "IP286SL",
     "IP286SD",
+    "IP286SE",
     "IP286SF",
-    "IP286SG"
+    "IP286SG",
+    "IP286SL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
