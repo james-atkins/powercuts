@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-243818-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243818-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243818-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-20T06:08:50",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-20T11:09:41.67",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b86aINCD",
     "IncidentReference": "INCD-243818-Z",
     "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-20T03:50:51",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-20T11:09:41.67",
     "EstimatedRestorationDate": "2021-06-20T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-20T03:48:00",
-    "NoCustomerAffected": 8,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "IP28 8"
     ],
     "PostCodesRestored": [
-      "IP288LZ",
       "IP288LT",
       "IP288LY",
+      "IP288LZ",
       "IP288NL"
     ],
     "PostCodesPlanned": [
-      "IP288LZ",
       "IP288LT",
       "IP288LY",
+      "IP288LZ",
       "IP288NL"
     ],
-    "CustomersOnSupply": 27,
-    "CustomersOffSupply": 8,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 35,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -583,9 +583,9 @@
     }
   ],
   "FullPostcodeData": [
-    "IP288LZ",
     "IP288LT",
     "IP288LY",
+    "IP288LZ",
     "IP288NL"
   ],
   "PinLatitude": null,
