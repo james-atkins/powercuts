@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-252210-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-252210-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-252210-G",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-21T05:15:33",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-21T06:02:11.88",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003d932INCD",
     "IncidentReference": "INCD-252210-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-21T03:50:31",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-21T06:02:11.88",
     "EstimatedRestorationDate": "2021-06-21T08:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-21T03:49:00",
-    "NoCustomerAffected": 178,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 1,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -70,6 +70,7 @@
       "TN12DF",
       "TN12DL",
       "TN12DN",
+      "TN12DP",
       "TN12DQ",
       "TN12DR",
       "TN12DS",
@@ -77,8 +78,7 @@
       "TN12QH",
       "TN12QJ",
       "TN12RZ",
-      "TN12SB",
-      "TN12DP"
+      "TN12SB"
     ],
     "PostCodesPlanned": [
       "TN12BT",
@@ -92,6 +92,7 @@
       "TN12DF",
       "TN12DL",
       "TN12DN",
+      "TN12DP",
       "TN12DQ",
       "TN12DR",
       "TN12DS",
@@ -99,13 +100,12 @@
       "TN12QH",
       "TN12QJ",
       "TN12RZ",
-      "TN12SB",
-      "TN12DP"
+      "TN12SB"
     ],
-    "CustomersOnSupply": 81,
-    "CustomersOffSupply": 162,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 243,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -622,6 +622,7 @@
     "TN12DF",
     "TN12DL",
     "TN12DN",
+    "TN12DP",
     "TN12DQ",
     "TN12DR",
     "TN12DS",
@@ -629,8 +630,7 @@
     "TN12QH",
     "TN12QJ",
     "TN12RZ",
-    "TN12SB",
-    "TN12DP"
+    "TN12SB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
