@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-243957-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243957-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243957-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-21T12:00:59",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-21T12:43:34.85",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b8f5INCD",
     "IncidentReference": "INCD-243957-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-21T09:07:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-21T12:43:34.85",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-21T09:03:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -60,7 +60,6 @@
     ],
     "PostCodesRestored": [
       "IP30DF",
-      "IP30HH",
       "IP30EW",
       "IP30EY",
       "IP30EZ",
@@ -69,6 +68,7 @@
       "IP30HD",
       "IP30HE",
       "IP30HG",
+      "IP30HH",
       "IP30HJ",
       "IP30HL",
       "IP30HN",
@@ -85,7 +85,6 @@
     ],
     "PostCodesPlanned": [
       "IP30DF",
-      "IP30HH",
       "IP30EW",
       "IP30EY",
       "IP30EZ",
@@ -94,6 +93,7 @@
       "IP30HD",
       "IP30HE",
       "IP30HG",
+      "IP30HH",
       "IP30HJ",
       "IP30HL",
       "IP30HN",
@@ -108,9 +108,9 @@
       "IP30JE",
       "IP30JF"
     ],
-    "CustomersOnSupply": 364,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 366,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -682,7 +682,6 @@
   ],
   "FullPostcodeData": [
     "IP30DF",
-    "IP30HH",
     "IP30EW",
     "IP30EY",
     "IP30EZ",
@@ -691,6 +690,7 @@
     "IP30HD",
     "IP30HE",
     "IP30HG",
+    "IP30HH",
     "IP30HJ",
     "IP30HL",
     "IP30HN",
