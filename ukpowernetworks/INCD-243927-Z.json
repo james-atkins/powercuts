@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-243927-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243927-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243927-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-20T23:56:48",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-21T13:27:23.55",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b8d7INCD",
     "IncidentReference": "INCD-243927-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-20T22:47:26",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-21T13:27:23.55",
     "EstimatedRestorationDate": "2021-06-21T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-20T22:47:20",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 31,
     "Latitude": 0.0,
@@ -82,8 +82,6 @@
       "WD3 1"
     ],
     "PostCodesRestored": [
-      "CB16PW",
-      "CB214EN",
       "CB16HS",
       "CB16HT",
       "CB16HU",
@@ -122,6 +120,7 @@
       "CB16PP",
       "CB16PQ",
       "CB16PS",
+      "CB16PW",
       "CB16PY",
       "CB16XQ",
       "CB16YL",
@@ -131,6 +130,7 @@
       "CB214AF",
       "CB214AG",
       "CB214AH",
+      "CB214EN",
       "CB214FD",
       "CB214HG",
       "CB214HJ",
@@ -249,8 +249,6 @@
       "WD31AB"
     ],
     "PostCodesPlanned": [
-      "CB16PW",
-      "CB214EN",
       "CB16HS",
       "CB16HT",
       "CB16HU",
@@ -289,6 +287,7 @@
       "CB16PP",
       "CB16PQ",
       "CB16PS",
+      "CB16PW",
       "CB16PY",
       "CB16XQ",
       "CB16YL",
@@ -298,6 +297,7 @@
       "CB214AF",
       "CB214AG",
       "CB214AH",
+      "CB214EN",
       "CB214FD",
       "CB214HG",
       "CB214HJ",
@@ -415,10 +415,10 @@
       "N182FE",
       "WD31AB"
     ],
-    "CustomersOnSupply": 2271,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 2273,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -2523,8 +2523,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CB16PW",
-    "CB214EN",
     "CB16HS",
     "CB16HT",
     "CB16HU",
@@ -2563,6 +2561,7 @@
     "CB16PP",
     "CB16PQ",
     "CB16PS",
+    "CB16PW",
     "CB16PY",
     "CB16XQ",
     "CB16YL",
@@ -2572,6 +2571,7 @@
     "CB214AF",
     "CB214AG",
     "CB214AH",
+    "CB214EN",
     "CB214FD",
     "CB214HG",
     "CB214HJ",
