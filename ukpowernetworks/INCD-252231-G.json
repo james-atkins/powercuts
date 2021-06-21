@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-252231-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-252231-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-252231-G",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-21T13:31:33",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-21T17:59:32.887",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003d947INCD",
     "IncidentReference": "INCD-252231-G",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 32,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-21T11:30:10",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-21T17:59:32.887",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-21T11:32:00",
@@ -60,22 +60,22 @@
       "KT1 2"
     ],
     "PostCodesRestored": [
+      "KT11EU",
       "KT11LG",
       "KT11LL",
-      "KT11EU",
       "KT12AN",
       "KT12NB"
     ],
     "PostCodesPlanned": [
+      "KT11EU",
       "KT11LG",
       "KT11LL",
-      "KT11EU",
       "KT12AN",
       "KT12NB"
     ],
-    "CustomersOnSupply": 4,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 8,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1020,9 +1020,9 @@
     }
   ],
   "FullPostcodeData": [
+    "KT11EU",
     "KT11LG",
     "KT11LL",
-    "KT11EU",
     "KT12AN",
     "KT12NB"
   ],
