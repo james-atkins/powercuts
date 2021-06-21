@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-243718-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-243718-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-243718-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-19T12:39:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-21T15:08:27.143",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003b806INCD",
     "IncidentReference": "INCD-243718-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 28,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-19T11:02:51",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-21T15:08:27.143",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-19T10:54:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -73,9 +73,9 @@
       "IP17 1"
     ],
     "PostCodesRestored": [
-      "IP171AJ",
       "IP171AB",
       "IP171AE",
+      "IP171AJ",
       "IP171AP",
       "IP171BD",
       "IP171BE",
@@ -85,9 +85,9 @@
       "IP171FX"
     ],
     "PostCodesPlanned": [
-      "IP171AJ",
       "IP171AB",
       "IP171AE",
+      "IP171AJ",
       "IP171AP",
       "IP171BD",
       "IP171BE",
@@ -96,10 +96,10 @@
       "IP171BQ",
       "IP171FX"
     ],
-    "CustomersOnSupply": 94,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 95,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -617,9 +617,9 @@
     }
   ],
   "FullPostcodeData": [
-    "IP171AJ",
     "IP171AB",
     "IP171AE",
+    "IP171AJ",
     "IP171AP",
     "IP171BD",
     "IP171BE",
