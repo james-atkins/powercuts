@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-59309-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-59309-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-59309-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-22T04:11:32.71",
-      "Message": "Update at 04:11 - Our specialist team are now on site. They have confirmed that trees are coming into contact with our overhead cabling, which caused safety equipment to operate in the local substation. They are working to cut the trees back and replace the substation equipment, to enable supplies to be restored. We don't need to change the timeframe though this is subject to change as works progress. If you have any concerns, please do not hesitate to contact us on 08003163105. Thanks for bearing with us.",
+      "Date": "2021-06-22T05:26:11.143",
+      "Message": "Update at 05:25 - Our engineers have been able to do a temporary fix to the issue. However, additional work is required in order to permanently fix the fault. To do this safely, your power may go off again later as repairs progress. You may not receive any texts for a while, as soon as we have further information, we'll be in touch.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-21T21:03:39",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-22T05:21:12.873",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000e7adINCD",
     "IncidentReference": "INCD-59309-V",
-    "IncidentCategory": "124",
+    "IncidentCategory": "11",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-21T19:59:10",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-22T05:21:12.873",
     "EstimatedRestorationDate": "2021-06-22T05:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-21T19:50:00",
-    "NoCustomerAffected": 15,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -57,16 +57,16 @@
       "EstimatedTimeOfArrival": "2021-06-21T20:55:00",
       "DispatchedDate": "2021-06-21T20:04:38",
       "ArrivalDate": "2021-06-21T21:03:39",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-22T04:11:00",
+        "ActualEventTime": "2021-06-22T05:25:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 04:11 - Our specialist team are now on site. They have confirmed that trees are coming into contact with our overhead cabling, which caused safety equipment to operate in the local substation. They are working to cut the trees back and replace the substation equipment, to enable supplies to be restored. We don't need to change the timeframe though this is subject to change as works progress. If you have any concerns, please do not hesitate to contact us on 08003163105. Thanks for bearing with us.",
-        "LoggedTime": "2021-06-22T04:11:32.71"
+        "Comment": "Update at 05:25 - Our engineers have been able to do a temporary fix to the issue. However, additional work is required in order to permanently fix the fault. To do this safely, your power may go off again later as repairs progress. You may not receive any texts for a while, as soon as we have further information, we'll be in touch.",
+        "LoggedTime": "2021-06-22T05:26:11.143"
       }
     ],
     "PostCodesAffected": [
@@ -94,9 +94,9 @@
       "TN57NE",
       "TN57NG"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 45,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 45,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -367,7 +367,7 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "We were investigating an overhead electricity line fault which caused a power cut in the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "05:00 - 06:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
