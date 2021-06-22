@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-244179-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244179-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244179-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-06-22T09:58:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-06-22T12:46:56.307",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z0003b9d3INCD",
     "IncidentReference": "INCD-244179-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-06-22T08:52:54",
-    "RestoredDateTime": "2021-06-22T12:46:56.307",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-06-22T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-22T08:52:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 4,
+    "NoCallsReported": 7,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -73,22 +73,22 @@
       "CM6 3"
     ],
     "PostCodesRestored": [
-      "CM63SF",
-      "CM63SJ",
-      "CM63SQ",
       "CM63SE",
-      "CM63SG"
+      "CM63SF",
+      "CM63SG",
+      "CM63SJ",
+      "CM63SQ"
     ],
     "PostCodesPlanned": [
-      "CM63SF",
-      "CM63SJ",
-      "CM63SQ",
       "CM63SE",
-      "CM63SG"
+      "CM63SF",
+      "CM63SG",
+      "CM63SJ",
+      "CM63SQ"
     ],
     "CustomersOnSupply": 34,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -727,11 +727,11 @@
     }
   ],
   "FullPostcodeData": [
-    "CM63SF",
-    "CM63SJ",
-    "CM63SQ",
     "CM63SE",
-    "CM63SG"
+    "CM63SF",
+    "CM63SG",
+    "CM63SJ",
+    "CM63SQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
