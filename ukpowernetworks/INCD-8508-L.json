@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-8508-L",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-8508-L",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-8508-L",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-22T11:52:09",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-22T13:14:41.517",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "L0000213cINCD",
     "IncidentReference": "INCD-8508-L",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-22T11:48:47",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-22T13:14:41.517",
     "EstimatedRestorationDate": "2021-06-22T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-22T12:05:00",
-    "NoCustomerAffected": 17,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,22 +59,22 @@
       "KT3 5"
     ],
     "PostCodesRestored": [
-      "KT35NJ",
       "KT35LY",
       "KT35NL",
       "KT35NN",
-      "KT35NU"
+      "KT35NU",
+      "KT35NJ"
     ],
     "PostCodesPlanned": [
-      "KT35NJ",
       "KT35LY",
       "KT35NL",
       "KT35NN",
-      "KT35NU"
+      "KT35NU",
+      "KT35NJ"
     ],
-    "CustomersOnSupply": 58,
-    "CustomersOffSupply": 17,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 75,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -525,11 +525,11 @@
     }
   ],
   "FullPostcodeData": [
-    "KT35NJ",
     "KT35LY",
     "KT35NL",
     "KT35NN",
-    "KT35NU"
+    "KT35NU",
+    "KT35NJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
