@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-244408-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244408-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244408-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-23T10:07:55.78",
-      "Message": "Update at 10:07 - We're sorry your power has gone off again. We know there is an underlying issue causing the recent power cuts, but due to the nature of the electricity network, the heat created by a developing fault can cause a break in a cable to reseal itself. This can make it difficult to locate, so while our engineers are testing our equipment thoroughly to pinpoint the issue, this kind of problem may interrupt power multiple times before it's possible for us to fix. We know that our customers are more worried than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. We'll keep you updated.",
+      "Date": "2021-06-23T10:21:23.627",
+      "Message": "Update at 10:21 - This is Lee from the messaging team again - I'm glad to report power to the Runnacles Street area should now be back on. I'm sorry for the continued disruption recently. We know there is a fault developing on our underground cabling in the area, but currently it has not reached a severe enough state for our staff to pinpoint. Their tests have proven inconclusive, so for now they have replaced our safety equipment at the substation and gotten your power back on as quickly as possible. This may happen again before we're able to fix it, but if you'd like to talk to us about this, or if your power isn't on call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-23T09:24:14",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-23T10:19:20.747",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003bab8INCD",
     "IncidentReference": "INCD-244408-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-23T07:21:59",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-23T10:19:20.747",
     "EstimatedRestorationDate": "2021-06-23T11:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-23T07:21:00",
-    "NoCustomerAffected": 11,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -62,27 +62,27 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-23T10:07:00",
+        "ActualEventTime": "2021-06-23T10:21:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:07 - We're sorry your power has gone off again. We know there is an underlying issue causing the recent power cuts, but due to the nature of the electricity network, the heat created by a developing fault can cause a break in a cable to reseal itself. This can make it difficult to locate, so while our engineers are testing our equipment thoroughly to pinpoint the issue, this kind of problem may interrupt power multiple times before it's possible for us to fix. We know that our customers are more worried than ever about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them. We'll keep you updated.",
-        "LoggedTime": "2021-06-23T10:07:55.78"
+        "Comment": "Update at 10:21 - This is Lee from the messaging team again - I'm glad to report power to the Runnacles Street area should now be back on. I'm sorry for the continued disruption recently. We know there is a fault developing on our underground cabling in the area, but currently it has not reached a severe enough state for our staff to pinpoint. Their tests have proven inconclusive, so for now they have replaced our safety equipment at the substation and gotten your power back on as quickly as possible. This may happen again before we're able to fix it, but if you'd like to talk to us about this, or if your power isn't on call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-06-23T10:21:23.627"
       }
     ],
     "PostCodesAffected": [
       "CM8 3"
     ],
     "PostCodesRestored": [
-      "CM83QN",
-      "CM83QS"
+      "CM83QS",
+      "CM83QN"
     ],
     "PostCodesPlanned": [
-      "CM83QN",
-      "CM83QS"
+      "CM83QS",
+      "CM83QN"
     ],
-    "CustomersOnSupply": 23,
-    "CustomersOffSupply": 11,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 34,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -761,8 +761,8 @@
     }
   ],
   "FullPostcodeData": [
-    "CM83QN",
-    "CM83QS"
+    "CM83QS",
+    "CM83QN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,

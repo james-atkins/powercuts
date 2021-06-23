@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-244422-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244422-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244422-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-23T09:01:14.093",
-      "Message": "Hi - this is an alert from UK Power Networks. As you may already be aware, we have an ongoing problem on the local electricity network which has been causing unplanned power cuts. My name is Lee, I work on the messaging team here and I just wanted to let you know that we're aware of this, and if your electricity is off again you can get live updates from our team on our power cut map at <a href=\"http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID].\" target=\"_blank\">http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID].</a> If you need extra help or support, or just want to speak to us, call us on 105.",
+      "Date": "2021-06-23T10:26:34",
+      "Message": "Update at 10:26 - I appreciate your continued patience. I know having power cuts as often as this must be very disruptive, and our staff are doing everything they can to get this resolved. Currently we are estimating between 13:00 and 14;00 to have the power back on. Our engineers are still testing our network in the area, and depending on the local infrastructure this can take some time. However, once they update us we'll know if our estimated timeframe needs to change and why, and I'll let you know as soon as we hear. In the meantime, if we can offer any support or advice, our team are always available to talk on 105.",
       "Name": null
     },
     {
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-23T10:15:13",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-23T10:34:44.743",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003bac6INCD",
     "IncidentReference": "INCD-244422-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-23T08:56:27",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-06-23T10:34:44.743",
+    "EstimatedRestorationDate": "2021-06-23T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-23T08:54:00",
-    "NoCustomerAffected": 36,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 8,
+    "NoCallsReported": 9,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-23T09:00:00",
+        "ActualEventTime": "2021-06-23T10:26:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Hi - this is an alert from UK Power Networks. As you may already be aware, we have an ongoing problem on the local electricity network which has been causing unplanned power cuts. My name is Lee, I work on the messaging team here and I just wanted to let you know that we're aware of this, and if your electricity is off again you can get live updates from our team on our power cut map at http://www.ukpowernetworks.co.uk/power-cut/map?incidentid=[INCIDENTID]. If you need extra help or support, or just want to speak to us, call us on 105.",
-        "LoggedTime": "2021-06-23T09:01:14.093"
+        "Comment": "Update at 10:26 - I appreciate your continued patience. I know having power cuts as often as this must be very disruptive, and our staff are doing everything they can to get this resolved. Currently we are estimating between 13:00 and 14;00 to have the power back on. Our engineers are still testing our network in the area, and depending on the local infrastructure this can take some time. However, once they update us we'll know if our estimated timeframe needs to change and why, and I'll let you know as soon as we hear. In the meantime, if we can offer any support or advice, our team are always available to talk on 105.",
+        "LoggedTime": "2021-06-23T10:26:34"
       }
     ],
     "PostCodesAffected": [
@@ -82,9 +82,9 @@
       "AL71PD",
       "AL71TR"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 55,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 55,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -446,7 +446,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "13:00 - 14:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
