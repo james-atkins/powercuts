@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-265085-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-265085-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-265085-J",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-06-23T14:15:48.433",
+      "Message": "Update at 14:15 - We can now confirm that all power in the Devonshire Square area should be back on.  Our staff are trying to find the root cause and fix it permanently, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have restored your power as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-06-23T12:39:00",
@@ -9,7 +15,7 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-23T13:01:03",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
@@ -17,30 +23,30 @@
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-23T14:04:18.23",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J00040b7dINCD",
     "IncidentReference": "INCD-265085-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-23T12:54:38",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-23T14:04:18.23",
     "EstimatedRestorationDate": "2021-06-23T15:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-23T12:39:00",
-    "NoCustomerAffected": 29,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -54,27 +60,35 @@
       "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-06-23T14:15:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 14:15 - We can now confirm that all power in the Devonshire Square area should be back on.  Our staff are trying to find the root cause and fix it permanently, however with this kind of issue it's likely that power will go off multiple times before we're able to find and fix it. For now we have restored your power as quickly as we can. If your power isn't on or you would like to talk to us, call us for free on 08003163105. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-06-23T14:15:48.433"
+      }
+    ],
     "PostCodesAffected": [
       "BR2 9"
     ],
     "PostCodesRestored": [
       "BR1",
-      "BR29HT",
       "BR29HW",
-      "BR29HX",
-      "BR29JA"
+      "BR29JA",
+      "BR29HT",
+      "BR29HX"
     ],
     "PostCodesPlanned": [
       "BR1",
-      "BR29HT",
       "BR29HW",
-      "BR29HX",
-      "BR29JA"
+      "BR29JA",
+      "BR29HT",
+      "BR29HX"
     ],
-    "CustomersOnSupply": 18,
-    "CustomersOffSupply": 29,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 47,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -638,10 +652,10 @@
   ],
   "FullPostcodeData": [
     "BR1",
-    "BR29HT",
     "BR29HW",
-    "BR29HX",
-    "BR29JA"
+    "BR29JA",
+    "BR29HT",
+    "BR29HX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
