@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-244539-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244539-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244539-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-23T15:09:55.317",
-      "Message": "Following on from our previous message, we can now confirm we have switched power off to 24 properties. This is to allow our engineers to safely repair a faulty underground cable. If your electricity has gone off, you can keep updated by texting POWER followed by your full postcode to 80876 (e.g. POWER IP3 8AA). Standard text fees apply.",
+      "Date": "2021-06-23T15:16:32.427",
+      "Message": "Update at 15:16 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Pinner Road area for safety so they can repair a faulty underground cable. Our estimated time to have your power back on is between 16:00 and 17:00. If you'd like more information about why we sometimes have to switch power off to work; here's a short video <a href=\"https://bit.ly/3cYez0V.\" target=\"_blank\">https://bit.ly/3cYez0V.</a> We'll keep you updated with progress.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-23T14:13:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-23T15:28:47.053",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003bb3bINCD",
     "IncidentReference": "INCD-244539-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-23T14:09:49",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-23T15:28:47.053",
     "EstimatedRestorationDate": "2021-06-23T16:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-23T14:35:00",
-    "NoCustomerAffected": 24,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-23T15:08:00",
+        "ActualEventTime": "2021-06-23T15:15:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Following on from our previous message, we can now confirm we have switched power off to 24 properties. This is to allow our engineers to safely repair a faulty underground cable. If your electricity has gone off, you can keep updated by texting POWER followed by your full postcode to 80876 (e.g. POWER IP3 8AA). Standard text fees apply.",
-        "LoggedTime": "2021-06-23T15:09:55.317"
+        "Comment": "Update at 15:16 - We're very sorry we've had to switch off your electricity. Our engineers have turned off the power in the Pinner Road area for safety so they can repair a faulty underground cable. Our estimated time to have your power back on is between 16:00 and 17:00. If you'd like more information about why we sometimes have to switch power off to work; here's a short video https://bit.ly/3cYez0V. We'll keep you updated with progress.",
+        "LoggedTime": "2021-06-23T15:16:32.427"
       }
     ],
     "PostCodesAffected": [
@@ -76,7 +76,6 @@
       "HA2 7"
     ],
     "PostCodesRestored": [
-      "HA14HN",
       "HA12",
       "HA14HP",
       "HA14LB",
@@ -86,10 +85,10 @@
       "HA26DZ",
       "HA27LA",
       "HA27SE",
-      "HA27SY"
+      "HA27SY",
+      "HA14HN"
     ],
     "PostCodesPlanned": [
-      "HA14HN",
       "HA12",
       "HA14HP",
       "HA14LB",
@@ -99,11 +98,12 @@
       "HA26DZ",
       "HA27LA",
       "HA27SE",
-      "HA27SY"
+      "HA27SY",
+      "HA14HN"
     ],
-    "CustomersOnSupply": 94,
-    "CustomersOffSupply": 24,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 118,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1883,7 +1883,6 @@
     }
   ],
   "FullPostcodeData": [
-    "HA14HN",
     "HA12",
     "HA14HP",
     "HA14LB",
@@ -1893,7 +1892,8 @@
     "HA26DZ",
     "HA27LA",
     "HA27SE",
-    "HA27SY"
+    "HA27SY",
+    "HA14HN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
