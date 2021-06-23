@@ -3,8 +3,14 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-7101-O",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-06-23T23:42:16.57",
+      "Message": "Update at 23:42 - Our engineers are still on site working to restore power. They originally believed the fault to be with some equipment within our substation; however, after further investigations, they have discovered the fault is underground. At the moment, we don't need to change the estimated time. We'll keep you updated with progress.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-06-23T22:33:15",
+      "Date": "2021-06-23T22:33:00",
       "Message": "<p>We became aware of a power cut at 22:33. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -31,7 +37,7 @@
   "UKPNIncident": {
     "IncidentId": "O00001bbdINCD",
     "IncidentReference": "INCD-7101-O",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
     "IncidentPriority": 2,
     "StatusId": 1,
@@ -39,8 +45,8 @@
     "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-06-24T02:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-06-23T22:33:15",
-    "NoCustomerAffected": 0,
+    "ReceivedDate": "2021-06-23T22:33:00",
+    "NoCustomerAffected": 15,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -54,24 +60,38 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-06-23T23:41:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 23:42 - Our engineers are still on site working to restore power. They originally believed the fault to be with some equipment within our substation; however, after further investigations, they have discovered the fault is underground. At the moment, we don't need to change the estimated time. We'll keep you updated with progress.",
+        "LoggedTime": "2021-06-23T23:42:16.57"
+      }
+    ],
     "PostCodesAffected": [
       "WD4 8"
     ],
     "PostCodesRestored": [
       "WD48NP",
       "WD48NR",
+      "WD48NB",
+      "WD48NJ",
+      "WD48NL",
       "WD48NS"
     ],
     "PostCodesPlanned": [
       "WD48NP",
       "WD48NR",
+      "WD48NB",
+      "WD48NJ",
+      "WD48NL",
       "WD48NS"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 29,
+    "CustomersOnSupply": 55,
+    "CustomersOffSupply": 15,
     "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -615,11 +635,14 @@
   "FullPostcodeData": [
     "WD48NP",
     "WD48NR",
+    "WD48NB",
+    "WD48NJ",
+    "WD48NL",
     "WD48NS"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "01:30 - 02:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
