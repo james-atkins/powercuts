@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-3531-I",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-3531-I",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-3531-I",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-25T00:02:28",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-25T00:40:44.253",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "I00000dcbINCD",
     "IncidentReference": "INCD-3531-I",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-24T22:26:39",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-25T00:40:44.253",
     "EstimatedRestorationDate": "2021-06-25T01:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-24T22:22:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "NR6 5"
     ],
     "PostCodesRestored": [
-      "NR65EX",
+      "NR65AY",
       "NR65EZ",
-      "NR65AY"
+      "NR65EX"
     ],
     "PostCodesPlanned": [
-      "NR65EX",
+      "NR65AY",
       "NR65EZ",
-      "NR65AY"
+      "NR65EX"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 16,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -673,9 +673,9 @@
     }
   ],
   "FullPostcodeData": [
-    "NR65EX",
+    "NR65AY",
     "NR65EZ",
-    "NR65AY"
+    "NR65EX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
