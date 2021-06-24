@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-244721-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244721-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244721-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-24T12:57:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-24T20:20:11.34",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003bbf1INCD",
     "IncidentReference": "INCD-244721-Z",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-24T11:36:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-24T20:20:11.34",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-24T11:36:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "CB5 8"
     ],
     "PostCodesRestored": [
-      "CB58UE",
       "CB58SP",
       "CB58TN",
       "CB58TR",
@@ -74,10 +73,10 @@
       "CB58UH",
       "CB58UJ",
       "CB58UQ",
-      "CB58UT"
+      "CB58UT",
+      "CB58UE"
     ],
     "PostCodesPlanned": [
-      "CB58UE",
       "CB58SP",
       "CB58TN",
       "CB58TR",
@@ -92,11 +91,12 @@
       "CB58UH",
       "CB58UJ",
       "CB58UQ",
-      "CB58UT"
+      "CB58UT",
+      "CB58UE"
     ],
-    "CustomersOnSupply": 272,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 274,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -747,7 +747,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CB58UE",
     "CB58SP",
     "CB58TN",
     "CB58TR",
@@ -762,7 +761,8 @@
     "CB58UH",
     "CB58UJ",
     "CB58UQ",
-    "CB58UT"
+    "CB58UT",
+    "CB58UE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
