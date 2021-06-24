@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-244597-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244597-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244597-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-23T18:39:29",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-24T15:07:14.447",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003bb75INCD",
     "IncidentReference": "INCD-244597-Z",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-23T17:51:56",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-24T15:07:14.447",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-23T17:51:47",
@@ -74,15 +74,6 @@
       "CM2 9"
     ],
     "PostCodesRestored": [
-      "CM28AN",
-      "CM28AP",
-      "CM28AW",
-      "CM28BA",
-      "CM28LX",
-      "CM28RJ",
-      "CM28XP",
-      "CM28XT",
-      "CM28XX",
       "CM28AA",
       "CM28AB",
       "CM28AD",
@@ -138,18 +129,18 @@
       "CM29DB",
       "CM29DD",
       "CM29HS",
-      "CM29LB"
+      "CM29LB",
+      "CM28AN",
+      "CM28AP",
+      "CM28AW",
+      "CM28BA",
+      "CM28LX",
+      "CM28RJ",
+      "CM28XP",
+      "CM28XT",
+      "CM28XX"
     ],
     "PostCodesPlanned": [
-      "CM28AN",
-      "CM28AP",
-      "CM28AW",
-      "CM28BA",
-      "CM28LX",
-      "CM28RJ",
-      "CM28XP",
-      "CM28XT",
-      "CM28XX",
       "CM28AA",
       "CM28AB",
       "CM28AD",
@@ -205,12 +196,21 @@
       "CM29DB",
       "CM29DD",
       "CM29HS",
-      "CM29LB"
+      "CM29LB",
+      "CM28AN",
+      "CM28AP",
+      "CM28AW",
+      "CM28BA",
+      "CM28LX",
+      "CM28RJ",
+      "CM28XP",
+      "CM28XT",
+      "CM28XX"
     ],
     "CustomersOnSupply": 1615,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1722,15 +1722,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CM28AN",
-    "CM28AP",
-    "CM28AW",
-    "CM28BA",
-    "CM28LX",
-    "CM28RJ",
-    "CM28XP",
-    "CM28XT",
-    "CM28XX",
     "CM28AA",
     "CM28AB",
     "CM28AD",
@@ -1786,7 +1777,16 @@
     "CM29DB",
     "CM29DD",
     "CM29HS",
-    "CM29LB"
+    "CM29LB",
+    "CM28AN",
+    "CM28AP",
+    "CM28AW",
+    "CM28BA",
+    "CM28LX",
+    "CM28RJ",
+    "CM28XP",
+    "CM28XT",
+    "CM28XX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
