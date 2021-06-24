@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-59736-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-59736-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-59736-V",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-24T16:46:08",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-24T17:58:28.293",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000e958INCD",
     "IncidentReference": "INCD-59736-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-24T15:13:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-24T17:58:28.293",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-24T15:01:00",
@@ -51,7 +51,7 @@
       "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
       "DispatchedDate": "2021-06-24T16:23:49",
       "ArrivalDate": "2021-06-24T16:46:08",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -59,19 +59,19 @@
       "BR6 0"
     ],
     "PostCodesRestored": [
-      "BR60HH",
       "BR60HE",
-      "BR60QD"
+      "BR60QD",
+      "BR60HH"
     ],
     "PostCodesPlanned": [
-      "BR60HH",
       "BR60HE",
-      "BR60QD"
+      "BR60QD",
+      "BR60HH"
     ],
     "CustomersOnSupply": 21,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -597,9 +597,9 @@
     }
   ],
   "FullPostcodeData": [
-    "BR60HH",
     "BR60HE",
-    "BR60QD"
+    "BR60QD",
+    "BR60HH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
