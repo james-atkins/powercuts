@@ -3,21 +3,27 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-59766-V",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-06-24T18:49:48.853",
+      "Message": "Update at 18:49 - Thanks for bearing with us today. Our engineers are checking our substation equipment to ensure our network is healthy before they attempt to restore your power and have confirmed they're aiming to have power back on between 21:30 and 22:30. They may also walk our cabling route throughout the area to check for any visible problems, check smaller electrical sites in the area, or apply specialist equipment which may restore power temporarily to help them with their testing.",
+      "Name": null
+    },
+    {
       "Active": false,
       "Date": "2021-06-24T18:07:20",
       "Message": "<p>We became aware of a power cut at 18:07. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-24T18:23:51",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-24T18:40:32",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
@@ -31,13 +37,13 @@
   "UKPNIncident": {
     "IncidentId": "V0000e976INCD",
     "IncidentReference": "INCD-59766-V",
-    "IncidentCategory": "104",
+    "IncidentCategory": "124",
     "IncidentType": 2,
     "IncidentPriority": 2,
     "StatusId": 1,
     "CreationDateTime": "2021-06-24T18:09:30",
     "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "EstimatedRestorationDate": "2021-06-24T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-24T18:07:20",
     "NoCustomerAffected": 0,
@@ -50,11 +56,19 @@
       "Name": "NEIL",
       "EstimatedTimeOfArrival": "2021-06-24T18:40:00",
       "DispatchedDate": "2021-06-24T18:23:51",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-06-24T18:40:32",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-06-24T18:49:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 18:49 - Thanks for bearing with us today. Our engineers are checking our substation equipment to ensure our network is healthy before they attempt to restore your power and have confirmed they're aiming to have power back on between 21:30 and 22:30. They may also walk our cabling route throughout the area to check for any visible problems, check smaller electrical sites in the area, or apply specialist equipment which may restore power temporarily to help them with their testing.",
+        "LoggedTime": "2021-06-24T18:49:48.853"
+      }
+    ],
     "PostCodesAffected": [
       "CT8 8"
     ],
@@ -392,8 +406,8 @@
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "Our engineers are currently working to find out what caused this power cut.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "21:30 - 22:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
