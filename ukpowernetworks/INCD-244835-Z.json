@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-244835-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244835-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244835-Z",
   "Steps": [
     {
       "Active": false,
@@ -9,34 +9,34 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-24T19:41:07",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-06-24T19:51:53",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-24T19:53:20.693",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003bc63INCD",
     "IncidentReference": "INCD-244835-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-24T18:55:35",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-24T19:53:20.693",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-24T18:53:00",
@@ -50,8 +50,8 @@
       "Name": "JIM(R5)",
       "EstimatedTimeOfArrival": "2021-06-24T20:15:00",
       "DispatchedDate": "2021-06-24T19:41:07",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-06-24T19:51:53",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -60,20 +60,20 @@
       "RM7 0"
     ],
     "PostCodesRestored": [
-      "RM12BE",
-      "RM12BH",
       "RM12AD",
-      "RM70BQ"
+      "RM70BQ",
+      "RM12BE",
+      "RM12BH"
     ],
     "PostCodesPlanned": [
-      "RM12BE",
-      "RM12BH",
       "RM12AD",
-      "RM70BQ"
+      "RM70BQ",
+      "RM12BE",
+      "RM12BH"
     ],
     "CustomersOnSupply": 87,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -994,10 +994,10 @@
     }
   ],
   "FullPostcodeData": [
-    "RM12BE",
-    "RM12BH",
     "RM12AD",
-    "RM70BQ"
+    "RM70BQ",
+    "RM12BE",
+    "RM12BH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
