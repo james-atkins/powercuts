@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-244757-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-244757-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-244757-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-24T14:05:22",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-24T16:12:53.763",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003bc15INCD",
     "IncidentReference": "INCD-244757-Z",
     "IncidentCategory": "9",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-24T13:32:03",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-24T16:12:53.763",
     "EstimatedRestorationDate": "2021-06-24T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-24T13:47:00",
-    "NoCustomerAffected": 69,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
     "Latitude": 0.0,
@@ -64,10 +64,10 @@
       "SS80DW",
       "SS80JA",
       "SS80JB",
+      "SS89DX",
       "SS80JD",
       "SS80JN",
       "SS89AQ",
-      "SS89DX",
       "SS89DY",
       "SS89EF",
       "SS89EP"
@@ -77,17 +77,17 @@
       "SS80DW",
       "SS80JA",
       "SS80JB",
+      "SS89DX",
       "SS80JD",
       "SS80JN",
       "SS89AQ",
-      "SS89DX",
       "SS89DY",
       "SS89EF",
       "SS89EP"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 69,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 69,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1212,10 +1212,10 @@
     "SS80DW",
     "SS80JA",
     "SS80JB",
+    "SS89DX",
     "SS80JD",
     "SS80JN",
     "SS89AQ",
-    "SS89DX",
     "SS89DY",
     "SS89EF",
     "SS89EP"
