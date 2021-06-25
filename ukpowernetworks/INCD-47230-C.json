@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-47230-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-47230-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-47230-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-25T21:43:14",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-25T22:11:06.667",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000b87eINCD",
     "IncidentReference": "INCD-47230-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-25T21:42:50",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-06-25T22:11:06.667",
+    "EstimatedRestorationDate": "2021-06-25T23:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-25T20:39:00",
-    "NoCustomerAffected": 42,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -62,24 +62,24 @@
     "PostCodesRestored": [
       "RM13DA",
       "RM13DB",
-      "RM13DJ",
       "RM13DL",
       "RM13NA",
       "RM14HD",
-      "RM14HL"
+      "RM14HL",
+      "RM13DJ"
     ],
     "PostCodesPlanned": [
       "RM13DA",
       "RM13DB",
-      "RM13DJ",
       "RM13DL",
       "RM13NA",
       "RM14HD",
-      "RM14HL"
+      "RM14HL",
+      "RM13DJ"
     ],
-    "CustomersOnSupply": 2,
-    "CustomersOffSupply": 63,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 65,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -970,16 +970,16 @@
   "FullPostcodeData": [
     "RM13DA",
     "RM13DB",
-    "RM13DJ",
     "RM13DL",
     "RM13NA",
     "RM14HD",
-    "RM14HL"
+    "RM14HL",
+    "RM13DJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "23:00 - 00:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
