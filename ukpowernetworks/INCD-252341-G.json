@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-252341-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-252341-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-252341-G",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-25T08:16:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-25T11:57:17.963",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003d9b5INCD",
     "IncidentReference": "INCD-252341-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-24T22:23:06",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-25T11:57:17.963",
     "EstimatedRestorationDate": "2021-06-25T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-24T22:10:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -61,30 +61,30 @@
     ],
     "PostCodesRestored": [
       "RH11JF",
-      "RH11JL",
       "RH11JN",
       "RH11NG",
       "RH12AF",
       "RH12AG",
       "RH12BN",
       "RH12BW",
-      "RH12HH"
+      "RH12HH",
+      "RH11JL"
     ],
     "PostCodesPlanned": [
       "RH11JF",
-      "RH11JL",
       "RH11JN",
       "RH11NG",
       "RH12AF",
       "RH12AG",
       "RH12BN",
       "RH12BW",
-      "RH12HH"
+      "RH12HH",
+      "RH11JL"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 83,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 83,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -909,14 +909,14 @@
   ],
   "FullPostcodeData": [
     "RH11JF",
-    "RH11JL",
     "RH11JN",
     "RH11NG",
     "RH12AF",
     "RH12AG",
     "RH12BN",
     "RH12BW",
-    "RH12HH"
+    "RH12HH",
+    "RH11JL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
