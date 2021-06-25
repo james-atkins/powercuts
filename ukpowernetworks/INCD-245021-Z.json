@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-245021-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245021-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245021-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-25T20:46:42.153",
-      "Message": "Update at 20:45 - Our engineers have arrived on site and are investigating the fault. You may find your power is going on and off; that is normal for this type of issue and is due to our engineers working to divert power remotely. By doing this, we've managed to restore power to 227 customers. Please follow the government pandemic guidelines about social distancing when interacting with our staff. We'll keep sending SMS updates until everybody is restored. To stop receiving texts, just follow this link <a href=\"https://bit.ly/348KOZ3\" target=\"_blank\">https://bit.ly/348KOZ3</a> to unsubscribe.",
+      "Date": "2021-06-25T21:01:32.37",
+      "Message": "Update at 21:00 - We believe our engineers have been able to restore power to all 465 customers in the Worlington, IP28 8 area, by diveribng power arond an overhead cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-25T20:39:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-25T20:55:48.83",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003bd1dINCD",
     "IncidentReference": "INCD-245021-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-25T20:02:50",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-25T20:55:48.83",
     "EstimatedRestorationDate": "2021-06-25T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-25T20:02:41",
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-25T20:45:00",
+        "ActualEventTime": "2021-06-25T21:00:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 20:45 - Our engineers have arrived on site and are investigating the fault. You may find your power is going on and off; that is normal for this type of issue and is due to our engineers working to divert power remotely. By doing this, we've managed to restore power to 227 customers. Please follow the government pandemic guidelines about social distancing when interacting with our staff. We'll keep sending SMS updates until everybody is restored. To stop receiving texts, just follow this link https://bit.ly/348KOZ3 to unsubscribe.",
-        "LoggedTime": "2021-06-25T20:46:42.153"
+        "Comment": "Update at 21:00 - We believe our engineers have been able to restore power to all 465 customers in the Worlington, IP28 8 area, by diveribng power arond an overhead cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-06-25T21:01:32.37"
       }
     ],
     "PostCodesAffected": [
@@ -75,10 +75,6 @@
       "IP30 9"
     ],
     "PostCodesRestored": [
-      "IP288RU",
-      "IP288RY",
-      "IP288SH",
-      "IP288SQ",
       "IP287AS",
       "IP287DL",
       "IP287DP",
@@ -107,13 +103,13 @@
       "IP288SP",
       "IP288SR",
       "IP288XX",
-      "IP309TS"
+      "IP309TS",
+      "IP288RU",
+      "IP288RY",
+      "IP288SH",
+      "IP288SQ"
     ],
     "PostCodesPlanned": [
-      "IP288RU",
-      "IP288RY",
-      "IP288SH",
-      "IP288SQ",
       "IP287AS",
       "IP287DL",
       "IP287DP",
@@ -142,11 +138,15 @@
       "IP288SP",
       "IP288SR",
       "IP288XX",
-      "IP309TS"
+      "IP309TS",
+      "IP288RU",
+      "IP288RY",
+      "IP288SH",
+      "IP288SQ"
     ],
     "CustomersOnSupply": 465,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -156,6 +156,191 @@
     "IP30 9"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 52.34926,
+        "lng": 0.51762
+      },
+      "Coordinates": [
+        {
+          "lat": 52.3626,
+          "lng": 0.53497
+        },
+        {
+          "lat": 52.36302,
+          "lng": 0.54
+        },
+        {
+          "lat": 52.35044,
+          "lng": 0.55711
+        },
+        {
+          "lat": 52.34797,
+          "lng": 0.56137
+        },
+        {
+          "lat": 52.34107,
+          "lng": 0.5575
+        },
+        {
+          "lat": 52.34326,
+          "lng": 0.53512
+        },
+        {
+          "lat": 52.34008,
+          "lng": 0.52808
+        },
+        {
+          "lat": 52.33947,
+          "lng": 0.52752
+        },
+        {
+          "lat": 52.33883,
+          "lng": 0.52371
+        },
+        {
+          "lat": 52.33932,
+          "lng": 0.52152
+        },
+        {
+          "lat": 52.33935,
+          "lng": 0.521
+        },
+        {
+          "lat": 52.33894,
+          "lng": 0.51901
+        },
+        {
+          "lat": 52.33856,
+          "lng": 0.51541
+        },
+        {
+          "lat": 52.33881,
+          "lng": 0.51419
+        },
+        {
+          "lat": 52.33873,
+          "lng": 0.5131
+        },
+        {
+          "lat": 52.33753,
+          "lng": 0.512
+        },
+        {
+          "lat": 52.33715,
+          "lng": 0.50775
+        },
+        {
+          "lat": 52.33682,
+          "lng": 0.50601
+        },
+        {
+          "lat": 52.33616,
+          "lng": 0.50485
+        },
+        {
+          "lat": 52.33291,
+          "lng": 0.50324
+        },
+        {
+          "lat": 52.33192,
+          "lng": 0.50174
+        },
+        {
+          "lat": 52.33253,
+          "lng": 0.50058
+        },
+        {
+          "lat": 52.34126,
+          "lng": 0.49659
+        },
+        {
+          "lat": 52.34142,
+          "lng": 0.4963
+        },
+        {
+          "lat": 52.33894,
+          "lng": 0.49073
+        },
+        {
+          "lat": 52.33878,
+          "lng": 0.48564
+        },
+        {
+          "lat": 52.3425,
+          "lng": 0.47702
+        },
+        {
+          "lat": 52.34905,
+          "lng": 0.4815
+        },
+        {
+          "lat": 52.35082,
+          "lng": 0.48368
+        },
+        {
+          "lat": 52.35244,
+          "lng": 0.48339
+        },
+        {
+          "lat": 52.35723,
+          "lng": 0.48477
+        },
+        {
+          "lat": 52.3586,
+          "lng": 0.49235
+        },
+        {
+          "lat": 52.35866,
+          "lng": 0.49273
+        },
+        {
+          "lat": 52.35915,
+          "lng": 0.49502
+        },
+        {
+          "lat": 52.36054,
+          "lng": 0.50076
+        },
+        {
+          "lat": 52.36039,
+          "lng": 0.50132
+        },
+        {
+          "lat": 52.36053,
+          "lng": 0.5058
+        },
+        {
+          "lat": 52.36046,
+          "lng": 0.5106
+        },
+        {
+          "lat": 52.35968,
+          "lng": 0.51404
+        },
+        {
+          "lat": 52.35988,
+          "lng": 0.51715
+        },
+        {
+          "lat": 52.35969,
+          "lng": 0.5217
+        },
+        {
+          "lat": 52.36,
+          "lng": 0.52758
+        },
+        {
+          "lat": 52.36071,
+          "lng": 0.53134
+        },
+        {
+          "lat": 52.3626,
+          "lng": 0.53497
+        }
+      ],
+      "Postcode": "IP28 7"
+    },
     {
       "Center": {
         "lat": 52.36873,
@@ -656,191 +841,6 @@
         }
       ],
       "Postcode": "IP28 8"
-    },
-    {
-      "Center": {
-        "lat": 52.34926,
-        "lng": 0.51762
-      },
-      "Coordinates": [
-        {
-          "lat": 52.3626,
-          "lng": 0.53497
-        },
-        {
-          "lat": 52.36302,
-          "lng": 0.54
-        },
-        {
-          "lat": 52.35044,
-          "lng": 0.55711
-        },
-        {
-          "lat": 52.34797,
-          "lng": 0.56137
-        },
-        {
-          "lat": 52.34107,
-          "lng": 0.5575
-        },
-        {
-          "lat": 52.34326,
-          "lng": 0.53512
-        },
-        {
-          "lat": 52.34008,
-          "lng": 0.52808
-        },
-        {
-          "lat": 52.33947,
-          "lng": 0.52752
-        },
-        {
-          "lat": 52.33883,
-          "lng": 0.52371
-        },
-        {
-          "lat": 52.33932,
-          "lng": 0.52152
-        },
-        {
-          "lat": 52.33935,
-          "lng": 0.521
-        },
-        {
-          "lat": 52.33894,
-          "lng": 0.51901
-        },
-        {
-          "lat": 52.33856,
-          "lng": 0.51541
-        },
-        {
-          "lat": 52.33881,
-          "lng": 0.51419
-        },
-        {
-          "lat": 52.33873,
-          "lng": 0.5131
-        },
-        {
-          "lat": 52.33753,
-          "lng": 0.512
-        },
-        {
-          "lat": 52.33715,
-          "lng": 0.50775
-        },
-        {
-          "lat": 52.33682,
-          "lng": 0.50601
-        },
-        {
-          "lat": 52.33616,
-          "lng": 0.50485
-        },
-        {
-          "lat": 52.33291,
-          "lng": 0.50324
-        },
-        {
-          "lat": 52.33192,
-          "lng": 0.50174
-        },
-        {
-          "lat": 52.33253,
-          "lng": 0.50058
-        },
-        {
-          "lat": 52.34126,
-          "lng": 0.49659
-        },
-        {
-          "lat": 52.34142,
-          "lng": 0.4963
-        },
-        {
-          "lat": 52.33894,
-          "lng": 0.49073
-        },
-        {
-          "lat": 52.33878,
-          "lng": 0.48564
-        },
-        {
-          "lat": 52.3425,
-          "lng": 0.47702
-        },
-        {
-          "lat": 52.34905,
-          "lng": 0.4815
-        },
-        {
-          "lat": 52.35082,
-          "lng": 0.48368
-        },
-        {
-          "lat": 52.35244,
-          "lng": 0.48339
-        },
-        {
-          "lat": 52.35723,
-          "lng": 0.48477
-        },
-        {
-          "lat": 52.3586,
-          "lng": 0.49235
-        },
-        {
-          "lat": 52.35866,
-          "lng": 0.49273
-        },
-        {
-          "lat": 52.35915,
-          "lng": 0.49502
-        },
-        {
-          "lat": 52.36054,
-          "lng": 0.50076
-        },
-        {
-          "lat": 52.36039,
-          "lng": 0.50132
-        },
-        {
-          "lat": 52.36053,
-          "lng": 0.5058
-        },
-        {
-          "lat": 52.36046,
-          "lng": 0.5106
-        },
-        {
-          "lat": 52.35968,
-          "lng": 0.51404
-        },
-        {
-          "lat": 52.35988,
-          "lng": 0.51715
-        },
-        {
-          "lat": 52.35969,
-          "lng": 0.5217
-        },
-        {
-          "lat": 52.36,
-          "lng": 0.52758
-        },
-        {
-          "lat": 52.36071,
-          "lng": 0.53134
-        },
-        {
-          "lat": 52.3626,
-          "lng": 0.53497
-        }
-      ],
-      "Postcode": "IP28 7"
     },
     {
       "Center": {
@@ -1345,10 +1345,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IP288RU",
-    "IP288RY",
-    "IP288SH",
-    "IP288SQ",
     "IP287AS",
     "IP287DL",
     "IP287DP",
@@ -1377,11 +1373,15 @@
     "IP288SP",
     "IP288SR",
     "IP288XX",
-    "IP309TS"
+    "IP309TS",
+    "IP288RU",
+    "IP288RY",
+    "IP288SH",
+    "IP288SQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "21:30 - 22:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
