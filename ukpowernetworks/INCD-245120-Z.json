@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245120-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245120-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245120-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-26T17:21:11",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-26T18:01:00.987",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003bd80INCD",
     "IncidentReference": "INCD-245120-Z",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-26T16:59:33",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-06-26T18:01:00.987",
+    "EstimatedRestorationDate": "2021-06-26T18:15:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-26T17:12:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 1,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -59,16 +59,16 @@
       "EN9 1"
     ],
     "PostCodesRestored": [
-      "EN91RD",
-      "EN91BZ"
+      "EN91BZ",
+      "EN91RD"
     ],
     "PostCodesPlanned": [
-      "EN91RD",
-      "EN91BZ"
+      "EN91BZ",
+      "EN91RD"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 8,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -523,13 +523,13 @@
     }
   ],
   "FullPostcodeData": [
-    "EN91RD",
-    "EN91BZ"
+    "EN91BZ",
+    "EN91RD"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "17:45 - 18:45",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
