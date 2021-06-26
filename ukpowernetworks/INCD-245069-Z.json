@@ -3,6 +3,12 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245069-Z",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-06-26T08:21:53.603",
+      "Message": "Update at 08:21 - Our engineers are on their way. At this point we think the issue is a fault on our overhead cabling network that initially interrupted power to 2245 properties. However, by rerouting electricity in the area, currently 1947 customers are still affected. Using an average timescale, we're estimating power will be on between 09:30 and 10:30, but this may change later. Power back on? To stop receiving texts, just follow this link <a href=\"https://bit.ly/348KOZ3\" target=\"_blank\">https://bit.ly/348KOZ3</a> to unsubscribe.",
+      "Name": null
+    },
+    {
       "Active": false,
       "Date": "2021-06-26T08:09:45",
       "Message": "<p>We became aware of this power cut at 08:09. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
@@ -37,12 +43,12 @@
     "StatusId": 1,
     "CreationDateTime": "2021-06-26T08:09:47",
     "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "EstimatedRestorationDate": "2021-06-26T10:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-26T08:09:45",
     "NoCustomerAffected": 298,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 1,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,7 +60,15 @@
       "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-06-26T08:21:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 08:21 - Our engineers are on their way. At this point we think the issue is a fault on our overhead cabling network that initially interrupted power to 2245 properties. However, by rerouting electricity in the area, currently 1947 customers are still affected. Using an average timescale, we're estimating power will be on between 09:30 and 10:30, but this may change later. Power back on? To stop receiving texts, just follow this link https://bit.ly/348KOZ3 to unsubscribe.",
+        "LoggedTime": "2021-06-26T08:21:53.603"
+      }
+    ],
     "PostCodesAffected": [
       "CM12 0",
       "CM12 9",
@@ -62,6 +76,7 @@
       "CM15 0"
     ],
     "PostCodesRestored": [
+      "CM129AP",
       "CM129PJ",
       "CM129PL",
       "CM129PN",
@@ -103,7 +118,6 @@
       "CM129AB",
       "CM129AH",
       "CM129AJ",
-      "CM129AP",
       "CM129BE",
       "CM129BT",
       "CM129BU",
@@ -189,6 +203,7 @@
       "CM129YF"
     ],
     "PostCodesPlanned": [
+      "CM129AP",
       "CM129PJ",
       "CM129PL",
       "CM129PN",
@@ -230,7 +245,6 @@
       "CM129AB",
       "CM129AH",
       "CM129AJ",
-      "CM129AP",
       "CM129BE",
       "CM129BT",
       "CM129BU",
@@ -2142,6 +2156,7 @@
     }
   ],
   "FullPostcodeData": [
+    "CM129AP",
     "CM129PJ",
     "CM129PL",
     "CM129PN",
@@ -2183,7 +2198,6 @@
     "CM129AB",
     "CM129AH",
     "CM129AJ",
-    "CM129AP",
     "CM129BE",
     "CM129BT",
     "CM129BU",
@@ -2271,7 +2285,7 @@
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "09:30 - 10:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
