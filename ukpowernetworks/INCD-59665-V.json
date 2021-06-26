@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-59665-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-59665-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-59665-V",
   "Steps": [
     {
       "Active": false,
@@ -10,48 +10,48 @@
     },
     {
       "Active": false,
-      "Date": "2021-06-24T10:37:33",
+      "Date": null,
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
-      "Date": "2021-06-24T11:24:42",
+      "Active": false,
+      "Date": null,
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-26T12:52:40.193",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000e911INCD",
     "IncidentReference": "INCD-59665-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 29,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-24T10:31:21",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-26T12:52:40.193",
     "EstimatedRestorationDate": "2021-06-24T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-24T10:30:00",
-    "NoCustomerAffected": 21,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
       "Id": null,
-      "Name": "MARK GEOFFREY (R5)",
-      "EstimatedTimeOfArrival": "2021-06-24T11:30:00",
-      "DispatchedDate": "2021-06-24T10:37:33",
-      "ArrivalDate": "2021-06-24T11:24:42",
-      "StatusId": 6
+      "Name": null,
+      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
+      "DispatchedDate": null,
+      "ArrivalDate": null,
+      "StatusId": 0
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -61,21 +61,21 @@
     ],
     "PostCodesRestored": [
       "ME59JJ",
-      "ME59JP",
       "ME59JQ",
       "ME44LS",
-      "ME59JB"
+      "ME59JB",
+      "ME59JP"
     ],
     "PostCodesPlanned": [
       "ME59JJ",
-      "ME59JP",
       "ME59JQ",
       "ME44LS",
-      "ME59JB"
+      "ME59JB",
+      "ME59JP"
     ],
-    "CustomersOnSupply": 24,
-    "CustomersOffSupply": 29,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 53,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1465,10 +1465,10 @@
   ],
   "FullPostcodeData": [
     "ME59JJ",
-    "ME59JP",
     "ME59JQ",
     "ME44LS",
-    "ME59JB"
+    "ME59JB",
+    "ME59JP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
