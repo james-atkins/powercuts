@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-47235-C",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-47235-C",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-47235-C",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-06-26T09:52:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-06-26T11:41:27.603",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "C0000b883INCD",
     "IncidentReference": "INCD-47235-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-06-26T08:37:19",
-    "RestoredDateTime": "2021-06-26T11:41:27.603",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-06-26T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-26T08:29:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 11,
+    "NoCallsReported": 12,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -74,6 +74,10 @@
       "PE28 3"
     ],
     "PostCodesRestored": [
+      "PE283EE",
+      "PE283EG",
+      "PE283EQ",
+      "PE283JB",
       "PE173EG",
       "PE173JB",
       "PE283EH",
@@ -81,13 +85,13 @@
       "PE283JY",
       "PE283YQ",
       "PE283YR",
-      "PE283YT",
-      "PE283EE",
-      "PE283EG",
-      "PE283EQ",
-      "PE283JB"
+      "PE283YT"
     ],
     "PostCodesPlanned": [
+      "PE283EE",
+      "PE283EG",
+      "PE283EQ",
+      "PE283JB",
       "PE173EG",
       "PE173JB",
       "PE283EH",
@@ -95,15 +99,11 @@
       "PE283JY",
       "PE283YQ",
       "PE283YR",
-      "PE283YT",
-      "PE283EE",
-      "PE283EG",
-      "PE283EQ",
-      "PE283JB"
+      "PE283YT"
     ],
     "CustomersOnSupply": 93,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -435,6 +435,10 @@
     }
   ],
   "FullPostcodeData": [
+    "PE283EE",
+    "PE283EG",
+    "PE283EQ",
+    "PE283JB",
     "PE173EG",
     "PE173JB",
     "PE283EH",
@@ -442,11 +446,7 @@
     "PE283JY",
     "PE283YQ",
     "PE283YR",
-    "PE283YT",
-    "PE283EE",
-    "PE283EG",
-    "PE283EQ",
-    "PE283JB"
+    "PE283YT"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
