@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-59936-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-59936-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-59936-V",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-27T21:44:15.397",
-      "Message": "Update at 21:43 - I appreciate your continued patience this evening. I know having power cuts as often as this must be very disruptive, and our staff are doing everything they can to get this resolved. They are still testing our network in the area, and depending on the local infrastructure this can take some time. However, once they update us we'll know if our estimated timeframe needs to change and why, and I'll let you know as soon as we hear. In the meantime, if we can offer any support or advice, our team are always available to talk on 105.",
+      "Date": "2021-06-27T21:52:03.047",
+      "Message": "Update at 21:51 - Our staff have now managed to restore power back to the Princes Close area again. They have thoroughly investigated our network equipment in the area, but the underlying network fault has not yet reached a severe enough state to appear on any of their diagnostic tests. As such, they have replaced our substation equipment to restore power as quickly as possible. I'm sorry this affected your power again today. This may happen again before we're able to pinpoint the issue and fix it, but if you'd like to talk to us about anything or if your power isn't on, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2021-06-27T19:20:39",
+      "Date": "2021-06-27T19:20:00",
       "Message": "<p>We became aware of a power cut at 19:20. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-27T21:10:59",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-27T21:50:29.15",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000ea20INCD",
     "IncidentReference": "INCD-59936-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-27T19:29:17",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-27T21:50:29.15",
     "EstimatedRestorationDate": "2021-06-28T00:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-06-27T19:20:39",
+    "ReceivedDate": "2021-06-27T19:20:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-27T21:43:00",
+        "ActualEventTime": "2021-06-27T21:51:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 21:43 - I appreciate your continued patience this evening. I know having power cuts as often as this must be very disruptive, and our staff are doing everything they can to get this resolved. They are still testing our network in the area, and depending on the local infrastructure this can take some time. However, once they update us we'll know if our estimated timeframe needs to change and why, and I'll let you know as soon as we hear. In the meantime, if we can offer any support or advice, our team are always available to talk on 105.",
-        "LoggedTime": "2021-06-27T21:44:15.397"
+        "Comment": "Update at 21:51 - Our staff have now managed to restore power back to the Princes Close area again. They have thoroughly investigated our network equipment in the area, but the underlying network fault has not yet reached a severe enough state to appear on any of their diagnostic tests. As such, they have replaced our substation equipment to restore power as quickly as possible. I'm sorry this affected your power again today. This may happen again before we're able to pinpoint the issue and fix it, but if you'd like to talk to us about anything or if your power isn't on, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-06-27T21:52:03.047"
       }
     ],
     "PostCodesAffected": [
@@ -78,23 +78,23 @@
       "RH163BD",
       "TW110QA",
       "TW110RU",
-      "TW110RX",
       "TW110RY",
       "TW110RZ",
-      "TW121JT"
+      "TW121JT",
+      "TW110RX"
     ],
     "PostCodesPlanned": [
       "RH163BD",
       "TW110QA",
       "TW110RU",
-      "TW110RX",
       "TW110RY",
       "TW110RZ",
-      "TW121JT"
+      "TW121JT",
+      "TW110RX"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 54,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 54,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1688,10 +1688,10 @@
     "RH163BD",
     "TW110QA",
     "TW110RU",
-    "TW110RX",
     "TW110RY",
     "TW110RZ",
-    "TW121JT"
+    "TW121JT",
+    "TW110RX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
