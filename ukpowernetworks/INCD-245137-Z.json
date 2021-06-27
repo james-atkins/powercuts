@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245137-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245137-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245137-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-26T19:53:40",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-27T10:07:48.757",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003bd91INCD",
     "IncidentReference": "INCD-245137-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-26T19:31:10",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-27T10:07:48.757",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-26T19:29:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -73,29 +73,29 @@
       "SS9 2"
     ],
     "PostCodesRestored": [
-      "SS92UL",
-      "SS92PE",
-      "SS92UJ",
       "SS92PA",
       "SS92PB",
       "SS92SH",
       "SS92UH",
-      "SS92UW"
+      "SS92UW",
+      "SS92PE",
+      "SS92UJ",
+      "SS92UL"
     ],
     "PostCodesPlanned": [
-      "SS92UL",
-      "SS92PE",
-      "SS92UJ",
       "SS92PA",
       "SS92PB",
       "SS92SH",
       "SS92UH",
-      "SS92UW"
+      "SS92UW",
+      "SS92PE",
+      "SS92UJ",
+      "SS92UL"
     ],
-    "CustomersOnSupply": 104,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 105,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -549,14 +549,14 @@
     }
   ],
   "FullPostcodeData": [
-    "SS92UL",
-    "SS92PE",
-    "SS92UJ",
     "SS92PA",
     "SS92PB",
     "SS92SH",
     "SS92UH",
-    "SS92UW"
+    "SS92UW",
+    "SS92PE",
+    "SS92UJ",
+    "SS92UL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
