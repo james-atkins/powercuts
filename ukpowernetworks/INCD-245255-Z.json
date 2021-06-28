@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245255-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245255-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245255-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-28T05:28:02",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-28T06:03:45.833",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003be07INCD",
     "IncidentReference": "INCD-245255-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-28T02:20:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-28T06:03:45.833",
     "EstimatedRestorationDate": "2021-06-28T07:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-28T01:58:00",
-    "NoCustomerAffected": 28,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -84,9 +84,9 @@
       "HA98AU",
       "HA98AX",
       "HA98AY",
-      "HA98BU",
       "HA98DF",
-      "HA98DP"
+      "HA98DP",
+      "HA98BU"
     ],
     "PostCodesPlanned": [
       "HA90EQ",
@@ -99,13 +99,13 @@
       "HA98AU",
       "HA98AX",
       "HA98AY",
-      "HA98BU",
       "HA98DF",
-      "HA98DP"
+      "HA98DP",
+      "HA98BU"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 86,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 86,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1064,9 +1064,9 @@
     "HA98AU",
     "HA98AX",
     "HA98AY",
-    "HA98BU",
     "HA98DF",
-    "HA98DP"
+    "HA98DP",
+    "HA98BU"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
