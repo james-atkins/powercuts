@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-59962-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-59962-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-59962-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-28T08:16:40",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-28T17:10:25.88",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000ea3aINCD",
     "IncidentReference": "INCD-59962-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-28T07:20:29",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-28T17:10:25.88",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-28T07:19:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "CT1 1"
     ],
     "PostCodesRestored": [
-      "CT11HQ",
       "CT11DT",
-      "CT11ET"
+      "CT11ET",
+      "CT11HQ"
     ],
     "PostCodesPlanned": [
-      "CT11HQ",
       "CT11DT",
-      "CT11ET"
+      "CT11ET",
+      "CT11HQ"
     ],
-    "CustomersOnSupply": 35,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 38,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -573,9 +573,9 @@
     }
   ],
   "FullPostcodeData": [
-    "CT11HQ",
     "CT11DT",
-    "CT11ET"
+    "CT11ET",
+    "CT11HQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
