@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-265428-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-265428-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-265428-J",
   "Steps": [
     {
       "Active": false,
@@ -9,38 +9,38 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-28T06:19:11",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-06-28T08:26:14",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-28T08:29:29.203051+01:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J00040cd4INCD",
     "IncidentReference": "INCD-265428-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-28T05:44:06",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-28T08:29:29.203051+01:00",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-28T05:39:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -50,8 +50,8 @@
       "Name": "KARL",
       "EstimatedTimeOfArrival": "2021-06-28T08:00:00",
       "DispatchedDate": "2021-06-28T06:19:11",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-06-28T08:26:14",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -60,19 +60,19 @@
     ],
     "PostCodesRestored": [
       "SE265AG",
-      "SE265BA",
       "SE265AQ",
+      "SE265BA",
       "SE265BW"
     ],
     "PostCodesPlanned": [
       "SE265AG",
-      "SE265BA",
       "SE265AQ",
+      "SE265BA",
       "SE265BW"
     ],
-    "CustomersOnSupply": 15,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 17,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -632,8 +632,8 @@
   ],
   "FullPostcodeData": [
     "SE265AG",
-    "SE265BA",
     "SE265AQ",
+    "SE265BA",
     "SE265BW"
   ],
   "PinLatitude": null,
