@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-317392-U",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-317392-U",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-317392-U",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-28T00:41:21",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-28T04:48:32.697",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "U0004d7d0INCD",
     "IncidentReference": "INCD-317392-U",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-27T23:37:52",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-28T04:48:32.697",
     "EstimatedRestorationDate": "2021-06-28T05:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-27T23:35:11",
@@ -59,16 +59,16 @@
       "GU5 0"
     ],
     "PostCodesRestored": [
-      "GU50SP",
-      "GU50ST"
+      "GU50ST",
+      "GU50SP"
     ],
     "PostCodesPlanned": [
-      "GU50SP",
-      "GU50ST"
+      "GU50ST",
+      "GU50SP"
     ],
     "CustomersOnSupply": 25,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -447,8 +447,8 @@
     }
   ],
   "FullPostcodeData": [
-    "GU50SP",
-    "GU50ST"
+    "GU50ST",
+    "GU50SP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
