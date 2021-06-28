@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-265517-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-265517-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-265517-J",
   "Steps": [
     {
       "Active": true,
@@ -10,7 +10,7 @@
     },
     {
       "Active": false,
-      "Date": "2021-06-28T20:05:37",
+      "Date": "2021-06-28T20:05:00",
       "Message": "<p>We became aware of a power cut at 20:05. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-28T21:16:30",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-28T22:09:53.12",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J00040d2dINCD",
     "IncidentReference": "INCD-265517-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-28T20:09:09",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-28T22:09:53.12",
     "EstimatedRestorationDate": "2021-06-29T00:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-06-28T20:05:37",
+    "ReceivedDate": "2021-06-28T20:05:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
@@ -73,7 +73,6 @@
       "E18 2"
     ],
     "PostCodesRestored": [
-      "E182DX",
       "E182BP",
       "E182DJ",
       "E182DS",
@@ -81,10 +80,10 @@
       "E182DU",
       "E182DY",
       "E182UA",
-      "E182UB"
+      "E182UB",
+      "E182DX"
     ],
     "PostCodesPlanned": [
-      "E182DX",
       "E182BP",
       "E182DJ",
       "E182DS",
@@ -92,11 +91,12 @@
       "E182DU",
       "E182DY",
       "E182UA",
-      "E182UB"
+      "E182UB",
+      "E182DX"
     ],
-    "CustomersOnSupply": 148,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 154,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -595,7 +595,6 @@
     }
   ],
   "FullPostcodeData": [
-    "E182DX",
     "E182BP",
     "E182DJ",
     "E182DS",
@@ -603,7 +602,8 @@
     "E182DU",
     "E182DY",
     "E182UA",
-    "E182UB"
+    "E182UB",
+    "E182DX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
