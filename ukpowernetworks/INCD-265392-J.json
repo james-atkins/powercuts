@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-265392-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-265392-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-265392-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-27T21:57:07",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-28T15:03:09.063",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J00040cb0INCD",
     "IncidentReference": "INCD-265392-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-27T21:23:36",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-28T15:03:09.063",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-27T21:22:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -73,9 +73,6 @@
       "E15 4"
     ],
     "PostCodesRestored": [
-      "E154AF",
-      "E154AD",
-      "E154AG",
       "E154AA",
       "E154AQ",
       "E154EL",
@@ -83,12 +80,12 @@
       "E154EP",
       "E154ER",
       "E154GH",
-      "E154HD"
+      "E154HD",
+      "E154AD",
+      "E154AF",
+      "E154AG"
     ],
     "PostCodesPlanned": [
-      "E154AF",
-      "E154AD",
-      "E154AG",
       "E154AA",
       "E154AQ",
       "E154EL",
@@ -96,12 +93,15 @@
       "E154EP",
       "E154ER",
       "E154GH",
-      "E154HD"
+      "E154HD",
+      "E154AD",
+      "E154AF",
+      "E154AG"
     ],
-    "CustomersOnSupply": 240,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 241,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -491,9 +491,6 @@
     }
   ],
   "FullPostcodeData": [
-    "E154AF",
-    "E154AD",
-    "E154AG",
     "E154AA",
     "E154AQ",
     "E154EL",
@@ -501,7 +498,10 @@
     "E154EP",
     "E154ER",
     "E154GH",
-    "E154HD"
+    "E154HD",
+    "E154AD",
+    "E154AF",
+    "E154AG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
