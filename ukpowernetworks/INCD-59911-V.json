@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-59911-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-59911-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-59911-V",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-27T11:49:17",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-28T03:55:04.097",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000ea07INCD",
     "IncidentReference": "INCD-59911-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-27T07:11:37",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-28T03:55:04.097",
     "EstimatedRestorationDate": "2021-06-28T02:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-27T07:11:13",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,7 +59,6 @@
       "TN33 0"
     ],
     "PostCodesRestored": [
-      "TN330BE",
       "TN330BL",
       "TN330BN",
       "TN330BP",
@@ -70,10 +69,10 @@
       "TN330BZ",
       "TN330DA",
       "TN330DP",
-      "TN330TX"
+      "TN330TX",
+      "TN330BE"
     ],
     "PostCodesPlanned": [
-      "TN330BE",
       "TN330BL",
       "TN330BN",
       "TN330BP",
@@ -84,12 +83,13 @@
       "TN330BZ",
       "TN330DA",
       "TN330DP",
-      "TN330TX"
+      "TN330TX",
+      "TN330BE"
     ],
-    "CustomersOnSupply": 82,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 86,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -439,7 +439,6 @@
     }
   ],
   "FullPostcodeData": [
-    "TN330BE",
     "TN330BL",
     "TN330BN",
     "TN330BP",
@@ -450,7 +449,8 @@
     "TN330BZ",
     "TN330DA",
     "TN330DP",
-    "TN330TX"
+    "TN330TX",
+    "TN330BE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
