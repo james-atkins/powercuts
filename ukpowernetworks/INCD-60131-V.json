@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-60131-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-60131-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-60131-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-29T07:35:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-29T12:25:37.517",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000eae3INCD",
     "IncidentReference": "INCD-60131-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-29T06:08:58",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-29T12:25:37.517",
     "EstimatedRestorationDate": "2021-06-29T14:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-29T06:08:00",
-    "NoCustomerAffected": 25,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -74,25 +74,25 @@
     ],
     "PostCodesRestored": [
       "TN341DJ",
-      "TN341DT",
       "TN341DU",
-      "TN341LP",
       "TN341EB",
       "TN341EH",
-      "TN341LZ"
+      "TN341LZ",
+      "TN341DT",
+      "TN341LP"
     ],
     "PostCodesPlanned": [
       "TN341DJ",
-      "TN341DT",
       "TN341DU",
-      "TN341LP",
       "TN341EB",
       "TN341EH",
-      "TN341LZ"
+      "TN341LZ",
+      "TN341DT",
+      "TN341LP"
     ],
-    "CustomersOnSupply": 50,
-    "CustomersOffSupply": 25,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 75,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -492,12 +492,12 @@
   ],
   "FullPostcodeData": [
     "TN341DJ",
-    "TN341DT",
     "TN341DU",
-    "TN341LP",
     "TN341EB",
     "TN341EH",
-    "TN341LZ"
+    "TN341LZ",
+    "TN341DT",
+    "TN341LP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
