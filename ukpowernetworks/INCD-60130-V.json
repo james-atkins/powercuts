@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-60130-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-60130-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-60130-V",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-28T23:52:57",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-29T17:18:43.517",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000eae2INCD",
     "IncidentReference": "INCD-60130-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-28T22:31:20",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-29T17:18:43.517",
     "EstimatedRestorationDate": "2021-06-29T21:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-28T22:29:00",
-    "NoCustomerAffected": 89,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 7,
+    "NoCallsReported": 8,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -74,19 +74,19 @@
     ],
     "PostCodesRestored": [
       "RH159HA",
+      "RH159JW",
       "RH159JP",
-      "RH159JR",
-      "RH159JW"
+      "RH159JR"
     ],
     "PostCodesPlanned": [
       "RH159HA",
+      "RH159JW",
       "RH159JP",
-      "RH159JR",
-      "RH159JW"
+      "RH159JR"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 89,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 89,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -518,9 +518,9 @@
   ],
   "FullPostcodeData": [
     "RH159HA",
+    "RH159JW",
     "RH159JP",
-    "RH159JR",
-    "RH159JW"
+    "RH159JR"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
