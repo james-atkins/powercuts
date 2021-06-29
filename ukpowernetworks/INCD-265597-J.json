@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-265597-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-265597-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-265597-J",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-29T16:39:22",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-29T19:01:43.88",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J00040d7dINCD",
     "IncidentReference": "INCD-265597-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-29T14:06:10",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-06-29T21:00:00",
+    "RestoredDateTime": "2021-06-29T19:01:43.88",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-29T18:09:00",
-    "NoCustomerAffected": 37,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "SW10 9"
     ],
     "PostCodesRestored": [
-      "SW109QB",
       "SW109QD",
       "SW109QG",
-      "SW109QQ"
+      "SW109QQ",
+      "SW109QB"
     ],
     "PostCodesPlanned": [
-      "SW109QB",
       "SW109QD",
       "SW109QG",
-      "SW109QQ"
+      "SW109QQ",
+      "SW109QB"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 112,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 112,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -679,15 +679,15 @@
     }
   ],
   "FullPostcodeData": [
-    "SW109QB",
     "SW109QD",
     "SW109QG",
-    "SW109QQ"
+    "SW109QQ",
+    "SW109QB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "20:30 - 21:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
