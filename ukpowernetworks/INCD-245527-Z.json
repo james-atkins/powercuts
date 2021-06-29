@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245527-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245527-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245527-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-29T07:02:48",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-29T23:34:10.543",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003bf17INCD",
     "IncidentReference": "INCD-245527-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-29T06:23:33",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-29T23:34:10.543",
     "EstimatedRestorationDate": "2021-06-30T02:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-29T06:21:00",
-    "NoCustomerAffected": 18,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -73,16 +73,16 @@
       "SS17 0"
     ],
     "PostCodesRestored": [
-      "SS170DN",
-      "SS170DW"
+      "SS170DW",
+      "SS170DN"
     ],
     "PostCodesPlanned": [
-      "SS170DN",
-      "SS170DW"
+      "SS170DW",
+      "SS170DN"
     ],
-    "CustomersOnSupply": 4,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 22,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -485,8 +485,8 @@
     }
   ],
   "FullPostcodeData": [
-    "SS170DN",
-    "SS170DW"
+    "SS170DW",
+    "SS170DN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
