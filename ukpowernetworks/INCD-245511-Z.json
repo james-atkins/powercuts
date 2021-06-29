@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-245511-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245511-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245511-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-29T01:18:53.243",
-      "Message": "Update at 01:18 - We've heard from our engineers, who are estimating to have power restored between 05:30 and 06:30. We know there is an underlying issue causing the recent power cuts, but due to the nature of the network, the heat created by a developing fault can cause a break in a cable to reseal itself. This can make it difficult to locate, so while our engineers are testing our equipment thoroughly to pinpoint the issue, this kind of problem may interrupt power multiple times before it's possible  to fix. We know that our customers are more worried than ever about the food in the fridge and freezer, so we want to try and help. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them.",
+      "Date": "2021-06-29T02:05:01.66",
+      "Message": "Update at 02:04 - This is Adam from the messaging team once more, as I'm glad to report power to the Ashcroft Road area should now be back on. Following thorough tests at our substation and on local network equipment, our staff been able to safely replace our network equipment. The suspected underground cabling issue is not yet appearing on any of our tests, so for the moment we have restored your power as quickly as possible. I'm afraid this may happen again, but every time you lose power it gives us a better chance of pinpointing the problem. I'm sorry for the continued disruption, but If you'd like to talk to us about this, or if your power isn't on call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-29T00:51:06",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-29T02:09:45.993",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003bf07INCD",
     "IncidentReference": "INCD-245511-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-29T00:15:52",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-29T02:09:45.993",
     "EstimatedRestorationDate": "2021-06-29T06:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-29T00:09:00",
-    "NoCustomerAffected": 30,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -57,41 +57,41 @@
       "EstimatedTimeOfArrival": "2021-06-29T01:30:00",
       "DispatchedDate": "2021-06-29T00:19:06",
       "ArrivalDate": "2021-06-29T00:51:06",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-29T01:15:00",
+        "ActualEventTime": "2021-06-29T02:04:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 01:18 - We've heard from our engineers, who are estimating to have power restored between 05:30 and 06:30. We know there is an underlying issue causing the recent power cuts, but due to the nature of the network, the heat created by a developing fault can cause a break in a cable to reseal itself. This can make it difficult to locate, so while our engineers are testing our equipment thoroughly to pinpoint the issue, this kind of problem may interrupt power multiple times before it's possible  to fix. We know that our customers are more worried than ever about the food in the fridge and freezer, so we want to try and help. Food should keep for up to 6 hours in the fridge, and between 15-24 hours in the freezer if you avoid opening them.",
-        "LoggedTime": "2021-06-29T01:18:53.243"
+        "Comment": "Update at 02:04 - This is Adam from the messaging team once more, as I'm glad to report power to the Ashcroft Road area should now be back on. Following thorough tests at our substation and on local network equipment, our staff been able to safely replace our network equipment. The suspected underground cabling issue is not yet appearing on any of our tests, so for the moment we have restored your power as quickly as possible. I'm afraid this may happen again, but every time you lose power it gives us a better chance of pinpointing the problem. I'm sorry for the continued disruption, but If you'd like to talk to us about this, or if your power isn't on call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-06-29T02:05:01.66"
       }
     ],
     "PostCodesAffected": [
       "LU2 9"
     ],
     "PostCodesRestored": [
-      "LU29AA",
-      "LU29AQ",
       "LU29AB",
       "LU29EE",
       "LU29EG",
-      "LU29EQ"
+      "LU29EQ",
+      "LU29AA",
+      "LU29AQ"
     ],
     "PostCodesPlanned": [
-      "LU29AA",
-      "LU29AQ",
       "LU29AB",
       "LU29EE",
       "LU29EG",
-      "LU29EQ"
+      "LU29EQ",
+      "LU29AA",
+      "LU29AQ"
     ],
-    "CustomersOnSupply": 83,
-    "CustomersOffSupply": 30,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 113,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -769,12 +769,12 @@
     }
   ],
   "FullPostcodeData": [
-    "LU29AA",
-    "LU29AQ",
     "LU29AB",
     "LU29EE",
     "LU29EG",
-    "LU29EQ"
+    "LU29EQ",
+    "LU29AA",
+    "LU29AQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
