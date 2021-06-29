@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245612-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245612-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245612-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-29T13:58:42",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-30T00:21:43.243",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003bf6cINCD",
     "IncidentReference": "INCD-245612-Z",
     "IncidentCategory": "42",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-29T11:27:45",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-30T00:21:43.243",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-29T11:27:42",
@@ -79,9 +79,6 @@
       "IP15 6"
     ],
     "PostCodesRestored": [
-      "IP122GB",
-      "IP122NQ",
-      "IP122UN",
       "IP122AA",
       "IP122AB",
       "IP122AD",
@@ -270,12 +267,12 @@
       "IP130JN",
       "IP130QE",
       "IP156TD",
-      "UK"
+      "UK",
+      "IP122GB",
+      "IP122NQ",
+      "IP122UN"
     ],
     "PostCodesPlanned": [
-      "IP122GB",
-      "IP122NQ",
-      "IP122UN",
       "IP122AA",
       "IP122AB",
       "IP122AD",
@@ -464,12 +461,15 @@
       "IP130JN",
       "IP130QE",
       "IP156TD",
-      "UK"
+      "UK",
+      "IP122GB",
+      "IP122NQ",
+      "IP122UN"
     ],
     "CustomersOnSupply": 2439,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1848,9 +1848,6 @@
     }
   ],
   "FullPostcodeData": [
-    "IP122GB",
-    "IP122NQ",
-    "IP122UN",
     "IP122AA",
     "IP122AB",
     "IP122AD",
@@ -2039,7 +2036,10 @@
     "IP130JN",
     "IP130QE",
     "IP156TD",
-    "UK"
+    "UK",
+    "IP122GB",
+    "IP122NQ",
+    "IP122UN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
