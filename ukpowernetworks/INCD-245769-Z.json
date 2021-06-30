@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245769-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245769-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245769-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-30T08:12:33",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-30T09:28:11.537",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c009INCD",
     "IncidentReference": "INCD-245769-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-30T06:19:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-30T09:28:11.537",
     "EstimatedRestorationDate": "2021-06-30T10:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-06-30T06:17:00",
-    "NoCustomerAffected": 13,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -63,24 +63,24 @@
       "CO102EG",
       "CO102PP",
       "CO102RL",
-      "CO102XA",
       "CO106RG",
       "CO106XA",
-      "CO106XB"
+      "CO106XB",
+      "CO102XA"
     ],
     "PostCodesPlanned": [
       "CO102EG",
       "CO102PP",
       "CO102RL",
-      "CO102XA",
       "CO106RG",
       "CO106XA",
-      "CO106XB"
+      "CO106XB",
+      "CO102XA"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 13,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 13,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -654,10 +654,10 @@
     "CO102EG",
     "CO102PP",
     "CO102RL",
-    "CO102XA",
     "CO106RG",
     "CO106XA",
-    "CO106XB"
+    "CO106XB",
+    "CO102XA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
