@@ -1,11 +1,17 @@
 {
   "IncidentReference": "INCD-59653-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-59653-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-59653-V",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-06-30T02:19:23.48",
+      "Message": "Update at 02:19 - We can now confirm that all power in the Bloxworth Close area should be fully back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-06-24T09:50:28",
-      "Message": "<p>We became aware of a power cut at 09:50. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
+      "Date": "2021-06-30T00:13:00",
+      "Message": "<p>We became aware of a power cut at 00:13. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
     {
@@ -15,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-29T23:13:25",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-30T01:54:24.723",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000e905INCD",
     "IncidentReference": "INCD-59653-V",
     "IncidentCategory": "6",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-24T09:57:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-30T01:54:24.723",
     "EstimatedRestorationDate": "2021-06-30T04:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-06-24T09:50:28",
+    "ReceivedDate": "2021-06-30T00:13:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 5,
+    "NoCallsReported": 7,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -51,44 +57,52 @@
       "EstimatedTimeOfArrival": "2021-06-29T23:30:00",
       "DispatchedDate": "2021-06-29T22:16:08",
       "ArrivalDate": "2021-06-29T23:13:25",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-06-30T02:19:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 02:19 - We can now confirm that all power in the Bloxworth Close area should be fully back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-06-30T02:19:23.48"
+      }
+    ],
     "PostCodesAffected": [
       "SM6 7",
       "SM6 8"
     ],
     "PostCodesRestored": [
-      "SM67LR",
-      "SM67LS",
-      "SM67NL",
-      "SM68DH",
-      "SM68DX",
-      "SM68DY",
-      "SM68DZ",
       "SM67LF",
       "SM67LG",
       "SM67LN",
-      "SM67LQ"
+      "SM67LQ",
+      "SM67LS",
+      "SM68DH",
+      "SM68DY",
+      "SM68DZ",
+      "SM67LR",
+      "SM67NL",
+      "SM68DX"
     ],
     "PostCodesPlanned": [
-      "SM67LR",
-      "SM67LS",
-      "SM67NL",
-      "SM68DH",
-      "SM68DX",
-      "SM68DY",
-      "SM68DZ",
       "SM67LF",
       "SM67LG",
       "SM67LN",
-      "SM67LQ"
+      "SM67LQ",
+      "SM67LS",
+      "SM68DH",
+      "SM68DY",
+      "SM68DZ",
+      "SM67LR",
+      "SM67NL",
+      "SM68DX"
     ],
-    "CustomersOnSupply": 110,
-    "CustomersOffSupply": 89,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 199,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1140,17 +1154,17 @@
     }
   ],
   "FullPostcodeData": [
-    "SM67LR",
-    "SM67LS",
-    "SM67NL",
-    "SM68DH",
-    "SM68DX",
-    "SM68DY",
-    "SM68DZ",
     "SM67LF",
     "SM67LG",
     "SM67LN",
-    "SM67LQ"
+    "SM67LQ",
+    "SM67LS",
+    "SM68DH",
+    "SM68DY",
+    "SM68DZ",
+    "SM67LR",
+    "SM67NL",
+    "SM68DX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
