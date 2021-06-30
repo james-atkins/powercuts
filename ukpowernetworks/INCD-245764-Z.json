@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245764-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245764-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245764-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-30T03:15:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-30T03:59:12.977",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c004INCD",
     "IncidentReference": "INCD-245764-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-30T02:31:23",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-30T03:59:12.977",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-30T02:28:00",
-    "NoCustomerAffected": 17,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -61,21 +61,21 @@
     ],
     "PostCodesRestored": [
       "E46AB",
-      "E46AG",
-      "E47DJ",
       "E46AL",
-      "E47AA"
+      "E47AA",
+      "E47DJ",
+      "E46AG"
     ],
     "PostCodesPlanned": [
       "E46AB",
-      "E46AG",
-      "E47DJ",
       "E46AL",
-      "E47AA"
+      "E47AA",
+      "E47DJ",
+      "E46AG"
     ],
-    "CustomersOnSupply": 35,
-    "CustomersOffSupply": 17,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 52,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1517,10 +1517,10 @@
   ],
   "FullPostcodeData": [
     "E46AB",
-    "E46AG",
-    "E47DJ",
     "E46AL",
-    "E47AA"
+    "E47AA",
+    "E47DJ",
+    "E46AG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
