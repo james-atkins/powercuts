@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245765-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245765-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245765-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-30T09:33:33",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-30T23:31:01.237",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c005INCD",
     "IncidentReference": "INCD-245765-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-30T03:04:41",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-30T23:31:01.237",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-30T03:03:00",
@@ -60,7 +60,6 @@
       "AL5 5"
     ],
     "PostCodesRestored": [
-      "AL54NQ",
       "AL54LT",
       "AL54LU",
       "AL54LX",
@@ -73,10 +72,10 @@
       "AL54NG",
       "AL55EG",
       "AL55EQ",
-      "UK"
+      "UK",
+      "AL54NQ"
     ],
     "PostCodesPlanned": [
-      "AL54NQ",
       "AL54LT",
       "AL54LU",
       "AL54LX",
@@ -89,11 +88,12 @@
       "AL54NG",
       "AL55EG",
       "AL55EQ",
-      "UK"
+      "UK",
+      "AL54NQ"
     ],
     "CustomersOnSupply": 148,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -1274,7 +1274,6 @@
     }
   ],
   "FullPostcodeData": [
-    "AL54NQ",
     "AL54LT",
     "AL54LU",
     "AL54LX",
@@ -1287,7 +1286,8 @@
     "AL54NG",
     "AL55EG",
     "AL55EQ",
-    "UK"
+    "UK",
+    "AL54NQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
