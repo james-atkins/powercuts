@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-252550-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-252550-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-252550-G",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-06-30T11:26:29.603",
-      "Message": "Update at 11:26 - Investigations are ongoing by the Fire Brigade. We will provide you with a timeframe as soon as possible. We're sorry for the disruption this power cut may be causing. If you're worried about elderly or ill neighbours, we can offer help and support to our vulnerable customers during a power cut. Find out more here: <a href=\"http://bit.ly/18Me8R8.\" target=\"_blank\">http://bit.ly/18Me8R8.</a> If you have any concerns, please call us on 08003163105.",
+      "Date": "2021-06-30T11:58:07.92",
+      "Message": "Update at 11:58 - We can now confirm that all power in the area should be back on. Our engineers turned power off in the Seafield Place area due to the possible risk of damage from a fire nearby. Emergency services have now advised it is safe for us to restore supplies. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-30T08:00:37",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-06-30T11:57:29.403",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003da86INCD",
     "IncidentReference": "INCD-252550-G",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-30T06:25:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-06-30T11:57:29.403",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-30T06:00:00",
-    "NoCustomerAffected": 52,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -62,19 +62,17 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-06-30T11:24:00",
+        "ActualEventTime": "2021-06-30T11:56:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 11:26 - Investigations are ongoing by the Fire Brigade. We will provide you with a timeframe as soon as possible. We're sorry for the disruption this power cut may be causing. If you're worried about elderly or ill neighbours, we can offer help and support to our vulnerable customers during a power cut. Find out more here: http://bit.ly/18Me8R8. If you have any concerns, please call us on 08003163105.",
-        "LoggedTime": "2021-06-30T11:26:29.603"
+        "Comment": "Update at 11:58 - We can now confirm that all power in the area should be back on. Our engineers turned power off in the Seafield Place area due to the possible risk of damage from a fire nearby. Emergency services have now advised it is safe for us to restore supplies. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-06-30T11:58:07.92"
       }
     ],
     "PostCodesAffected": [
       "CT5 2"
     ],
     "PostCodesRestored": [
-      "CT52LN",
-      "CT52LW",
       "CT52LH",
       "CT52LJ",
       "CT52LL",
@@ -83,11 +81,11 @@
       "CT52PJ",
       "CT52PQ",
       "CT52PY",
-      "CT52PZ"
+      "CT52PZ",
+      "CT52LN",
+      "CT52LW"
     ],
     "PostCodesPlanned": [
-      "CT52LN",
-      "CT52LW",
       "CT52LH",
       "CT52LJ",
       "CT52LL",
@@ -96,11 +94,13 @@
       "CT52PJ",
       "CT52PQ",
       "CT52PY",
-      "CT52PZ"
+      "CT52PZ",
+      "CT52LN",
+      "CT52LW"
     ],
-    "CustomersOnSupply": 160,
-    "CustomersOffSupply": 52,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 212,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -515,8 +515,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CT52LN",
-    "CT52LW",
     "CT52LH",
     "CT52LJ",
     "CT52LL",
@@ -525,7 +523,9 @@
     "CT52PJ",
     "CT52PQ",
     "CT52PY",
-    "CT52PZ"
+    "CT52PZ",
+    "CT52LN",
+    "CT52LW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
