@@ -3,10 +3,16 @@
   "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-13108-W",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-07-01T21:34:50.723",
+      "Message": "Update at 21:33 - Engineers are on their way. At this point we think the issue is a fault with some equipment in on an underground cable in the Lyne Lane area. We did not know this was going to happen, so timeframes we provide throughout are estimated, and are subject to change. Our estimate is currently between 23:30 and 00:30. After we arrive on site and assess the situation, this time may change. The reason for this is there can sometimes be a more complex underlying issue found from our engineers tests which may take longer, and if there is not we may get power back on sooner. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
+      "Name": null
+    },
+    {
       "Active": false,
       "Date": "2021-07-01T20:46:19",
-      "Message": "<p>We became aware of a power cut at 20:46. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
-      "Name": "Power cut reported"
+      "Message": "<p>We became aware of this power cut at 20:46. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
+      "Name": "We are restoring customers automatically"
     },
     {
       "Active": true,
@@ -31,18 +37,18 @@
   "UKPNIncident": {
     "IncidentId": "W00003334INCD",
     "IncidentReference": "INCD-13108-W",
-    "IncidentCategory": "124",
-    "IncidentType": 2,
+    "IncidentCategory": "61",
+    "IncidentType": 3,
     "IncidentPriority": 2,
     "StatusId": 1,
     "CreationDateTime": "2021-07-01T20:47:02",
     "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "EstimatedRestorationDate": "2021-07-02T00:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-01T20:46:19",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 8,
+    "NoCallsReported": 11,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -54,33 +60,59 @@
       "StatusId": 5
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-07-01T21:33:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 21:33 - Engineers are on their way. At this point we think the issue is a fault with some equipment in on an underground cable in the Lyne Lane area. We did not know this was going to happen, so timeframes we provide throughout are estimated, and are subject to change. Our estimate is currently between 23:30 and 00:30. After we arrive on site and assess the situation, this time may change. The reason for this is there can sometimes be a more complex underlying issue found from our engineers tests which may take longer, and if there is not we may get power back on sooner. All of our texts are manually written and sent personally by our team, and we will be in touch again when we arrive on site.",
+        "LoggedTime": "2021-07-01T21:34:50.723"
+      }
+    ],
     "PostCodesAffected": [
       "GU25 4",
       "KT16 0"
     ],
     "PostCodesRestored": [
       "GU254EA",
+      "GU254EB",
+      "GU254ED",
+      "GU254EE",
+      "GU254ER",
       "GU254ES",
       "KT160AE",
+      "KT160AF",
       "KT160AG",
+      "KT160AH",
       "KT160AL",
       "KT160AN",
+      "KT160AP",
       "KT160AW",
-      "KT160BL"
+      "KT160BL",
+      "KT160DH",
+      "KT160RL"
     ],
     "PostCodesPlanned": [
       "GU254EA",
+      "GU254EB",
+      "GU254ED",
+      "GU254EE",
+      "GU254ER",
       "GU254ES",
       "KT160AE",
+      "KT160AF",
       "KT160AG",
+      "KT160AH",
       "KT160AL",
       "KT160AN",
+      "KT160AP",
       "KT160AW",
-      "KT160BL"
+      "KT160BL",
+      "KT160DH",
+      "KT160RL"
     ],
     "CustomersOnSupply": 0,
-    "CustomersOffSupply": 48,
+    "CustomersOffSupply": 158,
     "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
@@ -783,18 +815,27 @@
   ],
   "FullPostcodeData": [
     "GU254EA",
+    "GU254EB",
+    "GU254ED",
+    "GU254EE",
+    "GU254ER",
     "GU254ES",
     "KT160AE",
+    "KT160AF",
     "KT160AG",
+    "KT160AH",
     "KT160AL",
     "KT160AN",
+    "KT160AP",
     "KT160AW",
-    "KT160BL"
+    "KT160BL",
+    "KT160DH",
+    "KT160RL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentCategoryCustomerFriendlyDescription": "An underground electricity cable faulted on our high voltage network, causing an area wide power cut.",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "23:30 - 00:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
