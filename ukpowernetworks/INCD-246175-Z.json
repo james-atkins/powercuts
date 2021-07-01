@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-246175-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246175-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246175-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-01T18:52:24",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-01T19:34:40.107",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c19fINCD",
     "IncidentReference": "INCD-246175-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-01T17:23:37",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "RestoredDateTime": "2021-07-01T19:34:40.107",
+    "EstimatedRestorationDate": "2021-07-01T21:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-01T17:22:00",
-    "NoCustomerAffected": 21,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 4,
+    "NoCallsReported": 5,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -60,19 +60,19 @@
     ],
     "PostCodesRestored": [
       "N178BP",
-      "N178DE",
+      "N178DU",
       "N178HG",
-      "N178DU"
+      "N178DE"
     ],
     "PostCodesPlanned": [
       "N178BP",
-      "N178DE",
+      "N178DU",
       "N178HG",
-      "N178DU"
+      "N178DE"
     ],
-    "CustomersOnSupply": 2,
-    "CustomersOffSupply": 63,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 65,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -436,14 +436,14 @@
   ],
   "FullPostcodeData": [
     "N178BP",
-    "N178DE",
+    "N178DU",
     "N178HG",
-    "N178DU"
+    "N178DE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "20:30 - 21:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
