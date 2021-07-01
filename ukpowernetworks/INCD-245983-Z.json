@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245983-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245983-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245983-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-07-01T07:16:08",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-07-01T07:41:02.58",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z0003c0dfINCD",
     "IncidentReference": "INCD-245983-Z",
-    "IncidentCategory": "124",
+    "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-07-01T05:43:11",
-    "RestoredDateTime": "2021-07-01T07:41:02.58",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-07-01T09:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-01T05:42:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 7,
+    "NoCallsReported": 9,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -73,22 +73,22 @@
       "NR31 0"
     ],
     "PostCodesRestored": [
-      "NR310AT",
       "NR310AX",
-      "NR310AZ",
       "NR310AY",
-      "NR310BA"
+      "NR310BA",
+      "NR310AT",
+      "NR310AZ"
     ],
     "PostCodesPlanned": [
-      "NR310AT",
       "NR310AX",
-      "NR310AZ",
       "NR310AY",
-      "NR310BA"
+      "NR310BA",
+      "NR310AT",
+      "NR310AZ"
     ],
     "CustomersOnSupply": 38,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -455,15 +455,15 @@
     }
   ],
   "FullPostcodeData": [
-    "NR310AT",
     "NR310AX",
-    "NR310AZ",
     "NR310AY",
-    "NR310BA"
+    "NR310BA",
+    "NR310AT",
+    "NR310AZ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "09:00 - 10:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
