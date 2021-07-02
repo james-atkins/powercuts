@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-47418-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-47418-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-47418-C",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-01T15:59:04",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-02T01:28:13.09",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000b93aINCD",
     "IncidentReference": "INCD-47418-C",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-01T13:45:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-02T01:28:13.09",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-01T13:12:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 16,
     "Latitude": 0.0,
@@ -73,12 +73,6 @@
       "N8 9"
     ],
     "PostCodesRestored": [
-      "N89DX",
-      "N89JD",
-      "N89JE",
-      "N89JG",
-      "N89JH",
-      "N89QH",
       "N89AS",
       "N89DY",
       "N89HS",
@@ -86,15 +80,15 @@
       "N89QJ",
       "N89QL",
       "N89QN",
-      "N89SN"
+      "N89SN",
+      "N89DX",
+      "N89JD",
+      "N89JE",
+      "N89JG",
+      "N89JH",
+      "N89QH"
     ],
     "PostCodesPlanned": [
-      "N89DX",
-      "N89JD",
-      "N89JE",
-      "N89JG",
-      "N89JH",
-      "N89QH",
       "N89AS",
       "N89DY",
       "N89HS",
@@ -102,11 +96,17 @@
       "N89QJ",
       "N89QL",
       "N89QN",
-      "N89SN"
+      "N89SN",
+      "N89DX",
+      "N89JD",
+      "N89JE",
+      "N89JG",
+      "N89JH",
+      "N89QH"
     ],
-    "CustomersOnSupply": 223,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 224,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -609,12 +609,6 @@
     }
   ],
   "FullPostcodeData": [
-    "N89DX",
-    "N89JD",
-    "N89JE",
-    "N89JG",
-    "N89JH",
-    "N89QH",
     "N89AS",
     "N89DY",
     "N89HS",
@@ -622,7 +616,13 @@
     "N89QJ",
     "N89QL",
     "N89QN",
-    "N89SN"
+    "N89SN",
+    "N89DX",
+    "N89JD",
+    "N89JE",
+    "N89JG",
+    "N89JH",
+    "N89QH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,

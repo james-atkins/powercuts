@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-317445-U",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-317445-U",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-317445-U",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-01T21:01:06",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-02T01:18:27.663",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "U0004d805INCD",
     "IncidentReference": "INCD-317445-U",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-01T14:37:54",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-02T01:18:27.663",
     "EstimatedRestorationDate": "2021-07-02T01:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-01T22:48:00",
-    "NoCustomerAffected": 28,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -76,23 +76,23 @@
       "BN211TR",
       "BN211UA",
       "BN211UB",
-      "BN211UX",
       "BN211UZ",
       "BN211XA",
-      "BN211XB"
+      "BN211XB",
+      "BN211UX"
     ],
     "PostCodesPlanned": [
       "BN211TR",
       "BN211UA",
       "BN211UB",
-      "BN211UX",
       "BN211UZ",
       "BN211XA",
-      "BN211XB"
+      "BN211XB",
+      "BN211UX"
     ],
-    "CustomersOnSupply": 27,
-    "CustomersOffSupply": 28,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 55,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -870,10 +870,10 @@
     "BN211TR",
     "BN211UA",
     "BN211UB",
-    "BN211UX",
     "BN211UZ",
     "BN211XA",
-    "BN211XB"
+    "BN211XB",
+    "BN211UX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
