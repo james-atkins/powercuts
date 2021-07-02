@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-246227-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246227-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246227-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-02T07:47:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-02T13:56:11.763",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c1d3INCD",
     "IncidentReference": "INCD-246227-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-02T06:22:49",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-02T13:56:11.763",
     "EstimatedRestorationDate": "2021-07-02T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-02T06:20:00",
@@ -60,28 +60,28 @@
       "CO10 6"
     ],
     "PostCodesRestored": [
-      "CO102ED",
-      "CO102XA",
       "CO102EG",
       "CO102PP",
       "CO102RL",
       "CO106RG",
       "CO106XA",
-      "CO106XB"
+      "CO106XB",
+      "CO102ED",
+      "CO102XA"
     ],
     "PostCodesPlanned": [
-      "CO102ED",
-      "CO102XA",
       "CO102EG",
       "CO102PP",
       "CO102RL",
       "CO106RG",
       "CO106XA",
-      "CO106XB"
+      "CO106XB",
+      "CO102ED",
+      "CO102XA"
     ],
     "CustomersOnSupply": 13,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -653,14 +653,14 @@
     }
   ],
   "FullPostcodeData": [
-    "CO102ED",
-    "CO102XA",
     "CO102EG",
     "CO102PP",
     "CO102RL",
     "CO106RG",
     "CO106XA",
-    "CO106XB"
+    "CO106XB",
+    "CO102ED",
+    "CO102XA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
