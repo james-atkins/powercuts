@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-246474-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246474-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246474-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-07-03T15:15:28",
+      "Date": "2021-07-03T15:15:00",
       "Message": "<p>We became aware of a power cut at 15:15. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-03T15:56:32",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-03T16:35:26.323",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c2caINCD",
     "IncidentReference": "INCD-246474-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-03T15:15:59",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-03T16:35:26.323",
     "EstimatedRestorationDate": "2021-07-03T18:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-07-03T15:15:28",
+    "ReceivedDate": "2021-07-03T15:15:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -59,9 +59,7 @@
       "WD3 5"
     ],
     "PostCodesRestored": [
-      "WD35BA",
       "WD35BB",
-      "WD35BJ",
       "WD35GY",
       "WD35NT",
       "WD35NU",
@@ -71,12 +69,12 @@
       "WD35PB",
       "WD35PD",
       "WD35PE",
-      "WD35PP"
+      "WD35PP",
+      "WD35BA",
+      "WD35BJ"
     ],
     "PostCodesPlanned": [
-      "WD35BA",
       "WD35BB",
-      "WD35BJ",
       "WD35GY",
       "WD35NT",
       "WD35NU",
@@ -86,11 +84,13 @@
       "WD35PB",
       "WD35PD",
       "WD35PE",
-      "WD35PP"
+      "WD35PP",
+      "WD35BA",
+      "WD35BJ"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 54,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 54,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -381,9 +381,7 @@
     }
   ],
   "FullPostcodeData": [
-    "WD35BA",
     "WD35BB",
-    "WD35BJ",
     "WD35GY",
     "WD35NT",
     "WD35NU",
@@ -393,7 +391,9 @@
     "WD35PB",
     "WD35PD",
     "WD35PE",
-    "WD35PP"
+    "WD35PP",
+    "WD35BA",
+    "WD35BJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
