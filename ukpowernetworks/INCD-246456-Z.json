@@ -1,13 +1,7 @@
 {
   "IncidentReference": "INCD-246456-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246456-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246456-Z",
   "Steps": [
-    {
-      "Active": true,
-      "Date": "2021-07-03T15:51:29.417",
-      "Message": "Update at 15:51 - Hi, this is Bev from the UK Power Networks messaging team. Our engineers are on the way to further investigate today's power cuts and the estimated timeframe to restore your power is now between 17:00 and 18:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
-      "Name": null
-    },
     {
       "Active": false,
       "Date": "2021-07-03T11:40:00",
@@ -15,34 +9,34 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
-      "Date": "2021-07-03T15:35:37",
+      "Active": false,
+      "Date": null,
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
       "Date": null,
-      "Message": null,
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-03T17:20:45.64",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c2b8INCD",
     "IncidentReference": "INCD-246456-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-03T11:46:45",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-03T17:20:45.64",
     "EstimatedRestorationDate": "2021-07-03T17:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-03T11:40:00",
@@ -53,54 +47,46 @@
     "Longitude": 0.0,
     "Resource": {
       "Id": null,
-      "Name": "JAMES",
-      "EstimatedTimeOfArrival": "2021-07-03T16:05:00",
-      "DispatchedDate": "2021-07-03T15:35:37",
+      "Name": null,
+      "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
+      "DispatchedDate": null,
       "ArrivalDate": null,
-      "StatusId": 5
+      "StatusId": 0
     },
     "AffectedCustomers": [],
-    "Logs": [
-      {
-        "ActualEventTime": "2021-07-03T15:51:00",
-        "CategoryId": 263,
-        "TypeId": 0,
-        "Comment": "Update at 15:51 - Hi, this is Bev from the UK Power Networks messaging team. Our engineers are on the way to further investigate today's power cuts and the estimated timeframe to restore your power is now between 17:00 and 18:00. We're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
-        "LoggedTime": "2021-07-03T15:51:29.417"
-      }
-    ],
+    "Logs": [],
     "PostCodesAffected": [
       "CM14 4"
     ],
     "PostCodesRestored": [
-      "CM144AD",
-      "CM144AN",
-      "CM144AP",
-      "CM144AX",
       "CM144AJ",
       "CM144AZ",
       "CM144BJ",
       "CM144BN",
       "CM144BX",
       "CM144ED",
-      "CM144RX"
+      "CM144RX",
+      "CM144AD",
+      "CM144AN",
+      "CM144AP",
+      "CM144AX"
     ],
     "PostCodesPlanned": [
-      "CM144AD",
-      "CM144AN",
-      "CM144AP",
-      "CM144AX",
       "CM144AJ",
       "CM144AZ",
       "CM144BJ",
       "CM144BN",
       "CM144BX",
       "CM144ED",
-      "CM144RX"
+      "CM144RX",
+      "CM144AD",
+      "CM144AN",
+      "CM144AP",
+      "CM144AX"
     ],
     "CustomersOnSupply": 72,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -659,17 +645,17 @@
     }
   ],
   "FullPostcodeData": [
-    "CM144AD",
-    "CM144AN",
-    "CM144AP",
-    "CM144AX",
     "CM144AJ",
     "CM144AZ",
     "CM144BJ",
     "CM144BN",
     "CM144BX",
     "CM144ED",
-    "CM144RX"
+    "CM144RX",
+    "CM144AD",
+    "CM144AN",
+    "CM144AP",
+    "CM144AX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
