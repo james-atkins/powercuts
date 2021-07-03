@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-246388-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246388-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246388-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,34 +15,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-03T09:06:11",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-04T00:10:37.773",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c274INCD",
     "IncidentReference": "INCD-246388-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-02T21:25:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-04T00:10:37.773",
     "EstimatedRestorationDate": "2021-07-03T23:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-02T18:35:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 2,
+    "NoCallsReported": 3,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -60,27 +60,27 @@
       "EN9 3"
     ],
     "PostCodesRestored": [
-      "EN91LT",
       "EN91LN",
       "EN93AJ",
       "EN93AL",
       "EN93AP",
       "EN93AR",
-      "EN93AW"
+      "EN93AW",
+      "EN91LT"
     ],
     "PostCodesPlanned": [
-      "EN91LT",
       "EN91LN",
       "EN93AJ",
       "EN93AL",
       "EN93AP",
       "EN93AR",
-      "EN93AW"
+      "EN93AW",
+      "EN91LT"
     ],
-    "CustomersOnSupply": 24,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 27,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1040,13 +1040,13 @@
     }
   ],
   "FullPostcodeData": [
-    "EN91LT",
     "EN91LN",
     "EN93AJ",
     "EN93AL",
     "EN93AP",
     "EN93AR",
-    "EN93AW"
+    "EN93AW",
+    "EN91LT"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
