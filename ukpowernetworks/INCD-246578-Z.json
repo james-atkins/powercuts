@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-246578-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246578-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246578-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-04T16:01:23",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-04T19:21:06.577",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c332INCD",
     "IncidentReference": "INCD-246578-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-04T15:08:03",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-04T19:21:06.577",
     "EstimatedRestorationDate": "2021-07-04T19:45:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-04T18:49:00",
-    "NoCustomerAffected": 38,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -60,27 +60,27 @@
     ],
     "PostCodesRestored": [
       "IP",
+      "IP331PR",
+      "IP331QX",
       "IP331QG",
       "IP331QL",
       "IP331QQ",
       "IP331QU",
-      "IP331RE",
-      "IP331PR",
-      "IP331QX"
+      "IP331RE"
     ],
     "PostCodesPlanned": [
       "IP",
+      "IP331PR",
+      "IP331QX",
       "IP331QG",
       "IP331QL",
       "IP331QQ",
       "IP331QU",
-      "IP331RE",
-      "IP331PR",
-      "IP331QX"
+      "IP331RE"
     ],
-    "CustomersOnSupply": 51,
-    "CustomersOffSupply": 38,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 89,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -428,13 +428,13 @@
   ],
   "FullPostcodeData": [
     "IP",
+    "IP331PR",
+    "IP331QX",
     "IP331QG",
     "IP331QL",
     "IP331QQ",
     "IP331QU",
-    "IP331RE",
-    "IP331PR",
-    "IP331QX"
+    "IP331RE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
