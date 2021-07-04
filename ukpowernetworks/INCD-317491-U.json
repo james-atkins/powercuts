@@ -1,10 +1,16 @@
 {
   "IncidentReference": "INCD-317491-U",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-317491-U",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-317491-U",
   "Steps": [
     {
+      "Active": true,
+      "Date": "2021-07-04T17:39:39.86",
+      "Message": "Update at 17:39 - This is Aaron from the messaging team- I'm glad to report power to the Linkfield Lane area should now be back on. I'm sorry for the continued disruption recently. We know there is a fault developing on our underground cabling in the area, but currently it has not reached a severe enough state for our staff to pinpoint. Their tests have proven inconclusive, so for now they have replaced our safety equipment at the substation and gotten your power back on as quickly as possible. This may happen again before we're able to fix it, but if you'd like to talk to us about this, or if your power isn't on call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
+    {
       "Active": false,
-      "Date": "2021-07-04T14:11:37",
+      "Date": "2021-07-04T14:11:00",
       "Message": "<p>We became aware of a power cut at 14:11. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-04T15:35:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-04T17:36:56.72",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "U0004d833INCD",
     "IncidentReference": "INCD-317491-U",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-04T14:14:10",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-04T17:36:56.72",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-07-04T14:11:37",
+    "ReceivedDate": "2021-07-04T14:11:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -54,34 +60,42 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-07-04T17:38:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 17:39 - This is Aaron from the messaging team- I'm glad to report power to the Linkfield Lane area should now be back on. I'm sorry for the continued disruption recently. We know there is a fault developing on our underground cabling in the area, but currently it has not reached a severe enough state for our staff to pinpoint. Their tests have proven inconclusive, so for now they have replaced our safety equipment at the substation and gotten your power back on as quickly as possible. This may happen again before we're able to fix it, but if you'd like to talk to us about this, or if your power isn't on call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-07-04T17:39:39.86"
+      }
+    ],
     "PostCodesAffected": [
       "RH1 1",
       "RH1 2"
     ],
     "PostCodesRestored": [
       "RH11JF",
-      "RH11JL",
       "RH11JN",
       "RH12AF",
       "RH12AG",
       "RH12BN",
       "RH12BW",
-      "RH12HH"
+      "RH12HH",
+      "RH11JL"
     ],
     "PostCodesPlanned": [
       "RH11JF",
-      "RH11JL",
       "RH11JN",
       "RH12AF",
       "RH12AG",
       "RH12BN",
       "RH12BW",
-      "RH12HH"
+      "RH12HH",
+      "RH11JL"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 82,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 82,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -907,13 +921,13 @@
   ],
   "FullPostcodeData": [
     "RH11JF",
-    "RH11JL",
     "RH11JN",
     "RH12AF",
     "RH12AG",
     "RH12BN",
     "RH12BW",
-    "RH12HH"
+    "RH12HH",
+    "RH11JL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
