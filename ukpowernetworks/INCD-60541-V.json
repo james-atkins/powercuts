@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-60541-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-60541-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-60541-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-04T17:47:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-04T21:37:32.993",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000ec7dINCD",
     "IncidentReference": "INCD-60541-V",
     "IncidentCategory": "9",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-04T15:28:37",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-04T21:37:32.993",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-04T15:31:46",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -73,26 +73,26 @@
       "TN12 9"
     ],
     "PostCodesRestored": [
-      "TN129SA",
       "TN129PU",
       "TN129RR",
       "TN129RT",
       "TN129RU",
       "TN129RX",
-      "TN129SB"
+      "TN129SB",
+      "TN129SA"
     ],
     "PostCodesPlanned": [
-      "TN129SA",
       "TN129PU",
       "TN129RR",
       "TN129RT",
       "TN129RU",
       "TN129RX",
-      "TN129SB"
+      "TN129SB",
+      "TN129SA"
     ],
-    "CustomersOnSupply": 26,
-    "CustomersOffSupply": 4,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 30,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -443,13 +443,13 @@
     }
   ],
   "FullPostcodeData": [
-    "TN129SA",
     "TN129PU",
     "TN129RR",
     "TN129RT",
     "TN129RU",
     "TN129RX",
-    "TN129SB"
+    "TN129SB",
+    "TN129SA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
