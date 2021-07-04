@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-246601-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246601-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246601-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-07-04T19:39:29.97",
-      "Message": "Update at 19:38 - It's Kevin here from UK Power Networks. It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers have found that the fault is on an underground cable and working to divert power around it. Therefore, we're now aiming to restore supplies between 20:00 and 21:00. We're sorry we've had to change the estimated time, but we'll keep you updated.",
+      "Date": "2021-07-04T20:04:31.037",
+      "Message": "Update at 20:03 - We believe our engineers have been able to restore power to all 67 customers in the Anchor Lane area, by diverting power around some faulty equipment. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2021-07-04T17:14:36",
+      "Date": "2021-07-04T17:14:00",
       "Message": "<p>We became aware of this power cut at 17:14. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone’s power back on we may need to attend to investigate and make repairs. We’ll continue to update you until everyone’s power is back on.</p>",
       "Name": "We are restoring customers automatically"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-04T17:40:45",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-04T20:02:49.893",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c349INCD",
     "IncidentReference": "INCD-246601-Z",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-04T17:21:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-04T20:02:49.893",
     "EstimatedRestorationDate": "2021-07-04T20:30:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-07-04T17:14:36",
+    "ReceivedDate": "2021-07-04T17:14:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 8,
@@ -62,39 +62,39 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-07-04T19:38:00",
+        "ActualEventTime": "2021-07-04T20:03:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 19:38 - It's Kevin here from UK Power Networks. It's going to take us a little longer than we expected to get all the power back on in the area. Our engineers have found that the fault is on an underground cable and working to divert power around it. Therefore, we're now aiming to restore supplies between 20:00 and 21:00. We're sorry we've had to change the estimated time, but we'll keep you updated.",
-        "LoggedTime": "2021-07-04T19:39:29.97"
+        "Comment": "Update at 20:03 - We believe our engineers have been able to restore power to all 67 customers in the Anchor Lane area, by diverting power around some faulty equipment. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-07-04T20:04:31.037"
       }
     ],
     "PostCodesAffected": [
       "SG12 0"
     ],
     "PostCodesRestored": [
-      "SG120RA",
-      "SG120SU",
       "SG120SY",
-      "SG120TB",
       "SG120TE",
       "SG120TF",
-      "SG120TG",
-      "SG120TU"
+      "SG120TU",
+      "SG120RA",
+      "SG120SU",
+      "SG120TB",
+      "SG120TG"
     ],
     "PostCodesPlanned": [
-      "SG120RA",
-      "SG120SU",
       "SG120SY",
-      "SG120TB",
       "SG120TE",
       "SG120TF",
-      "SG120TG",
-      "SG120TU"
+      "SG120TU",
+      "SG120RA",
+      "SG120SU",
+      "SG120TB",
+      "SG120TG"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 67,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 67,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -693,14 +693,14 @@
     }
   ],
   "FullPostcodeData": [
-    "SG120RA",
-    "SG120SU",
     "SG120SY",
-    "SG120TB",
     "SG120TE",
     "SG120TF",
-    "SG120TG",
-    "SG120TU"
+    "SG120TU",
+    "SG120RA",
+    "SG120SU",
+    "SG120TB",
+    "SG120TG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
