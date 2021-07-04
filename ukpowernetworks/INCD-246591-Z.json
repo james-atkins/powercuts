@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-246591-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246591-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246591-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-04T16:47:40",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-05T00:41:14.553",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c33fINCD",
     "IncidentReference": "INCD-246591-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-04T16:21:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-05T00:41:14.553",
     "EstimatedRestorationDate": "2021-07-04T22:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-04T16:20:00",
-    "NoCustomerAffected": 4,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,24 +59,24 @@
       "PE38 9"
     ],
     "PostCodesRestored": [
-      "PE389SE",
-      "PE389SH",
       "PE389SG",
       "PE389SZ",
       "PE389TB",
-      "PE389TF"
+      "PE389TF",
+      "PE389SE",
+      "PE389SH"
     ],
     "PostCodesPlanned": [
-      "PE389SE",
-      "PE389SH",
       "PE389SG",
       "PE389SZ",
       "PE389TB",
-      "PE389TF"
+      "PE389TF",
+      "PE389SE",
+      "PE389SH"
     ],
-    "CustomersOnSupply": 80,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 90,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -363,12 +363,12 @@
     }
   ],
   "FullPostcodeData": [
-    "PE389SE",
-    "PE389SH",
     "PE389SG",
     "PE389SZ",
     "PE389TB",
-    "PE389TF"
+    "PE389TF",
+    "PE389SE",
+    "PE389SH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
