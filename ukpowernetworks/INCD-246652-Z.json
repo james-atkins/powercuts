@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-246652-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246652-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246652-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-05T08:14:03",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-05T15:51:48.12",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c37cINCD",
     "IncidentReference": "INCD-246652-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-05T06:51:21",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-05T15:51:48.12",
     "EstimatedRestorationDate": "2021-07-05T13:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-05T06:49:19",
-    "NoCustomerAffected": 10,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
     "Latitude": 0.0,
@@ -57,7 +57,7 @@
       "EstimatedTimeOfArrival": "2021-07-05T09:45:00",
       "DispatchedDate": "2021-07-05T08:01:22",
       "ArrivalDate": "2021-07-05T08:14:03",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -75,13 +75,6 @@
     ],
     "PostCodesRestored": [
       "CO45HJ",
-      "CO45HS",
-      "CO45HW",
-      "CO45HY",
-      "CO45QY",
-      "CO45RB",
-      "CO45RG",
-      "CO45RH",
       "CO45HN",
       "CO45HR",
       "CO45HT",
@@ -95,17 +88,17 @@
       "CO45RN",
       "CO45RQ",
       "CO64EN",
-      "CO64EW"
+      "CO64EW",
+      "CO45HS",
+      "CO45HW",
+      "CO45HY",
+      "CO45QY",
+      "CO45RB",
+      "CO45RG",
+      "CO45RH"
     ],
     "PostCodesPlanned": [
       "CO45HJ",
-      "CO45HS",
-      "CO45HW",
-      "CO45HY",
-      "CO45QY",
-      "CO45RB",
-      "CO45RG",
-      "CO45RH",
       "CO45HN",
       "CO45HR",
       "CO45HT",
@@ -119,12 +112,19 @@
       "CO45RN",
       "CO45RQ",
       "CO64EN",
-      "CO64EW"
+      "CO64EW",
+      "CO45HS",
+      "CO45HW",
+      "CO45HY",
+      "CO45QY",
+      "CO45RB",
+      "CO45RG",
+      "CO45RH"
     ],
-    "CustomersOnSupply": 110,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 120,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1393,13 +1393,6 @@
   ],
   "FullPostcodeData": [
     "CO45HJ",
-    "CO45HS",
-    "CO45HW",
-    "CO45HY",
-    "CO45QY",
-    "CO45RB",
-    "CO45RG",
-    "CO45RH",
     "CO45HN",
     "CO45HR",
     "CO45HT",
@@ -1413,7 +1406,14 @@
     "CO45RN",
     "CO45RQ",
     "CO64EN",
-    "CO64EW"
+    "CO64EW",
+    "CO45HS",
+    "CO45HW",
+    "CO45HY",
+    "CO45QY",
+    "CO45RB",
+    "CO45RG",
+    "CO45RH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
