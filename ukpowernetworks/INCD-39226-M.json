@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-39226-M",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-39226-M",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-39226-M",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-07-05T22:25:51",
+      "Date": "2021-07-05T22:25:00",
       "Message": "<p>We became aware of a power cut at 22:25. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-05T22:51:21",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-05T23:25:39.107",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "M0000993aINCD",
     "IncidentReference": "INCD-39226-M",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-05T22:28:25",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-05T23:25:39.107",
     "EstimatedRestorationDate": "2021-07-06T01:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-07-05T22:25:51",
+    "ReceivedDate": "2021-07-05T22:25:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
@@ -88,11 +88,7 @@
       "BR29BU",
       "CR43AA",
       "DA12JT",
-      "DA12SU",
-      "DA12SY",
       "DA12TE",
-      "DA12TF",
-      "DA12TL",
       "DA14QN",
       "E105HH",
       "E107NL",
@@ -118,17 +114,17 @@
       "SE280GH",
       "SW34JR",
       "SW40AF",
-      "WC1X9EJ"
+      "WC1X9EJ",
+      "DA12SU",
+      "DA12SY",
+      "DA12TF",
+      "DA12TL"
     ],
     "PostCodesPlanned": [
       "BR29BU",
       "CR43AA",
       "DA12JT",
-      "DA12SU",
-      "DA12SY",
       "DA12TE",
-      "DA12TF",
-      "DA12TL",
       "DA14QN",
       "E105HH",
       "E107NL",
@@ -154,12 +150,16 @@
       "SE280GH",
       "SW34JR",
       "SW40AF",
-      "WC1X9EJ"
+      "WC1X9EJ",
+      "DA12SU",
+      "DA12SY",
+      "DA12TF",
+      "DA12TL"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 55,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 55,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -12380,11 +12380,7 @@
     "BR29BU",
     "CR43AA",
     "DA12JT",
-    "DA12SU",
-    "DA12SY",
     "DA12TE",
-    "DA12TF",
-    "DA12TL",
     "DA14QN",
     "E105HH",
     "E107NL",
@@ -12410,7 +12406,11 @@
     "SE280GH",
     "SW34JR",
     "SW40AF",
-    "WC1X9EJ"
+    "WC1X9EJ",
+    "DA12SU",
+    "DA12SY",
+    "DA12TF",
+    "DA12TL"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
