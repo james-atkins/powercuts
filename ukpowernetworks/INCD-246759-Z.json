@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-246759-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246759-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246759-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-05T14:02:57",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-05T17:30:22.26",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c3e7INCD",
     "IncidentReference": "INCD-246759-Z",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-05T12:56:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-05T17:30:22.26",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-05T12:52:29",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -75,19 +75,19 @@
     ],
     "PostCodesRestored": [
       "LU54EA",
-      "LU63FG",
       "LU63DX",
-      "LU63FH"
+      "LU63FH",
+      "LU63FG"
     ],
     "PostCodesPlanned": [
       "LU54EA",
-      "LU63FG",
       "LU63DX",
-      "LU63FH"
+      "LU63FH",
+      "LU63FG"
     ],
-    "CustomersOnSupply": 63,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 65,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1077,13 +1077,13 @@
   ],
   "FullPostcodeData": [
     "LU54EA",
-    "LU63FG",
     "LU63DX",
-    "LU63FH"
+    "LU63FH",
+    "LU63FG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
