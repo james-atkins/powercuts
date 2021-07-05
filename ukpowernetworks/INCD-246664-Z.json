@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-246664-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246664-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246664-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-05T08:49:54",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-05T12:17:15.633",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c388INCD",
     "IncidentReference": "INCD-246664-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 28,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-05T07:52:57",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-05T12:17:15.633",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-05T07:52:54",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -79,7 +79,6 @@
       "AL37AN",
       "AL37SA",
       "HP27HS",
-      "HP27HZ",
       "AL36RE",
       "AL36RF",
       "AL36RG",
@@ -199,13 +198,13 @@
       "HP27GE",
       "HP27HR",
       "HP27HT",
+      "HP27HZ",
       "WD50FB"
     ],
     "PostCodesPlanned": [
       "AL37AN",
       "AL37SA",
       "HP27HS",
-      "HP27HZ",
       "AL36RE",
       "AL36RF",
       "AL36RG",
@@ -325,11 +324,12 @@
       "HP27GE",
       "HP27HR",
       "HP27HT",
+      "HP27HZ",
       "WD50FB"
     ],
-    "CustomersOnSupply": 1533,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 1534,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1909,7 +1909,6 @@
     "AL37AN",
     "AL37SA",
     "HP27HS",
-    "HP27HZ",
     "AL36RE",
     "AL36RF",
     "AL36RG",
@@ -2029,6 +2028,7 @@
     "HP27GE",
     "HP27HR",
     "HP27HT",
+    "HP27HZ",
     "WD50FB"
   ],
   "PinLatitude": null,
