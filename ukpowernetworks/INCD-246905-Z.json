@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-246905-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246905-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246905-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-06T08:46:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-06T11:40:38.65",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c479INCD",
     "IncidentReference": "INCD-246905-Z",
     "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-06T00:02:39",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-06T11:40:38.65",
     "EstimatedRestorationDate": "2021-07-06T12:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-06T00:02:00",
@@ -60,8 +60,6 @@
       "HP5 2"
     ],
     "PostCodesRestored": [
-      "HP52UR",
-      "HP52UT",
       "CO130PB",
       "HP52UN",
       "HP52UP",
@@ -78,11 +76,11 @@
       "HP52XT",
       "HP52XU",
       "HP52XW",
-      "HP52XX"
+      "HP52XX",
+      "HP52UR",
+      "HP52UT"
     ],
     "PostCodesPlanned": [
-      "HP52UR",
-      "HP52UT",
       "CO130PB",
       "HP52UN",
       "HP52UP",
@@ -99,12 +97,14 @@
       "HP52XT",
       "HP52XU",
       "HP52XW",
-      "HP52XX"
+      "HP52XX",
+      "HP52UR",
+      "HP52UT"
     ],
     "CustomersOnSupply": 214,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -112,6 +112,31 @@
     "HP5 2"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 51.88778,
+        "lng": 1.22301
+      },
+      "Coordinates": [
+        {
+          "lat": 51.88763,
+          "lng": 1.22468
+        },
+        {
+          "lat": 51.8874,
+          "lng": 1.22075
+        },
+        {
+          "lat": 51.8883,
+          "lng": 1.2236
+        },
+        {
+          "lat": 51.88763,
+          "lng": 1.22468
+        }
+      ],
+      "Postcode": "CO13 0"
+    },
     {
       "Center": {
         "lat": 51.72949,
@@ -600,36 +625,9 @@
         }
       ],
       "Postcode": "HP5 2"
-    },
-    {
-      "Center": {
-        "lat": 51.88778,
-        "lng": 1.22301
-      },
-      "Coordinates": [
-        {
-          "lat": 51.88763,
-          "lng": 1.22468
-        },
-        {
-          "lat": 51.8874,
-          "lng": 1.22075
-        },
-        {
-          "lat": 51.8883,
-          "lng": 1.2236
-        },
-        {
-          "lat": 51.88763,
-          "lng": 1.22468
-        }
-      ],
-      "Postcode": "CO13 0"
     }
   ],
   "FullPostcodeData": [
-    "HP52UR",
-    "HP52UT",
     "CO130PB",
     "HP52UN",
     "HP52UP",
@@ -646,7 +644,9 @@
     "HP52XT",
     "HP52XU",
     "HP52XW",
-    "HP52XX"
+    "HP52XX",
+    "HP52UR",
+    "HP52UT"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
