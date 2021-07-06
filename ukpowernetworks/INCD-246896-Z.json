@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-246896-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246896-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246896-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-07-06T01:50:49.62",
-      "Message": "Hi, it's Jordan from the messaging team at UK Power Networks. I understand how difficult it can be without power and the additional worries this can bring during a global pandemic. I want to assure you that as keyworkers, our teams operate 24 hours a day, and we continue to work around the clock for our customers without reducing our workforce. For both our businesses customers and those at home, we will work as quickly and safely as possible to restore supplies. If you need any additional support or have any concerns, please call us on 105 or tweet us @ukpowernetworks. I will personally continue to keep you updated with our progress.",
+      "Date": "2021-07-06T02:26:32.15",
+      "Message": "Update at 02:26 - We believe our engineers have been able to restore power to all 104 customers in the Hitchin Road area, by diverting power around an underground cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-05T23:37:42",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-06T02:23:44.813",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c470INCD",
     "IncidentReference": "INCD-246896-Z",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-05T22:54:58",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-06T02:23:44.813",
     "EstimatedRestorationDate": "2021-07-06T02:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-05T22:53:00",
-    "NoCustomerAffected": 104,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-07-06T01:50:00",
+        "ActualEventTime": "2021-07-06T02:24:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Hi, it's Jordan from the messaging team at UK Power Networks. I understand how difficult it can be without power and the additional worries this can bring during a global pandemic. I want to assure you that as keyworkers, our teams operate 24 hours a day, and we continue to work around the clock for our customers without reducing our workforce. For both our businesses customers and those at home, we will work as quickly and safely as possible to restore supplies. If you need any additional support or have any concerns, please call us on 105 or tweet us @ukpowernetworks. I will personally continue to keep you updated with our progress.",
-        "LoggedTime": "2021-07-06T01:50:49.62"
+        "Comment": "Update at 02:26 - We believe our engineers have been able to restore power to all 104 customers in the Hitchin Road area, by diverting power around an underground cable fault. Due to the nature of this issue, if your power isn't back on we'll need to hear from you. To report this, or to talk to us about anything else, call us on 08003163105 which is free from landlines and mobiles. We understand how difficult a power cut can be, so we're sorry for any disruption or worry this caused you. Being without power during the current pandemic can be especially difficult, but please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If you have any concerns or questions, give us a call any time.",
+        "LoggedTime": "2021-07-06T02:26:32.15"
       }
     ],
     "PostCodesAffected": [
@@ -74,32 +74,32 @@
     ],
     "PostCodesRestored": [
       "SG53BY",
-      "SG53PZ",
       "SG53QA",
-      "SG53QB",
-      "SG53QD",
       "SG53QE",
       "SG53QG",
       "SG53QH",
       "SG53QQ",
-      "SG53QW"
+      "SG53QW",
+      "SG53PZ",
+      "SG53QB",
+      "SG53QD"
     ],
     "PostCodesPlanned": [
       "SG53BY",
-      "SG53PZ",
       "SG53QA",
-      "SG53QB",
-      "SG53QD",
       "SG53QE",
       "SG53QG",
       "SG53QH",
       "SG53QQ",
-      "SG53QW"
+      "SG53QW",
+      "SG53PZ",
+      "SG53QB",
+      "SG53QD"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 104,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 104,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -582,15 +582,15 @@
   ],
   "FullPostcodeData": [
     "SG53BY",
-    "SG53PZ",
     "SG53QA",
-    "SG53QB",
-    "SG53QD",
     "SG53QE",
     "SG53QG",
     "SG53QH",
     "SG53QQ",
-    "SG53QW"
+    "SG53QW",
+    "SG53PZ",
+    "SG53QB",
+    "SG53QD"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
