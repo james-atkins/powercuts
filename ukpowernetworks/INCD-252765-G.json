@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-252765-G",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-252765-G",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-252765-G",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-06T10:10:34",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-06T12:28:43.25",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "G0003db5dINCD",
     "IncidentReference": "INCD-252765-G",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-06T05:15:56",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-06T12:28:43.25",
     "EstimatedRestorationDate": "2021-07-06T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-06T04:51:00",
@@ -77,27 +77,27 @@
       "BN32TA",
       "BN32TB",
       "BN32TQ",
-      "BN32TS",
       "BN32TU",
       "BN34GP",
-      "BN34GR",
       "BN34RA",
-      "BN34RB"
+      "BN34RB",
+      "BN32TS",
+      "BN34GR"
     ],
     "PostCodesPlanned": [
       "BN32TA",
       "BN32TB",
       "BN32TQ",
-      "BN32TS",
       "BN32TU",
       "BN34GP",
-      "BN34GR",
       "BN34RA",
-      "BN34RB"
+      "BN34RB",
+      "BN32TS",
+      "BN34GR"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 143,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 143,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -937,12 +937,12 @@
     "BN32TA",
     "BN32TB",
     "BN32TQ",
-    "BN32TS",
     "BN32TU",
     "BN34GP",
-    "BN34GR",
     "BN34RA",
-    "BN34RB"
+    "BN34RB",
+    "BN32TS",
+    "BN34GR"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
