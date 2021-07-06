@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-246959-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-246959-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-246959-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-06T07:57:49",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-06T14:54:13.513",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c4afINCD",
     "IncidentReference": "INCD-246959-Z",
-    "IncidentCategory": "140",
+    "IncidentCategory": "118",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-06T07:33:05",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-06T14:54:13.513",
     "EstimatedRestorationDate": "2021-07-06T15:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-06T07:32:00",
-    "NoCustomerAffected": 5,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -59,18 +59,18 @@
       "MK44 2"
     ],
     "PostCodesRestored": [
-      "MK442PT",
       "MK442PX",
+      "MK442PT",
       "MK442PY"
     ],
     "PostCodesPlanned": [
-      "MK442PT",
       "MK442PX",
+      "MK442PT",
       "MK442PY"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 5,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -537,13 +537,13 @@
     }
   ],
   "FullPostcodeData": [
-    "MK442PT",
     "MK442PX",
+    "MK442PT",
     "MK442PY"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating a high voltage overhead electricity line fault which caused a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "Our engineers had to redirect power due to a fault on the electricity network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "15:00 - 16:00",
   "ServiceDown": false,
   "ServiceDownUrl": null,
