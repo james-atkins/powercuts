@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-247019-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247019-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247019-Z",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-07-06T23:23:54.92",
-      "Message": "Following on from our previous message, we can now confirm we have switched power off to 46 properties. This is to allow our engineers to safely repair a damaged cable caused by another company. If your electricity has gone off, you can keep updated by texting POWER followed by your full postcode to 80876 (e.g. POWER IP3 8AA). Standard text fees apply.",
+      "Date": "2021-07-07T00:12:13.27",
+      "Message": "Update at 00:12 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely investigate reports of another company damaging a section of underground cables in the Mitcham Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-06T17:08:02",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-07T00:08:12.04",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c4ebINCD",
     "IncidentReference": "INCD-247019-Z",
-    "IncidentCategory": "129",
+    "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-06T11:00:28",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-07T00:08:12.04",
     "EstimatedRestorationDate": "2021-07-07T00:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-06T23:15:00",
-    "NoCustomerAffected": 46,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -62,33 +62,33 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-07-06T23:23:00",
+        "ActualEventTime": "2021-07-07T00:12:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Following on from our previous message, we can now confirm we have switched power off to 46 properties. This is to allow our engineers to safely repair a damaged cable caused by another company. If your electricity has gone off, you can keep updated by texting POWER followed by your full postcode to 80876 (e.g. POWER IP3 8AA). Standard text fees apply.",
-        "LoggedTime": "2021-07-06T23:23:54.92"
+        "Comment": "Update at 00:12 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely investigate reports of another company damaging a section of underground cables in the Mitcham Road area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-07-07T00:12:13.27"
       }
     ],
     "PostCodesAffected": [
       "WD3 8"
     ],
     "PostCodesRestored": [
-      "WD38EB",
-      "WD38ED",
       "WD38DT",
       "WD38DX",
-      "WD38EA"
+      "WD38EA",
+      "WD38ED",
+      "WD38EB"
     ],
     "PostCodesPlanned": [
-      "WD38EB",
-      "WD38ED",
       "WD38DT",
       "WD38DX",
-      "WD38EA"
+      "WD38EA",
+      "WD38ED",
+      "WD38EB"
     ],
-    "CustomersOnSupply": 24,
-    "CustomersOffSupply": 46,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 70,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -391,15 +391,15 @@
     }
   ],
   "FullPostcodeData": [
-    "WD38EB",
-    "WD38ED",
     "WD38DT",
     "WD38DX",
-    "WD38EA"
+    "WD38EA",
+    "WD38ED",
+    "WD38EB"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "We were investigating an electricity cable that was damaged, causing a power cut in the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "23:30 - 00:30",
   "ServiceDown": false,
   "ServiceDownUrl": null,
