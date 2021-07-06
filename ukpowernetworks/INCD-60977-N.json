@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-60977-N",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-60977-N",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-60977-N",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-06T08:30:22",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-06T10:40:56.847",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "N0000ee31INCD",
     "IncidentReference": "INCD-60977-N",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-06T07:33:58",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-06T10:40:56.847",
     "EstimatedRestorationDate": "2021-07-06T10:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-06T07:32:00",
-    "NoCustomerAffected": 11,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -73,7 +73,6 @@
       "SW17 9"
     ],
     "PostCodesRestored": [
-      "SW179JQ",
       "SW179ED",
       "SW179ET",
       "SW179HL",
@@ -85,10 +84,10 @@
       "SW179QS",
       "SW179SE",
       "SW179SR",
-      "SW179SS"
+      "SW179SS",
+      "SW179JQ"
     ],
     "PostCodesPlanned": [
-      "SW179JQ",
       "SW179ED",
       "SW179ET",
       "SW179HL",
@@ -100,11 +99,12 @@
       "SW179QS",
       "SW179SE",
       "SW179SR",
-      "SW179SS"
+      "SW179SS",
+      "SW179JQ"
     ],
-    "CustomersOnSupply": 181,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 199,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -799,7 +799,6 @@
     }
   ],
   "FullPostcodeData": [
-    "SW179JQ",
     "SW179ED",
     "SW179ET",
     "SW179HL",
@@ -811,7 +810,8 @@
     "SW179QS",
     "SW179SE",
     "SW179SR",
-    "SW179SS"
+    "SW179SS",
+    "SW179JQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
