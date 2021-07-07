@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-317381-U",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-317381-U",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-317381-U",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-06-27T12:36:50",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-07T19:30:43.323",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "U0004d7c5INCD",
     "IncidentReference": "INCD-317381-U",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 501,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-25T20:03:46",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-07T19:30:43.323",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-06-25T20:03:46",
@@ -61,9 +61,9 @@
       "CT9 5"
     ],
     "PostCodesRestored": [
+      "CT94LY",
       "CT93BH",
       "CT94BP",
-      "CT94LY",
       "CT94LZ",
       "CT94NA",
       "CT94NB",
@@ -74,9 +74,9 @@
       "CT95QS"
     ],
     "PostCodesPlanned": [
+      "CT94LY",
       "CT93BH",
       "CT94BP",
-      "CT94LY",
       "CT94LZ",
       "CT94NA",
       "CT94NB",
@@ -86,9 +86,9 @@
       "CT94NL",
       "CT95QS"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 91,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 91,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -98,39 +98,6 @@
     "CT9 5"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.37722,
-        "lng": 1.37544
-      },
-      "Coordinates": [
-        {
-          "lat": 51.37749,
-          "lng": 1.37253
-        },
-        {
-          "lat": 51.37843,
-          "lng": 1.37655
-        },
-        {
-          "lat": 51.37741,
-          "lng": 1.37763
-        },
-        {
-          "lat": 51.37589,
-          "lng": 1.37607
-        },
-        {
-          "lat": 51.37583,
-          "lng": 1.37574
-        },
-        {
-          "lat": 51.37749,
-          "lng": 1.37253
-        }
-      ],
-      "Postcode": "CT9 3"
-    },
     {
       "Center": {
         "lat": 51.36661,
@@ -495,6 +462,39 @@
         }
       ],
       "Postcode": "CT9 4"
+    },
+    {
+      "Center": {
+        "lat": 51.37722,
+        "lng": 1.37544
+      },
+      "Coordinates": [
+        {
+          "lat": 51.37749,
+          "lng": 1.37253
+        },
+        {
+          "lat": 51.37843,
+          "lng": 1.37655
+        },
+        {
+          "lat": 51.37741,
+          "lng": 1.37763
+        },
+        {
+          "lat": 51.37589,
+          "lng": 1.37607
+        },
+        {
+          "lat": 51.37583,
+          "lng": 1.37574
+        },
+        {
+          "lat": 51.37749,
+          "lng": 1.37253
+        }
+      ],
+      "Postcode": "CT9 3"
     },
     {
       "Center": {
@@ -899,9 +899,9 @@
     }
   ],
   "FullPostcodeData": [
+    "CT94LY",
     "CT93BH",
     "CT94BP",
-    "CT94LY",
     "CT94LZ",
     "CT94NA",
     "CT94NB",
