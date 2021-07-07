@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247192-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247192-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247192-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-07T07:24:36",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-07T09:11:26.903",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c598INCD",
     "IncidentReference": "INCD-247192-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-07T04:24:49",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-07T09:11:26.903",
     "EstimatedRestorationDate": "2021-07-07T09:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-07T04:22:00",
-    "NoCustomerAffected": 18,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 7,
     "Latitude": 0.0,
@@ -73,12 +73,8 @@
       "HA6 1"
     ],
     "PostCodesRestored": [
-      "HA61BS",
-      "HA61BX",
-      "HA61DB",
-      "HA61DF",
-      "HA61HE",
       "HA61BP",
+      "HA61DB",
       "HA61DD",
       "HA61DU",
       "HA61EB",
@@ -89,15 +85,15 @@
       "HA61SL",
       "HA61SN",
       "HA61SQ",
-      "HA61SW"
+      "HA61SW",
+      "HA61BS",
+      "HA61BX",
+      "HA61DF",
+      "HA61HE"
     ],
     "PostCodesPlanned": [
-      "HA61BS",
-      "HA61BX",
-      "HA61DB",
-      "HA61DF",
-      "HA61HE",
       "HA61BP",
+      "HA61DB",
       "HA61DD",
       "HA61DU",
       "HA61EB",
@@ -108,11 +104,15 @@
       "HA61SL",
       "HA61SN",
       "HA61SQ",
-      "HA61SW"
+      "HA61SW",
+      "HA61BS",
+      "HA61BX",
+      "HA61DF",
+      "HA61HE"
     ],
-    "CustomersOnSupply": 152,
-    "CustomersOffSupply": 18,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 170,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -603,12 +603,8 @@
     }
   ],
   "FullPostcodeData": [
-    "HA61BS",
-    "HA61BX",
-    "HA61DB",
-    "HA61DF",
-    "HA61HE",
     "HA61BP",
+    "HA61DB",
     "HA61DD",
     "HA61DU",
     "HA61EB",
@@ -619,7 +615,11 @@
     "HA61SL",
     "HA61SN",
     "HA61SQ",
-    "HA61SW"
+    "HA61SW",
+    "HA61BS",
+    "HA61BX",
+    "HA61DF",
+    "HA61HE"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
