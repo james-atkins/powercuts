@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-266096-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-266096-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-266096-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-07-07T10:24:31.097",
-      "Message": "Update at 10:24 - Our engineers have been able to divert electricity around the faulty part of the network, restoring power to some customers. We know your power may now be back on, however; we'll keep sending text updates to everyone until all the power to your area is on. To stop receiving texts, just follow this link <a href=\"https://bit.ly/348KOZ3\" target=\"_blank\">https://bit.ly/348KOZ3</a> to unsubscribe.",
+      "Date": "2021-07-07T10:58:35.263",
+      "Message": "Update at 10:58 - We can now confirm that all power in the Anholt Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-07T08:55:20",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-07T10:50:01.34",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J00040f70INCD",
     "IncidentReference": "INCD-266096-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-07T07:51:01",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-07T10:50:01.34",
     "EstimatedRestorationDate": "2021-07-07T11:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-07T07:49:00",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 15,
     "Latitude": 0.0,
@@ -62,11 +62,11 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-07-07T10:23:00",
+        "ActualEventTime": "2021-07-07T10:57:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 10:24 - Our engineers have been able to divert electricity around the faulty part of the network, restoring power to some customers. We know your power may now be back on, however; we'll keep sending text updates to everyone until all the power to your area is on. To stop receiving texts, just follow this link https://bit.ly/348KOZ3 to unsubscribe.",
-        "LoggedTime": "2021-07-07T10:24:31.097"
+        "Comment": "Update at 10:58 - We can now confirm that all power in the Anholt Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-07-07T10:58:35.263"
       }
     ],
     "PostCodesAffected": [
@@ -74,6 +74,8 @@
     ],
     "PostCodesRestored": [
       "SW114NJ",
+      "SW114PJ",
+      "SW114RB",
       "SW114NU",
       "SW114NX",
       "SW114NZ",
@@ -81,12 +83,12 @@
       "SW114PD",
       "SW114PE",
       "SW114PF",
-      "SW114PQ",
-      "SW114PJ",
-      "SW114RB"
+      "SW114PQ"
     ],
     "PostCodesPlanned": [
       "SW114NJ",
+      "SW114PJ",
+      "SW114RB",
       "SW114NU",
       "SW114NX",
       "SW114NZ",
@@ -94,13 +96,11 @@
       "SW114PD",
       "SW114PE",
       "SW114PF",
-      "SW114PQ",
-      "SW114PJ",
-      "SW114RB"
+      "SW114PQ"
     ],
-    "CustomersOnSupply": 60,
-    "CustomersOffSupply": 67,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 127,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -592,6 +592,8 @@
   ],
   "FullPostcodeData": [
     "SW114NJ",
+    "SW114PJ",
+    "SW114RB",
     "SW114NU",
     "SW114NX",
     "SW114NZ",
@@ -599,9 +601,7 @@
     "SW114PD",
     "SW114PE",
     "SW114PF",
-    "SW114PQ",
-    "SW114PJ",
-    "SW114RB"
+    "SW114PQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
