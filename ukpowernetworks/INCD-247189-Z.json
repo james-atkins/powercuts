@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247189-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247189-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247189-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-07T04:27:16",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-07T05:05:34.6239132+01:00",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c595INCD",
     "IncidentReference": "INCD-247189-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-07T04:10:04",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-07T05:05:34.6239132+01:00",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-07T03:53:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "IP17 1"
     ],
     "PostCodesRestored": [
-      "IP171AJ",
-      "IP171AN",
       "IP171AG",
-      "IP171FX"
+      "IP171AJ",
+      "IP171FX",
+      "IP171AN"
     ],
     "PostCodesPlanned": [
-      "IP171AJ",
-      "IP171AN",
       "IP171AG",
-      "IP171FX"
+      "IP171AJ",
+      "IP171FX",
+      "IP171AN"
     ],
-    "CustomersOnSupply": 27,
-    "CustomersOffSupply": 9,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 36,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -591,10 +591,10 @@
     }
   ],
   "FullPostcodeData": [
-    "IP171AJ",
-    "IP171AN",
     "IP171AG",
-    "IP171FX"
+    "IP171AJ",
+    "IP171FX",
+    "IP171AN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,

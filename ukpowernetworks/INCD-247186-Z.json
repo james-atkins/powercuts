@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-247186-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247186-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247186-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-07-07T02:45:57",
+      "Date": "2021-07-07T02:45:00",
       "Message": "<p>We became aware of a power cut at 02:45. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-07T03:41:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-07T04:55:44.457",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c592INCD",
     "IncidentReference": "INCD-247186-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-07T02:46:58",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-07T04:55:44.457",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-07-07T02:45:57",
+    "ReceivedDate": "2021-07-07T02:45:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
@@ -67,7 +67,6 @@
       "PE174HF",
       "PE174HG",
       "PE189DX",
-      "PE275HD",
       "PE275HE",
       "PE275HF",
       "PE275HG",
@@ -75,13 +74,13 @@
       "PE275WA",
       "PE279NL",
       "PE282BL",
-      "PE289DX"
+      "PE289DX",
+      "PE275HD"
     ],
     "PostCodesPlanned": [
       "PE174HF",
       "PE174HG",
       "PE189DX",
-      "PE275HD",
       "PE275HE",
       "PE275HF",
       "PE275HG",
@@ -89,11 +88,12 @@
       "PE275WA",
       "PE279NL",
       "PE282BL",
-      "PE289DX"
+      "PE289DX",
+      "PE275HD"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 105,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 105,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1362,7 +1362,6 @@
     "PE174HF",
     "PE174HG",
     "PE189DX",
-    "PE275HD",
     "PE275HE",
     "PE275HF",
     "PE275HG",
@@ -1370,7 +1369,8 @@
     "PE275WA",
     "PE279NL",
     "PE282BL",
-    "PE289DX"
+    "PE289DX",
+    "PE275HD"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
