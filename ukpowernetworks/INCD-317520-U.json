@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-317520-U",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-317520-U",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-317520-U",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-07-06T20:05:03",
+      "Date": "2021-07-06T20:05:00",
       "Message": "<p>We became aware of a power cut at 20:05. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-06T22:39:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-07T01:08:18.817",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "U0004d850INCD",
     "IncidentReference": "INCD-317520-U",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-06T20:06:50",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-07T01:08:18.817",
     "EstimatedRestorationDate": "2021-07-07T01:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-07-06T20:05:03",
+    "ReceivedDate": "2021-07-06T20:05:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -59,16 +59,16 @@
       "TN8 5"
     ],
     "PostCodesRestored": [
-      "TN85EG",
-      "TN85EH"
+      "TN85EH",
+      "TN85EG"
     ],
     "PostCodesPlanned": [
-      "TN85EG",
-      "TN85EH"
+      "TN85EH",
+      "TN85EG"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 39,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 39,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -447,8 +447,8 @@
     }
   ],
   "FullPostcodeData": [
-    "TN85EG",
-    "TN85EH"
+    "TN85EH",
+    "TN85EG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
