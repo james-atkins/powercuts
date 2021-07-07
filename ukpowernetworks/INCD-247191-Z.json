@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247191-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247191-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247191-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-07T05:03:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-07T16:22:25.177",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c597INCD",
     "IncidentReference": "INCD-247191-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-07T04:21:57",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-07T16:22:25.177",
     "EstimatedRestorationDate": "2021-07-07T17:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-07T04:21:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -73,7 +73,6 @@
       "NR21 9"
     ],
     "PostCodesRestored": [
-      "NR219BG",
       "NR219AE",
       "NR219AF",
       "NR219AG",
@@ -83,10 +82,10 @@
       "NR219BE",
       "NR219BQ",
       "NR219BS",
-      "NR219DX"
+      "NR219DX",
+      "NR219BG"
     ],
     "PostCodesPlanned": [
-      "NR219BG",
       "NR219AE",
       "NR219AF",
       "NR219AG",
@@ -96,11 +95,12 @@
       "NR219BE",
       "NR219BQ",
       "NR219BS",
-      "NR219DX"
+      "NR219DX",
+      "NR219BG"
     ],
-    "CustomersOnSupply": 50,
-    "CustomersOffSupply": 3,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 53,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -563,7 +563,6 @@
     }
   ],
   "FullPostcodeData": [
-    "NR219BG",
     "NR219AE",
     "NR219AF",
     "NR219AG",
@@ -573,7 +572,8 @@
     "NR219BE",
     "NR219BQ",
     "NR219BS",
-    "NR219DX"
+    "NR219DX",
+    "NR219BG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
