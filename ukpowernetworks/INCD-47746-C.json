@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-47746-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-47746-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-47746-C",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-09T09:04:36",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-09T10:29:03.953",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000ba82INCD",
     "IncidentReference": "INCD-47746-C",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-09T08:45:48",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-09T10:29:03.953",
     "EstimatedRestorationDate": "2021-07-09T11:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-09T08:43:00",
-    "NoCustomerAffected": 76,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 6,
     "Latitude": 0.0,
@@ -73,14 +73,6 @@
       "SS9 3"
     ],
     "PostCodesRestored": [
-      "SS93JU",
-      "SS93LD",
-      "SS93LE",
-      "SS93LF",
-      "SS93LG",
-      "SS93NR",
-      "SS93NS",
-      "SS93NT",
       "SS93EN",
       "SS93JS",
       "SS93JT",
@@ -88,17 +80,17 @@
       "SS93JY",
       "SS93JZ",
       "SS93LA",
-      "SS93LB"
+      "SS93LB",
+      "SS93LD",
+      "SS93LF",
+      "SS93NR",
+      "SS93NS",
+      "SS93JU",
+      "SS93LE",
+      "SS93LG",
+      "SS93NT"
     ],
     "PostCodesPlanned": [
-      "SS93JU",
-      "SS93LD",
-      "SS93LE",
-      "SS93LF",
-      "SS93LG",
-      "SS93NR",
-      "SS93NS",
-      "SS93NT",
       "SS93EN",
       "SS93JS",
       "SS93JT",
@@ -106,11 +98,19 @@
       "SS93JY",
       "SS93JZ",
       "SS93LA",
-      "SS93LB"
+      "SS93LB",
+      "SS93LD",
+      "SS93LF",
+      "SS93NR",
+      "SS93NS",
+      "SS93JU",
+      "SS93LE",
+      "SS93LG",
+      "SS93NT"
     ],
-    "CustomersOnSupply": 151,
-    "CustomersOffSupply": 76,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 227,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -801,14 +801,6 @@
     }
   ],
   "FullPostcodeData": [
-    "SS93JU",
-    "SS93LD",
-    "SS93LE",
-    "SS93LF",
-    "SS93LG",
-    "SS93NR",
-    "SS93NS",
-    "SS93NT",
     "SS93EN",
     "SS93JS",
     "SS93JT",
@@ -816,7 +808,15 @@
     "SS93JY",
     "SS93JZ",
     "SS93LA",
-    "SS93LB"
+    "SS93LB",
+    "SS93LD",
+    "SS93LF",
+    "SS93NR",
+    "SS93NS",
+    "SS93JU",
+    "SS93LE",
+    "SS93LG",
+    "SS93NT"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
