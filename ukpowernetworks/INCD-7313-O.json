@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-7313-O",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-7313-O",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-7313-O",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-07-09T18:34:00.563",
+      "Message": "Update at 18:32 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a third party cable damage in the Old Town Way area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-07-09T16:40:18",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-08T16:53:22",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-09T18:27:51.07",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "O00001c91INCD",
     "IncidentReference": "INCD-7313-O",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-08T11:39:58",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-09T18:27:51.07",
     "EstimatedRestorationDate": "2021-07-09T20:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-09T16:40:18",
-    "NoCustomerAffected": 29,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -54,31 +60,39 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-07-09T18:33:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 18:32 - We can now confirm that all power in the area should be back on. Our engineers turned off the power to safely repair a third party cable damage in the Old Town Way area. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-07-09T18:34:00.563"
+      }
+    ],
     "PostCodesAffected": [
       "PE36 6"
     ],
     "PostCodesRestored": [
+      "PE366BT",
       "PE366BX",
       "PE366BY",
-      "PE366BZ",
       "PE366HD",
       "PE366HE",
-      "PE366HQ",
-      "PE366BT"
+      "PE366BZ",
+      "PE366HQ"
     ],
     "PostCodesPlanned": [
+      "PE366BT",
       "PE366BX",
       "PE366BY",
-      "PE366BZ",
       "PE366HD",
       "PE366HE",
-      "PE366HQ",
-      "PE366BT"
+      "PE366BZ",
+      "PE366HQ"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 29,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 30,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -465,13 +479,13 @@
     }
   ],
   "FullPostcodeData": [
+    "PE366BT",
     "PE366BX",
     "PE366BY",
-    "PE366BZ",
     "PE366HD",
     "PE366HE",
-    "PE366HQ",
-    "PE366BT"
+    "PE366BZ",
+    "PE366HQ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
