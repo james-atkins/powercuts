@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-266232-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-266232-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-266232-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-09T07:35:06",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-09T08:42:49.623",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J00040ff8INCD",
     "IncidentReference": "INCD-266232-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-09T03:35:08",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-07-09T11:30:00",
+    "RestoredDateTime": "2021-07-09T08:42:49.623",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-09T03:34:00",
-    "NoCustomerAffected": 11,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -74,21 +74,21 @@
     ],
     "PostCodesRestored": [
       "E125DG",
-      "E125EN",
       "E125DH",
       "E125DJ",
-      "E125EL"
+      "E125EL",
+      "E125EN"
     ],
     "PostCodesPlanned": [
       "E125DG",
-      "E125EN",
       "E125DH",
       "E125DJ",
-      "E125EL"
+      "E125EL",
+      "E125EN"
     ],
-    "CustomersOnSupply": 16,
-    "CustomersOffSupply": 37,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 53,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -684,15 +684,15 @@
   ],
   "FullPostcodeData": [
     "E125DG",
-    "E125EN",
     "E125DH",
     "E125DJ",
-    "E125EL"
+    "E125EL",
+    "E125EN"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "11:00 - 12:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
