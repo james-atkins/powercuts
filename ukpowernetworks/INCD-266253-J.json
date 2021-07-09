@@ -1,11 +1,11 @@
 {
   "IncidentReference": "INCD-266253-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-266253-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-266253-J",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-07-09T11:45:16.62",
-      "Message": "Update at 11:44 - Thanks for your continued patience today. We know a power cut is disruptive, especially with so many people currently working at home. We appreciate this is an added concern, so we want to provide some advice for anyone in this situation. You can use your phone as a personal hotspot to keep an internet connection (be aware of the data limit your network provider allows for this), use a battery pack to keep your devices charged and adjust the power settings on any laptops or mobile devices to extend their lifespan. As it's quite common for your immediate neighbours to remain on power during an issue like this, ask to see if they can share access to their Wi-Fi network temporarily. We'll keep you updated.",
+      "Date": "2021-07-09T12:33:36.447",
+      "Message": "Update at 12:33 - We can now confirm that all power in the Hackney Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
       "Name": null
     },
     {
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-09T10:11:00",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-09T12:39:06.17",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0004100dINCD",
     "IncidentReference": "INCD-266253-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-09T09:05:57",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-09T12:39:06.17",
     "EstimatedRestorationDate": "2021-07-09T13:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-09T09:04:00",
@@ -62,20 +62,17 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-07-09T11:44:00",
+        "ActualEventTime": "2021-07-09T12:32:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 11:44 - Thanks for your continued patience today. We know a power cut is disruptive, especially with so many people currently working at home. We appreciate this is an added concern, so we want to provide some advice for anyone in this situation. You can use your phone as a personal hotspot to keep an internet connection (be aware of the data limit your network provider allows for this), use a battery pack to keep your devices charged and adjust the power settings on any laptops or mobile devices to extend their lifespan. As it's quite common for your immediate neighbours to remain on power during an issue like this, ask to see if they can share access to their Wi-Fi network temporarily. We'll keep you updated.",
-        "LoggedTime": "2021-07-09T11:45:16.62"
+        "Comment": "Update at 12:33 - We can now confirm that all power in the Hackney Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-07-09T12:33:36.447"
       }
     ],
     "PostCodesAffected": [
       "E2 7"
     ],
     "PostCodesRestored": [
-      "E27PD",
-      "E27PE",
-      "E27QS",
       "E27LX",
       "E27NN",
       "E27NP",
@@ -84,12 +81,12 @@
       "E27PP",
       "E27PW",
       "E27QL",
-      "E27QU"
+      "E27QU",
+      "E27PD",
+      "E27PE",
+      "E27QS"
     ],
     "PostCodesPlanned": [
-      "E27PD",
-      "E27PE",
-      "E27QS",
       "E27LX",
       "E27NN",
       "E27NP",
@@ -98,11 +95,14 @@
       "E27PP",
       "E27PW",
       "E27QL",
-      "E27QU"
+      "E27QU",
+      "E27PD",
+      "E27PE",
+      "E27QS"
     ],
     "CustomersOnSupply": 242,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -625,9 +625,6 @@
     }
   ],
   "FullPostcodeData": [
-    "E27PD",
-    "E27PE",
-    "E27QS",
     "E27LX",
     "E27NN",
     "E27NP",
@@ -636,7 +633,10 @@
     "E27PP",
     "E27PW",
     "E27QL",
-    "E27QU"
+    "E27QU",
+    "E27PD",
+    "E27PE",
+    "E27QS"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
