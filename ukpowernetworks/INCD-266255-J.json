@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-266255-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-266255-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-266255-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-09T12:09:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-10T19:22:09.027",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0004100fINCD",
     "IncidentReference": "INCD-266255-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 30,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-09T09:12:06",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-10T19:22:09.027",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-09T09:09:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -73,8 +73,8 @@
       "E14 7"
     ],
     "PostCodesRestored": [
-      "E147NP",
       "E147LS",
+      "E147NP",
       "E147LR",
       "E147LU",
       "E147NA",
@@ -83,8 +83,8 @@
       "E147PU"
     ],
     "PostCodesPlanned": [
-      "E147NP",
       "E147LS",
+      "E147NP",
       "E147LR",
       "E147LU",
       "E147NA",
@@ -92,10 +92,10 @@
       "E147PR",
       "E147PU"
     ],
-    "CustomersOnSupply": 34,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 36,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -681,8 +681,8 @@
     }
   ],
   "FullPostcodeData": [
-    "E147NP",
     "E147LS",
+    "E147NP",
     "E147LR",
     "E147LU",
     "E147NA",
