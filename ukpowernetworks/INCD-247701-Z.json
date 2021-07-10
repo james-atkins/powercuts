@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247701-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247701-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247701-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-09T21:58:29",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-10T01:07:52.893",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c795INCD",
     "IncidentReference": "INCD-247701-Z",
     "IncidentCategory": "140",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-09T20:52:56",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-10T01:07:52.893",
     "EstimatedRestorationDate": "2021-07-10T01:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-09T20:54:15",
@@ -75,13 +75,6 @@
       "IP7 5"
     ],
     "PostCodesRestored": [
-      "CO64SN",
-      "CO64SP",
-      "CO64ST",
-      "CO64SZ",
-      "CO76JZ",
-      "CO76LD",
-      "IP75RG",
       "CO64SR",
       "CO64SS",
       "CO64SU",
@@ -92,16 +85,16 @@
       "CO64TD",
       "CO76LA",
       "CO76LE",
-      "CO76LF"
+      "CO76LF",
+      "CO64SN",
+      "CO64SP",
+      "CO64ST",
+      "CO64SZ",
+      "CO76JZ",
+      "CO76LD",
+      "IP75RG"
     ],
     "PostCodesPlanned": [
-      "CO64SN",
-      "CO64SP",
-      "CO64ST",
-      "CO64SZ",
-      "CO76JZ",
-      "CO76LD",
-      "IP75RG",
       "CO64SR",
       "CO64SS",
       "CO64SU",
@@ -112,11 +105,18 @@
       "CO64TD",
       "CO76LA",
       "CO76LE",
-      "CO76LF"
+      "CO76LF",
+      "CO64SN",
+      "CO64SP",
+      "CO64ST",
+      "CO64SZ",
+      "CO76JZ",
+      "CO76LD",
+      "IP75RG"
     ],
     "CustomersOnSupply": 101,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -1567,13 +1567,6 @@
     }
   ],
   "FullPostcodeData": [
-    "CO64SN",
-    "CO64SP",
-    "CO64ST",
-    "CO64SZ",
-    "CO76JZ",
-    "CO76LD",
-    "IP75RG",
     "CO64SR",
     "CO64SS",
     "CO64SU",
@@ -1584,7 +1577,14 @@
     "CO64TD",
     "CO76LA",
     "CO76LE",
-    "CO76LF"
+    "CO76LF",
+    "CO64SN",
+    "CO64SP",
+    "CO64ST",
+    "CO64SZ",
+    "CO76JZ",
+    "CO76LD",
+    "IP75RG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
