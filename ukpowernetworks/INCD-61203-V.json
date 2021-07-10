@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-61203-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-61203-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-61203-V",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-07-10T11:32:16",
+      "Date": "2021-07-10T11:32:00",
       "Message": "<p>We became aware of a power cut at 11:32. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-10T12:55:48",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-10T14:04:48.23",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000ef13INCD",
     "IncidentReference": "INCD-61203-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-10T11:33:18",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-10T14:04:48.23",
     "EstimatedRestorationDate": "2021-07-10T16:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-07-10T11:32:16",
+    "ReceivedDate": "2021-07-10T11:32:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -51,7 +51,7 @@
       "EstimatedTimeOfArrival": "2021-07-10T12:45:00",
       "DispatchedDate": "2021-07-10T11:56:08",
       "ArrivalDate": "2021-07-10T12:55:48",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -64,10 +64,10 @@
     "PostCodesPlanned": [
       "TN317EL"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 15,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 15,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
