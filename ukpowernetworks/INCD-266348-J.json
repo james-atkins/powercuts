@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-266348-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-266348-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-266348-J",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-11T13:43:51",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-11T21:45:30.47",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J0004106cINCD",
     "IncidentReference": "INCD-266348-J",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-11T10:52:44",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-11T21:45:30.47",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-11T10:50:00",
-    "NoCustomerAffected": 14,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 12,
     "Latitude": 0.0,
@@ -74,7 +74,6 @@
       "NW2 6"
     ],
     "PostCodesRestored": [
-      "NW23DH",
       "NW2",
       "NW23DA",
       "NW23DD",
@@ -83,10 +82,10 @@
       "NW26DD",
       "NW26DG",
       "NW26DH",
-      "NW26DT"
+      "NW26DT",
+      "NW23DH"
     ],
     "PostCodesPlanned": [
-      "NW23DH",
       "NW2",
       "NW23DA",
       "NW23DD",
@@ -95,12 +94,13 @@
       "NW26DD",
       "NW26DG",
       "NW26DH",
-      "NW26DT"
+      "NW26DT",
+      "NW23DH"
     ],
-    "CustomersOnSupply": 180,
-    "CustomersOffSupply": 14,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 194,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1400,7 +1400,6 @@
     }
   ],
   "FullPostcodeData": [
-    "NW23DH",
     "NW2",
     "NW23DA",
     "NW23DD",
@@ -1409,7 +1408,8 @@
     "NW26DD",
     "NW26DG",
     "NW26DH",
-    "NW26DT"
+    "NW26DT",
+    "NW23DH"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
