@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247930-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247930-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247930-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-11T23:43:43",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-12T00:27:37.74",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c87aINCD",
     "IncidentReference": "INCD-247930-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-11T20:29:07",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-12T00:27:37.74",
     "EstimatedRestorationDate": "2021-07-12T00:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-11T20:27:00",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -59,22 +59,22 @@
       "LU5 6"
     ],
     "PostCodesRestored": [
-      "LU56DG",
       "LU56ED",
-      "LU56EQ",
       "LU56EF",
-      "LU56EG"
+      "LU56EG",
+      "LU56EQ",
+      "LU56DG"
     ],
     "PostCodesPlanned": [
-      "LU56DG",
       "LU56ED",
-      "LU56EQ",
       "LU56EF",
-      "LU56EG"
+      "LU56EG",
+      "LU56EQ",
+      "LU56DG"
     ],
-    "CustomersOnSupply": 97,
-    "CustomersOffSupply": 12,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 109,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -405,11 +405,11 @@
     }
   ],
   "FullPostcodeData": [
-    "LU56DG",
     "LU56ED",
-    "LU56EQ",
     "LU56EF",
-    "LU56EG"
+    "LU56EG",
+    "LU56EQ",
+    "LU56DG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
