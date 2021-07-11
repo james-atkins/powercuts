@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-317549-U",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-317549-U",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-317549-U",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-07-10T23:27:12",
+      "Date": "2021-07-10T23:27:00",
       "Message": "<p>We became aware of a power cut at 23:27. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-11T01:18:56",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-11T02:03:37.03",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "U0004d86dINCD",
     "IncidentReference": "INCD-317549-U",
-    "IncidentCategory": "47",
+    "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-10T23:27:35",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-11T02:03:37.03",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
-    "ReceivedDate": "2021-07-10T23:27:12",
+    "ReceivedDate": "2021-07-10T23:27:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
@@ -60,20 +60,20 @@
     ],
     "PostCodesRestored": [
       "BR27BE",
-      "BR27BX",
       "BR27DB",
-      "BR27DE"
+      "BR27DE",
+      "BR27BX"
     ],
     "PostCodesPlanned": [
       "BR27BE",
-      "BR27BX",
       "BR27DB",
-      "BR27DE"
+      "BR27DE",
+      "BR27BX"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 11,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 11,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -472,13 +472,13 @@
   ],
   "FullPostcodeData": [
     "BR27BE",
-    "BR27BX",
     "BR27DB",
-    "BR27DE"
+    "BR27DE",
+    "BR27BX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
-  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
+  "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
   "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
