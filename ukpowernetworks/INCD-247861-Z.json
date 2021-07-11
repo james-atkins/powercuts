@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247861-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247861-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247861-Z",
   "Steps": [
     {
       "Active": true,
@@ -15,38 +15,38 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-11T08:31:37",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-07-11T10:01:13",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-11T09:57:32.147",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c835INCD",
     "IncidentReference": "INCD-247861-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-11T08:18:39",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-11T09:57:32.147",
     "EstimatedRestorationDate": "2021-07-11T11:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-11T08:03:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -56,8 +56,8 @@
       "Name": "MATT (R5)",
       "EstimatedTimeOfArrival": "2021-07-11T09:15:00",
       "DispatchedDate": "2021-07-11T08:31:37",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-07-11T10:01:13",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [
@@ -74,17 +74,17 @@
     ],
     "PostCodesRestored": [
       "NR135JY",
-      "NR135LA",
-      "NR135LB"
+      "NR135LB",
+      "NR135LA"
     ],
     "PostCodesPlanned": [
       "NR135JY",
-      "NR135LA",
-      "NR135LB"
+      "NR135LB",
+      "NR135LA"
     ],
-    "CustomersOnSupply": 2,
-    "CustomersOffSupply": 10,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 12,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -144,8 +144,8 @@
   ],
   "FullPostcodeData": [
     "NR135JY",
-    "NR135LA",
-    "NR135LB"
+    "NR135LB",
+    "NR135LA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
