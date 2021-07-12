@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-248056-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248056-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248056-Z",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-07-12T14:05:43",
+      "Date": "2021-07-12T14:05:00",
       "Message": "<p>We became aware of a power cut at 14:05. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-12T14:48:59",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-12T16:27:58.46",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c8f8INCD",
     "IncidentReference": "INCD-248056-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-12T14:10:24",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-12T16:27:58.46",
     "EstimatedRestorationDate": "2021-07-12T17:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-07-12T14:05:43",
+    "ReceivedDate": "2021-07-12T14:05:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -62,23 +62,23 @@
       "IP279EA",
       "IP279EF",
       "IP279EU",
-      "IP279EX",
-      "IP279HG",
       "IP279HJ",
-      "IP279HL"
+      "IP279HL",
+      "IP279EX",
+      "IP279HG"
     ],
     "PostCodesPlanned": [
       "IP279EA",
       "IP279EF",
       "IP279EU",
-      "IP279EX",
-      "IP279HG",
       "IP279HJ",
-      "IP279HL"
+      "IP279HL",
+      "IP279EX",
+      "IP279HG"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 57,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 57,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -344,10 +344,10 @@
     "IP279EA",
     "IP279EF",
     "IP279EU",
-    "IP279EX",
-    "IP279HG",
     "IP279HJ",
-    "IP279HL"
+    "IP279HL",
+    "IP279EX",
+    "IP279HG"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
