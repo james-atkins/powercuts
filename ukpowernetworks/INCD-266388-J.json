@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-266388-J",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-266388-J",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-266388-J",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-07-12T10:52:17",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-07-12T11:30:20.513",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "J00041094INCD",
     "IncidentReference": "INCD-266388-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-07-12T09:19:10",
-    "RestoredDateTime": "2021-07-12T11:30:20.513",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-07-12T15:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-12T09:13:00",
@@ -73,20 +73,20 @@
       "N1 2"
     ],
     "PostCodesRestored": [
-      "N12LD",
       "N12TD",
       "N12US",
-      "N12UY"
+      "N12UY",
+      "N12LD"
     ],
     "PostCodesPlanned": [
-      "N12LD",
       "N12TD",
       "N12US",
-      "N12UY"
+      "N12UY",
+      "N12LD"
     ],
     "CustomersOnSupply": 99,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -745,10 +745,10 @@
     }
   ],
   "FullPostcodeData": [
-    "N12LD",
     "N12TD",
     "N12US",
-    "N12UY"
+    "N12UY",
+    "N12LD"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
