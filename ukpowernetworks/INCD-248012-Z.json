@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-248012-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248012-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248012-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,29 +21,29 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-12T13:13:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-12T15:55:03.057",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c8ccINCD",
     "IncidentReference": "INCD-248012-Z",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-12T12:03:38",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-07-12T16:30:00",
+    "RestoredDateTime": "2021-07-12T15:55:03.057",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-12T12:02:00",
     "NoCustomerAffected": 0,
@@ -76,12 +76,6 @@
       "NW9 7"
     ],
     "PostCodesRestored": [
-      "NW44HQ",
-      "NW96AE",
-      "NW96AG",
-      "NW97DE",
-      "NW97DG",
-      "NW97DJ",
       "NW46AJ",
       "NW96BE",
       "NW96BG",
@@ -90,15 +84,15 @@
       "NW97EB",
       "NW97ED",
       "NW97QE",
-      "NW97QW"
+      "NW97QW",
+      "NW44HQ",
+      "NW96AE",
+      "NW96AG",
+      "NW97DE",
+      "NW97DG",
+      "NW97DJ"
     ],
     "PostCodesPlanned": [
-      "NW44HQ",
-      "NW96AE",
-      "NW96AG",
-      "NW97DE",
-      "NW97DG",
-      "NW97DJ",
       "NW46AJ",
       "NW96BE",
       "NW96BG",
@@ -107,12 +101,18 @@
       "NW97EB",
       "NW97ED",
       "NW97QE",
-      "NW97QW"
+      "NW97QW",
+      "NW44HQ",
+      "NW96AE",
+      "NW96AG",
+      "NW97DE",
+      "NW97DG",
+      "NW97DJ"
     ],
     "CustomersOnSupply": 188,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -122,51 +122,6 @@
     "NW9 7"
   ],
   "PostcodeData": [
-    {
-      "Center": {
-        "lat": 51.57835,
-        "lng": -0.23964
-      },
-      "Coordinates": [
-        {
-          "lat": 51.57809,
-          "lng": -0.23988
-        },
-        {
-          "lat": 51.57816,
-          "lng": -0.23988
-        },
-        {
-          "lat": 51.57849,
-          "lng": -0.24005
-        },
-        {
-          "lat": 51.57866,
-          "lng": -0.23983
-        },
-        {
-          "lat": 51.57859,
-          "lng": -0.23966
-        },
-        {
-          "lat": 51.57858,
-          "lng": -0.23935
-        },
-        {
-          "lat": 51.57817,
-          "lng": -0.23926
-        },
-        {
-          "lat": 51.5781,
-          "lng": -0.23938
-        },
-        {
-          "lat": 51.57809,
-          "lng": -0.23988
-        }
-      ],
-      "Postcode": "NW4 4"
-    },
     {
       "Center": {
         "lat": 51.58791,
@@ -1132,15 +1087,54 @@
         }
       ],
       "Postcode": "NW9 7"
+    },
+    {
+      "Center": {
+        "lat": 51.57835,
+        "lng": -0.23964
+      },
+      "Coordinates": [
+        {
+          "lat": 51.57809,
+          "lng": -0.23988
+        },
+        {
+          "lat": 51.57816,
+          "lng": -0.23988
+        },
+        {
+          "lat": 51.57849,
+          "lng": -0.24005
+        },
+        {
+          "lat": 51.57866,
+          "lng": -0.23983
+        },
+        {
+          "lat": 51.57859,
+          "lng": -0.23966
+        },
+        {
+          "lat": 51.57858,
+          "lng": -0.23935
+        },
+        {
+          "lat": 51.57817,
+          "lng": -0.23926
+        },
+        {
+          "lat": 51.5781,
+          "lng": -0.23938
+        },
+        {
+          "lat": 51.57809,
+          "lng": -0.23988
+        }
+      ],
+      "Postcode": "NW4 4"
     }
   ],
   "FullPostcodeData": [
-    "NW44HQ",
-    "NW96AE",
-    "NW96AG",
-    "NW97DE",
-    "NW97DG",
-    "NW97DJ",
     "NW46AJ",
     "NW96BE",
     "NW96BG",
@@ -1149,12 +1143,18 @@
     "NW97EB",
     "NW97ED",
     "NW97QE",
-    "NW97QW"
+    "NW97QW",
+    "NW44HQ",
+    "NW96AE",
+    "NW96AG",
+    "NW97DE",
+    "NW97DG",
+    "NW97DJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "We were investigating an electricity cable that was damaged, causing a power cut in the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "16:00 - 17:00",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
