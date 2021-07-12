@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-266449-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-266449-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-266449-J",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-07-12T18:15:48.607",
+      "Message": "Update at 18:15 - We can now confirm that all power in the Gladys Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-07-12T16:57:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-12T17:29:35",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-12T18:14:46.313",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J000410d1INCD",
     "IncidentReference": "INCD-266449-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-12T17:02:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-12T18:14:46.313",
     "EstimatedRestorationDate": "2021-07-12T22:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-12T16:57:00",
-    "NoCustomerAffected": 29,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -54,31 +60,39 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-07-12T18:15:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 18:15 - We can now confirm that all power in the Gladys Road area should be back on. The issue was caused by a fault with some of our network equipment, which our engineers have now replaced. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on. If your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-07-12T18:15:48.607"
+      }
+    ],
     "PostCodesAffected": [
       "NW6 2",
       "NW6 5"
     ],
     "PostCodesRestored": [
-      "NW62AL",
+      "NW62AJ",
       "NW62AN",
+      "NW62AL",
       "NW62AU",
       "NW62PX",
-      "NW65TA",
-      "NW62AJ"
+      "NW65TA"
     ],
     "PostCodesPlanned": [
-      "NW62AL",
+      "NW62AJ",
       "NW62AN",
+      "NW62AL",
       "NW62AU",
       "NW62PX",
-      "NW65TA",
-      "NW62AJ"
+      "NW65TA"
     ],
-    "CustomersOnSupply": 16,
-    "CustomersOffSupply": 87,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 103,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -982,12 +996,12 @@
     }
   ],
   "FullPostcodeData": [
-    "NW62AL",
+    "NW62AJ",
     "NW62AN",
+    "NW62AL",
     "NW62AU",
     "NW62PX",
-    "NW65TA",
-    "NW62AJ"
+    "NW65TA"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
