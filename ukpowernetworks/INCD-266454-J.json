@@ -1,7 +1,13 @@
 {
   "IncidentReference": "INCD-266454-J",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-266454-J",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-266454-J",
   "Steps": [
+    {
+      "Active": true,
+      "Date": "2021-07-12T20:46:18.6",
+      "Message": "Update at 20:46 - This is Kevin from the messaging team once more, as I'm glad to report power to the Queen Caroline Street area should now be back on. Our engineers have now replaced the safety equipment within the specialist device we have installed at the local substation, and the diagnostic data it has recorded will help us narrow down where the issue is coming from. I'm afraid this may happen again, but every time you lose power it gives us a better chance of pinpointing the problem. I'm sorry for the continued disruption, but If you'd like to talk to us or if your power isn't on, call us on 08003163105 which is free from landlines and mobiles.",
+      "Name": null
+    },
     {
       "Active": false,
       "Date": "2021-07-12T17:11:00",
@@ -15,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-12T19:21:17",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-12T20:40:08.717",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "J000410d6INCD",
     "IncidentReference": "INCD-266454-J",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-12T17:12:48",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-12T20:40:08.717",
     "EstimatedRestorationDate": "2021-07-12T23:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-12T17:11:00",
-    "NoCustomerAffected": 7,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -54,31 +60,39 @@
       "StatusId": 6
     },
     "AffectedCustomers": [],
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2021-07-12T20:46:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Update at 20:46 - This is Kevin from the messaging team once more, as I'm glad to report power to the Queen Caroline Street area should now be back on. Our engineers have now replaced the safety equipment within the specialist device we have installed at the local substation, and the diagnostic data it has recorded will help us narrow down where the issue is coming from. I'm afraid this may happen again, but every time you lose power it gives us a better chance of pinpointing the problem. I'm sorry for the continued disruption, but If you'd like to talk to us or if your power isn't on, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2021-07-12T20:46:18.6"
+      }
+    ],
     "PostCodesAffected": [
       "W6 0",
       "W6 9"
     ],
     "PostCodesRestored": [
+      "W69BT",
       "W69BU",
       "W69BY",
+      "W69BZ",
       "W60JS",
-      "W69BX",
-      "W69BT",
-      "W69BZ"
+      "W69BX"
     ],
     "PostCodesPlanned": [
+      "W69BT",
       "W69BU",
       "W69BY",
+      "W69BZ",
       "W60JS",
-      "W69BX",
-      "W69BT",
-      "W69BZ"
+      "W69BX"
     ],
-    "CustomersOnSupply": 73,
-    "CustomersOffSupply": 7,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 80,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -1210,12 +1224,12 @@
     }
   ],
   "FullPostcodeData": [
+    "W69BT",
     "W69BU",
     "W69BY",
+    "W69BZ",
     "W60JS",
-    "W69BX",
-    "W69BT",
-    "W69BZ"
+    "W69BX"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
