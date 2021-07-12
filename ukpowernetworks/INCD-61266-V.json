@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-61266-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-61266-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-61266-V",
   "Steps": [
     {
       "Active": false,
@@ -9,38 +9,38 @@
       "Name": "Power cut reported"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-12T07:59:23",
       "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they&rsquo;ll work as quickly as is safely possible to get your power back on.</p>",
       "Name": "Engineers on their way"
     },
     {
       "Active": false,
-      "Date": null,
-      "Message": null,
+      "Date": "2021-07-12T09:48:42",
+      "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-12T10:04:56.96",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000ef52INCD",
     "IncidentReference": "INCD-61266-V",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-12T07:57:16",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-12T10:04:56.96",
     "EstimatedRestorationDate": "2021-07-12T12:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-12T07:56:00",
-    "NoCustomerAffected": 6,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
     "Latitude": 0.0,
@@ -50,8 +50,8 @@
       "Name": "ADRIAN (R5)",
       "EstimatedTimeOfArrival": "2021-07-12T09:15:00",
       "DispatchedDate": "2021-07-12T07:59:23",
-      "ArrivalDate": null,
-      "StatusId": 5
+      "ArrivalDate": "2021-07-12T09:48:42",
+      "StatusId": 6
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -59,16 +59,16 @@
       "TN6 1"
     ],
     "PostCodesRestored": [
-      "TN61UT",
-      "TN61UU"
+      "TN61UU",
+      "TN61UT"
     ],
     "PostCodesPlanned": [
-      "TN61UT",
-      "TN61UU"
+      "TN61UU",
+      "TN61UT"
     ],
-    "CustomersOnSupply": 3,
-    "CustomersOffSupply": 6,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 9,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -659,8 +659,8 @@
     }
   ],
   "FullPostcodeData": [
-    "TN61UT",
-    "TN61UU"
+    "TN61UU",
+    "TN61UT"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
