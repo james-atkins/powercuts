@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-248081-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248081-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248081-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-12T15:16:52",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-13T21:07:59.563",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c911INCD",
     "IncidentReference": "INCD-248081-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-12T14:57:03",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-13T21:07:59.563",
     "EstimatedRestorationDate": "2021-07-13T22:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-12T14:55:00",
-    "NoCustomerAffected": 21,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Latitude": 0.0,
@@ -73,27 +73,27 @@
       "WD24 7"
     ],
     "PostCodesRestored": [
-      "WD247RF",
-      "WD247RJ",
       "WD247BL",
       "WD247BP",
       "WD247QR",
       "WD247QX",
-      "WD247RE"
+      "WD247RE",
+      "WD247RF",
+      "WD247RJ"
     ],
     "PostCodesPlanned": [
-      "WD247RF",
-      "WD247RJ",
       "WD247BL",
       "WD247BP",
       "WD247QR",
       "WD247QX",
-      "WD247RE"
+      "WD247RE",
+      "WD247RF",
+      "WD247RJ"
     ],
-    "CustomersOnSupply": 63,
-    "CustomersOffSupply": 21,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
+    "CustomersOnSupply": 84,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -463,13 +463,13 @@
     }
   ],
   "FullPostcodeData": [
-    "WD247RF",
-    "WD247RJ",
     "WD247BL",
     "WD247BP",
     "WD247QR",
     "WD247QX",
-    "WD247RE"
+    "WD247RE",
+    "WD247RF",
+    "WD247RJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
