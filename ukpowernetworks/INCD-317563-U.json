@@ -1,10 +1,10 @@
 {
   "IncidentReference": "INCD-317563-U",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-317563-U",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-317563-U",
   "Steps": [
     {
       "Active": false,
-      "Date": "2021-07-13T06:46:44",
+      "Date": "2021-07-13T06:46:00",
       "Message": "<p>We became aware of a power cut at 06:46. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -15,31 +15,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-13T07:45:53",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-13T08:51:33.833",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "U0004d87bINCD",
     "IncidentReference": "INCD-317563-U",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-13T06:47:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-13T08:51:33.833",
     "EstimatedRestorationDate": "2021-07-13T11:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-07-13T06:46:44",
+    "ReceivedDate": "2021-07-13T06:46:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 3,
@@ -60,19 +60,19 @@
     ],
     "PostCodesRestored": [
       "BN14GB",
-      "BN14GU",
       "BN14JA",
-      "BN14LG"
+      "BN14LG",
+      "BN14GU"
     ],
     "PostCodesPlanned": [
       "BN14GB",
-      "BN14GU",
       "BN14JA",
-      "BN14LG"
+      "BN14LG",
+      "BN14GU"
     ],
-    "CustomersOnSupply": 0,
-    "CustomersOffSupply": 41,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 41,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -532,9 +532,9 @@
   ],
   "FullPostcodeData": [
     "BN14GB",
-    "BN14GU",
     "BN14JA",
-    "BN14LG"
+    "BN14LG",
+    "BN14GU"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
