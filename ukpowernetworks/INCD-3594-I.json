@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-3594-I",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-3594-I",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-3594-I",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-13T13:43:10",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-13T15:55:12.017",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "I00000e0aINCD",
     "IncidentReference": "INCD-3594-I",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-13T13:43:57",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-13T15:55:12.017",
     "EstimatedRestorationDate": "2021-07-13T15:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-13T14:15:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -51,7 +51,7 @@
       "EstimatedTimeOfArrival": "0001-01-01T00:00:00",
       "DispatchedDate": "2021-07-13T13:43:05",
       "ArrivalDate": "2021-07-13T13:43:10",
-      "StatusId": 6
+      "StatusId": 5
     },
     "AffectedCustomers": [],
     "Logs": [],
@@ -59,36 +59,36 @@
       "MK41 8"
     ],
     "PostCodesRestored": [
-      "MK418JH",
-      "MK418JP",
       "MK418HS",
       "MK418JD",
       "MK418JG",
+      "MK418JH",
       "MK418JJ",
       "MK418JL",
       "MK418JN",
+      "MK418JP",
       "MK418JW",
       "MK418LE",
       "MK418LF",
       "MK418NB"
     ],
     "PostCodesPlanned": [
-      "MK418JH",
-      "MK418JP",
       "MK418HS",
       "MK418JD",
       "MK418JG",
+      "MK418JH",
       "MK418JJ",
       "MK418JL",
       "MK418JN",
+      "MK418JP",
       "MK418JW",
       "MK418LE",
       "MK418LF",
       "MK418NB"
     ],
-    "CustomersOnSupply": 59,
-    "CustomersOffSupply": 5,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 64,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -611,14 +611,14 @@
     }
   ],
   "FullPostcodeData": [
-    "MK418JH",
-    "MK418JP",
     "MK418HS",
     "MK418JD",
     "MK418JG",
+    "MK418JH",
     "MK418JJ",
     "MK418JL",
     "MK418JN",
+    "MK418JP",
     "MK418JW",
     "MK418LE",
     "MK418LF",
