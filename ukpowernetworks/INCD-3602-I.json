@@ -1,16 +1,16 @@
 {
   "IncidentReference": "INCD-3602-I",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-3602-I",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-3602-I",
   "Steps": [
     {
       "Active": true,
-      "Date": "2021-07-14T15:42:53.623",
-      "Message": "Update at 15:42 - We can now confirm that a fault on an underground cable in the Dorrington Close area is causing safety equipment on our network to operate. Although we know what's causing your power cut, we still need to locate the fault. To do this we're sending specialist teams and equipment, once they are on their way we'll be able to advise a new estimated timeframe for power to be restored. For more information about this type of fault; here's a short video <a href=\"https://bit.ly/2ScxQDZ.\" target=\"_blank\">https://bit.ly/2ScxQDZ.</a>",
+      "Date": "2021-07-14T16:07:33.487",
+      "Message": "Update at 16:07 - We can now confirm that all power in the Dorrington Close area should be back on. The issue was due to an underground cable fault, however engineers have managed to restore power from the substation nearby, and will be investigating the root cause. If there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
       "Name": null
     },
     {
       "Active": false,
-      "Date": "2021-07-14T13:55:21",
+      "Date": "2021-07-14T13:55:00",
       "Message": "<p>We became aware of a power cut at 13:55. We’re sorry for any disruption this may have caused you. We didn’t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly. </p>",
       "Name": "Power cut reported"
     },
@@ -21,31 +21,31 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-14T14:27:06",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-14T15:57:41.75",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "I00000e12INCD",
     "IncidentReference": "INCD-3602-I",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-14T13:57:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-14T15:57:41.75",
     "EstimatedRestorationDate": "2021-07-14T17:00:00",
     "PlannedDate": null,
-    "ReceivedDate": "2021-07-14T13:55:21",
+    "ReceivedDate": "2021-07-14T13:55:00",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
@@ -62,20 +62,17 @@
     "AffectedCustomers": [],
     "Logs": [
       {
-        "ActualEventTime": "2021-07-14T15:42:00",
+        "ActualEventTime": "2021-07-14T16:06:00",
         "CategoryId": 263,
         "TypeId": 0,
-        "Comment": "Update at 15:42 - We can now confirm that a fault on an underground cable in the Dorrington Close area is causing safety equipment on our network to operate. Although we know what's causing your power cut, we still need to locate the fault. To do this we're sending specialist teams and equipment, once they are on their way we'll be able to advise a new estimated timeframe for power to be restored. For more information about this type of fault; here's a short video https://bit.ly/2ScxQDZ.",
-        "LoggedTime": "2021-07-14T15:42:53.623"
+        "Comment": "Update at 16:07 - We can now confirm that all power in the Dorrington Close area should be back on. The issue was due to an underground cable fault, however engineers have managed to restore power from the substation nearby, and will be investigating the root cause. If there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles. We know that being without power during the current pandemic can be especially difficult, so we're sorry for the outage. Please rest assured that as key workers, our staff will continue to work around the clock to keep the lights on.",
+        "LoggedTime": "2021-07-14T16:07:33.487"
       }
     ],
     "PostCodesAffected": [
       "LU3 1"
     ],
     "PostCodesRestored": [
-      "LU31XL",
-      "LU31XR",
-      "LU31XS",
       "LU31AE",
       "LU31AG",
       "LU31AH",
@@ -88,12 +85,12 @@
       "LU31BQ",
       "LU31JY",
       "LU31XH",
-      "LU31XJ"
+      "LU31XJ",
+      "LU31XS",
+      "LU31XL",
+      "LU31XR"
     ],
     "PostCodesPlanned": [
-      "LU31XL",
-      "LU31XR",
-      "LU31XS",
       "LU31AE",
       "LU31AG",
       "LU31AH",
@@ -106,11 +103,14 @@
       "LU31BQ",
       "LU31JY",
       "LU31XH",
-      "LU31XJ"
+      "LU31XJ",
+      "LU31XS",
+      "LU31XL",
+      "LU31XR"
     ],
-    "CustomersOnSupply": 137,
-    "CustomersOffSupply": 30,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 167,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -685,9 +685,6 @@
     }
   ],
   "FullPostcodeData": [
-    "LU31XL",
-    "LU31XR",
-    "LU31XS",
     "LU31AE",
     "LU31AG",
     "LU31AH",
@@ -700,7 +697,10 @@
     "LU31BQ",
     "LU31JY",
     "LU31XH",
-    "LU31XJ"
+    "LU31XJ",
+    "LU31XS",
+    "LU31XL",
+    "LU31XR"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
