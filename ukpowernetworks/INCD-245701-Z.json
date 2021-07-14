@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-245701-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-245701-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-245701-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-08T09:06:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-14T20:14:37.507",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003bfc5INCD",
     "IncidentReference": "INCD-245701-Z",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 500,
+    "StatusId": 5,
     "CreationDateTime": "2021-06-29T16:27:15",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-14T20:14:37.507",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-08T09:44:00",
@@ -59,20 +59,20 @@
       "WD4 9"
     ],
     "PostCodesRestored": [
+      "WD49HQ",
       "WD49HE",
       "WD49HG",
-      "WD49HJ",
-      "WD49HQ"
+      "WD49HJ"
     ],
     "PostCodesPlanned": [
+      "WD49HQ",
       "WD49HE",
       "WD49HG",
-      "WD49HJ",
-      "WD49HQ"
+      "WD49HJ"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 13,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 14,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -487,10 +487,10 @@
     }
   ],
   "FullPostcodeData": [
+    "WD49HQ",
     "WD49HE",
     "WD49HG",
-    "WD49HJ",
-    "WD49HQ"
+    "WD49HJ"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
