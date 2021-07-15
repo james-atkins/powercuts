@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-248659-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248659-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248659-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-15T11:50:25",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-15T12:58:19.803",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003cb53INCD",
     "IncidentReference": "INCD-248659-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-15T09:24:50",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-15T12:58:19.803",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-15T09:24:00",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -59,23 +59,23 @@
       "CM24 8"
     ],
     "PostCodesRestored": [
-      "CM248DP",
       "CM248DB",
       "CM248DF",
       "CM248DH",
-      "CM248JS"
+      "CM248JS",
+      "CM248DP"
     ],
     "PostCodesPlanned": [
-      "CM248DP",
       "CM248DB",
       "CM248DF",
       "CM248DH",
-      "CM248JS"
+      "CM248JS",
+      "CM248DP"
     ],
-    "CustomersOnSupply": 22,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
-    "PlannedIncidentReason": "",
+    "CustomersOnSupply": 24,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
+    "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
   "PostcodesRemaining": [
@@ -301,11 +301,11 @@
     }
   ],
   "FullPostcodeData": [
-    "CM248DP",
     "CM248DB",
     "CM248DF",
     "CM248DH",
-    "CM248JS"
+    "CM248JS",
+    "CM248DP"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
