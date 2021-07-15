@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-247532-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-247532-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-247532-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,34 +21,34 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-08T23:29:27",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-15T02:10:13.417",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003c6ecINCD",
     "IncidentReference": "INCD-247532-Z",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 29,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-08T23:09:10",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-15T02:10:13.417",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-08T23:09:08",
-    "NoCustomerAffected": 2,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
+    "NoCallsReported": 2,
     "Latitude": 0.0,
     "Longitude": 0.0,
     "Resource": {
@@ -75,8 +75,8 @@
       "MK45 3"
     ],
     "PostCodesRestored": [
-      "MK429YU",
       "MK429BF",
+      "MK429YU",
       "MK427AZ",
       "MK427TJ",
       "MK429QS",
@@ -86,8 +86,8 @@
       "MK453JA"
     ],
     "PostCodesPlanned": [
-      "MK429YU",
       "MK429BF",
+      "MK429YU",
       "MK427AZ",
       "MK427TJ",
       "MK429QS",
@@ -96,9 +96,9 @@
       "MK453HR",
       "MK453JA"
     ],
-    "CustomersOnSupply": 35,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 37,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Scope": null
   },
@@ -1477,8 +1477,8 @@
     }
   ],
   "FullPostcodeData": [
-    "MK429YU",
     "MK429BF",
+    "MK429YU",
     "MK427AZ",
     "MK427TJ",
     "MK429QS",
