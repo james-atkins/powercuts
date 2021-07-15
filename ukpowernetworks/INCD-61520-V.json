@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-61520-V",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-61520-V",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-61520-V",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-13T23:06:59",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-15T03:44:21.653",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "V0000f050INCD",
     "IncidentReference": "INCD-61520-V",
     "IncidentCategory": "47",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-13T22:38:04",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": "2021-07-15T03:00:00",
+    "RestoredDateTime": "2021-07-15T03:44:21.653",
+    "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-13T22:36:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 2,
     "Latitude": 0.0,
@@ -73,16 +73,16 @@
       "TN34 3"
     ],
     "PostCodesRestored": [
-      "TN343DW",
-      "TN343AR"
+      "TN343AR",
+      "TN343DW"
     ],
     "PostCodesPlanned": [
-      "TN343DW",
-      "TN343AR"
+      "TN343AR",
+      "TN343DW"
     ],
-    "CustomersOnSupply": 57,
-    "CustomersOffSupply": 2,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 59,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -689,13 +689,13 @@
     }
   ],
   "FullPostcodeData": [
-    "TN343DW",
-    "TN343AR"
+    "TN343AR",
+    "TN343DW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
   "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
-  "IncidentTypeTBCEstimatedFriendlyDescription": "02:30 - 03:30",
+  "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
   "ServiceDown": false,
   "ServiceDownUrl": null,
   "Scope": null
