@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-47959-C",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-47959-C",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-47959-C",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-16T09:10:38",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-16T11:10:30.127",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "C0000bb57INCD",
     "IncidentReference": "INCD-47959-C",
     "IncidentCategory": "24",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-16T09:10:59",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-16T11:10:30.127",
     "EstimatedRestorationDate": "2021-07-16T11:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-16T10:10:00",
-    "NoCustomerAffected": 23,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Latitude": 0.0,
@@ -71,9 +71,9 @@
       "CB30RS",
       "CB39AD"
     ],
-    "CustomersOnSupply": 1,
-    "CustomersOffSupply": 23,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 24,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
