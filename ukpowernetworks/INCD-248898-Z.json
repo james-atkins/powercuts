@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-248898-Z",
-  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248898-Z",
+  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248898-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,28 +21,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": false,
+      "Active": true,
       "Date": "2021-07-16T07:42:19",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": true,
-      "Date": "2021-07-16T11:17:30.113",
-      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
+      "Active": false,
+      "Date": null,
+      "Message": null,
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Restored",
+  "PowerCutType": "Unplanned",
   "UKPNIncident": {
     "IncidentId": "Z0003cc42INCD",
     "IncidentReference": "INCD-248898-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 10,
-    "StatusId": 5,
+    "IncidentPriority": 2,
+    "StatusId": 1,
     "CreationDateTime": "2021-07-16T05:52:54",
-    "RestoredDateTime": "2021-07-16T11:17:30.113",
+    "RestoredDateTime": null,
     "EstimatedRestorationDate": "2021-07-16T10:00:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-16T05:48:00",
@@ -74,6 +74,9 @@
       "N13 5"
     ],
     "PostCodesRestored": [
+      "N135TL",
+      "N135TT",
+      "N135XL",
       "N134BL",
       "N134BS",
       "N134QU",
@@ -82,12 +85,12 @@
       "N135LB",
       "N135TJ",
       "N135TS",
-      "N135TW",
-      "N135TL",
-      "N135TT",
-      "N135XL"
+      "N135TW"
     ],
     "PostCodesPlanned": [
+      "N135TL",
+      "N135TT",
+      "N135XL",
       "N134BL",
       "N134BS",
       "N134QU",
@@ -96,14 +99,11 @@
       "N135LB",
       "N135TJ",
       "N135TS",
-      "N135TW",
-      "N135TL",
-      "N135TT",
-      "N135XL"
+      "N135TW"
     ],
     "CustomersOnSupply": 67,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Restored",
+    "IncidentTypeName": "Unplanned",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -112,6 +112,39 @@
     "N13 5"
   ],
   "PostcodeData": [
+    {
+      "Center": {
+        "lat": 51.63306,
+        "lng": -0.09953
+      },
+      "Coordinates": [
+        {
+          "lat": 51.63356,
+          "lng": -0.09949
+        },
+        {
+          "lat": 51.63354,
+          "lng": -0.09941
+        },
+        {
+          "lat": 51.6327,
+          "lng": -0.09882
+        },
+        {
+          "lat": 51.63284,
+          "lng": -0.10018
+        },
+        {
+          "lat": 51.63305,
+          "lng": -0.10015
+        },
+        {
+          "lat": 51.63356,
+          "lng": -0.09949
+        }
+      ],
+      "Postcode": "N13 5"
+    },
     {
       "Center": {
         "lat": 51.61908,
@@ -932,42 +965,12 @@
         }
       ],
       "Postcode": "N13 4"
-    },
-    {
-      "Center": {
-        "lat": 51.63306,
-        "lng": -0.09953
-      },
-      "Coordinates": [
-        {
-          "lat": 51.63356,
-          "lng": -0.09949
-        },
-        {
-          "lat": 51.63354,
-          "lng": -0.09941
-        },
-        {
-          "lat": 51.6327,
-          "lng": -0.09882
-        },
-        {
-          "lat": 51.63284,
-          "lng": -0.10018
-        },
-        {
-          "lat": 51.63305,
-          "lng": -0.10015
-        },
-        {
-          "lat": 51.63356,
-          "lng": -0.09949
-        }
-      ],
-      "Postcode": "N13 5"
     }
   ],
   "FullPostcodeData": [
+    "N135TL",
+    "N135TT",
+    "N135XL",
     "N134BL",
     "N134BS",
     "N134QU",
@@ -976,10 +979,7 @@
     "N135LB",
     "N135TJ",
     "N135TS",
-    "N135TW",
-    "N135TL",
-    "N135TT",
-    "N135XL"
+    "N135TW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
