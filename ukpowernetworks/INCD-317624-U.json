@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-317624-U",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-317624-U",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-317624-U",
   "Steps": [
     {
       "Active": false,
@@ -15,28 +15,28 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-15T13:21:29",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-16T13:10:56.13",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "U0004d8b8INCD",
     "IncidentReference": "INCD-317624-U",
     "IncidentCategory": "61",
     "IncidentType": 3,
-    "IncidentPriority": 2,
-    "StatusId": 2,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-15T11:42:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-16T13:10:56.13",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-15T13:57:00",
@@ -59,7 +59,6 @@
       "KT9 2"
     ],
     "PostCodesRestored": [
-      "KT92JT",
       "KT92JR",
       "KT92JU",
       "KT92JX",
@@ -72,10 +71,10 @@
       "KT92LG",
       "KT92LH",
       "KT92LJ",
-      "KT92LQ"
+      "KT92LQ",
+      "KT92JT"
     ],
     "PostCodesPlanned": [
-      "KT92JT",
       "KT92JR",
       "KT92JU",
       "KT92JX",
@@ -88,11 +87,12 @@
       "KT92LG",
       "KT92LH",
       "KT92LJ",
-      "KT92LQ"
+      "KT92LQ",
+      "KT92JT"
     ],
     "CustomersOnSupply": 333,
     "CustomersOffSupply": 0,
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -563,7 +563,6 @@
     }
   ],
   "FullPostcodeData": [
-    "KT92JT",
     "KT92JR",
     "KT92JU",
     "KT92JX",
@@ -576,7 +575,8 @@
     "KT92LG",
     "KT92LH",
     "KT92LJ",
-    "KT92LQ"
+    "KT92LQ",
+    "KT92JT"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
