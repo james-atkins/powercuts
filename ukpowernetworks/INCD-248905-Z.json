@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-248905-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248905-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248905-Z",
   "Steps": [
     {
       "Active": true,
@@ -21,32 +21,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-16T07:42:18",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-16T08:32:52.283",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003cc49INCD",
     "IncidentReference": "INCD-248905-Z",
     "IncidentCategory": "124",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-16T06:19:38",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-16T08:32:52.283",
     "EstimatedRestorationDate": "2021-07-16T09:30:00",
     "PlannedDate": null,
     "ReceivedDate": "2021-07-16T06:06:00",
-    "NoCustomerAffected": 50,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 4,
     "Latitude": 0.0,
@@ -75,24 +75,24 @@
     "PostCodesRestored": [
       "LU49HT",
       "LU49HY",
+      "LU49JE",
       "LU49JL",
       "LU49JN",
       "LU49YB",
-      "LU49YD",
-      "LU49JE"
+      "LU49YD"
     ],
     "PostCodesPlanned": [
       "LU49HT",
       "LU49HY",
+      "LU49JE",
       "LU49JL",
       "LU49JN",
       "LU49YB",
-      "LU49YD",
-      "LU49JE"
+      "LU49YD"
     ],
-    "CustomersOnSupply": 3,
-    "CustomersOffSupply": 152,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 155,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -653,11 +653,11 @@
   "FullPostcodeData": [
     "LU49HT",
     "LU49HY",
+    "LU49JE",
     "LU49JL",
     "LU49JN",
     "LU49YB",
-    "LU49YD",
-    "LU49JE"
+    "LU49YD"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
