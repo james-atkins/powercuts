@@ -1,6 +1,6 @@
 {
   "IncidentReference": "INCD-248935-Z",
-  "PanelContentUrl": "/power-cut/map/unplanned?incidentId=INCD-248935-Z",
+  "PanelContentUrl": "/power-cut/map/power-back-on?incidentId=INCD-248935-Z",
   "Steps": [
     {
       "Active": false,
@@ -15,32 +15,32 @@
       "Name": "Engineers on their way"
     },
     {
-      "Active": true,
+      "Active": false,
       "Date": "2021-07-16T10:12:12",
       "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
       "Name": "Engineers investigating and fixing"
     },
     {
-      "Active": false,
-      "Date": null,
-      "Message": null,
+      "Active": true,
+      "Date": "2021-07-16T14:31:43.457",
+      "Message": "<p>All power in the area should be back on. We’re really sorry for any disruption this caused.</p>",
       "Name": "Power restored"
     }
   ],
-  "PowerCutType": "Unplanned",
+  "PowerCutType": "Restored",
   "UKPNIncident": {
     "IncidentId": "Z0003cc67INCD",
     "IncidentReference": "INCD-248935-Z",
     "IncidentCategory": "129",
     "IncidentType": 2,
-    "IncidentPriority": 2,
-    "StatusId": 1,
+    "IncidentPriority": 10,
+    "StatusId": 5,
     "CreationDateTime": "2021-07-16T09:04:27",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2021-07-16T14:31:43.457",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "ReceivedDate": "2021-07-16T09:03:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Latitude": 0.0,
@@ -59,20 +59,20 @@
       "HP6 6"
     ],
     "PostCodesRestored": [
+      "HP66QN",
       "HP66QG",
       "HP66QJ",
-      "HP66QW",
-      "HP66QN"
+      "HP66QW"
     ],
     "PostCodesPlanned": [
+      "HP66QN",
       "HP66QG",
       "HP66QJ",
-      "HP66QW",
-      "HP66QN"
+      "HP66QW"
     ],
-    "CustomersOnSupply": 37,
-    "CustomersOffSupply": 1,
-    "IncidentTypeName": "Unplanned",
+    "CustomersOnSupply": 38,
+    "CustomersOffSupply": 0,
+    "IncidentTypeName": "Restored",
     "PlannedIncidentReason": "",
     "Scope": null
   },
@@ -687,10 +687,10 @@
     }
   ],
   "FullPostcodeData": [
+    "HP66QN",
     "HP66QG",
     "HP66QJ",
-    "HP66QW",
-    "HP66QN"
+    "HP66QW"
   ],
   "PinLatitude": null,
   "PinLongitude": null,
